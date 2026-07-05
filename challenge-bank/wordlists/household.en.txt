@@ -1,0 +1,134 @@
+air freshener
+alarm clock
+basket
+bath
+bath mat
+batteries
+bed
+bin
+bin bag
+blanket
+bleach
+blinds
+board
+bookcase
+broom
+bucket
+cabinet
+calendar
+candle
+carpet
+ceiling fan
+chair
+clock
+clothesline
+clothespin
+coaster
+coat rack
+comforter
+compost bin
+couch
+cupboard
+curtain
+curtains
+cushion
+desk
+detergent
+disinfectant
+door
+doorbell
+doormat
+drapes
+drawer
+dryer
+dust cloth
+duster
+dustpan
+duvet
+extension cord
+fabric softener
+feather duster
+fire extinguisher
+first aid kit
+flashlight
+floor
+fridge
+garbage bin
+hamper
+hanger
+iron
+ironing
+ironing board
+kettle
+key hook
+ladder
+lamp
+lampshade
+laundry basket
+light bulb
+lighter
+matches
+mattress
+microwave
+mirror
+mop
+oven
+phone
+picture
+picture frame
+pillow
+pillowcase
+plant
+plunger
+power strip
+quilt
+radio
+recycling bin
+remote
+remote control
+roof
+router
+rug
+safe
+scrub brush
+sheet
+sheets
+shelf
+shoe rack
+shower
+shower curtain
+shutters
+sink
+smoke detector
+soap dish
+sofa
+sponge
+squeegee
+stepladder
+storage box
+stove
+table
+tap
+television
+thermostat
+tissue box
+toaster
+toilet
+toilet brush
+toolbox
+toothbrush holder
+torch
+towel
+trash can
+tv
+umbrella stand
+vacuum
+vacuum cleaner
+vase
+wall
+wardrobe
+washcloth
+washing machine
+wastebasket
+welcome mat
+window

@@ -1,0 +1,8282 @@
+[
+  {
+    "bankKey": "nf-arith-L1-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 + 5"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 10,
+      "acceptedAnswers": [
+        "10"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 11,
+      "acceptedAnswers": [
+        "11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "2 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 5,
+      "acceptedAnswers": [
+        "5"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 11,
+      "acceptedAnswers": [
+        "11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "2 + 5"
+    },
+    "answerData": {
+      "correctAnswer": 7,
+      "acceptedAnswers": [
+        "7"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 13,
+      "acceptedAnswers": [
+        "13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 11,
+      "acceptedAnswers": [
+        "11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 + 6"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 10,
+      "acceptedAnswers": [
+        "10"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 + 9"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 + 6"
+    },
+    "answerData": {
+      "correctAnswer": 10,
+      "acceptedAnswers": [
+        "10"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 + 5"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 + 5"
+    },
+    "answerData": {
+      "correctAnswer": 8,
+      "acceptedAnswers": [
+        "8"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 + 7"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "2 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 4,
+      "acceptedAnswers": [
+        "4"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 + 5"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 + 7"
+    },
+    "answerData": {
+      "correctAnswer": 11,
+      "acceptedAnswers": [
+        "11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 7,
+      "acceptedAnswers": [
+        "7"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 7,
+      "acceptedAnswers": [
+        "7"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L1-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 8,
+      "acceptedAnswers": [
+        "8"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 − 1"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 − 3"
+    },
+    "answerData": {
+      "correctAnswer": 5,
+      "acceptedAnswers": [
+        "5"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 − 2"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 − 3"
+    },
+    "answerData": {
+      "correctAnswer": 4,
+      "acceptedAnswers": [
+        "4"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 − 5"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 − 1"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 − 7"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 − 2"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 − 3"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 − 5"
+    },
+    "answerData": {
+      "correctAnswer": 4,
+      "acceptedAnswers": [
+        "4"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 − 4"
+    },
+    "answerData": {
+      "correctAnswer": 4,
+      "acceptedAnswers": [
+        "4"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 − 2"
+    },
+    "answerData": {
+      "correctAnswer": 5,
+      "acceptedAnswers": [
+        "5"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 − 5"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 − 2"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 − 4"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 − 4"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 − 4"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 − 1"
+    },
+    "answerData": {
+      "correctAnswer": 5,
+      "acceptedAnswers": [
+        "5"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 − 5"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 − 3"
+    },
+    "answerData": {
+      "correctAnswer": 6,
+      "acceptedAnswers": [
+        "6"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 − 6"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 − 1"
+    },
+    "answerData": {
+      "correctAnswer": 7,
+      "acceptedAnswers": [
+        "7"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 − 7"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L2-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 − 1"
+    },
+    "answerData": {
+      "correctAnswer": 6,
+      "acceptedAnswers": [
+        "6"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "11 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 13,
+      "acceptedAnswers": [
+        "13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "44 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 47,
+      "acceptedAnswers": [
+        "47"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "61 + 9"
+    },
+    "answerData": {
+      "correctAnswer": 70,
+      "acceptedAnswers": [
+        "70"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "88 + 5"
+    },
+    "answerData": {
+      "correctAnswer": 93,
+      "acceptedAnswers": [
+        "93"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "57 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 61,
+      "acceptedAnswers": [
+        "61"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "37 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 41,
+      "acceptedAnswers": [
+        "41"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "87 + 7"
+    },
+    "answerData": {
+      "correctAnswer": 94,
+      "acceptedAnswers": [
+        "94"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "61 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 65,
+      "acceptedAnswers": [
+        "65"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "48 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 56,
+      "acceptedAnswers": [
+        "56"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "78 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 86,
+      "acceptedAnswers": [
+        "86"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "36 + 6"
+    },
+    "answerData": {
+      "correctAnswer": 42,
+      "acceptedAnswers": [
+        "42"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "61 + 6"
+    },
+    "answerData": {
+      "correctAnswer": 67,
+      "acceptedAnswers": [
+        "67"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "76 + 9"
+    },
+    "answerData": {
+      "correctAnswer": 85,
+      "acceptedAnswers": [
+        "85"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "23 + 6"
+    },
+    "answerData": {
+      "correctAnswer": 29,
+      "acceptedAnswers": [
+        "29"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "66 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 70,
+      "acceptedAnswers": [
+        "70"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "87 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 91,
+      "acceptedAnswers": [
+        "91"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "85 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 89,
+      "acceptedAnswers": [
+        "89"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "42 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 44,
+      "acceptedAnswers": [
+        "44"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "68 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 72,
+      "acceptedAnswers": [
+        "72"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "65 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 68,
+      "acceptedAnswers": [
+        "68"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "43 + 6"
+    },
+    "answerData": {
+      "correctAnswer": 49,
+      "acceptedAnswers": [
+        "49"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "71 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 75,
+      "acceptedAnswers": [
+        "75"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "64 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 72,
+      "acceptedAnswers": [
+        "72"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L3-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "58 − 31"
+    },
+    "answerData": {
+      "correctAnswer": 27,
+      "acceptedAnswers": [
+        "27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "54 − 36"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "86 − 67"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "75 − 14"
+    },
+    "answerData": {
+      "correctAnswer": 61,
+      "acceptedAnswers": [
+        "61"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "37 − 21"
+    },
+    "answerData": {
+      "correctAnswer": 16,
+      "acceptedAnswers": [
+        "16"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 − 14"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "36 − 18"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "55 − 27"
+    },
+    "answerData": {
+      "correctAnswer": 28,
+      "acceptedAnswers": [
+        "28"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "67 − 14"
+    },
+    "answerData": {
+      "correctAnswer": 53,
+      "acceptedAnswers": [
+        "53"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "25 − 12"
+    },
+    "answerData": {
+      "correctAnswer": 13,
+      "acceptedAnswers": [
+        "13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "34 − 17"
+    },
+    "answerData": {
+      "correctAnswer": 17,
+      "acceptedAnswers": [
+        "17"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "88 − 68"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "71 − 48"
+    },
+    "answerData": {
+      "correctAnswer": 23,
+      "acceptedAnswers": [
+        "23"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 − 15"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "25 − 14"
+    },
+    "answerData": {
+      "correctAnswer": 11,
+      "acceptedAnswers": [
+        "11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "95 − 56"
+    },
+    "answerData": {
+      "correctAnswer": 39,
+      "acceptedAnswers": [
+        "39"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "89 − 48"
+    },
+    "answerData": {
+      "correctAnswer": 41,
+      "acceptedAnswers": [
+        "41"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "63 − 13"
+    },
+    "answerData": {
+      "correctAnswer": 50,
+      "acceptedAnswers": [
+        "50"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "81 − 26"
+    },
+    "answerData": {
+      "correctAnswer": 55,
+      "acceptedAnswers": [
+        "55"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "84 − 19"
+    },
+    "answerData": {
+      "correctAnswer": 65,
+      "acceptedAnswers": [
+        "65"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "25 − 11"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "88 − 20"
+    },
+    "answerData": {
+      "correctAnswer": 68,
+      "acceptedAnswers": [
+        "68"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "52 − 32"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L4-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "58 − 20"
+    },
+    "answerData": {
+      "correctAnswer": 38,
+      "acceptedAnswers": [
+        "38"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "49 + 69"
+    },
+    "answerData": {
+      "correctAnswer": 118,
+      "acceptedAnswers": [
+        "118"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "32 + 39"
+    },
+    "answerData": {
+      "correctAnswer": 71,
+      "acceptedAnswers": [
+        "71"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 + 27"
+    },
+    "answerData": {
+      "correctAnswer": 43,
+      "acceptedAnswers": [
+        "43"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "23 + 77"
+    },
+    "answerData": {
+      "correctAnswer": 100,
+      "acceptedAnswers": [
+        "100"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 + 86"
+    },
+    "answerData": {
+      "correctAnswer": 115,
+      "acceptedAnswers": [
+        "115"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "43 + 87"
+    },
+    "answerData": {
+      "correctAnswer": 130,
+      "acceptedAnswers": [
+        "130"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 + 41"
+    },
+    "answerData": {
+      "correctAnswer": 70,
+      "acceptedAnswers": [
+        "70"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "75 + 57"
+    },
+    "answerData": {
+      "correctAnswer": 132,
+      "acceptedAnswers": [
+        "132"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "34 + 88"
+    },
+    "answerData": {
+      "correctAnswer": 122,
+      "acceptedAnswers": [
+        "122"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "46 + 76"
+    },
+    "answerData": {
+      "correctAnswer": 122,
+      "acceptedAnswers": [
+        "122"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "79 + 66"
+    },
+    "answerData": {
+      "correctAnswer": 145,
+      "acceptedAnswers": [
+        "145"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "28 + 16"
+    },
+    "answerData": {
+      "correctAnswer": 44,
+      "acceptedAnswers": [
+        "44"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "17 + 17"
+    },
+    "answerData": {
+      "correctAnswer": 34,
+      "acceptedAnswers": [
+        "34"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "38 + 89"
+    },
+    "answerData": {
+      "correctAnswer": 127,
+      "acceptedAnswers": [
+        "127"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "89 + 22"
+    },
+    "answerData": {
+      "correctAnswer": 111,
+      "acceptedAnswers": [
+        "111"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "87 + 43"
+    },
+    "answerData": {
+      "correctAnswer": 130,
+      "acceptedAnswers": [
+        "130"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "57 + 27"
+    },
+    "answerData": {
+      "correctAnswer": 84,
+      "acceptedAnswers": [
+        "84"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "68 + 18"
+    },
+    "answerData": {
+      "correctAnswer": 86,
+      "acceptedAnswers": [
+        "86"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "65 + 55"
+    },
+    "answerData": {
+      "correctAnswer": 120,
+      "acceptedAnswers": [
+        "120"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 + 23"
+    },
+    "answerData": {
+      "correctAnswer": 52,
+      "acceptedAnswers": [
+        "52"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "62 + 79"
+    },
+    "answerData": {
+      "correctAnswer": 141,
+      "acceptedAnswers": [
+        "141"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "34 + 17"
+    },
+    "answerData": {
+      "correctAnswer": 51,
+      "acceptedAnswers": [
+        "51"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 + 71"
+    },
+    "answerData": {
+      "correctAnswer": 100,
+      "acceptedAnswers": [
+        "100"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L5-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "79 + 83"
+    },
+    "answerData": {
+      "correctAnswer": 162,
+      "acceptedAnswers": [
+        "162"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 24,
+      "acceptedAnswers": [
+        "24"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 × 2"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 36,
+      "acceptedAnswers": [
+        "36"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 30,
+      "acceptedAnswers": [
+        "30"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 40,
+      "acceptedAnswers": [
+        "40"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 50,
+      "acceptedAnswers": [
+        "50"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 63,
+      "acceptedAnswers": [
+        "63"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 24,
+      "acceptedAnswers": [
+        "24"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 42,
+      "acceptedAnswers": [
+        "42"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 42,
+      "acceptedAnswers": [
+        "42"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 28,
+      "acceptedAnswers": [
+        "28"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 30,
+      "acceptedAnswers": [
+        "30"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 90,
+      "acceptedAnswers": [
+        "90"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 16,
+      "acceptedAnswers": [
+        "16"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 100,
+      "acceptedAnswers": [
+        "100"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 45,
+      "acceptedAnswers": [
+        "45"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 70,
+      "acceptedAnswers": [
+        "70"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 56,
+      "acceptedAnswers": [
+        "56"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L6-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 27,
+      "acceptedAnswers": [
+        "27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "28 − 15 + 10"
+    },
+    "answerData": {
+      "correctAnswer": 23,
+      "acceptedAnswers": [
+        "23"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "21 − 8 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 − 13 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 5,
+      "acceptedAnswers": [
+        "5"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 + 6 − 7"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 + 15 − 7"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "20 − 12 + 4"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "17 + 11 − 7"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "26 + 9 − 2"
+    },
+    "answerData": {
+      "correctAnswer": 33,
+      "acceptedAnswers": [
+        "33"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "22 + 5 − 6"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 − 6 + 7"
+    },
+    "answerData": {
+      "correctAnswer": 11,
+      "acceptedAnswers": [
+        "11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "28 + 5 − 2"
+    },
+    "answerData": {
+      "correctAnswer": 31,
+      "acceptedAnswers": [
+        "31"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "14 + 10 − 12"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "11 + 13 − 14"
+    },
+    "answerData": {
+      "correctAnswer": 10,
+      "acceptedAnswers": [
+        "10"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "26 − 10 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "13 + 9 − 14"
+    },
+    "answerData": {
+      "correctAnswer": 8,
+      "acceptedAnswers": [
+        "8"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 − 8 + 9"
+    },
+    "answerData": {
+      "correctAnswer": 10,
+      "acceptedAnswers": [
+        "10"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "15 + 6 − 15"
+    },
+    "answerData": {
+      "correctAnswer": 6,
+      "acceptedAnswers": [
+        "6"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 − 4 + 3"
+    },
+    "answerData": {
+      "correctAnswer": 6,
+      "acceptedAnswers": [
+        "6"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "23 − 12 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "12 − 13 + 2"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "18 − 4 + 11"
+    },
+    "answerData": {
+      "correctAnswer": 25,
+      "acceptedAnswers": [
+        "25"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 − 10 + 11"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 − 13 + 13"
+    },
+    "answerData": {
+      "correctAnswer": 29,
+      "acceptedAnswers": [
+        "29"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L7-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "11 + 4 − 13"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "36 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 216,
+      "acceptedAnswers": [
+        "216"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "13 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 104,
+      "acceptedAnswers": [
+        "104"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "27 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 135,
+      "acceptedAnswers": [
+        "135"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "17 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 102,
+      "acceptedAnswers": [
+        "102"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "25 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 225,
+      "acceptedAnswers": [
+        "225"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "45 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 360,
+      "acceptedAnswers": [
+        "360"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "21 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 84,
+      "acceptedAnswers": [
+        "84"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "22 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 88,
+      "acceptedAnswers": [
+        "88"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "22 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 176,
+      "acceptedAnswers": [
+        "176"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "27 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 243,
+      "acceptedAnswers": [
+        "243"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 128,
+      "acceptedAnswers": [
+        "128"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "14 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 56,
+      "acceptedAnswers": [
+        "56"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "18 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 162,
+      "acceptedAnswers": [
+        "162"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "20 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 120,
+      "acceptedAnswers": [
+        "120"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "38 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 114,
+      "acceptedAnswers": [
+        "114"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "34 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 306,
+      "acceptedAnswers": [
+        "306"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "49 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 245,
+      "acceptedAnswers": [
+        "245"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "29 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 174,
+      "acceptedAnswers": [
+        "174"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "20 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 60,
+      "acceptedAnswers": [
+        "60"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "12 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 48,
+      "acceptedAnswers": [
+        "48"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "25 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 150,
+      "acceptedAnswers": [
+        "150"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "27 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 81,
+      "acceptedAnswers": [
+        "81"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "40 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 240,
+      "acceptedAnswers": [
+        "240"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L8-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "34 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 238,
+      "acceptedAnswers": [
+        "238"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "839 + 701"
+    },
+    "answerData": {
+      "correctAnswer": 1540,
+      "acceptedAnswers": [
+        "1540"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "873 − 523"
+    },
+    "answerData": {
+      "correctAnswer": 350,
+      "acceptedAnswers": [
+        "350"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "265 + 609"
+    },
+    "answerData": {
+      "correctAnswer": 874,
+      "acceptedAnswers": [
+        "874"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "613 − 155"
+    },
+    "answerData": {
+      "correctAnswer": 458,
+      "acceptedAnswers": [
+        "458"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "409 + 852"
+    },
+    "answerData": {
+      "correctAnswer": 1261,
+      "acceptedAnswers": [
+        "1261"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "566 + 379"
+    },
+    "answerData": {
+      "correctAnswer": 945,
+      "acceptedAnswers": [
+        "945"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "453 − 151"
+    },
+    "answerData": {
+      "correctAnswer": 302,
+      "acceptedAnswers": [
+        "302"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "167 + 459"
+    },
+    "answerData": {
+      "correctAnswer": 626,
+      "acceptedAnswers": [
+        "626"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "259 + 527"
+    },
+    "answerData": {
+      "correctAnswer": 786,
+      "acceptedAnswers": [
+        "786"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "808 + 765"
+    },
+    "answerData": {
+      "correctAnswer": 1573,
+      "acceptedAnswers": [
+        "1573"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "735 + 437"
+    },
+    "answerData": {
+      "correctAnswer": 1172,
+      "acceptedAnswers": [
+        "1172"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "511 − 224"
+    },
+    "answerData": {
+      "correctAnswer": 287,
+      "acceptedAnswers": [
+        "287"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "752 − 287"
+    },
+    "answerData": {
+      "correctAnswer": 465,
+      "acceptedAnswers": [
+        "465"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "317 − 131"
+    },
+    "answerData": {
+      "correctAnswer": 186,
+      "acceptedAnswers": [
+        "186"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "901 − 349"
+    },
+    "answerData": {
+      "correctAnswer": 552,
+      "acceptedAnswers": [
+        "552"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "794 − 474"
+    },
+    "answerData": {
+      "correctAnswer": 320,
+      "acceptedAnswers": [
+        "320"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "164 + 686"
+    },
+    "answerData": {
+      "correctAnswer": 850,
+      "acceptedAnswers": [
+        "850"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "313 − 122"
+    },
+    "answerData": {
+      "correctAnswer": 191,
+      "acceptedAnswers": [
+        "191"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "651 − 433"
+    },
+    "answerData": {
+      "correctAnswer": 218,
+      "acceptedAnswers": [
+        "218"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "572 − 271"
+    },
+    "answerData": {
+      "correctAnswer": 301,
+      "acceptedAnswers": [
+        "301"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "266 + 400"
+    },
+    "answerData": {
+      "correctAnswer": 666,
+      "acceptedAnswers": [
+        "666"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "470 + 489"
+    },
+    "answerData": {
+      "correctAnswer": 959,
+      "acceptedAnswers": [
+        "959"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "432 + 884"
+    },
+    "answerData": {
+      "correctAnswer": 1316,
+      "acceptedAnswers": [
+        "1316"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L9-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "873 + 426"
+    },
+    "answerData": {
+      "correctAnswer": 1299,
+      "acceptedAnswers": [
+        "1299"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "25 × 15"
+    },
+    "answerData": {
+      "correctAnswer": 375,
+      "acceptedAnswers": [
+        "375"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "162 ÷ 9"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "48 ÷ 6"
+    },
+    "answerData": {
+      "correctAnswer": 8,
+      "acceptedAnswers": [
+        "8"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "21 × 15"
+    },
+    "answerData": {
+      "correctAnswer": 315,
+      "acceptedAnswers": [
+        "315"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "23 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 322,
+      "acceptedAnswers": [
+        "322"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "36 ÷ 4"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 × 18"
+    },
+    "answerData": {
+      "correctAnswer": 288,
+      "acceptedAnswers": [
+        "288"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "55 ÷ 11"
+    },
+    "answerData": {
+      "correctAnswer": 5,
+      "acceptedAnswers": [
+        "5"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "90 ÷ 9"
+    },
+    "answerData": {
+      "correctAnswer": 10,
+      "acceptedAnswers": [
+        "10"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "12 × 19"
+    },
+    "answerData": {
+      "correctAnswer": 228,
+      "acceptedAnswers": [
+        "228"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "84 ÷ 4"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "120 ÷ 10"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "99 ÷ 11"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "96 ÷ 4"
+    },
+    "answerData": {
+      "correctAnswer": 24,
+      "acceptedAnswers": [
+        "24"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "119 ÷ 7"
+    },
+    "answerData": {
+      "correctAnswer": 17,
+      "acceptedAnswers": [
+        "17"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "250 ÷ 10"
+    },
+    "answerData": {
+      "correctAnswer": 25,
+      "acceptedAnswers": [
+        "25"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "13 × 15"
+    },
+    "answerData": {
+      "correctAnswer": 195,
+      "acceptedAnswers": [
+        "195"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "24 ÷ 6"
+    },
+    "answerData": {
+      "correctAnswer": 4,
+      "acceptedAnswers": [
+        "4"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 224,
+      "acceptedAnswers": [
+        "224"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "15 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 210,
+      "acceptedAnswers": [
+        "210"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "133 ÷ 7"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "14 × 17"
+    },
+    "answerData": {
+      "correctAnswer": 238,
+      "acceptedAnswers": [
+        "238"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "140 ÷ 7"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L10-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "45 ÷ 5"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "3 × 3 + 7"
+    },
+    "answerData": {
+      "correctAnswer": 16,
+      "acceptedAnswers": [
+        "16"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 × 12 + 18"
+    },
+    "answerData": {
+      "correctAnswer": 138,
+      "acceptedAnswers": [
+        "138"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "24 − 3 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 × 11 + 31"
+    },
+    "answerData": {
+      "correctAnswer": 75,
+      "acceptedAnswers": [
+        "75"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 × 9 + 34"
+    },
+    "answerData": {
+      "correctAnswer": 106,
+      "acceptedAnswers": [
+        "106"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "55 − 6 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 13,
+      "acceptedAnswers": [
+        "13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 10 + 12"
+    },
+    "answerData": {
+      "correctAnswer": 102,
+      "acceptedAnswers": [
+        "102"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 × 6 + 23"
+    },
+    "answerData": {
+      "correctAnswer": 83,
+      "acceptedAnswers": [
+        "83"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "48 − 4 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 24,
+      "acceptedAnswers": [
+        "24"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "34 − 4 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "56 − 3 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 41,
+      "acceptedAnswers": [
+        "41"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 10 + 41"
+    },
+    "answerData": {
+      "correctAnswer": 91,
+      "acceptedAnswers": [
+        "91"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "11 × 6 + 52"
+    },
+    "answerData": {
+      "correctAnswer": 118,
+      "acceptedAnswers": [
+        "118"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 × 8 + 8"
+    },
+    "answerData": {
+      "correctAnswer": 40,
+      "acceptedAnswers": [
+        "40"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 9 + 36"
+    },
+    "answerData": {
+      "correctAnswer": 117,
+      "acceptedAnswers": [
+        "117"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "33 − 3 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "56 − 4 × 12"
+    },
+    "answerData": {
+      "correctAnswer": 8,
+      "acceptedAnswers": [
+        "8"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 12 + 7"
+    },
+    "answerData": {
+      "correctAnswer": 115,
+      "acceptedAnswers": [
+        "115"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 × 3 + 15"
+    },
+    "answerData": {
+      "correctAnswer": 45,
+      "acceptedAnswers": [
+        "45"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "12 × 3 + 18"
+    },
+    "answerData": {
+      "correctAnswer": 54,
+      "acceptedAnswers": [
+        "54"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "53 − 3 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 26,
+      "acceptedAnswers": [
+        "26"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 × 8 + 55"
+    },
+    "answerData": {
+      "correctAnswer": 119,
+      "acceptedAnswers": [
+        "119"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "49 − 3 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 22,
+      "acceptedAnswers": [
+        "22"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L11-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "42 − 5 × 3"
+    },
+    "answerData": {
+      "correctAnswer": 27,
+      "acceptedAnswers": [
+        "27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "22²"
+    },
+    "answerData": {
+      "correctAnswer": 484,
+      "acceptedAnswers": [
+        "484"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "15²"
+    },
+    "answerData": {
+      "correctAnswer": 225,
+      "acceptedAnswers": [
+        "225"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "19²"
+    },
+    "answerData": {
+      "correctAnswer": 361,
+      "acceptedAnswers": [
+        "361"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "21²"
+    },
+    "answerData": {
+      "correctAnswer": 441,
+      "acceptedAnswers": [
+        "441"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "396 ÷ 22"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "14²"
+    },
+    "answerData": {
+      "correctAnswer": 196,
+      "acceptedAnswers": [
+        "196"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "20²"
+    },
+    "answerData": {
+      "correctAnswer": 400,
+      "acceptedAnswers": [
+        "400"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "18²"
+    },
+    "answerData": {
+      "correctAnswer": 324,
+      "acceptedAnswers": [
+        "324"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "234 ÷ 18"
+    },
+    "answerData": {
+      "correctAnswer": 13,
+      "acceptedAnswers": [
+        "13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "23²"
+    },
+    "answerData": {
+      "correctAnswer": 529,
+      "acceptedAnswers": [
+        "529"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "24²"
+    },
+    "answerData": {
+      "correctAnswer": 576,
+      "acceptedAnswers": [
+        "576"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "360 ÷ 20"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "476 ÷ 14"
+    },
+    "answerData": {
+      "correctAnswer": 34,
+      "acceptedAnswers": [
+        "34"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "225 ÷ 15"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "600 ÷ 15"
+    },
+    "answerData": {
+      "correctAnswer": 40,
+      "acceptedAnswers": [
+        "40"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "792 ÷ 24"
+    },
+    "answerData": {
+      "correctAnswer": 33,
+      "acceptedAnswers": [
+        "33"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "12²"
+    },
+    "answerData": {
+      "correctAnswer": 144,
+      "acceptedAnswers": [
+        "144"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "390 ÷ 13"
+    },
+    "answerData": {
+      "correctAnswer": 30,
+      "acceptedAnswers": [
+        "30"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16²"
+    },
+    "answerData": {
+      "correctAnswer": 256,
+      "acceptedAnswers": [
+        "256"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "525 ÷ 21"
+    },
+    "answerData": {
+      "correctAnswer": 25,
+      "acceptedAnswers": [
+        "25"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "665 ÷ 19"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "357 ÷ 21"
+    },
+    "answerData": {
+      "correctAnswer": 17,
+      "acceptedAnswers": [
+        "17"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "13²"
+    },
+    "answerData": {
+      "correctAnswer": 169,
+      "acceptedAnswers": [
+        "169"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L12-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "840 ÷ 24"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "75% of 860"
+    },
+    "answerData": {
+      "correctAnswer": 645,
+      "acceptedAnswers": [
+        "645"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5% of 560"
+    },
+    "answerData": {
+      "correctAnswer": 28,
+      "acceptedAnswers": [
+        "28"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "40% of 740"
+    },
+    "answerData": {
+      "correctAnswer": 296,
+      "acceptedAnswers": [
+        "296"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "30% of 360"
+    },
+    "answerData": {
+      "correctAnswer": 108,
+      "acceptedAnswers": [
+        "108"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "50% of 120"
+    },
+    "answerData": {
+      "correctAnswer": 60,
+      "acceptedAnswers": [
+        "60"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5% of 420"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "20% of 940"
+    },
+    "answerData": {
+      "correctAnswer": 188,
+      "acceptedAnswers": [
+        "188"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "75% of 700"
+    },
+    "answerData": {
+      "correctAnswer": 525,
+      "acceptedAnswers": [
+        "525"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "60% of 680"
+    },
+    "answerData": {
+      "correctAnswer": 408,
+      "acceptedAnswers": [
+        "408"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "75% of 60"
+    },
+    "answerData": {
+      "correctAnswer": 45,
+      "acceptedAnswers": [
+        "45"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "30% of 340"
+    },
+    "answerData": {
+      "correctAnswer": 102,
+      "acceptedAnswers": [
+        "102"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "30% of 860"
+    },
+    "answerData": {
+      "correctAnswer": 258,
+      "acceptedAnswers": [
+        "258"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "50% of 620"
+    },
+    "answerData": {
+      "correctAnswer": 310,
+      "acceptedAnswers": [
+        "310"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "40% of 540"
+    },
+    "answerData": {
+      "correctAnswer": 216,
+      "acceptedAnswers": [
+        "216"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "50% of 180"
+    },
+    "answerData": {
+      "correctAnswer": 90,
+      "acceptedAnswers": [
+        "90"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10% of 480"
+    },
+    "answerData": {
+      "correctAnswer": 48,
+      "acceptedAnswers": [
+        "48"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5% of 160"
+    },
+    "answerData": {
+      "correctAnswer": 8,
+      "acceptedAnswers": [
+        "8"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5% of 700"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "60% of 160"
+    },
+    "answerData": {
+      "correctAnswer": 96,
+      "acceptedAnswers": [
+        "96"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5% of 320"
+    },
+    "answerData": {
+      "correctAnswer": 16,
+      "acceptedAnswers": [
+        "16"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "75% of 760"
+    },
+    "answerData": {
+      "correctAnswer": 570,
+      "acceptedAnswers": [
+        "570"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "25% of 220"
+    },
+    "answerData": {
+      "correctAnswer": 55,
+      "acceptedAnswers": [
+        "55"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10% of 820"
+    },
+    "answerData": {
+      "correctAnswer": 82,
+      "acceptedAnswers": [
+        "82"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L13-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 13,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "20% of 800"
+    },
+    "answerData": {
+      "correctAnswer": 160,
+      "acceptedAnswers": [
+        "160"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 6 + 5 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 80,
+      "acceptedAnswers": [
+        "80"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "12 × 6 + 6 × 13"
+    },
+    "answerData": {
+      "correctAnswer": 150,
+      "acceptedAnswers": [
+        "150"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 6 + 15 × 13"
+    },
+    "answerData": {
+      "correctAnswer": 231,
+      "acceptedAnswers": [
+        "231"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "15 × 6 + 11 × 13"
+    },
+    "answerData": {
+      "correctAnswer": 233,
+      "acceptedAnswers": [
+        "233"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 8 + 9 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 174,
+      "acceptedAnswers": [
+        "174"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 10 + 14 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 256,
+      "acceptedAnswers": [
+        "256"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 10 + 6 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 120,
+      "acceptedAnswers": [
+        "120"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "13 × 7 + 12 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 259,
+      "acceptedAnswers": [
+        "259"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "15 × 7 + 15 × 11"
+    },
+    "answerData": {
+      "correctAnswer": 270,
+      "acceptedAnswers": [
+        "270"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 14 + 15 × 8"
+    },
+    "answerData": {
+      "correctAnswer": 218,
+      "acceptedAnswers": [
+        "218"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 9 + 12 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 153,
+      "acceptedAnswers": [
+        "153"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "6 × 8 + 11 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 125,
+      "acceptedAnswers": [
+        "125"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 × 15 + 8 × 11"
+    },
+    "answerData": {
+      "correctAnswer": 238,
+      "acceptedAnswers": [
+        "238"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 15 + 6 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 99,
+      "acceptedAnswers": [
+        "99"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "13 × 15 + 9 × 10"
+    },
+    "answerData": {
+      "correctAnswer": 285,
+      "acceptedAnswers": [
+        "285"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 × 8 + 5 × 11"
+    },
+    "answerData": {
+      "correctAnswer": 87,
+      "acceptedAnswers": [
+        "87"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "10 × 8 + 15 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 170,
+      "acceptedAnswers": [
+        "170"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "9 × 8 + 10 × 4"
+    },
+    "answerData": {
+      "correctAnswer": 112,
+      "acceptedAnswers": [
+        "112"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "5 × 5 + 11 × 5"
+    },
+    "answerData": {
+      "correctAnswer": 80,
+      "acceptedAnswers": [
+        "80"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "8 × 5 + 14 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 166,
+      "acceptedAnswers": [
+        "166"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 9 + 5 × 15"
+    },
+    "answerData": {
+      "correctAnswer": 138,
+      "acceptedAnswers": [
+        "138"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 × 9 + 12 × 15"
+    },
+    "answerData": {
+      "correctAnswer": 216,
+      "acceptedAnswers": [
+        "216"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "4 × 4 + 7 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 58,
+      "acceptedAnswers": [
+        "58"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L14-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 14,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "12 × 14 + 8 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 280,
+      "acceptedAnswers": [
+        "280"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-1",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "17 × 10 − 11 × 11"
+    },
+    "answerData": {
+      "correctAnswer": 49,
+      "acceptedAnswers": [
+        "49"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-2",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "11 × 18 − 10 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 128,
+      "acceptedAnswers": [
+        "128"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-3",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(28 + 27) × 7"
+    },
+    "answerData": {
+      "correctAnswer": 385,
+      "acceptedAnswers": [
+        "385"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-4",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "14 × 17 − 10 × 14"
+    },
+    "answerData": {
+      "correctAnswer": 98,
+      "acceptedAnswers": [
+        "98"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-5",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(25 + 26) × 9"
+    },
+    "answerData": {
+      "correctAnswer": 459,
+      "acceptedAnswers": [
+        "459"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-6",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "15 × 16 − 5 × 9"
+    },
+    "answerData": {
+      "correctAnswer": 195,
+      "acceptedAnswers": [
+        "195"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-7",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(25 + 35) × 10"
+    },
+    "answerData": {
+      "correctAnswer": 600,
+      "acceptedAnswers": [
+        "600"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-8",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(8 + 37) × 12"
+    },
+    "answerData": {
+      "correctAnswer": 540,
+      "acceptedAnswers": [
+        "540"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-9",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "16 × 17 − 7 × 11"
+    },
+    "answerData": {
+      "correctAnswer": 195,
+      "acceptedAnswers": [
+        "195"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-10",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(23 + 14) × 6"
+    },
+    "answerData": {
+      "correctAnswer": 222,
+      "acceptedAnswers": [
+        "222"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-11",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(11 + 16) × 12"
+    },
+    "answerData": {
+      "correctAnswer": 324,
+      "acceptedAnswers": [
+        "324"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-12",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(24 + 39) × 9"
+    },
+    "answerData": {
+      "correctAnswer": 567,
+      "acceptedAnswers": [
+        "567"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-13",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "18 × 13 − 9 × 12"
+    },
+    "answerData": {
+      "correctAnswer": 126,
+      "acceptedAnswers": [
+        "126"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-14",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(8 + 19) × 12"
+    },
+    "answerData": {
+      "correctAnswer": 324,
+      "acceptedAnswers": [
+        "324"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-15",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "14 × 19 − 9 × 6"
+    },
+    "answerData": {
+      "correctAnswer": 212,
+      "acceptedAnswers": [
+        "212"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-16",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(20 + 17) × 12"
+    },
+    "answerData": {
+      "correctAnswer": 444,
+      "acceptedAnswers": [
+        "444"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-17",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(9 + 22) × 3"
+    },
+    "answerData": {
+      "correctAnswer": 93,
+      "acceptedAnswers": [
+        "93"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-18",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(16 + 35) × 5"
+    },
+    "answerData": {
+      "correctAnswer": 255,
+      "acceptedAnswers": [
+        "255"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-19",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "13 × 14 − 11 × 11"
+    },
+    "answerData": {
+      "correctAnswer": 61,
+      "acceptedAnswers": [
+        "61"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-20",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(10 + 33) × 6"
+    },
+    "answerData": {
+      "correctAnswer": 258,
+      "acceptedAnswers": [
+        "258"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-21",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "15 × 12 − 13 × 13"
+    },
+    "answerData": {
+      "correctAnswer": 11,
+      "acceptedAnswers": [
+        "11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-22",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "17 × 8 − 4 × 11"
+    },
+    "answerData": {
+      "correctAnswer": 92,
+      "acceptedAnswers": [
+        "92"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-23",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "(19 + 38) × 3"
+    },
+    "answerData": {
+      "correctAnswer": 171,
+      "acceptedAnswers": [
+        "171"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "nf-arith-L15-24",
+    "category": "numerical_fluency",
+    "challengeType": "arithmetic",
+    "level": 15,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "expression": "7 × 7 − 4 × 7"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 22000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  }
+]

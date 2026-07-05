@@ -1,0 +1,7042 @@
+[
+  {
+    "bankKey": "pr-seq-L1-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        11,
+        15,
+        19
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 23,
+      "acceptedAnswers": [
+        "23"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        15,
+        21,
+        27
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 33,
+      "acceptedAnswers": [
+        "33"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        6,
+        10,
+        14
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        8,
+        14,
+        20
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 26,
+      "acceptedAnswers": [
+        "26"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        16,
+        22,
+        28
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 34,
+      "acceptedAnswers": [
+        "34"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        13,
+        16,
+        19
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 22,
+      "acceptedAnswers": [
+        "22"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        7,
+        10,
+        13
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 16,
+      "acceptedAnswers": [
+        "16"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        10,
+        13,
+        16
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        13,
+        17,
+        21
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 25,
+      "acceptedAnswers": [
+        "25"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        11,
+        16,
+        21
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 26,
+      "acceptedAnswers": [
+        "26"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 10,
+      "acceptedAnswers": [
+        "10"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        12,
+        18,
+        24,
+        30
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 36,
+      "acceptedAnswers": [
+        "36"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 13,
+      "acceptedAnswers": [
+        "13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        13,
+        18,
+        23
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 28,
+      "acceptedAnswers": [
+        "28"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        13,
+        19,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 31,
+      "acceptedAnswers": [
+        "31"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        12,
+        18,
+        24
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 30,
+      "acceptedAnswers": [
+        "30"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L1-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        15,
+        20,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 30,
+      "acceptedAnswers": [
+        "30"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        49,
+        47,
+        45,
+        43
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 41,
+      "acceptedAnswers": [
+        "41"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        69,
+        67,
+        65,
+        63
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 61,
+      "acceptedAnswers": [
+        "61"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        82,
+        75,
+        68,
+        61
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 54,
+      "acceptedAnswers": [
+        "54"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        78,
+        73,
+        68,
+        63
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 58,
+      "acceptedAnswers": [
+        "58"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        60,
+        58,
+        56,
+        54
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 52,
+      "acceptedAnswers": [
+        "52"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        65,
+        58,
+        51,
+        44
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 37,
+      "acceptedAnswers": [
+        "37"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        56,
+        53,
+        50,
+        47
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 44,
+      "acceptedAnswers": [
+        "44"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        80,
+        73,
+        66,
+        59
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 52,
+      "acceptedAnswers": [
+        "52"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        51,
+        47,
+        43,
+        39
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        57,
+        55,
+        53,
+        51
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 49,
+      "acceptedAnswers": [
+        "49"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        75,
+        72,
+        69,
+        66
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 63,
+      "acceptedAnswers": [
+        "63"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        40,
+        37,
+        34,
+        31
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 28,
+      "acceptedAnswers": [
+        "28"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        87,
+        82,
+        77,
+        72
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 67,
+      "acceptedAnswers": [
+        "67"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        51,
+        49,
+        47,
+        45
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 43,
+      "acceptedAnswers": [
+        "43"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        50,
+        43,
+        36,
+        29
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 22,
+      "acceptedAnswers": [
+        "22"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        45,
+        42,
+        39,
+        36
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 33,
+      "acceptedAnswers": [
+        "33"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        63,
+        61,
+        59,
+        57
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 55,
+      "acceptedAnswers": [
+        "55"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        79,
+        72,
+        65,
+        58
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 51,
+      "acceptedAnswers": [
+        "51"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        60,
+        53,
+        46,
+        39
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 32,
+      "acceptedAnswers": [
+        "32"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L2-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        62,
+        60,
+        58,
+        56
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 54,
+      "acceptedAnswers": [
+        "54"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        36,
+        49,
+        62,
+        75
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 88,
+      "acceptedAnswers": [
+        "88"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        26,
+        45,
+        64,
+        83
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 102,
+      "acceptedAnswers": [
+        "102"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        21,
+        29,
+        37,
+        45
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 53,
+      "acceptedAnswers": [
+        "53"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        33,
+        44,
+        55,
+        66
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 77,
+      "acceptedAnswers": [
+        "77"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        36,
+        53,
+        70,
+        87
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 104,
+      "acceptedAnswers": [
+        "104"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        36,
+        51,
+        66,
+        81
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 96,
+      "acceptedAnswers": [
+        "96"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        20,
+        34,
+        48,
+        62
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 76,
+      "acceptedAnswers": [
+        "76"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        30,
+        40,
+        50,
+        60
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 70,
+      "acceptedAnswers": [
+        "70"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        39,
+        49,
+        59,
+        69
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 79,
+      "acceptedAnswers": [
+        "79"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        24,
+        42,
+        60
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 78,
+      "acceptedAnswers": [
+        "78"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        17,
+        30,
+        43,
+        56
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 69,
+      "acceptedAnswers": [
+        "69"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        23,
+        30,
+        37,
+        44
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 51,
+      "acceptedAnswers": [
+        "51"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        25,
+        40,
+        55
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 70,
+      "acceptedAnswers": [
+        "70"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        19,
+        28,
+        37
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 46,
+      "acceptedAnswers": [
+        "46"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        18,
+        35,
+        52,
+        69
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 86,
+      "acceptedAnswers": [
+        "86"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        39,
+        47,
+        55,
+        63
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 71,
+      "acceptedAnswers": [
+        "71"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        33,
+        43,
+        53,
+        63
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 73,
+      "acceptedAnswers": [
+        "73"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        40,
+        51,
+        62,
+        73
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 84,
+      "acceptedAnswers": [
+        "84"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        12,
+        24,
+        36,
+        48
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 60,
+      "acceptedAnswers": [
+        "60"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L3-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        30,
+        49,
+        68,
+        87
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 106,
+      "acceptedAnswers": [
+        "106"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        12,
+        24,
+        48
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 96,
+      "acceptedAnswers": [
+        "96"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        15,
+        45,
+        135
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 405,
+      "acceptedAnswers": [
+        "405"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        18,
+        54,
+        162
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 486,
+      "acceptedAnswers": [
+        "486"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        21,
+        63,
+        189
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 567,
+      "acceptedAnswers": [
+        "567"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        8,
+        16,
+        32
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 64,
+      "acceptedAnswers": [
+        "64"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        18,
+        36,
+        72
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 144,
+      "acceptedAnswers": [
+        "144"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 32,
+      "acceptedAnswers": [
+        "32"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        20,
+        40,
+        80
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 160,
+      "acceptedAnswers": [
+        "160"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        20,
+        80,
+        320
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 1280,
+      "acceptedAnswers": [
+        "1280"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        14,
+        28,
+        56
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 112,
+      "acceptedAnswers": [
+        "112"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        20,
+        100,
+        500
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 2500,
+      "acceptedAnswers": [
+        "2500"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        12,
+        36,
+        108
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 324,
+      "acceptedAnswers": [
+        "324"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 16,
+      "acceptedAnswers": [
+        "16"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        15,
+        75,
+        375
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 1875,
+      "acceptedAnswers": [
+        "1875"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        3,
+        9,
+        27
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 81,
+      "acceptedAnswers": [
+        "81"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        6,
+        18,
+        54
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 162,
+      "acceptedAnswers": [
+        "162"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        9,
+        27,
+        81
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 243,
+      "acceptedAnswers": [
+        "243"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        11,
+        22,
+        44,
+        88
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 176,
+      "acceptedAnswers": [
+        "176"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 80,
+      "acceptedAnswers": [
+        "80"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L4-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        6,
+        12,
+        24
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 48,
+      "acceptedAnswers": [
+        "48"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        4,
+        9,
+        16
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 25,
+      "acceptedAnswers": [
+        "25"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        15,
+        24,
+        35,
+        48
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 63,
+      "acceptedAnswers": [
+        "63"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        17,
+        26,
+        37,
+        50
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 65,
+      "acceptedAnswers": [
+        "65"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        16,
+        25,
+        36,
+        49
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 64,
+      "acceptedAnswers": [
+        "64"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        18,
+        27,
+        38,
+        51
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 66,
+      "acceptedAnswers": [
+        "66"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        12,
+        19,
+        28
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 39,
+      "acceptedAnswers": [
+        "39"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        10,
+        17,
+        26
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 37,
+      "acceptedAnswers": [
+        "37"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        20,
+        29,
+        40,
+        53
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 68,
+      "acceptedAnswers": [
+        "68"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        7,
+        14,
+        23
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 34,
+      "acceptedAnswers": [
+        "34"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        15,
+        24,
+        35
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 48,
+      "acceptedAnswers": [
+        "48"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        5,
+        10,
+        17
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 26,
+      "acceptedAnswers": [
+        "26"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        13,
+        22,
+        33
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 46,
+      "acceptedAnswers": [
+        "46"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        9,
+        14,
+        21
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 30,
+      "acceptedAnswers": [
+        "30"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        6,
+        11,
+        18
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 27,
+      "acceptedAnswers": [
+        "27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        7,
+        12,
+        19
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 28,
+      "acceptedAnswers": [
+        "28"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        -1,
+        2,
+        7,
+        14
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 23,
+      "acceptedAnswers": [
+        "23"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        13,
+        20,
+        29
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 40,
+      "acceptedAnswers": [
+        "40"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        6,
+        13,
+        22
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 33,
+      "acceptedAnswers": [
+        "33"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        16,
+        25,
+        36
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 49,
+      "acceptedAnswers": [
+        "49"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L5-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        -2,
+        1,
+        6,
+        13
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 22,
+      "acceptedAnswers": [
+        "22"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        14,
+        19,
+        23,
+        28
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 32,
+      "acceptedAnswers": [
+        "32"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        15,
+        17,
+        22,
+        24,
+        29
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 31,
+      "acceptedAnswers": [
+        "31"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        14,
+        21,
+        24,
+        31,
+        34
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 41,
+      "acceptedAnswers": [
+        "41"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        9,
+        12,
+        14,
+        17
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        11,
+        20,
+        28,
+        37
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 45,
+      "acceptedAnswers": [
+        "45"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        9,
+        13,
+        21,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 33,
+      "acceptedAnswers": [
+        "33"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        7,
+        14,
+        19,
+        26
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 31,
+      "acceptedAnswers": [
+        "31"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        18,
+        24,
+        32,
+        38
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 46,
+      "acceptedAnswers": [
+        "46"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        10,
+        14,
+        17,
+        21
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 24,
+      "acceptedAnswers": [
+        "24"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        14,
+        16,
+        23,
+        25,
+        32
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 34,
+      "acceptedAnswers": [
+        "34"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        17,
+        26,
+        34,
+        43
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 51,
+      "acceptedAnswers": [
+        "51"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        16,
+        24,
+        30,
+        38
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 44,
+      "acceptedAnswers": [
+        "44"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        11,
+        13,
+        18,
+        20,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 27,
+      "acceptedAnswers": [
+        "27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        9,
+        16,
+        18,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 27,
+      "acceptedAnswers": [
+        "27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        18,
+        24,
+        33,
+        39
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 48,
+      "acceptedAnswers": [
+        "48"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        10,
+        12,
+        15,
+        17
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        5,
+        10,
+        12,
+        17
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        9,
+        14,
+        18,
+        23
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 27,
+      "acceptedAnswers": [
+        "27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        15,
+        22,
+        30,
+        37,
+        45
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 52,
+      "acceptedAnswers": [
+        "52"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L6-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        14,
+        16,
+        19,
+        21,
+        24
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 26,
+      "acceptedAnswers": [
+        "26"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        6,
+        12,
+        18,
+        30
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 48,
+      "acceptedAnswers": [
+        "48"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        6,
+        7,
+        13,
+        20
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 33,
+      "acceptedAnswers": [
+        "33"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        6,
+        8,
+        14,
+        22
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 36,
+      "acceptedAnswers": [
+        "36"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        2,
+        7,
+        9,
+        16
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 25,
+      "acceptedAnswers": [
+        "25"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        6,
+        9,
+        15,
+        24
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 39,
+      "acceptedAnswers": [
+        "39"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        3,
+        6,
+        9,
+        15
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 24,
+      "acceptedAnswers": [
+        "24"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        7,
+        8,
+        15,
+        23
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 38,
+      "acceptedAnswers": [
+        "38"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        2,
+        6,
+        8,
+        14
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 22,
+      "acceptedAnswers": [
+        "22"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        5,
+        9,
+        14,
+        23
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 37,
+      "acceptedAnswers": [
+        "37"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        4,
+        9,
+        13,
+        22
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        7,
+        9,
+        16,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 41,
+      "acceptedAnswers": [
+        "41"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        5,
+        7,
+        12,
+        19
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 31,
+      "acceptedAnswers": [
+        "31"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        1,
+        6,
+        7,
+        13
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        1,
+        4,
+        5,
+        9
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        3,
+        4,
+        7,
+        11
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        5,
+        10,
+        15,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 40,
+      "acceptedAnswers": [
+        "40"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        4,
+        7,
+        11,
+        18
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 29,
+      "acceptedAnswers": [
+        "29"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        1,
+        2,
+        3,
+        5
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 8,
+      "acceptedAnswers": [
+        "8"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        7,
+        12,
+        19,
+        31
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 50,
+      "acceptedAnswers": [
+        "50"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L7-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        5,
+        6,
+        11,
+        17
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 28,
+      "acceptedAnswers": [
+        "28"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        12,
+        18,
+        28
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 42,
+      "acceptedAnswers": [
+        "42"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        5,
+        11,
+        21
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        6,
+        16,
+        31
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 51,
+      "acceptedAnswers": [
+        "51"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        13,
+        20,
+        30
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 43,
+      "acceptedAnswers": [
+        "43"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        7,
+        16,
+        30
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 49,
+      "acceptedAnswers": [
+        "49"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        7,
+        14,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 40,
+      "acceptedAnswers": [
+        "40"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        9,
+        18,
+        32
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 51,
+      "acceptedAnswers": [
+        "51"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        8,
+        14,
+        24
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 38,
+      "acceptedAnswers": [
+        "38"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        6,
+        12,
+        20
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 30,
+      "acceptedAnswers": [
+        "30"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        11,
+        16,
+        24
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        12,
+        18,
+        26
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 36,
+      "acceptedAnswers": [
+        "36"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        10,
+        21,
+        37
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 58,
+      "acceptedAnswers": [
+        "58"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        12,
+        20,
+        31
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 45,
+      "acceptedAnswers": [
+        "45"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        7,
+        16,
+        29
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 46,
+      "acceptedAnswers": [
+        "46"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        9,
+        15,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 39,
+      "acceptedAnswers": [
+        "39"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        6,
+        12,
+        22
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 36,
+      "acceptedAnswers": [
+        "36"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        16,
+        24,
+        34
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 46,
+      "acceptedAnswers": [
+        "46"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        8,
+        18,
+        32
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 50,
+      "acceptedAnswers": [
+        "50"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        1,
+        7,
+        16,
+        28
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 43,
+      "acceptedAnswers": [
+        "43"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L8-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        14,
+        21,
+        31
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 44,
+      "acceptedAnswers": [
+        "44"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 13000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        9,
+        15,
+        27
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 51,
+      "acceptedAnswers": [
+        "51"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        12,
+        26,
+        54
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 110,
+      "acceptedAnswers": [
+        "110"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        10,
+        22,
+        46
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 94,
+      "acceptedAnswers": [
+        "94"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        9,
+        19,
+        39
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 79,
+      "acceptedAnswers": [
+        "79"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        17,
+        37,
+        77
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 157,
+      "acceptedAnswers": [
+        "157"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        7,
+        13,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 49,
+      "acceptedAnswers": [
+        "49"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        5,
+        7,
+        11
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        13,
+        27,
+        55
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 111,
+      "acceptedAnswers": [
+        "111"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        1,
+        -1,
+        -5
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": -13,
+      "acceptedAnswers": [
+        "-13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        12,
+        22,
+        42
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 82,
+      "acceptedAnswers": [
+        "82"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        7,
+        17,
+        37
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 77,
+      "acceptedAnswers": [
+        "77"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        16,
+        34,
+        70
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 142,
+      "acceptedAnswers": [
+        "142"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        6,
+        14,
+        30
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 62,
+      "acceptedAnswers": [
+        "62"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        5,
+        11,
+        23
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 47,
+      "acceptedAnswers": [
+        "47"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        2,
+        3,
+        5,
+        9
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 17,
+      "acceptedAnswers": [
+        "17"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        7,
+        11,
+        19
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        13,
+        25,
+        49
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 97,
+      "acceptedAnswers": [
+        "97"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L9-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        11,
+        25,
+        53
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 109,
+      "acceptedAnswers": [
+        "109"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 15000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        36,
+        9,
+        33,
+        14,
+        30
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        25,
+        6,
+        23,
+        9,
+        21
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 12,
+      "acceptedAnswers": [
+        "12"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        35,
+        7,
+        28,
+        11,
+        21
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        24,
+        11,
+        18,
+        16,
+        12
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 21,
+      "acceptedAnswers": [
+        "21"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        55,
+        10,
+        52,
+        12,
+        49
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        54,
+        14,
+        50,
+        20,
+        46
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 26,
+      "acceptedAnswers": [
+        "26"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        45,
+        9,
+        39,
+        14,
+        33
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        9,
+        53,
+        14,
+        50,
+        19,
+        47
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 24,
+      "acceptedAnswers": [
+        "24"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        54,
+        9,
+        47,
+        11,
+        40
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 13,
+      "acceptedAnswers": [
+        "13"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        41,
+        8,
+        36,
+        13,
+        31
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        20,
+        9,
+        14,
+        12,
+        8
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        52,
+        9,
+        45,
+        12,
+        38
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 15,
+      "acceptedAnswers": [
+        "15"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        46,
+        11,
+        43,
+        15,
+        40
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        39,
+        5,
+        31,
+        7,
+        23
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 9,
+      "acceptedAnswers": [
+        "9"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        23,
+        10,
+        20,
+        13,
+        17
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 16,
+      "acceptedAnswers": [
+        "16"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        28,
+        8,
+        25,
+        11,
+        22
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        55,
+        12,
+        53,
+        16,
+        51
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        56,
+        10,
+        51,
+        15,
+        46
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 20,
+      "acceptedAnswers": [
+        "20"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        31,
+        10,
+        25,
+        12,
+        19
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 14,
+      "acceptedAnswers": [
+        "14"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L10-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        47,
+        10,
+        44,
+        16,
+        41
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 22,
+      "acceptedAnswers": [
+        "22"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 18000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        48,
+        63,
+        80,
+        99
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 120,
+      "acceptedAnswers": [
+        "120"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        13,
+        21,
+        31
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 43,
+      "acceptedAnswers": [
+        "43"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        12,
+        20,
+        30
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 42,
+      "acceptedAnswers": [
+        "42"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        50,
+        65,
+        82,
+        101
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 122,
+      "acceptedAnswers": [
+        "122"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        30,
+        42,
+        56,
+        72
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 90,
+      "acceptedAnswers": [
+        "90"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        23,
+        34,
+        47,
+        62
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 79,
+      "acceptedAnswers": [
+        "79"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        56,
+        72,
+        90,
+        110
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 132,
+      "acceptedAnswers": [
+        "132"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        42,
+        56,
+        72,
+        90
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 110,
+      "acceptedAnswers": [
+        "110"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        20,
+        30,
+        42,
+        56
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 72,
+      "acceptedAnswers": [
+        "72"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        10,
+        18,
+        28,
+        40
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 54,
+      "acceptedAnswers": [
+        "54"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        24,
+        35,
+        48,
+        63
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 80,
+      "acceptedAnswers": [
+        "80"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        53,
+        69,
+        87,
+        107
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 129,
+      "acceptedAnswers": [
+        "129"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        11,
+        19,
+        29
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 41,
+      "acceptedAnswers": [
+        "41"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        12,
+        20,
+        30,
+        42
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 56,
+      "acceptedAnswers": [
+        "56"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        72,
+        90,
+        110,
+        132
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 156,
+      "acceptedAnswers": [
+        "156"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        31,
+        43,
+        57,
+        73
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 91,
+      "acceptedAnswers": [
+        "91"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        55,
+        71,
+        89,
+        109
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 131,
+      "acceptedAnswers": [
+        "131"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        15,
+        24,
+        35
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 48,
+      "acceptedAnswers": [
+        "48"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        49,
+        64,
+        81,
+        100
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 121,
+      "acceptedAnswers": [
+        "121"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L11-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 11,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        58,
+        74,
+        92,
+        112
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 134,
+      "acceptedAnswers": [
+        "134"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 21000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-1",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        18,
+        51,
+        150
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 447,
+      "acceptedAnswers": [
+        "447"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-2",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        8,
+        20,
+        56
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 164,
+      "acceptedAnswers": [
+        "164"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-3",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        8,
+        14,
+        26
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 50,
+      "acceptedAnswers": [
+        "50"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-4",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        14,
+        41,
+        122
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 365,
+      "acceptedAnswers": [
+        "365"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-5",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        4,
+        6,
+        10
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 18,
+      "acceptedAnswers": [
+        "18"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-6",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        13,
+        37,
+        109
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 325,
+      "acceptedAnswers": [
+        "325"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-7",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        14,
+        38,
+        110
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 326,
+      "acceptedAnswers": [
+        "326"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-8",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        3,
+        1,
+        -3
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": -11,
+      "acceptedAnswers": [
+        "-11"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-9",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        13,
+        34,
+        97
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 286,
+      "acceptedAnswers": [
+        "286"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-10",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        5,
+        7,
+        11
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 19,
+      "acceptedAnswers": [
+        "19"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-11",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        7,
+        11,
+        19
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 35,
+      "acceptedAnswers": [
+        "35"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-12",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        1,
+        -3,
+        -11
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": -27,
+      "acceptedAnswers": [
+        "-27"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-13",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        4,
+        7,
+        13,
+        25
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 49,
+      "acceptedAnswers": [
+        "49"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-14",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        21,
+        60,
+        177
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 528,
+      "acceptedAnswers": [
+        "528"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-15",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        6,
+        17,
+        50,
+        149
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 446,
+      "acceptedAnswers": [
+        "446"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-16",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        7,
+        20,
+        59,
+        176
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 527,
+      "acceptedAnswers": [
+        "527"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-17",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        8,
+        22,
+        64,
+        190
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 568,
+      "acceptedAnswers": [
+        "568"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-18",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        3,
+        8,
+        23,
+        68
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 203,
+      "acceptedAnswers": [
+        "203"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-19",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        12,
+        33,
+        96
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 285,
+      "acceptedAnswers": [
+        "285"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "pr-seq-L12-20",
+    "category": "pattern_recognition",
+    "challengeType": "sequence_completion",
+    "level": 12,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "sequence": [
+        5,
+        9,
+        17,
+        33
+      ],
+      "instruction": "What number comes next?"
+    },
+    "answerData": {
+      "correctAnswer": 65,
+      "acceptedAnswers": [
+        "65"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 25000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  }
+]

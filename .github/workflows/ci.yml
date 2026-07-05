@@ -1,0 +1,47 @@
+name: CI
+
+# The test suites are deliberately dependency-free (plain node, no npm install),
+# so CI is fast and can never break because a transitive dependency moved.
+# Runs on GitHub-hosted runners - free with unlimited minutes for public repos.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run all test suites
+        run: |
+          set -e
+          for t in tests/*.test.mjs; do
+            echo "=== $t ==="
+            node --experimental-strip-types "$t"
+          done
+
+      - name: Verify wordlists
+        run: node scripts/verify-wordlists.mjs
+
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package.json
+      - name: Install
+        run: npm install
+      - name: Svelte sync + build
+        run: npx svelte-kit sync && npm run build

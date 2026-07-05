@@ -1,0 +1,10 @@
+# Excogni - open for indexing (launch posture). Brand queries should find the real site.
+User-agent: *
+Allow: /
+
+# Auth, admin, and api stay out of any crawl.
+Disallow: /auth/
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://xcgni.com/sitemap.xml

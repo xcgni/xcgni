@@ -1,0 +1,192 @@
+albacore
+amberjack
+anchovy
+angelfish
+anglerfish
+arapaima
+arctic char
+arowana
+barbel
+barracuda
+barramundi
+barreleye
+basking shark
+bass
+betta
+bigeye
+black cod
+black drum
+bleak
+blenny
+blue tang
+bluefin
+bluefin tuna
+bluefish
+bonefish
+bonito
+bowfin
+boxfish
+branzino
+bream
+brown trout
+bull shark
+burbot
+butterflyfish
+capelin
+carp
+catfish
+caviar fish
+char
+chimaera
+chub
+cichlid
+cisco
+clownfish
+cobia
+cod
+coelacanth
+conger
+croaker
+dace
+damselfish
+discus
+dogfish
+dorado
+drum
+eel
+filefish
+flounder
+flying fish
+fugu
+gar
+garfish
+goby
+goldfish
+gourami
+grayling
+great white
+great white shark
+grey mullet
+grouper
+gudgeon
+guitarfish
+guppy
+haddock
+hagfish
+hake
+halfbeak
+halibut
+hammerhead
+hatchetfish
+herring
+john dory
+koi
+lamprey
+lanternfish
+largemouth bass
+ling
+lingcod
+lionfish
+loach
+lungfish
+mackerel
+mahi
+mahi mahi
+mako
+manta
+manta ray
+marlin
+minnow
+molly
+monkfish
+moray
+moray eel
+mudskipper
+mullet
+muskellunge
+muskie
+needlefish
+neon tetra
+northern pike
+nurse shark
+oscar
+paddlefish
+parrotfish
+perch
+permit
+pickerel
+pike
+pilot fish
+pipefish
+piranha
+plaice
+platy
+pollock
+pompano
+porgy
+pufferfish
+rainbow trout
+ray
+red drum
+red mullet
+red snapper
+redfish
+remora
+roach
+rockfish
+rudd
+ruffe
+sablefish
+sailfish
+salmon
+sand eel
+sardine
+sawfish
+scorpionfish
+sculpin
+sea bass
+sea bream
+seahorse
+shad
+shark
+sheepshead
+skate
+skipjack
+smallmouth bass
+smelt
+snapper
+snook
+sole
+sprat
+stickleback
+stingray
+stonefish
+striped bass
+sturgeon
+surgeonfish
+swordfish
+swordtail
+tang
+tarpon
+tench
+tetra
+thresher
+tiger shark
+tilapia
+triggerfish
+trout
+tuna
+turbot
+vendace
+viperfish
+wahoo
+walleye
+weakfish
+whale shark
+whitefish
+whiting
+wrasse
+yellowfin tuna
+yellowtail
+zander
+zebrafish

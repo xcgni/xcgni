@@ -1,0 +1,62 @@
+{
+  "name": "excogni",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate:bank": "node scripts/generate-bank.mjs",
+    "migrate": "node scripts/migrate.mjs",
+    "seed": "node scripts/seed.mjs",
+    "start": "node build/index.js",
+    "cap:shell": "mkdir -p capacitor-shell && echo '<!doctype html><meta http-equiv=refresh content=0;url=/>' > capacitor-shell/index.html",
+    "cap:add:android": "npm run cap:shell && npx cap add android",
+    "cap:add:ios": "npm run cap:shell && npx cap add ios",
+    "cap:sync": "npm run cap:shell && npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios",
+    "variant": "node scripts/make-variant.mjs"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^5.2.0",
+    "@sveltejs/kit": "^2.5.0",
+    "@sveltejs/vite-plugin-svelte": "^3.1.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "svelte": "^4.2.18",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.0",
+    "@capacitor/cli": "^6.1.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.33.0",
+    "nodemailer": "^6.9.14",
+    "postgres": "^3.4.4",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
+    "@capacitor/status-bar": "^6.0.0",
+    "@capacitor/splash-screen": "^6.0.0",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/share": "^6.0.0",
+    "@capacitor/push-notifications": "^6.0.0",
+    "@fontsource-variable/instrument-sans": "^5.2.5",
+    "@fontsource/ibm-plex-mono": "^5.2.5",
+    "@capacitor/local-notifications": "^6.1.0",
+    "@capacitor/app": "^6.0.0",
+    "word-list": "^4.0.0"
+  },
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/initsixdev/excogni"
+  },
+  "homepage": "https://excogni.com",
+  "author": {
+    "name": "initsix.dev",
+    "url": "https://initsix.dev"
+  }
+}

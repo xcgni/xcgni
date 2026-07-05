@@ -1,0 +1,8 @@
+# GitHub renders these as a "Sponsor" button on the repository - free visibility for support.
+# Uncomment each line once the corresponding account exists (see /support on the site for the
+# project's funding philosophy: the instrument stays free; supporters keep the commons open).
+# github: [initsixdev]
+# liberapay: initsixdev
+# ko_fi: initsixdev
+# custom: ["https://xcgni.com/support"]
+custom: ["https://xcgni.com/support"]

@@ -1,0 +1,4493 @@
+[
+  {
+    "bankKey": "vr-en-L1-1",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of BIG",
+      "options": [
+        "round",
+        "large",
+        "quiet",
+        "tiny"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L1-2",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of FAST",
+      "options": [
+        "quick",
+        "slow",
+        "heavy",
+        "calm"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-3",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of HAPPY",
+      "options": [
+        "tired",
+        "glad",
+        "empty",
+        "angry"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-4",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of BEGIN",
+      "options": [
+        "hide",
+        "start",
+        "close",
+        "finish"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-5",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of ANCIENT",
+      "options": [
+        "old",
+        "loud",
+        "modern",
+        "bright"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-6",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of RAPID",
+      "options": [
+        "gradual",
+        "dull",
+        "firm",
+        "swift"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L4-7",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of CANDID",
+      "options": [
+        "vague",
+        "rough",
+        "secret",
+        "frank"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-8",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of LUCID",
+      "options": [
+        "clear",
+        "tense",
+        "murky",
+        "blunt"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-9",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of TERSE",
+      "options": [
+        "concise",
+        "gentle",
+        "wordy",
+        "loose"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-10",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of ZEALOUS",
+      "options": [
+        "aloof",
+        "idle",
+        "eager",
+        "meek"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of LACONIC",
+      "options": [
+        "genial",
+        "frantic",
+        "verbose",
+        "brief"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-12",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of PERFIDIOUS",
+      "options": [
+        "earnest",
+        "treacherous",
+        "loyal",
+        "timid"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-13",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of PELLUCID",
+      "options": [
+        "transparent",
+        "austere",
+        "viscous",
+        "opaque"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L1-14",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of SMALL",
+      "options": [
+        "heavy",
+        "wide",
+        "huge",
+        "little"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L1-15",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of GLAD",
+      "options": [
+        "sad",
+        "sour",
+        "happy",
+        "dull"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-16",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of BRAVE",
+      "options": [
+        "shy",
+        "bold",
+        "calm",
+        "weak"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-17",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of QUIET",
+      "options": [
+        "silent",
+        "busy",
+        "sharp",
+        "loud"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-18",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of HUGE",
+      "options": [
+        "enormous",
+        "minor",
+        "narrow",
+        "plain"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-19",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of WEALTHY",
+      "options": [
+        "poor",
+        "plain",
+        "rich",
+        "spare"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L4-20",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of STUBBORN",
+      "options": [
+        "idle",
+        "gentle",
+        "obstinate",
+        "flexible"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-21",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of ABUNDANT",
+      "options": [
+        "meager",
+        "sparse",
+        "rare",
+        "plentiful"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-22",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of DILIGENT",
+      "options": [
+        "careless",
+        "lazy",
+        "industrious",
+        "idle"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-23",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of OBSCURE",
+      "options": [
+        "vague",
+        "plain",
+        "vivid",
+        "obvious"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-24",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of PRUDENT",
+      "options": [
+        "rash",
+        "reckless",
+        "hasty",
+        "cautious"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-25",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of TACITURN",
+      "options": [
+        "loud",
+        "open",
+        "reserved",
+        "talkative"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-26",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of OBDURATE",
+      "options": [
+        "unyielding",
+        "docile",
+        "pliant",
+        "meek"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L1-27",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of UP",
+      "options": [
+        "top",
+        "high",
+        "down",
+        "over"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L1-28",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of OPEN",
+      "options": [
+        "wide",
+        "closed",
+        "clear",
+        "ajar"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-29",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of FAST",
+      "options": [
+        "slow",
+        "rapid",
+        "quick",
+        "swift"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-30",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of LIGHT",
+      "options": [
+        "pale",
+        "bright",
+        "dark",
+        "clear"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-31",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of ACCEPT",
+      "options": [
+        "allow",
+        "admit",
+        "reject",
+        "take"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L4-32",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of HUMBLE",
+      "options": [
+        "arrogant",
+        "plain",
+        "modest",
+        "meek"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-33",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of RIGID",
+      "options": [
+        "flexible",
+        "firm",
+        "stiff",
+        "hard"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-34",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of VICTORY",
+      "options": [
+        "defeat",
+        "win",
+        "triumph",
+        "glory"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-35",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of GENUINE",
+      "options": [
+        "fake",
+        "real",
+        "true",
+        "honest"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-36",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of LENIENT",
+      "options": [
+        "strict",
+        "soft",
+        "mild",
+        "gentle"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-37",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of CANDID",
+      "options": [
+        "evasive",
+        "open",
+        "honest",
+        "frank"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-38",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of PROLIFIC",
+      "options": [
+        "fertile",
+        "fruitful",
+        "barren",
+        "rich"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-39",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "BIRD : NEST :: BEE : ?",
+      "options": [
+        "wing",
+        "honey",
+        "flower",
+        "hive"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-40",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "FISH : SCHOOL :: WOLF : ?",
+      "options": [
+        "den",
+        "fur",
+        "pack",
+        "howl"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L4-41",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "TEACHER : SCHOOL :: JUDGE : ?",
+      "options": [
+        "gavel",
+        "court",
+        "robe",
+        "law"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-42",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "LION : ROAR :: SNAKE : ?",
+      "options": [
+        "hiss",
+        "venom",
+        "scale",
+        "slither"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-43",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "PAINTER : BRUSH :: SCULPTOR : ?",
+      "options": [
+        "chisel",
+        "statue",
+        "clay",
+        "stone"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-44",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "SECONDS : MINUTE :: MINUTES : ?",
+      "options": [
+        "clock",
+        "time",
+        "hour",
+        "day"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-45",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "LIBRARY : BOOKS :: ARMORY : ?",
+      "options": [
+        "armor",
+        "war",
+        "weapons",
+        "soldiers"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-46",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "THIRSTY : DRINK :: TIRED : ?",
+      "options": [
+        "weary",
+        "yawn",
+        "sleep",
+        "rest"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L1-47",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of HOT",
+      "options": [
+        "warm",
+        "red",
+        "cold",
+        "dry"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-48",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of EARLY",
+      "options": [
+        "quick",
+        "late",
+        "soon",
+        "near"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-49",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of EXPAND",
+      "options": [
+        "stretch",
+        "contract",
+        "widen",
+        "inflate"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L4-50",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of GENEROUS",
+      "options": [
+        "wealthy",
+        "kind",
+        "stingy",
+        "open"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-51",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of TRANSPARENT",
+      "options": [
+        "opaque",
+        "fragile",
+        "glassy",
+        "clear"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-52",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of PRAISE",
+      "options": [
+        "admire",
+        "criticize",
+        "reward",
+        "honor"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-53",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of ABUNDANT",
+      "options": [
+        "ample",
+        "plenty",
+        "dense",
+        "scarce"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-54",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of FRUGAL",
+      "options": [
+        "sparing",
+        "thrifty",
+        "careful",
+        "wasteful"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-55",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of EPHEMERAL",
+      "options": [
+        "permanent",
+        "transient",
+        "fleeting",
+        "brief"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-56",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of GARRULOUS",
+      "options": [
+        "taciturn",
+        "chatty",
+        "verbose",
+        "talkative"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-57",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "HAND : GLOVE :: FOOT : ?",
+      "options": [
+        "toe",
+        "sole",
+        "sock",
+        "shoe"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-58",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "PUPPY : DOG :: KITTEN : ?",
+      "options": [
+        "mouse",
+        "foal",
+        "cub",
+        "cat"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L4-59",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "PEN : WRITE :: KNIFE : ?",
+      "options": [
+        "metal",
+        "blade",
+        "sharp",
+        "cut"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-60",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "HOT : COLD :: UP : ?",
+      "options": [
+        "warm",
+        "over",
+        "high",
+        "down"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-61",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "BIRD : FLOCK :: WOLF : ?",
+      "options": [
+        "school",
+        "herd",
+        "pride",
+        "pack"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-62",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "CACOPHONY : SOUND :: GLARE : ?",
+      "options": [
+        "color",
+        "noise",
+        "heat",
+        "light"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-63",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "EPILOGUE : BOOK :: CODA : ?",
+      "options": [
+        "symphony",
+        "play",
+        "poem",
+        "dance"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L1-64",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of EASY",
+      "options": [
+        "hard",
+        "simple",
+        "steep",
+        "tense"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-65",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of CALM",
+      "options": [
+        "anxious",
+        "loud",
+        "serene",
+        "harsh"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-66",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of HONEST",
+      "options": [
+        "vague",
+        "smug",
+        "truthful",
+        "sly"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-67",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of STRANGE",
+      "options": [
+        "plain",
+        "usual",
+        "clear",
+        "odd"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-68",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of ROBUST",
+      "options": [
+        "sturdy",
+        "hollow",
+        "frail",
+        "sleek"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-69",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of AMIABLE",
+      "options": [
+        "curt",
+        "friendly",
+        "aloof",
+        "hostile"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-70",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of CRYPTIC",
+      "options": [
+        "mysterious",
+        "plain",
+        "frank",
+        "obvious"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-71",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of TENACIOUS",
+      "options": [
+        "fickle",
+        "persistent",
+        "idle",
+        "weak"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-72",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of ESOTERIC",
+      "options": [
+        "common",
+        "public",
+        "arcane",
+        "plain"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-73",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of MITIGATE",
+      "options": [
+        "inflame",
+        "expand",
+        "lessen",
+        "worsen"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-74",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of EPHEMERAL",
+      "options": [
+        "fixed",
+        "lasting",
+        "eternal",
+        "transient"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-75",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of INELUCTABLE",
+      "options": [
+        "inevitable",
+        "optional",
+        "avoidable",
+        "dubious"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-76",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Synonym of PERSPICACIOUS",
+      "options": [
+        "astute",
+        "obtuse",
+        "naive",
+        "dull"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-77",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of ARRIVE",
+      "options": [
+        "enter",
+        "land",
+        "reach",
+        "depart"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-78",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of INCREASE",
+      "options": [
+        "grow",
+        "expand",
+        "decrease",
+        "rise"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-79",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of CONCEAL",
+      "options": [
+        "reveal",
+        "hide",
+        "cover",
+        "mask"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-80",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of SCATTER",
+      "options": [
+        "toss",
+        "gather",
+        "strew",
+        "spread"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-81",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of FERTILE",
+      "options": [
+        "ripe",
+        "rich",
+        "barren",
+        "lush"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-82",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of VOLATILE",
+      "options": [
+        "erratic",
+        "fickle",
+        "stable",
+        "tense"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-83",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of LUCID",
+      "options": [
+        "vivid",
+        "clear",
+        "murky",
+        "plain"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-84",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of AUGMENT",
+      "options": [
+        "swell",
+        "boost",
+        "expand",
+        "diminish"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-85",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of GREGARIOUS",
+      "options": [
+        "solitary",
+        "affable",
+        "outgoing",
+        "social"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-86",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of OPAQUE",
+      "options": [
+        "murky",
+        "transparent",
+        "dense",
+        "cloudy"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-87",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of MAGNANIMOUS",
+      "options": [
+        "noble",
+        "lavish",
+        "generous",
+        "petty"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-88",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "Antonym of NASCENT",
+      "options": [
+        "mature",
+        "emerging",
+        "new",
+        "budding"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L2-89",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "FISH : SCHOOL :: LION : ?",
+      "options": [
+        "herd",
+        "flock",
+        "pack",
+        "pride"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L3-90",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "DAY : NIGHT :: SUMMER : ?",
+      "options": [
+        "noon",
+        "autumn",
+        "winter",
+        "spring"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L4-91",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "DOCTOR : PATIENT :: TEACHER : ?",
+      "options": [
+        "school",
+        "student",
+        "class",
+        "book"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L5-92",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "WATER : THIRST :: FOOD : ?",
+      "options": [
+        "plate",
+        "taste",
+        "hunger",
+        "meal"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L6-93",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "CLOCK : TIME :: THERMOMETER : ?",
+      "options": [
+        "heat",
+        "mercury",
+        "temperature",
+        "weather"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L7-94",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "ARCHITECT : BLUEPRINT :: COMPOSER : ?",
+      "options": [
+        "score",
+        "melody",
+        "piano",
+        "stage"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L8-95",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "DROUGHT : WATER :: FAMINE : ?",
+      "options": [
+        "hunger",
+        "land",
+        "crops",
+        "food"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 3,
+      "acceptedAnswers": [
+        "3"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L9-96",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "NOVICE : EXPERT :: SEED : ?",
+      "options": [
+        "flower",
+        "root",
+        "tree",
+        "soil"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 2,
+      "acceptedAnswers": [
+        "2"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-en-L10-97",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "language": "en",
+    "promptData": {
+      "instruction": "OVERTURE : OPERA :: PREAMBLE : ?",
+      "options": [
+        "chapter",
+        "constitution",
+        "speech",
+        "essay"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 16000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L1-9",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of HAPPY",
+      "options": [
+        "glad",
+        "tall",
+        "cold",
+        "fast"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L1-10",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of FAST",
+      "options": [
+        "quick",
+        "wide",
+        "soft",
+        "dark"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L1-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of SMALL",
+      "options": [
+        "little",
+        "loud",
+        "warm",
+        "heavy"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L1-12",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of BEGIN",
+      "options": [
+        "start",
+        "stop",
+        "close",
+        "lose"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L2-13",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of QUIET",
+      "options": [
+        "silent",
+        "bright",
+        "rough",
+        "empty"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L2-14",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of BRAVE",
+      "options": [
+        "bold",
+        "weak",
+        "plain",
+        "late"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L2-15",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of ANGRY",
+      "options": [
+        "furious",
+        "calm",
+        "tired",
+        "happy"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L3-13",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of HONEST",
+      "options": [
+        "truthful",
+        "clever",
+        "wealthy",
+        "sudden"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L3-14",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of RAPID",
+      "options": [
+        "swift",
+        "steady",
+        "hollow",
+        "distant"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L4-8",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of ABUNDANT",
+      "options": [
+        "plentiful",
+        "scarce",
+        "fragile",
+        "remote"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L4-9",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of FRAGILE",
+      "options": [
+        "delicate",
+        "sturdy",
+        "vivid",
+        "eager"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L5-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of LUCID",
+      "options": [
+        "clear",
+        "murky",
+        "tense",
+        "idle"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L5-12",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of TRANQUIL",
+      "options": [
+        "peaceful",
+        "chaotic",
+        "rigid",
+        "hollow"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L6-10",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of CANDID",
+      "options": [
+        "frank",
+        "secretive",
+        "clumsy",
+        "weary"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L6-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of METICULOUS",
+      "options": [
+        "careful",
+        "careless",
+        "hasty",
+        "vague"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L7-10",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of EPHEMERAL",
+      "options": [
+        "fleeting",
+        "eternal",
+        "massive",
+        "rigid"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L7-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of GREGARIOUS",
+      "options": [
+        "sociable",
+        "solitary",
+        "hostile",
+        "timid"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L8-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of OBSTINATE",
+      "options": [
+        "stubborn",
+        "flexible",
+        "gentle",
+        "fearful"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L9-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of LACONIC",
+      "options": [
+        "terse",
+        "wordy",
+        "loud",
+        "vague"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L10-11",
+    "category": "verbal_reasoning",
+    "challengeType": "synonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Synonym of PERSPICACIOUS",
+      "options": [
+        "perceptive",
+        "dull",
+        "careless",
+        "timid"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L1-13",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of HOT",
+      "options": [
+        "cold",
+        "warm",
+        "dry",
+        "red"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L1-14",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of UP",
+      "options": [
+        "down",
+        "left",
+        "near",
+        "open"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L1-15",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 1,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of FULL",
+      "options": [
+        "empty",
+        "heavy",
+        "round",
+        "clean"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L2-16",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of BRIGHT",
+      "options": [
+        "dark",
+        "loud",
+        "soft",
+        "quick"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L2-17",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of EARLY",
+      "options": [
+        "late",
+        "near",
+        "wide",
+        "calm"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L3-15",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of ANCIENT",
+      "options": [
+        "modern",
+        "distant",
+        "silent",
+        "hollow"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L3-16",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of EXPAND",
+      "options": [
+        "shrink",
+        "widen",
+        "rise",
+        "float"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L4-10",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of GENEROUS",
+      "options": [
+        "stingy",
+        "kind",
+        "wealthy",
+        "gentle"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L4-11",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of TRANSPARENT",
+      "options": [
+        "opaque",
+        "clear",
+        "fragile",
+        "smooth"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L5-13",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of HUMBLE",
+      "options": [
+        "arrogant",
+        "modest",
+        "quiet",
+        "plain"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L5-14",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of SCATTER",
+      "options": [
+        "gather",
+        "spread",
+        "toss",
+        "drift"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L6-12",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of FRUGAL",
+      "options": [
+        "wasteful",
+        "thrifty",
+        "careful",
+        "plain"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L6-13",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of CONCEAL",
+      "options": [
+        "reveal",
+        "hide",
+        "cover",
+        "mask"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L7-12",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of VERBOSE",
+      "options": [
+        "concise",
+        "wordy",
+        "loud",
+        "vague"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L7-13",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of BENEVOLENT",
+      "options": [
+        "malicious",
+        "kind",
+        "gentle",
+        "calm"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L8-12",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of TRANSIENT",
+      "options": [
+        "permanent",
+        "brief",
+        "fading",
+        "quick"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L9-12",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of AUSTERE",
+      "options": [
+        "lavish",
+        "plain",
+        "strict",
+        "harsh"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L10-12",
+    "category": "verbal_reasoning",
+    "challengeType": "antonym",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "Antonym of GARRULOUS",
+      "options": [
+        "taciturn",
+        "chatty",
+        "loud",
+        "social"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L2-18",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "HOT : COLD :: UP : ?",
+      "options": [
+        "down",
+        "warm",
+        "high",
+        "side"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L2-19",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 2,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "DOG : PUPPY :: CAT : ?",
+      "options": [
+        "kitten",
+        "paw",
+        "tail",
+        "fur"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L3-17",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "HAND : GLOVE :: FOOT : ?",
+      "options": [
+        "sock",
+        "shoe",
+        "toe",
+        "leg"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L3-18",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 3,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "BEE : HIVE :: BIRD : ?",
+      "options": [
+        "nest",
+        "wing",
+        "sky",
+        "egg"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L4-12",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "PEN : WRITE :: KNIFE : ?",
+      "options": [
+        "cut",
+        "sharp",
+        "blade",
+        "steel"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L4-13",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 4,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "FISH : SCHOOL :: WOLF : ?",
+      "options": [
+        "pack",
+        "den",
+        "howl",
+        "fur"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L5-15",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "DOCTOR : HOSPITAL :: TEACHER : ?",
+      "options": [
+        "school",
+        "book",
+        "class",
+        "desk"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L5-16",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 5,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "HOUR : MINUTE :: MINUTE : ?",
+      "options": [
+        "second",
+        "day",
+        "clock",
+        "time"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L6-14",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "PAINTER : BRUSH :: SCULPTOR : ?",
+      "options": [
+        "chisel",
+        "clay",
+        "stone",
+        "statue"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L6-15",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 6,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "LIBRARY : BOOKS :: GALLERY : ?",
+      "options": [
+        "paintings",
+        "walls",
+        "silence",
+        "frames"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L7-14",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "THERMOMETER : TEMPERATURE :: BAROMETER : ?",
+      "options": [
+        "pressure",
+        "height",
+        "speed",
+        "weight"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L7-15",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 7,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "CARTOGRAPHER : MAP :: COMPOSER : ?",
+      "options": [
+        "symphony",
+        "piano",
+        "note",
+        "stage"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L8-13",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 8,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "OPTIMIST : HOPE :: PESSIMIST : ?",
+      "options": [
+        "doubt",
+        "joy",
+        "fear",
+        "calm"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L9-13",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 9,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "DROUGHT : WATER :: FAMINE : ?",
+      "options": [
+        "food",
+        "rain",
+        "land",
+        "crop"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vr-L10-13",
+    "category": "verbal_reasoning",
+    "challengeType": "analogy",
+    "level": 10,
+    "rendererType": "multiple_choice_text",
+    "promptData": {
+      "instruction": "PHILOLOGY : LANGUAGE :: ENTOMOLOGY : ?",
+      "options": [
+        "insects",
+        "plants",
+        "rocks",
+        "stars"
+      ],
+      "language": "en"
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000
+    },
+    "version": 1,
+    "active": true
+  }
+]

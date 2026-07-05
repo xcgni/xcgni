@@ -1,0 +1,192 @@
+albatross
+anhinga
+auk
+avocet
+bald eagle
+barn owl
+barn swallow
+barred owl
+bee-eater
+bird of paradise
+bittern
+blackbird
+blue jay
+bluebird
+bluejay
+booby
+brown pelican
+budgerigar
+budgie
+bulbul
+buzzard
+canada goose
+canary
+canvasback
+cardinal
+cassowary
+catbird
+cedar waxwing
+chaffinch
+chickadee
+chicken
+cockatiel
+cockatoo
+condor
+coot
+cormorant
+cowbird
+crane
+crow
+cuckoo
+curlew
+dove
+downy woodpecker
+duck
+dunnock
+eagle
+egret
+emperor penguin
+emu
+falcon
+finch
+flamingo
+flicker
+frigatebird
+gannet
+godwit
+golden eagle
+goldfinch
+goose
+grackle
+great blue heron
+great horned owl
+grebe
+greenfinch
+grouse
+guillemot
+guineafowl
+gull
+harrier
+hawk
+hen
+heron
+herring gull
+hoopoe
+hornbill
+house finch
+house sparrow
+hummingbird
+ibis
+jackdaw
+jay
+kestrel
+killdeer
+kingfisher
+kinglet
+kite
+kiwi
+kookaburra
+lark
+loon
+lorikeet
+lovebird
+lyrebird
+macaw
+magpie
+mallard
+martin
+meadowlark
+merganser
+merlin
+mockingbird
+moorhen
+mourning dove
+murre
+mute swan
+myna
+nighthawk
+nightingale
+nutcracker
+nuthatch
+oriole
+osprey
+ostrich
+owl
+oystercatcher
+parakeet
+parrot
+partridge
+peacock
+peafowl
+pelican
+penguin
+peregrine falcon
+petrel
+phalarope
+pheasant
+pigeon
+pileated woodpecker
+pintail
+pipit
+plover
+ptarmigan
+puffin
+purple martin
+quail
+rail
+raven
+red-tailed hawk
+red-winged blackbird
+rhea
+roadrunner
+robin
+rock pigeon
+roller
+rook
+rooster
+ruby-throated hummingbird
+sandhill crane
+sandpiper
+sapsucker
+screech owl
+seagull
+shearwater
+shrike
+skimmer
+snipe
+snow goose
+snowy owl
+sparrow
+spoonbill
+starling
+stilt
+stork
+swallow
+swan
+swift
+tanager
+teal
+tern
+thrasher
+thrush
+tit
+titmouse
+toucan
+trumpeter swan
+turkey
+turkey vulture
+vireo
+vulture
+wagtail
+warbler
+waxwing
+weaver
+whip-poor-will
+whooping crane
+wild turkey
+wood duck
+wood thrush
+woodcock
+woodpecker
+woodpigeon
+wren

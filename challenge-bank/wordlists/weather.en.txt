@@ -1,0 +1,143 @@
+altocumulus
+aurora
+balmy
+barometer
+black ice
+blizzard
+breeze
+brisk
+chinook
+cirrus
+clear
+clear skies
+climate
+cloud
+cloudburst
+clouds
+cloudy
+cold
+cold front
+cold snap
+condensation
+contrail
+crosswind
+cumulonimbus
+cumulus
+cyclone
+dawn
+deluge
+derecho
+dew
+doldrums
+double rainbow
+downdraft
+downpour
+drizzle
+drought
+dry
+dusk
+dust devil
+dust storm
+el nino
+evaporation
+fair weather
+flurry
+foehn
+fog
+forecast
+freeze
+front
+frost
+gale
+graupel
+gust
+hail
+hailstorm
+halo
+haze
+headwind
+heat
+heat index
+heatwave
+high pressure
+hoarfrost
+humid
+humidity
+hurricane
+ice
+icicle
+indian summer
+inversion
+isobar
+jet stream
+la nina
+lenticular cloud
+lightning
+low pressure
+mammatus
+microburst
+microclimate
+mirage
+mist
+mistral
+monsoon
+mugginess
+nimbus
+nippy
+occluded front
+overcast
+partly cloudy
+permafrost
+petrichor
+precipitation
+pressure
+rain
+rainbow
+rime
+sandstorm
+sheet lightning
+shower
+sirocco
+sleet
+slush
+smog
+snow
+snowstorm
+squall
+storm
+storm surge
+stormy
+stratus
+sultry
+sun
+sunburst
+sundog
+sunny
+sunrise
+sunset
+sunshine
+supercell
+tailwind
+temperature
+thaw
+thermometer
+thunder
+thunderbolt
+thunderstorm
+tornado
+trade winds
+tropical storm
+turbulence
+twister
+typhoon
+updraft
+virga
+warm front
+waterspout
+whirlwind
+whiteout
+wildfire weather
+wind
+windchill
+windy
+zephyr
