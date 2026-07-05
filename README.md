@@ -6,14 +6,14 @@ percentile per cognitive category. Private by default. No gamification sugar.
 
 **Open source (AGPL-3.0) · self-hostable · privacy-first · radically transparent.**
 Excogni is built to be the honest one: the scoring formulas are published in-app
-(`/formulas`), data is anonymous and aggregate-only by default with layered consent, and
+(`/methodology`), data is anonymous and aggregate-only by default with layered consent, and
 nothing is sold. It's also a *state-tracking* instrument - not only "train your score" but
 "how am I functioning today?", closing the loop with a short per-session check-in.
 
 - **Self-host it:** `docker compose up --build` → http://localhost:3000
 - **Contributing:** see [CONTRIBUTING.md](CONTRIBUTING.md)
 - **Security:** see [SECURITY.md](SECURITY.md)
-- **How scoring works:** [DOCUMENTATION.md](DOCUMENTATION.md) and the in-app `/formulas` page
+- **How scoring works:** [DOCUMENTATION.md](DOCUMENTATION.md) and the in-app `/methodology` page
 - **Known limitations:** see the section near the end of this README - read it, it's honest.
 
 ## Quickstart
@@ -47,7 +47,7 @@ What you get out of the box:
 ### A note on Estimation scoring
 
 Estimation is the one category that does **not** use right/wrong scoring. Your
-guess is converted to a normalized error (`|guess − actual| / |actual|`) and
+guess is converted to a normalized error (`|guess - actual| / |actual|`) and
 scored on a single axis: how your error ranks against everyone else's error on
 the *same* item. Closer than most → higher score. No tolerance bands, no tiers
 of "how wrong" - the population defines what counts as close. Until a challenge
@@ -70,7 +70,7 @@ npm run dev                    # http://localhost:5173
 
 - With `DEV_EXPOSE_MAGIC_LINKS=true` (default in dev), the link is rendered directly
   on the login page after you request it. No SMTP needed.
-- Links are also always readable from the database:
+- Since v0.66.0 a link can NOT be reconstructed from the database (tokens are stored hashed):
 
   ```sql
   -- since v0.66.0 the DB stores only sha256(token): a link can NOT be reconstructed
@@ -115,8 +115,8 @@ and disclosure-control specialist would each demand:
 
 - **Construct-valid executive scores** - raw accuracy on Stroop/switching conflates
   the executive component with general speed. Stats now show the **interference
-  score** (incongruent − congruent) for inhibition and the **switch cost**
-  (switch − repeat) for task switching, which isolate the actual construct.
+  score** (incongruent - congruent) for inhibition and the **switch cost**
+  (switch - repeat) for task switching, which isolate the actual construct.
 - **Standard error of measurement** - individual ratings render as `rating ± SEM`,
   with the band shrinking as attempts accumulate. A score is never a point; the
   uncertainty is shown, not hidden (the same discipline as the reaction-time band).
@@ -144,9 +144,9 @@ Four more categories round out the battery toward a fuller cognitive map:
 
 - **Retrieval Fluency** (`retrieval_fluency`, Retrieval domain) - "name as many X
   as you can" in a time window; scored by count of valid unique answers against a
-  curated accept-list. Probes long-term-memory retrieval, the half Retention
-  doesn't cover. *(Accept-lists are finite for alpha; a dictionary/category API is
-  the obvious later hardening.)*
+  categorized topic wordlist (40 lists, plural and near-miss tolerant, fail-open
+  to the item's baked accept-list; shipped v0.65.0). Probes long-term-memory
+  retrieval, the half Retention doesn't cover.
 - **Verbal Fluency** (`verbal_fluency`, Verbal domain) - constrained word
   generation ("words starting with TR", "words ending in TION"); a classic,
   sensitive measure of lexical access and executive search.
@@ -273,8 +273,9 @@ special-category data and needs separate consent and legal review.
   digit (1-4) instead of clicking. Rotation tasks no longer need a mouse.
 - **Personal records**: peak rating and max level per category, each with the
   date reached - a chess-style high-water mark, shown in Stats.
-- **Cognitive profile (radar)**: a domain-level fingerprint across five cognitive
-  domains (Fluid Reasoning, Processing Speed, Memory, Quantitative, Verbal).
+- **Cognitive profile (radar)**: a domain-level fingerprint across eleven cognitive
+  domains (Fluid Reasoning, Processing Speed, Memory, Quantitative, Verbal,
+  Executive Function, Retention, Retrieval, Visual, Reaction, Strategic Planning).
   Categories aggregate into domains (confidence-weighted); the domain→category
   mapping is data (`categories.domain`), so new categories just declare a domain
   and the chart stays legible. Unrated axes render dim, never as a false zero.
@@ -342,7 +343,7 @@ arbitrary addresses. Exceeding the limit returns HTTP 429 with a friendly messag
   clamps the client-reported elapsed time into `[300ms, server-observed elapsed]`.
   Answers are validated server-side; answer data never reaches the browser.
 - **Adaptive ladder**: fast-correct +2 levels, normal-correct +1, slow-correct 0,
-  wrong −1, consecutive wrong −2.
+  wrong -1, consecutive wrong -2.
 - **Stable level**: highest level with ≥3 attempts and ≥65% accuracy in the recent
   window (last 40 attempts).
 - **Rating**: a monotone summary of stable level, recent accuracy, and pace,
@@ -402,9 +403,10 @@ Excogni's whole character is being honest about what it is and isn't. So, plainl
 - **It is not clinically validated.** It is not a diagnostic tool and makes no medical claims.
   The ratings are an internally consistent, Elo-style measure of performance on *these tasks* - whether they correlate with real-world cognition is exactly the kind of validation that still
   needs doing (test-retest reliability, external validity, expert psychometric review).
-- **Fluency (word-list) scoring is imperfect.** Letter-fluency validates by rule (can over-
-  accept), category-fluency uses a finite accept-list (can reject valid words). This is a known,
-  deliberated design tension, recorded on the project roadmap.
+- **Fluency (word-list) scoring is imperfect.** Letter-fluency is dictionary-checked (EN,
+  can still reject very rare words), category-fluency uses finite topic wordlists (generous,
+  plural-tolerant, but a valid obscure word may not count). A known, deliberated design
+  tension; Croatian wordlists remain a roadmap item.
 - **Public-statistics suppression handles single dimensions.** Combining breakdowns could in
   principle infer a suppressed small group (differencing). Mitigated by offering single-dimension
   breakdowns in v1; fuller protection is a roadmap item. See DOCUMENTATION.md §8b.
