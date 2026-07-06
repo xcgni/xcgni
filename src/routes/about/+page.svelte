@@ -72,7 +72,7 @@
     <p class="text-sm leading-relaxed text-muted">
       The instrument, the <a href="/statistics" class="text-accent hover:underline">global statistics</a>, and the tools are free and open to everyone.
       The aggregate picture is a public good; how every number is computed is
-      <a href="/formulas" class="text-accent hover:underline">published openly</a>. The
+      <a href="/methodology" class="text-accent hover:underline">published openly</a>. The
       project is funded by people who choose to support it, not by ads, paywalls on the
       cause, or selling your data - when someone contributes, they keep the commons open
       for everyone, including those who pay nothing. <a href="/support" class="text-accent hover:underline">How support works →</a>

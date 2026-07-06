@@ -107,7 +107,7 @@
       people who consented to aggregate research, and any group too small to show without
       risking someone's anonymity is withheld. No individual is ever shown. This is the
       commons the project keeps free; how every number is computed is
-      <a href="/formulas" class="text-accent hover:underline">published openly</a>.
+      <a href="/methodology" class="text-accent hover:underline">published openly</a>.
     </p>
     <p class="max-w-2xl text-xs leading-relaxed text-muted">
       One caveat worth keeping in mind: these users are mostly people who actively seek out
@@ -422,6 +422,6 @@
 
   <div class="flex gap-3 pt-2">
     <a href="/practice" class="btn-primary">Start practising</a>
-    <a href="/formulas" class="btn">How it works</a>
+    <a href="/methodology" class="btn">How it works</a>
   </div>
 </div>

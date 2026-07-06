@@ -6,25 +6,29 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
-## v1.0.0 - Public
+## v1.0.1 - Payments off for launch; changelog and dead links fixed
 
-Deployed, smoke-tested end to end on production (15/15), admin TOTP verified live, the blind
-email index active with zero plaintext addresses remaining. The source is public:
-https://github.com/xcgni/xcgni (AGPL), linked from the footer, README, and /about.
-
-- Alpha-phase security tester credited: Domagoj Špiranec (/contributions, README) - alongside
-  Matea Berišić and Vladimir Anić.
-- 1.0.0 means what semver says it means: self-hosters can rely on the schema and env contract;
-  breaking changes will bump the major.
+- **Payment rails disabled.** No entity, no GitHub Sponsors, no Liberapay for the HN launch,
+  so the support page no longer shows pay buttons that go nowhere. It now asks only for the
+  help that costs nothing and matters most right now: register and consent (feed the commons),
+  star or fork the repo, report holes, share it. The money part is stated honestly as a
+  later step, gated on a real legal entity and announced here when it happens.
+- **Merged the duplicate v1.0.0 changelog entries** into one (two had been committed).
+- **Fixed dead /formulas links** across the support, statistics, and about pages - the route
+  was merged into /methodology a while back; these still pointed at the old path and would
+  have 404'd for launch visitors.
 ## v1.0.0 - Public launch
 
-Excogni is open source and live. The instrument, the methodology (m1, formulas + limitations
-published), and the population statistics are open to everyone; the code is AGPL at
-https://github.com/xcgni/xcgni.
+Excogni is open source and live. Deployed and smoke-tested end to end on production (15/15),
+admin TOTP verified live, the blind email index active with zero plaintext addresses
+remaining. The instrument, the methodology (m1, formulas + limitations published), and the
+population statistics are open to everyone; the code is AGPL at https://github.com/xcgni/xcgni,
+linked from the footer, README, and /about.
 
 - Alpha-phase security testing credited: Domagoj Špiranec joins Matea Berišić and Vladimir
   Anić on /contributions and in the README.
-- Repository linked from the footer, /about, and the README.
+- 1.0.0 means what semver says it means: self-hosters can rely on the schema and env contract,
+  and breaking changes will bump the major.
 - Everything the 0.6x line built toward is in place: hashed bearer tokens, the blind email
   index (the readable address is never stored), admin TOTP, the awaited-guard test that pins
   the one real hole the audit found, categorized semantic wordlists, the redesigned statistics
@@ -32,6 +36,7 @@ https://github.com/xcgni/xcgni.
   verified this release.
 
 The version number changes; the principle does not. A shape, not a score.
+
 ## v0.67.8 - The admin login page discloses nothing
 
 The login form is now identical whether or not TOTP is configured: the setup hint that told
