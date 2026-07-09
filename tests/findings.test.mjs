@@ -67,3 +67,40 @@ function ok(name, cond, detail = '') { if (cond) pass++; else { fail++; console.
 console.log(`\nFindings tests: ${pass} passed, ${fail} failed`);
 console.log(fail === 0 ? 'ALL FINDINGS TESTS PASSED' : 'FINDINGS TESTS FAILED');
 if (fail > 0) process.exit(1);
+
+// --- v1.8.0 (J5): context findings - sleep & caffeine gates ---
+{
+  const { gateSleep, gateCaffeine } = await import('../src/lib/server/insights/findings-core.ts');
+  let p3 = 0, f3 = 0;
+  const ok3 = (name, cond, detail = '') => { if (cond) p3++; else { f3++; console.log('  FAIL:', name, detail); } };
+
+  ok3('sleep: locked with one band', gateSleep([{ band: 'rested (6.5h+)', n: 80, mean: 0.8, sd: 0.2 }]).unlocked === false);
+  {
+    const f = gateSleep([
+      { band: 'rested (6.5h+)', n: 60, mean: 0.82, sd: 0.16 },
+      { band: 'short-sleep (<6.5h)', n: 40, mean: 0.71, sd: 0.19 }
+    ]);
+    ok3('sleep: unlocks with effect', f.unlocked === true && f.effect > 0.25, JSON.stringify(f));
+    ok3('sleep: sentence names both bands', /rested/.test(f.sentence) && /short-sleep/.test(f.sentence));
+    ok3('sleep: caveat says association not cause', /association/i.test(f.detail) && /not cause/i.test(f.detail));
+  }
+  {
+    const f = gateSleep([
+      { band: 'rested (6.5h+)', n: 60, mean: 0.75, sd: 0.2 },
+      { band: 'short-sleep (<6.5h)', n: 60, mean: 0.745, sd: 0.2 }
+    ]);
+    ok3('sleep: null result honest', f.unlocked === true && f.effect === 0 && /indistinguishable/.test(f.sentence));
+  }
+  {
+    const f = gateCaffeine([
+      { band: 'no-caffeine', n: 45, mean: 0.70, sd: 0.18 },
+      { band: 'high-caffeine', n: 50, mean: 0.79, sd: 0.17 }
+    ]);
+    ok3('caffeine: unlocks and best band leads', f.unlocked === true && /high-caffeine days run/.test(f.sentence), f.sentence);
+    ok3('caffeine: reverse-causation caveat present', /FOLLOW/.test(f.detail));
+  }
+
+  console.log(`Context-findings tests: ${p3} passed, ${f3} failed`);
+  if (f3 > 0) { console.log('CONTEXT-FINDINGS TESTS FAILED'); process.exit(1); }
+  console.log('ALL CONTEXT-FINDINGS TESTS PASSED');
+}

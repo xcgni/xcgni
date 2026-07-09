@@ -1,5 +1,5 @@
 import { pg } from '$lib/server/db';
-import { gateTimeOfDay, gateLearningCurve, gatePosition, type Finding } from './findings-core';
+import { gateTimeOfDay, gateLearningCurve, gatePosition, gateSleep, gateCaffeine, type Finding } from './findings-core';
 
 /**
  * Personal findings (v1.5.0): the instrument starts SPEAKING, not just displaying.
@@ -65,6 +65,53 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
     GROUP BY 1
   `;
   out.push(gatePosition(pos as { bucket: string; n: number; mean: number; sd: number }[]));
+
+  // F4 - sleep (J5): same-day pairing of pre-session sleep hours with attempt scores.
+  // Short vs rested at a 6.5h line; the context row is the day's first (sleep is asked
+  // once per local day). Day-level association only - the gate's wording says so.
+  const sleep = await pg`
+    WITH day_sleep AS (
+      SELECT user_id, local_date, max(sleep_hours) AS sleep_hours
+      FROM session_context
+      WHERE user_id = ${userId} AND sleep_hours IS NOT NULL AND local_date IS NOT NULL
+      GROUP BY user_id, local_date
+    )
+    SELECT CASE WHEN ds.sleep_hours < 6.5 THEN 'short-sleep (<6.5h)' ELSE 'rested (6.5h+)' END AS band,
+           count(*)::int AS n,
+           avg(a.score)::float AS mean,
+           coalesce(stddev_samp(a.score), 0)::float AS sd
+    FROM attempts a
+    JOIN day_sleep ds
+      ON ds.user_id = a.user_id
+     AND ds.local_date = make_date(a.local_year, a.local_month, a.local_day)
+    WHERE a.user_id = ${userId} AND a.status = 'answered' AND a.score IS NOT NULL
+      AND a.local_year IS NOT NULL
+    GROUP BY 1
+  `;
+  out.push(gateSleep(sleep as { band: string; n: number; mean: number; sd: number }[]));
+
+  // F5 - caffeine (J5): the day's strongest reported level paired with that day's scores.
+  const caffeine = await pg`
+    WITH day_caf AS (
+      SELECT user_id, local_date,
+             max(CASE caffeine WHEN 'lots' THEN 2 WHEN 'some' THEN 1 ELSE 0 END) AS lvl
+      FROM session_context
+      WHERE user_id = ${userId} AND caffeine IS NOT NULL AND local_date IS NOT NULL
+      GROUP BY user_id, local_date
+    )
+    SELECT CASE dc.lvl WHEN 2 THEN 'high-caffeine' WHEN 1 THEN 'some-caffeine' ELSE 'no-caffeine' END AS band,
+           count(*)::int AS n,
+           avg(a.score)::float AS mean,
+           coalesce(stddev_samp(a.score), 0)::float AS sd
+    FROM attempts a
+    JOIN day_caf dc
+      ON dc.user_id = a.user_id
+     AND dc.local_date = make_date(a.local_year, a.local_month, a.local_day)
+    WHERE a.user_id = ${userId} AND a.status = 'answered' AND a.score IS NOT NULL
+      AND a.local_year IS NOT NULL
+    GROUP BY 1
+  `;
+  out.push(gateCaffeine(caffeine as { band: string; n: number; mean: number; sd: number }[]));
 
   return out;
 }

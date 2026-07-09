@@ -6,6 +6,25 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.8.0 - Context findings: the answers you already gave start speaking (J5)
+
+The pre-session questions (sleep, caffeine) have been collecting quietly since the context
+system shipped; now they pay rent. Two new personal findings on /stats:
+
+- **Sleep**: your scores on short-sleep days (<6.5h) vs rested days (6.5h+), paired at the
+  day level from your own pre-session answers. Same bars as every finding: 30+ answered
+  items per compared group AND effect d >= 0.25, locked below with exact unlock hints.
+- **Caffeine**: the day's strongest reported level (none / some / lots) vs that day's
+  scores, with the reverse-causation caveat stated in the detail - caffeine choices often
+  FOLLOW how a day already feels.
+- Both are day-level associations and say so; no causal language anywhere. Null results
+  are published as findings ("statistically indistinguishable"). The band machinery is now
+  a generic gate in the pure core (gatePersonalBands) with sleep and caffeine as thin
+  wrappers - 7 new unit checks pin locked/unlocked/null/caveat behavior. Suites: 24, checks
+  grow.
+
+No migration, no new tables - this release is a query and a sentence. The cheapest killer
+on the list, exactly as planned.
 ## v1.7.0 - Item statistics published + the stats page grows senses
 
 **Item statistics (/statistics/items)** - classical test theory for the bank, in public:

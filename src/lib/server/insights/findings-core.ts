@@ -131,3 +131,59 @@ export function gatePosition(buckets: Pos[]): Finding {
     detail: `Start ${start.mean.toFixed(2)} (n=${start.n}) vs late ${late.mean.toFixed(2)} (n=${late.n}), d=${d.toFixed(2)}. ${d > 0 ? 'A warm-up pattern.' : 'A fatigue-like pattern.'} The task mix within sessions rides along - association, not cause.`
   };
 }
+
+// ---------------------------------------------------------------------------
+// v1.8.0 - context findings (J5): the same band machinery, generalized, applied
+// to self-reported context (sleep, caffeine) paired with same-day scores.
+// Day-level association ONLY, and the wording says so.
+// ---------------------------------------------------------------------------
+
+export function gatePersonalBands(
+  id: string,
+  title: string,
+  noun: string,
+  bands: Band[],
+  extraCaveat: string
+): Finding {
+  const eligible = bands.filter((b) => b.n >= MIN_N_BAND);
+  if (eligible.length < 2) {
+    const have = bands.map((b) => `${b.band} ${Math.min(b.n, MIN_N_BAND)}/${MIN_N_BAND}`).join(', ');
+    return {
+      id, title, unlocked: false, effect: null,
+      sentence: `Unlocks with ${MIN_N_BAND}+ answered items on at least two kinds of ${noun} days.`,
+      detail: have ? `So far: ${have}.` : `No ${noun}-tagged sessions yet - the pre-session question feeds this.`
+    };
+  }
+  const sorted = [...eligible].sort((a, b) => b.mean - a.mean);
+  const best = sorted[0], worst = sorted[sorted.length - 1];
+  const d = cohensD(best.mean, best.sd, best.n, worst.mean, worst.sd, worst.n);
+  if (Math.abs(d) < MIN_D) {
+    return {
+      id, title, unlocked: true, effect: 0,
+      sentence: `No reliable ${noun} pattern: your scores across ${sorted.map((b) => b.band).join(' and ')} days are statistically indistinguishable.`,
+      detail: `Compared ${eligible.map((b) => `${b.band} (n=${b.n})`).join(' vs ')}; effect below the reporting bar (|d| < ${MIN_D}). A boring result is still a result.`
+    };
+  }
+  const rel = worst.mean !== 0 ? (best.mean - worst.mean) / Math.abs(worst.mean) : 0;
+  return {
+    id, title, unlocked: true, effect: d,
+    sentence: `Your scores on ${best.band} days run ${pct(rel)} above ${worst.band} days.`,
+    detail: `${best.band}: mean ${best.mean.toFixed(2)} (n=${best.n}) vs ${worst.band}: ${worst.mean.toFixed(2)} (n=${worst.n}), d=${d.toFixed(2)}. ${extraCaveat}`
+  };
+}
+
+export function gateSleep(bands: Band[]): Finding {
+  return gatePersonalBands(
+    'sleep', 'Sleep', 'sleep',
+    bands,
+    'Day-level association from your own pre-session answers, not cause - what you did that day, the task mix, and how honestly the hours were reported all ride along.'
+  );
+}
+
+export function gateCaffeine(bands: Band[]): Finding {
+  return gatePersonalBands(
+    'caffeine', 'Caffeine', 'caffeine',
+    bands,
+    'Day-level association from your own pre-session answers, not cause - and caffeine choices often FOLLOW how a day already feels.'
+  );
+}
