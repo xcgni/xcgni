@@ -2,7 +2,7 @@
 //   $lib/x                  -> src/lib/x(.ts|/index.ts)
 //   $env/dynamic/private    -> tests-db/shims/env.mjs (process.env)
 // Runs together with --experimental-strip-types, which handles the .ts parsing.
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -29,4 +29,14 @@ export async function resolve(specifier, context, nextResolve) {
     }
   }
   return nextResolve(specifier, context);
+}
+
+// Vite lets app code import .json bare; bare Node ESM demands `with { type: 'json' }`.
+// Rather than touch app source for a test concern, serve any .json as an ES module here.
+export async function load(url, context, nextLoad) {
+  if (url.endsWith('.json')) {
+    const source = `export default ${readFileSync(new URL(url), 'utf8')};`;
+    return { format: 'module', source, shortCircuit: true };
+  }
+  return nextLoad(url, context);
 }

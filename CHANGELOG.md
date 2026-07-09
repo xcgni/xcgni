@@ -6,6 +6,19 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.12.1 - The maiden voyage finds a dialect gap
+
+The repo went public-current (17 replayed releases, tags and all) and CI ran the
+integration job for the first time. Unit tests: green. Build: green. Integration: red in
+53 seconds - and usefully so. The server import chain contains a bare JSON import, which
+Vite accepts but bare Node ESM refuses without an import attribute. The environment gap
+was honest: locally the test skips before touching the chain when no database is set, so
+only a real CI run could surface it.
+
+Fix where it belongs: the test loader (tests-db/loader.mjs) gains a load hook that serves
+any .json as an ES module, so app source stays untouched by a test-harness concern. The
+Node 20 deprecation notes in the same run are GitHub's own action-runtime noise, tracked
+with the lockfile work.
 ## v1.12.0 - Context reconciled: one vocabulary, and tags that pay rent
 
 A research pass over what influences cognitive performance (and how to capture it without
