@@ -110,6 +110,15 @@
   <section id="limitations" class="flex flex-col gap-3">
     <p class="label">Limitations - read before drawing conclusions</p>
       <p class="text-sm leading-relaxed text-muted">
+        Context capture: sessions can optionally carry self-reported context - sleep hours,
+        caffeine, mood, and a controlled vocabulary of tags (music, exercise, after work,
+        illness and similar). All of it is skippable, private to the user, and used only for
+        the user's own comparisons; it never enters cross-user statistics. Tags are a fixed,
+        versioned vocabulary like the formulas - retired tags remain readable, and slugs are
+        never reused with new meanings. One honest note: measuring context changes behavior
+        slightly (people notice their coffee); we accept that and say it here.
+      </p>
+      <p class="text-sm leading-relaxed text-muted">
         The bank itself is audited in public: per-challenge difficulty and discrimination are
         published on the <a href="/statistics/items" class="text-accent hover:underline">item
         statistics</a> page, so weak items are visible to anyone, not just the maintainer.

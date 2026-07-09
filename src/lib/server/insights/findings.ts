@@ -1,5 +1,5 @@
 import { pg } from '$lib/server/db';
-import { gateTimeOfDay, gateLearningCurve, gatePosition, gateSleep, gateCaffeine, type Finding } from './findings-core';
+import { gateTimeOfDay, gateLearningCurve, gatePosition, gateSleep, gateCaffeine, gateTagDays, type Finding } from './findings-core';
 
 /**
  * Personal findings (v1.5.0): the instrument starts SPEAKING, not just displaying.
@@ -112,6 +112,37 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
     GROUP BY 1
   `;
   out.push(gateCaffeine(caffeine as { band: string; n: number; mean: number; sd: number }[]));
+
+  // F6/F7 - tag findings (day-fold: any tagged session marks the day). The tag system is
+  // private self-tracking; these findings are its payoff. Music first (population evidence
+  // is genuinely heterogeneous - personal data beats general advice here), then the
+  // after-work hypothesis.
+  const tagBands = async (slug: string, onLabel: string, offLabel: string) => {
+    const rows = await pg`
+      WITH day_tag AS (
+        SELECT user_id, local_date, bool_or(${slug} = ANY(coalesce(tags, '{}'))) AS tagged
+        FROM session_context
+        WHERE user_id = ${userId} AND local_date IS NOT NULL
+        GROUP BY user_id, local_date
+      )
+      SELECT CASE WHEN dt.tagged THEN ${onLabel} ELSE ${offLabel} END AS band,
+             count(*)::int AS n,
+             avg(a.score)::float AS mean,
+             coalesce(stddev_samp(a.score), 0)::float AS sd
+      FROM attempts a
+      JOIN day_tag dt
+        ON dt.user_id = a.user_id
+       AND dt.local_date = make_date(a.local_year, a.local_month, a.local_day)
+      WHERE a.user_id = ${userId} AND a.status = 'answered' AND a.score IS NOT NULL
+        AND a.local_year IS NOT NULL
+      GROUP BY 1
+    `;
+    return rows as { band: string; n: number; mean: number; sd: number }[];
+  };
+  out.push(gateTagDays('tag_music', 'Music', 'Music',
+    await tagBands('music', 'music', 'no-music')));
+  out.push(gateTagDays('tag_after_work', 'After work', 'After work',
+    await tagBands('after-work', 'after-work', 'other')));
 
   return out;
 }

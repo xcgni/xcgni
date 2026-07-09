@@ -6,6 +6,31 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.12.0 - Context reconciled: one vocabulary, and tags that pay rent
+
+A research pass over what influences cognitive performance (and how to capture it without
+burden) led to reconciling the pre-session questionnaire and the session tags into one
+coherent context model. The full review lives with the maintainer; what shipped:
+
+- **The duplication is gone.** Fourteen tags that duplicated questionnaire dimensions or
+  derivable facts (poor/short/good/long sleep, nap, coffee, high-caffeine, energy drink,
+  hungry, hydrated, dehydrated, tired, happy, first-today) are retired from the UI. The
+  principle: hours and amounts are ASKED once as typed dimensions; tags carry only what
+  numbers cannot. Historical rows keep their retired tags valid and labeled forever -
+  slugs are never reused with new meanings, the same discipline as formula versions.
+- **Three tags added** on evidence and hypothesis: "Music playing" (the literature is
+  genuinely heterogeneous - lyrics reliably hurt verbal and memory tasks, instrumental is
+  near-neutral on easy ones, individual differences dominate - which is exactly when
+  personal data beats general advice), "Right after work", and "After a long
+  conversation".
+- **Tags now produce findings.** Two new gated personal findings on /stats: Music days
+  vs no-music days, and after-work days vs others - day-level fold (any tagged session
+  marks the day, stated in the caveat), same bars as every finding, null results
+  published. The tag system stops being a diary and starts being an instrument.
+- Methodology gains a context-capture paragraph: optional, private, never in cross-user
+  statistics, versioned vocabulary, and the reactivity note said out loud (measuring
+  context changes behavior slightly; we accept that).
+- 4 new unit checks pin the tag-fold gate. Personal findings: seven.
 ## v1.11.0 - Tower of Hanoi: strategic planning gets a playable game
 
 The fourth planning kind, and the first fully interactive one: 80 Tower of Hanoi puzzles

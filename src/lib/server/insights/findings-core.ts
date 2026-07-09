@@ -226,3 +226,14 @@ export function forecastFromBands(bands: Band[], nowHour: number): Forecast | nu
   }
   return { line: `Historically, your strongest window is the ${best.band} (${pct(rel)} vs your ${worst.band}s).`, detail };
 }
+
+// v1.12.0 - tag findings: a tagged-days vs untagged-days comparison through the same
+// band machinery. Day-grain fold (any session that day carried the tag), stated in the
+// caveat so run-grain and day-grain claims never blur.
+export function gateTagDays(id: string, title: string, tagLabel: string, bands: Band[]): Finding {
+  return gatePersonalBands(
+    id, title, tagLabel.toLowerCase(),
+    bands,
+    `Day-level fold: a day counts as "${tagLabel}" if ANY session that day carried the tag. Association from your own tagging, not cause - and what makes a day taggable often shapes the day itself.`
+  );
+}

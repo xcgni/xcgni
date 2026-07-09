@@ -135,3 +135,24 @@ if (fail > 0) process.exit(1);
   if (f4 > 0) { console.log('WEATHER TESTS FAILED'); process.exit(1); }
   console.log('ALL WEATHER TESTS PASSED');
 }
+
+// --- v1.12.0: tag findings (day-fold) ---
+{
+  const { gateTagDays } = await import('../src/lib/server/insights/findings-core.ts');
+  let p6 = 0, f6 = 0;
+  const ok6 = (name, cond, d = '') => { if (cond) p6++; else { f6++; console.log('  FAIL:', name, d); } };
+  ok6('tag: locked with one band', gateTagDays('t', 'Music', 'Music', [{ band: 'music', n: 90, mean: 0.8, sd: 0.2 }]).unlocked === false);
+  const f = gateTagDays('t', 'Music', 'Music', [
+    { band: 'music', n: 50, mean: 0.68, sd: 0.18 },
+    { band: 'no-music', n: 70, mean: 0.79, sd: 0.16 }
+  ]);
+  ok6('tag: unlocks with effect, best band leads', f.unlocked === true && /no-music days run/.test(f.sentence), f.sentence);
+  ok6('tag: day-fold caveat stated', /Day-level fold/.test(f.detail) && /ANY session/.test(f.detail));
+  ok6('tag: null honest', gateTagDays('t', 'Music', 'Music', [
+    { band: 'music', n: 60, mean: 0.75, sd: 0.2 },
+    { band: 'no-music', n: 60, mean: 0.751, sd: 0.2 }
+  ]).effect === 0);
+  console.log(`Tag-findings tests: ${p6} passed, ${f6} failed`);
+  if (f6 > 0) { console.log('TAG-FINDINGS TESTS FAILED'); process.exit(1); }
+  console.log('ALL TAG-FINDINGS TESTS PASSED');
+}
