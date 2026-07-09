@@ -6,6 +6,25 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.3.1 - Two new test suites: the bank gets audited, modules get invoked
+
+Both born from real incidents, encoding their lesson permanently. Suites: 21.
+
+- **tests/bank-integrity.test.mjs**: content is data, so the data now has a test suite. All
+  3294 bank items across 17 files validated against per-renderer field contracts (choice
+  items must have an in-range integer answer index, memory items digits and a display time,
+  fluency items a validity source, numeric items an answer or an estimation trueValue), plus
+  bankKey global uniqueness. The crown: every strategic_planning item of ALL three kinds is
+  independently re-solved (BFS over the op set for number paths, BFS over the maze for grid
+  paths, permutation check for orderings) and must match its shipped optimum exactly - the
+  check the original number-path suite never had. First run immediately proved its worth by
+  forcing the contracts to be written down accurately (levels legitimately reach 15;
+  arithmetic prompts carry an expression, not an instruction; estimation carries trueValue).
+- **tests/module-smoke.test.mjs**: imports every environment-free server module and INVOKES
+  its pure surfaces - every log helper is actually called, the graders grade, the cache
+  round-trips, TOTP verifies, validateAnswer validates. Exists because the v1.1.1 maskForLog
+  incident was invisible to static scanning and to import alone: the call site shipped, the
+  definition did not, and it only crashed on call. So now, every release, it gets called.
 ## v1.3.0 - Strategic planning grows verbal and visual suites
 
 Planning was measured through one lens (number paths). Two more, same deliberate philosophy
