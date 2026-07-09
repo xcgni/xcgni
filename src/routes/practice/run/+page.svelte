@@ -619,19 +619,44 @@
         <div class="w-full text-center">
           {#if isPlanning}
             <p class="label mb-3">{challenge.promptData.instruction}</p>
-            <div class="mb-4 flex items-center justify-center gap-3 font-mono text-3xl sm:text-4xl">
-              <span class="text-body">{challenge.promptData.start}</span>
-              <span class="text-muted">→</span>
-              <span class="text-accent">{challenge.promptData.target}</span>
-            </div>
-            <p class="label mb-2">Allowed steps</p>
-            <div class="mb-3 flex flex-wrap justify-center gap-2">
-              {#each (challenge.promptData.allowed ?? []) as op}
-                <button type="button" class="rounded border border-edge px-3 py-1 font-mono text-sm text-muted hover:border-accent hover:text-accent"
-                  on:click={() => { answer = answer && !/[,\s]$/.test(answer) ? answer + ', ' + op : answer + op; }}>{op}</button>
-              {/each}
-            </div>
-            <p class="text-xs text-muted">{challenge.promptData.hint}</p>
+            {#if challenge.promptData.kind === 'step_order'}
+              <div class="mx-auto mb-3 flex max-w-md flex-col gap-2 text-left">
+                {#each (challenge.promptData.steps ?? []) as st}
+                  <button type="button" class="rounded border border-edge px-3 py-2 text-left text-sm text-body hover:border-accent"
+                    on:click={() => { const letter = st.slice(0, 1); if (!answer.toUpperCase().includes(letter)) answer = answer ? answer + ', ' + letter : letter; }}>{st}</button>
+                {/each}
+              </div>
+              <p class="text-xs text-muted">{challenge.promptData.hint}</p>
+            {:else if challenge.promptData.kind === 'grid_path'}
+              <div class="mb-3 flex justify-center">
+                <div class="panel p-3">
+                  {#each (challenge.promptData.rows ?? []) as row}
+                    <div class="font-mono text-xl leading-relaxed tracking-[0.4em] sm:text-2xl">{#each row.split('') as ch}<span class={ch === 'S' ? 'text-accent' : ch === 'T' ? 'text-good' : ch === '#' ? 'text-body' : 'text-edge'}>{ch}</span>{/each}</div>
+                  {/each}
+                </div>
+              </div>
+              <div class="mb-3 flex flex-wrap justify-center gap-2">
+                {#each ['U', 'D', 'L', 'R'] as mv}
+                  <button type="button" class="rounded border border-edge px-4 py-1 font-mono text-sm text-muted hover:border-accent hover:text-accent"
+                    on:click={() => { answer = answer && !/[,\s]$/.test(answer) ? answer + ', ' + mv : answer + mv; }}>{mv}</button>
+                {/each}
+              </div>
+              <p class="text-xs text-muted">{challenge.promptData.hint}</p>
+            {:else}
+              <div class="mb-4 flex items-center justify-center gap-3 font-mono text-3xl sm:text-4xl">
+                <span class="text-body">{challenge.promptData.start}</span>
+                <span class="text-muted">→</span>
+                <span class="text-accent">{challenge.promptData.target}</span>
+              </div>
+              <p class="label mb-2">Allowed steps</p>
+              <div class="mb-3 flex flex-wrap justify-center gap-2">
+                {#each (challenge.promptData.allowed ?? []) as op}
+                  <button type="button" class="rounded border border-edge px-3 py-1 font-mono text-sm text-muted hover:border-accent hover:text-accent"
+                    on:click={() => { answer = answer && !/[,\s]$/.test(answer) ? answer + ', ' + op : answer + op; }}>{op}</button>
+                {/each}
+              </div>
+              <p class="text-xs text-muted">{challenge.promptData.hint}</p>
+            {/if}
           {:else if isMemory}
             {#if phase === 'memorize'}
               <p class="label mb-4">Memorize</p>
@@ -737,7 +762,8 @@
               bind:value={answer}
               on:keydown={onAnswerKeydown}
               disabled={phase !== 'answering'}
-              autocomplete="off" spellcheck="false" placeholder='your steps, e.g. *2, +3'
+              autocomplete="off" spellcheck="false"
+              placeholder={challenge.promptData.kind === 'step_order' ? 'the letters in order, e.g. C, A, D, B' : challenge.promptData.kind === 'grid_path' ? 'your moves, e.g. R, R, D, D' : 'your steps, e.g. *2, +3'}
               class="field text-center font-mono text-xl" aria-label="Your plan"
             />
             <button class="btn-primary" disabled={phase !== 'answering'} on:click={submitText}>Submit plan</button>

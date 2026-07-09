@@ -12,7 +12,7 @@ import {
   type ScoringConfig, type RecentAttempt
 } from '$lib/server/rating';
 import { levelBounds, validateAnswer } from '$lib/server/challenges';
-import { gradePlan } from './planning';
+import { gradePlan, gradeStepOrder, gradeGridPath } from './planning';
 import { METHODOLOGY_VERSION } from '$lib/methodology';
 
 // Mark a still-pending attempt as abandoned when the user leaves the page mid-challenge, so it isn't
@@ -365,9 +365,22 @@ export async function submitAttempt(
       : estError <= 0.15;
   } else if (isPlanning) {
     // strategic planning: replay the typed sequence; speed is irrelevant, quality (optimality) is
-    // what scores. Thinking slowly is free here by design.
-    const spec = challenge.answerData as { start?: number; target?: number; allowed?: string[]; optimalMoves?: number };
-    if (typeof spec.start === 'number' && typeof spec.target === 'number' && Array.isArray(spec.allowed)) {
+    // what scores. Thinking slowly is free here by design. Three kinds share the philosophy:
+    // number paths and grid paths replay-and-score-efficiency; step ordering is all-or-nothing
+    // (a procedure is either in a workable order or it is not).
+    const spec = challenge.answerData as {
+      start?: number; target?: number; allowed?: string[]; optimalMoves?: number;
+      correctOrder?: string; rows?: string[];
+    };
+    if (typeof spec.correctOrder === 'string') {
+      const res = gradeStepOrder(givenAnswer, { correctOrder: spec.correctOrder });
+      correct = res.correct;
+      score = scoreDeliberate(res.correct, { moves: spec.correctOrder.length, optimalMoves: spec.correctOrder.length });
+    } else if (Array.isArray(spec.rows)) {
+      const res = gradeGridPath(givenAnswer, { rows: spec.rows });
+      correct = res.correct;
+      score = scoreDeliberate(res.correct, { moves: res.moves, optimalMoves: spec.optimalMoves });
+    } else if (typeof spec.start === 'number' && typeof spec.target === 'number' && Array.isArray(spec.allowed)) {
       const res = gradePlan(givenAnswer, { start: spec.start, target: spec.target, allowed: spec.allowed });
       correct = res.correct;
       score = scoreDeliberate(res.correct, { moves: res.moves, optimalMoves: spec.optimalMoves });
@@ -569,9 +582,19 @@ export async function submitAttempt(
   if (isPlanning) {
     // planning puzzles have many valid solutions; don't reveal one. Show the goal + the best length,
     // which is the useful, non-spoiling feedback (and rewards finding a shorter path next time).
-    correctAnswerDisplay = answerData.optimalMoves != null
-      ? `reach ${answerData.target} - can be done in ${answerData.optimalMoves} step${answerData.optimalMoves === 1 ? '' : 's'}`
-      : `reach ${answerData.target}`;
+    // Step ordering is the exception: it has ONE workable order, so revealing it teaches.
+    if (typeof (answerData as { correctOrder?: string }).correctOrder === 'string') {
+      const co = (answerData as { correctOrder: string }).correctOrder;
+      correctAnswerDisplay = `workable order: ${co.split('').join(', ')}`;
+    } else if (Array.isArray((answerData as { rows?: string[] }).rows)) {
+      correctAnswerDisplay = answerData.optimalMoves != null
+        ? `reach T - can be done in ${answerData.optimalMoves} move${answerData.optimalMoves === 1 ? '' : 's'}`
+        : 'reach T';
+    } else {
+      correctAnswerDisplay = answerData.optimalMoves != null
+        ? `reach ${answerData.target} - can be done in ${answerData.optimalMoves} step${answerData.optimalMoves === 1 ? '' : 's'}`
+        : `reach ${answerData.target}`;
+    }
   } else if (isEstimation && typeof answerData.trueValue === 'number') {
     correctAnswerDisplay = `actual: ${answerData.trueValue}${estError != null ? ` (you were ${Math.round(estError * 100)}% off)` : ''}`;
   } else if (promptData.options && Array.isArray(promptData.options)) {

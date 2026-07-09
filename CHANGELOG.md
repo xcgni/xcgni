@@ -6,6 +6,29 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.3.0 - Strategic planning grows verbal and visual suites
+
+Planning was measured through one lens (number paths). Two more, same deliberate philosophy
+(no clock, thinking slowly is free), 200 new items:
+
+- **Step ordering (verbal), 80 items**: real-world procedures with strictly causal step
+  chains (each step physically requires the previous - boil before pour, dig before plant),
+  shown scrambled with letters; the answer is the letters in workable order. Twelve base
+  procedures sliced into 4-7 step items across levels 1-10. All-or-nothing scoring: a
+  procedure is either in a workable order or it is not. Feedback reveals the one correct
+  order - the exception to planning's no-spoiler rule, because here revealing teaches.
+- **Grid paths (visual), 120 items**: small mazes (S start, T target, # walls) rendered in
+  the instrument's mono grid; the answer is a move sequence (U/D/L/R, arrows, or words -
+  run-together "RRDD" works too). Graded by replay exactly like number paths: any legal
+  route that reaches T is correct, efficiency vs the BFS-known optimum is what scores.
+  Grids scale 4x4 to 8x8 with optimal lengths 3 to 15 across levels.
+- Both live under strategic_planning with tap-to-build chips (step buttons / move buttons)
+  plus free typing, and kind-aware answer placeholders.
+- New suite tests/planning-extra.test.mjs (24 checks): grader vectors for both kinds AND
+  bank integrity - every shipped grid item is independently re-solved by BFS and must match
+  its declared optimum exactly; every ordering item must be a clean single-use permutation.
+  One real bug caught by the suite before ship: arrow-key moves were being eaten by the
+  token splitter. Suites: 19.
 ## v1.2.0 - A proper quiz knowledge bank
 
 The Retention faculty gains an extensive general-knowledge deck set: 247 cards across 17

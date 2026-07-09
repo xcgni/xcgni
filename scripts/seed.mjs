@@ -83,6 +83,8 @@ const BANK_FILES = [
   'challenge-bank/working-memory/digit-span.levels.json',
   'challenge-bank/attention-control/target-count.levels.json',
   'challenge-bank/spatial-reasoning/figures.levels.json',
+  'challenge-bank/strategic-planning/step-order.levels.json',
+  'challenge-bank/strategic-planning/grid-path.levels.json',
   'challenge-bank/logical-reasoning/logic.levels.json',
   'challenge-bank/verbal-reasoning/verbal.en.levels.json',
   'challenge-bank/processing-speed/speed.levels.json',
