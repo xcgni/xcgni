@@ -347,6 +347,28 @@
           </div>
         {/if}
       </section>
+
+    <!-- Findings (v1.5.0): the instrument speaks. Each unlocks past its own statistical bar;
+         locked ones say exactly what is missing. Rare and correct beats chatty. -->
+    {#if data.findings && data.findings.length}
+      <section class="flex flex-col gap-3">
+        <h2 class="label flex items-center">Findings <Explain text="Personal patterns computed from your own attempts. Each finding unlocks only when it clears a minimum sample and effect size - below that, it tells you what would unlock it. Associations, never causes." /></h2>
+        <div class="flex flex-col gap-2">
+          {#each data.findings as f (f.id)}
+            <div class="panel flex flex-col gap-1 p-4 {f.unlocked ? '' : 'opacity-70'}">
+              <div class="flex items-baseline justify-between gap-3">
+                <p class="label">{f.title}</p>
+                {#if !f.unlocked}<span class="font-mono text-[10px] text-muted">locked</span>
+                {:else if f.effect === 0}<span class="font-mono text-[10px] text-muted">no effect</span>{/if}
+              </div>
+              <p class="text-sm {f.unlocked ? 'text-body' : 'text-muted'}">{f.sentence}</p>
+              <p class="text-xs text-muted">{f.detail}</p>
+            </div>
+          {/each}
+        </div>
+      </section>
+    {/if}
+
     {/if}
 
     <!-- 0. Cognitive fingerprint -->

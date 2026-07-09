@@ -271,7 +271,8 @@
         body: JSON.stringify({
           category: opts?.forCategory ?? categoryParam() ?? undefined,
           tz: Intl.DateTimeFormat().resolvedOptions().timeZone,
-          tzOffsetMin: new Date().getTimezoneOffset()
+          tzOffsetMin: new Date().getTimezoneOffset(),
+          pulse: data.isPulse === true ? true : undefined
         })
       });
       clearTimeout(killer);
@@ -579,14 +580,24 @@
 
   {#if phase === 'sessiondone'}
     <div class="panel flex min-h-[300px] flex-col items-center justify-center gap-6 p-8 text-center">
-      <p class="label">Regular session complete</p>
-      <p class="font-mono text-4xl">{SESSION_LENGTH}<span class="text-muted text-2xl"> done</span></p>
-      <p class="max-w-sm text-sm text-muted">That's a focused set. You can keep going, review what you just did, or stop here - all of it counts.</p>
-      <div class="flex flex-wrap justify-center gap-3">
-        <button class="btn-primary" on:click={continueSession}>Keep practicing</button>
-        <a class="btn" href="/practice/summary">See summary</a>
-        <a class="btn" href="/stats">Stats</a>
-      </div>
+      {#if data.isPulse}
+        <p class="label">Pulse complete</p>
+        <p class="font-mono text-4xl">{data.daysPracticed}<span class="text-muted text-2xl"> days practiced</span></p>
+        <p class="max-w-sm text-sm text-muted">Ninety seconds, measured and counted. Every day you show up adds a point to your stream - there is no chain to break.</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a class="btn-primary" href="/stats">See your stream</a>
+          <a class="btn" href="/practice/run">Full session</a>
+        </div>
+      {:else}
+        <p class="label">Regular session complete</p>
+        <p class="font-mono text-4xl">{SESSION_LENGTH}<span class="text-muted text-2xl"> done</span></p>
+        <p class="max-w-sm text-sm text-muted">That's a focused set. You can keep going, review what you just did, or stop here - all of it counts.</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <button class="btn-primary" on:click={continueSession}>Keep practicing</button>
+          <a class="btn" href="/practice/summary">See summary</a>
+          <a class="btn" href="/stats">Stats</a>
+        </div>
+      {/if}
     </div>
   {:else}
     <div class="panel relative flex min-h-[320px] flex-col items-center justify-center gap-8 p-6 sm:p-8 {flashClass}">

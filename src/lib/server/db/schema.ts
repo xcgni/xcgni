@@ -80,7 +80,8 @@ export const practiceSessions = pgTable('practice_sessions', {
   // per-session category mutes; the generator subtracts these for the session's remainder
   skippedCategories: text('skipped_categories').array().notNull().default([]),
   // Which modules this session included (e.g. ['retention','reaction']), for the summary's story.
-  modulesUsed: text('modules_used').array().notNull().default([])
+  modulesUsed: text('modules_used').array().notNull().default([]),
+  kind: text('kind').notNull().default('practice'),
 });
 
 export const attempts = pgTable('attempts', {

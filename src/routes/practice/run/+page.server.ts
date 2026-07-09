@@ -6,6 +6,10 @@ import { contextPlan } from '$lib/server/sessions/context';
 import { pg } from '$lib/server/db';
 
 export const load: PageServerLoad = async ({ locals, url }) => {
+  // Daily pulse mode (v1.5.0): a 90-second ritual - three adaptive items, no pre-session
+  // questionnaire, its own session kind. The run machinery is identical; only length and
+  // gates differ. Days-practiced count feeds the finish screen (a count, never a streak).
+  const isPulse = url.searchParams.get('pulse') === '1';
   // Bankless categories have dedicated screens - never run them in the timed loop.
   const cat = url.searchParams.get('category');
   if (cat === 'retention') throw redirect(303, '/practice/retention');
@@ -17,18 +21,22 @@ export const load: PageServerLoad = async ({ locals, url }) => {
     const seen = await hasSeenIntro(locals.user.id);
     if (!seen) throw redirect(303, '/welcome');
   }
-  let sessionLength = 10;
+  let sessionLength = isPulse ? 3 : 10;
   let askDaily = false;
   let askNap = false;
   let sessionInProgress = false;
   let sessionAnswered = 0;
   if (locals.user) {
-    const rows = await pg`SELECT session_length FROM user_settings WHERE user_id = ${locals.user.id}`;
-    sessionLength = rows[0]?.session_length ?? 10;
+    if (!isPulse) {
+      const rows = await pg`SELECT session_length FROM user_settings WHERE user_id = ${locals.user.id}`;
+      sessionLength = rows[0]?.session_length ?? 10;
+    }
     const utcDate = new Date().toISOString().slice(0, 10);
-    const plan = await contextPlan(locals.user.id, utcDate);
-    askDaily = plan.askDaily;
-    askNap = plan.askNap;
+    if (!isPulse) {
+      const plan = await contextPlan(locals.user.id, utcDate);
+      askDaily = plan.askDaily;
+      askNap = plan.askNap;
+    }
     // If the user's current open session already has attempts, they're mid-session (e.g. returning
     // from a Retention/Reaction hand-off). The pre-session questionnaire is a per-SESSION gate and
     // must not re-ask on every remount of this page - one session, one ask.
@@ -51,5 +59,14 @@ export const load: PageServerLoad = async ({ locals, url }) => {
       sessionAnswered = (att[0]?.answered ?? 0) + (mod[0]?.module_handoffs ?? 0);
     }
   }
-  return { showDebug: flags.showDebugUi(), sessionLength, askDaily, askNap, sessionInProgress, sessionAnswered };
+  let daysPracticed = 0;
+  if (isPulse && locals.user) {
+    const dp = await pg`
+      SELECT count(DISTINCT (local_year, local_month, local_day))::int AS n
+      FROM attempts
+      WHERE user_id = ${locals.user.id} AND status = 'answered' AND local_year IS NOT NULL
+    `;
+    daysPracticed = dp[0]?.n ?? 0;
+  }
+  return { showDebug: flags.showDebugUi(), sessionLength, askDaily, askNap, sessionInProgress, sessionAnswered, isPulse, daysPracticed };
 };

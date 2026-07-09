@@ -28,7 +28,7 @@ for (const dir of readdirSync(root, { withFileTypes: true })) {
 ok('found bank files', files.length >= 10, `(${files.length})`);
 
 const allKeys = new Set();
-let dupKeys = 0, badRenderer = 0, badLevel = 0, noInstruction = 0;
+let dupKeys = 0, badRenderer = 0, badLevel = 0, noInstruction = 0, seedFieldBad = 0;
 let choiceBad = 0, numericBad = 0, memoryBad = 0, fluencyBad = 0;
 const planningItems = [];
 
@@ -43,6 +43,9 @@ for (const file of files) {
     // arithmetic items carry promptData.expression instead of an instruction (the renderer
     // shows the expression itself); either one satisfies the prompt contract
     if (!it.promptData?.instruction && !it.promptData?.expression) noInstruction++;
+    // the seed inserts these verbatim; an undefined here crashes boot (v1.5.0 incident:
+    // freshly generated items lacked scoringConfig/version/active and postgres refused)
+    if (it.scoringConfig == null || it.version == null || it.active == null) seedFieldBad++;
 
     const p = it.promptData ?? {};
     const a = it.answerData ?? {};
@@ -90,6 +93,7 @@ ok('bankKeys globally unique', dupKeys === 0, `(${dupKeys} dupes)`);
 ok('all rendererTypes known', badRenderer === 0, `(${badRenderer})`);
 ok('levels are integers 1-20', badLevel === 0, `(${badLevel})`);
 ok('every item has an instruction or expression', noInstruction === 0, `(${noInstruction})`);
+ok('every item carries scoringConfig, version, active (seed inserts them verbatim)', seedFieldBad === 0, `(${seedFieldBad})`);
 ok('choice items: options + in-range integer index', choiceBad === 0, `(${choiceBad})`);
 ok('numeric items carry a correctAnswer or trueValue', numericBad === 0, `(${numericBad})`);
 ok('memory items: digits + positive displayMs', memoryBad === 0, `(${memoryBad})`);

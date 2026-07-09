@@ -56,7 +56,8 @@ export async function touchUserSession(userId: string): Promise<void> {
 export async function ensureSession(
   userId: string,
   tz?: string | null,
-  tzOffsetMin?: number | null
+  tzOffsetMin?: number | null,
+  kind: 'practice' | 'pulse' = 'practice'
 ): Promise<string> {
   const cutoff = new Date(Date.now() - INACTIVITY_MINUTES * 60 * 1000);
   const rows = await db.select().from(practiceSessions)
@@ -64,11 +65,15 @@ export async function ensureSession(
     .orderBy(desc(practiceSessions.lastActivityAt))
     .limit(1);
   const last = rows[0];
-  if (last && !last.endedAt && last.lastActivityAt > cutoff) {
+  // A pulse is its own tiny session and a practice run is its own full one - never mix the
+  // two in a single session row, or pulse data pollutes session-length statistics. A kind
+  // mismatch closes the open session and starts a fresh one of the requested kind.
+  const lastKind = (last as { kind?: string } | undefined)?.kind ?? 'practice';
+  if (last && !last.endedAt && last.lastActivityAt > cutoff && lastKind === kind) {
     return last.id;
   }
   if (last && !last.endedAt) {
-    // close the stale session at its last activity time
+    // close the stale (or kind-mismatched) session at its last activity time
     await db.update(practiceSessions)
       .set({ endedAt: last.lastActivityAt })
       .where(eq(practiceSessions.id, last.id));
@@ -76,7 +81,8 @@ export async function ensureSession(
   const [s] = await db.insert(practiceSessions).values({
     userId,
     timezone: tz ?? null,
-    tzOffsetMin: typeof tzOffsetMin === 'number' ? tzOffsetMin : null
+    tzOffsetMin: typeof tzOffsetMin === 'number' ? tzOffsetMin : null,
+    kind
   }).returning({ id: practiceSessions.id });
   return s.id;
 }

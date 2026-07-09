@@ -67,6 +67,9 @@ for (let level = 1; level <= 10; level++) {
       category: 'strategic_planning',
       challengeType: 'step_order',
       level,
+      version: 1,
+      active: true,
+      scoringConfig: { scoringMode: 'deliberate', expectedMedianMs: 30000, deliberate: true },
       rendererType: 'planning_sequence',
       promptData: {
         kind: 'step_order',
@@ -150,6 +153,9 @@ for (let level = 1; level <= 10; level++) {
       category: 'strategic_planning',
       challengeType: 'grid_path',
       level,
+      version: 1,
+      active: true,
+      scoringConfig: { scoringMode: 'deliberate', expectedMedianMs: 30000, deliberate: true },
       rendererType: 'planning_sequence',
       promptData: {
         kind: 'grid_path',

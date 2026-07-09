@@ -6,6 +6,34 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.5.0 - The instrument speaks: daily pulse + personal findings
+
+Two features, one dependency: the pulse builds the longitudinal substrate; findings consume
+it. The move from displaying measurements to SAYING things - gated, effect-sized, honest.
+
+**Daily pulse** - a 90-second ritual:
+- /pulse landing: the days-practiced count front and center - a COUNT, never a streak;
+  missing a day breaks nothing, the copy says so explicitly. One button starts today's
+  pulse; a done-state shows after completing one (rolling 20h window).
+- The pulse is the normal run machinery at length 3 with the pre-session questionnaire
+  skipped - identical measurement, minimal ceremony. Its finish screen shows the
+  days-practiced count and offers the stream or a full session.
+- Pulse sessions carry kind='pulse' (migration 0044) and never mix with practice sessions:
+  a kind mismatch closes the open session and starts a fresh one, so session-length
+  statistics stay honest. Linked beside the main practice button.
+
+**Personal findings** - a new section on /stats, first three findings:
+- Time of day: best vs worst local-time band, unlocked at 30+ answered items in two bands
+  AND effect d >= 0.25. Below the bar it says exactly what is missing ("morning 14/30").
+- Learning curve: early-third vs late-third scores in the most-practiced area (40+ items),
+  with the practice effect NAMED as such in the detail - improvement on the instrument,
+  never sold as certified cognitive gain.
+- Within a session: start vs late-session performance (warm-up or fatigue-like drift),
+  same bars. "Holds steady" and "statistically indistinguishable" are reported as findings
+  too - a boring result is still a result.
+- Honesty rules enforced in code: no causal language, every sentence carries n and effect,
+  and the gating math lives in a pure module (insights/findings-core.ts) with 14 unit
+  checks pinning locked/unlocked/null-effect behavior. Suites: 22.
 ## v1.4.0 - The last rung: end-to-end tests against a real database
 
 Until now every suite was static or pure-unit; the core measurement loop (submitAttempt:

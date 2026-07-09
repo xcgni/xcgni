@@ -1,5 +1,6 @@
 import type { PageServerLoad } from './$types';
 import { pg } from '$lib/server/db';
+import { personalFindings } from '$lib/server/insights/findings';
 import {
   userRatings, ratingHistory, userPatterns,
   userRecords, userDomains, userDomainRanges, populationDomainMedians, ratingDistribution, userSessions, userPersistence,
@@ -65,7 +66,9 @@ export const load: PageServerLoad = async ({ locals, url }) => {
   ]);
   const headline = statsHeadline(sparklines, percentiles);
   const readiness = await userReadiness(locals.user.id);
+  const findings = await personalFindings(locals.user.id);
   return {
+    findings,
     ratings, history, category: validCat, patterns,
     records, domains, domainRanges, populationMedians, distribution,
     executive: { interference, switchCost },

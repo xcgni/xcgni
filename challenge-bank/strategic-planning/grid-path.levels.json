@@ -4,6 +4,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -32,6 +39,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -60,6 +74,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -88,6 +109,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -116,6 +144,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -144,6 +179,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -172,6 +214,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -200,6 +249,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -228,6 +284,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -256,6 +319,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -284,6 +354,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -312,6 +389,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -340,6 +424,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -368,6 +459,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -396,6 +494,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -424,6 +529,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -452,6 +564,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -480,6 +599,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -508,6 +634,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -536,6 +669,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -564,6 +704,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -592,6 +739,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -620,6 +774,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -648,6 +809,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -676,6 +844,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -706,6 +881,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -736,6 +918,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -766,6 +955,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -796,6 +992,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -826,6 +1029,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -856,6 +1066,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -886,6 +1103,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -916,6 +1140,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -946,6 +1177,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -976,6 +1214,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1006,6 +1251,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1036,6 +1288,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1066,6 +1325,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1096,6 +1362,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1126,6 +1399,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1156,6 +1436,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1186,6 +1473,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1216,6 +1510,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1246,6 +1547,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1276,6 +1584,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1306,6 +1621,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1336,6 +1658,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1366,6 +1695,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1396,6 +1732,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1428,6 +1771,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1460,6 +1810,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1492,6 +1849,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1524,6 +1888,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1556,6 +1927,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1588,6 +1966,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1620,6 +2005,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1652,6 +2044,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1684,6 +2083,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1716,6 +2122,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1748,6 +2161,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1780,6 +2200,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1812,6 +2239,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1844,6 +2278,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1876,6 +2317,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1908,6 +2356,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1940,6 +2395,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -1972,6 +2434,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2004,6 +2473,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2036,6 +2512,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2068,6 +2551,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2100,6 +2590,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2132,6 +2629,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2164,6 +2668,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2198,6 +2709,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2232,6 +2750,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2266,6 +2791,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2300,6 +2832,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2334,6 +2873,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2368,6 +2914,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2402,6 +2955,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2436,6 +2996,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2470,6 +3037,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2504,6 +3078,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2538,6 +3119,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2572,6 +3160,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2606,6 +3201,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2640,6 +3242,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2674,6 +3283,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2708,6 +3324,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2742,6 +3365,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2776,6 +3406,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2810,6 +3447,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2844,6 +3488,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2878,6 +3529,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2912,6 +3570,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2946,6 +3611,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -2980,6 +3652,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3016,6 +3695,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3052,6 +3738,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3088,6 +3781,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3124,6 +3824,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3160,6 +3867,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3196,6 +3910,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3232,6 +3953,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3268,6 +3996,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3304,6 +4039,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3340,6 +4082,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3376,6 +4125,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3412,6 +4168,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3448,6 +4211,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3484,6 +4254,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3520,6 +4297,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3556,6 +4340,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3592,6 +4383,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3628,6 +4426,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3664,6 +4469,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3700,6 +4512,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3736,6 +4555,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3772,6 +4598,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",
@@ -3808,6 +4641,13 @@
   "category": "strategic_planning",
   "challengeType": "grid_path",
   "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "grid_path",

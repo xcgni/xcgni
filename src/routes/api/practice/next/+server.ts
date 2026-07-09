@@ -17,12 +17,12 @@ import { SCORING_MODEL_VERSION } from '$lib/server/rating';
 export const POST: RequestHandler = async ({ request, cookies }) => {
   const user = await ensureUser(cookies);
   const body = (await request.json().catch(() => ({}))) as {
-    category?: string; tz?: string; tzOffsetMin?: number;
+    category?: string; tz?: string; tzOffsetMin?: number; pulse?: boolean;
   };
   const tz = typeof body.tz === 'string' ? body.tz.slice(0, 64) : null;
   const tzOffsetMin = typeof body.tzOffsetMin === 'number' && Number.isFinite(body.tzOffsetMin)
     ? Math.round(body.tzOffsetMin) : null;
-  const sessionId = await ensureSession(user.id, tz, tzOffsetMin);
+  const sessionId = await ensureSession(user.id, tz, tzOffsetMin, body.pulse === true ? 'pulse' : 'practice');
 
   let categorySlug = body.category ?? null;
   const implemented = await implementedCategories();
