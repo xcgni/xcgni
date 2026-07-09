@@ -6,6 +6,19 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.6.2 - Steady frame: the run stops jumping between exercises
+
+User-reported: switching exercises sometimes required scrolling up, sometimes down, on both
+desktop and mobile - the panel height varies by renderer (an 8x8 maze is tall, a fluency
+list grows, choice lists differ), so the viewport landed wherever the previous exercise
+left it.
+
+- Every exercise arrival and every answer-to-feedback transition now settles the viewport
+  to the top instantly (no scroll animation), so the panel is always in the same place.
+- Grid mazes scale their glyph size with the grid: 8x8 renders at a size that fits a phone
+  screen with the move chips and input visible, mid grids in between, small grids unchanged.
+- The finish screen's panel matches the run panel's minimum height, so the frame no longer
+  shifts at session end.
 ## v1.6.1 - Zero-warning build: the a11y pass
 
 The full build log (captured with --progress=plain) deduplicated to exactly four distinct

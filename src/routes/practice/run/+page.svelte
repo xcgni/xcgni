@@ -285,6 +285,7 @@
       if (d.handoff === 'reaction') { goto('/practice/reaction?inmix=1'); return; }
       challenge = d;
       beginChallengeDisplay();
+      settleViewport();
     } catch (e) {
       errorMsg = e instanceof Error ? e.message : 'Something went wrong.';
       phase = 'error';
@@ -324,6 +325,7 @@
     const clientElapsedMs = Math.round(performance.now() - shownAt);
     phase = 'feedback';
     feedbackShownAt = performance.now();   // start the dwell window for Enter-to-advance
+    settleViewport();
     try {
       const res = await fetch('/api/practice/submit', {
         method: 'POST',
@@ -539,6 +541,13 @@
       })();
   $: progressLabel = confirmingLevelUp ? 'level-up check' : `${Math.min(answeredCount + (phase === 'feedback' ? 0 : 1), SESSION_LENGTH)} / ${SESSION_LENGTH}`;
 
+  // Layout stability: every exercise/phase change returns the viewport to the top, so the
+  // panel is always in the same place - no more hunting up or down between exercises. The
+  // 'instant' behavior avoids a visible scroll animation on every question.
+  function settleViewport() {
+    if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+  }
+
   // Focus the feedback-phase Next button when it appears, so Enter advances. An action
   // instead of the autofocus attribute: same UX, none of autofocus's page-load a11y issues
   // (this fires on a user-initiated phase change, not on page load).
@@ -586,7 +595,7 @@
   </div>
 
   {#if phase === 'sessiondone'}
-    <div class="panel flex min-h-[300px] flex-col items-center justify-center gap-6 p-8 text-center">
+    <div class="panel flex min-h-[320px] flex-col items-center justify-center gap-6 p-8 text-center">
       {#if data.isPulse}
         <p class="label">Pulse complete</p>
         <p class="font-mono text-4xl">{data.daysPracticed}<span class="text-muted text-2xl"> days practiced</span></p>
@@ -649,7 +658,7 @@
               <div class="mb-3 flex justify-center">
                 <div class="panel p-3">
                   {#each (challenge.promptData.rows ?? []) as row}
-                    <div class="font-mono text-xl leading-relaxed tracking-[0.4em] sm:text-2xl">{#each row.split('') as ch}<span class={ch === 'S' ? 'text-accent' : ch === 'T' ? 'text-good' : ch === '#' ? 'text-body' : 'text-edge'}>{ch}</span>{/each}</div>
+                    <div class="font-mono leading-relaxed {(challenge.promptData.rows ?? []).length >= 8 ? 'text-sm tracking-[0.25em] sm:text-base' : (challenge.promptData.rows ?? []).length >= 6 ? 'text-base tracking-[0.3em] sm:text-lg' : 'text-xl tracking-[0.4em] sm:text-2xl'}">{#each row.split('') as ch}<span class={ch === 'S' ? 'text-accent' : ch === 'T' ? 'text-good' : ch === '#' ? 'text-body' : 'text-edge'}>{ch}</span>{/each}</div>
                   {/each}
                 </div>
               </div>
