@@ -366,6 +366,8 @@
             </div>
           {/each}
         </div>
+        <p class="text-xs text-muted">The pool has findings of its own:
+          <a href="/statistics/findings" class="underline hover:text-body">findings from the pool</a>.</p>
       </section>
     {/if}
 

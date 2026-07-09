@@ -108,6 +108,8 @@
       risking someone's anonymity is withheld. No individual is ever shown. This is the
       commons the project keeps free; how every number is computed is
       <a href="/methodology" class="text-accent hover:underline">published openly</a>.
+      The pool also gives back:
+      <a href="/statistics/findings" class="text-accent hover:underline">findings from the pool</a>.
     </p>
     <p class="max-w-2xl text-xs leading-relaxed text-muted">
       One caveat worth keeping in mind: these users are mostly people who actively seek out

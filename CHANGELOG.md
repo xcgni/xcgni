@@ -6,6 +6,30 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.6.0 - The pool gives back: commons findings
+
+The commons was a promise ("everything the pool produces is free for everyone"); now it
+produces. A public page at /statistics/findings publishes population-level patterns from
+the consented pool - the same philosophy as personal findings, harder bars:
+
+- Three findings at launch: time of day pool-wide, within-session drift pool-wide, and the
+  pool's practice effect (median per-user early-to-late gain with IQR, survivorship bias
+  named in the detail).
+- Every compared group must clear the public anonymity floor (50 distinct users); below it
+  the finding is WITHHELD and says so - never silently omitted. Effect bar d >= 0.2 at
+  population scale, because large n makes trivia "significant" and the page should say only
+  things worth saying. Null results are published as null results.
+- Anchored to pool size, never dates (house rule). Preview mode carries the same simulated
+  data label as the rest of the statistics pages.
+- Cross-linked: the statistics page introduces it, the personal Findings section points to
+  it ("the pool has findings of its own"), and it is in the sitemap.
+- The gating math is a pure module (insights/commons-core.ts) with 10 unit checks
+  (withheld/published/null, floor naming, survivorship wording). Suites: 24.
+
+Also in the maintainer's folder (not the repo): the Offloading Index design document (the
+I2 build session starts from decisions, not a blank page) and the reliability/validity
+study protocol draft (I5), written for pre-registration on the site before any analysis
+runs.
 ## v1.5.0 - The instrument speaks: daily pulse + personal findings
 
 Two features, one dependency: the pulse builds the longitudinal substrate; findings consume

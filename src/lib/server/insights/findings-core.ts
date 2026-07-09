@@ -23,7 +23,7 @@ export interface Finding {
 const MIN_N_BAND = 30;
 const MIN_D = 0.25;
 
-function cohensD(m1: number, sd1: number, n1: number, m2: number, sd2: number, n2: number): number {
+export function cohensD(m1: number, sd1: number, n1: number, m2: number, sd2: number, n2: number): number {
   const pooled = Math.sqrt(((n1 - 1) * sd1 * sd1 + (n2 - 1) * sd2 * sd2) / Math.max(n1 + n2 - 2, 1));
   if (pooled === 0) return Math.abs(m1 - m2) >= 0.05 ? Math.sign(m1 - m2) * 0.5 : 0;
   return (m1 - m2) / pooled;
