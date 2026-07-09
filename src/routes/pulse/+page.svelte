@@ -22,6 +22,10 @@
     </p>
   </div>
 
+  {#if data.weather}
+    <p class="max-w-sm text-sm text-muted" title={data.weather.detail}>{data.weather.line}</p>
+  {/if}
+
   {#if data.todayDone}
     <p class="text-sm text-muted">Today's pulse is done. Come back tomorrow, or take a full session.</p>
     <div class="flex flex-wrap justify-center gap-3">

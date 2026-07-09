@@ -3,9 +3,11 @@ import { pg } from '$lib/server/db';
 import { ensureUser } from '$lib/server/auth';
 import { getEnabledCategories, setEnabledCategories } from '$lib/server/sessions';
 import { userReadiness } from '$lib/server/stats';
+import { cognitiveWeather } from '$lib/server/insights/forecast';
 import { emailIndexEnabled } from '$lib/server/auth/email-index';
 
 export const load: PageServerLoad = async ({ locals }) => {
+  const weather = locals.user ? await cognitiveWeather(locals.user.id) : null;
   const cats = await pg`
     SELECT slug, name, description, implemented FROM categories WHERE active ORDER BY sort
   `;
@@ -14,6 +16,7 @@ export const load: PageServerLoad = async ({ locals }) => {
   // profile completeness, so a new user sees their progress filling in right where they practise
   const readiness = locals.user && !locals.user.isAnonymous ? await userReadiness(locals.user.id) : null;
   return {
+    weather,
     emailShield: emailIndexEnabled(),
     readiness,
     categories: cats.map((c) => ({

@@ -104,3 +104,34 @@ if (fail > 0) process.exit(1);
   if (f3 > 0) { console.log('CONTEXT-FINDINGS TESTS FAILED'); process.exit(1); }
   console.log('ALL CONTEXT-FINDINGS TESTS PASSED');
 }
+
+// --- v1.9.0 (J1): cognitive weather - forecast gates and wording ---
+{
+  const { forecastFromBands, bandForHour } = await import('../src/lib/server/insights/findings-core.ts');
+  let p4 = 0, f4 = 0;
+  const ok4 = (name, cond, detail = '') => { if (cond) p4++; else { f4++; console.log('  FAIL:', name, detail); } };
+
+  ok4('band mapping', bandForHour(8) === 'morning' && bandForHour(14) === 'afternoon' && bandForHour(22) === 'evening' && bandForHour(2) === 'evening');
+
+  const bands = [
+    { band: 'morning', n: 60, mean: 0.82, sd: 0.16 },
+    { band: 'evening', n: 45, mean: 0.71, sd: 0.19 }
+  ];
+  const inBest = forecastFromBands(bands, 8);
+  ok4('in best window: strongest wording', inBest != null && /strongest window/.test(inBest.line));
+  const inWorst = forecastFromBands(bands, 20);
+  ok4('in worst window: quiet wording + no shaming', inWorst != null && /quietest window/.test(inWorst.line) && /counts the same/.test(inWorst.line));
+  const neutral = forecastFromBands([...bands, { band: 'afternoon', n: 50, mean: 0.78, sd: 0.17 }], 14);
+  ok4('neutral window: names the best', neutral != null && /strongest window is the morning/.test(neutral.line));
+  ok4('silence below n', forecastFromBands([{ band: 'morning', n: 10, mean: 0.8, sd: 0.2 }], 8) === null);
+  ok4('silence below effect', forecastFromBands([
+    { band: 'morning', n: 60, mean: 0.75, sd: 0.2 },
+    { band: 'evening', n: 60, mean: 0.749, sd: 0.2 }
+  ], 8) === null);
+  ok4('historical wording, never predictive', inBest != null && /historically/i.test(inBest.line) && !/will|predict/i.test(inBest.line));
+  ok4('detail carries the caveat', inBest != null && /not a prediction/.test(inBest.detail));
+
+  console.log(`Weather tests: ${p4} passed, ${f4} failed`);
+  if (f4 > 0) { console.log('WEATHER TESTS FAILED'); process.exit(1); }
+  console.log('ALL WEATHER TESTS PASSED');
+}

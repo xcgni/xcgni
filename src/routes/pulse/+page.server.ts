@@ -1,5 +1,6 @@
 import type { PageServerLoad } from './$types';
 import { pg } from '$lib/server/db';
+import { cognitiveWeather } from '$lib/server/insights/forecast';
 
 // Daily pulse landing (v1.5.0): the 90-second ritual's front door. Shows the days-practiced
 // count (a count, never a streak - there is no chain to break) and whether today already
@@ -7,7 +8,9 @@ import { pg } from '$lib/server/db';
 export const load: PageServerLoad = async ({ locals }) => {
   let daysPracticed = 0;
   let todayDone = false;
+  let weather = null;
   if (locals.user) {
+    weather = await cognitiveWeather(locals.user.id);
     const dp = await pg`
       SELECT count(DISTINCT (local_year, local_month, local_day))::int AS n
       FROM attempts
@@ -23,5 +26,5 @@ export const load: PageServerLoad = async ({ locals }) => {
     `;
     todayDone = today.length > 0;
   }
-  return { daysPracticed, todayDone };
+  return { daysPracticed, todayDone, weather };
 };

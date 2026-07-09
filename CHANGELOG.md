@@ -6,6 +6,26 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.9.0 - Cognitive weather (J1) + a coherence sweep
+
+**The weather report**: the pulse landing and the practice page now carry one quiet line
+composed from the user's own time-of-day history - "You are in what has historically been
+your strongest window (mornings, +15% vs your evenings)", or its quietest-window twin,
+which explicitly adds "data from any hour counts the same" so the line informs without
+steering. The rules with teeth:
+
+- Strictly historical wording - "historically", never "will"; the hover detail states
+  "historical association, not a prediction" with the n's and effect size.
+- Same statistical gates as the findings (30+ items in two bands, d >= 0.25): below them
+  the forecast is SILENCE, not a hedge. The current hour comes from the latest session's
+  stored tz offset - nothing new is collected.
+- Pure core (forecastFromBands) with 8 unit checks pinning the wording, the gates, and the
+  no-shaming clause.
+
+**Coherence sweep** after three weeks of additions: challenge counts corrected everywhere
+(3,294 items now, with the planning suites and 25 decks / 357 cards named in the README),
+documentation matched. Everything else - links, sitemap, methodology pointers, findings
+cross-references - verified current.
 ## v1.8.0 - Context findings: the answers you already gave start speaking (J5)
 
 The pre-session questions (sleep, caffeine) have been collecting quietly since the context

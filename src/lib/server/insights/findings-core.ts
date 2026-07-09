@@ -187,3 +187,42 @@ export function gateCaffeine(bands: Band[]): Finding {
     'Day-level association from your own pre-session answers, not cause - and caffeine choices often FOLLOW how a day already feels.'
   );
 }
+
+// ---------------------------------------------------------------------------
+// v1.9.0 - the cognitive weather report (J1): findings turned prospective, but
+// worded strictly HISTORICALLY. Reuses the exact time-of-day gates; if the
+// finding would not unlock, the forecast is SILENCE - no line at all. An
+// instrument that speaks rarely and correctly beats one that chatters.
+// ---------------------------------------------------------------------------
+
+export interface Forecast {
+  line: string;
+  detail: string;
+}
+
+export function bandForHour(hour: number): 'morning' | 'afternoon' | 'evening' {
+  if (hour >= 5 && hour <= 11) return 'morning';
+  if (hour >= 12 && hour <= 17) return 'afternoon';
+  return 'evening';
+}
+
+export function forecastFromBands(bands: Band[], nowHour: number): Forecast | null {
+  const eligible = bands.filter((b) => b.n >= MIN_N_BAND);
+  if (eligible.length < 2) return null;
+  const sorted = [...eligible].sort((a, b) => b.mean - a.mean);
+  const best = sorted[0], worst = sorted[sorted.length - 1];
+  const d = cohensD(best.mean, best.sd, best.n, worst.mean, worst.sd, worst.n);
+  if (Math.abs(d) < MIN_D) return null;
+
+  const now = bandForHour(nowHour);
+  const rel = worst.mean !== 0 ? (best.mean - worst.mean) / Math.abs(worst.mean) : 0;
+  const detail = `Your own history: ${best.band} mean ${best.mean.toFixed(2)} (n=${best.n}) vs ${worst.band} ${worst.mean.toFixed(2)} (n=${worst.n}), d=${d.toFixed(2)}. Historical association, not a prediction.`;
+
+  if (now === best.band) {
+    return { line: `You are in what has historically been your strongest window (${best.band}s, ${pct(rel)} vs your ${worst.band}s).`, detail };
+  }
+  if (now === worst.band) {
+    return { line: `Historically your quietest window: your ${worst.band} scores run ${pct(-rel)} vs your ${best.band}s. Data from any hour counts the same.`, detail };
+  }
+  return { line: `Historically, your strongest window is the ${best.band} (${pct(rel)} vs your ${worst.band}s).`, detail };
+}

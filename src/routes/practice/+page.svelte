@@ -68,6 +68,9 @@
     <p class="label">Practice</p>
     <a href="/practice/run" class="btn-primary text-base">Start mixed practice</a>
     <a href="/pulse" class="btn text-base" title="Ninety seconds, three items - the daily ritual">Daily pulse</a>
+    {#if data.weather}
+      <p class="text-xs text-muted" title={data.weather.detail}>{data.weather.line}</p>
+    {/if}
     <p class="text-sm text-muted">
       Mixed practice rotates through the {enabledCount} categor{enabledCount === 1 ? 'y' : 'ies'} you've ticked below.
       {#if savedFlash}<span class="text-ok">· saved</span>{/if}

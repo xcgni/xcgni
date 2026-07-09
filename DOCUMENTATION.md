@@ -62,7 +62,7 @@ Each category belongs to a cognitive **domain**; the mapping is data
 | Reaction Time | Reaction | Raw response speed, reported as a band |
 | Strategic Planning | Strategic Planning | Thinking moves ahead; untimed, plan quality over speed |
 
-3,094 statically-generated challenges (deterministic, seeded) plus a curated
+3,294 statically-generated challenges (deterministic, seeded) plus a curated
 retention card deck (110 cards). Reaction time and fluency generate their stimuli live.
 
 ---
