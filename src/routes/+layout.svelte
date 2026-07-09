@@ -51,12 +51,19 @@
   ];
 
   let menuOpen = false;
+  let menuRoot: HTMLElement;
   $: path = $page.url.pathname;
   $: registered = data.user && !data.user.isAnonymous;
   $: identity = registered ? (data.user.username ?? data.user.emailHint ?? 'Account') : 'Account';
 
+  // Two closers: item clicks close unconditionally; window clicks close only when the
+  // click lands OUTSIDE the menu (containment check - keeps everything a11y-clean, no
+  // stopPropagation wrappers needed).
   function closeMenu() {
     menuOpen = false;
+  }
+  function closeMenuOnOutside(e: MouseEvent) {
+    if (menuOpen && menuRoot && !menuRoot.contains(e.target as Node)) menuOpen = false;
   }
 </script>
 
@@ -74,7 +81,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<svelte:window on:click={closeMenu} />
+<svelte:window on:click={closeMenuOnOutside} />
 
 {#if $navigating}
   <div class="fixed left-0 top-0 z-[60] h-0.5 w-full overflow-hidden bg-transparent">
@@ -100,10 +107,10 @@
       {/each}
 
       {#if data.user}
-        <div class="relative ml-1">
+        <div class="relative ml-1" bind:this={menuRoot}>
           <button
             class="flex items-center gap-1 px-2 py-1.5 text-muted transition-colors hover:text-body sm:gap-1.5 sm:px-3"
-            on:click|stopPropagation={() => (menuOpen = !menuOpen)}
+            on:click={() => (menuOpen = !menuOpen)}
             aria-haspopup="true"
             aria-expanded={menuOpen}
           >
@@ -116,7 +123,6 @@
           {#if menuOpen}
             <div
               class="absolute right-0 z-20 mt-1 w-48 border border-edge bg-surface py-1 shadow-xl"
-              on:click|stopPropagation
               role="menu"
               tabindex="-1"
             >

@@ -6,6 +6,21 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.6.1 - Zero-warning build: the a11y pass
+
+The full build log (captured with --progress=plain) deduplicated to exactly four distinct
+warnings; the two that were ours are now fixed, properly rather than suppressed:
+
+- The Explain tooltip and the account menu dropped their stopPropagation click-wrappers in
+  favor of a containment check in the window-level closer (clicks INSIDE are recognized by
+  element.contains, so no non-interactive element carries listeners anymore). Item clicks
+  still close the menu unconditionally - the two closing roles are now separate functions.
+- The feedback-phase Next button's autofocus attribute became a focus action: identical
+  keyboard flow (Enter advances), none of the attribute's page-load accessibility issues -
+  it fires on a user-initiated phase change only.
+- The remaining two npm deprecation notices (glob@9, tar@6) are transitive build-time
+  dependencies of the toolchain, not shipped code; they resolve with the lockfile work
+  already on the build plan (reproducible installs, deliberate dependency bumps).
 ## v1.6.0 - The pool gives back: commons findings
 
 The commons was a promise ("everything the pool produces is free for everyone"); now it

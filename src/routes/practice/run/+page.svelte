@@ -539,6 +539,13 @@
       })();
   $: progressLabel = confirmingLevelUp ? 'level-up check' : `${Math.min(answeredCount + (phase === 'feedback' ? 0 : 1), SESSION_LENGTH)} / ${SESSION_LENGTH}`;
 
+  // Focus the feedback-phase Next button when it appears, so Enter advances. An action
+  // instead of the autofocus attribute: same UX, none of autofocus's page-load a11y issues
+  // (this fires on a user-initiated phase change, not on page load).
+  function focusOnMount(node: HTMLElement) {
+    node.focus();
+  }
+
   // keyboard digit selection for choice questions (1-9)
   function onChoiceKeydown(e: KeyboardEvent) {
     if (phase !== 'answering' || !anyChoice || !challenge?.promptData.options) return;
@@ -885,7 +892,7 @@
               </div>
             {/if}
 
-            <button class="btn-primary" on:click={advance} autofocus>
+            <button class="btn-primary" on:click={advance} use:focusOnMount>
               {#if pendingLevelUp}Level-up question →{:else if answeredCount >= SESSION_LENGTH}Finish session →{:else}Next →{/if}
             </button>
 
