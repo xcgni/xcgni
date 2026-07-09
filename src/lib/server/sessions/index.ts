@@ -12,7 +12,7 @@ import {
   type ScoringConfig, type RecentAttempt
 } from '$lib/server/rating';
 import { levelBounds, validateAnswer } from '$lib/server/challenges';
-import { gradePlan, gradeStepOrder, gradeGridPath } from './planning';
+import { gradePlan, gradeStepOrder, gradeGridPath, gradeHanoi, type HanoiState } from './planning';
 import { judgeCategoryWord } from './fluency-match';
 import { METHODOLOGY_VERSION } from '$lib/methodology';
 
@@ -346,8 +346,8 @@ export async function submitAttempt(
     // number paths and grid paths replay-and-score-efficiency; step ordering is all-or-nothing
     // (a procedure is either in a workable order or it is not).
     const spec = challenge.answerData as {
-      start?: number; target?: number; allowed?: string[]; optimalMoves?: number;
-      correctOrder?: string; rows?: string[];
+      start?: number | HanoiState; target?: number; allowed?: string[]; optimalMoves?: number;
+      correctOrder?: string; rows?: string[]; disks?: number;
     };
     if (typeof spec.correctOrder === 'string') {
       const res = gradeStepOrder(givenAnswer, { correctOrder: spec.correctOrder });
@@ -355,6 +355,10 @@ export async function submitAttempt(
       score = scoreDeliberate(res.correct, { moves: spec.correctOrder.length, optimalMoves: spec.correctOrder.length });
     } else if (Array.isArray(spec.rows)) {
       const res = gradeGridPath(givenAnswer, { rows: spec.rows });
+      correct = res.correct;
+      score = scoreDeliberate(res.correct, { moves: res.moves, optimalMoves: spec.optimalMoves });
+    } else if (spec.start != null && typeof spec.start === 'object' && typeof spec.disks === 'number') {
+      const res = gradeHanoi(givenAnswer, { start: spec.start as HanoiState, disks: spec.disks });
       correct = res.correct;
       score = scoreDeliberate(res.correct, { moves: res.moves, optimalMoves: spec.optimalMoves });
     } else if (typeof spec.start === 'number' && typeof spec.target === 'number' && Array.isArray(spec.allowed)) {
@@ -567,6 +571,10 @@ export async function submitAttempt(
       correctAnswerDisplay = answerData.optimalMoves != null
         ? `reach T - can be done in ${answerData.optimalMoves} move${answerData.optimalMoves === 1 ? '' : 's'}`
         : 'reach T';
+    } else if (typeof (answerData as { disks?: number }).disks === 'number' && typeof answerData.start === 'object') {
+      correctAnswerDisplay = answerData.optimalMoves != null
+        ? `all disks on C - can be done in ${answerData.optimalMoves} move${answerData.optimalMoves === 1 ? '' : 's'}`
+        : 'all disks on C';
     } else {
       correctAnswerDisplay = answerData.optimalMoves != null
         ? `reach ${answerData.target} - can be done in ${answerData.optimalMoves} step${answerData.optimalMoves === 1 ? '' : 's'}`

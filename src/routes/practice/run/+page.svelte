@@ -541,6 +541,52 @@
       })();
   $: progressLabel = confirmingLevelUp ? 'level-up check' : `${Math.min(answeredCount + (phase === 'feedback' ? 0 : 1), SESSION_LENGTH)} / ${SESSION_LENGTH}`;
 
+  // --- Tower of Hanoi (v1.11.0): the pegs are DERIVED by replaying the answer string
+  // against the start state, so the answer stays the single source of truth - undo is
+  // "drop the last token", reset is "clear the string", and the server replays the same
+  // string with the authoritative grader.
+  let hanoiSelected: 'A' | 'B' | 'C' | null = null;
+  function hanoiReplay(start: { A: number[]; B: number[]; C: number[] }, ans: string) {
+    const pegs = { A: [...start.A], B: [...start.B], C: [...start.C] };
+    for (const tok of ans.toUpperCase().split(/[\s,;]+/).filter(Boolean)) {
+      if (!/^[ABC]{2}$/.test(tok)) continue;
+      const from = tok[0] as 'A' | 'B' | 'C', to = tok[1] as 'A' | 'B' | 'C';
+      const src = pegs[from], dst = pegs[to];
+      const disk = src[src.length - 1];
+      const top = dst[dst.length - 1];
+      if (disk == null || from === to || (top != null && top < disk)) continue;
+      src.pop(); dst.push(disk);
+    }
+    return pegs;
+  }
+  $: hanoiPegs = challenge?.promptData?.kind === 'hanoi' && challenge.promptData.start
+    ? hanoiReplay(challenge.promptData.start, answer)
+    : null;
+  $: hanoiMoves = challenge?.promptData?.kind === 'hanoi'
+    ? answer.toUpperCase().split(/[\s,;]+/).filter((t) => /^[ABC]{2}$/.test(t)).length
+    : 0;
+  function hanoiTap(peg: 'A' | 'B' | 'C') {
+    if (!hanoiPegs) return;
+    if (hanoiSelected == null) {
+      if (hanoiPegs[peg].length > 0) hanoiSelected = peg;
+      return;
+    }
+    if (hanoiSelected === peg) { hanoiSelected = null; return; }
+    const disk = hanoiPegs[hanoiSelected][hanoiPegs[hanoiSelected].length - 1];
+    const top = hanoiPegs[peg][hanoiPegs[peg].length - 1];
+    if (disk != null && (top == null || top > disk)) {
+      const mv = `${hanoiSelected}${peg}`;
+      answer = answer && !/[,\s]$/.test(answer) ? `${answer}, ${mv}` : answer + mv;
+    }
+    hanoiSelected = null;
+  }
+  function hanoiUndo() {
+    const toks = answer.split(/[\s,]+/).filter(Boolean);
+    toks.pop();
+    answer = toks.join(', ');
+    hanoiSelected = null;
+  }
+
   // First-encounter explainers (v1.10.0): a one-time, two-line intro per task shape, so
   // nobody is thrown into an unfamiliar exercise cold. Seen-state lives client-side only.
   const INTROS: Record<string, string> = {
@@ -552,7 +598,8 @@
     fluency_list: 'Type as many valid answers as you can, one per entry, before the window ends. Variants and near-misses of the SAME answer count once.',
     'planning_sequence:number_path': 'Plan a route from the start number to the target using the allowed steps. No clock - shorter plans score higher.',
     'planning_sequence:step_order': 'Put the lettered steps into a workable order - each step must be possible after the ones before it. Tap the steps or type the letters. No clock.',
-    'planning_sequence:grid_path': 'Plan a route from S to T around the walls. Tap the direction chips or type moves. No clock - shorter routes score higher.'
+    'planning_sequence:grid_path': 'Plan a route from S to T around the walls. Tap the direction chips or type moves. No clock - shorter routes score higher.',
+    'planning_sequence:hanoi': 'Move the whole tower to peg C. Tap a peg to lift its top disk, tap another to place it - never a larger disk on a smaller one. No clock - fewer moves score higher.'
   };
   let seenIntros: Set<string> = new Set();
   if (typeof localStorage !== 'undefined') {
@@ -698,6 +745,25 @@
                 {/each}
               </div>
               <p class="text-xs text-muted">{challenge.promptData.hint}</p>
+            {:else if challenge.promptData.kind === 'hanoi' && hanoiPegs}
+              <div class="mb-2 flex items-end justify-center gap-4 sm:gap-8">
+                {#each (['A', 'B', 'C']) as peg (peg)}
+                  <button type="button"
+                    class="flex h-40 w-24 flex-col-reverse items-center gap-1 rounded border pb-2 pt-1 transition-colors sm:w-28 {hanoiSelected === peg ? 'border-accent bg-accent/10' : 'border-edge hover:border-accent/60'}"
+                    on:click={() => hanoiTap(peg)}>
+                    {#each hanoiPegs[peg] as disk (peg + '-' + disk)}
+                      <span class="block h-4 rounded-sm bg-accent/80" style="width: {28 + disk * 12}%"></span>
+                    {/each}
+                    <span class="mt-auto font-mono text-xs text-muted">{peg}</span>
+                  </button>
+                {/each}
+              </div>
+              <div class="mb-3 flex items-center justify-center gap-3 font-mono text-xs text-muted">
+                <span>moves: {hanoiMoves}</span>
+                <button type="button" class="rounded border border-edge px-2 py-1 hover:border-accent hover:text-accent" on:click={hanoiUndo} disabled={hanoiMoves === 0}>Undo</button>
+                <button type="button" class="rounded border border-edge px-2 py-1 hover:border-accent hover:text-accent" on:click={() => { answer = ''; hanoiSelected = null; }} disabled={hanoiMoves === 0}>Reset</button>
+              </div>
+              <p class="text-xs text-muted">{challenge.promptData.hint}</p>
             {:else if challenge.promptData.kind === 'grid_path'}
               <div class="mb-3 flex justify-center">
                 <div class="panel p-3">
@@ -834,7 +900,7 @@
               on:keydown={onAnswerKeydown}
               disabled={phase !== 'answering'}
               autocomplete="off" spellcheck="false"
-              placeholder={challenge.promptData.kind === 'step_order' ? 'the letters in order, e.g. C, A, D, B' : challenge.promptData.kind === 'grid_path' ? 'your moves, e.g. R, R, D, D' : 'your steps, e.g. *2, +3'}
+              placeholder={challenge.promptData.kind === 'step_order' ? 'the letters in order, e.g. C, A, D, B' : challenge.promptData.kind === 'grid_path' ? 'your moves, e.g. R, R, D, D' : challenge.promptData.kind === 'hanoi' ? 'your moves build here as you tap, e.g. AC, AB' : 'your steps, e.g. *2, +3'}
               class="field text-center font-mono text-xl" aria-label="Your plan"
             />
             <button class="btn-primary" disabled={phase !== 'answering'} on:click={submitText}>Submit plan</button>

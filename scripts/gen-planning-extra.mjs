@@ -176,3 +176,106 @@ for (let level = 1; level <= 10; level++) {
 writeFileSync('challenge-bank/strategic-planning/step-order.levels.json', JSON.stringify(orderItems, null, 1));
 writeFileSync('challenge-bank/strategic-planning/grid-path.levels.json', JSON.stringify(gridItems, null, 1));
 console.log(`step_order: ${orderItems.length} items; grid_path: ${gridItems.length} items`);
+
+// ---------------------------------------------------------------------------
+// Tower of Hanoi (v1.11.0): randomized legal start states (each disk assigned a
+// peg largest-first, so every peg is automatically descending = legal), goal is
+// all disks on C, optimal via BFS over the full state space (3^n states, tiny).
+// ---------------------------------------------------------------------------
+function hanoiKey(s) { return `${s.A.join('.')}|${s.B.join('.')}|${s.C.join('.')}`; }
+function hanoiNeighbors(s) {
+  const out = [];
+  for (const from of ['A', 'B', 'C']) {
+    if (!s[from].length) continue;
+    const disk = s[from][s[from].length - 1];
+    for (const to of ['A', 'B', 'C']) {
+      if (to === from) continue;
+      const top = s[to][s[to].length - 1];
+      if (top != null && top < disk) continue;
+      const n = { A: [...s.A], B: [...s.B], C: [...s.C] };
+      n[from] = n[from].slice(0, -1);
+      n[to] = [...n[to], disk];
+      out.push(n);
+    }
+  }
+  return out;
+}
+function hanoiOptimal(start, disks) {
+  const goal = hanoiKey({ A: [], B: [], C: Array.from({ length: disks }, (_, i) => disks - i) });
+  if (hanoiKey(start) === goal) return 0;
+  const seen = new Set([hanoiKey(start)]);
+  let frontier = [start], depth = 0;
+  while (frontier.length) {
+    depth++;
+    const next = [];
+    for (const st of frontier) for (const nb of hanoiNeighbors(st)) {
+      const k = hanoiKey(nb);
+      if (k === goal) return depth;
+      if (!seen.has(k)) { seen.add(k); next.push(nb); }
+    }
+    frontier = next;
+  }
+  return null;
+}
+function randomHanoiStart(disks) {
+  const s = { A: [], B: [], C: [] };
+  for (let d = disks; d >= 1; d--) s[['A', 'B', 'C'][randint(0, 2)]].push(d);
+  return s;
+}
+
+const HANOI_LEVELS = {
+  1:  { disks: 3, minOpt: 3,  maxOpt: 5 },
+  2:  { disks: 3, minOpt: 5,  maxOpt: 7 },
+  3:  { disks: 4, minOpt: 6,  maxOpt: 9 },
+  4:  { disks: 4, minOpt: 9,  maxOpt: 12 },
+  5:  { disks: 4, minOpt: 12, maxOpt: 15 },
+  6:  { disks: 5, minOpt: 12, maxOpt: 18 },
+  7:  { disks: 5, minOpt: 18, maxOpt: 24 },
+  8:  { disks: 5, minOpt: 24, maxOpt: 31 },
+  9:  { disks: 6, minOpt: 25, maxOpt: 40 },
+  10: { disks: 6, minOpt: 40, maxOpt: 63 }
+};
+const PER_LEVEL_HANOI = 8;
+
+const hanoiItems = [];
+for (let level = 1; level <= 10; level++) {
+  const { disks, minOpt, maxOpt } = HANOI_LEVELS[level];
+  const used = new Set();
+  let made = 0, guard = 0;
+  while (made < PER_LEVEL_HANOI && guard < 20000) {
+    guard++;
+    const start = randomHanoiStart(disks);
+    const key = hanoiKey(start);
+    if (used.has(key)) continue;
+    const opt = hanoiOptimal(start, disks);
+    if (opt == null || opt < minOpt || opt > maxOpt) continue;
+    used.add(key);
+    made++;
+    hanoiItems.push({
+      bankKey: `sph-L${level}-${made}`,
+      category: 'strategic_planning',
+      challengeType: 'hanoi',
+      level,
+      version: 1,
+      active: true,
+      scoringConfig: { scoringMode: 'deliberate', expectedMedianMs: 45000, deliberate: true },
+      rendererType: 'planning_sequence',
+      promptData: {
+        kind: 'hanoi',
+        instruction: `Move all ${disks} disks to peg C.`,
+        start,
+        disks,
+        hint: 'Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher.'
+      },
+      answerData: {
+        scoringMode: 'deliberate',
+        start,
+        disks,
+        optimalMoves: opt
+      }
+    });
+  }
+  if (made < PER_LEVEL_HANOI) console.error(`hanoi L${level}: only ${made}`);
+}
+writeFileSync('challenge-bank/strategic-planning/hanoi.levels.json', JSON.stringify(hanoiItems, null, 1));
+console.log(`hanoi: ${hanoiItems.length} items`);

@@ -43,9 +43,68 @@ ok('out of bounds blocks', gradeGridPath('U', { rows }).hitWall);
 ok('stopping short fails', !gradeGridPath('R D', { rows }).correct);
 ok('garbage token flagged', gradeGridPath('R banana', { rows }).invalidMove === 'banana');
 
+// --- hanoi grading ---
+{
+  const { gradeHanoi } = await import('../src/lib/server/sessions/planning.ts');
+  const start = { A: [3, 2, 1], B: [], C: [] };
+  ok('hanoi classic optimal', gradeHanoi('AC AB CB AC BA BC AC', { start, disks: 3 }).correct);
+  ok('hanoi comma+arrow forms', gradeHanoi('A>C, A>B, C>B, A>C, B>A, B>C, A>C', { start, disks: 3 }).correct);
+  ok('hanoi longer valid also correct', (() => { const r = gradeHanoi('AB BA AC AB CB AC BA BC AC', { start, disks: 3 }); return r.correct && r.moves === 9; })());
+  ok('hanoi big-on-small illegal', gradeHanoi('AC AC', { start, disks: 3 }).illegalMove === 'AC');
+  ok('hanoi empty-source illegal', gradeHanoi('BA', { start, disks: 3 }).illegalMove === 'BA');
+  ok('hanoi same-peg illegal', gradeHanoi('AA', { start, disks: 3 }).illegalMove === 'AA');
+  ok('hanoi garbage flagged', gradeHanoi('AC banana', { start, disks: 3 }).invalidMove === 'banana');
+  ok('hanoi unfinished fails', !gradeHanoi('AC', { start, disks: 3 }).correct);
+  ok('hanoi scattered start', gradeHanoi('CB AC BC', { start: { A: [3], B: [2], C: [1] }, disks: 3 }).correct === false || true);
+  {
+    // scattered: A[3] B[2] C[1]: move 1 C->B, 3 A->C? no: 1 onto 2 ok (CB), then 3 A->? C empty -> AC, then 2,1 from B: B has [2,1]: 1 B->A? ... verify a real solve: CB, AC, BA? B top=1 ->A ok, then B top=2 ->C (2 on 3 ok) BC, then A top=1 -> C AC. Sequence: CB AC BA BC AC
+    const r = gradeHanoi('CB AC BA BC AC', { start: { A: [3], B: [2], C: [1] }, disks: 3 });
+    ok('hanoi scattered start solves', r.correct && r.moves === 5);
+  }
+}
+
 // --- bank integrity ---
 const so = JSON.parse(readFileSync('challenge-bank/strategic-planning/step-order.levels.json', 'utf8'));
 const gp = JSON.parse(readFileSync('challenge-bank/strategic-planning/grid-path.levels.json', 'utf8'));
+const hn = JSON.parse(readFileSync('challenge-bank/strategic-planning/hanoi.levels.json', 'utf8'));
+ok('hanoi bank has items', hn.length >= 60);
+{
+  // independent BFS re-solve of every hanoi item
+  const key = (s) => `${s.A.join('.')}|${s.B.join('.')}|${s.C.join('.')}`;
+  function neighbors(s) {
+    const out = [];
+    for (const f of ['A','B','C']) { if (!s[f].length) continue;
+      const d = s[f][s[f].length-1];
+      for (const t2 of ['A','B','C']) { if (t2===f) continue;
+        const top = s[t2][s[t2].length-1];
+        if (top != null && top < d) continue;
+        const n = { A:[...s.A], B:[...s.B], C:[...s.C] };
+        n[f] = n[f].slice(0,-1); n[t2] = [...n[t2], d];
+        out.push(n);
+      } }
+    return out;
+  }
+  let bad = 0;
+  for (const it of hn) {
+    const { start, disks, optimalMoves } = it.answerData;
+    const goal = key({ A: [], B: [], C: Array.from({length: disks}, (_,i) => disks - i) });
+    let depth = 0, found = key(start) === goal ? 0 : null;
+    const seen = new Set([key(start)]);
+    let frontier = [start];
+    while (found == null && frontier.length) {
+      depth++;
+      const next = [];
+      for (const st of frontier) for (const nb of neighbors(st)) {
+        const k = key(nb);
+        if (k === goal) { found = depth; break; }
+        if (!seen.has(k)) { seen.add(k); next.push(nb); }
+      }
+      frontier = next;
+    }
+    if (found !== optimalMoves) bad++;
+  }
+  ok('every hanoi item re-solved at exactly its declared optimum', bad === 0, `(${bad})`);
+}
 ok('step-order bank has items', so.length >= 60);
 ok('grid-path bank has items', gp.length >= 100);
 

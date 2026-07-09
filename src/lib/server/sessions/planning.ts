@@ -151,3 +151,49 @@ export function gradeGridPath(
   const correct = pos[0] === target[0] && pos[1] === target[1] && moves > 0;
   return { correct, moves, invalidMove: null, hitWall: false, endedAt: pos };
 }
+
+// ---------------------------------------------------------------------------
+// Visual planning: Tower of Hanoi (v1.11.0)
+// State encoding: pegs A/B/C, each an array bottom->top of disk sizes (1 = smallest).
+// The prompt ships a start state; the goal is ALL disks on peg C. The client plays the
+// game and submits its move list ("AC, AB, ..."); the server REPLAYS every move against
+// the rules (top disk only, never a larger disk onto a smaller). Deliberate scoring:
+// any legal solution counts, efficiency vs the BFS optimum is what scores.
+// ---------------------------------------------------------------------------
+export type HanoiState = { A: number[]; B: number[]; C: number[] };
+
+export interface HanoiResult {
+  correct: boolean;
+  moves: number;
+  invalidMove: string | null;   // first malformed token
+  illegalMove: string | null;   // first rule-breaking move
+}
+
+export function gradeHanoi(answer: string, spec: { start: HanoiState; disks: number }): HanoiResult {
+  const pegs: HanoiState = {
+    A: [...spec.start.A], B: [...spec.start.B], C: [...spec.start.C]
+  };
+  const rawTokens = answer.split(/[\s,;]+/).filter(Boolean);
+  let moves = 0;
+  for (const raw of rawTokens) {
+    const tok = raw.toUpperCase();
+    const m = tok.match(/^([ABC])\s*(?:>|->)?\s*([ABC])$/) ?? (tok.length === 2 && /^[ABC]{2}$/.test(tok) ? [tok, tok[0], tok[1]] : null);
+    if (!m) return { correct: false, moves, invalidMove: raw, illegalMove: null };
+    const [, from, to] = m as unknown as [string, 'A' | 'B' | 'C', 'A' | 'B' | 'C'];
+    if (from === to) return { correct: false, moves, invalidMove: null, illegalMove: raw };
+    const src = pegs[from], dst = pegs[to];
+    if (src.length === 0) return { correct: false, moves, invalidMove: null, illegalMove: raw };
+    const disk = src[src.length - 1];
+    const top = dst[dst.length - 1];
+    if (top != null && top < disk) return { correct: false, moves, invalidMove: null, illegalMove: raw };
+    src.pop();
+    dst.push(disk);
+    moves += 1;
+  }
+  const correct =
+    moves > 0 &&
+    pegs.A.length === 0 &&
+    pegs.B.length === 0 &&
+    pegs.C.length === spec.disks;
+  return { correct, moves, invalidMove: null, illegalMove: null };
+}

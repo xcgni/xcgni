@@ -6,6 +6,32 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.11.0 - Tower of Hanoi: strategic planning gets a playable game
+
+The fourth planning kind, and the first fully interactive one: 80 Tower of Hanoi puzzles
+with randomized legal start states (not just the classic full stack - every item is a
+distinct position), goal all-disks-on-C, levels scaling 3 to 6 disks with BFS-verified
+optimal move counts from 3 up to 63.
+
+- **Play by tapping**: tap a peg to lift its top disk, tap another to place it; illegal
+  moves simply do not register. Undo takes back one move, Reset restarts. Live move
+  counter. The elegant part: the pegs are DERIVED by replaying the answer string, so what
+  you play and what the server grades are literally the same text - Undo is "drop the last
+  token".
+- **Graded like all planning**: the server replays every move against the rules (top disk
+  only, never larger onto smaller); any legal solution counts, efficiency vs the BFS
+  optimum is what scores. No clock, thinking slowly is free. Typed answers ("AC, AB") work
+  too.
+- Feedback stays non-spoiling ("all disks on C - can be done in N moves"), the
+  first-encounter intro covers the rules, and the scoring chip reads "no clock · quality
+  of solution scored" like its planning siblings.
+- Verification with the usual teeth: 10 new grader vectors (illegal moves, scattered
+  starts, arrow notation, garbage tokens) AND every shipped item independently re-solved
+  by a second BFS that must match the declared optimum exactly. One real bug caught by the
+  suite before ship (flagged tokens reported in the wrong case). Planning suite: 36 checks.
+
+Also: corrected the maintainer's own record - practice circles exist (flag-gated,
+experimental) and the future circles work is an extension, not a build-from-zero.
 ## v1.10.0 - Nothing measured silently: the scoring chip + first-encounter intros
 
 Prompted by outside criticism worth taking seriously: pace-scoring without a visible clock
