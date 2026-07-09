@@ -20,6 +20,7 @@
         <a href="/admin/temporal" class="whitespace-nowrap text-muted hover:text-body">Temporal</a>
         <a href="/methodology" class="whitespace-nowrap text-muted hover:text-body">Methodology</a>
         <a href="/admin/health" class="whitespace-nowrap text-muted hover:text-body">Health</a>
+        <a href="/admin/errors" class="whitespace-nowrap text-muted hover:text-body">Errors</a>
         <a href="/admin/export" class="whitespace-nowrap text-muted hover:text-body">Export</a>
         {#if !data.isLogin}
           <form method="POST" action="/admin/logout" class="inline">

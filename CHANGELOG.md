@@ -6,6 +6,26 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.1.0 - Error triage: grouped, searchable, clickable
+
+The admin error view grows from a flat recent-list into Sentry-style triage at /admin/errors,
+so operating the instrument never requires docker and grep again:
+
+- **Grouping by signature**: events group by their normalized message (digit runs collapse to
+  #, so "user 123 not found" and "user 456 not found" are one group) plus the top stack frame
+  (identical messages from different code paths stay distinct). Computed at query time - no
+  schema change to error_log, historical rows group retroactively.
+- **Each group shows** the latest sample message, total occurrence count, first/last seen,
+  distinct route count, and HTTP status; ordered by most recent.
+- **Click a group** to open its latest 20 occurrences inline - timestamp, route, status, user
+  kind (never an id), and the full stack behind a disclosure.
+- **Search** across message and route; **filter tabs** for active / resolved / ignored / all.
+- **Triage workflow**: resolve or ignore a group (new error_groups table, migration 0043);
+  a resolved group whose error returns shows as REGRESSED - state is never silently lost.
+- **Retention**: daily housekeeping now prunes error events older than 30 days and triage rows
+  whose group has been silent long after its last status change.
+- Linked from the admin nav; guarded like every admin surface (awaited isAdmin in load and
+  action - the guard test covers the new route).
 ## v1.0.1 - Payments off for launch; changelog and dead links fixed
 
 - **Payment rails disabled.** No entity, no GitHub Sponsors, no Liberapay for the HN launch,
