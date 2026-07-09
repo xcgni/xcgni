@@ -6,6 +6,29 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.4.0 - The last rung: end-to-end tests against a real database
+
+Until now every suite was static or pure-unit; the core measurement loop (submitAttempt:
+validate, clamp, score, ladder, rating, persist) had never been executed by a test - and it
+is exactly where the v1.3.2 fluency bug lived. That rung exists now:
+
+- **tests-db/attempt-flow.test.mjs** runs against a real Postgres: plants its own category,
+  user, session and four challenges (fluency, numeric, and both new planning kinds), then
+  drives submitAttempt through them. It replays the fluency screenshot scenario END TO END
+  (english + two typos + german must count 2, with two dup flags), checks numeric
+  right/wrong, both planning kinds through the real dispatch including a wall rejection, the
+  double-submit guard, and persistence - then removes every row it planted. Without
+  DATABASE_URL it skips politely, so local runs stay unaffected.
+- **A tiny node loader** (tests-db/loader.mjs) resolves the SvelteKit aliases ($lib,
+  $env/dynamic/private) for bare node, which is what makes importing the real server modules
+  outside the framework possible at all.
+- **CI gains an integration job** with a postgres:16 service container: migrate, then run the
+  suite. Every push now exercises the hot path against a real database.
+
+Honest note: this is the first piece of the project the maintainer's assistant could not
+execute before shipping (no database in its environment; its container also crashed mid-work
+and everything was rebuilt from the packaged zip). The first CI run is the true first run -
+if it goes red, the logs will say exactly where.
 ## v1.3.2 - Fluency dedup: a typo of a word you already gave is not another point
 
 User-found in the wild (thank you): in category fluency, "english", "englisg" and "englsh"

@@ -45,3 +45,35 @@ jobs:
         run: npm install
       - name: Svelte sync + build
         run: npx svelte-kit sync && npm run build
+
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: excogni
+          POSTGRES_PASSWORD: test
+          POSTGRES_DB: excogni
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U excogni"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgres://excogni:test@localhost:5432/excogni
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package.json
+      - name: Install
+        run: npm install
+      - name: Migrate
+        run: node scripts/migrate.mjs
+      - name: Attempt-flow integration test
+        run: node --experimental-strip-types --import ./tests-db/register.mjs tests-db/attempt-flow.test.mjs
