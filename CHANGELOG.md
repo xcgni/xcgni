@@ -6,6 +6,23 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.1.1 - Logs are data too
+
+- **SMTP announces the real domain** (nodemailer `name: 'xcgni.com'`): without it the EHLO
+  handshake carried the container's private 10.x address - a textbook spam signature that the
+  provider rejected and logged as "unauthorized IP". This was the root cause of the mail
+  outage.
+- **SMTP now forces IPv4** (nodemailer `family: 4`): a host that starts resolving the mail
+  server over IPv6 after a restart presents an address the provider has never authorized,
+  which is exactly a "525 Unauthorized IP" outage. Pinning v4 removes the surprise.
+
+Found while diagnosing a mail outage: the mail-failure and magic-link log events printed the
+raw email address to stdout. "No readable email anywhere in our data" must include logs, so
+every log site now emits the masked hint (s…@g….com) instead - masking happens inside the
+log helper so no call site can forget. The operator fallback that prints the magic link when
+mail is down stays (it is the only delivery path in that state; the link is short-lived and
+single-use), with the address masked. Scanner-probe 404s (/wp-admin, /.env and friends) were
+confirmed to never reach error triage - capture is gated to status 500+.
 ## v1.1.0 - Error triage: grouped, searchable, clickable
 
 The admin error view grows from a flat recent-list into Sentry-style triage at /admin/errors,

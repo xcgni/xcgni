@@ -6,6 +6,7 @@
 // server. This means the app runs identically with or without email configured -
 // it just can't deliver real mail until SMTP_HOST is set.
 import { log } from '$lib/server/log';
+import { emailHint } from '$lib/server/auth/email-index';
 
 interface SmtpConfig {
   host: string;
@@ -43,6 +44,13 @@ async function getTransporter(cfg: SmtpConfig): Promise<{ sendMail: (o: Record<s
           host: cfg.host,
           port: cfg.port,
           secure: cfg.secure,
+          // Force IPv4: providers often trust only the known v4 address, and a host
+          // resolving to v6 after a restart shows up as an "unauthorized IP" (525).
+          family: 4,
+          // EHLO identity: without this, nodemailer announces the CONTAINER's hostname,
+          // which resolves to a private 10.x address - a textbook spam signature that
+          // providers reject and log as an "unauthorized IP". Announce the real domain.
+          name: 'xcgni.com',
           auth: cfg.user && cfg.pass ? { user: cfg.user, pass: cfg.pass } : undefined
         });
       } catch (e) {
@@ -88,9 +96,11 @@ export async function sendMagicLinkEmail(email: string, link: string): Promise<v
     });
     log.info('mail.sent', { email });
   } catch (e) {
-    log.error('mail.send_failed', { email, reason: e instanceof Error ? e.message : 'unknown' });
+    log.error('mail.send_failed', { email: emailHint(email), reason: e instanceof Error ? e.message : 'unknown' });
     // surface to console so the operator can recover the link if needed
-    console.log(`[mail send failed] magic link for ${email}: ${link}`);
+    // Operator fallback: with mail down this log line is the only delivery path for the
+    // link (short-lived, single-use). The address itself stays masked - logs are data too.
+    console.log(`[mail send failed] magic link for ${emailHint(email)}: ${link}`);
     throw new Error('Could not send sign-in email. Please try again.');
   }
 }
