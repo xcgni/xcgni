@@ -29,7 +29,7 @@
     start?: number; allowed?: string[]; hint?: string;
   };
   type Challenge = {
-    attemptId: string; category: string; categoryName: string;
+    attemptId: string; category: string; categoryName: string; scoring?: string;
     challengeType?: string;
     level: number; rendererType: string; promptData: PromptData;
   };
@@ -541,6 +541,41 @@
       })();
   $: progressLabel = confirmingLevelUp ? 'level-up check' : `${Math.min(answeredCount + (phase === 'feedback' ? 0 : 1), SESSION_LENGTH)} / ${SESSION_LENGTH}`;
 
+  // First-encounter explainers (v1.10.0): a one-time, two-line intro per task shape, so
+  // nobody is thrown into an unfamiliar exercise cold. Seen-state lives client-side only.
+  const INTROS: Record<string, string> = {
+    numeric_text_input: 'Type the answer as a number. Pace matters on timed items, but there is no visible clock - work at your natural speed.',
+    two_choice: 'Two options - pick the one the instruction asks for. Keyboard 1 and 2 work.',
+    multiple_choice_text: 'Pick the correct option. Keyboard digits work.',
+    multiple_choice_svg: 'Pick the figure the instruction asks for. Keyboard digits work.',
+    memory_recall: 'Digits appear briefly, then disappear - type them from memory once the field shows.',
+    fluency_list: 'Type as many valid answers as you can, one per entry, before the window ends. Variants and near-misses of the SAME answer count once.',
+    'planning_sequence:number_path': 'Plan a route from the start number to the target using the allowed steps. No clock - shorter plans score higher.',
+    'planning_sequence:step_order': 'Put the lettered steps into a workable order - each step must be possible after the ones before it. Tap the steps or type the letters. No clock.',
+    'planning_sequence:grid_path': 'Plan a route from S to T around the walls. Tap the direction chips or type moves. No clock - shorter routes score higher.'
+  };
+  let seenIntros: Set<string> = new Set();
+  if (typeof localStorage !== 'undefined') {
+    try { seenIntros = new Set(JSON.parse(localStorage.getItem('xcgni-intros') ?? '[]')); } catch { seenIntros = new Set(); }
+  }
+  function introKey(c: { rendererType: string; promptData?: { kind?: string } } | null): string | null {
+    if (!c) return null;
+    const k = c.rendererType === 'planning_sequence' && c.promptData?.kind
+      ? `planning_sequence:${c.promptData.kind}`
+      : c.rendererType === 'planning_sequence' ? 'planning_sequence:number_path' : c.rendererType;
+    return INTROS[k] ? k : null;
+  }
+  let introDismissTick = 0;
+  function dismissIntro(key: string) {
+    seenIntros.add(key);
+    introDismissTick += 1;
+    if (typeof localStorage !== 'undefined') {
+      try { localStorage.setItem('xcgni-intros', JSON.stringify([...seenIntros])); } catch { /* private mode */ }
+    }
+  }
+  $: activeIntroKey = introDismissTick >= 0 ? introKey(challenge) : null;
+  $: showIntro = activeIntroKey != null && !seenIntros.has(activeIntroKey) && (phase === 'answering' || phase === 'memorize' || phase === 'getready');
+
   // Layout stability: every exercise/phase change returns the viewport to the top, so the
   // panel is always in the same place - no more hunting up or down between exercises. The
   // 'instant' behavior avoids a visible scroll animation on every question.
@@ -578,6 +613,9 @@
       <p class="label">
         {challenge ? challenge.categoryName : 'Practice'} ·
         level <span class="font-mono">{challenge?.level ?? '-'}</span>
+        {#if challenge?.scoring}
+          <span class="ml-2 text-muted" title="Every item states how it is scored - nothing is measured silently. Formulas: /methodology">· {challenge.scoring}</span>
+        {/if}
       </p>
       <div class="flex items-baseline gap-3 sm:gap-4">
         <span class="label">{progressLabel}</span>
@@ -644,6 +682,12 @@
 
         <!-- prompt -->
         <div class="w-full text-center">
+          {#if showIntro && activeIntroKey}
+            <div class="mx-auto mb-4 flex max-w-md items-start justify-between gap-3 rounded border border-accent/40 bg-accent/5 p-3 text-left">
+              <p class="text-xs leading-relaxed text-body">{INTROS[activeIntroKey]}</p>
+              <button class="shrink-0 rounded border border-edge px-2 py-1 text-xs text-muted hover:border-accent hover:text-accent" on:click={() => dismissIntro(activeIntroKey)}>Got it</button>
+            </div>
+          {/if}
           {#if isPlanning}
             <p class="label mb-3">{challenge.promptData.instruction}</p>
             {#if challenge.promptData.kind === 'step_order'}

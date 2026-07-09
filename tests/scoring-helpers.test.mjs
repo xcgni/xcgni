@@ -38,5 +38,20 @@ ok('111th', ordinal(111) === '111th');
 // percentileWording
 ok('wording includes ordinal + pct', percentileWording(92) === '92nd percentile · higher than 92% of rated users');
 
+// --- v1.10.0: scoring transparency label (truth-gated from the mode strings) ---
+{
+  const { scoringLabel } = await import('../src/lib/server/challenges/scoring-label.ts');
+  let p5 = 0, f5 = 0;
+  const ok5 = (name, cond) => { if (cond) p5++; else { f5++; console.log('  FAIL:', name); } };
+  ok5('deliberate: no clock', scoringLabel('deliberate', null).includes('no clock'));
+  ok5('fluency: window wording', scoringLabel('fluency_count', null).includes('fixed time window'));
+  ok5('estimation: closeness', scoringLabel(null, 'error_rank').includes('closeness'));
+  ok5('default: pace disclosed', scoringLabel(null, null).includes('pace scored'));
+  ok5('answer mode wins over config', scoringLabel('deliberate', 'error_rank').includes('no clock'));
+  console.log(`Scoring-label tests: ${p5} passed, ${f5} failed`);
+  if (f5 > 0) { console.log('SCORING-LABEL TESTS FAILED'); process.exit(1); }
+  console.log('ALL SCORING-LABEL TESTS PASSED');
+}
+
 console.log(failures === 0 ? '\nALL SCORING-HELPER TESTS PASSED' : `\n${failures} FAILURES`);
 process.exit(failures === 0 ? 0 : 1);

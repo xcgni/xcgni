@@ -10,6 +10,8 @@ export interface ServedChallenge {
   rendererType: string;
   promptData: unknown;
   scoringConfig: { expectedMedianMs: number };
+  // the scoring mode string ONLY (for the transparency chip) - never the answer data itself
+  scoringMode: string | null;
   version: number;
 }
 
@@ -52,7 +54,7 @@ export async function pickChallenge(
 
   const fresh = await pg`
     SELECT c.id, c.category_slug, c.challenge_type, c.level, c.renderer_type,
-           c.prompt_data, c.scoring_config, c.version
+           c.prompt_data, c.scoring_config, c.answer_data, c.version
     FROM challenges c
     WHERE c.category_slug = ${categorySlug} AND c.active AND c.level = ${level}
       AND c.id NOT IN (
@@ -68,7 +70,7 @@ export async function pickChallenge(
     // allow repeats at this level
     const any = await pg`
       SELECT c.id, c.category_slug, c.challenge_type, c.level, c.renderer_type,
-             c.prompt_data, c.scoring_config, c.version
+             c.prompt_data, c.scoring_config, c.answer_data, c.version
       FROM challenges c
       WHERE c.category_slug = ${categorySlug} AND c.active AND c.level = ${level}
       ORDER BY random() LIMIT 1
@@ -80,7 +82,7 @@ export async function pickChallenge(
     // no challenges at this exact level: take the nearest populated level
     const nearest = await pg`
       SELECT c.id, c.category_slug, c.challenge_type, c.level, c.renderer_type,
-             c.prompt_data, c.scoring_config, c.version
+             c.prompt_data, c.scoring_config, c.answer_data, c.version
       FROM challenges c
       WHERE c.category_slug = ${categorySlug} AND c.active
       ORDER BY abs(c.level - ${level}), random() LIMIT 1
@@ -97,6 +99,10 @@ export async function pickChallenge(
     rendererType: row.renderer_type,
     promptData: row.prompt_data,
     scoringConfig: row.scoring_config,
+    scoringMode:
+      (row.answer_data as { scoringMode?: string } | null)?.scoringMode ??
+      (row.scoring_config as { scoringMode?: string } | null)?.scoringMode ??
+      null,
     version: row.version ?? 1
   };
 }

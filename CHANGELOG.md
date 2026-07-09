@@ -6,6 +6,24 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.10.0 - Nothing measured silently: the scoring chip + first-encounter intros
+
+Prompted by outside criticism worth taking seriously: pace-scoring without a visible clock
+can read as hidden measurement, and being dropped into an unfamiliar exercise cold reads
+as pressure. Both answered the house way - with more disclosure, not less measurement:
+
+- **The scoring chip**: every served challenge now carries a small label of HOW it is
+  scored ("accuracy scored · pace scored, no visible clock" / "no clock · quality of
+  solution scored" / "valid answers counted · fixed time window" / "closeness scored ·
+  pace noted"). Truth-gated: the label derives from the same scoring-mode strings the
+  scorer dispatches on, so it cannot drift from reality. Only the mode string travels to
+  the client - answer data stays server-side as always. Hover states the principle:
+  nothing is measured silently, formulas on /methodology.
+- **First-encounter intros**: a one-time, two-line explainer per task shape (nine of
+  them, including each planning kind), dismissible with one tap, seen-state stored
+  client-side only. Nobody is thrown into an exercise cold anymore; nobody who knows the
+  shapes ever sees them again.
+- 5 new unit checks pin the label wording to the modes.
 ## v1.9.0 - Cognitive weather (J1) + a coherence sweep
 
 **The weather report**: the pulse landing and the practice page now carry one quiet line

@@ -1,3 +1,4 @@
+import { scoringLabel } from '$lib/server/challenges/scoring-label';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { ensureUser } from '$lib/server/auth';
@@ -82,6 +83,8 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
     level: challenge.level,
     rendererType: challenge.rendererType,
     challengeType: challenge.challengeType,
-    promptData: challenge.promptData
+    promptData: challenge.promptData,
+    // scoring transparency: derived from the same mode strings the scorer dispatches on
+    scoring: scoringLabel(challenge.scoringMode, null)
   });
 };
