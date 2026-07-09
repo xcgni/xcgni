@@ -13,6 +13,7 @@ import {
 } from '$lib/server/rating';
 import { levelBounds, validateAnswer } from '$lib/server/challenges';
 import { gradePlan, gradeStepOrder, gradeGridPath } from './planning';
+import { judgeCategoryWord } from './fluency-match';
 import { METHODOLOGY_VERSION } from '$lib/methodology';
 
 // Mark a still-pending attempt as abandoned when the user leaves the page mid-challenge, so it isn't
@@ -188,7 +189,7 @@ export interface SubmitResult {
   peakRating: number;
   maxLevel: number;
   fluencyValidCount: number | null;
-  fluencyWords: { w: string; ok: boolean; fuzzy: boolean }[] | null;
+  fluencyWords: { w: string; ok: boolean; fuzzy: boolean; dup?: boolean }[] | null;
   vocab?: { prompt: { word: string; definition: string } | null; answer: { word: string; definition: string } | null } | null;
 }
 
@@ -237,37 +238,12 @@ export async function submitAttempt(
   };
 
   let correct: boolean;
-  // Fluency-list short/full matcher (see usage below). Pure and conservative by design.
-  function shortFullFluency(word: string, acceptSet: Set<string>): boolean {
-    const gTokens = word.split(' ').filter(Boolean);
-    if (gTokens.length > 1) {
-      // multi-word input: match if any entry is an in-order whole-word subset of it, or it of an entry
-      for (const a of acceptSet) {
-        const aTokens = a.split(' ').filter(Boolean);
-        const [short, long] = gTokens.length <= aTokens.length ? [gTokens, aTokens] : [aTokens, gTokens];
-        if (short.length >= long.length) continue;
-        if (short.some((t) => t.length < 3)) continue;
-        let idx = 0; let okAll = true;
-        for (const t of short) { const f = long.indexOf(t, idx); if (f === -1) { okAll = false; break; } idx = f + 1; }
-        if (okAll) return true;
-      }
-      return false;
-    }
-    // single-word input: only the LAST token of a multi-word entry, and only if it's substantial
-    if (word.length < 4) return false;
-    for (const a of acceptSet) {
-      const aTokens = a.split(' ').filter(Boolean);
-      if (aTokens.length > 1 && aTokens[aTokens.length - 1] === word) return true;
-    }
-    return false;
-  }
-
   let score: number;
   let estError: number | null = null;
   let fluencyValidCount = 0;
   // Per-word verdicts for fluency, so the run feedback can SHOW which words counted and which
   // didn't (typo tolerance and rule-matching exist but were invisible at answer time).
-  let fluencyWords: { w: string; ok: boolean; fuzzy: boolean }[] | null = null;
+  let fluencyWords: { w: string; ok: boolean; fuzzy: boolean; dup?: boolean }[] | null = null;
 
   if (isFluency && (Array.isArray(ad.acceptList) || typeof ad.constraint === 'string')) {
     // answer is a JSON array (or newline/comma list) of produced items.
@@ -301,11 +277,13 @@ export async function submitAttempt(
       produced = givenAnswer.split(/[,\n]/);
     }
     const seen = new Set<string>();
+    const usedCanon = new Set<string>();
     fluencyWords = [];
     for (const raw of produced) {
       const w = raw.trim().toLowerCase();
       if (!w || seen.has(w)) continue;
       seen.add(w);
+      let dup = false;
       const plausibleWord = w.length >= 2 && /^[a-z][a-z'-]*$/.test(w);
       // Structural sanity for rule-based (letter) fluency - tester-found: "hshshsher" and
       // "nznznzer" sailed through on the suffix alone. A real word needs a vowel and doesn't
@@ -326,25 +304,18 @@ export async function submitAttempt(
           const dict = await englishDictionary();
           ok = dict ? (dict.has(w) || accept.has(w)) : structurallySane;
         }
-      } else if (accept.has(w)) {
-        ok = true;
-      } else if (shortFullFluency(w, accept)) {
-        // short/full equivalence: "johann sebastian bach" counts when the list has "bach", and
-        // "bach" counts when the list has "johann sebastian bach". Multi-word input uses full
-        // in-order whole-word containment; single-word input only matches an entry's LAST token
-        // (surname / head-noun convention, >=4 chars) so a generic leading adjective ("red")
-        // can't score via "red mullet".
-        ok = true;
-        fuzzy = true;
-      } else if (w.length >= 5 && [...accept].some((a) => a.length >= 5 && editDistance(w, a, 1) <= 1)) {
-        // typo tolerance: a near-miss of a known item still counts (the person knew the word,
-        // just mistyped). Length-gated and 1-edit only, so it can't turn a wrong word into a
-        // listed one. Letter fluency already accepts by rule, so this only applies to categories.
-        ok = true;
-        fuzzy = true;
+      } else {
+        // Category fluency: exact / short-full / 1-edit typo, with CANONICAL dedup - every
+        // accepted word consumes the list entry it resolves to (plural-folded), so a typo of
+        // an already-given word is a duplicate, not another point (user-found bug: english,
+        // englisg, englsh all counted). Pure + unit-tested in ./fluency-match.
+        const verdict = judgeCategoryWord(w, accept, usedCanon);
+        ok = verdict.ok;
+        fuzzy = verdict.fuzzy;
+        dup = verdict.dup;
       }
       if (ok) fluencyValidCount += 1;
-      fluencyWords.push({ w, ok, fuzzy });
+      fluencyWords.push({ w, ok, fuzzy, dup });
     }
     // map count to [0,1] with a soft curve: ~12+ valid is excellent at most levels
     score = Math.round(Math.min(1, fluencyValidCount / 12) * 1000) / 1000;

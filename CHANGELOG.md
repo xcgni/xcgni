@@ -6,6 +6,23 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.3.2 - Fluency dedup: a typo of a word you already gave is not another point
+
+User-found in the wild (thank you): in category fluency, "english", "englisg" and "englsh"
+all counted as valid - typo tolerance resolved the misspellings to the list entry but
+deduplication only checked the RAW typed strings, so one word plus its typos farmed points.
+
+- Every accepted word now CONSUMES the canonical list entry it resolves to (plural-folded),
+  and any later word resolving to the same entry is a duplicate: shown in the verdict chips
+  as "· dup" with an explanatory tooltip, struck through, not counted. This closes all three
+  variants of the hole at once: typo-of-given, short/full pair ("bach" then "johann sebastian
+  bach"), and plural pair ("dog" then "dogs" when the list enumerates both for acceptance).
+- The category matcher moved to a pure, dependency-free module
+  (src/lib/server/sessions/fluency-match.ts) so it is directly unit-testable; twelve new
+  checks in the answer-match suite pin exact/typo/short-full/plural dedup behavior, including
+  the original screenshot scenario verbatim.
+- Rule-based letter fluency is unchanged (dictionary-validated; inflection counting there is
+  a separate methodology question, noted on the roadmap rather than silently decided here).
 ## v1.3.1 - Two new test suites: the bank gets audited, modules get invoked
 
 Both born from real incidents, encoding their lesson permanently. Suites: 21.

@@ -851,7 +851,7 @@
                    Makes the scoring legible at answer time instead of a bare count. -->
               <div class="flex max-w-md flex-wrap justify-center gap-1.5 self-center">
                 {#each result.fluencyWords as fw}
-                  <span class="rounded px-1.5 py-0.5 font-mono text-[11px] {fw.ok ? 'bg-ok/10 text-ok' : 'bg-edge/40 text-muted line-through'}">{fw.w}{fw.fuzzy ? ' ≈' : ''}</span>
+                  <span class="rounded px-1.5 py-0.5 font-mono text-[11px] {fw.ok ? 'bg-ok/10 text-ok' : 'bg-edge/40 text-muted line-through'}" title={fw.dup ? 'already given (typo or variant of an earlier answer)' : ''}>{fw.w}{fw.dup ? ' · dup' : fw.fuzzy ? ' ≈' : ''}</span>
                 {/each}
               </div>
             {/if}

@@ -50,3 +50,49 @@ ok('case/direction irrelevant', matchAnswer('jane austen', 'Austen', []) !== 'no
 
 console.log(`\nAnswer-match tests: ${pass} passed, ${fail} failed`);
 if (fail > 0) { console.log('FAILURES'); process.exit(1); } else { console.log('ALL ANSWER-MATCH TESTS PASSED'); }
+
+// --- v1.3.2: category-fluency canonical dedup (user-found: english/englisg/englsh all counted) ---
+{
+  const { judgeCategoryWord, foldPlural, shortFullMatch } = await import('../src/lib/server/sessions/fluency-match.ts');
+  let p2 = 0, f2 = 0;
+  const ok2 = (name, cond) => { if (cond) p2++; else { f2++; console.log('  FAIL:', name); } };
+
+  const accept = new Set(['english', 'german', 'johann sebastian bach', 'dog', 'dogs', 'spanish']);
+  {
+    const used = new Set();
+    ok2('exact counts once', judgeCategoryWord('english', accept, used).ok === true);
+    const t1 = judgeCategoryWord('englisg', accept, used);
+    ok2('typo of an already-given word is a DUP, not a point', t1.ok === false && t1.dup === true);
+    const t2 = judgeCategoryWord('englsh', accept, used);
+    ok2('second typo also dup', t2.ok === false && t2.dup === true);
+    ok2('a different word still counts', judgeCategoryWord('german', accept, used).ok === true);
+  }
+  {
+    const used = new Set();
+    const g1 = judgeCategoryWord('grman', accept, used);
+    ok2('typo of NOT-yet-given word counts (fuzzy)', g1.ok === true && g1.fuzzy === true);
+    const g2 = judgeCategoryWord('german', accept, used);
+    ok2('exact after its typo was consumed is dup', g2.dup === true && g2.ok === false);
+  }
+  {
+    const used = new Set();
+    const b1 = judgeCategoryWord('bach', accept, used);
+    ok2('short form counts (fuzzy)', b1.ok === true && b1.fuzzy === true);
+    const b2 = judgeCategoryWord('johann sebastian bach', accept, used);
+    ok2('full form after short form is dup', b2.ok === false && b2.dup === true);
+  }
+  {
+    const used = new Set();
+    const d1 = judgeCategoryWord('dog', accept, used);
+    const d2 = judgeCategoryWord('dogs', accept, used);
+    ok2('plural pair counts once', d1.ok === true && d2.ok === false && d2.dup === true);
+    const k = judgeCategoryWord('klingon', accept, used);
+    ok2('unknown word neither ok nor dup', k.ok === false && k.dup === false);
+  }
+  ok2('foldPlural basic', foldPlural('dogs') === 'dog' && foldPlural('boxes') === 'box' && foldPlural('bus') === 'bus');
+  ok2('shortFullMatch returns the entry', shortFullMatch('bach', accept) === 'johann sebastian bach');
+
+  console.log(`Fluency-dedup tests: ${p2} passed, ${f2} failed`);
+  if (f2 > 0) { console.log('FLUENCY-DEDUP TESTS FAILED'); process.exit(1); }
+  console.log('ALL FLUENCY-DEDUP TESTS PASSED');
+}
