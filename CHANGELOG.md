@@ -6,6 +6,16 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.2.0 - A proper quiz knowledge bank
+
+The Retention faculty gains an extensive general-knowledge deck set: 247 cards across 17
+themed decks (Biology, Chemistry, Physics & Space, Geography, World History, Art & Culture,
+Literature & Language, Sport, Music, Film, Mathematics, Food & Nature, The Human Body,
+Inventions & Technology, Mythology, World & Society, and General Knowledge). Quiz-show style,
+deliberately broad and globally-minded rather than trivia tied to one country, each card with
+accepted answer variants and a short teaching note. The new file
+challenge-bank/retention/quiz-decks.json loads alongside the existing decks through the seed;
+spaced-repetition scheduling and honest due-only scoring apply unchanged.
 ## v1.1.1 - Logs are data too
 
 - **SMTP announces the real domain** (nodemailer `name: 'xcgni.com'`): without it the EHLO

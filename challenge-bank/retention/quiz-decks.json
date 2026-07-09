@@ -1,0 +1,1905 @@
+[
+ {
+  "deck": "quiz_biology",
+  "label": "Biology",
+  "cards": [
+   [
+    "The powerhouse of the cell",
+    "mitochondria",
+    [
+     "mitochondrion"
+    ],
+    "They generate ATP, the cell's energy currency, and carry their own small genome inherited from the mother."
+   ],
+   [
+    "The molecule that carries genetic instructions",
+    "DNA",
+    [
+     "deoxyribonucleic acid"
+    ],
+    "Its double-helix structure was described by Watson and Crick in 1953, building on Rosalind Franklin's imaging."
+   ],
+   [
+    "The process plants use to make food from sunlight",
+    "photosynthesis",
+    [],
+    "It converts carbon dioxide and water into glucose and oxygen, using chlorophyll to capture light."
+   ],
+   [
+    "The number of chromosomes in a typical human cell",
+    "46",
+    [
+     "forty-six"
+    ],
+    "Arranged as 23 pairs; one of each pair comes from each parent."
+   ],
+   [
+    "The largest organ of the human body",
+    "skin",
+    [],
+    "It regulates temperature, blocks pathogens, and in an adult covers about two square metres."
+   ],
+   [
+    "The scientist who proposed evolution by natural selection",
+    "Darwin",
+    [
+     "charles darwin"
+    ],
+    "His 1859 book On the Origin of Species laid out the mechanism after his voyage on HMS Beagle."
+   ],
+   [
+    "The blood cells that carry oxygen",
+    "red blood cells",
+    [
+     "erythrocytes",
+     "red cells"
+    ],
+    "They use haemoglobin, an iron-rich protein that binds oxygen and gives blood its colour."
+   ],
+   [
+    "The pigment that makes plants green",
+    "chlorophyll",
+    [],
+    "It absorbs red and blue light and reflects green, which is why leaves look green to us."
+   ],
+   [
+    "The kingdom to which mushrooms belong",
+    "fungi",
+    [],
+    "Neither plant nor animal, fungi absorb nutrients externally and are more closely related to animals than plants."
+   ],
+   [
+    "The study of heredity and genes",
+    "genetics",
+    [],
+    "Its foundations were laid by Gregor Mendel's experiments with pea plants in the 1860s."
+   ],
+   [
+    "The part of the brain controlling balance and coordination",
+    "cerebellum",
+    [],
+    "It sits at the back of the skull and fine-tunes movement, though it holds over half the brain's neurons."
+   ],
+   [
+    "The gas humans exhale that plants take in",
+    "carbon dioxide",
+    [
+     "co2",
+     "carbon dioxide (co2)"
+    ],
+    "This exchange is the basis of the carbon cycle linking animals and plants."
+   ],
+   [
+    "The process by which a cell divides into two identical cells",
+    "mitosis",
+    [],
+    "It underlies growth and tissue repair; sex cells instead form through meiosis."
+   ],
+   [
+    "The smallest unit of life",
+    "cell",
+    [],
+    "The cell theory holds that all living things are made of cells and all cells come from existing cells."
+   ],
+   [
+    "The human bone that is the longest",
+    "femur",
+    [
+     "thigh bone"
+    ],
+    "The thigh bone bears most of the body's weight and is stronger than concrete by weight."
+   ],
+   [
+    "The system that includes the heart and blood vessels",
+    "circulatory system",
+    [
+     "cardiovascular system"
+    ],
+    "It delivers oxygen and nutrients and removes waste, pumping blood through roughly 100,000 km of vessels."
+   ],
+   [
+    "The name for animals that eat only plants",
+    "herbivores",
+    [
+     "herbivore"
+    ],
+    "Contrast with carnivores (meat) and omnivores (both), like humans."
+   ],
+   [
+    "The double-stranded shape of the DNA molecule",
+    "double helix",
+    [
+     "helix"
+    ],
+    "Two strands twist around each other, linked by base pairs like rungs of a ladder."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_chemistry",
+  "label": "Chemistry",
+  "cards": [
+   [
+    "The chemical symbol for gold",
+    "Au",
+    [],
+    "From the Latin aurum, meaning shining dawn. Gold's symbol is why 'Au' appears on jewellery marks."
+   ],
+   [
+    "The chemical symbol for iron",
+    "Fe",
+    [],
+    "From the Latin ferrum. Iron is the most common element on Earth by mass."
+   ],
+   [
+    "The most abundant gas in Earth's atmosphere",
+    "nitrogen",
+    [],
+    "It makes up about 78% of the air; oxygen is second at about 21%."
+   ],
+   [
+    "The pH value that is exactly neutral",
+    "7",
+    [
+     "seven"
+    ],
+    "Below 7 is acidic, above 7 is alkaline. Pure water sits at 7."
+   ],
+   [
+    "The lightest element in the periodic table",
+    "hydrogen",
+    [],
+    "It has a single proton and is the most abundant element in the universe."
+   ],
+   [
+    "The chemical formula for water",
+    "H2O",
+    [
+     "h2o",
+     "h₂o"
+    ],
+    "Two hydrogen atoms bonded to one oxygen atom."
+   ],
+   [
+    "The hardest known natural material",
+    "diamond",
+    [],
+    "Made of pure carbon in a rigid lattice; the same element as graphite in pencils, arranged differently."
+   ],
+   [
+    "The number of elements in the modern periodic table (approx.)",
+    "118",
+    [
+     "one hundred eighteen"
+    ],
+    "Elements up to atomic number 118 (oganesson) have been confirmed."
+   ],
+   [
+    "The scientist who created the periodic table",
+    "Mendeleev",
+    [
+     "dmitri mendeleev"
+    ],
+    "He arranged elements by atomic weight in 1869 and left gaps predicting undiscovered ones."
+   ],
+   [
+    "The process of a solid turning directly into a gas",
+    "sublimation",
+    [],
+    "Dry ice (solid carbon dioxide) does this at room temperature, skipping the liquid stage."
+   ],
+   [
+    "The chemical symbol for sodium",
+    "Na",
+    [],
+    "From the Latin natrium. Sodium reacts violently with water."
+   ],
+   [
+    "The gas that makes soft drinks fizzy",
+    "carbon dioxide",
+    [
+     "co2"
+    ],
+    "It is dissolved under pressure and escapes as bubbles when the bottle is opened."
+   ],
+   [
+    "The negatively charged particle in an atom",
+    "electron",
+    [],
+    "It orbits the nucleus and its movement between atoms is what electricity fundamentally is."
+   ],
+   [
+    "The acid found in the human stomach",
+    "hydrochloric acid",
+    [
+     "hcl"
+    ],
+    "It helps digest food and kill bacteria, and is strong enough to dissolve metal."
+   ],
+   [
+    "The most abundant metal in the Earth's crust",
+    "aluminium",
+    [
+     "aluminum"
+    ],
+    "Though common, it is rarely found pure and was once more valuable than gold."
+   ],
+   [
+    "The chemical symbol for oxygen",
+    "O",
+    [],
+    "Essential for respiration and combustion; it makes up about 21% of the atmosphere."
+   ],
+   [
+    "The type of bond where atoms share electrons",
+    "covalent",
+    [
+     "covalent bond"
+    ],
+    "Contrast with ionic bonds, where electrons are transferred rather than shared."
+   ],
+   [
+    "The centre of an atom containing protons and neutrons",
+    "nucleus",
+    [],
+    "Tiny but dense, it holds almost all of an atom's mass."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_physics_space",
+  "label": "Physics & Space",
+  "cards": [
+   [
+    "The speed of light in a vacuum (approx., km/s)",
+    "300000",
+    [
+     "300,000",
+     "three hundred thousand"
+    ],
+    "Precisely 299,792 km/s. Nothing with mass can reach it."
+   ],
+   [
+    "The force that pulls objects toward Earth",
+    "gravity",
+    [],
+    "Newton described it; Einstein reframed it as the curving of spacetime by mass."
+   ],
+   [
+    "The closest planet to the Sun",
+    "Mercury",
+    [],
+    "It has no atmosphere to trap heat, so it swings between scorching days and freezing nights."
+   ],
+   [
+    "The largest planet in the solar system",
+    "Jupiter",
+    [],
+    "A gas giant so large that all other planets could fit inside it, with a storm bigger than Earth."
+   ],
+   [
+    "The star at the centre of our solar system",
+    "Sun",
+    [],
+    "A middle-aged star that accounts for over 99% of the solar system's mass."
+   ],
+   [
+    "The galaxy that contains Earth",
+    "Milky Way",
+    [],
+    "A barred spiral galaxy holding hundreds of billions of stars; we sit on one of its arms."
+   ],
+   [
+    "The planet known as the Red Planet",
+    "Mars",
+    [],
+    "Its colour comes from iron oxide, essentially rust, on its surface."
+   ],
+   [
+    "The scientist who developed the theory of relativity",
+    "Einstein",
+    [
+     "albert einstein"
+    ],
+    "His 1905 and 1915 papers reshaped our understanding of space, time, and gravity."
+   ],
+   [
+    "The force resisting motion between two surfaces",
+    "friction",
+    [],
+    "It converts kinetic energy into heat, which is why rubbing your hands warms them."
+   ],
+   [
+    "The unit of electrical resistance",
+    "ohm",
+    [],
+    "Named after Georg Ohm; his law relates voltage, current, and resistance."
+   ],
+   [
+    "The first person to walk on the Moon",
+    "Armstrong",
+    [
+     "neil armstrong"
+    ],
+    "In July 1969 during Apollo 11, followed minutes later by Buzz Aldrin."
+   ],
+   [
+    "The invisible line around which the Earth spins",
+    "axis",
+    [],
+    "Its tilt of about 23.5 degrees is what gives us the seasons."
+   ],
+   [
+    "The phenomenon of light bending as it passes through water",
+    "refraction",
+    [],
+    "It is why a straw looks bent in a glass and how lenses focus light."
+   ],
+   [
+    "The planet famous for its prominent rings",
+    "Saturn",
+    [],
+    "Its rings are made mostly of ice and rock; other gas giants have faint rings too."
+   ],
+   [
+    "The energy an object has due to its motion",
+    "kinetic energy",
+    [
+     "kinetic"
+    ],
+    "It depends on mass and the square of speed, so doubling speed quadruples it."
+   ],
+   [
+    "The point around which a lever pivots",
+    "fulcrum",
+    [],
+    "Moving the fulcrum closer to a load lets a small force lift a heavy weight."
+   ],
+   [
+    "The natural satellite of the Earth",
+    "Moon",
+    [],
+    "It drives the tides and is slowly drifting away from Earth by a few centimetres a year."
+   ],
+   [
+    "The three states of matter taught in basic science",
+    "solid liquid gas",
+    [
+     "solid, liquid, gas",
+     "solid liquid and gas"
+    ],
+    "Plasma is often called the fourth state, common in stars and lightning."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_geography",
+  "label": "World Geography",
+  "cards": [
+   [
+    "The longest river in the world",
+    "Nile",
+    [
+     "the nile"
+    ],
+    "It flows north through northeastern Africa for about 6,650 km, though the Amazon rivals it in length."
+   ],
+   [
+    "The largest ocean on Earth",
+    "Pacific",
+    [
+     "pacific ocean"
+    ],
+    "It covers about a third of the planet's surface, larger than all land combined."
+   ],
+   [
+    "The tallest mountain above sea level",
+    "Everest",
+    [
+     "mount everest"
+    ],
+    "It rises about 8,849 m in the Himalayas; measured from base, Mauna Kea is taller."
+   ],
+   [
+    "The largest desert in the world",
+    "Antarctic",
+    [
+     "antarctica",
+     "antarctic desert"
+    ],
+    "A desert is defined by low precipitation, not heat, so the frozen Antarctic qualifies as the largest."
+   ],
+   [
+    "The largest country by land area",
+    "Russia",
+    [],
+    "It spans eleven time zones and about an eighth of Earth's inhabited land."
+   ],
+   [
+    "The continent that is also a country",
+    "Australia",
+    [],
+    "It is the only landmass that is simultaneously a continent, a country, and an island."
+   ],
+   [
+    "The largest hot desert in the world",
+    "Sahara",
+    [
+     "the sahara"
+    ],
+    "It stretches across North Africa, roughly the size of the United States."
+   ],
+   [
+    "The sea between Europe and Africa",
+    "Mediterranean",
+    [
+     "mediterranean sea"
+    ],
+    "Its name means 'middle of the earth' in Latin; it links to the Atlantic at Gibraltar."
+   ],
+   [
+    "The largest island in the world",
+    "Greenland",
+    [],
+    "Australia is larger but is classed as a continent, leaving Greenland the largest island."
+   ],
+   [
+    "The river that flows through the Amazon rainforest",
+    "Amazon",
+    [
+     "amazon river"
+    ],
+    "It carries more water than the next several largest rivers combined."
+   ],
+   [
+    "The highest waterfall in the world",
+    "Angel Falls",
+    [
+     "angel"
+    ],
+    "It drops nearly a kilometre in Venezuela, so high the water often mists before reaching the bottom."
+   ],
+   [
+    "The mountain range separating Europe and Asia",
+    "Urals",
+    [
+     "ural mountains",
+     "urals mountains"
+    ],
+    "This modest range is the traditional dividing line between the two continents."
+   ],
+   [
+    "The largest freshwater lake by surface area",
+    "Lake Superior",
+    [
+     "superior"
+    ],
+    "One of North America's Great Lakes, it could cover both of the Americas in a foot of water."
+   ],
+   [
+    "The imaginary line at zero degrees latitude",
+    "equator",
+    [],
+    "It divides the globe into Northern and Southern hemispheres and is where days and nights are most equal."
+   ],
+   [
+    "The strait separating Europe from Africa at their closest point",
+    "Gibraltar",
+    [
+     "strait of gibraltar"
+    ],
+    "Only about 14 km wide, it connects the Mediterranean to the Atlantic."
+   ],
+   [
+    "The smallest continent",
+    "Australia",
+    [
+     "oceania"
+    ],
+    "By land area it is the smallest of the seven traditional continents."
+   ],
+   [
+    "The deepest point in Earth's oceans",
+    "Mariana Trench",
+    [
+     "marianas trench",
+     "mariana"
+    ],
+    "Its Challenger Deep plunges nearly 11 km, deeper than Everest is tall."
+   ],
+   [
+    "The line of longitude marking zero degrees",
+    "prime meridian",
+    [
+     "greenwich meridian"
+    ],
+    "It passes through Greenwich, London, and sets the basis for world time zones."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_history",
+  "label": "World History",
+  "cards": [
+   [
+    "The ancient wonder still standing in Giza",
+    "pyramids",
+    [
+     "great pyramid",
+     "pyramids of giza",
+     "the pyramids"
+    ],
+    "The Great Pyramid is the only Ancient Wonder of the World largely intact today."
+   ],
+   [
+    "The war that ended in 1945",
+    "World War II",
+    [
+     "ww2",
+     "second world war",
+     "world war 2"
+    ],
+    "The deadliest conflict in history, it reshaped borders and led to the founding of the UN."
+   ],
+   [
+    "The ship that sank on its maiden voyage in 1912",
+    "Titanic",
+    [
+     "the titanic"
+    ],
+    "Believed unsinkable, it struck an iceberg in the North Atlantic with great loss of life."
+   ],
+   [
+    "The wall that divided a German city until 1989",
+    "Berlin Wall",
+    [
+     "the berlin wall"
+    ],
+    "Its fall became a symbol of the end of the Cold War and the reunification of Germany."
+   ],
+   [
+    "The empire ruled from Rome",
+    "Roman Empire",
+    [
+     "rome",
+     "roman"
+    ],
+    "At its height it circled the Mediterranean and shaped law, language, and architecture for millennia."
+   ],
+   [
+    "The explorer who reached the Americas in 1492",
+    "Columbus",
+    [
+     "christopher columbus"
+    ],
+    "Sailing for Spain, he opened lasting contact between Europe and the Americas."
+   ],
+   [
+    "The Egyptian queen famed for alliances with Rome",
+    "Cleopatra",
+    [],
+    "The last active ruler of Ptolemaic Egypt, allied with Julius Caesar and Mark Antony."
+   ],
+   [
+    "The period of rebirth in art and learning in Europe",
+    "Renaissance",
+    [
+     "the renaissance"
+    ],
+    "Beginning in Italy around the 14th century, it revived classical ideas and produced masters like Leonardo."
+   ],
+   [
+    "The document sealed at Runnymede in 1215",
+    "Magna Carta",
+    [],
+    "It limited the English king's power and influenced later ideas of rights and law."
+   ],
+   [
+    "The first man in space",
+    "Gagarin",
+    [
+     "yuri gagarin"
+    ],
+    "The Soviet cosmonaut orbited Earth once in 1961, opening the era of human spaceflight."
+   ],
+   [
+    "The ancient Greek city known for its warriors",
+    "Sparta",
+    [],
+    "Its society was built around military training, contrasting with Athens's focus on philosophy and art."
+   ],
+   [
+    "The plague that devastated Europe in the 14th century",
+    "Black Death",
+    [
+     "the black death",
+     "bubonic plague"
+    ],
+    "It killed perhaps a third of Europe's population in a few years."
+   ],
+   [
+    "The revolution that began in France in 1789",
+    "French Revolution",
+    [
+     "the french revolution"
+    ],
+    "It overthrew the monarchy and spread ideas of liberty, equality, and fraternity."
+   ],
+   [
+    "The wall built across northern Britain by Rome",
+    "Hadrian's Wall",
+    [
+     "hadrians wall"
+    ],
+    "It marked the northwest frontier of the Roman Empire for nearly three centuries."
+   ],
+   [
+    "The general who crossed the Alps with elephants",
+    "Hannibal",
+    [],
+    "The Carthaginian commander stunned Rome by invading Italy from the north around 218 BC."
+   ],
+   [
+    "The civilisation that built Machu Picchu",
+    "Inca",
+    [
+     "incas",
+     "inca empire"
+    ],
+    "The Inca created a vast Andean empire linked by stone roads, without the wheel or iron tools."
+   ],
+   [
+    "The cold conflict between the US and USSR",
+    "Cold War",
+    [
+     "the cold war"
+    ],
+    "A decades-long standoff of ideology, arms, and proxy wars without direct large-scale fighting."
+   ],
+   [
+    "The mound tomb complex of the first emperor of China",
+    "Terracotta Army",
+    [
+     "terracotta warriors"
+    ],
+    "Thousands of life-sized clay soldiers were buried to guard Qin Shi Huang in the afterlife."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_arts",
+  "label": "Art & Culture",
+  "cards": [
+   [
+    "The artist who painted the Mona Lisa",
+    "Leonardo da Vinci",
+    [
+     "da vinci",
+     "leonardo"
+    ],
+    "A Renaissance polymath, he left the small portrait unfinished-looking yet endlessly studied."
+   ],
+   [
+    "The artist who cut off part of his own ear",
+    "Van Gogh",
+    [
+     "vincent van gogh"
+    ],
+    "The Dutch painter sold almost nothing in life but became one of history's most beloved artists."
+   ],
+   [
+    "The number of colours in a rainbow, traditionally",
+    "7",
+    [
+     "seven"
+    ],
+    "Red, orange, yellow, green, blue, indigo, violet, a division popularised by Newton."
+   ],
+   [
+    "The Italian city that is the home of the Renaissance",
+    "Florence",
+    [],
+    "Backed by the Medici family, it nurtured Michelangelo, Botticelli, and Leonardo."
+   ],
+   [
+    "The ceiling painted by Michelangelo in the Vatican",
+    "Sistine Chapel",
+    [
+     "the sistine chapel"
+    ],
+    "He spent about four years painting its frescoes, including The Creation of Adam."
+   ],
+   [
+    "The sculptor of the statue of David",
+    "Michelangelo",
+    [],
+    "He carved the towering marble figure from a single flawed block others had abandoned."
+   ],
+   [
+    "The instrument with 88 keys",
+    "piano",
+    [],
+    "Its keys span black and white notes across seven octaves plus a few extra."
+   ],
+   [
+    "The art style of Picasso featuring fragmented shapes",
+    "cubism",
+    [],
+    "He and Georges Braque pioneered it, showing subjects from many viewpoints at once."
+   ],
+   [
+    "The number of lines in a sonnet",
+    "14",
+    [
+     "fourteen"
+    ],
+    "A fixed poetic form; Shakespeare's sonnets follow a strict rhyme scheme."
+   ],
+   [
+    "The dance and music style born in Argentina",
+    "tango",
+    [],
+    "It emerged in the Rio de la Plata region and became a global ballroom dance."
+   ],
+   [
+    "The painting technique using small dots of colour",
+    "pointillism",
+    [],
+    "Seurat pioneered it; up close it is dots, from afar the colours blend in the eye."
+   ],
+   [
+    "The family of instruments including violin and cello",
+    "strings",
+    [
+     "string family",
+     "strings family"
+    ],
+    "They produce sound from vibrating strings, bowed or plucked."
+   ],
+   [
+    "The Dutch painter of Girl with a Pearl Earring",
+    "Vermeer",
+    [
+     "johannes vermeer"
+    ],
+    "A master of light, he left only around 34 known paintings."
+   ],
+   [
+    "The term for a play with a sad or serious ending",
+    "tragedy",
+    [],
+    "One of the classical Greek dramatic forms, contrasted with comedy."
+   ],
+   [
+    "The primary colours in painting",
+    "red yellow blue",
+    [
+     "red, yellow, blue",
+     "red yellow and blue"
+    ],
+    "Mixing these traditional primaries yields the other colours of the artist's palette."
+   ],
+   [
+    "The Norwegian painter of The Scream",
+    "Munch",
+    [
+     "edvard munch"
+    ],
+    "Its swirling sky and anguished figure became an icon of modern anxiety."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_literature",
+  "label": "Literature & Language",
+  "cards": [
+   [
+    "The playwright who wrote Romeo and Juliet",
+    "Shakespeare",
+    [
+     "william shakespeare"
+    ],
+    "The English playwright wrote some 37 plays and coined hundreds of still-used phrases."
+   ],
+   [
+    "The most widely spoken language by native speakers",
+    "Mandarin",
+    [
+     "mandarin chinese",
+     "chinese"
+    ],
+    "Over a billion people speak it as a first language."
+   ],
+   [
+    "The author of the Harry Potter series",
+    "Rowling",
+    [
+     "j.k. rowling",
+     "jk rowling",
+     "j k rowling"
+    ],
+    "She wrote the first book partly in cafes and reshaped children's publishing."
+   ],
+   [
+    "The Greek poet credited with the Iliad and Odyssey",
+    "Homer",
+    [],
+    "These ancient epics of the Trojan War and its aftermath anchor Western literature."
+   ],
+   [
+    "The detective created by Arthur Conan Doyle",
+    "Sherlock Holmes",
+    [
+     "holmes",
+     "sherlock"
+    ],
+    "Famed for deductive reasoning and his address at 221B Baker Street."
+   ],
+   [
+    "The number of plays in a typical trilogy",
+    "3",
+    [
+     "three"
+    ],
+    "From the Greek for a set of three related works."
+   ],
+   [
+    "The author of Pride and Prejudice",
+    "Austen",
+    [
+     "jane austen"
+    ],
+    "Her sharp social novels of Regency England remain widely read and adapted."
+   ],
+   [
+    "The language from which most Romance languages descend",
+    "Latin",
+    [],
+    "Spanish, French, Italian, Portuguese, and Romanian all evolved from spoken Latin."
+   ],
+   [
+    "The Russian author of War and Peace",
+    "Tolstoy",
+    [
+     "leo tolstoy"
+    ],
+    "His sweeping novel follows Russian society through the Napoleonic Wars."
+   ],
+   [
+    "The three-line Japanese poem form",
+    "haiku",
+    [],
+    "Traditionally 5-7-5 syllables, often evoking nature and a single moment."
+   ],
+   [
+    "The author of the Lord of the Rings",
+    "Tolkien",
+    [
+     "j.r.r. tolkien",
+     "jrr tolkien"
+    ],
+    "A philologist, he invented entire languages before writing the stories around them."
+   ],
+   [
+    "The study of the origin of words",
+    "etymology",
+    [],
+    "It traces how words change in form and meaning across languages and centuries."
+   ],
+   [
+    "The English poet who wrote Paradise Lost",
+    "Milton",
+    [
+     "john milton"
+    ],
+    "He composed the epic while blind, dictating it to assistants."
+   ],
+   [
+    "The figure of speech comparing using 'like' or 'as'",
+    "simile",
+    [],
+    "'Brave as a lion' is a simile; drop the 'as' and 'he is a lion' becomes a metaphor."
+   ],
+   [
+    "The alphabet used to write English",
+    "Latin",
+    [
+     "latin alphabet",
+     "roman alphabet"
+    ],
+    "Also called the Roman alphabet, it is the world's most widely used writing system."
+   ],
+   [
+    "The ancient library that was a wonder of learning",
+    "Library of Alexandria",
+    [
+     "alexandria"
+    ],
+    "In ancient Egypt it aimed to collect all the world's knowledge before its decline."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_sport",
+  "label": "Sport",
+  "cards": [
+   [
+    "The sport played at Wimbledon",
+    "tennis",
+    [],
+    "The oldest tennis tournament in the world, played on grass courts in London since 1877."
+   ],
+   [
+    "The number of players on a football (soccer) team on the pitch",
+    "11",
+    [
+     "eleven"
+    ],
+    "Each side fields ten outfield players and one goalkeeper."
+   ],
+   [
+    "The sport associated with the Tour de France",
+    "cycling",
+    [],
+    "A multi-week road race, its overall leader wears the famous yellow jersey."
+   ],
+   [
+    "The event held every four years for many sports",
+    "Olympics",
+    [
+     "olympic games",
+     "the olympics"
+    ],
+    "Revived in 1896, the modern Games trace back to ancient Greece."
+   ],
+   [
+    "The number of rings on the Olympic flag",
+    "5",
+    [
+     "five"
+    ],
+    "Their interlocking design represents the five inhabited continents united in sport."
+   ],
+   [
+    "The board game of kings and queens with 64 squares",
+    "chess",
+    [],
+    "A game of pure strategy with origins in India over a thousand years ago."
+   ],
+   [
+    "The sport where you score a 'try'",
+    "rugby",
+    [],
+    "Grounding the ball over the opponent's line scores a try, the sport's main way to score."
+   ],
+   [
+    "The number of holes in a full round of golf",
+    "18",
+    [
+     "eighteen"
+    ],
+    "A standard course is played in two loops of nine."
+   ],
+   [
+    "The martial art meaning 'gentle way' in Japanese",
+    "judo",
+    [],
+    "It emphasises throws and holds over strikes and is an Olympic sport."
+   ],
+   [
+    "The maximum break in snooker",
+    "147",
+    [
+     "one hundred forty-seven"
+    ],
+    "Potting every ball in the ideal sequence yields this perfect score."
+   ],
+   [
+    "The number of players on a basketball team on court",
+    "5",
+    [
+     "five"
+    ],
+    "Each team has five players; games are decided by scoring baskets worth two or three points."
+   ],
+   [
+    "The distance of a marathon (approx., km)",
+    "42",
+    [
+     "42.2",
+     "forty-two"
+    ],
+    "Precisely 42.195 km, based on a legendary run from Marathon to Athens."
+   ],
+   [
+    "The sport combining swimming, cycling, and running",
+    "triathlon",
+    [],
+    "Athletes complete all three back to back without stopping the clock."
+   ],
+   [
+    "The team sport played on ice with a puck",
+    "ice hockey",
+    [
+     "hockey"
+    ],
+    "Fast and physical, players use sticks to shoot a rubber puck into the net."
+   ],
+   [
+    "The number of points for a standard goal in football (soccer)",
+    "1",
+    [
+     "one"
+    ],
+    "Every goal counts the same, which is part of why low scores can still be dramatic."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_music",
+  "label": "Music",
+  "cards": [
+   [
+    "The number of strings on a standard guitar",
+    "6",
+    [
+     "six"
+    ],
+    "Tuned E-A-D-G-B-E from lowest to highest in standard tuning."
+   ],
+   [
+    "The composer of the Ninth Symphony who was deaf",
+    "Beethoven",
+    [
+     "ludwig van beethoven"
+    ],
+    "He composed some of his greatest works after losing his hearing."
+   ],
+   [
+    "The Italian word for 'loud' in music",
+    "forte",
+    [],
+    "Its opposite is piano, meaning soft, which also gave the pianoforte its name."
+   ],
+   [
+    "The family of instruments including trumpet and trombone",
+    "brass",
+    [
+     "brass family"
+    ],
+    "Sound is made by buzzing the lips into a mouthpiece and changing the tubing length."
+   ],
+   [
+    "The number of notes in a standard major scale",
+    "7",
+    [
+     "seven"
+    ],
+    "Eight if you count the octave, the repeat of the first note higher up."
+   ],
+   [
+    "The Austrian child prodigy composer Wolfgang Amadeus",
+    "Mozart",
+    [],
+    "He was composing and performing across Europe before the age of ten."
+   ],
+   [
+    "The written symbols that represent musical sounds",
+    "notes",
+    [],
+    "Placed on a staff of five lines, their position sets pitch and their shape sets duration."
+   ],
+   [
+    "The tempo marking meaning 'fast and lively'",
+    "allegro",
+    [],
+    "One of many Italian tempo terms, sitting between moderato and presto."
+   ],
+   [
+    "The keyboard instrument found in churches with pipes",
+    "organ",
+    [
+     "pipe organ"
+    ],
+    "Air pushed through pipes of different sizes produces its powerful range of sounds."
+   ],
+   [
+    "The German composer of the Brandenburg Concertos",
+    "Bach",
+    [
+     "johann sebastian bach"
+    ],
+    "A master of the Baroque era, revered for his intricate counterpoint."
+   ],
+   [
+    "The five lines on which music is written",
+    "staff",
+    [
+     "stave"
+    ],
+    "Notes above and below the five lines extend the range using short ledger lines."
+   ],
+   [
+    "The sign that raises a note by a semitone",
+    "sharp",
+    [],
+    "Its opposite, the flat, lowers a note by the same small step."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_film",
+  "label": "Film",
+  "cards": [
+   [
+    "The film studio with a roaring lion logo",
+    "MGM",
+    [
+     "metro-goldwyn-mayer"
+    ],
+    "Metro-Goldwyn-Mayer's mascot Leo the Lion has opened its films for a century."
+   ],
+   [
+    "The genre of films meant to frighten the audience",
+    "horror",
+    [],
+    "It builds dread and fear, from ghost stories to monsters to psychological terror."
+   ],
+   [
+    "The animation studio behind Toy Story",
+    "Pixar",
+    [],
+    "Toy Story was the first fully computer-animated feature film."
+   ],
+   [
+    "The director of Jaws and Jurassic Park",
+    "Spielberg",
+    [
+     "steven spielberg"
+    ],
+    "One of the most commercially successful directors in cinema history."
+   ],
+   [
+    "The term for the person who directs actors in a film",
+    "director",
+    [],
+    "They shape the creative vision, guiding performances, camera, and editing."
+   ],
+   [
+    "The film award shaped like a golden statuette",
+    "Oscar",
+    [
+     "academy award",
+     "oscars"
+    ],
+    "Officially the Academy Award, its gold-plated figure is a Hollywood icon."
+   ],
+   [
+    "The type of film that documents real life",
+    "documentary",
+    [],
+    "It presents factual subjects rather than fictional stories."
+   ],
+   [
+    "The first feature-length film with synchronised sound",
+    "The Jazz Singer",
+    [
+     "jazz singer"
+    ],
+    "Its 1927 release helped end the silent film era."
+   ],
+   [
+    "The genre of Star Wars and Star Trek",
+    "science fiction",
+    [
+     "sci-fi",
+     "scifi"
+    ],
+    "It explores imagined futures, technology, and space."
+   ],
+   [
+    "The role of the person who writes a film's script",
+    "screenwriter",
+    [
+     "writer"
+    ],
+    "They craft the dialogue and structure before filming begins."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_general",
+  "label": "General Knowledge",
+  "cards": [
+   [
+    "The number of continents on Earth",
+    "7",
+    [
+     "seven"
+    ],
+    "Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+   ],
+   [
+    "The number of days in a leap year",
+    "366",
+    [
+     "three hundred sixty-six"
+    ],
+    "An extra day, 29 February, is added roughly every four years to match Earth's orbit."
+   ],
+   [
+    "The number of sides on a hexagon",
+    "6",
+    [
+     "six"
+    ],
+    "From the Greek 'hex' for six; honeycombs use hexagons for efficient packing."
+   ],
+   [
+    "The number of colours on a traffic light",
+    "3",
+    [
+     "three"
+    ],
+    "Red, amber, and green, a system standardised worldwide for road safety."
+   ],
+   [
+    "The largest mammal on Earth",
+    "blue whale",
+    [],
+    "It can exceed 30 metres and is the largest animal ever known to have lived."
+   ],
+   [
+    "The fastest land animal",
+    "cheetah",
+    [],
+    "It can sprint to around 100 km/h in short bursts to catch prey."
+   ],
+   [
+    "The number of legs on a spider",
+    "8",
+    [
+     "eight"
+    ],
+    "Eight legs distinguish arachnids from insects, which have six."
+   ],
+   [
+    "The hardest substance in the human body",
+    "enamel",
+    [
+     "tooth enamel"
+    ],
+    "It coats the teeth and is even harder than bone, though it cannot repair itself."
+   ],
+   [
+    "The number of strings on a violin",
+    "4",
+    [
+     "four"
+    ],
+    "Tuned in fifths: G, D, A, E from lowest to highest."
+   ],
+   [
+    "The metal that is liquid at room temperature",
+    "mercury",
+    [],
+    "The only metal liquid at ordinary temperatures, once used in thermometers."
+   ],
+   [
+    "The number of planets in the solar system",
+    "8",
+    [
+     "eight"
+    ],
+    "Since Pluto was reclassified as a dwarf planet in 2006, eight planets remain."
+   ],
+   [
+    "The tallest animal in the world",
+    "giraffe",
+    [],
+    "Its long neck, with the same number of bones as a human's, helps it reach high leaves."
+   ],
+   [
+    "The number of degrees in a circle",
+    "360",
+    [
+     "three hundred sixty"
+    ],
+    "A convention inherited from ancient Babylonian mathematics based on 60."
+   ],
+   [
+    "The number of squares on a chessboard",
+    "64",
+    [
+     "sixty-four"
+    ],
+    "An eight-by-eight grid of alternating light and dark squares."
+   ],
+   [
+    "The only bird that can fly backwards",
+    "hummingbird",
+    [],
+    "Its wings beat in a figure-eight, letting it hover and reverse mid-air."
+   ],
+   [
+    "The largest species of big cat",
+    "tiger",
+    [],
+    "Larger than lions, the biggest tigers can weigh over 300 kg."
+   ],
+   [
+    "The gas that makes up most of the Sun",
+    "hydrogen",
+    [],
+    "The Sun fuses hydrogen into helium, releasing the energy that lights the solar system."
+   ],
+   [
+    "The number of bones in the adult human body",
+    "206",
+    [
+     "two hundred six"
+    ],
+    "Babies are born with about 300, many of which fuse together as they grow."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_math",
+  "label": "Mathematics",
+  "cards": [
+   [
+    "The value of pi to two decimal places",
+    "3.14",
+    [
+     "3.14159",
+     "pi"
+    ],
+    "The ratio of a circle's circumference to its diameter, an endless non-repeating decimal."
+   ],
+   [
+    "The only even prime number",
+    "2",
+    [
+     "two"
+    ],
+    "Every other even number is divisible by 2, so 2 is uniquely both even and prime."
+   ],
+   [
+    "The result of any number multiplied by zero",
+    "0",
+    [
+     "zero"
+    ],
+    "A foundational rule: multiplying by nothing always gives nothing."
+   ],
+   [
+    "The number of degrees in a right angle",
+    "90",
+    [
+     "ninety"
+    ],
+    "Two right angles make a straight line of 180 degrees."
+   ],
+   [
+    "The name for a triangle with all sides equal",
+    "equilateral",
+    [
+     "equilateral triangle"
+    ],
+    "All three angles are also equal, each measuring 60 degrees."
+   ],
+   [
+    "The square root of 144",
+    "12",
+    [
+     "twelve"
+    ],
+    "Because 12 times 12 equals 144."
+   ],
+   [
+    "The next number in the Fibonacci sequence after 5, 8",
+    "13",
+    [
+     "thirteen"
+    ],
+    "Each number is the sum of the two before it: 5 plus 8 makes 13."
+   ],
+   [
+    "The number of zeros in one million",
+    "6",
+    [
+     "six"
+    ],
+    "One million is written as a 1 followed by six zeros."
+   ],
+   [
+    "The branch of maths dealing with shapes and space",
+    "geometry",
+    [],
+    "From the Greek for 'earth measurement', it underlies architecture and navigation."
+   ],
+   [
+    "The result of 7 multiplied by 8",
+    "56",
+    [
+     "fifty-six"
+    ],
+    "A classic tricky times-table fact."
+   ],
+   [
+    "The name for numbers less than zero",
+    "negative",
+    [
+     "negative numbers"
+    ],
+    "They sit left of zero on the number line and are vital for debts and temperatures."
+   ],
+   [
+    "The longest side of a right-angled triangle",
+    "hypotenuse",
+    [],
+    "Opposite the right angle, its length links to the others via the Pythagorean theorem."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_food_nature",
+  "label": "Food & Nature",
+  "cards": [
+   [
+    "The spice derived from crocus flowers, the most expensive",
+    "saffron",
+    [],
+    "Each flower yields only a few threads, so it is harvested by hand at great cost."
+   ],
+   [
+    "The fruit that keeps the doctor away, by the saying",
+    "apple",
+    [],
+    "'An apple a day' reflects its fibre and vitamins, though any fruit helps."
+   ],
+   [
+    "The process bees use to make honey from nectar",
+    "pollination",
+    [],
+    "While gathering nectar, bees transfer pollen, fertilising the plants they visit."
+   ],
+   [
+    "The tree that produces acorns",
+    "oak",
+    [
+     "oak tree"
+    ],
+    "A single mature oak can drop thousands of acorns in a good year."
+   ],
+   [
+    "The main ingredient in guacamole",
+    "avocado",
+    [],
+    "Technically a berry, it is prized for its creamy, fatty flesh."
+   ],
+   [
+    "The hardest working insect, symbol of industry",
+    "bee",
+    [
+     "honeybee"
+    ],
+    "A hive's workers may visit millions of flowers to make a single jar of honey."
+   ],
+   [
+    "The bean used to make chocolate",
+    "cocoa",
+    [
+     "cacao",
+     "cocoa bean",
+     "cacao bean"
+    ],
+    "Cocoa beans are fermented, roasted, and ground to make chocolate."
+   ],
+   [
+    "The largest type of nut, actually a seed, from a palm",
+    "coconut",
+    [],
+    "Botanically a drupe, it can float across oceans to grow on new shores."
+   ],
+   [
+    "The green pigment process that feeds most life on Earth",
+    "photosynthesis",
+    [],
+    "It sits at the base of nearly every food chain by turning sunlight into food."
+   ],
+   [
+    "The grain that is the staple food for half the world",
+    "rice",
+    [],
+    "It feeds billions daily and grows in flooded paddies across Asia and beyond."
+   ],
+   [
+    "The fruit used to make wine",
+    "grape",
+    [
+     "grapes"
+    ],
+    "Crushed and fermented, grapes have been made into wine for thousands of years."
+   ],
+   [
+    "The fungus used to make bread rise",
+    "yeast",
+    [],
+    "It ferments sugars into carbon dioxide, whose bubbles make dough expand."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_body",
+  "label": "The Human Body",
+  "cards": [
+   [
+    "The organ that pumps blood around the body",
+    "heart",
+    [],
+    "About the size of a fist, it beats roughly 100,000 times a day."
+   ],
+   [
+    "The number of lungs in the human body",
+    "2",
+    [
+     "two"
+    ],
+    "The left lung is slightly smaller to make room for the heart."
+   ],
+   [
+    "The liquid part of blood",
+    "plasma",
+    [],
+    "It makes up over half of blood's volume and carries cells and nutrients."
+   ],
+   [
+    "The organ responsible for filtering blood and making urine",
+    "kidneys",
+    [
+     "kidney"
+    ],
+    "The two kidneys filter the body's entire blood supply many times a day."
+   ],
+   [
+    "The largest muscle in the human body",
+    "gluteus maximus",
+    [
+     "glute",
+     "buttock"
+    ],
+    "The main muscle of the buttocks, it powers standing and climbing."
+   ],
+   [
+    "The tube connecting the mouth to the stomach",
+    "esophagus",
+    [
+     "oesophagus",
+     "gullet"
+    ],
+    "Muscle waves push food down it, so you can even swallow upside down."
+   ],
+   [
+    "The number of chambers in the human heart",
+    "4",
+    [
+     "four"
+    ],
+    "Two atria on top and two ventricles below, keeping oxygen-rich and oxygen-poor blood apart."
+   ],
+   [
+    "The sense organ that detects light",
+    "eye",
+    [
+     "eyes"
+    ],
+    "It focuses light onto the retina, which sends signals to the brain to form images."
+   ],
+   [
+    "The vitamin the skin makes from sunlight",
+    "vitamin D",
+    [
+     "vitamin d"
+    ],
+    "It helps the body absorb calcium for strong bones."
+   ],
+   [
+    "The part of the eye that controls how much light enters",
+    "pupil",
+    [],
+    "The coloured iris around it widens or narrows the pupil like a camera aperture."
+   ],
+   [
+    "The system that defends the body against disease",
+    "immune system",
+    [],
+    "It recognises and attacks invaders like bacteria and viruses."
+   ],
+   [
+    "The number of teeth in a full set of adult teeth",
+    "32",
+    [
+     "thirty-two"
+    ],
+    "Including four wisdom teeth, which many people have removed."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_tech",
+  "label": "Inventions & Technology",
+  "cards": [
+   [
+    "The inventor associated with the practical light bulb",
+    "Edison",
+    [
+     "thomas edison"
+    ],
+    "He refined a long-lasting design and built systems to power it commercially."
+   ],
+   [
+    "The company that makes the iPhone",
+    "Apple",
+    [],
+    "Introduced in 2007, the iPhone helped define the modern smartphone."
+   ],
+   [
+    "The 'www' that begins many web addresses stands for this",
+    "World Wide Web",
+    [
+     "world wide web (www)"
+    ],
+    "Invented by Tim Berners-Lee, it made the internet easy to browse with links."
+   ],
+   [
+    "The machine invented by Gutenberg that spread books",
+    "printing press",
+    [],
+    "Around 1440 it made books affordable and helped spark mass literacy in Europe."
+   ],
+   [
+    "The device that measures temperature",
+    "thermometer",
+    [],
+    "Early versions used mercury or alcohol; digital sensors are now common."
+   ],
+   [
+    "The name for a program that browses the web",
+    "browser",
+    [
+     "web browser"
+    ],
+    "It fetches and displays web pages, translating code into what you see."
+   ],
+   [
+    "The two brothers credited with the first powered flight",
+    "Wright brothers",
+    [
+     "wright"
+    ],
+    "Orville and Wilbur flew their aircraft in 1903, lasting only seconds."
+   ],
+   [
+    "The unit of digital information equal to eight bits",
+    "byte",
+    [],
+    "A single character of text is roughly one byte; a bit is the smallest unit."
+   ],
+   [
+    "The Italian who pioneered long-distance radio",
+    "Marconi",
+    [
+     "guglielmo marconi"
+    ],
+    "He sent the first transatlantic radio signal in 1901."
+   ],
+   [
+    "The 'brain' of a computer that processes instructions",
+    "CPU",
+    [
+     "central processing unit",
+     "processor"
+    ],
+    "The central processing unit carries out the calculations that run software."
+   ],
+   [
+    "The technology that lets phones connect without wires",
+    "wireless",
+    [
+     "wi-fi",
+     "wifi",
+     "radio"
+    ],
+    "Radio waves carry data through the air between devices and networks."
+   ],
+   [
+    "The code of ones and zeros computers use",
+    "binary",
+    [],
+    "Every piece of digital data reduces to combinations of just two digits."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_mythology",
+  "label": "Mythology",
+  "cards": [
+   [
+    "The Greek king of the gods on Mount Olympus",
+    "Zeus",
+    [],
+    "God of sky and thunder, he ruled the Olympians; the Romans called him Jupiter."
+   ],
+   [
+    "The Greek god of the sea",
+    "Poseidon",
+    [],
+    "Wielding a trident, he stirred storms and earthquakes; his Roman name is Neptune."
+   ],
+   [
+    "The winged horse of Greek myth",
+    "Pegasus",
+    [],
+    "Born from the blood of Medusa, it carried heroes and became a constellation."
+   ],
+   [
+    "The Greek hero known for his vulnerable heel",
+    "Achilles",
+    [],
+    "Invincible but for his heel, he was central to the Trojan War."
+   ],
+   [
+    "The Norse god of thunder with a hammer",
+    "Thor",
+    [],
+    "His hammer Mjolnir summoned lightning; Thursday is named after him."
+   ],
+   [
+    "The one-eyed giants of Greek myth",
+    "Cyclops",
+    [
+     "cyclopes"
+    ],
+    "These giant smiths forged Zeus's thunderbolts in some tales."
+   ],
+   [
+    "The Roman goddess of love",
+    "Venus",
+    [],
+    "Goddess of love and beauty, her Greek counterpart is Aphrodite."
+   ],
+   [
+    "The Greek hero who completed twelve labours",
+    "Hercules",
+    [
+     "heracles"
+    ],
+    "Famed for superhuman strength, he performed feats like slaying the Nemean lion."
+   ],
+   [
+    "The creature with a lion's body and human head guarding riddles",
+    "Sphinx",
+    [],
+    "In Greek myth it devoured those who could not answer its riddle."
+   ],
+   [
+    "The Norse realm of the gods",
+    "Asgard",
+    [],
+    "Home of Odin and Thor, linked to the mortal world by a rainbow bridge."
+   ],
+   [
+    "The underworld ruled by Hades in Greek myth",
+    "Underworld",
+    [
+     "hades"
+    ],
+    "The realm of the dead, guarded by the three-headed dog Cerberus."
+   ],
+   [
+    "The maze-dwelling bull-headed monster of Crete",
+    "Minotaur",
+    [],
+    "Kept in a labyrinth, it was slain by the hero Theseus."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_world_affairs",
+  "label": "World & Society",
+  "cards": [
+   [
+    "The currency used across much of Europe",
+    "euro",
+    [],
+    "Adopted by many EU countries, it is one of the world's most traded currencies."
+   ],
+   [
+    "The international body founded in 1945 to promote peace",
+    "United Nations",
+    [
+     "un",
+     "the un"
+    ],
+    "It succeeded the League of Nations and now has nearly 200 member states."
+   ],
+   [
+    "The document that lists universal human rights, adopted 1948",
+    "Universal Declaration of Human Rights",
+    [
+     "udhr"
+    ],
+    "A landmark statement setting out rights everyone is entitled to."
+   ],
+   [
+    "The economic term for a general rise in prices",
+    "inflation",
+    [],
+    "It reduces what a unit of money can buy over time."
+   ],
+   [
+    "The green movement concerned with protecting nature",
+    "environmentalism",
+    [
+     "conservation"
+    ],
+    "It promotes sustainability and guarding ecosystems and species."
+   ],
+   [
+    "The system of government where people vote for leaders",
+    "democracy",
+    [],
+    "From the Greek for 'rule by the people', it rests on free and fair elections."
+   ],
+   [
+    "The study of how societies produce and use resources",
+    "economics",
+    [],
+    "It examines choices under scarcity, from households to whole nations."
+   ],
+   [
+    "The colour associated with recycling bins in many places",
+    "green",
+    [],
+    "Green widely symbolises nature and environmental care."
+   ],
+   [
+    "The three primary branches of many governments",
+    "executive legislative judicial",
+    [
+     "executive, legislative, judicial"
+    ],
+    "Separating powers keeps any single branch from dominating."
+   ],
+   [
+    "The organisation known for its red cross emblem aiding disasters",
+    "Red Cross",
+    [
+     "the red cross"
+    ],
+    "It provides humanitarian aid in conflicts and disasters worldwide."
+   ]
+  ]
+ }
+]

@@ -191,8 +191,13 @@ async function seedSimulatedUsers() {
 async function seedRetentionCards() {
   const decksPath = join(ROOT, 'challenge-bank/retention/decks.json');
   const retentionDecks = JSON.parse(readFileSync(decksPath, 'utf8'));
+  // Extended trivia decks (broad general knowledge, quiz-show style) live in a separate
+  // file so the base deck set stays small and the quiz bank can grow independently.
+  const quizPath = join(ROOT, 'challenge-bank/retention/quiz-decks.json');
+  const quizDecks = JSON.parse(readFileSync(quizPath, 'utf8'));
+  const allDecks = [...retentionDecks, ...quizDecks];
   let total = 0;
-  for (const deck of retentionDecks) {
+  for (const deck of allDecks) {
     for (const [prompt, answer, accepted, note] of deck.cards) {
       await sql`
         INSERT INTO retention_cards (deck, deck_label, prompt, answer, accepted, note, level)
@@ -202,7 +207,7 @@ async function seedRetentionCards() {
       total++;
     }
   }
-  console.log(`retention cards: ${total} ensured across ${retentionDecks.length} decks`);
+  console.log(`retention cards: ${total} ensured across ${allDecks.length} decks`);
 }
 
 const main = async () => {
