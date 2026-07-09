@@ -1281,3 +1281,43 @@ export async function ratingDistribution(userId: string): Promise<DistributionVi
   `;
   return { buckets, userRating: me[0]?.r ?? null, poolSize };
 }
+
+// --- v1.7.0 additions ---
+
+// Per-category 30-day sparkline values (avg score per active day, normalized 0..1).
+// Days without data are simply absent - gaps are honest, no fabricated flat lines.
+export async function categorySparklines(userId: string): Promise<Record<string, number[]>> {
+  const rows = await pg`
+    SELECT category_slug,
+           avg(score)::float AS v
+    FROM attempts
+    WHERE user_id = ${userId} AND status = 'answered' AND score IS NOT NULL
+      AND submitted_at > now() - interval '30 days'
+    GROUP BY category_slug, date_trunc('day', submitted_at)
+    ORDER BY category_slug, date_trunc('day', submitted_at)
+  `;
+  const out: Record<string, number[]> = {};
+  for (const r of rows as { category_slug: string; v: number }[]) {
+    (out[r.category_slug] ??= []).push(Math.max(0, Math.min(1, r.v)));
+  }
+  return out;
+}
+
+// Named remaining areas (C1): which implemented categories are still below their
+// calibration gate, with progress. Retention calibrates at 3 due recalls (see readiness
+// notes above); everything else at 10 attempts.
+export async function readinessMissing(
+  userId: string
+): Promise<{ slug: string; name: string; have: number; need: number }[]> {
+  const rows = await pg`
+    SELECT c.slug, c.name,
+           coalesce(s.attempts_count, 0)::int AS have,
+           CASE WHEN c.slug = 'retention' THEN 3 ELSE 10 END AS need
+    FROM categories c
+    LEFT JOIN user_category_state s ON s.category_slug = c.slug AND s.user_id = ${userId}
+    WHERE c.implemented AND c.active
+      AND coalesce(s.attempts_count, 0) < CASE WHEN c.slug = 'retention' THEN 3 ELSE 10 END
+    ORDER BY coalesce(s.attempts_count, 0) DESC, c.sort
+  `;
+  return rows as { slug: string; name: string; have: number; need: number }[];
+}

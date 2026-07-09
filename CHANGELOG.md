@@ -6,6 +6,32 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.7.0 - Item statistics published + the stats page grows senses
+
+**Item statistics (/statistics/items)** - classical test theory for the bank, in public:
+
+- Per challenge with enough data: difficulty (proportion correct), discrimination
+  (point-biserial against the answerer's own category accuracy - an approximation since the
+  item sits inside its own reference mean, stated on the page rather than hidden), sample
+  size, and median response time. Consented attempts only; simulated excluded outside the
+  labeled preview.
+- Items under n=30 are withheld as a count, never silently dropped. Accent marks flag what
+  deserves an editor's eye: extreme difficulty or near-zero discrimination. The bank is
+  data - these numbers are how it gets better, and anyone can see them, not just the
+  maintainer. Linked from the statistics page, the methodology limitations section, and the
+  sitemap. Cached hard (population table, staleness invisible).
+
+**Three senses for /stats:**
+
+- The completeness ring now NAMES the remaining uncalibrated areas as practice links with
+  progress ("Left: Retention (1/3), Reaction Time (4/10)") once four or fewer remain -
+  a count until then.
+- Every rating now draws its ±SEM as a visual band on a fixed ±150-point axis: a settled
+  rating shows a narrow band, a fresh one a wide band - the uncertainty the instrument
+  always reported as a number is now something the eye reads in half a second. On the
+  global hero and every category card.
+- Category cards carry a 30-day mini-trend line (average score per active day; days
+  without practice are simply absent - no fabricated flat lines).
 ## v1.6.2 - Steady frame: the run stops jumping between exercises
 
 User-reported: switching exercises sometimes required scrolling up, sometimes down, on both

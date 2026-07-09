@@ -109,7 +109,9 @@
       commons the project keeps free; how every number is computed is
       <a href="/methodology" class="text-accent hover:underline">published openly</a>.
       The pool also gives back:
-      <a href="/statistics/findings" class="text-accent hover:underline">findings from the pool</a>.
+      <a href="/statistics/findings" class="text-accent hover:underline">findings from the pool</a>
+      and per-challenge
+      <a href="/statistics/items" class="text-accent hover:underline">item statistics</a>.
     </p>
     <p class="max-w-2xl text-xs leading-relaxed text-muted">
       One caveat worth keeping in mind: these users are mostly people who actively seek out

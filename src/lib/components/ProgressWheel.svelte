@@ -12,6 +12,12 @@
   // Whether to render the readiness.message inside the wheel block. Set false where the surrounding
   // page already shows the message, to avoid printing the same sentence twice side by side.
   export let showMessage = true;
+  // C1: when only a few areas remain uncalibrated, NAME them as links instead of a count.
+  export let missing: { slug: string; name: string; have: number; need: number }[] | null = null;
+  const routeFor = (slug: string) =>
+    slug === 'retention' ? '/practice/retention'
+    : slug === 'reaction_time' ? '/practice/reaction'
+    : `/practice/run?category=${slug}`;
 
   $: pct = Math.max(0, Math.min(100, readiness.overallPct));
   $: r = size / 2 - 10;
@@ -42,6 +48,12 @@
         <span class="font-mono text-accent">{readiness.calibratedDomains.have}/{readiness.calibratedDomains.total}</span>
         areas measured {readiness.calibratedDomains.have >= readiness.calibratedDomains.total ? '· profile complete' : '· toward a complete profile'}
       </span>
+      {#if missing && missing.length > 0 && missing.length <= 4}
+        <span>
+          left:
+          {#each missing as m, i (m.slug)}{#if i > 0}, {/if}<a href={routeFor(m.slug)} class="text-accent hover:underline">{m.name}</a> <span class="font-mono">({m.have}/{m.need})</span>{/each}
+        </span>
+      {/if}
       <span>
         <span class="font-mono {readiness.sessions.have > 0 ? 'text-body' : 'text-muted'}">{readiness.sessions.have}</span>
         practice day{readiness.sessions.have === 1 ? '' : 's'} logged · patterns appear as your data builds

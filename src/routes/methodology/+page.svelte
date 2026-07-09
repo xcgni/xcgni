@@ -109,6 +109,11 @@
 
   <section id="limitations" class="flex flex-col gap-3">
     <p class="label">Limitations - read before drawing conclusions</p>
+      <p class="text-sm leading-relaxed text-muted">
+        The bank itself is audited in public: per-challenge difficulty and discrimination are
+        published on the <a href="/statistics/items" class="text-accent hover:underline">item
+        statistics</a> page, so weak items are visible to anyone, not just the maintainer.
+      </p>
     <p class="text-sm leading-relaxed text-muted">
       Stated unprompted, because an instrument that hides its confounds is not one. The sample is
       <span class="text-body">self-selected</span> (volunteers who found a cognitive-training site),

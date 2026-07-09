@@ -15,6 +15,17 @@
   export let sem: number | null = null;
   export let big = false;
   export let href: string | null = null;
+  // C3: optional 30-day mini-trend (values 0..1, only days with data - gaps stay honest)
+  export let spark: number[] | null = null;
+
+  // C2: the ±SEM band drawn on a fixed ±150-rating-point axis, so a settled rating shows a
+  // narrow band and a fresh one shows a wide band - uncertainty made visible, not implied.
+  const SEM_AXIS = 150;
+  $: semPct = sem != null ? Math.min(100, (sem / SEM_AXIS) * 100) : 0;
+
+  $: sparkPoints = spark && spark.length > 1
+    ? spark.map((v, i) => `${((i / (spark.length - 1)) * 96 + 2).toFixed(1)},${(22 - Math.max(0, Math.min(1, v)) * 20).toFixed(1)}`).join(' ')
+    : '';
 
   // count the number up to its value - the measurement feels earned, not pasted in
   const display = tweened(rating ?? 0, { duration: 600, easing: cubicOut });
@@ -39,12 +50,25 @@
       {#if sem != null}
         <span class="font-mono text-xs text-muted">± {sem}</span>
       {/if}
+      {#if sparkPoints}
+        <svg viewBox="0 0 100 24" class="ml-auto h-5 w-16 shrink-0 opacity-80" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points={sparkPoints} fill="none" stroke="rgb(var(--c-accent))" stroke-width="1.5" />
+        </svg>
+      {/if}
       {#if delta != null && delta !== 0}
         <span class="font-mono text-sm {delta > 0 ? 'text-ok' : 'text-bad'}">
           {delta > 0 ? '+' : ''}{delta}<span class="text-muted"> 7d</span>
         </span>
       {/if}
     </span>
+
+    {#if sem != null}
+      <span class="relative mt-2 block h-1 w-full" title="± standard error, drawn on a fixed ±{SEM_AXIS} scale">
+        <span class="absolute inset-y-0 left-0 block w-full bg-edge/60"></span>
+        <span class="absolute inset-y-0 block bg-accent/50" style="left: {50 - semPct / 2}%; width: {semPct}%"></span>
+        <span class="absolute inset-y-0 block w-px bg-accent" style="left: 50%"></span>
+      </span>
+    {/if}
 
     <span class="mt-4 block space-y-2">
       {#if status === 'ok' && percentile != null}

@@ -2,7 +2,7 @@ import type { RequestHandler } from './$types';
 import { pg } from '$lib/server/db';
 
 // The public, indexable pages. Auth, admin, api and per-user views stay out by design.
-const PAGES = ['', '/about', '/methodology', '/statistics', '/statistics/findings', '/support', '/contributions', '/contribute', '/changelog', '/privacy'];
+const PAGES = ['', '/about', '/methodology', '/statistics', '/statistics/findings', '/statistics/items', '/support', '/contributions', '/contribute', '/changelog', '/privacy'];
 
 export const GET: RequestHandler = async () => {
   // Per-faculty explainers (/about/<slug>) are public, no-account pages - the site's most

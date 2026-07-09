@@ -4,7 +4,8 @@ import { personalFindings } from '$lib/server/insights/findings';
 import {
   userRatings, ratingHistory, userPatterns,
   userRecords, userDomains, userDomainRanges, populationDomainMedians, ratingDistribution, userSessions, userPersistence,
-  domainTimeline, domainSparklines, userPercentiles, statsHeadline, userReadiness, bestWorstDays
+  domainTimeline, domainSparklines, userPercentiles, statsHeadline, userReadiness, bestWorstDays,
+  categorySparklines, readinessMissing
 } from '$lib/server/stats';
 import { inhibitionInterference, switchingCost } from '$lib/server/stats/executive';
 import { METHODOLOGY_VERSION } from '$lib/methodology';
@@ -67,8 +68,14 @@ export const load: PageServerLoad = async ({ locals, url }) => {
   const headline = statsHeadline(sparklines, percentiles);
   const readiness = await userReadiness(locals.user.id);
   const findings = await personalFindings(locals.user.id);
+  const [categorySparks, missing] = await Promise.all([
+    categorySparklines(locals.user.id),
+    readinessMissing(locals.user.id)
+  ]);
   return {
     findings,
+    categorySparks,
+    missing,
     ratings, history, category: validCat, patterns,
     records, domains, domainRanges, populationMedians, distribution,
     executive: { interference, switchCost },

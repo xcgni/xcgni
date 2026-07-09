@@ -301,7 +301,7 @@
     <!-- Completeness ring: honest progress toward valid stats + insights. Hidden once full. -->
     {#if data.readiness && data.readiness.overallPct < 100}
       <section class="panel p-5">
-        <ProgressWheel readiness={data.readiness} />
+        <ProgressWheel readiness={data.readiness} missing={data.missing ?? null} />
       </section>
     {/if}
 
@@ -312,10 +312,20 @@
           <p class="label flex items-center">Your rating <Explain text={EXPLAIN.rating} /></p>
           <div class="flex items-baseline gap-3">
             <span class="font-mono text-5xl text-accent">{data.ratings.global.rating}</span>
+            {#if data.ratings.global.sem != null}
+              <span class="font-mono text-sm text-muted">± {data.ratings.global.sem}</span>
+            {/if}
             {#if data.ratings.global.provisional}
               <span class="label text-muted">provisional</span>
             {/if}
           </div>
+          {#if data.ratings.global.sem != null}
+            <div class="relative mt-1 h-1 w-44" title="± standard error on a fixed ±150 scale - narrower is more settled">
+              <div class="absolute inset-y-0 left-0 w-full bg-edge/60"></div>
+              <div class="absolute inset-y-0 bg-accent/50" style="left: {50 - Math.min(100, (data.ratings.global.sem / 150) * 100) / 2}%; width: {Math.min(100, (data.ratings.global.sem / 150) * 100)}%"></div>
+              <div class="absolute inset-y-0 w-px bg-accent" style="left: 50%"></div>
+            </div>
+          {/if}
         </div>
         <div class="flex flex-col gap-1">
           <p class="label flex items-center">Percentile <Explain text={EXPLAIN.percentile} /></p>
@@ -666,6 +676,7 @@
             poolSize={cat.poolSize}
             delta={cat.delta7d}
             sem={cat.sem}
+            spark={data.categorySparks?.[cat.slug] ?? null}
             href={cat.rating != null ? `/stats?cat=${cat.slug}` : null}
           />
         {/each}
