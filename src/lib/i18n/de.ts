@@ -222,5 +222,12 @@ export const de: Partial<Messages> = {
   'run.quickHit':'schnell und richtig - Stufe hoch','run.stepDown':'eine Stufe runter, um dein Niveau zu finden','run.holdSlow':'richtig, ohne Eile - Stufe wird gehalten','run.hold':'Stufe wird gehalten','run.levelCheckSmall':'Stufenprüfung',
   'run.exit':'Verlassen',
   'nav.feedback': 'Feedback',
-  'stats.otherFindings': 'Weitere Befunde','stats.hideOther': 'Ausblenden'
+  'stats.otherFindings': 'Weitere Befunde','stats.hideOther': 'Ausblenden',
+  'w.almost': 'Fast geschafft',
+  'w.finalTitle': 'Zwei Wege hinein - beide gleich anonym.',
+  'w.equalAnon': 'Ohne Konto zu üben und sich zu registrieren sind gleich anonym. Die Registrierung fügt nur einen Anmeldeschlüssel hinzu: deine E-Mail wird als Einwegcode gespeichert, der nicht zurückgelesen werden kann - keine Seite, kein Log, keine Datenbankzeile zeigt je, wer du bist. In beiden Fällen gelangt nichts ohne deine ausdrückliche Einwilligung in den öffentlichen Pool.',
+  'w.howWeProtect': 'Wie wir das schützen →',
+  'w.startAnon': 'Ohne Konto starten',
+  'w.register': 'Mit E-Mail registrieren',
+  'landing.equalAnon': 'Beide Wege sind gleich anonym - die Registrierung fügt nur einen Anmeldeschlüssel hinzu, nie eine Identität.'
 };

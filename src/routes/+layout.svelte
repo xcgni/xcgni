@@ -105,8 +105,8 @@
 
 <div class="mx-auto flex min-h-dvh w-full max-w-5xl flex-col px-4 sm:px-6">
   <header class="sticky top-0 z-40 flex items-center justify-between gap-2 border-b border-edge bg-ink/95 py-4 backdrop-blur-md">
-    <!-- home for a signed-in user is the welcome page (the / landing redirects them to practice, which made welcome unreachable from the wordmark) -->
-    <a href={registered ? '/practice' : '/'} class="shrink-0 font-mono text-sm tracking-[0.15em] text-body hover:text-accent sm:text-base sm:tracking-[0.25em]">EXCOGNI</a>
+    <!-- brand goes to the landing for everyone; /welcome guards itself against replay for users with historyelcome unreachable from the wordmark) -->
+    <a href="/" class="shrink-0 font-mono text-sm tracking-[0.15em] text-body hover:text-accent sm:text-base sm:tracking-[0.25em]">EXCOGNI</a>
 
     <nav class="flex items-center gap-0 text-sm sm:gap-1">
       {#each primary as item}

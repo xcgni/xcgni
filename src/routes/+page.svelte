@@ -22,6 +22,7 @@
     <a href="/welcome" class="btn-primary">{$t('landing.start')}</a>
     <a href="/auth/login" class="btn">{$t('landing.login')}</a>
     <a href="/about" class="text-sm text-muted hover:text-body">{$t('landing.learnMore')}</a>
+  <p class="mt-3 text-xs text-muted measure prose-quiet">{$t('landing.equalAnon')} <a href="/privacy" class="underline hover:text-body">{$t('w.howWeProtect')}</a></p>
   </div>
   <p class="text-sm text-muted">
     No account needed to start. Anonymous practice stays entirely yours - private by default,

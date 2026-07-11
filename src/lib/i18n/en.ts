@@ -240,7 +240,14 @@ export const en = {
   'run.quickHit':'quick and right - level up','run.stepDown':'stepping down to find your level','run.holdSlow':'right, unhurried - holding level','run.hold':'holding level','run.levelCheckSmall':'level-up check',
   'run.exit':'Exit',
   'nav.feedback': 'Feedback',
-  'stats.otherFindings': 'Other findings','stats.hideOther': 'Hide'
+  'stats.otherFindings': 'Other findings','stats.hideOther': 'Hide',
+  'w.almost': 'Almost there',
+  'w.finalTitle': 'Two ways in - both equally anonymous.',
+  'w.equalAnon': 'Practicing without an account and registering are equally anonymous. Registering only adds a sign-in key: your email is stored as a one-way code that cannot be read back, so no page, log, or database row ever shows who you are. Either way, nothing enters the public pool without your explicit consent.',
+  'w.howWeProtect': 'How we protect this →',
+  'w.startAnon': 'Start without an account',
+  'w.register': 'Register with email',
+  'landing.equalAnon': 'Both ways are equally anonymous - registering only adds a sign-in key, never an identity.'
 } as const;
 
 export type Messages = { [K in keyof typeof en]: string };

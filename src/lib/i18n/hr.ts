@@ -221,5 +221,12 @@ export const hr: Partial<Messages> = {
   'run.quickHit':'brzo i točno - viša razina','run.stepDown':'silazim da nađem tvoju razinu','run.holdSlow':'točno, bez žurbe - razina se drži','run.hold':'razina se drži','run.levelCheckSmall':'provjera razine',
   'run.exit':'Izlaz',
   'nav.feedback': 'Povratne informacije',
-  'stats.otherFindings': 'Ostali nalazi','stats.hideOther': 'Sakrij'
+  'stats.otherFindings': 'Ostali nalazi','stats.hideOther': 'Sakrij',
+  'w.almost': 'Još samo ovo',
+  'w.finalTitle': 'Dva ulaza - oba jednako anonimna.',
+  'w.equalAnon': 'Vježbanje bez računa i registracija jednako su anonimni. Registracija dodaje samo ključ za prijavu: tvoja e-pošta sprema se kao jednosmjerni kod koji se ne može pročitati natrag, pa nijedna stranica, log ni redak baze nikad ne pokazuje tko si. U oba slučaja, ništa ne ulazi u javni skup bez tvoje izričite privole.',
+  'w.howWeProtect': 'Kako to štitimo →',
+  'w.startAnon': 'Kreni bez računa',
+  'w.register': 'Registriraj se e-poštom',
+  'landing.equalAnon': 'Oba su puta jednako anonimna - registracija dodaje samo ključ za prijavu, nikad identitet.'
 };

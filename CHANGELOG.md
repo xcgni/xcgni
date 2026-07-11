@@ -6,6 +6,24 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.15.0 - Two ways in, equally anonymous
+
+The onboarding flow now ends where the philosophy always pointed: a closing panel
+stating plainly that practicing without an account and registering are equally anonymous
+- registration adds only a sign-in key, an email stored as a one-way code that cannot be
+read back - with a link to the privacy mechanisms and two equal buttons: start without
+an account, or register. The demographics step is gone from the flow entirely; those
+optional details live in Settings where they always were, opt-in and editable. The same
+equal-anonymity line now sits under the landing CTAs, and the brand mark goes to the
+landing for everyone (welcome guards itself against replay for anyone with history).
+
+Consistency audit, stern as requested: the methodology page claimed percentiles are
+withheld below 5 comparable users, directly above the sentence that what you read is
+what runs. The code says 20 (MIN_POOL_FOR_PERCENTILE). The page now says 20. Two
+leftover English literals in the flow (Almost there, Next) localized; the now-false
+this-page-is-English notice removed from a fully translated welcome. The template
+balance audit caught one orphaned block mid-surgery and earned its permanent place in
+the ship ritual.
 ## v1.14.4 - One profile, one findings home, and a menu that cannot hide
 
 Stats page restructured to the maintainer's spec. The first thing you see is now a

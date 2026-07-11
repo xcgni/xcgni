@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t, locale } from '$lib/i18n/store';
+  import { t } from '$lib/i18n/store';
   export let data;
   import { COUNTRIES, LANGUAGES, AGE_BANDS, EDUCATION, HANDEDNESS } from '$lib/demographics';
   import { onMount } from 'svelte';
@@ -80,111 +80,30 @@
           <div class="flex flex-col gap-4" style="animation: fadeup .45s ease both">
             <p class="label text-accent">{current.label}</p>
             <h1 class="text-2xl font-light leading-snug sm:text-3xl">{current.title}</h1>
-  {#if $locale !== 'en'}<p class="mt-2 text-xs text-muted">{$t('page.enOnly')}</p>{/if}
             <p class="leading-relaxed text-muted measure prose-quiet mx-auto">{current.body}</p>
           </div>
         {/key}
       {:else}
         <div class="flex flex-col gap-5" style="animation: fadeup .45s ease both">
           <div class="flex flex-col gap-2">
-            <p class="label text-accent">{$t('wd.aboutYou')}</p>
-            <h1 class="text-2xl font-light leading-snug sm:text-3xl">A few optional details.</h1>
-            <p class="text-sm leading-relaxed text-muted">
-              All optional, all editable later in Settings. They let us study how cognition
-              varies across people - and you can skip every one. Nothing here affects your score.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-            <label class="flex flex-col gap-1 text-sm">
-              <span class="text-muted">Age</span>
-              <select name="age_band" class="field">
-                <option value="">{$t('wd.prefNot')}</option>
-                {#each AGE_BANDS as b}<option value={b}>{b}</option>{/each}
-              </select>
-            </label>
-            <label class="flex flex-col gap-1 text-sm">
-              <span class="text-muted">Country</span>
-              <select name="country" class="field">
-                <option value="">{$t('wd.prefNot')}</option>
-                {#each COUNTRIES as c}<option value={c}>{c}</option>{/each}
-              </select>
-            </label>
-            <label class="flex flex-col gap-1 text-sm">
-              <span class="text-muted">City <span class="text-muted/60">(optional)</span></span>
-              <input name="city" type="text" class="field" placeholder="e.g. Zagreb" autocomplete="off" />
-            </label>
-            <label class="flex flex-col gap-1 text-sm">
-              <span class="text-muted">{$t('wd.native')}</span>
-              <select name="native_language" class="field">
-                <option value="">{$t('wd.prefNot')}</option>
-                {#each LANGUAGES as l}<option value={l}>{l}</option>{/each}
-              </select>
-            </label>
-            <label class="flex flex-col gap-1 text-sm">
-              <span class="text-muted">{$t('wd.education')}</span>
-              <select name="education" class="field">
-                <option value="">{$t('wd.prefNot')}</option>
-                {#each EDUCATION as e}<option value={e.value}>{e.label}</option>{/each}
-              </select>
-            </label>
-            <label class="flex flex-col gap-1 text-sm sm:col-span-2">
-              <span class="text-muted">{$t('wd.handed')}</span>
-              <select name="handedness" class="field">
-                <option value="">{$t('wd.prefNot')}</option>
-                {#each HANDEDNESS as h}<option value={h.value}>{h.label}</option>{/each}
-              </select>
-            </label>
-          </div>
-
-          <!-- Preferred retention decks: what would you like to memorize? Empty = all decks. -->
-          <div class="flex flex-col gap-2 border-t border-edge pt-4">
-            <p class="text-sm text-body">What would you like to memorize? <span class="text-muted">(retention decks; pick any, or none for all)</span></p>
-            <div class="flex flex-wrap gap-1.5">
-              {#each data.decks ?? [] as d}
-                <label class="cursor-pointer">
-                  <input type="checkbox" name="preferred_decks" value={d.slug} checked={data.preferredDecks?.includes(d.slug)} class="peer sr-only" />
-                  <span class="inline-block rounded border border-edge px-2.5 py-1 text-xs text-muted peer-checked:border-accent peer-checked:bg-accent/10 peer-checked:text-accent">{d.label}</span>
-                </label>
-              {/each}
-            </div>
-          </div>
-
-          <div class="flex flex-col gap-2 border-t border-edge pt-4">
-            <label class="flex cursor-pointer items-start gap-2 text-sm">
-              <input name="consented_research" type="checkbox" class="mt-0.5 h-4 w-4 accent-[rgb(var(--c-accent))]" />
-              <span class="text-muted">{$t('wd.share')} <span class="text-body">anonymised results</span> for research. De-identified, never tied to me, and I can turn it off anytime.
-                <span class="block pt-1 text-xs">Contribution counts only once you register: the email exists to make fake and duplicate data harder, never to identify you - aggregates carry no identity.</span></span>
-            </label>
-            <details class="ml-6 text-xs text-muted">
-              <summary class="cursor-pointer hover:text-body">{$t('wd.cover')}<!-- --></summary>
-              <p class="mt-2 leading-relaxed">
-                Your anonymised results feed the public population statistics and may be kept for long-term
-                research. Neither is linked to your identity. It's optional - leave it unticked and everything
-                still works.
-              </p>
-            </details>
+            <p class="label text-accent">{$t('nav.anonymous')}</p>
+            <h1 class="text-2xl font-light leading-snug sm:text-3xl">{$t('w.finalTitle')}</h1>
+            <p class="text-sm text-muted"><span class="measure prose-quiet inline-block">{$t('w.equalAnon')}</span></p>
+            <a href="/privacy" class="text-sm text-accent underline-offset-2 hover:underline">{$t('w.howWeProtect')}</a>
           </div>
         </div>
       {/if}
-
-      <div class="flex items-center justify-between">
-        <div>
-          {#if step > 0}
-            <button type="button" class="text-sm text-muted hover:text-body" on:click={() => (step -= 1)}>Back</button>
-          {/if}
-        </div>
         <div class="flex items-center gap-4">
           {#if isIntro}
             <button type="submit" class="absolute right-4 top-4 text-sm text-muted hover:text-body">{$t('w.skip')}</button>
             <button type="button" class="btn-primary" on:click={() => (step += 1)}>
-              {step === steps.length - 1 ? 'Almost there' : 'Next'}
+              {step === steps.length - 1 ? $t('w.almost') : $t('w.next')}
             </button>
           {:else}
-            <button type="submit" class="btn-primary">{$t('w.startPracticing')}</button>
+            <button type="submit" class="btn-primary">{$t('w.startAnon')}</button>
+            <a href="/auth/login" class="btn">{$t('w.register')}</a>
           {/if}
         </div>
-      </div>
     </form>
   </div>
 {/if}

@@ -89,7 +89,7 @@
       <p class="pt-2"><span class="text-body">Uncertainty (SEM)</span>: ± 400 / √(attempts + 3) rating points ·
         confidence: low &lt; 10 attempts · medium &lt; 30 · high ≥ 30</p>
       <p class="pt-2"><span class="text-body">Percentile</span>: your rank in the consented, registered pool;
-        withheld below 5 comparable users - and always shown WITH the pool size</p>
+        withheld below 20 pool-eligible rated users - and always shown WITH the pool size</p>
     </div>
     <p class="text-xs leading-relaxed text-muted">
       The repository is the canonical source of every constant above (AGPL) - what you read here
