@@ -165,7 +165,7 @@
           {/if}
         </div>
       {:else}
-        <a href="/auth/login" class="ml-1 px-3 py-1.5 text-muted transition-colors hover:text-body">Log in</a>
+        <a href="/auth/login" class="ml-1 px-3 py-1.5 text-muted transition-colors hover:text-body">{$t('landing.login')}</a>
       {/if}
     </nav>
   </header>
@@ -180,11 +180,11 @@
 
   <footer class="flex flex-col items-center gap-2 border-t border-edge py-5 text-center">
     <nav class="flex flex-wrap items-center justify-center gap-x-5 gap-y-1">
-      <a href="/about" class="label text-muted hover:text-body">Learn more</a>
-      <a href="/statistics" class="label text-muted hover:text-body">Global stats</a>
-      <a href="/contributions" class="label text-muted hover:text-body">Contributions</a>
-      <a href="/support" class="label text-muted hover:text-body">Support</a>
-      <a href="/privacy" class="label text-muted hover:text-body">Privacy</a>
+      <a href="/about" class="label text-muted hover:text-body">{$t('footer.learnMore')}</a>
+      <a href="/statistics" class="label text-muted hover:text-body">{$t('footer.globalStats')}</a>
+      <a href="/contributions" class="label text-muted hover:text-body">{$t('footer.contributions')}</a>
+      <a href="/support" class="label text-muted hover:text-body">{$t('footer.support')}</a>
+      <a href="/privacy" class="label text-muted hover:text-body">{$t('footer.privacy')}</a>
     </nav>
     <p class="label text-muted/70">
       Free &amp; open · anonymous · supported, not sold{#if data.version} · <span class="font-mono">v{data.version}</span>{/if}

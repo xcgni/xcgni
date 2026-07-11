@@ -6,6 +6,19 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.13.2 - HR gaps closed + a 500 fixed
+
+User-reported after switching to Croatian: the pre-session questionnaire, welcome, the
+category picker descriptions, the footer and parts of retention were still English - and
+worse, serving a challenge returned 500. The 500 was a plain bug from the localization
+plumbing: the next-challenge endpoint referenced locals without destructuring it from the
+event. Fixed, and the same class scanned for across all API routes.
+
+Translated in this pass: the entire pre-session context form (all questionnaire labels,
+hint, note placeholder, buttons), the footer, the category picker descriptions for all 17
+faculties (terse native rewrites, not machine gloss), the Soon badge, and welcome gets its
+CTA localized plus the honest in-your-language notice that its long prose is English for
+now. Retention and reaction page chrome remain on the named list with the prose pages.
 ## v1.13.1 - Croatian mode is now fully Croatian (German rides along)
 
 The remainder of the app layer, translated. The deep part was refactoring every generated

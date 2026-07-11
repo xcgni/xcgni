@@ -15,7 +15,7 @@ import { SCORING_MODEL_VERSION } from '$lib/server/rating';
  * records a pending attempt (served_at = server clock) and returns the prompt.
  * Answer data never leaves the server.
  */
-export const POST: RequestHandler = async ({ request, cookies }) => {
+export const POST: RequestHandler = async ({ request, cookies, locals }) => {
   const user = await ensureUser(cookies);
   const body = (await request.json().catch(() => ({}))) as {
     category?: string; tz?: string; tzOffsetMin?: number; pulse?: boolean;

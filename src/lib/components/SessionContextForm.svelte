@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { createEventDispatcher } from 'svelte';
   import { TAG_GROUPS } from '$lib/tags';
   export let askDaily = false;
@@ -93,7 +94,7 @@
 
 <div class="mx-auto flex max-w-md flex-col gap-6 py-8">
   <div class="flex flex-col gap-1">
-    <p class="label text-accent">Before you start</p>
+    <p class="label text-accent">{$t('ctx.title')}</p>
     <p class="text-xs text-muted">Why we ask: your answers power your own insights - comparing your
       days with and without each factor. Private to you, never shared, and everything is optional.</p>
     <p class="text-sm leading-relaxed text-muted">
@@ -105,7 +106,7 @@
 
   {#if askDaily}
     <div class="flex flex-col gap-2">
-      <p class="text-sm text-body">Hours slept last night</p>
+      <p class="text-sm text-body">{$t('ctx.sleep')}</p>
       <div class="flex items-center gap-3">
         <input
           type="range" min="0" max="12" step="0.5"
@@ -116,12 +117,12 @@
         <span class="w-16 font-mono text-sm {sleepHours == null ? 'text-muted' : 'text-accent'}">{sleepHours == null ? 'not set' : sleepHours + 'h'}</span>
       </div>
       {#if sleepHours == null}
-        <p class="text-xs text-muted">Drag to answer, or leave unset to skip.</p>
+        <p class="text-xs text-muted">{$t('ctx.hint')}</p>
       {/if}
     </div>
 
     <div class="flex flex-col gap-2">
-      <p class="text-sm text-body">How rested do you feel?</p>
+      <p class="text-sm text-body">{$t('ctx.rested')}</p>
       <div class="flex gap-2">
         {#each restedOpts as [val, lbl]}
           <button class="flex-1 rounded border px-3 py-1.5 text-sm transition-colors {rested === val ? 'border-accent bg-accent/10 text-accent' : 'border-edge text-muted hover:text-body'}"
@@ -132,7 +133,7 @@
     </div>
 
     <div class="flex flex-col gap-2">
-      <p class="text-sm text-body">How long have you been awake?</p>
+      <p class="text-sm text-body">{$t('ctx.awake')}</p>
       <div class="flex gap-2">
         {#each awakeOpts as [val, lbl]}
           <button class="flex-1 rounded border px-2 py-1.5 text-xs transition-colors {String(hoursAwake) === val ? 'border-accent bg-accent/10 text-accent' : 'border-edge text-muted hover:text-body'}"
@@ -148,7 +149,7 @@
   {/if}
 
   <div class="flex flex-col gap-2">
-    <p class="text-sm text-body">Caffeine today</p>
+    <p class="text-sm text-body">{$t('ctx.caffeine')}</p>
     <div class="flex gap-2">
       {#each caffeineOpts as [val, lbl]}
         <button class="flex-1 rounded border px-3 py-1.5 text-sm transition-colors {caffeine === val ? 'border-accent bg-accent/10 text-accent' : 'border-edge text-muted hover:text-body'}"
@@ -162,7 +163,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <p class="text-sm text-body">How alert do you feel?</p>
+    <p class="text-sm text-body">{$t('ctx.alert')}</p>
     <div class="flex gap-2">
       {#each alertOpts as [val, lbl]}
         <button class="flex-1 rounded border px-3 py-1.5 text-sm transition-colors {alertness === val ? 'border-accent bg-accent/10 text-accent' : 'border-edge text-muted hover:text-body'}"
@@ -172,7 +173,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <p class="text-sm text-body">Mood</p>
+    <p class="text-sm text-body">{$t('ctx.mood')}</p>
     <div class="flex gap-2">
       {#each moodOpts as [val, lbl]}
         <button class="flex-1 rounded border px-3 py-1.5 text-sm transition-colors {mood === val ? 'border-accent bg-accent/10 text-accent' : 'border-edge text-muted hover:text-body'}"
@@ -183,7 +184,7 @@
 
   <!-- Optional tags: grouped to avoid overload. Tap a group to expand, tap tags to toggle. -->
   <div class="flex flex-col gap-2">
-    <p class="text-sm text-body">Tags <span class="text-muted">(optional - anything affecting today)</span></p>
+    <p class="text-sm text-body">{$t('ctx.tags')} <span class="text-muted">(optional - anything affecting today)</span></p>
     <!-- quick row: your recent tags, one tap; the full set lives under "more" -->
     <div class="flex flex-wrap gap-1">
       {#each quickTags as slug}
@@ -229,9 +230,9 @@
 
   <!-- Session note: free-text "how/why I feel today". Private to the user. -->
   <div class="flex flex-col gap-2">
-    <p class="text-sm text-body">Session note <span class="text-muted">(optional, private)</span></p>
+    <p class="text-sm text-body">{$t('ctx.note')} <span class="text-muted">(optional, private)</span></p>
     <textarea bind:value={note} rows="2" maxlength="500"
-      placeholder="How do you feel today? Anything you want to remember about this session…"
+      placeholder={$t('ctx.notePh')}
       class="field text-sm"></textarea>
   </div>
 

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t, locale } from '$lib/i18n/store';
   export let data;
   import { COUNTRIES, LANGUAGES, AGE_BANDS, EDUCATION, HANDEDNESS } from '$lib/demographics';
   import { onMount } from 'svelte';
@@ -101,6 +102,7 @@
           <div class="flex flex-col gap-4" style="animation: fadeup .45s ease both">
             <p class="label text-accent">{current.label}</p>
             <h1 class="text-2xl font-light leading-snug sm:text-3xl">{current.title}</h1>
+  {#if $locale !== 'en'}<p class="mt-2 text-xs text-muted">{$t('page.enOnly')}</p>{/if}
             <p class="leading-relaxed text-muted">{current.body}</p>
           </div>
         {/key}
