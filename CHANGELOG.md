@@ -6,6 +6,24 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.14.4 - One profile, one findings home, and a menu that cannot hide
+
+Stats page restructured to the maintainer's spec. The first thing you see is now a
+single merged profile item: rating, percentile, and the cognitive radar together, one
+section. Findings follow - and only findings WITH results show by default; locked and
+no-reliable-pattern entries retract under an Other findings button (count shown), one
+tap away, published as ever but no longer crowding the page. The legacy Insights section
+- the pre-findings correlational engine that ran in parallel, untranslated and
+overlapping - is retired; findings are the one home for patterns now.
+
+Menu repairs beyond the earlier build-blocked fix: the feedback row had been trapped
+inside the language-flag gate (invisible with the flag off); freed. The mobile sheet now
+outranks the pill (z-order) with its scrim between them, and the username trigger gained
+the same event guard as the dots. Template-balance audit added to the ritual after this
+week: every {#if}/{#each}/section/div pair counted and matched before packing.
+
+Note for the operator: the two prior builds failed at compile, so production never
+received v1.14.2's dots fix - what looked like the same bug was the old image running.
 ## v1.14.3 - UX audit pass: touch targets, scrim, escape hatch
 
 A designer-hat review of the new shell, then the fixes it demanded: pill items and the

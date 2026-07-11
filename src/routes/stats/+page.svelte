@@ -257,6 +257,10 @@
   const fmtDate = (iso: string | null) =>
     iso ? new Date(iso).toLocaleDateString(undefined, { day: '2-digit', month: 'short', year: 'numeric' }) : '';
 
+  let showOtherFindings = false;
+  $: primaryFindings = (data.findings ?? []).filter((f) => f.unlocked && f.effect !== 0);
+  $: otherFindings = (data.findings ?? []).filter((f) => !(f.unlocked && f.effect !== 0));
+
   const EXPLAIN = {
     rating: 'Your rating blends the level you have stabilized at with your recent accuracy and pace. It is a single number on a roughly 600-1900 scale. It is relative, not an absolute measure of ability.',
     percentile: 'Where you stand against other rated users: "70th percentile" means you score higher than 70% of them. It needs a real pool to mean anything, so it reads "calibrating" until enough people are rated.',
@@ -314,7 +318,8 @@
 
     <!-- Hero: the headline NUMBER first - overall rating + percentile, the thing people came for -->
     {#if data.ratings && data.ratings.global.rating != null}
-      <section class="panel flex flex-wrap items-end justify-between gap-4 p-4 sm:gap-6 sm:p-6">
+      <section class="flex flex-col gap-4">
+<div class="panel flex flex-wrap items-end justify-between gap-4 p-4 sm:gap-6 sm:p-6">
         <div class="flex flex-col gap-1">
           <p class="label flex items-center">{$t('stats.yourRating')} <Explain text={$t('explain.rating')} /></p>
           <div class="flex items-baseline gap-3">
@@ -363,36 +368,8 @@
             <span class="font-mono text-2xl {data.ratings.global.delta7d > 0 ? 'text-ok' : 'text-bad'}">{data.ratings.global.delta7d > 0 ? '+' : ''}{data.ratings.global.delta7d}</span>
           </div>
         {/if}
-      </section>
-
-    <!-- Findings (v1.5.0): the instrument speaks. Each unlocks past its own statistical bar;
-         locked ones say exactly what is missing. Rare and correct beats chatty. -->
-    {#if data.findings && data.findings.length}
-      <section class="flex flex-col gap-3">
-        <h2 class="label flex items-center">{$t('stats.findings')} <Explain text={$t('stats.findingsExplain')} /></h2>
-        <div class="flex flex-col gap-2">
-          {#each data.findings as f (f.id)}
-            <div class="panel flex flex-col gap-1 p-4 {f.unlocked ? '' : 'opacity-70'}">
-              <div class="flex items-baseline justify-between gap-3">
-                <p class="label">{f.title}</p>
-                {#if !f.unlocked}<span class="font-mono text-[10px] text-muted">{$t('stats.locked')}</span>
-                {:else if f.effect === 0}<span class="font-mono text-[10px] text-muted">{$t('stats.noEffect')}</span>{/if}
-              </div>
-              <p class="text-sm {f.unlocked ? 'text-body' : 'text-muted'}">{f.sentence}</p>
-              <p class="text-xs text-muted">{f.detail}</p>
-            </div>
-          {/each}
-        </div>
-        <p class="text-xs text-muted">{$t('stats.poolLink')}
-          <a href="/statistics/findings" class="underline hover:text-body">{$t('stats.poolLinkText')}</a>.</p>
-      </section>
-    {/if}
-
-    {/if}
-
-    <!-- 0. Cognitive fingerprint -->
-    {#if data.domains && data.domains.length >= 3}
-      <section class="flex flex-col gap-4">
+      </div>
+<div class="flex flex-col gap-4">
         <div class="flex items-center justify-between gap-3">
           <p class="label flex items-center">{$t('s.profile')} <Explain text={EXPLAIN.fingerprint} /></p>
           <div class="flex items-center gap-2">
@@ -437,7 +414,58 @@
             {/if}
           {/if}
         </div>
+      </div>
       </section>
+
+    <!-- Findings (v1.5.0): the instrument speaks. Each unlocks past its own statistical bar;
+         locked ones say exactly what is missing. Rare and correct beats chatty. -->
+    {#if data.findings && data.findings.length}
+      <section class="flex flex-col gap-3">
+        <h2 class="label flex items-center">{$t('stats.findings')} <Explain text={$t('stats.findingsExplain')} /></h2>
+        <div class="flex flex-col gap-2">
+          {#each primaryFindings as f (f.id)}
+            <div class="panel flex flex-col gap-1 p-4 {f.unlocked ? '' : 'opacity-70'}">
+              <div class="flex items-baseline justify-between gap-3">
+                <p class="label">{f.title}</p>
+                {#if !f.unlocked}<span class="font-mono text-[10px] text-muted">{$t('stats.locked')}</span>
+                {:else if f.effect === 0}<span class="font-mono text-[10px] text-muted">{$t('stats.noEffect')}</span>{/if}
+              </div>
+              <p class="text-sm {f.unlocked ? 'text-body' : 'text-muted'}">{f.sentence}</p>
+              <p class="text-xs text-muted">{f.detail}</p>
+            </div>
+          {/each}
+        </div>
+        {#if otherFindings.length}
+        <button class="self-start text-xs text-muted underline-offset-2 hover:text-body hover:underline"
+          on:click={() => (showOtherFindings = !showOtherFindings)}>
+          {showOtherFindings ? $t('stats.hideOther') : $t('stats.otherFindings')} ({otherFindings.length})
+        </button>
+        {#if showOtherFindings}
+        <div class="flex flex-col gap-2">
+          {#each otherFindings as f (f.id)}
+            <div class="panel flex flex-col gap-1 p-4 {f.unlocked ? '' : 'opacity-70'}">
+              <div class="flex items-baseline justify-between gap-3">
+                <p class="label">{f.title}</p>
+                {#if !f.unlocked}<span class="font-mono text-[10px] text-muted">{$t('stats.locked')}</span>
+                {:else if f.effect === 0}<span class="font-mono text-[10px] text-muted">{$t('stats.noEffect')}</span>{/if}
+              </div>
+              <p class="text-sm {f.unlocked ? 'text-body' : 'text-muted'}">{f.sentence}</p>
+              <p class="text-xs text-muted">{f.detail}</p>
+            </div>
+          {/each}
+        </div>
+        {/if}
+        {/if}
+        <p class="text-xs text-muted">{$t('stats.poolLink')}
+          <a href="/statistics/findings" class="underline hover:text-body">{$t('stats.poolLinkText')}</a>.</p>
+      </section>
+    {/if}
+
+    {/if}
+
+    <!-- 0. Cognitive fingerprint -->
+    {#if data.domains && data.domains.length >= 3}
+      
     {/if}
 
     <!-- 0a-i. Percentile standing: where you rank vs everyone, per area -->
@@ -469,50 +497,7 @@
       </section>
     {/if}
 
-    <!-- 0b. Insights - honest, correlational patterns from your logged context -->
-    <section class="flex flex-col gap-3">
-      <div class="flex items-baseline justify-between">
-        <p class="label">Insights</p>
-        {#if data.insights.state === 'ok'}
-          <span class="label text-muted">{data.insights.sessionCount} sessions analysed</span>
-        {/if}
-      </div>
-
-      {#if data.insights.state === 'not_enough_data'}
-        <div class="panel p-5">
-          <p class="text-sm text-muted">
-            A few more sessions and insights start appearing. Keep practising and logging how you feel -
-            each pattern (how sleep, caffeine, alertness, mood or time of day relates to your performance)
-            shows up here as soon as there's enough of your own data to back it, and more arrive over time.
-          </p>
-        </div>
-      {:else if data.insights.state === 'no_patterns'}
-        <div class="panel p-5">
-          <p class="text-sm text-muted">
-            No strong patterns yet. Your performance doesn't clearly track any single factor we log so far -
-            which is itself honest information. As more sessions accumulate, real patterns (if any) will surface here.
-          </p>
-        </div>
-      {:else}
-        <div class="flex flex-col gap-2">
-          {#each data.insights.insights as ins}
-            <div class="panel flex items-start justify-between gap-4 p-4">
-              <div class="flex flex-col gap-1">
-                <p class="text-sm text-body">{ins.text}</p>
-                <p class="text-xs text-muted">{ins.basis}{ins.vsPopulation ? ' · vs community' : ''}</p>
-              </div>
-              <span
-                class="shrink-0 rounded border px-2 py-0.5 text-xs {ins.confidence === 'strong' ? 'border-ok/40 text-ok' : 'border-edge text-muted'}"
-              >{ins.confidence}</span>
-            </div>
-          {/each}
-          <p class="mt-1 text-xs text-muted">
-            These are correlations in your own data, not proven causes - they describe what tends to go together,
-            and they update or disappear as your data changes.
-          </p>
-        </div>
-      {/if}
-    </section>
+    
 
     <!-- 4. Your patterns (only once there's enough data to mean it) -->
     {#if data.patterns && data.patterns.enoughData}

@@ -221,5 +221,6 @@ export const de: Partial<Messages> = {
   'ret.backPlain':'Zurück zum Training',
   'run.quickHit':'schnell und richtig - Stufe hoch','run.stepDown':'eine Stufe runter, um dein Niveau zu finden','run.holdSlow':'richtig, ohne Eile - Stufe wird gehalten','run.hold':'Stufe wird gehalten','run.levelCheckSmall':'Stufenprüfung',
   'run.exit':'Verlassen',
-  'nav.feedback': 'Feedback'
+  'nav.feedback': 'Feedback',
+  'stats.otherFindings': 'Weitere Befunde','stats.hideOther': 'Ausblenden'
 };

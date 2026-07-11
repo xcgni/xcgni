@@ -124,7 +124,7 @@
         <div class="relative ml-1" bind:this={menuRoot}>
           <button
             class="flex items-center gap-1 px-2 py-1.5 text-muted transition-colors hover:text-body sm:gap-1.5 sm:px-3"
-            on:click={() => (menuOpen = !menuOpen)}
+            on:click|stopPropagation={() => (menuOpen = !menuOpen)}
             aria-haspopup="true"
             aria-expanded={menuOpen}
           >
@@ -135,9 +135,9 @@
             </svg>
           </button>
           {#if menuOpen}
-            <button class="fixed inset-0 z-10 cursor-default bg-black/40 backdrop-blur-[1px] sm:hidden" aria-label="Close menu" on:click={() => (menuOpen = false)}></button>
+            <button class="fixed inset-0 z-[45] cursor-default bg-black/40 backdrop-blur-[1px] sm:hidden" aria-label="Close menu" on:click={() => (menuOpen = false)}></button>
             <div
-              class="absolute right-0 z-20 mt-1 w-48 border border-edge bg-surface py-1 shadow-xl max-sm:fixed max-sm:inset-x-3 max-sm:top-auto max-sm:bottom-16 max-sm:mt-0 max-sm:w-auto max-sm:rounded-xl max-sm:shadow-2xl"
+              class="absolute right-0 z-20 mt-1 w-48 border border-edge bg-surface py-1 shadow-xl max-sm:z-50 max-sm:fixed max-sm:inset-x-3 max-sm:top-auto max-sm:bottom-16 max-sm:mt-0 max-sm:w-auto max-sm:rounded-xl max-sm:shadow-2xl"
               role="menu"
               tabindex="-1"
             >
@@ -156,9 +156,9 @@
                 <div class="my-1 border-t border-edge"></div>
                 <a href="/auth/logout" class="block px-3 py-2 text-sm text-muted hover:bg-edge/40 hover:text-body">{$t('nav.logout')}</a>
               {/if}
-              {#if data.langsEnabled}
               <button class="block w-full px-3 py-2 text-left text-sm text-muted hover:bg-edge/40 hover:text-body sm:hidden"
                 on:click={() => { menuOpen = false; feedbackOpen.set(true); }}>{$t('nav.feedback')}</button>
+              {#if data.langsEnabled}
               <div class="my-1 border-t border-edge"></div>
               <div class="flex items-center gap-1 px-3 py-2">
                 <span class="label mr-1">{$t('nav.language')}</span>

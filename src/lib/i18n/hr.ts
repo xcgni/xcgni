@@ -220,5 +220,6 @@ export const hr: Partial<Messages> = {
   'ret.backPlain':'Natrag na vježbanje',
   'run.quickHit':'brzo i točno - viša razina','run.stepDown':'silazim da nađem tvoju razinu','run.holdSlow':'točno, bez žurbe - razina se drži','run.hold':'razina se drži','run.levelCheckSmall':'provjera razine',
   'run.exit':'Izlaz',
-  'nav.feedback': 'Povratne informacije'
+  'nav.feedback': 'Povratne informacije',
+  'stats.otherFindings': 'Ostali nalazi','stats.hideOther': 'Sakrij'
 };
