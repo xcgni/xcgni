@@ -81,7 +81,7 @@
             <p class="label text-accent">{current.label}</p>
             <h1 class="text-2xl font-light leading-snug sm:text-3xl">{current.title}</h1>
   {#if $locale !== 'en'}<p class="mt-2 text-xs text-muted">{$t('page.enOnly')}</p>{/if}
-            <p class="leading-relaxed text-muted">{current.body}</p>
+            <p class="leading-relaxed text-muted measure prose-quiet mx-auto">{current.body}</p>
           </div>
         {/key}
       {:else}

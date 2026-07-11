@@ -6,6 +6,12 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.14.3 - UX audit pass: touch targets, scrim, escape hatch
+
+A designer-hat review of the new shell, then the fixes it demanded: pill items and the
+three dots now clear the 44px touch-target guideline; the mobile sheet gets a dimming
+scrim behind it (tap to close) and Escape closes it from a keyboard; the welcome slide
+bodies join the 65ch reading measure. Suites: 26 green.
 ## v1.14.2 - The three dots come alive
 
 Two field reports, one root cause and one request. The three-dot sheet did nothing on

@@ -15,7 +15,7 @@
   import { LOCALES, LOCALE_NAMES } from '$lib/i18n';
   import { fade } from 'svelte/transition';
   import { onMount } from 'svelte';
-  import FeedbackWidget, { feedbackOpen } from '$lib/components/FeedbackWidget.svelte';
+  import FeedbackWidget from '$lib/components/FeedbackWidget.svelte';
   import CookieNotice from '$lib/components/CookieNotice.svelte';
   export let data;
 
@@ -95,7 +95,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<svelte:window on:click={closeMenuOnOutside} />
+<svelte:window on:keydown={(e) => { if (e.key === 'Escape') menuOpen = false; }} on:click={closeMenuOnOutside} />
 
 {#if $navigating}
   <div class="fixed left-0 top-0 z-[60] h-0.5 w-full overflow-hidden bg-transparent">
@@ -135,6 +135,7 @@
             </svg>
           </button>
           {#if menuOpen}
+            <button class="fixed inset-0 z-10 cursor-default bg-black/40 backdrop-blur-[1px] sm:hidden" aria-label="Close menu" on:click={() => (menuOpen = false)}></button>
             <div
               class="absolute right-0 z-20 mt-1 w-48 border border-edge bg-surface py-1 shadow-xl max-sm:fixed max-sm:inset-x-3 max-sm:top-auto max-sm:bottom-16 max-sm:mt-0 max-sm:w-auto max-sm:rounded-xl max-sm:shadow-2xl"
               role="menu"
@@ -156,7 +157,6 @@
                 <a href="/auth/logout" class="block px-3 py-2 text-sm text-muted hover:bg-edge/40 hover:text-body">{$t('nav.logout')}</a>
               {/if}
               {#if data.langsEnabled}
-              <button class="block w-full px-3 py-2 text-left text-sm text-muted hover:bg-edge/40 hover:text-body sm:hidden" on:click={() => { feedbackOpen.set(true); menuOpen = false; }}>feedback</button>
               <button class="block w-full px-3 py-2 text-left text-sm text-muted hover:bg-edge/40 hover:text-body sm:hidden"
                 on:click={() => { menuOpen = false; feedbackOpen.set(true); }}>{$t('nav.feedback')}</button>
               <div class="my-1 border-t border-edge"></div>
@@ -195,7 +195,7 @@
        style="margin-bottom: env(safe-area-inset-bottom)" aria-label="Primary">
     {#each primary as item}
       <a href={item.href}
-         class="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs {$page.url.pathname.startsWith(item.href) ? 'bg-accent/15 text-accent' : 'text-muted'}"
+         class="flex min-h-[44px] items-center gap-1.5 rounded-full px-3.5 py-2 text-xs {$page.url.pathname.startsWith(item.href) ? 'bg-accent/15 text-accent' : 'text-muted'}"
          aria-current={$page.url.pathname.startsWith(item.href) ? 'page' : undefined}>
         {#if item.href === '/practice'}
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 7v10M18 7v10M3 9v6M21 9v6M6 12h12"/></svg>
@@ -207,7 +207,7 @@
         <span>{item.label}</span>
       </a>
     {/each}
-    <button class="flex items-center rounded-full px-3 py-1.5 text-muted" on:click|stopPropagation={() => (menuOpen = !menuOpen)} aria-label="More">
+    <button class="flex min-h-[44px] items-center rounded-full px-3.5 py-2 text-muted" on:click|stopPropagation={() => (menuOpen = !menuOpen)} aria-label="More">
       <svg width="16" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
     </button>
   </nav>
