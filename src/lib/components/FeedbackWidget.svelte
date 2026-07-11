@@ -6,8 +6,6 @@
 </script>
 
 <script lang="ts">
-  import { page } from '$app/stores';
-
   let open = false;
   feedbackOpen.subscribe((v) => { if (v) { open = true; feedbackOpen.set(false); } });
   let kind: 'bug' | 'confusing' | 'idea' | 'other' = 'confusing';
@@ -71,7 +69,7 @@
 {/if}
 
 <button
-  class="fixed bottom-4 right-4 z-50 rounded-full max-sm:bottom-[4.5rem] {($keyboardOpen || /^\/practice\/(run|retention|reaction)/.test($page.url.pathname)) ? 'max-sm:hidden' : ''} border border-edge bg-surface px-3 py-2 text-xs text-muted shadow hover:text-body"
+  class="fixed bottom-4 right-4 z-50 rounded-full max-sm:hidden {($keyboardOpen || /^\/practice\/(run|retention|reaction)/.test($page.url.pathname)) ? 'max-sm:hidden' : ''} border border-edge bg-surface px-3 py-2 text-xs text-muted shadow hover:text-body"
   on:click={() => (open = !open)}
   aria-label="Send feedback"
 >

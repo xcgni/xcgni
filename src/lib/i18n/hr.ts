@@ -219,5 +219,6 @@ export const hr: Partial<Messages> = {
   's.backToStats':'← Tvoja statistika','rr.firmUp':'Nastavi vježbati da se rejting učvrsti.',
   'ret.backPlain':'Natrag na vježbanje',
   'run.quickHit':'brzo i točno - viša razina','run.stepDown':'silazim da nađem tvoju razinu','run.holdSlow':'točno, bez žurbe - razina se drži','run.hold':'razina se drži','run.levelCheckSmall':'provjera razine',
-  'run.exit':'Izlaz'
+  'run.exit':'Izlaz',
+  'nav.feedback': 'Povratne informacije'
 };

@@ -238,7 +238,8 @@ export const en = {
   's.backToStats':'← Your stats','rr.firmUp':'Keep practicing to firm up this rating.',
   'ret.backPlain':'Back to practice',
   'run.quickHit':'quick and right - level up','run.stepDown':'stepping down to find your level','run.holdSlow':'right, unhurried - holding level','run.hold':'holding level','run.levelCheckSmall':'level-up check',
-  'run.exit':'Exit'
+  'run.exit':'Exit',
+  'nav.feedback': 'Feedback'
 } as const;
 
 export type Messages = { [K in keyof typeof en]: string };

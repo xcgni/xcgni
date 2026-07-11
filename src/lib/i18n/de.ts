@@ -220,5 +220,6 @@ export const de: Partial<Messages> = {
   's.backToStats':'← Deine Statistik','rr.firmUp':'Weiter trainieren, um dieses Rating zu festigen.',
   'ret.backPlain':'Zurück zum Training',
   'run.quickHit':'schnell und richtig - Stufe hoch','run.stepDown':'eine Stufe runter, um dein Niveau zu finden','run.holdSlow':'richtig, ohne Eile - Stufe wird gehalten','run.hold':'Stufe wird gehalten','run.levelCheckSmall':'Stufenprüfung',
-  'run.exit':'Verlassen'
+  'run.exit':'Verlassen',
+  'nav.feedback': 'Feedback'
 };

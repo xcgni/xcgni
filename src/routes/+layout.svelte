@@ -15,7 +15,7 @@
   import { LOCALES, LOCALE_NAMES } from '$lib/i18n';
   import { fade } from 'svelte/transition';
   import { onMount } from 'svelte';
-  import FeedbackWidget from '$lib/components/FeedbackWidget.svelte';
+  import FeedbackWidget, { feedbackOpen } from '$lib/components/FeedbackWidget.svelte';
   import CookieNotice from '$lib/components/CookieNotice.svelte';
   export let data;
 
@@ -108,11 +108,11 @@
     <!-- home for a signed-in user is the welcome page (the / landing redirects them to practice, which made welcome unreachable from the wordmark) -->
     <a href={registered ? '/practice' : '/'} class="shrink-0 font-mono text-sm tracking-[0.15em] text-body hover:text-accent sm:text-base sm:tracking-[0.25em]">EXCOGNI</a>
 
-    <nav class="hidden items-center gap-0 text-sm sm:flex sm:gap-1">
+    <nav class="flex items-center gap-0 text-sm sm:gap-1">
       {#each primary as item}
         <a
           href={item.href}
-          class="px-2 py-1.5 transition-colors sm:px-3 {path === item.href || path.startsWith(item.href + '/')
+          class="max-sm:hidden px-2 py-1.5 transition-colors sm:px-3 {path === item.href || path.startsWith(item.href + '/')
             ? 'text-accent'
             : 'text-muted hover:text-body'}"
         >
@@ -157,6 +157,8 @@
               {/if}
               {#if data.langsEnabled}
               <button class="block w-full px-3 py-2 text-left text-sm text-muted hover:bg-edge/40 hover:text-body sm:hidden" on:click={() => { feedbackOpen.set(true); menuOpen = false; }}>feedback</button>
+              <button class="block w-full px-3 py-2 text-left text-sm text-muted hover:bg-edge/40 hover:text-body sm:hidden"
+                on:click={() => { menuOpen = false; feedbackOpen.set(true); }}>{$t('nav.feedback')}</button>
               <div class="my-1 border-t border-edge"></div>
               <div class="flex items-center gap-1 px-3 py-2">
                 <span class="label mr-1">{$t('nav.language')}</span>

@@ -6,6 +6,17 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.14.2 - The three dots come alive
+
+Two field reports, one root cause and one request. The three-dot sheet did nothing on
+mobile because hiding the top navigation had hidden the menu panel along with it - the
+button toggled state inside an invisible subtree. The navigation now stays rendered
+everywhere; only the primary links hide on mobile, so the same sheet serves both the
+top identity trigger and the bottom pill dots.
+
+And feedback moves behind the dots on mobile: a menu row opens the same panel via a
+window event, the floating trigger becomes desktop-only, and the last overlap candidate
+on small screens disappears with it. Suites: 26 green.
 ## v1.14.1 - The pill learns when to disappear
 
 Mobile field report, same-day: fixed-position chrome rides the visual viewport, so an
