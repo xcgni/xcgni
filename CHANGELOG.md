@@ -6,6 +6,12 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.15.2 - The footer breathes under the pill
+
+Scrolled to the bottom, the floating pill covered the footer's last line. Standard
+bottom-nav clearance applied: on mobile the footer carries extra bottom padding
+(7rem plus the device safe-area inset), so its final line scrolls fully clear of the
+pill; desktop spacing untouched. No content moved, no scroll hacks.
 ## v1.15.1 - The invisible menu: a CSS containing-block trap, diagnosed and evicted
 
 Root cause of the dead three dots and username menu on mobile, found by reading rather

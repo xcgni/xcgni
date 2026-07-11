@@ -227,7 +227,7 @@
   {/if}
 
 
-  <footer class="flex flex-col items-center gap-2 border-t border-edge py-5 text-center">
+  <footer class="flex flex-col items-center gap-2 border-t border-edge py-5 text-center max-sm:pb-[calc(7rem+env(safe-area-inset-bottom))]">
     <nav class="flex flex-wrap items-center justify-center gap-x-5 gap-y-1">
       <a href="/about" class="label text-muted hover:text-body">{$t('footer.learnMore')}</a>
       <a href="/statistics" class="label text-muted hover:text-body">{$t('footer.globalStats')}</a>
