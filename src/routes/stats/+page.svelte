@@ -428,11 +428,11 @@
               {/if}
             </div>
             <p class="mt-1 text-center text-xs text-muted">
-              {$t('s.amberNote')}
+              <span class="measure prose-quiet inline-block">{$t('s.amberNote')}</span>
             </p>
             {#if data.populationMedians && data.populationMedians.some((p) => p.median != null)}
               <p class="mx-auto mt-2 max-w-md text-center text-xs text-muted">
-                {$t('s.everyoneNote')}
+                <span class="measure prose-quiet inline-block">{$t('s.everyoneNote')}</span>
               </p>
             {/if}
           {/if}

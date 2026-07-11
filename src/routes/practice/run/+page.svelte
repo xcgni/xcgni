@@ -1,5 +1,6 @@
 <script lang="ts">
   import { t } from '$lib/i18n/store';
+  import { keyboardOpen } from '$lib/stores/keyboard';
   import { onDestroy, onMount } from 'svelte';
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
@@ -588,43 +589,8 @@
     hanoiSelected = null;
   }
 
-  // First-encounter explainers (v1.10.0): a one-time, two-line intro per task shape, so
-  // nobody is thrown into an unfamiliar exercise cold. Seen-state lives client-side only.
-  const INTROS: Record<string, 'intro.numeric' | 'intro.twoChoice' | 'intro.mcText' | 'intro.mcSvg' | 'intro.recall' | 'intro.fluency' | 'intro.numberPath' | 'intro.stepOrder' | 'intro.gridPath' | 'intro.hanoi'> = {
-    numeric_text_input: 'intro.numeric',
-    two_choice: 'intro.twoChoice',
-    multiple_choice_text: 'intro.mcText',
-    multiple_choice_svg: 'intro.mcSvg',
-    memory_recall: 'intro.recall',
-    fluency_list: 'intro.fluency',
-    'planning_sequence:number_path': 'intro.numberPath',
-    'planning_sequence:step_order': 'intro.stepOrder',
-    'planning_sequence:grid_path': 'intro.gridPath',
-    'planning_sequence:hanoi': 'intro.hanoi'
-  };
-  let seenIntros: Set<string> = new Set();
-  if (typeof localStorage !== 'undefined') {
-    try { seenIntros = new Set(JSON.parse(localStorage.getItem('xcgni-intros') ?? '[]')); } catch { seenIntros = new Set(); }
-  }
-  function introKey(c: { rendererType: string; promptData?: { kind?: string } } | null): string | null {
-    if (!c) return null;
-    const k = c.rendererType === 'planning_sequence' && c.promptData?.kind
-      ? `planning_sequence:${c.promptData.kind}`
-      : c.rendererType === 'planning_sequence' ? 'planning_sequence:number_path' : c.rendererType;
-    return INTROS[k] ? k : null;
-  }
-  let introDismissTick = 0;
-  function dismissIntro(key: string) {
-    seenIntros.add(key);
-    introDismissTick += 1;
-    if (typeof localStorage !== 'undefined') {
-      try { localStorage.setItem('xcgni-intros', JSON.stringify([...seenIntros])); } catch { /* private mode */ }
-    }
-  }
   $: catRunName = challenge ? catNameRun(challenge.category, challenge.categoryName) : '';
   $: catNameRun = (slug: string, fb: string) => { const x = $t(('cat.' + slug) as never); return x && !x.startsWith('cat.') ? x : fb; };
-  $: activeIntroKey = introDismissTick >= 0 ? introKey(challenge) : null;
-  $: showIntro = activeIntroKey != null && !seenIntros.has(activeIntroKey) && (phase === 'answering' || phase === 'memorize' || phase === 'getready');
 
   // Layout stability: every exercise/phase change returns the viewport to the top, so the
   // panel is always in the same place - no more hunting up or down between exercises. The
@@ -667,14 +633,14 @@
           <span class="ml-2 text-muted" title={$t('scoring.tooltip')}>· {challenge.scoring}</span>
         {/if}
       </p>
-      <div class="flex items-baseline gap-3 sm:gap-4">
+      <div class="flex items-baseline gap-3 sm:gap-4 {$keyboardOpen ? 'max-sm:hidden' : ''}">
         <span class="label">{progressLabel}</span>
         <AmbientSound />
         <button on:click={endSession} class="text-sm text-muted hover:text-body">{$t('run.end')}</button>
       </div>
     </div>
     <!-- in the zone meter -->
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-2 {$keyboardOpen ? 'max-sm:hidden' : ''}">
       <span class="label shrink-0 {zone >= 70 ? 'text-accent' : ''}">{$t('run.zone')}</span>
       <div class="h-1 flex-1 bg-edge">
         <div class="h-1 transition-all duration-500 {zone >= 70 ? 'bg-accent' : 'bg-accent/50'}" style="width: {zone}%"></div>
@@ -732,12 +698,6 @@
 
         <!-- prompt -->
         <div class="w-full text-center">
-          {#if showIntro && activeIntroKey}
-            <div class="mx-auto mb-4 flex max-w-md items-start justify-between gap-3 rounded border border-accent/40 bg-accent/5 p-3 text-left">
-              <p class="text-xs leading-relaxed text-body">{$t(INTROS[activeIntroKey])}</p>
-              <button class="shrink-0 rounded border border-edge px-2 py-1 text-xs text-muted hover:border-accent hover:text-accent" on:click={() => dismissIntro(activeIntroKey)}>{$t('run.gotIt')}</button>
-            </div>
-          {/if}
           {#if isPlanning}
             <p class="label mb-3">{challenge.promptData.instruction}</p>
             {#if challenge.promptData.kind === 'step_order'}

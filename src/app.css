@@ -216,3 +216,7 @@ summary::-webkit-details-marker { display: none; }
    like the cookie notice and feedback button aren't hidden behind system UI. */
 .safe-bottom { padding-bottom: max(0.75rem, env(safe-area-inset-bottom)); }
 .safe-bottom-fixed { bottom: max(1rem, env(safe-area-inset-bottom)); }
+
+/* v1.14.0 typography rhythm: one reading measure for explanatory prose, calmer leading. */
+.measure { max-width: 65ch; }
+.prose-quiet { line-height: 1.6; }

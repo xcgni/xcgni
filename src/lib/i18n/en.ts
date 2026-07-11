@@ -43,7 +43,6 @@ export const en = {
   'run.levelUp': 'Level-up question →',
   'run.submit': 'Submit',
   'run.skip': 'Skip',
-  'run.gotIt': 'Got it',
   'run.undo': 'Undo',
   'run.reset': 'Reset',
   'run.moves': 'moves',
@@ -63,17 +62,6 @@ export const en = {
   'scoring.default': 'accuracy scored · pace scored, no visible clock',
   'scoring.tooltip': 'Every item states how it is scored - nothing is measured silently. Formulas: /methodology',
 
-  // first-encounter intros
-  'intro.numeric': 'Type the answer as a number. Pace matters on timed items, but there is no visible clock - work at your natural speed.',
-  'intro.twoChoice': 'Two options - pick the one the instruction asks for. Keyboard 1 and 2 work.',
-  'intro.mcText': 'Pick the correct option. Keyboard digits work.',
-  'intro.mcSvg': 'Pick the figure the instruction asks for. Keyboard digits work.',
-  'intro.recall': 'Digits appear briefly, then disappear - type them from memory once the field shows.',
-  'intro.fluency': 'Type as many valid answers as you can, one per entry, before the window ends. Variants and near-misses of the SAME answer count once.',
-  'intro.numberPath': 'Plan a route from the start number to the target using the allowed steps. No clock - shorter plans score higher.',
-  'intro.stepOrder': 'Put the lettered steps into a workable order - each step must be possible after the ones before it. Tap the steps or type the letters. No clock.',
-  'intro.gridPath': 'Plan a route from S to T around the walls. Tap the direction chips or type moves. No clock - shorter routes score higher.',
-  'intro.hanoi': 'Move the whole tower to peg C. Tap a peg to lift its top disk, tap another to place it - never a larger disk on a smaller one. No clock - fewer moves score higher.',
 
   // bands
   'band.morning': 'morning', 'band.afternoon': 'afternoon', 'band.evening': 'evening',

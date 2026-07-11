@@ -6,6 +6,40 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.14.0 - The mobile shell: pill navigation, reading rhythm, and the intros retired
+
+Designer-review release. On phones, primary navigation moves where thumbs live: a
+floating pill at the bottom (Practice, Stats, and a three-dot sheet carrying the account
+items), safe-area aware, with the doctrine written into the markup as a comment - no
+badges, no counters, no attention hooks, ever. The top bar keeps only brand and identity
+on mobile; desktop is unchanged. The account dropdown renders as a bottom sheet on small
+screens.
+
+Typography gains a rhythm pass: a shared reading measure (65ch) and calmer leading on
+the long explanatory notes (radar honesty notes, the questionnaire preamble). Skip moved
+to the quiet top-right in onboarding. And a residue catch along the way: the
+questionnaire lead paragraph had silently survived in English behind a line-wrap
+mismatch - localized and pinned in the denylist.
+
+The first-encounter intro panels (v1.10.0) are removed entirely. User verdict accepted:
+they broke page flow on mobile and lectured at the moment of action. Transparency stays
+where it belongs - the scoring chip and the item instructions; proper introduction
+arrives with the guided first session (Q2). Ten intro keys retired from all three
+catalogs; suites: 26 green.
+
+Also fixed from user report: the brand link sent registered users back into /welcome -
+every logo click replayed onboarding, ending in the demographics questionnaire. The link
+now goes home to /practice for signed-in users, and /welcome itself gained a server
+guard: any recorded attempt redirects straight to practice, so the tour can never be
+re-entered by accident (still reachable for genuinely new accounts).
+
+Mobile feedback round two, from real phone screenshots: the floating pill collided with
+the on-screen keyboard (riding up over the auth submit button and the answer area) and
+with the feedback floater. Fixes: a shared keyboardOpen store watches text-input focus -
+while typing, the pill hides everywhere and the run page collapses its header extras
+(progress, ambient, zone meter) so the question and answer own the screen; the feedback
+floater is desktop-only, moving into the three-dot sheet on mobile, and its panel widens
+properly on small screens. One floater at a time, and never over the keyboard.
 ## v1.13.5 - Language flag reaches the containers + script-corruption class extinct
 
 Follow-ups from the walkthrough prep: ENABLE_LANGS is now wired through both compose

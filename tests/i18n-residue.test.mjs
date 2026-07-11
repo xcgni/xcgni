@@ -8,7 +8,7 @@ const DENY=['Your stats','just getting started','Save as image','you (now)','eve
  'Regular session complete','Keep practicing','Ambient sound','in the zone','or press Enter','✓ Correct','✗ Incorrect',
  'Before you start','Hours slept','Caffeine today','Just woke','Prefer not to say','About you','Native language',
  'A gym for the mind','Start practicing','Back to practice','Still learning this one','Wait for amber',
- 'Free &amp; open','Built by <a','days practiced</','Daily pulse<','Start mixed practice','stepping down to find','holding level','quick and right'];
+ 'Free &amp; open','Built by <a','days practiced</','Daily pulse<','Start mixed practice','stepping down to find','holding level','quick and right','A few optional questions','Why we ask'];
 function files(dir){let o=[];for(const f of readdirSync(dir)){const p=join(dir,f);const s=statSync(p);
  if(s.isDirectory()&&!p.includes('admin')&&!p.includes('/about')&&!p.includes('/methodology')&&!p.includes('/privacy'))o=o.concat(files(p));else if(f.endsWith('.svelte'))o.push(p);}return o;}
 const all=[...files('src/routes'),...files('src/lib/components')];

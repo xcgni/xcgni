@@ -99,12 +99,8 @@
 <div class="mx-auto flex max-w-md flex-col gap-6 py-8">
   <div class="flex flex-col gap-1">
     <p class="label text-accent">{$t('ctx.title')}</p>
-    <p class="text-xs text-muted">{$t('ctx.why')}</p>
-    <p class="text-sm leading-relaxed text-muted">
-      A few optional questions. They help us understand how state affects performance -
-      and, in time, tell you when you personally function best. Skip any or all; it never
-      affects your score.
-    </p>
+    <p class="text-xs text-muted"><span class="measure prose-quiet inline-block">{$t('ctx.why')}</span></p>
+    <p class="text-sm text-muted"><span class="measure prose-quiet inline-block">{$t('ctx.lead')}</span></p>
   </div>
 
   {#if askDaily}

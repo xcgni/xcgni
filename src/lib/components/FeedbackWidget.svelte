@@ -1,7 +1,13 @@
+<script lang="ts" context="module">
+  import { writable } from 'svelte/store';
+  export const feedbackOpen = writable(false);
+</script>
+
 <script lang="ts">
   import { page } from '$app/stores';
 
   let open = false;
+  feedbackOpen.subscribe((v) => { if (v) { open = true; feedbackOpen.set(false); } });
   let kind: 'bug' | 'confusing' | 'idea' | 'other' = 'confusing';
   let message = '';
   let sending = false;
@@ -31,7 +37,7 @@
 </script>
 
 {#if open}
-  <div class="fixed bottom-16 right-4 z-50 w-72 rounded border border-edge bg-surface p-4 shadow-lg">
+  <div class="fixed bottom-16 right-4 z-50 w-72 max-sm:inset-x-3 max-sm:bottom-20 max-sm:w-auto rounded border border-edge bg-surface p-4 shadow-lg">
     {#if sent}
       <p class="py-4 text-center text-sm text-ok">Thanks - noted.</p>
     {:else}
@@ -63,7 +69,7 @@
 {/if}
 
 <button
-  class="fixed bottom-4 right-4 z-50 rounded-full border border-edge bg-surface px-3 py-2 text-xs text-muted shadow hover:text-body"
+  class="fixed bottom-4 right-4 z-50 hidden rounded-full sm:block border border-edge bg-surface px-3 py-2 text-xs text-muted shadow hover:text-body"
   on:click={() => (open = !open)}
   aria-label="Send feedback"
 >

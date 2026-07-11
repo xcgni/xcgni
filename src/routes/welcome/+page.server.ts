@@ -6,6 +6,12 @@ import { pg } from '$lib/server/db';
 import { CONSENT_VERSION } from '$lib/server/consent';
 
 export const load: PageServerLoad = async ({ locals }) => {
+  // Returning users never re-enter onboarding: any recorded attempt means the tour is done.
+  if (locals.user) {
+    const [seen] = await pg`SELECT 1 FROM attempts WHERE user_id = ${locals.user.id} LIMIT 1`;
+    if (seen) throw redirect(303, '/practice');
+  }
+
   // Deck list for the "what would you like to memorize?" step (empty selection = all decks).
   const decks = await pg`
     SELECT DISTINCT deck AS slug, deck_label AS label FROM retention_cards WHERE active ORDER BY deck_label

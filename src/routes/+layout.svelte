@@ -10,6 +10,8 @@
   import { navigating } from '$app/stores';
   import { invalidateAll } from '$app/navigation';
   import { locale, t } from '$lib/i18n/store';
+  import { keyboardOpen, attachKeyboardWatcher } from '$lib/stores/keyboard';
+  import { feedbackOpen } from '$lib/components/FeedbackWidget.svelte';
   import { LOCALES, LOCALE_NAMES } from '$lib/i18n';
   import { fade } from 'svelte/transition';
   import { onMount } from 'svelte';
@@ -74,6 +76,7 @@
   function closeMenuOnOutside(e: MouseEvent) {
     if (menuOpen && menuRoot && !menuRoot.contains(e.target as Node)) menuOpen = false;
   }
+  onMount(() => attachKeyboardWatcher());
 </script>
 
 <svelte:head>
@@ -101,9 +104,9 @@
 <div class="mx-auto flex min-h-dvh w-full max-w-5xl flex-col px-4 sm:px-6">
   <header class="sticky top-0 z-40 flex items-center justify-between gap-2 border-b border-edge bg-ink/95 py-4 backdrop-blur-md">
     <!-- home for a signed-in user is the welcome page (the / landing redirects them to practice, which made welcome unreachable from the wordmark) -->
-    <a href={registered ? '/welcome' : '/'} class="shrink-0 font-mono text-sm tracking-[0.15em] text-body hover:text-accent sm:text-base sm:tracking-[0.25em]">EXCOGNI</a>
+    <a href={registered ? '/practice' : '/'} class="shrink-0 font-mono text-sm tracking-[0.15em] text-body hover:text-accent sm:text-base sm:tracking-[0.25em]">EXCOGNI</a>
 
-    <nav class="flex items-center gap-0 text-sm sm:gap-1">
+    <nav class="hidden items-center gap-0 text-sm sm:flex sm:gap-1">
       {#each primary as item}
         <a
           href={item.href}
@@ -131,7 +134,7 @@
           </button>
           {#if menuOpen}
             <div
-              class="absolute right-0 z-20 mt-1 w-48 border border-edge bg-surface py-1 shadow-xl"
+              class="absolute right-0 z-20 mt-1 w-48 border border-edge bg-surface py-1 shadow-xl max-sm:fixed max-sm:inset-x-3 max-sm:top-auto max-sm:bottom-16 max-sm:mt-0 max-sm:w-auto max-sm:rounded-xl max-sm:shadow-2xl"
               role="menu"
               tabindex="-1"
             >
@@ -151,6 +154,7 @@
                 <a href="/auth/logout" class="block px-3 py-2 text-sm text-muted hover:bg-edge/40 hover:text-body">{$t('nav.logout')}</a>
               {/if}
               {#if data.langsEnabled}
+              <button class="block w-full px-3 py-2 text-left text-sm text-muted hover:bg-edge/40 hover:text-body sm:hidden" on:click={() => { feedbackOpen.set(true); menuOpen = false; }}>feedback</button>
               <div class="my-1 border-t border-edge"></div>
               <div class="flex items-center gap-1 px-3 py-2">
                 <span class="label mr-1">{$t('nav.language')}</span>
@@ -179,6 +183,30 @@
       </div>
     {/key}
   </main>
+
+  <!-- v1.14.0 mobile shell: floating pill nav (thumb zone). Ergonomics only - no badges,
+       no counters, no attention hooks, ever. -->
+  <nav class="fixed bottom-3 left-1/2 z-40 flex -translate-x-1/2 items-center gap-1 rounded-full border border-edge bg-panel/95 px-2 py-1.5 shadow-lg backdrop-blur sm:hidden {$keyboardOpen ? 'hidden' : ''}"
+       style="margin-bottom: env(safe-area-inset-bottom)" aria-label="Primary">
+    {#each primary as item}
+      <a href={item.href}
+         class="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs {$page.url.pathname.startsWith(item.href) ? 'bg-accent/15 text-accent' : 'text-muted'}"
+         aria-current={$page.url.pathname.startsWith(item.href) ? 'page' : undefined}>
+        {#if item.href === '/practice'}
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 7v10M18 7v10M3 9v6M21 9v6M6 12h12"/></svg>
+        {:else if item.href === '/stats'}
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+        {:else}
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/></svg>
+        {/if}
+        <span>{item.label}</span>
+      </a>
+    {/each}
+    <button class="flex items-center rounded-full px-3 py-1.5 text-muted" on:click|stopPropagation={() => (menuOpen = !menuOpen)} aria-label="More">
+      <svg width="16" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
+    </button>
+  </nav>
+
 
   <footer class="flex flex-col items-center gap-2 border-t border-edge py-5 text-center">
     <nav class="flex flex-wrap items-center justify-center gap-x-5 gap-y-1">

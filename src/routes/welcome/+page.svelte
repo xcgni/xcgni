@@ -176,7 +176,7 @@
         </div>
         <div class="flex items-center gap-4">
           {#if isIntro}
-            <button type="submit" class="text-sm text-muted hover:text-body">{$t('w.skip')}</button>
+            <button type="submit" class="absolute right-4 top-4 text-sm text-muted hover:text-body">{$t('w.skip')}</button>
             <button type="button" class="btn-primary" on:click={() => (step += 1)}>
               {step === steps.length - 1 ? 'Almost there' : 'Next'}
             </button>
