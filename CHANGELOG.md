@@ -6,6 +6,15 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.15.5 - The landing belongs to everyone; the tour ends where you already are
+
+Maintainer request, plainly stated and plainly done. The homepage no longer redirects
+signed-in users to practice - the brand mark now genuinely shows the start page to
+everyone (the stale comment arguing otherwise went with the code). The welcome tour is
+freely re-watchable: the guard that bounced returning users is replaced by a returning
+flag, and the finale adapts - anyone with recorded attempts sees a single Continue to
+practice (Skip does the same), no forms, no register pitch, while genuinely new visitors
+keep the two equal anonymous doors. Signed out, everything reads exactly as before.
 ## v1.15.4 - Counting is not parsing: a real block validator joins the suite
 
 The sheet-eviction surgery in v1.15.1 cut one closer short: the moved panel kept the

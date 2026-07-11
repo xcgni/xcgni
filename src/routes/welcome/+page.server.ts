@@ -6,10 +6,12 @@ import { pg } from '$lib/server/db';
 import { CONSENT_VERSION } from '$lib/server/consent';
 
 export const load: PageServerLoad = async ({ locals }) => {
-  // Returning users never re-enter onboarding: any recorded attempt means the tour is done.
+  // Returning users may re-watch the tour freely; the finale adapts (no forms, no
+  // register pitch - a single continue). Detected by any recorded attempt.
+  let returning = false;
   if (locals.user) {
     const [seen] = await pg`SELECT 1 FROM attempts WHERE user_id = ${locals.user.id} LIMIT 1`;
-    if (seen) throw redirect(303, '/practice');
+    returning = !!seen;
   }
 
   // Deck list for the "what would you like to memorize?" step (empty selection = all decks).
@@ -21,7 +23,9 @@ export const load: PageServerLoad = async ({ locals }) => {
     const s = await pg`SELECT preferred_decks FROM user_settings WHERE user_id = ${locals.user.id}`;
     preferredDecks = (s[0]?.preferred_decks as string[] | null) ?? [];
   }
-  return { decks, preferredDecks };
+  return {
+    returning,
+ decks, preferredDecks };
 };
 
 function cleanStr(v: FormDataEntryValue | null, max = 64): string | null {

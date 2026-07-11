@@ -95,13 +95,17 @@
       {/if}
         <div class="flex items-center gap-4">
           {#if isIntro}
-            <button type="submit" class="absolute right-4 top-4 text-sm text-muted hover:text-body">{$t('w.skip')}</button>
+            {#if data.returning}<a href="/practice" class="absolute right-4 top-4 text-sm text-muted hover:text-body">{$t('w.skip')}</a>{:else}<button type="submit" class="absolute right-4 top-4 text-sm text-muted hover:text-body">{$t('w.skip')}</button>{/if}
             <button type="button" class="btn-primary" on:click={() => (step += 1)}>
               {step === steps.length - 1 ? $t('w.almost') : $t('w.next')}
             </button>
           {:else}
-            <button type="submit" class="btn-primary">{$t('w.startAnon')}</button>
-            <a href="/auth/login" class="btn">{$t('w.register')}</a>
+            {#if data.returning}
+              <a href="/practice" class="btn-primary">{$t('welcome.continue')}</a>
+            {:else}
+              <button type="submit" class="btn-primary">{$t('w.startAnon')}</button>
+              <a href="/auth/login" class="btn">{$t('w.register')}</a>
+            {/if}
           {/if}
         </div>
     </form>
