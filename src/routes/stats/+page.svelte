@@ -463,11 +463,6 @@
 
     {/if}
 
-    <!-- 0. Cognitive fingerprint -->
-    {#if data.domains && data.domains.length >= 3}
-      
-    {/if}
-
     <!-- 0a-i. Percentile standing: where you rank vs everyone, per area -->
     {#if data.percentiles.some((p) => p.percentile != null)}
       <section class="flex flex-col gap-3">

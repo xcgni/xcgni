@@ -6,6 +6,19 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.15.4 - Counting is not parsing: a real block validator joins the suite
+
+The sheet-eviction surgery in v1.15.1 cut one closer short: the moved panel kept the
+language gate's closing tag instead of its own, leaving the header with an orphaned
+else-branch and the root sheet unclosed. The pre-pack balance audit passed because it
+COUNTED tags globally - and moving text preserves counts while destroying structure.
+The build caught it; the operator paid for it. Also swept: an empty conditional husk on
+the stats page left by the insights removal.
+
+The permanent answer is the 27th suite: a Svelte block-structure parser that stack-walks
+every template's open, else and close tokens and fails with file and line on any orphan,
+mismatch, or unclosed block - 58 files verified per run. Counting retires; parsing
+stands guard.
 ## v1.15.3 - Delivering the partials: typography system, prose sentiment, housekeeping
 
 Closing the three items honestly reported as partial. Typography becomes a system, not a

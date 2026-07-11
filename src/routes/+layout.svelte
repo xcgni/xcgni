@@ -116,7 +116,7 @@
 
 <div class="mx-auto flex min-h-dvh w-full max-w-5xl flex-col px-4 sm:px-6">
   <header class="sticky top-0 z-40 flex items-center justify-between gap-2 border-b border-edge bg-ink/95 py-4 backdrop-blur-md">
-    <!-- brand goes to the landing for everyone; /welcome guards itself against replay for users with historyelcome unreachable from the wordmark) -->
+    <!-- brand goes to the landing for everyone; /welcome guards itself against replay for users with history -->
     <a href="/" class="shrink-0 font-mono text-sm tracking-[0.15em] text-body hover:text-accent sm:text-base sm:tracking-[0.25em]">EXCOGNI</a>
 
     <nav class="flex items-center gap-0 text-sm sm:gap-1">
@@ -145,9 +145,6 @@
               <path d="M1 1l4 4 4-4" />
             </svg>
           </button>
-          
-            </div>
-          {/if}
         </div>
       {:else}
         <a href="/auth/login" class="ml-1 px-3 py-1.5 text-muted transition-colors hover:text-body">{$t('landing.login')}</a>
@@ -200,6 +197,8 @@
                 {/each}
               </div>
               {/if}
+            </div>
+{/if}
 
   <!-- v1.14.0 mobile shell: floating pill nav (thumb zone). Ergonomics only - no badges,
        no counters, no attention hooks, ever. -->
