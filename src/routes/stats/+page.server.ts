@@ -67,7 +67,7 @@ export const load: PageServerLoad = async ({ locals, url }) => {
   ]);
   const headline = statsHeadline(sparklines, percentiles);
   const readiness = await userReadiness(locals.user.id);
-  const findings = await personalFindings(locals.user.id);
+  const findings = await personalFindings(locals.user.id, locals.locale);
   const [categorySparks, missing] = await Promise.all([
     categorySparklines(locals.user.id),
     readinessMissing(locals.user.id)

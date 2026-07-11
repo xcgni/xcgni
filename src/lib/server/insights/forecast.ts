@@ -10,7 +10,7 @@ export type { Forecast } from './findings-core';
  * collected. Silence when the pattern would not clear the finding gates, or when the
  * offset is unknown.
  */
-export async function cognitiveWeather(userId: string): Promise<Forecast | null> {
+export async function cognitiveWeather(userId: string, locale: import('$lib/i18n').Locale = 'en'): Promise<Forecast | null> {
   const tz = await pg`
     SELECT tz_offset_min FROM practice_sessions
     WHERE user_id = ${userId} AND tz_offset_min IS NOT NULL
@@ -36,6 +36,7 @@ export async function cognitiveWeather(userId: string): Promise<Forecast | null>
   `;
   return forecastFromBands(
     bands as { band: string; n: number; mean: number; sd: number }[],
-    nowHour
+    nowHour,
+    locale
   );
 }

@@ -6,6 +6,22 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.13.1 - Croatian mode is now fully Croatian (German rides along)
+
+The remainder of the app layer, translated. The deep part was refactoring every generated
+sentence - the seven personal findings, the cognitive weather lines, and the public
+commons findings - from hardcoded English into localized templates with parameters, so
+the instrument now SPEAKS Croatian, not just labels itself in it. Also localized: the
+whole stats page chrome including all explainer tooltips, category names everywhere they
+render (17 faculties), auth, welcome, settings, review and summary chrome. Time-of-day
+band names, locked/withheld/null wording, every caveat and honesty clause - carried into
+all three languages with meaning intact, including the no-shaming line and the
+practice-effect warning.
+
+Long-form prose pages (methodology, about, privacy) keep their English text for now and
+say so honestly in the reader's language - a rushed translation of the methodology would
+betray the page's purpose; it gets its own careful session. Catalog: 161 keys per
+language, parity-enforced by the test suite, German still awaiting its native pass.
 ## v1.13.0 - Tri jezika / Drei Sprachen: the interface learns Croatian and German
 
 Internationalization, the house way: a hand-rolled, dependency-free typed catalog - no

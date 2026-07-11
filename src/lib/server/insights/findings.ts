@@ -1,5 +1,6 @@
 import { pg } from '$lib/server/db';
 import { gateTimeOfDay, gateLearningCurve, gatePosition, gateSleep, gateCaffeine, gateTagDays, type Finding } from './findings-core';
+import { translate, type Locale } from '$lib/i18n';
 
 /**
  * Personal findings (v1.5.0): the instrument starts SPEAKING, not just displaying.
@@ -12,7 +13,11 @@ import { gateTimeOfDay, gateLearningCurve, gatePosition, gateSleep, gateCaffeine
 
 export type { Finding } from './findings-core';
 
-export async function personalFindings(userId: string): Promise<Finding[]> {
+export async function personalFindings(userId: string, locale: Locale = 'en'): Promise<Finding[]> {
+  const catName = (slug: string) => {
+    const v = translate(locale, ('cat.' + slug) as Parameters<typeof translate>[1]);
+    return v && !v.startsWith('cat.') ? v : slug.replace(/_/g, ' ');
+  };
   const out: Finding[] = [];
 
   // F1 - time of day: mean score by local-hour band, answered attempts only
@@ -29,7 +34,7 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
     WHERE user_id = ${userId} AND status = 'answered' AND score IS NOT NULL AND local_hour IS NOT NULL
     GROUP BY 1
   `;
-  out.push(gateTimeOfDay(bands as { band: string; n: number; mean: number; sd: number }[]));
+  out.push(gateTimeOfDay(bands as { band: string; n: number; mean: number; sd: number }[], locale));
 
   // F2 - learning curve per category: early vs late attempt scores (practice effect, named)
   const curves = await pg`
@@ -48,7 +53,7 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
     WHERE total >= 12
     GROUP BY category_slug
   `;
-  out.push(gateLearningCurve(curves as { category_slug: string; n: number; early_mean: number; late_mean: number }[]));
+  out.push(gateLearningCurve(curves as { category_slug: string; n: number; early_mean: number; late_mean: number }[], locale, catName));
 
   // F3 - within-session position: does performance drift as a session progresses
   const pos = await pg`
@@ -64,7 +69,7 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
     WHERE user_id = ${userId} AND status = 'answered' AND score IS NOT NULL AND session_position IS NOT NULL
     GROUP BY 1
   `;
-  out.push(gatePosition(pos as { bucket: string; n: number; mean: number; sd: number }[]));
+  out.push(gatePosition(pos as { bucket: string; n: number; mean: number; sd: number }[], locale));
 
   // F4 - sleep (J5): same-day pairing of pre-session sleep hours with attempt scores.
   // Short vs rested at a 6.5h line; the context row is the day's first (sleep is asked
@@ -88,7 +93,7 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
       AND a.local_year IS NOT NULL
     GROUP BY 1
   `;
-  out.push(gateSleep(sleep as { band: string; n: number; mean: number; sd: number }[]));
+  out.push(gateSleep(sleep as { band: string; n: number; mean: number; sd: number }[], locale));
 
   // F5 - caffeine (J5): the day's strongest reported level paired with that day's scores.
   const caffeine = await pg`
@@ -111,7 +116,7 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
       AND a.local_year IS NOT NULL
     GROUP BY 1
   `;
-  out.push(gateCaffeine(caffeine as { band: string; n: number; mean: number; sd: number }[]));
+  out.push(gateCaffeine(caffeine as { band: string; n: number; mean: number; sd: number }[], locale));
 
   // F6/F7 - tag findings (day-fold: any tagged session marks the day). The tag system is
   // private self-tracking; these findings are its payoff. Music first (population evidence
@@ -139,10 +144,10 @@ export async function personalFindings(userId: string): Promise<Finding[]> {
     `;
     return rows as { band: string; n: number; mean: number; sd: number }[];
   };
-  out.push(gateTagDays('tag_music', 'Music', 'Music',
-    await tagBands('music', 'music', 'no-music')));
-  out.push(gateTagDays('tag_after_work', 'After work', 'After work',
-    await tagBands('after-work', 'after-work', 'other')));
+  out.push(gateTagDays('tag_music', translate(locale, 'find.music.title'), translate(locale, 'find.music.title'),
+    await tagBands('music', 'music', 'no-music'), locale));
+  out.push(gateTagDays('tag_after_work', translate(locale, 'find.afterwork.title'), translate(locale, 'find.afterwork.title'),
+    await tagBands('after-work', 'after-work', 'other'), locale));
 
   return out;
 }

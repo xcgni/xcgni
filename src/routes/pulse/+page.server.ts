@@ -10,7 +10,7 @@ export const load: PageServerLoad = async ({ locals }) => {
   let todayDone = false;
   let weather = null;
   if (locals.user) {
-    weather = await cognitiveWeather(locals.user.id);
+    weather = await cognitiveWeather(locals.user.id, locals.locale);
     const dp = await pg`
       SELECT count(DISTINCT (local_year, local_month, local_day))::int AS n
       FROM attempts

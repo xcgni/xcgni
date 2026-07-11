@@ -7,7 +7,7 @@ import { cognitiveWeather } from '$lib/server/insights/forecast';
 import { emailIndexEnabled } from '$lib/server/auth/email-index';
 
 export const load: PageServerLoad = async ({ locals }) => {
-  const weather = locals.user ? await cognitiveWeather(locals.user.id) : null;
+  const weather = locals.user ? await cognitiveWeather(locals.user.id, locals.locale) : null;
   const cats = await pg`
     SELECT slug, name, description, implemented FROM categories WHERE active ORDER BY sort
   `;

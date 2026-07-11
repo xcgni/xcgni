@@ -11,6 +11,8 @@
  * - Practice effects are NAMED as practice effects, never sold as ability gains.
  */
 
+import { translate as tr, type Locale } from '../../i18n/index.ts';
+
 export interface Finding {
   id: string;
   title: string;
@@ -22,6 +24,11 @@ export interface Finding {
 
 const MIN_N_BAND = 30;
 const MIN_D = 0.25;
+
+type TrKey = Parameters<typeof tr>[1];
+function T(locale: Locale, key: TrKey, params?: Record<string, string | number>) {
+  return tr(locale, key, params);
+}
 
 export function cohensD(m1: number, sd1: number, n1: number, m2: number, sd2: number, n2: number): number {
   const pooled = Math.sqrt(((n1 - 1) * sd1 * sd1 + (n2 - 1) * sd2 * sd2) / Math.max(n1 + n2 - 2, 1));
@@ -35,16 +42,17 @@ function pct(x: number): string {
 
 type Band = { band: string; n: number; mean: number; sd: number };
 
-export function gateTimeOfDay(bands: Band[]): Finding {
+export function gateTimeOfDay(bands: Band[], locale: Locale = 'en'): Finding {
   const id = 'time_of_day';
-  const title = 'Time of day';
+  const title = T(locale, 'find.tod.title');
+  const bandName = (b: string) => T(locale, ('band.' + b) as TrKey);
   const eligible = bands.filter((b) => b.n >= MIN_N_BAND);
   if (eligible.length < 2) {
-    const have = bands.map((b) => `${b.band} ${Math.min(b.n, MIN_N_BAND)}/${MIN_N_BAND}`).join(', ');
+    const have = bands.map((b) => `${bandName(b.band)} ${Math.min(b.n, MIN_N_BAND)}/${MIN_N_BAND}`).join(', ');
     return {
       id, title, unlocked: false, effect: null,
-      sentence: `Unlocks with ${MIN_N_BAND}+ answered items in at least two times of day.`,
-      detail: have ? `So far: ${have}.` : 'No timed attempts yet.'
+      sentence: T(locale, 'find.tod.locked', { n: MIN_N_BAND }),
+      detail: have ? T(locale, 'find.soFar', { have }) : T(locale, 'find.tod.none')
     };
   }
   const sorted = [...eligible].sort((a, b) => b.mean - a.mean);
@@ -53,30 +61,33 @@ export function gateTimeOfDay(bands: Band[]): Finding {
   if (Math.abs(d) < MIN_D) {
     return {
       id, title, unlocked: true, effect: 0,
-      sentence: `No reliable time-of-day pattern: your ${sorted.map((b) => b.band).join(' and ')} scores are statistically indistinguishable.`,
-      detail: `Compared ${eligible.map((b) => `${b.band} (n=${b.n})`).join(' vs ')}; effect below the reporting bar (|d| < ${MIN_D}). A boring result is still a result.`
+      sentence: T(locale, 'find.tod.null', { bands: sorted.map((b) => bandName(b.band)).join(' / ') }),
+      detail: T(locale, 'find.null.detail', { compared: eligible.map((b) => `${bandName(b.band)} (n=${b.n})`).join(' vs '), minD: MIN_D })
     };
   }
   const rel = worst.mean !== 0 ? (best.mean - worst.mean) / Math.abs(worst.mean) : 0;
   return {
     id, title, unlocked: true, effect: d,
-    sentence: `Your ${best.band} scores run ${pct(rel)} above your ${worst.band} scores.`,
-    detail: `${best.band} mean ${best.mean.toFixed(2)} (n=${best.n}) vs ${worst.band} ${worst.mean.toFixed(2)} (n=${worst.n}), d=${d.toFixed(2)}. Association, not cause - scheduling, sleep and task mix all ride along.`
+    sentence: T(locale, 'find.tod.hit', { best: bandName(best.band), worst: bandName(worst.band), pct: pct(rel) }),
+    detail: T(locale, 'find.tod.detail', { best: bandName(best.band), bm: best.mean.toFixed(2), bn: best.n, worst: bandName(worst.band), wm: worst.mean.toFixed(2), wn: worst.n, d: d.toFixed(2) })
   };
 }
 
 type Curve = { category_slug: string; n: number; early_mean: number; late_mean: number };
 
-export function gateLearningCurve(curves: Curve[]): Finding {
+export function gateLearningCurve(curves: Curve[], locale: Locale = 'en', catName?: (slug: string) => string): Finding {
   const id = 'learning_curve';
-  const title = 'Learning curve';
+  const title = T(locale, 'find.curve.title');
+  const nameOf = (slug: string) => (catName ? catName(slug) : slug.replace(/_/g, ' '));
   const eligible = curves.filter((c) => c.n >= 40 && c.early_mean != null && c.late_mean != null);
   if (eligible.length === 0) {
     const closest = [...curves].sort((a, b) => b.n - a.n)[0];
     return {
       id, title, unlocked: false, effect: null,
-      sentence: 'Unlocks with 40+ answered items in one area.',
-      detail: closest ? `Closest: ${closest.category_slug.replace(/_/g, ' ')} at ${Math.min(closest.n, 40)}/40.` : 'Keep practicing - the curve needs history.'
+      sentence: T(locale, 'find.curve.locked'),
+      detail: closest
+        ? T(locale, 'find.curve.closest', { name: nameOf(closest.category_slug), have: Math.min(closest.n, 40) })
+        : T(locale, 'find.curve.none')
     };
   }
   const steepest = [...eligible].sort(
@@ -84,51 +95,50 @@ export function gateLearningCurve(curves: Curve[]): Finding {
   )[0];
   const gain = steepest.late_mean - steepest.early_mean;
   const relGain = steepest.early_mean !== 0 ? gain / Math.abs(steepest.early_mean) : 0;
-  const name = steepest.category_slug.replace(/_/g, ' ');
+  const name = nameOf(steepest.category_slug);
   if (gain <= 0.02) {
     return {
       id, title, unlocked: true, effect: 0,
-      sentence: `Your practiced areas have plateaued: late-practice scores match your early ones.`,
-      detail: `Largest change ${name}: ${steepest.early_mean.toFixed(2)} early vs ${steepest.late_mean.toFixed(2)} late (n=${steepest.n}). Plateaus are where the adaptive ladder earns its keep.`
+      sentence: T(locale, 'find.curve.plateau'),
+      detail: T(locale, 'find.curve.plateauDetail', { name, em: steepest.early_mean.toFixed(2), lm: steepest.late_mean.toFixed(2), n: steepest.n })
     };
   }
   return {
     id, title, unlocked: true, effect: relGain,
-    sentence: `${name}: your recent scores run ${pct(relGain)} above your first sessions.`,
-    detail: `Early third ${steepest.early_mean.toFixed(2)} vs late third ${steepest.late_mean.toFixed(2)}, n=${steepest.n}. This is the PRACTICE EFFECT the methodology page warns about - familiarity plus ability, inseparable at this n. It is reported as improvement on the instrument, not certified cognitive gain.`
+    sentence: T(locale, 'find.curve.hit', { name, pct: pct(relGain) }),
+    detail: T(locale, 'find.curve.detail', { em: steepest.early_mean.toFixed(2), lm: steepest.late_mean.toFixed(2), n: steepest.n })
   };
 }
 
 type Pos = { bucket: string; n: number; mean: number; sd: number };
 
-export function gatePosition(buckets: Pos[]): Finding {
+export function gatePosition(buckets: Pos[], locale: Locale = 'en'): Finding {
   const id = 'session_position';
-  const title = 'Within a session';
+  const title = T(locale, 'find.pos.title');
   const start = buckets.find((b) => b.bucket === 'start');
   const late = buckets.find((b) => b.bucket === 'late');
   if (!start || !late || start.n < MIN_N_BAND || late.n < MIN_N_BAND) {
-    const s = start ? Math.min(start.n, MIN_N_BAND) : 0;
-    const l = late ? Math.min(late.n, MIN_N_BAND) : 0;
+    const sN = start ? Math.min(start.n, MIN_N_BAND) : 0;
+    const lN = late ? Math.min(late.n, MIN_N_BAND) : 0;
     return {
       id, title, unlocked: false, effect: null,
-      sentence: `Unlocks with ${MIN_N_BAND}+ items both early and late in sessions.`,
-      detail: `So far: start ${s}/${MIN_N_BAND}, late-session ${l}/${MIN_N_BAND}. Longer sessions feed the late bucket.`
+      sentence: T(locale, 'find.pos.locked', { n: MIN_N_BAND }),
+      detail: T(locale, 'find.pos.progress', { s: sN, l: lN, n: MIN_N_BAND })
     };
   }
   const d = cohensD(late.mean, late.sd, late.n, start.mean, start.sd, start.n);
   if (Math.abs(d) < MIN_D) {
     return {
       id, title, unlocked: true, effect: 0,
-      sentence: 'Your performance holds steady through a session - no warm-up or fatigue drift detected.',
-      detail: `Start ${start.mean.toFixed(2)} (n=${start.n}) vs late ${late.mean.toFixed(2)} (n=${late.n}), |d| < ${MIN_D}. Steady is a finding too.`
+      sentence: T(locale, 'find.pos.steady'),
+      detail: T(locale, 'find.pos.steadyDetail', { sm: start.mean.toFixed(2), sn: start.n, lm: late.mean.toFixed(2), ln: late.n, minD: MIN_D })
     };
   }
   const rel = start.mean !== 0 ? (late.mean - start.mean) / Math.abs(start.mean) : 0;
-  const direction = d > 0 ? 'rise' : 'dip';
   return {
     id, title, unlocked: true, effect: d,
-    sentence: `Your scores ${direction} ${pct(Math.abs(rel) * Math.sign(rel))} late in a session compared to the start.`,
-    detail: `Start ${start.mean.toFixed(2)} (n=${start.n}) vs late ${late.mean.toFixed(2)} (n=${late.n}), d=${d.toFixed(2)}. ${d > 0 ? 'A warm-up pattern.' : 'A fatigue-like pattern.'} The task mix within sessions rides along - association, not cause.`
+    sentence: T(locale, d > 0 ? 'find.pos.rise' : 'find.pos.dip', { pct: pct(Math.abs(rel) * Math.sign(rel)) }),
+    detail: T(locale, 'find.pos.detail', { sm: start.mean.toFixed(2), sn: start.n, lm: late.mean.toFixed(2), ln: late.n, d: d.toFixed(2), pattern: T(locale, d > 0 ? 'find.pos.warmup' : 'find.pos.fatigue') })
   };
 }
 
@@ -143,15 +153,16 @@ export function gatePersonalBands(
   title: string,
   noun: string,
   bands: Band[],
-  extraCaveat: string
+  extraCaveat: string,
+  locale: Locale = 'en'
 ): Finding {
   const eligible = bands.filter((b) => b.n >= MIN_N_BAND);
   if (eligible.length < 2) {
     const have = bands.map((b) => `${b.band} ${Math.min(b.n, MIN_N_BAND)}/${MIN_N_BAND}`).join(', ');
     return {
       id, title, unlocked: false, effect: null,
-      sentence: `Unlocks with ${MIN_N_BAND}+ answered items on at least two kinds of ${noun} days.`,
-      detail: have ? `So far: ${have}.` : `No ${noun}-tagged sessions yet - the pre-session question feeds this.`
+      sentence: T(locale, 'find.days.locked', { n: MIN_N_BAND, noun }),
+      detail: have ? T(locale, 'find.soFar', { have }) : T(locale, 'find.days.none', { noun })
     };
   }
   const sorted = [...eligible].sort((a, b) => b.mean - a.mean);
@@ -160,32 +171,24 @@ export function gatePersonalBands(
   if (Math.abs(d) < MIN_D) {
     return {
       id, title, unlocked: true, effect: 0,
-      sentence: `No reliable ${noun} pattern: your scores across ${sorted.map((b) => b.band).join(' and ')} days are statistically indistinguishable.`,
-      detail: `Compared ${eligible.map((b) => `${b.band} (n=${b.n})`).join(' vs ')}; effect below the reporting bar (|d| < ${MIN_D}). A boring result is still a result.`
+      sentence: T(locale, 'find.days.null', { noun, bands: sorted.map((b) => b.band).join(' / ') }),
+      detail: T(locale, 'find.null.detail', { compared: eligible.map((b) => `${b.band} (n=${b.n})`).join(' vs '), minD: MIN_D })
     };
   }
   const rel = worst.mean !== 0 ? (best.mean - worst.mean) / Math.abs(worst.mean) : 0;
   return {
     id, title, unlocked: true, effect: d,
-    sentence: `Your scores on ${best.band} days run ${pct(rel)} above ${worst.band} days.`,
-    detail: `${best.band}: mean ${best.mean.toFixed(2)} (n=${best.n}) vs ${worst.band}: ${worst.mean.toFixed(2)} (n=${worst.n}), d=${d.toFixed(2)}. ${extraCaveat}`
+    sentence: T(locale, 'find.days.hit', { best: best.band, worst: worst.band, pct: pct(rel) }),
+    detail: T(locale, 'find.days.detail', { best: best.band, bm: best.mean.toFixed(2), bn: best.n, worst: worst.band, wm: worst.mean.toFixed(2), wn: worst.n, d: d.toFixed(2) }) + ' ' + extraCaveat
   };
 }
 
-export function gateSleep(bands: Band[]): Finding {
-  return gatePersonalBands(
-    'sleep', 'Sleep', 'sleep',
-    bands,
-    'Day-level association from your own pre-session answers, not cause - what you did that day, the task mix, and how honestly the hours were reported all ride along.'
-  );
+export function gateSleep(bands: Band[], locale: Locale = 'en'): Finding {
+  return gatePersonalBands('sleep', T(locale, 'find.sleep.title'), T(locale, 'find.sleep.noun'), bands, T(locale, 'find.sleep.caveat'), locale);
 }
 
-export function gateCaffeine(bands: Band[]): Finding {
-  return gatePersonalBands(
-    'caffeine', 'Caffeine', 'caffeine',
-    bands,
-    'Day-level association from your own pre-session answers, not cause - and caffeine choices often FOLLOW how a day already feels.'
-  );
+export function gateCaffeine(bands: Band[], locale: Locale = 'en'): Finding {
+  return gatePersonalBands('caffeine', T(locale, 'find.caffeine.title'), T(locale, 'find.caffeine.noun'), bands, T(locale, 'find.caffeine.caveat'), locale);
 }
 
 // ---------------------------------------------------------------------------
@@ -206,7 +209,7 @@ export function bandForHour(hour: number): 'morning' | 'afternoon' | 'evening' {
   return 'evening';
 }
 
-export function forecastFromBands(bands: Band[], nowHour: number): Forecast | null {
+export function forecastFromBands(bands: Band[], nowHour: number, locale: Locale = 'en'): Forecast | null {
   const eligible = bands.filter((b) => b.n >= MIN_N_BAND);
   if (eligible.length < 2) return null;
   const sorted = [...eligible].sort((a, b) => b.mean - a.mean);
@@ -216,24 +219,21 @@ export function forecastFromBands(bands: Band[], nowHour: number): Forecast | nu
 
   const now = bandForHour(nowHour);
   const rel = worst.mean !== 0 ? (best.mean - worst.mean) / Math.abs(worst.mean) : 0;
-  const detail = `Your own history: ${best.band} mean ${best.mean.toFixed(2)} (n=${best.n}) vs ${worst.band} ${worst.mean.toFixed(2)} (n=${worst.n}), d=${d.toFixed(2)}. Historical association, not a prediction.`;
+  const bandName = (b: string) => T(locale, ('band.' + b) as TrKey);
+  const detail = T(locale, 'weather.detail', { best: bandName(best.band), bm: best.mean.toFixed(2), bn: best.n, worst: bandName(worst.band), wm: worst.mean.toFixed(2), wn: worst.n, d: d.toFixed(2) });
 
   if (now === best.band) {
-    return { line: `You are in what has historically been your strongest window (${best.band}s, ${pct(rel)} vs your ${worst.band}s).`, detail };
+    return { line: T(locale, 'weather.inBest', { best: bandName(best.band), worst: bandName(worst.band), pct: pct(rel) }), detail };
   }
   if (now === worst.band) {
-    return { line: `Historically your quietest window: your ${worst.band} scores run ${pct(-rel)} vs your ${best.band}s. Data from any hour counts the same.`, detail };
+    return { line: T(locale, 'weather.inWorst', { best: bandName(best.band), worst: bandName(worst.band), pct: pct(-rel) }), detail };
   }
-  return { line: `Historically, your strongest window is the ${best.band} (${pct(rel)} vs your ${worst.band}s).`, detail };
+  return { line: T(locale, 'weather.neutral', { best: bandName(best.band), worst: bandName(worst.band), pct: pct(rel) }), detail };
 }
 
 // v1.12.0 - tag findings: a tagged-days vs untagged-days comparison through the same
 // band machinery. Day-grain fold (any session that day carried the tag), stated in the
 // caveat so run-grain and day-grain claims never blur.
-export function gateTagDays(id: string, title: string, tagLabel: string, bands: Band[]): Finding {
-  return gatePersonalBands(
-    id, title, tagLabel.toLowerCase(),
-    bands,
-    `Day-level fold: a day counts as "${tagLabel}" if ANY session that day carried the tag. Association from your own tagging, not cause - and what makes a day taggable often shapes the day itself.`
-  );
+export function gateTagDays(id: string, title: string, tagLabel: string, bands: Band[], locale: Locale = 'en'): Finding {
+  return gatePersonalBands(id, title, tagLabel.toLowerCase(), bands, T(locale, 'find.tag.caveat', { tag: tagLabel }), locale);
 }

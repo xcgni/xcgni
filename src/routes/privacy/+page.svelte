@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t, locale } from '$lib/i18n/store';
   export let data;
 </script>
 
@@ -6,6 +7,7 @@
 
 <div class="mx-auto flex max-w-2xl flex-col gap-8 py-10">
   <h1 class="h-page">Privacy</h1>
+  {#if $locale !== 'en'}<p class="mt-2 text-xs text-muted">{$t('page.enOnly')}</p>{/if}
   <p class="text-sm leading-relaxed text-muted">
     The short version: you are the person being measured, not the product being sold. Everything
     below follows from that.

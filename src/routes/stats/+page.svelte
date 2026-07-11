@@ -1,4 +1,11 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
+  // localized category name with DB fallback; reactive on locale via $t dependency
+  $: catName = (slug: string, fallback: string) => {
+    const v = $t(('cat.' + slug) as never);
+    return v && !v.startsWith('cat.') ? v : fallback;
+  };
+
   import RatingReadout from '$lib/components/RatingReadout.svelte';
   import RatingChart from '$lib/components/RatingChart.svelte';
   import RadarChart from '$lib/components/RadarChart.svelte';
@@ -309,14 +316,14 @@
     {#if data.ratings && data.ratings.global.rating != null}
       <section class="panel flex flex-wrap items-end justify-between gap-4 p-4 sm:gap-6 sm:p-6">
         <div class="flex flex-col gap-1">
-          <p class="label flex items-center">Your rating <Explain text={EXPLAIN.rating} /></p>
+          <p class="label flex items-center">{$t('stats.yourRating')} <Explain text={$t('explain.rating')} /></p>
           <div class="flex items-baseline gap-3">
             <span class="font-mono text-5xl text-accent">{data.ratings.global.rating}</span>
             {#if data.ratings.global.sem != null}
               <span class="font-mono text-sm text-muted">± {data.ratings.global.sem}</span>
             {/if}
             {#if data.ratings.global.provisional}
-              <span class="label text-muted">provisional</span>
+              <span class="label text-muted">{$t('stats.provisional')}</span>
             {/if}
           </div>
           {#if data.ratings.global.sem != null}
@@ -328,7 +335,7 @@
           {/if}
         </div>
         <div class="flex flex-col gap-1">
-          <p class="label flex items-center">Percentile <Explain text={EXPLAIN.percentile} /></p>
+          <p class="label flex items-center">{$t('stats.percentile')} <Explain text={$t('explain.percentile')} /></p>
           {#if data.ratings.global.percentile != null}
             <span class="font-mono text-3xl text-body">{data.ratings.global.percentile}<span class="text-lg text-muted">th</span></span>
             {#if data.ratings.global.aboveCount != null}
@@ -362,22 +369,22 @@
          locked ones say exactly what is missing. Rare and correct beats chatty. -->
     {#if data.findings && data.findings.length}
       <section class="flex flex-col gap-3">
-        <h2 class="label flex items-center">Findings <Explain text="Personal patterns computed from your own attempts. Each finding unlocks only when it clears a minimum sample and effect size - below that, it tells you what would unlock it. Associations, never causes." /></h2>
+        <h2 class="label flex items-center">{$t('stats.findings')} <Explain text={$t('stats.findingsExplain')} /></h2>
         <div class="flex flex-col gap-2">
           {#each data.findings as f (f.id)}
             <div class="panel flex flex-col gap-1 p-4 {f.unlocked ? '' : 'opacity-70'}">
               <div class="flex items-baseline justify-between gap-3">
                 <p class="label">{f.title}</p>
-                {#if !f.unlocked}<span class="font-mono text-[10px] text-muted">locked</span>
-                {:else if f.effect === 0}<span class="font-mono text-[10px] text-muted">no effect</span>{/if}
+                {#if !f.unlocked}<span class="font-mono text-[10px] text-muted">{$t('stats.locked')}</span>
+                {:else if f.effect === 0}<span class="font-mono text-[10px] text-muted">{$t('stats.noEffect')}</span>{/if}
               </div>
               <p class="text-sm {f.unlocked ? 'text-body' : 'text-muted'}">{f.sentence}</p>
               <p class="text-xs text-muted">{f.detail}</p>
             </div>
           {/each}
         </div>
-        <p class="text-xs text-muted">The pool has findings of its own:
-          <a href="/statistics/findings" class="underline hover:text-body">findings from the pool</a>.</p>
+        <p class="text-xs text-muted">{$t('stats.poolLink')}
+          <a href="/statistics/findings" class="underline hover:text-body">{$t('stats.poolLinkText')}</a>.</p>
       </section>
     {/if}
 
@@ -667,7 +674,7 @@
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {#each implemented as cat}
           <RatingReadout
-            label={cat.name}
+            label={catName(cat.slug, cat.name)}
             rating={cat.rating}
             percentile={cat.percentile}
             status={cat.status}

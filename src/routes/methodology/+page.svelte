@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t, locale } from '$lib/i18n/store';
   export let data;
   $: current = data.current;
 </script>
@@ -9,6 +10,7 @@
   <div class="flex flex-col gap-3">
     <p class="label text-accent">Methodology</p>
     <h1 class="text-2xl font-light">How a cognitive profile is computed - versioned, so it can be cited.</h1>
+  {#if $locale !== 'en'}<p class="mt-2 text-xs text-muted">{$t('page.enOnly')}</p>{/if}
     <p class="text-sm leading-relaxed text-muted">
       Every score Excogni produces is stamped with the methodology version it was computed under. A
       version pins the scoring formulas, the rating algorithm and its constants, and which challenges

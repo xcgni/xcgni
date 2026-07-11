@@ -22,7 +22,7 @@ function consentPredicate(preview: boolean) {
     : pg`ua.consented_stats = true AND u.is_anonymous = false AND u.is_test = false AND u.is_simulated = false`;
 }
 
-async function computeCommonsFindings(preview: boolean): Promise<{ findings: CommonsFinding[]; poolUsers: number }> {
+async function computeCommonsFindings(preview: boolean, locale: import('$lib/i18n').Locale): Promise<{ findings: CommonsFinding[]; poolUsers: number }> {
   const floor = adminConfig.publicMinCell();
 
   const pool = await pg`
@@ -110,16 +110,16 @@ async function computeCommonsFindings(preview: boolean): Promise<{ findings: Com
   const g = gainRows[0] ?? { n_users: 0, median_gain: null, q1: null, q3: null };
 
   const findings: CommonsFinding[] = [
-    gatePopulationBands('pool_time_of_day', 'Time of day, pool-wide', 'time-of-day', todBands, floor),
-    gatePopulationBands('pool_session_position', 'Within a session, pool-wide', 'session-position', posBands, floor),
+    gatePopulationBands('pool_time_of_day', 'Time of day, pool-wide', 'time-of-day', todBands, floor, locale),
+    gatePopulationBands('pool_session_position', 'Within a session, pool-wide', 'session-position', posBands, floor, locale),
     gatePopulationLearning(
       { nUsers: g.n_users as number, medianGain: g.median_gain as number | null, q1: g.q1 as number | null, q3: g.q3 as number | null },
-      floor
+      floor, locale
     )
   ];
   return { findings, poolUsers };
 }
 
-export async function commonsFindings(preview: boolean) {
-  return cached(`commons-findings:${preview}`, TTL, () => computeCommonsFindings(preview));
+export async function commonsFindings(preview: boolean, locale: import('$lib/i18n').Locale = 'en') {
+  return cached(`commons-findings:${preview}:${locale}`, TTL, () => computeCommonsFindings(preview, locale));
 }

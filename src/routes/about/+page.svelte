@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t, locale } from '$lib/i18n/store';
   export let data;
 </script>
 
@@ -8,6 +9,7 @@
   <div class="flex flex-col gap-2">
     <p class="label text-accent">About</p>
     <h1 class="h-page">What Excogni is - and what it isn't</h1>
+  {#if $locale !== 'en'}<p class="mt-2 text-xs text-muted">{$t('page.enOnly')}</p>{/if}
   </div>
 
   <section class="flex flex-col gap-3">

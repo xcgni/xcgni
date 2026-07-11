@@ -1,5 +1,11 @@
 <script lang="ts">
   import { t } from '$lib/i18n/store';
+  // localized category name with DB fallback; reactive on locale via $t dependency
+  $: catName = (slug: string, fallback: string) => {
+    const v = $t(('cat.' + slug) as never);
+    return v && !v.startsWith('cat.') ? v : fallback;
+  };
+
   import { browser } from '$app/environment';
   // The pool ask, at the exact start of an anonymous run: anonymous practice is welcome for
   // trying things out, but it feeds nothing back - and the pool is the one resource the
@@ -105,7 +111,7 @@
         {#each data.categories as cat}
           <div class="flex flex-col gap-2 bg-ink p-4">
             <div class="flex items-start justify-between gap-2">
-              <p class="text-sm text-body">{cat.name}</p>
+              <p class="text-sm text-body">{catName(cat.slug, cat.name)}</p>
               {#if !cat.implemented}<span class="label whitespace-nowrap text-[10px]">Soon</span>{/if}
             </div>
             <p class="text-xs leading-snug text-muted">{cat.description}</p>

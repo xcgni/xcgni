@@ -16,6 +16,9 @@ function cohensD(m1: number, sd1: number, n1: number, m2: number, sd2: number, n
   return (m1 - m2) / pooled;
 }
 
+import { translate as tr, type Locale } from '../../i18n/index.ts';
+type TrKey = Parameters<typeof tr>[1];
+
 export interface CommonsFinding {
   id: string;
   title: string;
@@ -32,16 +35,22 @@ export type PopBand = { band: string; nUsers: number; nAttempts: number; mean: n
 export function gatePopulationBands(
   id: string,
   title: string,
-  noun: string,               // "time of day" / "session position"
+  noun: string,
   bands: PopBand[],
-  floor: number
+  floor: number,
+  locale: Locale = 'en'
 ): CommonsFinding {
+  const B = (b: string) => {
+    const k = ('band.' + b.replace(/ /g, '_')) as TrKey;
+    const v = tr(locale, k);
+    return v === undefined || v.startsWith('band.') ? b : v;
+  };
   const eligible = bands.filter((b) => b.nUsers >= floor);
   if (eligible.length < 2) {
     return {
       id, title, status: 'withheld', nUsers: null,
-      sentence: `Withheld: fewer than ${floor} consented users per compared group.`,
-      detail: `The anonymity floor applies to every group in a comparison. This unlocks as the pool grows - and a withheld finding is shown as withheld, never silently omitted.`
+      sentence: tr(locale, 'commons.withheld', { floor }),
+      detail: tr(locale, 'commons.withheldDetail')
     };
   }
   const sorted = [...eligible].sort((a, b) => b.mean - a.mean);
@@ -51,40 +60,41 @@ export function gatePopulationBands(
   if (Math.abs(d) < MIN_D_POP) {
     return {
       id, title, status: 'null', nUsers,
-      sentence: `No reliable ${noun} pattern in the pool: group means are statistically indistinguishable.`,
-      detail: `Compared ${eligible.map((b) => `${b.band} (${b.nUsers} users, ${b.nAttempts} attempts)`).join(' vs ')}; |d| < ${MIN_D_POP}. Published anyway - a null result is a result.`
+      sentence: tr(locale, 'commons.null', { noun }),
+      detail: tr(locale, 'commons.nullDetail', { compared: eligible.map((b) => `${B(b.band)} (${b.nUsers}/${b.nAttempts})`).join(' vs '), minD: MIN_D_POP })
     };
   }
   const rel = worst.mean !== 0 ? (best.mean - worst.mean) / Math.abs(worst.mean) : 0;
   return {
     id, title, status: 'published', nUsers,
-    sentence: `Pool-wide, ${best.band} scores run ${rel >= 0 ? '+' : ''}${Math.round(rel * 100)}% above ${worst.band} scores.`,
-    detail: `${best.band}: mean ${best.mean.toFixed(2)} across ${best.nUsers} users (${best.nAttempts} attempts) vs ${worst.band}: ${worst.mean.toFixed(2)} across ${worst.nUsers} users (${worst.nAttempts}), d=${d.toFixed(2)}. Association across a self-selected pool - collection conditions and confounds are stated on the methodology page.`
+    sentence: tr(locale, 'commons.hit', { best: B(best.band), worst: B(worst.band), pct: `${rel >= 0 ? '+' : ''}${Math.round(rel * 100)}%` }),
+    detail: tr(locale, 'commons.hitDetail', { best: B(best.band), bm: best.mean.toFixed(2), bu: best.nUsers, ba: best.nAttempts, worst: B(worst.band), wm: worst.mean.toFixed(2), wu: worst.nUsers, wa: worst.nAttempts, d: d.toFixed(2) })
   };
 }
 
 export type UserGain = { nUsers: number; medianGain: number | null; q1: number | null; q3: number | null };
 
-export function gatePopulationLearning(g: UserGain, floor: number): CommonsFinding {
-  const id = 'pool_learning', title = 'Practice, pool-wide';
+export function gatePopulationLearning(g: UserGain, floor: number, locale: Locale = 'en'): CommonsFinding {
+  const id = 'pool_learning', title = tr(locale, 'commons.learning.title');
   if (g.nUsers < floor || g.medianGain == null) {
     return {
       id, title, status: 'withheld', nUsers: null,
-      sentence: `Withheld: fewer than ${floor} consented users with enough history (20+ answered items).`,
-      detail: 'Unlocks as the pool accumulates practice history.'
+      sentence: tr(locale, 'commons.learning.withheld', { floor }),
+      detail: tr(locale, 'commons.learning.withheldDetail')
     };
   }
-  const pct = Math.round(g.medianGain * 100);
-  if (Math.abs(pct) < 3) {
+  const pctV = Math.round(g.medianGain * 100);
+  const iqr = `${Math.round((g.q1 ?? 0) * 100)}% .. ${Math.round((g.q3 ?? 0) * 100)}%`;
+  if (Math.abs(pctV) < 3) {
     return {
       id, title, status: 'null', nUsers: g.nUsers,
-      sentence: 'The median user scores about the same late in practice as early - no pool-wide practice effect above the bar.',
-      detail: `Median early-to-late change ${pct}% across ${g.nUsers} users (IQR ${Math.round((g.q1 ?? 0) * 100)}% to ${Math.round((g.q3 ?? 0) * 100)}%).`
+      sentence: tr(locale, 'commons.learning.null'),
+      detail: tr(locale, 'commons.learning.nullDetail', { pct: pctV, n: g.nUsers, iqr })
     };
   }
   return {
     id, title, status: 'published', nUsers: g.nUsers,
-    sentence: `The median user's scores run ${pct >= 0 ? '+' : ''}${pct}% higher in late practice than in their first sessions.`,
-    detail: `Across ${g.nUsers} users with 20+ answered items; IQR ${Math.round((g.q1 ?? 0) * 100)}% to ${Math.round((g.q3 ?? 0) * 100)}%. This is the practice effect the methodology names: familiarity and ability improving together, inseparable in this design. Survivors bias rides along - users who stay differ from users who leave.`
+    sentence: tr(locale, 'commons.learning.hit', { pct: `${pctV >= 0 ? '+' : ''}${pctV}` }),
+    detail: tr(locale, 'commons.learning.hitDetail', { n: g.nUsers, iqr })
   };
 }
