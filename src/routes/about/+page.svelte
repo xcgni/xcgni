@@ -60,7 +60,7 @@
   <section class="flex flex-col gap-3">
     <p class="label">How we treat your data</p>
     <p class="text-sm leading-relaxed text-muted">
-      Practising anonymously keeps your results entirely to yourself and out of any
+      Practising anonymous - and the two ways in, with or without an account, are equally anonymous by constructionly keeps your results entirely to yourself and out of any
       shared statistics. Anything optional you share (like your age range or
       language) is used only for anonymous, aggregate research and is never tied to
       your identity or shown to anyone - small groups are withheld so no individual can

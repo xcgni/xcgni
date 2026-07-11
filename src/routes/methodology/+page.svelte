@@ -7,7 +7,7 @@
 <svelte:head><title>Methodology - Excogni</title></svelte:head>
 
 <div class="mx-auto flex max-w-3xl flex-col gap-6 py-6 sm:gap-8 sm:py-8">
-  <div class="flex flex-col gap-3">
+  <div class="flex flex-col gap-3 measure mx-auto">
     <p class="label text-accent">Methodology</p>
     <h1 class="text-2xl font-light">How a cognitive profile is computed - versioned, so it can be cited.</h1>
   {#if $locale !== 'en'}<p class="mt-2 text-xs text-muted">{$t('page.enOnly')}</p>{/if}

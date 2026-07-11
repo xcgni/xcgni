@@ -13,6 +13,21 @@
     below follows from that.
   </p>
 
+  
+  <section id="equal" class="flex flex-col gap-2">
+    <h2 class="label text-accent">Two ways in - both equally anonymous</h2>
+    <p class="text-sm leading-relaxed text-muted measure">
+      Practicing without an account and registering are equally anonymous, and this is a
+      property of the architecture, not a promise. Registration adds exactly one thing: a
+      sign-in key. Your email is transformed into a one-way code (an HMAC blind index)
+      before it is stored, so no page, log entry, or database row can ever display it -
+      including to us. Magic-link tokens are hashed the same way. Anonymous practice is
+      never included in population statistics; registered practice enters them only with
+      your explicit, revocable consent. Whichever door you take, the data model behind it
+      is the same.
+    </p>
+  </section>
+
   <section class="flex flex-col gap-3">
     <p class="label">What we collect</p>
     <p class="text-sm leading-relaxed text-muted">

@@ -1,6 +1,6 @@
 {
   "name": "excogni",
-  "version": "1.15.2",
+  "version": "1.15.3",
   "private": true,
   "type": "module",
   "scripts": {
@@ -17,7 +17,10 @@
     "cap:sync": "npm run cap:shell && npx cap sync",
     "cap:android": "npx cap open android",
     "cap:ios": "npx cap open ios",
-    "variant": "node scripts/make-variant.mjs"
+    "variant": "node scripts/make-variant.mjs",
+    "test": "bash -c 'for t in tests/*.test.mjs; do node --experimental-strip-types \"$t\" || exit 1; done'",
+    "test:db": "node --experimental-strip-types --import ./tests-db/register.mjs tests-db/attempt-flow.test.mjs",
+    "verify": "npm run test && npm run build"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "^5.2.0",
@@ -52,9 +55,9 @@
   "license": "AGPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "https://github.com/initsixdev/excogni"
+    "url": "https://github.com/xcgni/xcgni"
   },
-  "homepage": "https://excogni.com",
+  "homepage": "https://xcgni.com",
   "author": {
     "name": "initsix.dev",
     "url": "https://initsix.dev"

@@ -51,6 +51,7 @@
   };
 
   let challenge: Challenge | null = null;
+  let scoringOpen = false;
   let answer = '';
   let yourAnswerDisplay = '';   // what the user submitted, for the feedback comparison
   let result: Result | null = null;
@@ -630,7 +631,7 @@
         {challenge ? catRunName : 'Practice'} ·
         {$t('run.level')} <span class="font-mono">{challenge?.level ?? '-'}</span>
         {#if challenge?.scoring}
-          <span class="ml-2 text-muted" title={$t('scoring.tooltip')}>· {challenge.scoring}</span>
+          <span class="ml-2 text-muted" title={$t('scoring.tooltip')}><span class="max-sm:hidden">· {challenge.scoring}</span><button type="button" class="sm:hidden text-accent/80" title={challenge.scoring} aria-expanded={scoringOpen} on:click|preventDefault={() => (scoringOpen = !scoringOpen)}>· ⓘ</button>{#if scoringOpen}<span class="sm:hidden block pt-0.5 text-muted normal-case">{challenge.scoring}</span>{/if}</span>
         {/if}
       </p>
       <div class="flex items-baseline gap-3 sm:gap-4 {$keyboardOpen ? 'max-sm:hidden' : ''}">

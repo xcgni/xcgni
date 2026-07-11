@@ -46,7 +46,7 @@ Run the checks the project relies on (no network needed):
 # type-check all TS (except the logger)
 for f in $(find src scripts -name "*.ts" ! -name "log.ts"); do node --experimental-strip-types --check "$f"; done
 # run the unit test suites
-for t in rating admin-stats retention reaction email challenges scoring-helpers; do node --experimental-strip-types tests/$t.test.mjs; done
+for t in rating admin-stats retention reaction email challenges scoring-helpers; do npm test  # or a single suite: node --experimental-strip-types tests/$t.test.mjs; done
 ```
 
 - Keep PRs focused - one change per PR is easier to review.
@@ -60,7 +60,7 @@ for t in rating admin-stats retention reaction email challenges scoring-helpers;
 - New language decks for Verbal Reasoning.
 - Accessibility improvements.
 - Documentation / self-hosting clarity.
-- Anything in the ROADMAP marked low-risk/additive.
+- Anything in the public plan documents (docs/ and the changelog's named next slices) marked low-risk/additive.
 
 ## Reporting bugs
 

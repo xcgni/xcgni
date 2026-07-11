@@ -89,7 +89,7 @@
             <p class="label text-accent">{$t('nav.anonymous')}</p>
             <h1 class="text-2xl font-light leading-snug sm:text-3xl">{$t('w.finalTitle')}</h1>
             <p class="text-sm text-muted"><span class="measure prose-quiet inline-block">{$t('w.equalAnon')}</span></p>
-            <a href="/privacy" class="text-sm text-accent underline-offset-2 hover:underline">{$t('w.howWeProtect')}</a>
+            <a href="/privacy#equal" class="text-sm text-accent underline-offset-2 hover:underline">{$t('w.howWeProtect')}</a>
           </div>
         </div>
       {/if}

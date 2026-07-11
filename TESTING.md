@@ -1,4 +1,6 @@
-# Excogni - testing checklist (v0.3.0)
+Automated battery: `npm test` runs all 26 suites; `npm run test:db` runs the live-database attempt-flow test (needs DATABASE_URL). CI runs both on every push.
+
+# Excogni - testing checklist
 
 Manual flow tests. Run through each in **multiple browsers** (Chrome, Firefox,
 Safari) and at least one **mobile** device. Check the box when verified; note the
@@ -42,7 +44,7 @@ Legend: `[ ]` untested · `[x]` pass · `[!]` fails (note browser)
 - [ ] 21. Personal records show peak rating + max level WITH dates
 - [ ] 22. Distribution "field" renders with your marker; no individual names
 - [ ] 23. ⓘ explanations open/close on every stat (rating, percentile, domain, peak, field)
-- [ ] 24. About pages `/about/<slug>` load for all 16 categories; Practice button routes correctly
+- [ ] 24. About pages `/about/<slug>` load for all 17 categories; Practice button routes correctly
          (retention → /practice/retention, reaction → /practice/reaction, others → run)
 
 ## Settings & data

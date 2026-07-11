@@ -6,6 +6,25 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.15.3 - Delivering the partials: typography system, prose sentiment, housekeeping
+
+Closing the three items honestly reported as partial. Typography becomes a system, not a
+sprinkle: a base layer sets one vertical rhythm for all prose and tighter display
+leading; the methodology page joins the reading measure; and the run header stops
+wrapping into a wall on phones - the scoring disclosure collapses to a tappable mark
+that reveals the full wording inline (transparency one tap away, never gone).
+
+The equal-anonymity sentiment now lives inside the rooms it pointed to: the privacy page
+gains a Two ways in section (anchor: /privacy#equal) explaining the blind-index
+mechanism in plain words, the about page weaves the by-construction claim into its
+privacy paragraph, and the welcome and landing links land on that exact anchor.
+
+Housekeeping from the external review, executed: package.json repository and homepage
+point at the real repo and domain; README count corrected to 3,374 and a CI badge added;
+TESTING.md sheds its stale v0.3.0 title and 16-category claim and leads with the
+automated battery; CONTRIBUTING points at the public plan documents instead of a file
+the repo does not ship; npm test, test:db and verify scripts exist, so contributors run
+one command instead of a shell loop.
 ## v1.15.2 - The footer breathes under the pill
 
 Scrolled to the bottom, the floating pill covered the footer's last line. Standard

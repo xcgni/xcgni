@@ -1,3 +1,5 @@
+[![CI](https://github.com/xcgni/xcgni/actions/workflows/ci.yml/badge.svg)](https://github.com/xcgni/xcgni/actions/workflows/ci.yml)
+
 # Excogni
 
 A serious cognitive fitness platform - a gym for the mind. Adaptive challenges that
@@ -27,7 +29,7 @@ automatically on boot (idempotent - safe on every restart).
 
 What you get out of the box:
 
-- **3,294 reviewed challenges across 17 categories in 11 cognitive domains** - including three distinct strategic-planning suites (number paths, step ordering, grid paths) and 25 spaced-repetition decks (357 cards).
+- **3,374 reviewed challenges across 17 categories in 11 cognitive domains** - including three distinct strategic-planning suites (number paths, step ordering, grid paths) and 25 spaced-repetition decks (357 cards).
   *Quantitative*: Numerical Fluency (mental arithmetic), Estimation (approximation
   scored on a single error axis ranked against the population). *Fluid reasoning*:
   Pattern Recognition (sequences), Spatial Reasoning (rotation, symmetry,
