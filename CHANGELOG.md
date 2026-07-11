@@ -6,6 +6,21 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.15.1 - The invisible menu: a CSS containing-block trap, diagnosed and evicted
+
+Root cause of the dead three dots and username menu on mobile, found by reading rather
+than guessing: the header carries backdrop-blur, and per the CSS spec an ancestor with a
+backdrop-filter becomes the containing block for position:fixed descendants. The mobile
+sheet lived inside that header, so fixed-to-viewport-bottom actually meant fixed to the
+bottom of the 64px header box - the panel rendered faithfully, entirely above the top of
+the screen. State was toggling correctly the whole time; the pixels were off-screen.
+Desktop never noticed because there the panel is positioned differently.
+
+Fix: the sheet and its scrim now render at layout root, outside any filtered ancestor.
+One panel serves both triggers; on desktop it anchors itself to the username button at
+open time, on mobile it is the bottom sheet as designed. Outside-click and Escape
+behavior preserved. The week's earlier z-index and gating fixes were real but
+orthogonal - this was the load-bearing bug.
 ## v1.15.0 - Two ways in, equally anonymous
 
 The onboarding flow now ends where the philosophy always pointed: a closing panel

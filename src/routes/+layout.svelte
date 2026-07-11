@@ -63,6 +63,17 @@
 
   let menuOpen = false;
   let menuRoot: HTMLElement;
+  let panelRoot: HTMLElement | null = null;
+  let menuStyle = '';
+  function toggleMenu() {
+    if (!menuOpen && typeof window !== 'undefined' && window.innerWidth >= 640 && menuRoot) {
+      const r = menuRoot.getBoundingClientRect();
+      menuStyle = `top:${r.bottom + 4}px; right:${window.innerWidth - r.right}px`;
+    } else {
+      menuStyle = '';
+    }
+    menuOpen = !menuOpen;
+  }
   $: path = $page.url.pathname;
   $: registered = data.user && !data.user.isAnonymous;
   $: identity = registered ? (data.user.username ?? data.user.emailHint ?? $t('nav.account')) : $t('nav.account');
@@ -74,7 +85,7 @@
     menuOpen = false;
   }
   function closeMenuOnOutside(e: MouseEvent) {
-    if (menuOpen && menuRoot && !menuRoot.contains(e.target as Node)) menuOpen = false;
+    if (menuOpen && menuRoot && !menuRoot.contains(e.target as Node) && !(panelRoot && panelRoot.contains(e.target as Node))) menuOpen = false;
   }
   onMount(() => attachKeyboardWatcher());
   // Focus flows: the question and answer own the screen - no floating chrome at all.
@@ -124,7 +135,7 @@
         <div class="relative ml-1" bind:this={menuRoot}>
           <button
             class="flex items-center gap-1 px-2 py-1.5 text-muted transition-colors hover:text-body sm:gap-1.5 sm:px-3"
-            on:click|stopPropagation={() => (menuOpen = !menuOpen)}
+            on:click|stopPropagation={toggleMenu}
             aria-haspopup="true"
             aria-expanded={menuOpen}
           >
@@ -134,10 +145,28 @@
               <path d="M1 1l4 4 4-4" />
             </svg>
           </button>
-          {#if menuOpen}
+          
+            </div>
+          {/if}
+        </div>
+      {:else}
+        <a href="/auth/login" class="ml-1 px-3 py-1.5 text-muted transition-colors hover:text-body">{$t('landing.login')}</a>
+      {/if}
+    </nav>
+  </header>
+
+  <main class="flex-1 py-8 pb-20 sm:pb-8">
+    {#key $page.url.pathname}
+      <div in:fade={{ duration: 120 }}>
+        <slot />
+      </div>
+    {/key}
+  </main>
+
+{#if menuOpen}
             <button class="fixed inset-0 z-[45] cursor-default bg-black/40 backdrop-blur-[1px] sm:hidden" aria-label="Close menu" on:click={() => (menuOpen = false)}></button>
             <div
-              class="absolute right-0 z-20 mt-1 w-48 border border-edge bg-surface py-1 shadow-xl max-sm:z-50 max-sm:fixed max-sm:inset-x-3 max-sm:top-auto max-sm:bottom-16 max-sm:mt-0 max-sm:w-auto max-sm:rounded-xl max-sm:shadow-2xl"
+              class="fixed z-50 w-48 border border-edge bg-surface py-1 shadow-xl max-sm:inset-x-3 max-sm:bottom-16 max-sm:w-auto max-sm:rounded-xl max-sm:shadow-2xl" style={menuStyle} bind:this={panelRoot}
               role="menu"
               tabindex="-1"
             >
@@ -171,22 +200,6 @@
                 {/each}
               </div>
               {/if}
-            </div>
-          {/if}
-        </div>
-      {:else}
-        <a href="/auth/login" class="ml-1 px-3 py-1.5 text-muted transition-colors hover:text-body">{$t('landing.login')}</a>
-      {/if}
-    </nav>
-  </header>
-
-  <main class="flex-1 py-8 pb-20 sm:pb-8">
-    {#key $page.url.pathname}
-      <div in:fade={{ duration: 120 }}>
-        <slot />
-      </div>
-    {/key}
-  </main>
 
   <!-- v1.14.0 mobile shell: floating pill nav (thumb zone). Ergonomics only - no badges,
        no counters, no attention hooks, ever. -->
@@ -207,7 +220,7 @@
         <span>{item.label}</span>
       </a>
     {/each}
-    <button class="flex min-h-[44px] items-center rounded-full px-3.5 py-2 text-muted" on:click|stopPropagation={() => (menuOpen = !menuOpen)} aria-label="More">
+    <button class="flex min-h-[44px] items-center rounded-full px-3.5 py-2 text-muted" on:click|stopPropagation={toggleMenu} aria-label="More">
       <svg width="16" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
     </button>
   </nav>
