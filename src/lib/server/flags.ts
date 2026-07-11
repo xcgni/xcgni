@@ -29,7 +29,9 @@ export const flags = {
   statsPreview: () => resolved('statsPreview', isTrue(env.STATS_PREVIEW)),
   // Practice circles (the social feature). Off by default - opt in with ENABLE_CIRCLES=true.
   // Lets the whole feature be shipped dark and switched on/off without a code change.
-  circlesEnabled: () => resolved('circles', isTrue(env.ENABLE_CIRCLES))
+  circlesEnabled: () => resolved('circles', isTrue(env.ENABLE_CIRCLES)),
+  // UI languages beyond English (hr/de) - OFF until translation coverage is complete
+  langsEnabled: () => resolved('langs', isTrue(env.ENABLE_LANGS))
 };
 
 // Admin statistical tool - standalone, env-token gated. Empty token = disabled.

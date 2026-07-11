@@ -6,6 +6,17 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.13.3 - Languages behind a flag until they deserve the front door
+
+User review of Croatian mode found too much English residue to publish (welcome carousel,
+radar legend, retention, run feedback, questionnaire options, footer) plus a real bug: the
+quick-tag row rendered undefined chips because it hardcoded slugs retired in the v1.12.0
+vocabulary reconciliation - now pointing at current tags (music leads it).
+
+Decision, the honest kind: the i18n architecture and all 190+ translated keys stay in the
+tree, but hr/de are gated behind ENABLE_LANGS (default off). English ships clean; the
+languages return when coverage is total and native-reviewed, not before. Half-translated
+is worse than untranslated for an instrument whose product is trust.
 ## v1.13.2 - HR gaps closed + a 500 fixed
 
 User-reported after switching to Croatian: the pre-session questionnaire, welcome, the

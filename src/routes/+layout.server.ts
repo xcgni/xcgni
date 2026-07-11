@@ -24,6 +24,7 @@ export const load: LayoutServerLoad = async ({ locals, url, cookies }) => {
 
   return {
     locale: locals.locale,
+    langsEnabled: flags.langsEnabled(),
 
     variant,
     version: APP_VERSION,

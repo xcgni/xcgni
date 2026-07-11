@@ -150,6 +150,7 @@
                 <div class="my-1 border-t border-edge"></div>
                 <a href="/auth/logout" class="block px-3 py-2 text-sm text-muted hover:bg-edge/40 hover:text-body">{$t('nav.logout')}</a>
               {/if}
+              {#if data.langsEnabled}
               <div class="my-1 border-t border-edge"></div>
               <div class="flex items-center gap-1 px-3 py-2">
                 <span class="label mr-1">{$t('nav.language')}</span>
@@ -161,6 +162,7 @@
                   >{l}</button>
                 {/each}
               </div>
+              {/if}
             </div>
           {/if}
         </div>

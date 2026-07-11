@@ -25,7 +25,7 @@
   // Quick tags: the user's own recently-used tags first (private, localStorage), falling back to
   // sensible defaults. One tap for the common case; the full taxonomy stays under "more".
   const TAG_LABEL = new Map(TAG_GROUPS.flatMap((g) => g.tags.map((t) => [t.slug, t.label] as [string, string])));
-  const QUICK_DEFAULTS = ['coffee', 'poor-sleep', 'good-sleep', 'exercise', 'stressed', 'tired', 'deep-work', 'sick'];
+  const QUICK_DEFAULTS = ['music', 'after-work', 'exercise', 'stressed', 'deep-work', 'sick', 'alcohol-yesterday', 'interrupted-sleep'];
   let quickTags: string[] = QUICK_DEFAULTS;
   try {
     const recent = JSON.parse(localStorage.getItem('excogni.recentTags') ?? '[]');
