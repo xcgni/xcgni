@@ -6,6 +6,22 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.14.1 - The pill learns when to disappear
+
+Mobile field report, same-day: fixed-position chrome rides the visual viewport, so an
+open keyboard lifted the pill straight over the auth submit button and the answer field,
+and the feedback trigger shared the pill altitude. Three fixes:
+
+- Focus flows own the screen: on the run, retention and reaction routes the pill does
+  not render at all - the question and the answer are the primary things on a phone,
+  keyboard or not. Navigation returns the moment you leave the flow.
+- Keyboard detection got a second signal: focus events plus visualViewport shrink
+  (covers numeric keypads and in-app browsers that swallow focus). Any floating chrome
+  hides while typing, everywhere - auth, notes, fluency, settings.
+- The feedback trigger sits above the pill zone on mobile and hides during typing and
+  focus flows.
+
+Swept the tree for other fixed-bottom elements: none. Suites: 26 green.
 ## v1.14.0 - The mobile shell: pill navigation, reading rhythm, and the intros retired
 
 Designer-review release. On phones, primary navigation moves where thumbs live: a

@@ -1,4 +1,6 @@
 <script lang="ts" context="module">
+  import { keyboardOpen } from '$lib/stores/keyboard';
+  import { page } from '$app/stores';
   import { writable } from 'svelte/store';
   export const feedbackOpen = writable(false);
 </script>
@@ -69,7 +71,7 @@
 {/if}
 
 <button
-  class="fixed bottom-4 right-4 z-50 hidden rounded-full sm:block border border-edge bg-surface px-3 py-2 text-xs text-muted shadow hover:text-body"
+  class="fixed bottom-4 right-4 z-50 rounded-full max-sm:bottom-[4.5rem] {($keyboardOpen || /^\/practice\/(run|retention|reaction)/.test($page.url.pathname)) ? 'max-sm:hidden' : ''} border border-edge bg-surface px-3 py-2 text-xs text-muted shadow hover:text-body"
   on:click={() => (open = !open)}
   aria-label="Send feedback"
 >

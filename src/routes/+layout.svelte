@@ -77,6 +77,8 @@
     if (menuOpen && menuRoot && !menuRoot.contains(e.target as Node)) menuOpen = false;
   }
   onMount(() => attachKeyboardWatcher());
+  // Focus flows: the question and answer own the screen - no floating chrome at all.
+  $: focusFlow = /^\/practice\/(run|retention|reaction)/.test($page.url.pathname);
 </script>
 
 <svelte:head>
@@ -186,7 +188,8 @@
 
   <!-- v1.14.0 mobile shell: floating pill nav (thumb zone). Ergonomics only - no badges,
        no counters, no attention hooks, ever. -->
-  <nav class="fixed bottom-3 left-1/2 z-40 flex -translate-x-1/2 items-center gap-1 rounded-full border border-edge bg-panel/95 px-2 py-1.5 shadow-lg backdrop-blur sm:hidden {$keyboardOpen ? 'hidden' : ''}"
+  {#if !focusFlow && !$keyboardOpen}
+  <nav class="fixed bottom-3 left-1/2 z-40 flex -translate-x-1/2 items-center gap-1 rounded-full border border-edge bg-panel/95 px-2 py-1.5 shadow-lg backdrop-blur sm:hidden"
        style="margin-bottom: env(safe-area-inset-bottom)" aria-label="Primary">
     {#each primary as item}
       <a href={item.href}
@@ -206,6 +209,7 @@
       <svg width="16" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
     </button>
   </nav>
+  {/if}
 
 
   <footer class="flex flex-col items-center gap-2 border-t border-edge py-5 text-center">

@@ -18,5 +18,16 @@ export function attachKeyboardWatcher(): () => void {
   };
   window.addEventListener('focusin', onIn);
   window.addEventListener('focusout', onOut);
-  return () => { window.removeEventListener('focusin', onIn); window.removeEventListener('focusout', onOut); };
+  // Second signal: the visual viewport shrinks when the keyboard rises. Covers cases
+  // where focus events are swallowed (some numeric keypads, in-app browsers).
+  const vv = window.visualViewport;
+  const onVV = vv
+    ? () => { keyboardOpen.set(window.innerHeight - vv.height > 150 || isTextTarget(document.activeElement)); }
+    : null;
+  if (vv && onVV) vv.addEventListener('resize', onVV);
+  return () => {
+    window.removeEventListener('focusin', onIn);
+    window.removeEventListener('focusout', onOut);
+    if (vv && onVV) vv.removeEventListener('resize', onVV);
+  };
 }
