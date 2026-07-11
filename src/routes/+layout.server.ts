@@ -23,6 +23,8 @@ export const load: LayoutServerLoad = async ({ locals, url, cookies }) => {
   const variant = fromUrl && VARIANTS.includes(fromUrl) ? fromUrl : (cookies.get('variant') ?? 'serious');
 
   return {
+    locale: locals.locale,
+
     variant,
     version: APP_VERSION,
     circlesEnabled: (await resolveAllFlags().then(() => flags.circlesEnabled())),

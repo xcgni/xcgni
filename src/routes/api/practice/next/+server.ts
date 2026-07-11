@@ -85,6 +85,6 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
     challengeType: challenge.challengeType,
     promptData: challenge.promptData,
     // scoring transparency: derived from the same mode strings the scorer dispatches on
-    scoring: scoringLabel(challenge.scoringMode, null)
+    scoring: scoringLabel(challenge.scoringMode, null, locals.locale)
   });
 };

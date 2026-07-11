@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { onDestroy, onMount } from 'svelte';
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
@@ -589,17 +590,17 @@
 
   // First-encounter explainers (v1.10.0): a one-time, two-line intro per task shape, so
   // nobody is thrown into an unfamiliar exercise cold. Seen-state lives client-side only.
-  const INTROS: Record<string, string> = {
-    numeric_text_input: 'Type the answer as a number. Pace matters on timed items, but there is no visible clock - work at your natural speed.',
-    two_choice: 'Two options - pick the one the instruction asks for. Keyboard 1 and 2 work.',
-    multiple_choice_text: 'Pick the correct option. Keyboard digits work.',
-    multiple_choice_svg: 'Pick the figure the instruction asks for. Keyboard digits work.',
-    memory_recall: 'Digits appear briefly, then disappear - type them from memory once the field shows.',
-    fluency_list: 'Type as many valid answers as you can, one per entry, before the window ends. Variants and near-misses of the SAME answer count once.',
-    'planning_sequence:number_path': 'Plan a route from the start number to the target using the allowed steps. No clock - shorter plans score higher.',
-    'planning_sequence:step_order': 'Put the lettered steps into a workable order - each step must be possible after the ones before it. Tap the steps or type the letters. No clock.',
-    'planning_sequence:grid_path': 'Plan a route from S to T around the walls. Tap the direction chips or type moves. No clock - shorter routes score higher.',
-    'planning_sequence:hanoi': 'Move the whole tower to peg C. Tap a peg to lift its top disk, tap another to place it - never a larger disk on a smaller one. No clock - fewer moves score higher.'
+  const INTROS: Record<string, 'intro.numeric' | 'intro.twoChoice' | 'intro.mcText' | 'intro.mcSvg' | 'intro.recall' | 'intro.fluency' | 'intro.numberPath' | 'intro.stepOrder' | 'intro.gridPath' | 'intro.hanoi'> = {
+    numeric_text_input: 'intro.numeric',
+    two_choice: 'intro.twoChoice',
+    multiple_choice_text: 'intro.mcText',
+    multiple_choice_svg: 'intro.mcSvg',
+    memory_recall: 'intro.recall',
+    fluency_list: 'intro.fluency',
+    'planning_sequence:number_path': 'intro.numberPath',
+    'planning_sequence:step_order': 'intro.stepOrder',
+    'planning_sequence:grid_path': 'intro.gridPath',
+    'planning_sequence:hanoi': 'intro.hanoi'
   };
   let seenIntros: Set<string> = new Set();
   if (typeof localStorage !== 'undefined') {
@@ -659,9 +660,9 @@
     <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
       <p class="label">
         {challenge ? challenge.categoryName : 'Practice'} ·
-        level <span class="font-mono">{challenge?.level ?? '-'}</span>
+        {$t('run.level')} <span class="font-mono">{challenge?.level ?? '-'}</span>
         {#if challenge?.scoring}
-          <span class="ml-2 text-muted" title="Every item states how it is scored - nothing is measured silently. Formulas: /methodology">· {challenge.scoring}</span>
+          <span class="ml-2 text-muted" title={$t('scoring.tooltip')}>· {challenge.scoring}</span>
         {/if}
       </p>
       <div class="flex items-baseline gap-3 sm:gap-4">
@@ -682,21 +683,21 @@
   {#if phase === 'sessiondone'}
     <div class="panel flex min-h-[320px] flex-col items-center justify-center gap-6 p-8 text-center">
       {#if data.isPulse}
-        <p class="label">Pulse complete</p>
-        <p class="font-mono text-4xl">{data.daysPracticed}<span class="text-muted text-2xl"> days practiced</span></p>
-        <p class="max-w-sm text-sm text-muted">Ninety seconds, measured and counted. Every day you show up adds a point to your stream - there is no chain to break.</p>
+        <p class="label">{$t('run.pulseComplete')}</p>
+        <p class="font-mono text-4xl">{data.daysPracticed}<span class="text-muted text-2xl"> {$t('pulse.daysPracticed')}</span></p>
+        <p class="max-w-sm text-sm text-muted">{$t('run.pulseNote')}</p>
         <div class="flex flex-wrap justify-center gap-3">
-          <a class="btn-primary" href="/stats">See your stream</a>
-          <a class="btn" href="/practice/run">Full session</a>
+          <a class="btn-primary" href="/stats">{$t('pulse.seeStream')}</a>
+          <a class="btn" href="/practice/run">{$t('pulse.fullSession')}</a>
         </div>
       {:else}
-        <p class="label">Regular session complete</p>
-        <p class="font-mono text-4xl">{SESSION_LENGTH}<span class="text-muted text-2xl"> done</span></p>
-        <p class="max-w-sm text-sm text-muted">That's a focused set. You can keep going, review what you just did, or stop here - all of it counts.</p>
+        <p class="label">{$t('run.sessionComplete')}</p>
+        <p class="font-mono text-4xl">{SESSION_LENGTH}<span class="text-muted text-2xl"> {$t('run.done')}</span></p>
+        <p class="max-w-sm text-sm text-muted">{$t('run.sessionCompleteNote')}</p>
         <div class="flex flex-wrap justify-center gap-3">
-          <button class="btn-primary" on:click={continueSession}>Keep practicing</button>
-          <a class="btn" href="/practice/summary">See summary</a>
-          <a class="btn" href="/stats">Stats</a>
+          <button class="btn-primary" on:click={continueSession}>{$t('run.keepPracticing')}</button>
+          <a class="btn" href="/practice/summary">{$t('run.seeSummary')}</a>
+          <a class="btn" href="/stats">{$t('run.stats')}</a>
         </div>
       {/if}
     </div>
@@ -731,8 +732,8 @@
         <div class="w-full text-center">
           {#if showIntro && activeIntroKey}
             <div class="mx-auto mb-4 flex max-w-md items-start justify-between gap-3 rounded border border-accent/40 bg-accent/5 p-3 text-left">
-              <p class="text-xs leading-relaxed text-body">{INTROS[activeIntroKey]}</p>
-              <button class="shrink-0 rounded border border-edge px-2 py-1 text-xs text-muted hover:border-accent hover:text-accent" on:click={() => dismissIntro(activeIntroKey)}>Got it</button>
+              <p class="text-xs leading-relaxed text-body">{$t(INTROS[activeIntroKey])}</p>
+              <button class="shrink-0 rounded border border-edge px-2 py-1 text-xs text-muted hover:border-accent hover:text-accent" on:click={() => dismissIntro(activeIntroKey)}>{$t('run.gotIt')}</button>
             </div>
           {/if}
           {#if isPlanning}
@@ -759,9 +760,9 @@
                 {/each}
               </div>
               <div class="mb-3 flex items-center justify-center gap-3 font-mono text-xs text-muted">
-                <span>moves: {hanoiMoves}</span>
-                <button type="button" class="rounded border border-edge px-2 py-1 hover:border-accent hover:text-accent" on:click={hanoiUndo} disabled={hanoiMoves === 0}>Undo</button>
-                <button type="button" class="rounded border border-edge px-2 py-1 hover:border-accent hover:text-accent" on:click={() => { answer = ''; hanoiSelected = null; }} disabled={hanoiMoves === 0}>Reset</button>
+                <span>{$t('run.moves')}: {hanoiMoves}</span>
+                <button type="button" class="rounded border border-edge px-2 py-1 hover:border-accent hover:text-accent" on:click={hanoiUndo} disabled={hanoiMoves === 0}>{$t('run.undo')}</button>
+                <button type="button" class="rounded border border-edge px-2 py-1 hover:border-accent hover:text-accent" on:click={() => { answer = ''; hanoiSelected = null; }} disabled={hanoiMoves === 0}>{$t('run.reset')}</button>
               </div>
               <p class="text-xs text-muted">{challenge.promptData.hint}</p>
             {:else if challenge.promptData.kind === 'grid_path'}
@@ -1012,7 +1013,7 @@
             {/if}
 
             <button class="btn-primary" on:click={advance} use:focusOnMount>
-              {#if pendingLevelUp}Level-up question →{:else if answeredCount >= SESSION_LENGTH}Finish session →{:else}Next →{/if}
+              {#if pendingLevelUp}{$t('run.levelUp')}{:else if answeredCount >= SESSION_LENGTH}{$t('run.finish')}{:else}{$t('run.next')}{/if}
             </button>
 
             {#if showVocabLesson}

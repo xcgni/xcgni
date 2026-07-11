@@ -1,0 +1,72 @@
+import type { Messages } from './en.ts';
+
+/** Deutsch - vollständiger Entwurf. Von der KI verfasst, mit Sorgfalt; eine Prüfung
+ * durch Muttersprachler steht noch aus (im Changelog als Beta vermerkt). */
+export const de: Partial<Messages> = {
+  'nav.practice': 'Training',
+  'nav.stats': 'Statistik',
+  'nav.experimental': 'Experimentell',
+  'nav.review': 'Wiederholung',
+  'nav.settings': 'Einstellungen',
+  'nav.account': 'Konto',
+  'nav.anonymous': 'Anonym',
+  'nav.login': 'Anmelden / Registrieren',
+  'nav.logout': 'Abmelden',
+  'nav.language': 'Sprache',
+
+  'landing.tagline': 'Ein kognitives Fitnessstudio, das ehrlich misst.',
+  'landing.start': 'Ohne Konto fortfahren',
+  'landing.login': 'Anmelden',
+  'landing.learnMore': 'Mehr erfahren →',
+
+  'hub.practice': 'Training',
+  'hub.startMixed': 'Gemischtes Training starten',
+  'hub.dailyPulse': 'Täglicher Puls',
+  'hub.pulseTitle': 'Neunzig Sekunden, drei Aufgaben - das tägliche Ritual',
+
+  'pulse.title': 'Täglicher Puls',
+  'pulse.subtitle': 'Neunzig Sekunden. Drei Aufgaben.',
+  'pulse.daysPracticed': 'Trainingstage',
+  'pulse.countNote': 'Ein Zähler, keine Serie. Ein verpasster Tag zerstört nichts - jeder Tag, an dem du erscheinst, ist ein weiterer Punkt in deinem Verlauf.',
+  'pulse.todayDone': 'Der heutige Puls ist erledigt. Komm morgen wieder oder mach eine volle Sitzung.',
+  'pulse.seeStream': 'Deinen Verlauf ansehen',
+  'pulse.fullSession': 'Volle Sitzung',
+  'pulse.start': 'Heutigen Puls starten',
+  'pulse.startNote': 'Drei adaptive Aufgaben aus deinen Bereichen. Kein Zeitdruck über die Aufgaben selbst hinaus.',
+
+  'run.level': 'Stufe',
+  'run.next': 'Weiter →',
+  'run.finish': 'Sitzung beenden →',
+  'run.levelUp': 'Aufstiegsfrage →',
+  'run.submit': 'Bestätigen',
+  'run.skip': 'Überspringen',
+  'run.gotIt': 'Verstanden',
+  'run.undo': 'Rückgängig',
+  'run.reset': 'Zurücksetzen',
+  'run.moves': 'Züge',
+  'run.sessionComplete': 'Reguläre Sitzung abgeschlossen',
+  'run.done': 'erledigt',
+  'run.sessionCompleteNote': 'Das war ein konzentrierter Satz. Du kannst weitermachen, das Gelöste durchsehen oder hier aufhören - alles zählt.',
+  'run.keepPracticing': 'Weiter trainieren',
+  'run.seeSummary': 'Zusammenfassung ansehen',
+  'run.stats': 'Statistik',
+  'run.pulseComplete': 'Puls erledigt',
+  'run.pulseNote': 'Neunzig Sekunden, gemessen und gezählt. Jeder Tag, an dem du erscheinst, fügt deinem Verlauf einen Punkt hinzu - es gibt keine Kette, die reißen könnte.',
+
+  'scoring.deliberate': 'keine Uhr · bewertet wird die Qualität der Lösung',
+  'scoring.fluency': 'gültige Antworten werden gezählt · festes Zeitfenster',
+  'scoring.errorRank': 'bewertet wird die Genauigkeit · Tempo wird vermerkt',
+  'scoring.default': 'bewertet werden Richtigkeit und Tempo, ohne sichtbare Uhr',
+  'scoring.tooltip': 'Jede Aufgabe nennt ihre Bewertung - nichts wird heimlich gemessen. Formeln: /methodology',
+
+  'intro.numeric': 'Gib die Antwort als Zahl ein. Bei gemessenen Aufgaben zählt das Tempo, aber es gibt keine sichtbare Uhr - arbeite in deinem natürlichen Rhythmus.',
+  'intro.twoChoice': 'Zwei Optionen - wähle die, nach der die Aufgabe fragt. Tasten 1 und 2 funktionieren.',
+  'intro.mcText': 'Wähle die richtige Option. Zifferntasten funktionieren.',
+  'intro.mcSvg': 'Wähle die Figur, nach der die Aufgabe fragt. Zifferntasten funktionieren.',
+  'intro.recall': 'Ziffern erscheinen kurz und verschwinden dann - tippe sie aus dem Gedächtnis, sobald das Feld erscheint.',
+  'intro.fluency': 'Gib so viele gültige Antworten wie möglich ein, eine pro Eintrag, bevor das Zeitfenster endet. Varianten und Tippfehler DERSELBEN Antwort zählen nur einmal.',
+  'intro.numberPath': 'Plane einen Weg von der Startzahl zum Ziel mit den erlaubten Schritten. Keine Uhr - kürzere Pläne bringen mehr Punkte.',
+  'intro.stepOrder': 'Bringe die Schritte in eine machbare Reihenfolge - jeder Schritt muss nach den vorherigen möglich sein. Tippe die Schritte an oder gib die Buchstaben ein. Keine Uhr.',
+  'intro.gridPath': 'Plane einen Weg von S nach T um die Wände herum. Tippe die Richtungen an oder gib Züge ein. Keine Uhr - kürzere Wege bringen mehr Punkte.',
+  'intro.hanoi': 'Bewege den ganzen Turm auf Stab C. Tippe einen Stab an, um die oberste Scheibe zu heben, dann einen anderen, um sie abzulegen - nie eine größere Scheibe auf eine kleinere. Keine Uhr - weniger Züge bringen mehr Punkte.'
+};

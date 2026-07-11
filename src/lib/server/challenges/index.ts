@@ -25,7 +25,7 @@ export async function implementedCategories(): Promise<{ slug: string; name: str
 export async function levelBounds(categorySlug: string): Promise<{ min: number; max: number }> {
   const rows = await pg`
     SELECT min(level)::int AS min, max(level)::int AS max
-    FROM challenges WHERE category_slug = ${categorySlug} AND active
+    FROM challenges WHERE category_slug = ${categorySlug} AND active AND lang = 'en'
   `;
   return { min: rows[0]?.min ?? 1, max: rows[0]?.max ?? 1 };
 }
@@ -46,7 +46,7 @@ export async function pickChallenge(
   // Window scales with how many items exist at this level so small banks still rotate.
   const levelCount = await pg`
     SELECT count(*)::int AS n FROM challenges
-    WHERE category_slug = ${categorySlug} AND active AND level = ${level}
+    WHERE category_slug = ${categorySlug} AND active AND lang = 'en' AND level = ${level}
   `;
   const poolN = levelCount[0]?.n ?? 0;
   // avoid up to ~70% of the level's items, capped, so there's always something fresh
@@ -56,7 +56,7 @@ export async function pickChallenge(
     SELECT c.id, c.category_slug, c.challenge_type, c.level, c.renderer_type,
            c.prompt_data, c.scoring_config, c.answer_data, c.version
     FROM challenges c
-    WHERE c.category_slug = ${categorySlug} AND c.active AND c.level = ${level}
+    WHERE c.category_slug = ${categorySlug} AND c.active AND c.lang = 'en' AND c.level = ${level}
       AND c.id NOT IN (
         SELECT a.challenge_id FROM attempts a
         WHERE a.user_id = ${userId} AND a.category_slug = ${categorySlug}
@@ -72,7 +72,7 @@ export async function pickChallenge(
       SELECT c.id, c.category_slug, c.challenge_type, c.level, c.renderer_type,
              c.prompt_data, c.scoring_config, c.answer_data, c.version
       FROM challenges c
-      WHERE c.category_slug = ${categorySlug} AND c.active AND c.level = ${level}
+      WHERE c.category_slug = ${categorySlug} AND c.active AND c.lang = 'en' AND c.level = ${level}
       ORDER BY random() LIMIT 1
     `;
     row = any[0];
@@ -84,7 +84,7 @@ export async function pickChallenge(
       SELECT c.id, c.category_slug, c.challenge_type, c.level, c.renderer_type,
              c.prompt_data, c.scoring_config, c.answer_data, c.version
       FROM challenges c
-      WHERE c.category_slug = ${categorySlug} AND c.active
+      WHERE c.category_slug = ${categorySlug} AND c.active AND c.lang = 'en'
       ORDER BY abs(c.level - ${level}), random() LIMIT 1
     `;
     row = nearest[0];

@@ -5,19 +5,22 @@
  * criticism that pace-scoring without a visible clock reads as hidden measurement: it is
  * not hidden if every item says so.
  */
+import { translate, type Locale } from '../../i18n/index.ts';
+
 export function scoringLabel(
   answerMode: string | null | undefined,
-  configMode: string | null | undefined
+  configMode: string | null | undefined,
+  locale: Locale = 'en'
 ): string {
   const mode = answerMode ?? configMode ?? null;
   switch (mode) {
     case 'deliberate':
-      return 'no clock · quality of solution scored';
+      return translate(locale, 'scoring.deliberate');
     case 'fluency_count':
-      return 'valid answers counted · fixed time window';
+      return translate(locale, 'scoring.fluency');
     case 'error_rank':
-      return 'closeness scored · pace noted';
+      return translate(locale, 'scoring.errorRank');
     default:
-      return 'accuracy scored · pace scored, no visible clock';
+      return translate(locale, 'scoring.default');
   }
 }

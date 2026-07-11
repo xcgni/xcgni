@@ -61,7 +61,8 @@ export const challenges = pgTable('challenges', {
   observedMedianMs: integer('observed_median_ms'),
   bankKey: text('bank_key').unique(),
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
-  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow()
+  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  lang: text('lang').notNull().default('en'),
 });
 
 export const practiceSessions = pgTable('practice_sessions', {

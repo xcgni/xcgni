@@ -8,6 +8,9 @@
   import '../app.css';
   import { page } from '$app/stores';
   import { navigating } from '$app/stores';
+  import { invalidateAll } from '$app/navigation';
+  import { locale, t } from '$lib/i18n/store';
+  import { LOCALES, LOCALE_NAMES } from '$lib/i18n';
   import { fade } from 'svelte/transition';
   import { onMount } from 'svelte';
   import FeedbackWidget from '$lib/components/FeedbackWidget.svelte';
@@ -40,21 +43,27 @@
   }
 
   // Primary nav stays minimal; everything else lives under Account.
+  $: locale.set(data.locale);
   $: primary = [
-    { href: '/practice', label: 'Practice' },
-    { href: '/stats', label: 'Stats' },
-    ...(data.circlesEnabled ? [{ href: '/circles', label: 'Experimental' }] : [])
+    { href: '/practice', label: $t('nav.practice') },
+    { href: '/stats', label: $t('nav.stats') },
+    ...(data.circlesEnabled ? [{ href: '/circles', label: $t('nav.experimental') }] : [])
   ];
-  const accountLinks = [
-    { href: '/review', label: 'Review' },
-    { href: '/settings', label: 'Settings' }
+  $: accountLinks = [
+    { href: '/review', label: $t('nav.review') },
+    { href: '/settings', label: $t('nav.settings') }
   ];
+  function setLang(l: string) {
+    document.cookie = `xcgni-lang=${l}; path=/; max-age=31536000; samesite=lax`;
+    invalidateAll();
+    menuOpen = false;
+  }
 
   let menuOpen = false;
   let menuRoot: HTMLElement;
   $: path = $page.url.pathname;
   $: registered = data.user && !data.user.isAnonymous;
-  $: identity = registered ? (data.user.username ?? data.user.emailHint ?? 'Account') : 'Account';
+  $: identity = registered ? (data.user.username ?? data.user.emailHint ?? $t('nav.account')) : $t('nav.account');
 
   // Two closers: item clicks close unconditionally; window clicks close only when the
   // click lands OUTSIDE the menu (containment check - keeps everything a11y-clean, no
@@ -128,8 +137,8 @@
             >
               {#if !registered}
                 <div class="border-b border-edge px-3 py-2">
-                  <p class="label">Anonymous</p>
-                  <a href="/auth/login" class="mt-1 block text-sm text-accent hover:underline">Log in / register</a>
+                  <p class="label">{$t('nav.anonymous')}</p>
+                  <a href="/auth/login" class="mt-1 block text-sm text-accent hover:underline">{$t('nav.login')}</a>
                 </div>
               {/if}
               {#each accountLinks as item}
@@ -139,8 +148,19 @@
               {/each}
               {#if registered}
                 <div class="my-1 border-t border-edge"></div>
-                <a href="/auth/logout" class="block px-3 py-2 text-sm text-muted hover:bg-edge/40 hover:text-body">Log out</a>
+                <a href="/auth/logout" class="block px-3 py-2 text-sm text-muted hover:bg-edge/40 hover:text-body">{$t('nav.logout')}</a>
               {/if}
+              <div class="my-1 border-t border-edge"></div>
+              <div class="flex items-center gap-1 px-3 py-2">
+                <span class="label mr-1">{$t('nav.language')}</span>
+                {#each LOCALES as l (l)}
+                  <button
+                    class="rounded px-1.5 py-0.5 font-mono text-xs {$locale === l ? 'text-accent' : 'text-muted hover:text-body'}"
+                    title={LOCALE_NAMES[l]}
+                    on:click={() => setLang(l)}
+                  >{l}</button>
+                {/each}
+              </div>
             </div>
           {/if}
         </div>

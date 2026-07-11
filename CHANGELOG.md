@@ -6,6 +6,34 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.13.0 - Tri jezika / Drei Sprachen: the interface learns Croatian and German
+
+Internationalization, the house way: a hand-rolled, dependency-free typed catalog - no
+compiler, no runtime library, greppable, and testable with bare node. Three deliberate
+architecture decisions:
+
+- **UI language is separate from content language.** A Croatian interface honestly
+  serving the English challenge banks is a supported state, not a bug. Groundwork for
+  native banks landed with it: challenges now carry a language (migration 0045, all
+  existing content marked English, the picker filters on it), so Croatian fluency
+  wordlists become an additive drop when they arrive - a different bank, honestly, not a
+  translation.
+- **Cookie plus Accept-Language, no URL prefixes.** The language switcher lives in the
+  account menu (en / hr / de); first visits follow the browser's preference; the html
+  lang attribute follows along for screen readers.
+- **Missing keys fall back to English silently**, so partially translated surfaces
+  degrade gracefully instead of breaking.
+
+Phase A covers the surfaces people touch daily: navigation, landing, the practice hub,
+the daily pulse, the entire run experience (buttons, finish screens, all ten
+first-encounter intros) and the scoring transparency chips, which are now localized
+server-side per user. Croatian is complete and native-reviewed by the maintainer; German
+is a complete careful draft awaiting a native pass - consider it beta. Statistics,
+findings sentences, methodology and settings remain English this release and are the
+named next slice.
+
+A parity suite (the 25th) pins the catalogs: no locale may invent keys, coverage of the
+canonical set must be total, and the no-dashes house rule now holds in three languages.
 ## v1.12.1 - The maiden voyage finds a dialect gap
 
 The repo went public-current (17 replayed releases, tags and all) and CI ran the

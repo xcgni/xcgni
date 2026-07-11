@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   export let data;
 </script>
 
@@ -9,16 +10,15 @@
 
 <div class="mx-auto flex max-w-md flex-col items-center gap-8 px-4 py-14 text-center">
   <div>
-    <p class="label mb-2">Daily pulse</p>
-    <h1 class="text-2xl font-light">Ninety seconds. Three items.</h1>
+    <p class="label mb-2">{$t('pulse.title')}</p>
+    <h1 class="text-2xl font-light">{$t('pulse.subtitle')}</h1>
   </div>
 
   <div class="panel flex w-full flex-col items-center gap-2 p-8">
     <p class="font-mono text-6xl">{data.daysPracticed}</p>
-    <p class="label">days practiced</p>
+    <p class="label">{$t('pulse.daysPracticed')}</p>
     <p class="mt-2 max-w-xs text-xs text-muted">
-      A count, not a streak. Missing a day breaks nothing - every day you show up is one more
-      point in your stream.
+{$t('pulse.countNote')}
     </p>
   </div>
 
@@ -27,13 +27,13 @@
   {/if}
 
   {#if data.todayDone}
-    <p class="text-sm text-muted">Today's pulse is done. Come back tomorrow, or take a full session.</p>
+    <p class="text-sm text-muted">{$t('pulse.todayDone')}</p>
     <div class="flex flex-wrap justify-center gap-3">
-      <a class="btn-primary" href="/stats">See your stream</a>
-      <a class="btn" href="/practice/run">Full session</a>
+      <a class="btn-primary" href="/stats">{$t('pulse.seeStream')}</a>
+      <a class="btn" href="/practice/run">{$t('pulse.fullSession')}</a>
     </div>
   {:else}
-    <a class="btn-primary px-8 py-3 text-lg" href="/practice/run?pulse=1&skipintro=1">Start today's pulse</a>
-    <p class="text-xs text-muted">Three adaptive items from your faculties. No timer pressure beyond the tasks themselves.</p>
+    <a class="btn-primary px-8 py-3 text-lg" href="/practice/run?pulse=1&skipintro=1">{$t('pulse.start')}</a>
+    <p class="text-xs text-muted">{$t('pulse.startNote')}</p>
   {/if}
 </div>

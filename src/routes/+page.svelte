@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   // Landing. The hero is the product thesis; the primary action drops the
   // visitor straight into anonymous mixed practice with zero friction.
   export let data;
@@ -18,9 +19,9 @@
     way to see whether you are getting sharper over time.
   </p>
   <div class="flex flex-wrap items-center gap-4">
-    <a href="/welcome" class="btn-primary">Proceed without account</a>
-    <a href="/auth/login" class="btn">Log in</a>
-    <a href="/about" class="text-sm text-muted hover:text-body">Learn more →</a>
+    <a href="/welcome" class="btn-primary">{$t('landing.start')}</a>
+    <a href="/auth/login" class="btn">{$t('landing.login')}</a>
+    <a href="/about" class="text-sm text-muted hover:text-body">{$t('landing.learnMore')}</a>
   </div>
   <p class="text-sm text-muted">
     No account needed to start. Anonymous practice stays entirely yours - private by default,

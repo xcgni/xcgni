@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { browser } from '$app/environment';
   // The pool ask, at the exact start of an anonymous run: anonymous practice is welcome for
   // trying things out, but it feeds nothing back - and the pool is the one resource the
@@ -65,9 +66,9 @@
   {/if}
 
   <section class="flex flex-col items-start gap-3">
-    <p class="label">Practice</p>
-    <a href="/practice/run" class="btn-primary text-base">Start mixed practice</a>
-    <a href="/pulse" class="btn text-base" title="Ninety seconds, three items - the daily ritual">Daily pulse</a>
+    <p class="label">{$t('hub.practice')}</p>
+    <a href="/practice/run" class="btn-primary text-base">{$t('hub.startMixed')}</a>
+    <a href="/pulse" class="btn text-base" title={$t('hub.pulseTitle')}>{$t('hub.dailyPulse')}</a>
     {#if data.weather}
       <p class="text-xs text-muted" title={data.weather.detail}>{data.weather.line}</p>
     {/if}

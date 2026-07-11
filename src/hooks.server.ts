@@ -1,4 +1,5 @@
 import type { Handle, HandleServerError } from '@sveltejs/kit';
+import { pickLocale } from '$lib/i18n';
 import { resolveUser } from '$lib/server/auth';
 import { captureError } from '$lib/server/ops/errors';
 import { recordVisit } from '$lib/server/ops/visits';
@@ -7,6 +8,7 @@ import { log } from '$lib/server/log';
 
 export const handle: Handle = async ({ event, resolve }) => {
   event.locals.user = await resolveUser(event.cookies);
+  event.locals.locale = pickLocale(event.cookies.get('xcgni-lang'), event.request.headers.get('accept-language'));
   // Daily housekeeping (abandoned anonymous rows, expired sessions/links) - fires at most
   // once per day per process, in the background, never blocking a request.
   maybeRunGc();
