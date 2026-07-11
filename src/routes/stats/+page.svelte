@@ -191,13 +191,13 @@
         ctx.textBaseline = 'middle';
         // build the entries actually present
         const entries: { color: string; dash: number[]; label: string; solid?: boolean }[] = [
-          { color: cAccent, dash: [], label: 'you (now)', solid: true }
+          { color: cAccent, dash: [], label: $t('s.youNow'), solid: true }
         ];
         if (hasRanges) {
-          entries.push({ color: '#FFFFFF', dash: [8, 4], label: 'your best' });
-          entries.push({ color: '#FF5A47', dash: [2, 4], label: 'your lowest' });
+          entries.push({ color: '#FFFFFF', dash: [8, 4], label: $t('s.yourBest') });
+          entries.push({ color: '#FF5A47', dash: [2, 4], label: $t('s.yourLowest') });
         }
-        if (hasPop) entries.push({ color: '#4DA3FF', dash: [1, 5], label: 'everyone (median)' });
+        if (hasPop) entries.push({ color: '#4DA3FF', dash: [1, 5], label: $t('s.everyoneMedian') });
 
         // measure total width to center the legend row
         ctx.font = '10px system-ui, sans-serif';
@@ -272,7 +272,7 @@
 
 {#if !data.ratings || rated.length === 0}
   <div class="flex flex-col items-start gap-4 py-12">
-    <p class="label">Your stats</p>
+    <p class="label">{$t('s.yourStats')}</p>
     <p class="text-muted">No measurements yet. Head to the Practice tab and your stats will appear here.</p>
     <div class="flex flex-wrap gap-3">
       <a href="/practice" class="btn-primary">Go to practice</a>
@@ -283,7 +283,7 @@
   <div class="flex flex-col gap-10">
     <!-- header: this is the user's stats home; practice lives in the Practice tab -->
     <div class="flex flex-wrap items-end justify-between gap-4">
-      <p class="label">Your stats</p>
+      <p class="label">{$t('s.yourStats')}</p>
       <a href="/statistics" class="btn">Global stats →</a>
     </div>
 
@@ -394,48 +394,45 @@
     {#if data.domains && data.domains.length >= 3}
       <section class="flex flex-col gap-4">
         <div class="flex items-center justify-between gap-3">
-          <p class="label flex items-center">Cognitive profile <Explain text={EXPLAIN.fingerprint} /></p>
+          <p class="label flex items-center">{$t('s.profile')} <Explain text={EXPLAIN.fingerprint} /></p>
           <div class="flex items-center gap-2">
             <!-- the share moment: the badge option lives where pride happens, not buried in Settings -->
             {#if data.user && !data.user.isAnonymous && !data.publicBadge}
-              <a href="/settings#public-badge" class="text-xs text-muted hover:text-accent">enable a live badge →</a>
+              <a href="/settings#public-badge" class="text-xs text-muted hover:text-accent">{$t('s.liveBadge')}</a>
             {/if}
-            <button class="btn text-xs" on:click={exportProfile}>{exporting ? 'Exporting…' : 'Save as image'}</button>
+            <button class="btn text-xs" on:click={exportProfile}>{exporting ? $t('s.exporting') : $t('s.saveImage')}</button>
           </div>
         </div>
         {#if data.publicBadge && data.user?.username}
-          <p class="text-xs text-muted">Your live badge (embeds anywhere, updates itself):
+          <p class="text-xs text-muted">{$t('s.badgeLine')}
             <a href={`/badge/${data.user.username}.svg`} class="font-mono text-accent hover:underline" target="_blank" rel="noopener">/badge/{data.user.username}.svg</a>
           </p>
         {/if}
         <div class="panel p-5" bind:this={profileEl}>
           <RadarChart domains={data.domains} ranges={data.domainRanges} population={data.populationMedians} />
           <p class="mt-2 text-center text-[10px] text-muted">
-            computed under <a href="/methodology" class="text-accent hover:underline">methodology {data.methodologyVersion}</a>{#if data.ratings?.global?.poolSize} · percentiles vs {data.ratings.global.poolSize} rated users{/if}
+            {$t('s.computedUnder')} <a href="/methodology" class="text-accent hover:underline">methodology {data.methodologyVersion}</a>{#if data.ratings?.global?.poolSize} · percentiles vs {data.ratings.global.poolSize} rated users{/if}
           </p>
           {#if data.simulatedPopulation}
             <p class="mt-1 text-center text-[10px] text-accent/80">
-              The population comparison (blue) currently includes simulated data while we gather enough real users. Your own scores are real.
+              {$t('s.simNote')}
             </p>
           {/if}
           {#if data.domainRanges && data.domainRanges.length > 0}
             <div class="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs">
-              <span class="flex items-center gap-1.5"><span class="inline-block h-2 w-3 rounded-sm" style="background:rgb(var(--c-accent))"></span><span class="text-muted">you (now)</span></span>
-              <span class="flex items-center gap-1.5"><svg width="16" height="6"><line x1="0" y1="3" x2="16" y2="3" stroke="#FFFFFF" stroke-width="1.75" stroke-dasharray="8 4"/></svg><span class="text-muted">your best</span></span>
-              <span class="flex items-center gap-1.5"><svg width="16" height="6"><line x1="0" y1="3" x2="16" y2="3" stroke="#FF5A47" stroke-width="1.75" stroke-dasharray="2 4"/></svg><span class="text-muted">your lowest</span></span>
+              <span class="flex items-center gap-1.5"><span class="inline-block h-2 w-3 rounded-sm" style="background:rgb(var(--c-accent))"></span><span class="text-muted">{$t('s.youNow')}</span></span>
+              <span class="flex items-center gap-1.5"><svg width="16" height="6"><line x1="0" y1="3" x2="16" y2="3" stroke="#FFFFFF" stroke-width="1.75" stroke-dasharray="8 4"/></svg><span class="text-muted">{$t('s.yourBest')}</span></span>
+              <span class="flex items-center gap-1.5"><svg width="16" height="6"><line x1="0" y1="3" x2="16" y2="3" stroke="#FF5A47" stroke-width="1.75" stroke-dasharray="2 4"/></svg><span class="text-muted">{$t('s.yourLowest')}</span></span>
               {#if data.populationMedians && data.populationMedians.some((p) => p.median != null)}
-                <span class="flex items-center gap-1.5"><svg width="16" height="6"><circle cx="8" cy="3" r="3" fill="#4DA3FF"/></svg><span class="text-muted">everyone (median)</span></span>
+                <span class="flex items-center gap-1.5"><svg width="16" height="6"><circle cx="8" cy="3" r="3" fill="#4DA3FF"/></svg><span class="text-muted">{$t('s.everyoneMedian')}</span></span>
               {/if}
             </div>
             <p class="mt-1 text-center text-xs text-muted">
-              Solid amber is your current shape - a real snapshot. The faint planes are your best
-              and lowest in each area over time; those peaks didn't all happen at once.
+              {$t('s.amberNote')}
             </p>
             {#if data.populationMedians && data.populationMedians.some((p) => p.median != null)}
               <p class="mx-auto mt-2 max-w-md text-center text-xs text-muted">
-                A note on the "everyone" reference: Excogni's users are mostly people who seek out
-                cognitive training, not a random cross-section. Sitting below this median doesn't mean
-                below-average in the wider population - you're being compared to an unusually engaged group.
+                {$t('s.everyoneNote')}
               </p>
             {/if}
           {/if}

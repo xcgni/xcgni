@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   // The signature element: an instrument readout. Large tabular mono numerals,
   // a hairline percentile bar, quiet uppercase labels. Honest about calibration.
   import { ordinal } from '$lib/rating-format';
@@ -85,7 +86,7 @@
         </span>
       {/if}
       {#if provisional}
-        <span class="block text-xs text-muted">Keep practicing to firm up this rating.</span>
+        <span class="block text-xs text-muted">{$t('rr.firmUp')}</span>
       {/if}
     </span>
   {:else}

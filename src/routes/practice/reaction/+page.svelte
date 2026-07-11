@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { onMount, onDestroy } from 'svelte';
   export let data;
   import { goto } from '$app/navigation';
@@ -154,8 +155,8 @@
 
 <div class="mx-auto flex max-w-2xl flex-col gap-6 pt-4 sm:pt-10">
   <div class="flex items-baseline justify-between">
-    <a href={inMix ? '/practice/run' : '/stats'} class="label text-muted hover:text-body">← {inMix ? 'Back to practice' : 'Exit'}</a>
-    <p class="label">Reaction Time</p>
+    <a href={inMix ? '/practice/run' : '/stats'} class="label text-muted hover:text-body">← {inMix ? $t('ret.backPlain') : $t('run.exit')}</a>
+    <p class="label">{$t('rx.title')}</p>
   </div>
 
   {#if stage === 'intro'}
@@ -164,8 +165,7 @@
         Reaction time is reported as a <span class="text-body">range</span>, not a single number -
         because your screen and input add a delay we can't know exactly. First we measure your
         hardware's floor with a few quick probes, which narrows the range. Then you do {TRIALS} trials.
-        Wait for the screen to turn <span class="text-accent">amber</span>, then tap or press Space as fast as you can.
-      </p>
+        {$t('rx.intro')}</p>
       <p class="text-xs text-muted">Estimated display refresh: {refreshHz}Hz</p>
       <button class="btn-primary" on:click={startCalibration}>Calibrate ({CAL_PROBES} probes)</button>
     </div>
@@ -175,7 +175,7 @@
     </div>
   {:else if stage === 'cal-wait' || stage === 'trial-wait'}
     <button class="panel flex min-h-[300px] w-full items-center justify-center bg-surface p-8" on:click={onReact}>
-      <p class="text-muted">Wait for amber…</p>
+      <p class="text-muted">{$t('rx.waitAmber')}</p>
     </button>
   {:else if stage === 'cal-react' || stage === 'trial-react'}
     <button class="flex min-h-[300px] w-full items-center justify-center p-8" style="background:rgb(var(--c-accent))" on:click={onReact}>
@@ -189,12 +189,12 @@
       <p class="label text-ok">Calibrated</p>
       {#if calibration}
         <p class="text-sm text-muted">
-          Your hardware floor is about <span class="font-mono text-body">{calibration.floorMs}ms</span>
-          with ±<span class="font-mono">{calibration.uncertaintyMs}ms</span> residual uncertainty. That
+          {$t('rx.floor')} <span class="font-mono text-body">{calibration.floorMs}ms</span>
+          with ±<span class="font-mono">{calibration.uncertaintyMs}ms</span> {$t('rx.residual')} uncertainty. That
           uncertainty sets how wide your reaction band will be - a tighter setup gives a tighter answer.
         </p>
       {/if}
-      <button class="btn-primary" on:click={startTrials}>Start {TRIALS} trials</button>
+      <button class="btn-primary" on:click={startTrials}>{$t('rx.startTrials',{n:TRIALS})}</button>
     </div>
   {:else if stage === 'result' && result}
     <div class="panel flex flex-col items-center gap-5 p-8 text-center">
@@ -212,7 +212,7 @@
       </p>
       <div class="flex gap-3">
         {#if inMix}
-          <button class="btn-primary" on:click={returnToMix}>Back to practice →</button>
+          <button class="btn-primary" on:click={returnToMix}>{$t('ret.back')}</button>
           <span class="self-center text-xs text-muted">returning automatically…</span>
           <button class="btn" on:click={startTrials}>Again</button>
         {:else}

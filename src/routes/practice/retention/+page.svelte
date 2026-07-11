@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
   import { page } from '$app/stores';
@@ -127,11 +128,11 @@
 
 <div class="mx-auto flex max-w-2xl flex-col gap-6 pt-4 sm:pt-10">
   <div class="flex items-baseline justify-between">
-    <a href={inMix ? '/practice/run' : '/stats'} class="label text-muted hover:text-body">← {inMix ? 'Back to practice' : 'Exit'}</a>
+    <a href={inMix ? '/practice/run' : '/stats'} class="label text-muted hover:text-body">← {inMix ? $t('ret.backPlain') : $t('run.exit')}</a>
     <div class="flex items-baseline gap-4">
       {#if status}
         <p class="label font-mono">
-          {status.dueNow} due · {status.seen}/{status.totalCards} seen
+          {$t('ret.due',{d:status.dueNow,s:status.seen,t:status.totalCards})}
           {#if status.mastery != null} · mastery {Math.round(status.mastery * 100)}%{/if}
         </p>
       {/if}
@@ -155,7 +156,7 @@
   {#if showPicker && data.decks}
     <div class="panel flex flex-col gap-2 p-4">
       <p class="text-xs text-muted">
-        Pick interests to learn from. Cards already due for review still come up regardless -
+        {$t('ret.pick')} -
         this only chooses which new cards you learn next.
       </p>
       <div class="flex flex-wrap gap-2">
@@ -190,7 +191,7 @@
         come back later and the cards you learned will return as real recall tests.
       </p>
       {#if inMix}
-        <button class="btn-primary" on:click={returnToMix}>Back to practice →</button>
+        <button class="btn-primary" on:click={returnToMix}>{$t('ret.back')}</button>
       {:else}
         <a class="btn" href="/stats">Stats</a>
       {/if}
@@ -200,7 +201,7 @@
       {:else if card.wasDue}
         <p class="label text-accent">Due - recall test</p>
       {:else}
-        <p class="label">Review</p>
+        <p class="label">{$t('ret.review')}</p>
       {/if}
 
       <p class="text-center text-2xl leading-relaxed sm:text-3xl">{card.prompt}</p>
@@ -220,11 +221,11 @@
         {/if}
       {:else if phase === 'reveal'}
         <p class="text-center font-mono text-2xl text-accent">{card.answer ?? ''}</p>
-        <p class="text-center text-xs text-muted">Just learn it - this isn't a test. It will come back as a real recall test when it's due.</p>
+        <p class="text-center text-xs text-muted">{$t('ret.justLearn')}</p>
         <button class="btn-primary" on:click={learnt}>Got it - next</button>
       {:else if phase === 'graded' && result}
         <p class="text-center text-lg {result.correct ? 'text-ok' : 'text-bad'}">
-          {result.correct ? '✓ Correct' : '✗ Not quite'}
+          {result.correct ? $t('ret.correct') : $t('ret.notQuite')}
         </p>
         {#if result.correct && result.fuzzy}
           <p class="text-center text-xs text-muted">Close enough - counted, though a clean spelling scores a touch higher.</p>
@@ -238,16 +239,14 @@
         {#if result.countedAsMeasurement}
           <p class="text-center text-xs text-muted">This was a genuine recall test - it counts toward your retention score.</p>
         {:else}
-          <p class="text-center text-xs text-muted">Still learning this one - scheduling it to return, not scoring it yet.</p>
+          <p class="text-center text-xs text-muted">{$t('ret.learning')}</p>
         {/if}
-        <button class="btn-primary" on:click={advanceOrReturn}>{inMix && burstDone + 1 >= BURST_SIZE ? 'Back to practice →' : 'Next →'}</button>
-        <p class="text-xs text-muted">or press Enter</p>
+        <button class="btn-primary" on:click={advanceOrReturn}>{inMix && burstDone + 1 >= BURST_SIZE ? $t('ret.back') : 'Next →'}</button>
+        <p class="text-xs text-muted">{$t('run.orEnter')}</p>
       {/if}
     {/if}
   </div>
 
   <p class="text-center text-xs text-muted">
-    Retention trains and measures at once. A card only scores you when it was genuinely due -
-    forgetting something you just saw is part of learning, not a mark against you.
-  </p>
+    {$t('ret.footer')}</p>
 </div>

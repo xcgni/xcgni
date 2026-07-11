@@ -11,38 +11,16 @@
   // -1 = boot sequence playing; 0..3 = intro steps; 4 = about-you form.
   let step = -1;
 
-  const steps = [
-    {
-      label: 'What this is',
-      title: 'A gym for the mind - measured, not gamified.',
-      body: 'Excogni trains and measures at the same time. Every challenge is both an exercise and a sample of how you are doing. No separate tests, no levels to grind for their own sake.'
-    },
-    {
-      label: 'How to play',
-      title: 'Take your time. A slow correct answer is still correct.',
-      body: 'There are no visible timers and no penalty for thinking. Pace is noted, but a careful right answer always beats a fast wrong one. The difficulty quietly follows your performance - you do not set it.'
-    },
-    {
-      label: 'Your rating',
-      title: 'An honest number, or none at all.',
-      body: 'You get a rating and, once enough people are measured, a percentile. Until then it reads "calibrating" rather than showing a number we cannot stand behind. Early on your rating is marked provisional while it settles - like a new chess rating.'
-    },
-    {
-      label: 'Your data',
-      title: 'Private by default. Yours to take or delete.',
-      body: 'There are no leaderboards and no public profiles. Practicing anonymously never enters the population pool. You can export everything you have done, or delete your account and all of it, at any time from Settings.'
-    }
-  ];
+  $: steps = ([1, 2, 3, 4] as const).map((i) => ({
+    label: $t(('w.s' + i + 'l') as never),
+    title: $t(('w.s' + i + 't') as never),
+    body: $t(('w.s' + i + 'b') as never)
+  }));
 
   $: current = step >= 0 && step < steps.length ? steps[step] : null;
   $: isIntro = step >= 0 && step < steps.length;
 
-  const bootLines = [
-    'initialising instrument',
-    'calibrating baseline',
-    'no scores stored without consent',
-    'ready'
-  ];
+  $: bootLines = [$t('w.boot1'), $t('w.boot2'), $t('w.boot3'), $t('w.boot4')];
   let bootShown = 0;
 
   onMount(() => {
@@ -109,7 +87,7 @@
       {:else}
         <div class="flex flex-col gap-5" style="animation: fadeup .45s ease both">
           <div class="flex flex-col gap-2">
-            <p class="label text-accent">About you</p>
+            <p class="label text-accent">{$t('wd.aboutYou')}</p>
             <h1 class="text-2xl font-light leading-snug sm:text-3xl">A few optional details.</h1>
             <p class="text-sm leading-relaxed text-muted">
               All optional, all editable later in Settings. They let us study how cognition
@@ -121,14 +99,14 @@
             <label class="flex flex-col gap-1 text-sm">
               <span class="text-muted">Age</span>
               <select name="age_band" class="field">
-                <option value="">Prefer not to say</option>
+                <option value="">{$t('wd.prefNot')}</option>
                 {#each AGE_BANDS as b}<option value={b}>{b}</option>{/each}
               </select>
             </label>
             <label class="flex flex-col gap-1 text-sm">
               <span class="text-muted">Country</span>
               <select name="country" class="field">
-                <option value="">Prefer not to say</option>
+                <option value="">{$t('wd.prefNot')}</option>
                 {#each COUNTRIES as c}<option value={c}>{c}</option>{/each}
               </select>
             </label>
@@ -137,23 +115,23 @@
               <input name="city" type="text" class="field" placeholder="e.g. Zagreb" autocomplete="off" />
             </label>
             <label class="flex flex-col gap-1 text-sm">
-              <span class="text-muted">Native language</span>
+              <span class="text-muted">{$t('wd.native')}</span>
               <select name="native_language" class="field">
-                <option value="">Prefer not to say</option>
+                <option value="">{$t('wd.prefNot')}</option>
                 {#each LANGUAGES as l}<option value={l}>{l}</option>{/each}
               </select>
             </label>
             <label class="flex flex-col gap-1 text-sm">
-              <span class="text-muted">Education</span>
+              <span class="text-muted">{$t('wd.education')}</span>
               <select name="education" class="field">
-                <option value="">Prefer not to say</option>
+                <option value="">{$t('wd.prefNot')}</option>
                 {#each EDUCATION as e}<option value={e.value}>{e.label}</option>{/each}
               </select>
             </label>
             <label class="flex flex-col gap-1 text-sm sm:col-span-2">
-              <span class="text-muted">Handedness</span>
+              <span class="text-muted">{$t('wd.handed')}</span>
               <select name="handedness" class="field">
-                <option value="">Prefer not to say</option>
+                <option value="">{$t('wd.prefNot')}</option>
                 {#each HANDEDNESS as h}<option value={h.value}>{h.label}</option>{/each}
               </select>
             </label>
@@ -175,11 +153,11 @@
           <div class="flex flex-col gap-2 border-t border-edge pt-4">
             <label class="flex cursor-pointer items-start gap-2 text-sm">
               <input name="consented_research" type="checkbox" class="mt-0.5 h-4 w-4 accent-[rgb(var(--c-accent))]" />
-              <span class="text-muted">Share my <span class="text-body">anonymised results</span> for research. De-identified, never tied to me, and I can turn it off anytime.
+              <span class="text-muted">{$t('wd.share')} <span class="text-body">anonymised results</span> for research. De-identified, never tied to me, and I can turn it off anytime.
                 <span class="block pt-1 text-xs">Contribution counts only once you register: the email exists to make fake and duplicate data harder, never to identify you - aggregates carry no identity.</span></span>
             </label>
             <details class="ml-6 text-xs text-muted">
-              <summary class="cursor-pointer hover:text-body">What does this cover?</summary>
+              <summary class="cursor-pointer hover:text-body">{$t('wd.cover')}<!-- --></summary>
               <p class="mt-2 leading-relaxed">
                 Your anonymised results feed the public population statistics and may be kept for long-term
                 research. Neither is linked to your identity. It's optional - leave it unticked and everything
@@ -198,12 +176,12 @@
         </div>
         <div class="flex items-center gap-4">
           {#if isIntro}
-            <button type="submit" class="text-sm text-muted hover:text-body">Skip</button>
+            <button type="submit" class="text-sm text-muted hover:text-body">{$t('w.skip')}</button>
             <button type="button" class="btn-primary" on:click={() => (step += 1)}>
               {step === steps.length - 1 ? 'Almost there' : 'Next'}
             </button>
           {:else}
-            <button type="submit" class="btn-primary">Start practicing</button>
+            <button type="submit" class="btn-primary">{$t('w.startPracticing')}</button>
           {/if}
         </div>
       </div>

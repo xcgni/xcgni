@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   export let data;
   const s = data.session;
   const fmtMs = (ms: number | null) => (ms == null ? '-' : (ms / 1000).toFixed(1) + 's');
@@ -45,7 +46,7 @@
     <div class="flex flex-col items-start gap-4">
       <p class="label">Session</p>
       <p class="text-muted">No completed attempts in this session yet.</p>
-      <a href="/practice/run" class="btn-primary">Start practicing</a>
+      <a href="/practice/run" class="btn-primary">{$t('w.startPracticing')}</a>
     </div>
   {:else}
     <div class="flex flex-col items-center gap-2 text-center">

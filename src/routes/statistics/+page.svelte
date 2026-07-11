@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { goto } from '$app/navigation';
   import TrendsChart from '$lib/components/TrendsChart.svelte';
   import QuantileStrip from '$lib/components/QuantileStrip.svelte';
@@ -100,7 +101,7 @@
 <div class="mx-auto flex max-w-3xl flex-col gap-6 py-8 sm:gap-8 sm:py-10">
   <div class="flex flex-col gap-2">
     <p class="label text-accent">Global stats</p>
-    <a href="/stats" class="label text-muted hover:text-body">← Your stats</a>
+    <a href="/stats" class="label text-muted hover:text-body">{$t('s.backToStats')}</a>
     <h1 class="h-page">The aggregate picture</h1>
     <p class="max-w-2xl text-sm leading-relaxed text-muted">
       The population view, open to everyone - no account needed. Everything here is from
@@ -181,7 +182,7 @@
         <p class="label">Overall rating distribution</p>
         <div class="panel p-5">
           <!-- Purely the population: this page shows no individual, including the viewer.
-               Your own place on this curve lives on Your stats, with its full context. -->
+               Your own place on this curve lives on {$t('s.yourStats')}, with its full context. -->
           <div class="relative" style="height: 150px;">
             {#if s.overall?.iqr}
               <div class="absolute bottom-0 top-0 rounded-sm bg-accent/10"

@@ -189,12 +189,12 @@
       <a href="/privacy" class="label text-muted hover:text-body">{$t('footer.privacy')}</a>
     </nav>
     <p class="label text-muted/70">
-      Free &amp; open · anonymous · supported, not sold{#if data.version} · <span class="font-mono">v{data.version}</span>{/if}
+      {$t('foot.motto')}{#if data.version} · <span class="font-mono">v{data.version}</span>{/if}
     </p>
     <p class="label text-muted/70">
-      Built by <a href="https://initsix.dev" class="hover:text-body" rel="noopener" target="_blank">initsix.dev</a>
-      · <a href="/changelog" class="hover:text-body">Changelog</a>
-      · <a href="https://github.com/xcgni/xcgni" class="hover:text-body" rel="noopener" target="_blank">Source</a>
+      {$t('foot.builtBy')} <a href="https://initsix.dev" class="hover:text-body" rel="noopener" target="_blank">initsix.dev</a>
+      · <a href="/changelog" class="hover:text-body">{$t('foot.changelog')}</a>
+      · <a href="https://github.com/xcgni/xcgni" class="hover:text-body" rel="noopener" target="_blank">{$t('foot.source')}</a>
     </p>
   </footer>
 </div>

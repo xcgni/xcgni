@@ -85,18 +85,17 @@
   }
 
   // a small reusable option group renders below via markup
-  const restedOpts = [['poor', 'Poorly'], ['ok', 'OK'], ['good', 'Well']];
-  const awakeOpts = [['1', 'Just woke'], ['3', 'A few hours'], ['8', 'Most of the day'], ['14', 'A long day']];
-  const caffeineOpts = [['none', 'None'], ['some', 'Some'], ['lots', 'Lots']];
-  const alertOpts = [['tired', 'Tired'], ['ok', 'OK'], ['wired', 'Wired']];
-  const moodOpts = [['low', 'Low'], ['neutral', 'Neutral'], ['good', 'Good']];
+  $: restedOpts = [['poor', $t('ctx.poorly')], ['ok', $t('ctx.ok')], ['good', $t('ctx.well')]];
+  $: awakeOpts = [['1', $t('ctx.justWoke')], ['3', $t('ctx.fewHours')], ['8', $t('ctx.mostDay')], ['14', $t('ctx.longDay')]];
+  $: caffeineOpts = [['none', $t('ctx.none')], ['some', $t('ctx.some')], ['lots', $t('ctx.lots')]];
+  $: alertOpts = [['tired', $t('ctx.tired')], ['ok', $t('ctx.ok')], ['wired', $t('ctx.wired')]];
+  $: moodOpts = [['low', $t('ctx.low')], ['neutral', $t('ctx.neutral')], ['good', $t('ctx.good')]];
 </script>
 
 <div class="mx-auto flex max-w-md flex-col gap-6 py-8">
   <div class="flex flex-col gap-1">
     <p class="label text-accent">{$t('ctx.title')}</p>
-    <p class="text-xs text-muted">Why we ask: your answers power your own insights - comparing your
-      days with and without each factor. Private to you, never shared, and everything is optional.</p>
+    <p class="text-xs text-muted">{$t('ctx.why')}</p>
     <p class="text-sm leading-relaxed text-muted">
       A few optional questions. They help us understand how state affects performance -
       and, in time, tell you when you personally function best. Skip any or all; it never
@@ -114,7 +113,7 @@
           on:input={(e) => (sleepHours = parseFloat(e.currentTarget.value))}
           class="flex-1 {sleepHours == null ? 'opacity-40 grayscale' : 'accent-[rgb(var(--c-accent))]'}"
         />
-        <span class="w-16 font-mono text-sm {sleepHours == null ? 'text-muted' : 'text-accent'}">{sleepHours == null ? 'not set' : sleepHours + 'h'}</span>
+        <span class="w-16 font-mono text-sm {sleepHours == null ? 'text-muted' : 'text-accent'}">{sleepHours == null ? $t('ctx.notSet') : sleepHours + 'h'}</span>
       </div>
       {#if sleepHours == null}
         <p class="text-xs text-muted">{$t('ctx.hint')}</p>
@@ -129,7 +128,7 @@
             on:click={() => (rested = rested === val ? null : val)}>{lbl}</button>
         {/each}
       </div>
-      <p class="text-xs text-muted">How you feel can matter more than the hours.</p>
+      <p class="text-xs text-muted">{$t('ctx.feelMatters')}</p>
     </div>
 
     <div class="flex flex-col gap-2">
@@ -158,7 +157,7 @@
     </div>
     <label class="flex cursor-pointer items-center gap-2 text-xs text-muted">
       <input type="checkbox" bind:checked={otherStimulant} class="h-3.5 w-3.5 accent-[rgb(var(--c-accent))]" />
-      Other stimulant today (nicotine, energy drink, medication, etc.)
+      {$t('ctx.otherStim')}
     </label>
   </div>
 
@@ -184,7 +183,7 @@
 
   <!-- Optional tags: grouped to avoid overload. Tap a group to expand, tap tags to toggle. -->
   <div class="flex flex-col gap-2">
-    <p class="text-sm text-body">{$t('ctx.tags')} <span class="text-muted">(optional - anything affecting today)</span></p>
+    <p class="text-sm text-body">{$t('ctx.tags')} <span class="text-muted">{$t('ctx.tagsHint')}</span></p>
     <!-- quick row: your recent tags, one tap; the full set lives under "more" -->
     <div class="flex flex-wrap gap-1">
       {#each quickTags as slug}
@@ -193,7 +192,7 @@
           on:click={() => toggleTag(slug)}>{TAG_LABEL.get(slug)}</button>
       {/each}
       <button type="button" class="rounded-full border border-edge px-2.5 py-0.5 text-xs text-muted hover:text-body"
-        on:click={() => (moreTags = !moreTags)}>{moreTags ? 'less' : 'more…'}</button>
+        on:click={() => (moreTags = !moreTags)}>{moreTags ? $t('ctx.less') : $t('ctx.more')}</button>
     </div>
     {#if selectedTags.size > 0}
       <div class="flex flex-wrap gap-1">
@@ -230,7 +229,7 @@
 
   <!-- Session note: free-text "how/why I feel today". Private to the user. -->
   <div class="flex flex-col gap-2">
-    <p class="text-sm text-body">{$t('ctx.note')} <span class="text-muted">(optional, private)</span></p>
+    <p class="text-sm text-body">{$t('ctx.note')} <span class="text-muted">{$t('ctx.noteHint')}</span></p>
     <textarea bind:value={note} rows="2" maxlength="500"
       placeholder={$t('ctx.notePh')}
       class="field text-sm"></textarea>

@@ -535,12 +535,12 @@
     ? ''
     : (() => {
         const from = result.level, to = result.nextLevel;
-        if (to > from) return result.speed === 'fast' ? 'quick and right - level up' : 'right - level up';
-        if (to < from) return 'stepping down to find your level';
-        if (result.correct && result.speed === 'slow') return 'right, unhurried - holding level';
-        return 'holding level';
+        if (to > from) return result.speed === 'fast' ? $t('run.quickHit') : $t('run.levelUpHit');
+        if (to < from) return $t('run.stepDown');
+        if (result.correct && result.speed === 'slow') return $t('run.holdSlow');
+        return $t('run.hold');
       })();
-  $: progressLabel = confirmingLevelUp ? 'level-up check' : `${Math.min(answeredCount + (phase === 'feedback' ? 0 : 1), SESSION_LENGTH)} / ${SESSION_LENGTH}`;
+  $: progressLabel = confirmingLevelUp ? $t('run.levelCheckSmall') : `${Math.min(answeredCount + (phase === 'feedback' ? 0 : 1), SESSION_LENGTH)} / ${SESSION_LENGTH}`;
 
   // --- Tower of Hanoi (v1.11.0): the pegs are DERIVED by replaying the answer string
   // against the start state, so the answer stays the single source of truth - undo is
@@ -621,6 +621,8 @@
       try { localStorage.setItem('xcgni-intros', JSON.stringify([...seenIntros])); } catch { /* private mode */ }
     }
   }
+  $: catRunName = challenge ? catNameRun(challenge.category, challenge.categoryName) : '';
+  $: catNameRun = (slug: string, fb: string) => { const x = $t(('cat.' + slug) as never); return x && !x.startsWith('cat.') ? x : fb; };
   $: activeIntroKey = introDismissTick >= 0 ? introKey(challenge) : null;
   $: showIntro = activeIntroKey != null && !seenIntros.has(activeIntroKey) && (phase === 'answering' || phase === 'memorize' || phase === 'getready');
 
@@ -659,7 +661,7 @@
   <div class="flex flex-col gap-3">
     <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
       <p class="label">
-        {challenge ? challenge.categoryName : 'Practice'} ·
+        {challenge ? catRunName : 'Practice'} ·
         {$t('run.level')} <span class="font-mono">{challenge?.level ?? '-'}</span>
         {#if challenge?.scoring}
           <span class="ml-2 text-muted" title={$t('scoring.tooltip')}>· {challenge.scoring}</span>
@@ -668,12 +670,12 @@
       <div class="flex items-baseline gap-3 sm:gap-4">
         <span class="label">{progressLabel}</span>
         <AmbientSound />
-        <button on:click={endSession} class="text-sm text-muted hover:text-body">End</button>
+        <button on:click={endSession} class="text-sm text-muted hover:text-body">{$t('run.end')}</button>
       </div>
     </div>
     <!-- in the zone meter -->
     <div class="flex items-center gap-2">
-      <span class="label shrink-0 {zone >= 70 ? 'text-accent' : ''}">in the zone</span>
+      <span class="label shrink-0 {zone >= 70 ? 'text-accent' : ''}">{$t('run.zone')}</span>
       <div class="h-1 flex-1 bg-edge">
         <div class="h-1 transition-all duration-500 {zone >= 70 ? 'bg-accent' : 'bg-accent/50'}" style="width: {zone}%"></div>
       </div>
@@ -957,9 +959,9 @@
              replaces answering and is recorded as one (status='skipped', with its local time) -->
         {#if challenge && (phase === 'answering' || phase === 'memorize')}
           <div class="flex flex-wrap items-center justify-center gap-2 pt-1">
-            <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('session')}>Skip {challenge.categoryName} this session</button>
-            <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('reduce')}>Show less often</button>
-            <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('forever')}>Don't show again</button>
+            <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('session')}>{$t('run.skipCat', { name: catRunName })}</button>
+            <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('reduce')}>{$t('run.lessOften')}</button>
+            <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('forever')}>{$t('run.dontShow')}</button>
           </div>
         {/if}
 
@@ -974,9 +976,9 @@
                 <span class="text-ok">{result.fluencyValidCount} valid</span>
                 <span class="text-muted"> answers</span>
               {:else if result.correct}
-                <span class="text-ok">✓ Correct</span>
+                <span class="text-ok">✓ {$t('run.correct')}</span>
               {:else}
-                <span class="text-bad">✗ Incorrect</span>
+                <span class="text-bad">✗ {$t('run.incorrect')}</span>
                 {#if result.correctAnswer}
                   <span class="text-muted"> · answer: </span><span class="font-mono text-body">{result.correctAnswer}</span>
                 {/if}
@@ -1022,18 +1024,18 @@
               <div class="h-0.5 w-32 overflow-hidden rounded bg-edge">
                 <div class="h-full bg-accent/50 transition-none" style="width: {autoProgress}%"></div>
               </div>
-              <p class="text-xs text-muted">advancing… or press Enter / click</p>
+              <p class="text-xs text-muted">advancing… {$t('run.orEnter')} / click</p>
             {:else if pendingLevelUp}
-              <p class="text-xs text-accent">You leveled up - ready for a harder one to confirm it? Press Enter when set.</p>
+              <p class="text-xs text-accent">{$t('run.levelUpPrompt')}</p>
             {:else}
-              <p class="text-xs text-muted">or press Enter</p>
+              <p class="text-xs text-muted">{$t('run.orEnter')}</p>
             {/if}
 
             {#if challenge}
               <div class="mt-2 flex flex-wrap items-center gap-2">
-                <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('session')}>Skip {challenge.categoryName} this session</button>
-                <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('reduce')}>Show less often</button>
-                <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('forever')}>Don't show again</button>
+                <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('session')}>{$t('run.skipCat', { name: catRunName })}</button>
+                <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('reduce')}>{$t('run.lessOften')}</button>
+                <button class="rounded border border-edge px-2 py-1 text-xs text-muted transition-colors hover:border-accent hover:text-body" disabled={skippingCategory} on:click={() => skipCategory('forever')}>{$t('run.dontShow')}</button>
               </div>
             {/if}
           </div>

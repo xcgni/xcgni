@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { onDestroy } from 'svelte';
 
   // Optional ambient focus sound - a generative pad synthesized in-browser (no asset).
@@ -147,5 +148,5 @@
   aria-pressed={on}
 >
   <span class="text-sm">{on ? '♫' : '♪'}</span>
-  <span>{on ? 'Sound on' : 'Ambient sound'}</span>
+  <span>{on ? $t('sound.on') : $t('sound.ambient')}</span>
 </button>

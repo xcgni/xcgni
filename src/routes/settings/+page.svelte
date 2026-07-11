@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   import { isNative } from '$lib/native';
   import { onMount } from 'svelte';
   let inApp = false;
@@ -185,7 +186,7 @@
 
   {#if data.user}
     <section class="panel flex flex-col gap-4 p-5">
-      <p class="label">About you (optional)</p>
+      <p class="label">{$t('wd.aboutYou')} (optional)</p>
       <p class="text-sm text-muted">
         These details only produce anonymous, aggregate statistics - trends across groups. They're
         <span class="text-body">never</span> tied to your identity, shown to others, or used to identify
@@ -219,11 +220,11 @@
               <option value="female" selected={data.attributes?.gender === 'female'}>Female</option>
               <option value="male" selected={data.attributes?.gender === 'male'}>Male</option>
               <option value="other" selected={data.attributes?.gender === 'other'}>Other</option>
-              <option value="prefer_not" selected={data.attributes?.gender === 'prefer_not'}>Prefer not to say</option>
+              <option value="prefer_not" selected={data.attributes?.gender === 'prefer_not'}>{$t('wd.prefNot')}</option>
             </select>
           </label>
           <label class="flex flex-col gap-1">
-            <span class="label">Education</span>
+            <span class="label">{$t('wd.education')}</span>
             <select name="education" class="field">
               <option value="" selected={!data.attributes?.education}>-</option>
               <option value="secondary" selected={data.attributes?.education === 'secondary'}>Secondary</option>
@@ -234,14 +235,14 @@
             </select>
           </label>
           <label class="flex flex-col gap-1">
-            <span class="label">Native language</span>
+            <span class="label">{$t('wd.native')}</span>
             <select name="native_language" class="field">
               <option value="" selected={!data.attributes?.native_language}>-</option>
               {#each LANGUAGES as l}<option value={l} selected={data.attributes?.native_language === l}>{l}</option>{/each}
             </select>
           </label>
           <label class="flex flex-col gap-1">
-            <span class="label">Handedness</span>
+            <span class="label">{$t('wd.handed')}</span>
             <select name="handedness" class="field">
               <option value="" selected={!data.attributes?.handedness}>-</option>
               <option value="right" selected={data.attributes?.handedness === 'right'}>Right</option>

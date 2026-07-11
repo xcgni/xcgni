@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '$lib/i18n/store';
   export let data;
   const fmtDate = (iso: string) =>
     new Date(iso).toLocaleString(undefined, { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
@@ -16,7 +17,7 @@
   {#if data.sessions.length === 0}
     <div class="panel p-8 text-center">
       <p class="text-muted">No sessions yet. Your practice history will appear here.</p>
-      <a href="/practice/run" class="btn-primary mt-4 inline-flex">Start practicing</a>
+      <a href="/practice/run" class="btn-primary mt-4 inline-flex">{$t('w.startPracticing')}</a>
     </div>
   {:else}
     <div class="panel divide-y divide-edge">

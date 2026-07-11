@@ -6,6 +6,22 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.13.4 - The eradication: six waves of i18n completion + a residue guard
+
+The full sweep of remaining English residue, done in consecutive verified waves: run
+feedback and level-up strings, ambient sound, the entire pre-session questionnaire
+(options, microcopy, not-set, more/less), the welcome carousel with its boot sequence,
+the stats page remainder including the whole radar legend and honesty notes, retention
+and reaction screens, the footer motto row, and the demographics step. 278 keys per
+language, parity enforced.
+
+The new suite (26th): an i18n residue guard that (a) scans every component for a
+denylist of known English literals - it caught three stragglers on its first run - and
+(b) verifies every t() key used in markup exists in the canonical catalog, so a typo'd
+key can never silently fall back. Comment lines are exempt.
+
+hr/de remain behind ENABLE_LANGS pending the maintainer walkthrough; when that walkthrough
+finds nothing, the flag flips and Excogni speaks three languages in public.
 ## v1.13.3 - Languages behind a flag until they deserve the front door
 
 User review of Croatian mode found too much English residue to publish (welcome carousel,
