@@ -25,7 +25,11 @@
   // Quick tags: the user's own recently-used tags first (private, localStorage), falling back to
   // sensible defaults. One tap for the common case; the full taxonomy stays under "more".
   const TAG_LABEL = new Map(TAG_GROUPS.flatMap((g) => g.tags.map((t) => [t.slug, t.label] as [string, string])));
-  const QUICK_DEFAULTS = ['music', 'after-work', 'exercise', 'stressed', 'deep-work', 'sick', 'alcohol-yesterday', 'interrupted-sleep'];
+  // Quick row derives from the live vocabulary (curated picks, validated at module load) -
+  // a retired slug can never render as undefined again; unknown picks are dropped.
+  const QUICK_PICKS = ['music', 'after-work', 'exercise', 'stressed', 'deep-work', 'sick', 'alcohol-yesterday', 'interrupted-sleep'];
+  const VOCAB = new Set(TAG_GROUPS.flatMap((g) => g.tags.map((t) => t.slug)));
+  const QUICK_DEFAULTS = QUICK_PICKS.filter((s) => VOCAB.has(s));
   let quickTags: string[] = QUICK_DEFAULTS;
   try {
     const recent = JSON.parse(localStorage.getItem('excogni.recentTags') ?? '[]');

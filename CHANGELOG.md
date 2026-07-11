@@ -6,6 +6,15 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.13.5 - Language flag reaches the containers + script-corruption class extinct
+
+Follow-ups from the walkthrough prep: ENABLE_LANGS is now wired through both compose
+files (env-substituted from .env, default off), so flipping it is a one-line .env edit.
+And the build caught a bug class from the i18n sweep - blind text replacement had
+injected template syntax into three JavaScript strings (the level-reason closure and both
+back-links); all fixed with proper function calls, the corruption signature grep-swept to
+zero across the tree, the feedback micro-lines gained real translations, and Exit
+localized as a bonus. Residue denylist extended so none of it can regress. Suites: 26.
 ## v1.13.4 - The eradication: six waves of i18n completion + a residue guard
 
 The full sweep of remaining English residue, done in consecutive verified waves: run

@@ -26,6 +26,7 @@ services:
       DATABASE_URL: postgres://excogni:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@db:5432/excogni
       # all dev conveniences OFF
       ENABLE_SIMULATED_USERS: "false"
+      ENABLE_LANGS: ${ENABLE_LANGS:-false}
       DEV_EXPOSE_MAGIC_LINKS: "false"
       SHOW_DEBUG_UI: "false"
       STATS_PREVIEW: "false"

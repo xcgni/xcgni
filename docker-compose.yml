@@ -28,6 +28,8 @@ services:
       # stats preview: include simulated users in /statistics (labeled "preview").
       # reads from your .env; set STATS_PREVIEW=true there to demo the page.
       STATS_PREVIEW: ${STATS_PREVIEW:-false}
+      # UI languages beyond English (hr/de); reads from your .env. Off = English only.
+      ENABLE_LANGS: ${ENABLE_LANGS:-false}
       ORIGIN: http://localhost:3000
       PORT: "3000"
       # admin tool: reads ADMIN_TOKEN from your .env (>=16 chars enables /admin)

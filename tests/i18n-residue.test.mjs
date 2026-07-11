@@ -19,6 +19,18 @@ let missing=[];
 for(const f of all){const s=readFileSync(f,'utf8');
  for(const m of s.matchAll(/\$t\('([a-zA-Z0-9_.]+)'/g)) if(!(m[1] in en)) missing.push(f.split('src/')[1]+': '+m[1]);}
 ok('every $t key used exists in EN catalog', missing.length===0, '\n    '+missing.join('\n    '));
+
+// pin: the questionnaire quick row may only reference live vocabulary slugs
+{
+  const form = readFileSync('src/lib/components/SessionContextForm.svelte','utf8');
+  const m = form.match(/QUICK_PICKS = \[([^\]]+)\]/);
+  const picks = m ? [...m[1].matchAll(/'([a-z-]+)'/g)].map(x=>x[1]) : [];
+  const tagsSrc = readFileSync('src/lib/tags.ts','utf8');
+  const bad = picks.filter(p => !tagsSrc.includes("'" + p + "'"));
+  if (m !== null && picks.length >= 6 && bad.length === 0) { pass++; }
+  else { fail++; console.log('  FAIL: quick-row picks exist in vocabulary', bad.join(',')); }
+}
+
 console.log(`\ni18n-residue: ${pass} passed, ${fail} failed`);
 console.log(fail===0?'ALL I18N-RESIDUE TESTS PASSED':'I18N-RESIDUE TESTS FAILED');
 if(fail>0)process.exit(1);
