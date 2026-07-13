@@ -223,10 +223,10 @@ export const hr: Partial<Messages> = {
   'nav.feedback': 'Povratne informacije',
   'stats.otherFindings': 'Ostali nalazi','stats.hideOther': 'Sakrij',
   'w.almost': 'Još samo ovo',
-  'w.finalTitle': 'Dva ulaza - oba jednako anonimna.',
-  'w.equalAnon': 'Vježbanje bez računa i registracija jednako su anonimni. Registracija dodaje samo ključ za prijavu: tvoja e-pošta sprema se kao jednosmjerni kod koji se ne može pročitati natrag, pa nijedna stranica, log ni redak baze nikad ne pokazuje tko si. U oba slučaja, ništa ne ulazi u javni skup bez tvoje izričite privole.',
+  'w.finalTitle': 'Dva ulaza - nijedan ne pohranjuje tvoj identitet.',
+  'w.equalAnon': 'Nijedan put ne pohranjuje tvoj identitet. Vježbanje bez računa je anonimno; registrirani račun je pseudoniman po dizajnu - dodaje samo ključ za prijavu, a tvoja e-pošta sprema se kao jednosmjerni kod koji se ne može pročitati natrag, pa nijedna stranica, log ni redak baze nikad ne pokazuje tko si. U oba slučaja, ništa ne ulazi u javni skup bez tvoje izričite privole.',
   'w.howWeProtect': 'Kako to štitimo →',
   'w.startAnon': 'Kreni bez računa',
   'w.register': 'Registriraj se e-poštom',
-  'landing.equalAnon': 'Oba su puta jednako anonimna - registracija dodaje samo ključ za prijavu, nikad identitet.'
+  'landing.equalAnon': 'Nijedan put ne pohranjuje tvoj identitet - registrirani računi su pseudonimni po dizajnu: nikad ne spremamo tvoju čitljivu e-poštu.'
 };

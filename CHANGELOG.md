@@ -6,6 +6,30 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.17.0 - Provenance proven, language precise, headers hardened
+
+The launch-eve release: the pipeline and the prose now both survive hostile reading.
+
+Provenance: the image bakes in the exact git commit and build moment; /api/health
+serves version, sha, methodology version and build time - availability AND origin,
+machine-checkable. The publish job creates a GitHub Release per tag. The deploy loop
+gained post-deploy verification: after recreating the app it confirms health, checks
+the reported version against the pulled tag, optionally purges the Cloudflare cache
+(CF_ZONE_ID/CF_API_TOKEN in .env), and then requires EVERY public route to serve the
+new version - failing loudly otherwise. The stale-edge ghost class dies observable.
+
+Language precision (external review adopted): anonymous and pseudonymous are different
+words and the site now uses the right one everywhere, in all three languages -
+practicing without an account is anonymous; a registered account is pseudonymous by
+design, a sign-in key with the email stored only as a one-way code. The landing email
+claim is now exactly as strong as the architecture: your readable email is never
+retained in our database. The percentile explainer already spoke of rated users, not
+humanity; the README states that public source history begins with v1.0.0.
+
+Headers: HSTS (one year, subdomains) and a baseline Content-Security-Policy that
+blocks every external script, style and frame source; inline-script allowance remains
+until the nonce upgrade (tracked as A1) and is stated in the code comment. These close
+the last two Medium findings from the security audit.
 ## v1.16.0 - Q0: tags deploy themselves; GitHub can reach nothing
 
 The deploy rails, built to a strict trust model: GitHub holds zero server-reaching

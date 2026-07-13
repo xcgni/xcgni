@@ -1,4 +1,4 @@
-Automated battery: `npm test` runs all 26 suites; `npm run test:db` runs the live-database attempt-flow test (needs DATABASE_URL). CI runs both on every push.
+Automated battery: `npm test` runs all 26 suites; `npm run test:db` runs the live-database attempt-flow test (needs DATABASE_URL). CI runs both on every push, plus a full-tree Semgrep SAST job (advisory; report attached as a run artifact; reproduce locally with: semgrep scan --config p/default --config p/typescript --config p/dockerfile --config p/github-actions --metrics=off).
 
 # Excogni - testing checklist
 

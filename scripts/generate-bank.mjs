@@ -1068,11 +1068,14 @@ const logical = buildLogical();
 //   tighter timing. Color names kept to 4 high-contrast options per item.
 // ===========================================================================
 const INHIBIT_MEDIANS = { 1:1800,2:2000,3:2200,4:2500,5:2800,6:3100,7:3500,8:3900,9:4400,10:5000 };
+// Stroop inks must be PROTOTYPICAL, not tasteful: a muted terracotta "red" makes
+// hesitation measure color-naming ambiguity instead of inhibition (tester-caught).
+// Saturated categorical hues, tuned for legibility on the dark background.
 const STROOP_COLORS = [
-  ['RED', '#E5604C'],
-  ['BLUE', '#5B8DEF'],
-  ['GREEN', '#4CC38A'],
-  ['YELLOW', '#E2A33B']
+  ['RED', '#FF3B30'],
+  ['BLUE', '#3D7BFF'],
+  ['GREEN', '#2FC94E'],
+  ['YELLOW', '#FFD21E']
 ];
 
 function buildInhibition() {

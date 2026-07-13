@@ -8,7 +8,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -37,7 +37,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -66,7 +66,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -95,7 +95,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -124,7 +124,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -153,7 +153,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -182,7 +182,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -211,7 +211,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -240,7 +240,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "YELLOW"
@@ -269,7 +269,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -298,7 +298,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -327,7 +327,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "RED"
@@ -356,7 +356,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -385,7 +385,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -414,7 +414,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -443,7 +443,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -472,7 +472,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -501,7 +501,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"
@@ -530,7 +530,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "GREEN",
         "RED"
@@ -559,7 +559,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "YELLOW"
@@ -588,7 +588,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -617,7 +617,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -646,7 +646,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -675,7 +675,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -704,7 +704,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -733,7 +733,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -762,7 +762,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -791,7 +791,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -820,7 +820,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -849,7 +849,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -878,7 +878,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -907,7 +907,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -936,7 +936,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -965,7 +965,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -994,7 +994,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "GREEN",
         "RED"
@@ -1023,7 +1023,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -1052,7 +1052,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -1081,7 +1081,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "RED",
         "BLUE"
@@ -1110,7 +1110,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -1139,7 +1139,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -1168,7 +1168,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -1197,7 +1197,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "RED"
@@ -1226,7 +1226,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -1255,7 +1255,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -1284,7 +1284,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -1313,7 +1313,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "YELLOW"
@@ -1342,7 +1342,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -1371,7 +1371,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -1400,7 +1400,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -1429,7 +1429,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -1458,7 +1458,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -1487,7 +1487,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -1516,7 +1516,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "BLUE"
@@ -1545,7 +1545,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -1574,7 +1574,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -1603,7 +1603,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -1632,7 +1632,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -1661,7 +1661,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -1690,7 +1690,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -1719,7 +1719,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -1748,7 +1748,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "RED"
@@ -1777,7 +1777,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -1806,7 +1806,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -1835,7 +1835,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "RED"
@@ -1864,7 +1864,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "GREEN",
         "RED"
@@ -1893,7 +1893,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -1922,7 +1922,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -1951,7 +1951,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -1980,7 +1980,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "YELLOW"
@@ -2009,7 +2009,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"
@@ -2038,7 +2038,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -2067,7 +2067,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -2096,7 +2096,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -2125,7 +2125,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -2154,7 +2154,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -2183,7 +2183,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "YELLOW"
@@ -2212,7 +2212,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "BLUE",
         "GREEN"
@@ -2241,7 +2241,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -2270,7 +2270,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -2299,7 +2299,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "YELLOW"
@@ -2328,7 +2328,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -2357,7 +2357,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -2386,7 +2386,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -2415,7 +2415,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "RED",
         "BLUE"
@@ -2444,7 +2444,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -2473,7 +2473,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"
@@ -2502,7 +2502,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -2531,7 +2531,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -2560,7 +2560,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "GREEN",
         "RED"
@@ -2589,7 +2589,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -2618,7 +2618,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -2647,7 +2647,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "BLUE"
@@ -2676,7 +2676,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -2705,7 +2705,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -2734,7 +2734,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "RED"
@@ -2763,7 +2763,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -2792,7 +2792,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -2821,7 +2821,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -2850,7 +2850,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -2879,7 +2879,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -2908,7 +2908,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -2937,7 +2937,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "RED",
         "BLUE"
@@ -2966,7 +2966,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -2995,7 +2995,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -3024,7 +3024,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -3053,7 +3053,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -3082,7 +3082,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -3111,7 +3111,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -3140,7 +3140,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"
@@ -3169,7 +3169,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -3198,7 +3198,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -3227,7 +3227,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -3256,7 +3256,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "BLUE"
@@ -3285,7 +3285,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -3314,7 +3314,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -3343,7 +3343,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "RED"
@@ -3372,7 +3372,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -3401,7 +3401,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "RED"
@@ -3430,7 +3430,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "GREEN",
         "RED"
@@ -3459,7 +3459,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -3488,7 +3488,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "GREEN",
         "RED"
@@ -3517,7 +3517,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -3546,7 +3546,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -3575,7 +3575,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -3604,7 +3604,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -3633,7 +3633,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -3662,7 +3662,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -3691,7 +3691,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -3720,7 +3720,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -3749,7 +3749,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -3778,7 +3778,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "BLUE",
         "GREEN"
@@ -3807,7 +3807,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -3836,7 +3836,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -3865,7 +3865,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -3894,7 +3894,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -3923,7 +3923,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -3952,7 +3952,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -3981,7 +3981,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "RED"
@@ -4010,7 +4010,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -4039,7 +4039,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -4068,7 +4068,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -4097,7 +4097,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -4126,7 +4126,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -4155,7 +4155,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -4184,7 +4184,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "BLUE",
         "GREEN"
@@ -4213,7 +4213,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -4242,7 +4242,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -4271,7 +4271,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"
@@ -4300,7 +4300,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -4329,7 +4329,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -4358,7 +4358,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -4387,7 +4387,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -4416,7 +4416,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "RED"
@@ -4445,7 +4445,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -4474,7 +4474,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -4503,7 +4503,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "RED",
         "BLUE"
@@ -4532,7 +4532,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -4561,7 +4561,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -4590,7 +4590,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -4619,7 +4619,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -4648,7 +4648,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -4677,7 +4677,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -4706,7 +4706,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -4735,7 +4735,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -4764,7 +4764,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -4793,7 +4793,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -4822,7 +4822,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "BLUE"
@@ -4851,7 +4851,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -4880,7 +4880,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "YELLOW"
@@ -4909,7 +4909,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "YELLOW"
@@ -4938,7 +4938,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "RED"
@@ -4967,7 +4967,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "RED",
         "BLUE"
@@ -4996,7 +4996,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -5025,7 +5025,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "BLUE",
         "GREEN"
@@ -5054,7 +5054,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -5083,7 +5083,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -5112,7 +5112,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -5141,7 +5141,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -5170,7 +5170,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -5199,7 +5199,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -5228,7 +5228,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -5257,7 +5257,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -5286,7 +5286,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -5315,7 +5315,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -5344,7 +5344,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"
@@ -5373,7 +5373,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -5402,7 +5402,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -5431,7 +5431,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -5460,7 +5460,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "GREEN",
         "RED"
@@ -5489,7 +5489,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -5518,7 +5518,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "BLUE"
@@ -5547,7 +5547,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -5576,7 +5576,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -5605,7 +5605,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "RED"
@@ -5634,7 +5634,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -5663,7 +5663,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -5692,7 +5692,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -5721,7 +5721,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -5750,7 +5750,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -5779,7 +5779,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "BLUE",
         "GREEN"
@@ -5808,7 +5808,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "YELLOW"
@@ -5837,7 +5837,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -5866,7 +5866,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -5895,7 +5895,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "YELLOW"
@@ -5924,7 +5924,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"
@@ -5953,7 +5953,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -5982,7 +5982,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -6011,7 +6011,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -6040,7 +6040,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -6069,7 +6069,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "RED"
@@ -6098,7 +6098,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -6127,7 +6127,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "BLUE"
@@ -6156,7 +6156,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "RED",
         "BLUE"
@@ -6185,7 +6185,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -6214,7 +6214,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -6243,7 +6243,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -6272,7 +6272,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "GREEN"
@@ -6301,7 +6301,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -6330,7 +6330,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -6359,7 +6359,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "YELLOW"
@@ -6388,7 +6388,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -6417,7 +6417,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "RED",
         "YELLOW"
@@ -6446,7 +6446,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "BLUE",
         "GREEN"
@@ -6475,7 +6475,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "RED",
         "BLUE"
@@ -6504,7 +6504,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "BLUE"
@@ -6533,7 +6533,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "BLUE",
         "YELLOW"
@@ -6562,7 +6562,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "GREEN"
@@ -6591,7 +6591,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "RED"
@@ -6620,7 +6620,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "YELLOW"
@@ -6649,7 +6649,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -6678,7 +6678,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -6707,7 +6707,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "RED",
         "GREEN"
@@ -6736,7 +6736,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "BLUE",
-      "stimulusColor": "#4CC38A",
+      "stimulusColor": "#2FC94E",
       "options": [
         "GREEN",
         "BLUE"
@@ -6765,7 +6765,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E2A33B",
+      "stimulusColor": "#FFD21E",
       "options": [
         "YELLOW",
         "RED"
@@ -6794,7 +6794,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "BLUE",
         "GREEN"
@@ -6823,7 +6823,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "GREEN",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "GREEN",
         "BLUE"
@@ -6852,7 +6852,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "RED",
         "BLUE"
@@ -6881,7 +6881,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "RED",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "BLUE",
         "RED"
@@ -6910,7 +6910,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#E5604C",
+      "stimulusColor": "#FF3B30",
       "options": [
         "YELLOW",
         "RED"
@@ -6939,7 +6939,7 @@
     "promptData": {
       "instruction": "Pick the INK COLOR (ignore the word)",
       "stimulus": "YELLOW",
-      "stimulusColor": "#5B8DEF",
+      "stimulusColor": "#3D7BFF",
       "options": [
         "YELLOW",
         "BLUE"

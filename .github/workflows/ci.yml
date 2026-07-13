@@ -44,6 +44,45 @@ jobs:
       - name: Verify wordlists
         run: node scripts/verify-wordlists.mjs
 
+  sast:
+    # Static analysis over the WHOLE tree (the external audit initially scanned only
+    # .github/ and the Dockerfile - this job closes that coverage gap). Advisory while
+    # the baseline is being confirmed; flips to blocking on ERROR severity after.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install semgrep
+        run: pip install --quiet semgrep
+      - name: Semgrep scan (full tree, no telemetry)
+        run: |
+          semgrep scan \
+            --config p/default \
+            --config p/typescript \
+            --config p/dockerfile \
+            --config p/github-actions \
+            --metrics=off \
+            --severity ERROR --severity WARNING \
+            --json --output semgrep-ci.json || true
+          python3 - << 'PY'
+          import json
+          d = json.load(open('semgrep-ci.json'))
+          res = d.get('results', [])
+          errs = [r for r in res if r.get('extra',{}).get('severity') == 'ERROR']
+          print(f"semgrep: {len(res)} findings ({len(errs)} ERROR)")
+          for r in res[:20]:
+              x = r.get('extra',{})
+              print(f"  [{x.get('severity','?')}] {r['check_id'].split('.')[-1]}  {r['path']}:{r.get('start',{}).get('line','?')}")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: semgrep-report
+          path: semgrep-ci.json
+
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -100,6 +139,9 @@ jobs:
     # Only version tags publish an image; only a fully green ladder may publish.
     if: startsWith(github.ref, 'refs/tags/v')
     needs: [test, build, integration]
+    permissions:
+      contents: write   # Release creation
+      packages: write   # GHCR push
     runs-on: ubuntu-latest
     timeout-minutes: 20
     outputs:
@@ -117,9 +159,21 @@ jobs:
         with:
           context: .
           push: true
+          build-args: |
+            GIT_SHA=${{ github.sha }}
+            BUILD_TIME=${{ github.event.head_commit.timestamp || github.run_started_at }}
           tags: |
             ghcr.io/xcgni/xcgni:${{ steps.meta.outputs.tag }}
             ghcr.io/xcgni/xcgni:latest
+      - name: Create GitHub Release from the tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "${GITHUB_REF_NAME}" \
+            --notes "See CHANGELOG.md for this release. Image: ghcr.io/xcgni/xcgni:${GITHUB_REF_NAME}" \
+            || echo "release exists, skipping"
 
   smoke:
     # Boot the JUST-PUBLISHED image against a real Postgres and hit it from outside.
