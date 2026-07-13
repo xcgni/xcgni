@@ -1,0 +1,5602 @@
+[
+  {
+    "bankKey": "sw-L1-1",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green diamond",
+      "options": [
+        "diamond",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-2",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "circle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-3",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green diamond",
+      "options": [
+        "star",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-4",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red diamond",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-5",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red square",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-6",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue diamond",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-7",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-8",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow circle",
+      "options": [
+        "diamond",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-9",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green square",
+      "options": [
+        "triangle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-10",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red diamond",
+      "options": [
+        "circle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-11",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "diamond",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-12",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "triangle",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-13",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red circle",
+      "options": [
+        "circle",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-14",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red star",
+      "options": [
+        "circle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-15",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-16",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red square",
+      "options": [
+        "circle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-17",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green square",
+      "options": [
+        "circle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-18",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green square",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-19",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "yellow",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L1-20",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red diamond",
+      "options": [
+        "diamond",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-21",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "diamond",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-22",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue star",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-23",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow circle",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-24",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green circle",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-25",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-26",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green diamond",
+      "options": [
+        "green",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-27",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue circle",
+      "options": [
+        "triangle",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-28",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green star",
+      "options": [
+        "green",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-29",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-30",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "triangle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-31",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red star",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-32",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red circle",
+      "options": [
+        "circle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-33",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red square",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-34",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue star",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-35",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-36",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow star",
+      "options": [
+        "star",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-37",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue square",
+      "options": [
+        "green",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-38",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-39",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L2-40",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue square",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-41",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green triangle",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-42",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue square",
+      "options": [
+        "diamond",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-43",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-44",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red triangle",
+      "options": [
+        "circle",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-45",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-46",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-47",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green diamond",
+      "options": [
+        "triangle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-48",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red triangle",
+      "options": [
+        "triangle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-49",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-50",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-51",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green square",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-52",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "star",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-53",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green circle",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-54",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green diamond",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-55",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green star",
+      "options": [
+        "star",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-56",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "triangle",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-57",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow circle",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-58",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-59",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue star",
+      "options": [
+        "green",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L3-60",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red circle",
+      "options": [
+        "circle",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-61",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-62",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue diamond",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-63",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-64",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow diamond",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-65",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow square",
+      "options": [
+        "circle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-66",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue square",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-67",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow circle",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-68",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green square",
+      "options": [
+        "square",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-69",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red star",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-70",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow star",
+      "options": [
+        "circle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-71",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow triangle",
+      "options": [
+        "yellow",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-72",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green star",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-73",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red diamond",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-74",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red circle",
+      "options": [
+        "circle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-75",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-76",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green triangle",
+      "options": [
+        "square",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-77",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue diamond",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-78",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue star",
+      "options": [
+        "star",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-79",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green triangle",
+      "options": [
+        "green",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L4-80",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red square",
+      "options": [
+        "triangle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-81",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue star",
+      "options": [
+        "star",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-82",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green triangle",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-83",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green diamond",
+      "options": [
+        "star",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-84",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red star",
+      "options": [
+        "circle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-85",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green star",
+      "options": [
+        "square",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-86",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "yellow",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-87",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow triangle",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-88",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green triangle",
+      "options": [
+        "diamond",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-89",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue circle",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-90",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-91",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue diamond",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-92",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue diamond",
+      "options": [
+        "circle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-93",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "circle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-94",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green diamond",
+      "options": [
+        "diamond",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-95",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green circle",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-96",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green triangle",
+      "options": [
+        "triangle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-97",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-98",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue circle",
+      "options": [
+        "yellow",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-99",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "triangle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L5-100",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-101",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red star",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-102",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-103",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow star",
+      "options": [
+        "triangle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-104",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue circle",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-105",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow circle",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-106",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow circle",
+      "options": [
+        "star",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-107",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-108",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "yellow",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-109",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "triangle",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-110",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow square",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-111",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green triangle",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-112",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-113",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red diamond",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-114",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green triangle",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-115",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue triangle",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-116",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red triangle",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-117",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-118",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue star",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-119",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L6-120",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red diamond",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-121",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue diamond",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-122",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "star",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-123",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue star",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-124",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-125",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow circle",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-126",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue circle",
+      "options": [
+        "diamond",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-127",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "yellow",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-128",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-129",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red diamond",
+      "options": [
+        "diamond",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-130",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "circle",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-131",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue diamond",
+      "options": [
+        "star",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-132",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow triangle",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-133",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue circle",
+      "options": [
+        "circle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-134",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red star",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-135",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow diamond",
+      "options": [
+        "star",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-136",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "triangle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-137",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-138",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-139",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red star",
+      "options": [
+        "star",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L7-140",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red diamond",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-141",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue diamond",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-142",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-143",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow square",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-144",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue circle",
+      "options": [
+        "blue",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-145",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow square",
+      "options": [
+        "diamond",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-146",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow circle",
+      "options": [
+        "green",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-147",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red star",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-148",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow circle",
+      "options": [
+        "circle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-149",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green diamond",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-150",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-151",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "circle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-152",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green triangle",
+      "options": [
+        "diamond",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-153",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue square",
+      "options": [
+        "circle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-154",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow star",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-155",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-156",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red diamond",
+      "options": [
+        "triangle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-157",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green square",
+      "options": [
+        "blue",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-158",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-159",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue circle",
+      "options": [
+        "circle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L8-160",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red square",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5300,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-161",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow triangle",
+      "options": [
+        "red",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-162",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red circle",
+      "options": [
+        "diamond",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-163",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red triangle",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-164",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green diamond",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-165",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red circle",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-166",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue star",
+      "options": [
+        "star",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-167",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red square",
+      "options": [
+        "triangle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-168",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow diamond",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-169",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue diamond",
+      "options": [
+        "diamond",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-170",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red triangle",
+      "options": [
+        "circle",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-171",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow star",
+      "options": [
+        "triangle",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-172",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue star",
+      "options": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-173",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red square",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-174",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red square",
+      "options": [
+        "square",
+        "star"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-175",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green circle",
+      "options": [
+        "green",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-176",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue star",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-177",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red square",
+      "options": [
+        "star",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-178",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red diamond",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-179",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow star",
+      "options": [
+        "star",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L9-180",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow diamond",
+      "options": [
+        "circle",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-181",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green circle",
+      "options": [
+        "circle",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-182",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "triangle",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-183",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green square",
+      "options": [
+        "star",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-184",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "yellow",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-185",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue triangle",
+      "options": [
+        "circle",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-186",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green triangle",
+      "options": [
+        "green",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-187",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "red diamond",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-188",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue square",
+      "options": [
+        "green",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-189",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue square",
+      "options": [
+        "square",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-190",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "green star",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-191",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow star",
+      "options": [
+        "star",
+        "triangle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-192",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow star",
+      "options": [
+        "yellow",
+        "red"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-193",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "green square",
+      "options": [
+        "red",
+        "green"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-194",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow diamond",
+      "options": [
+        "square",
+        "diamond"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-195",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue square",
+      "options": [
+        "star",
+        "square"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-196",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "blue triangle",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-197",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "red diamond",
+      "options": [
+        "red",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-198",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "yellow circle",
+      "options": [
+        "diamond",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-199",
+    "category": "task_switching",
+    "challengeType": "judge_color",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the COLOR",
+      "stimulus": "yellow circle",
+      "options": [
+        "yellow",
+        "blue"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "sw-L10-200",
+    "category": "task_switching",
+    "challengeType": "judge_shape",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Rule: judge the SHAPE",
+      "stimulus": "blue circle",
+      "options": [
+        "triangle",
+        "circle"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  }
+]

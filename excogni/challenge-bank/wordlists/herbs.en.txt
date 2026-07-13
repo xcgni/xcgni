@@ -1,0 +1,129 @@
+allspice
+aloe vera
+angelica
+anise
+annatto
+arnica
+arugula
+asafoetida
+ashwagandha
+basil
+bay
+bay leaf
+bay leaves
+black pepper
+borage
+burdock
+calendula
+caraway
+cardamom
+catnip
+cayenne
+celery seed
+chamomile
+chervil
+chili
+chili powder
+chilli
+chipotle
+chive
+chives
+cilantro
+cinnamon
+clove
+cloves
+comfrey
+coriander
+cumin
+curry leaf
+curry powder
+dandelion
+dill
+echinacea
+epazote
+eucalyptus
+fennel
+fenugreek
+feverfew
+file powder
+five spice
+galangal
+garam masala
+garlic
+garlic powder
+ginger
+ginseng
+goldenseal
+grains of paradise
+harissa
+herbes de provence
+holy basil
+horseradish
+hyssop
+italian seasoning
+juniper
+juniper berries
+kaffir lime
+lavender
+lemon balm
+lemongrass
+long pepper
+lovage
+mace
+makrut
+makrut lime
+marjoram
+milk thistle
+mint
+mugwort
+mustard
+mustard seed
+nettle
+nigella
+nutmeg
+onion powder
+oregano
+oregano mexican
+paprika
+parsley
+pennyroyal
+pepper
+peppercorn
+peppermint
+perilla
+pink pepper
+poppy seed
+rhodiola
+rosemary
+rue
+saffron
+sage
+savory
+sesame
+shiso
+sichuan pepper
+smoked paprika
+sorrel
+spearmint
+st john's wort
+star anise
+stevia
+sumac
+szechuan pepper
+tansy
+tarragon
+tea tree
+thyme
+tulsi
+turmeric
+valerian
+vanilla
+vervain
+wasabi
+watercress
+white pepper
+witch hazel
+wormwood
+yarrow
+za'atar
+zaatar

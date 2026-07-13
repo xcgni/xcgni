@@ -1,0 +1,51 @@
+{
+  "note": "Curated acknowledgments. Edit this file to add people. Categories are rendered in the order listed. Keep it honest - only real contributions.",
+  "groups": [
+    {
+      "key": "methodology",
+      "title": "Methodology contributors",
+      "blurb": "Proposed or refined the paradigms, scoring, or validity methods that make up a methodology version.",
+      "people": []
+    },
+    {
+      "key": "research",
+      "title": "Research & validation",
+      "blurb": "Helped with reliability, validity, or analysis of the instrument.",
+      "people": []
+    },
+    {
+      "key": "testers",
+      "title": "Testers",
+      "blurb": "Boot-tested builds, found bugs, and shaped the experience early.",
+      "people": [
+        {
+          "name": "Matea Berišić",
+          "note": "Alpha-phase tester - the finds behind v0.64.24: fluency honesty, the circles form fix, mobile fit.",
+          "link": "https://www.linkedin.com/in/matea-berišić-7b6363143"
+        },
+        {
+          "name": "Vladimir Anić",
+          "note": "Alpha-phase tester - boot-tested early builds and shaped the pre-launch experience.",
+          "link": "https://www.linkedin.com/in/vladimir-anić-12707b193"
+        },
+        {
+          "name": "Domagoj Špiranec",
+          "note": "Alpha-phase security tester - probed the pre-launch auth and hardening work.",
+          "link": "https://www.linkedin.com/in/domagoj-špiranec-239a3224b"
+        }
+      ]
+    },
+    {
+      "key": "supporters",
+      "title": "Supporters",
+      "blurb": "Backed the project, hosted instances, or helped it reach the people it's for.",
+      "people": []
+    },
+    {
+      "key": "code",
+      "title": "Code contributors",
+      "blurb": "Contributed to the open-source codebase.",
+      "people": []
+    }
+  ]
+}

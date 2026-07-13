@@ -1,0 +1,214 @@
+name: CI
+
+# Dependency-free unit suites + real-DB integration + build. On version tags the
+# pipeline additionally publishes the container image to GHCR and smoke-tests THAT
+# exact image against a live Postgres - so "tag pushed" means "deployable proven".
+# Trust model: GitHub holds no server-reaching credentials; the server pulls.
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Version consistency (VERSION == package.json)
+        run: |
+          V=$(cat VERSION)
+          P=$(node -p "require('./package.json').version")
+          echo "VERSION=$V package.json=$P"
+          [ "$V" = "$P" ] || { echo "::error::version drift"; exit 1; }
+      - name: Run all test suites
+        run: |
+          set -e
+          for t in tests/*.test.mjs; do
+            echo "=== $t ==="
+            node --experimental-strip-types "$t"
+          done
+      - name: Verify wordlists
+        run: node scripts/verify-wordlists.mjs
+
+  sast:
+    # Static analysis over the WHOLE tree (the external audit initially scanned only
+    # .github/ and the Dockerfile - this job closes that coverage gap). Advisory while
+    # the baseline is being confirmed; flips to blocking on ERROR severity after.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install semgrep
+        run: pip install --quiet semgrep
+      - name: Semgrep scan (full tree, no telemetry)
+        run: |
+          semgrep scan \
+            --config p/default \
+            --config p/typescript \
+            --config p/dockerfile \
+            --config p/github-actions \
+            --metrics=off \
+            --severity ERROR --severity WARNING \
+            --json --output semgrep-ci.json || true
+          python3 - << 'PY'
+          import json
+          d = json.load(open('semgrep-ci.json'))
+          res = d.get('results', [])
+          errs = [r for r in res if r.get('extra',{}).get('severity') == 'ERROR']
+          print(f"semgrep: {len(res)} findings ({len(errs)} ERROR)")
+          for r in res[:20]:
+              x = r.get('extra',{})
+              print(f"  [{x.get('severity','?')}] {r['check_id'].split('.')[-1]}  {r['path']}:{r.get('start',{}).get('line','?')}")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: semgrep-report
+          path: semgrep-ci.json
+
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package.json
+      - name: Install (lockfile-aware)
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+      - name: Svelte sync + build
+        run: npx svelte-kit sync && npm run build
+      - name: svelte-check (advisory until baseline is zero)
+        continue-on-error: true
+        run: npx svelte-check --output human-verbose || true
+
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: excogni
+          POSTGRES_PASSWORD: test
+          POSTGRES_DB: excogni
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U excogni"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgres://excogni:test@localhost:5432/excogni
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package.json
+      - name: Install (lockfile-aware)
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+      - name: Migrate
+        run: node scripts/migrate.mjs
+      - name: Attempt-flow integration test
+        run: node --experimental-strip-types --import ./tests-db/register.mjs tests-db/attempt-flow.test.mjs
+
+  publish:
+    # Only version tags publish an image; only a fully green ladder may publish.
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [test, build, integration]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      tag: ${{ steps.meta.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: meta
+        run: echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ghcr.io/xcgni/xcgni:${{ steps.meta.outputs.tag }}
+            ghcr.io/xcgni/xcgni:latest
+
+  smoke:
+    # Boot the JUST-PUBLISHED image against a real Postgres and hit it from outside.
+    # Catches the runtime-wiring class (template parse, missing locals, bad env) that
+    # unit tests structurally cannot.
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [publish]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: excogni
+          POSTGRES_PASSWORD: test
+          POSTGRES_DB: excogni
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U excogni"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run the published image
+        run: |
+          docker run -d --name app --network host \
+            -e DATABASE_URL=postgres://excogni:test@127.0.0.1:5432/excogni \
+            -e ORIGIN=http://127.0.0.1:3000 -e PORT=3000 \
+            ghcr.io/xcgni/xcgni:${GITHUB_REF_NAME}
+      - name: Wait for health
+        run: |
+          for i in $(seq 1 30); do
+            curl -fsS http://127.0.0.1:3000/api/health && exit 0
+            sleep 2
+          done
+          echo "::error::app never became healthy"; docker logs app; exit 1
+      - name: Smoke endpoints
+        run: |
+          set -e
+          jar=$(mktemp)
+          code() { curl -s -o /dev/null -w '%{http_code}' -b "$jar" -c "$jar" "$@"; }
+          h=$(code http://127.0.0.1:3000/);                 echo "/ -> $h";                 [ "$h" = "200" ]
+          h=$(code http://127.0.0.1:3000/statistics);       echo "/statistics -> $h";       [ "$h" = "200" ]
+          h=$(code -X POST -H 'content-type: application/json' -d '{}' http://127.0.0.1:3000/api/practice/next)
+          echo "/api/practice/next -> $h"; [ "$h" -lt 500 ]   # no 5xx on the core endpoint
+      - name: Logs on failure
+        if: failure()
+        run: docker logs app

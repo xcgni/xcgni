@@ -1,0 +1,6962 @@
+[
+  {
+    "bankKey": "in-L1-1",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-2",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-3",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-4",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-5",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-6",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-7",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-8",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-9",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-10",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-11",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-12",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-13",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-14",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-15",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-16",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-17",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-18",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-19",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-20",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-21",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-22",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-23",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L1-24",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 1,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 1800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-25",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-26",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-27",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-28",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-29",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-30",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-31",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-32",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-33",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-34",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-35",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-36",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-37",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-38",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-39",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-40",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-41",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-42",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-43",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-44",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-45",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-46",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-47",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L2-48",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 2,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-49",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-50",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-51",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-52",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-53",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-54",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-55",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-56",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-57",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-58",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-59",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-60",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-61",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-62",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-63",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-64",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-65",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-66",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-67",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-68",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-69",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-70",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-71",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L3-72",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 3,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-73",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-74",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-75",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-76",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-77",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-78",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-79",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-80",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-81",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-82",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-83",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-84",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-85",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-86",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-87",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-88",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-89",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-90",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-91",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-92",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-93",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-94",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-95",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L4-96",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 4,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-97",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-98",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-99",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-100",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-101",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-102",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-103",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-104",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-105",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-106",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-107",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-108",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-109",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-110",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-111",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-112",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-113",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-114",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-115",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-116",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-117",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-118",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-119",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L5-120",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 5,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-121",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-122",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-123",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-124",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-125",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-126",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-127",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-128",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-129",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-130",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-131",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-132",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-133",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-134",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-135",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-136",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-137",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-138",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-139",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-140",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-141",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-142",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-143",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L6-144",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 6,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3100,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-145",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-146",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-147",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-148",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-149",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-150",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-151",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-152",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-153",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-154",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-155",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-156",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-157",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-158",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-159",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-160",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-161",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-162",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-163",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-164",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-165",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-166",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-167",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L7-168",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 7,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3500,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-169",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-170",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-171",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-172",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-173",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-174",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-175",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-176",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-177",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-178",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-179",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-180",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-181",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-182",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-183",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-184",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-185",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-186",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-187",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-188",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-189",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-190",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-191",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L8-192",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 8,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3900,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-193",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-194",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-195",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-196",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-197",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-198",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-199",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-200",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-201",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-202",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-203",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-204",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-205",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-206",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-207",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-208",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-209",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-210",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-211",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-212",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-213",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-214",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-215",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L9-216",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 9,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-217",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-218",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-219",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-220",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-221",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-222",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "RED",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-223",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-224",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-225",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-226",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-227",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-228",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-229",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "YELLOW"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-230",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-231",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-232",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-233",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "BLUE",
+      "stimulusColor": "#2FC94E",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-234",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FFD21E",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-235",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "BLUE",
+        "GREEN"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-236",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "GREEN",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "GREEN",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-237",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 0,
+      "acceptedAnswers": [
+        "0"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-238",
+    "category": "inhibition",
+    "challengeType": "congruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "RED",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "BLUE",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-239",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#FF3B30",
+      "options": [
+        "YELLOW",
+        "RED"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "in-L10-240",
+    "category": "inhibition",
+    "challengeType": "incongruent",
+    "level": 10,
+    "rendererType": "two_choice",
+    "promptData": {
+      "instruction": "Pick the INK COLOR (ignore the word)",
+      "stimulus": "YELLOW",
+      "stimulusColor": "#3D7BFF",
+      "options": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    "answerData": {
+      "correctAnswer": 1,
+      "acceptedAnswers": [
+        "1"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  }
+]

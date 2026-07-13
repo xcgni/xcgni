@@ -1,0 +1,104 @@
+absinthe
+ale
+almond milk
+americano
+apple cider
+apple juice
+beer
+black tea
+bourbon
+brandy
+buttermilk
+cappuccino
+cava
+chai
+champagne
+chocolate
+cider
+cocktail
+cocoa
+coconut water
+coffee
+cognac
+cola
+cordial
+cranberry juice
+eggnog
+espresso
+fanta
+frappe
+gin
+ginger ale
+ginger beer
+gingerale
+grape juice
+green tea
+herbal tea
+horchata
+hot
+hot chocolate
+hotchocolate
+iced tea
+juice
+kefir
+kombucha
+lager
+latte
+lemonade
+limeade
+liqueur
+macchiato
+margarita
+martini
+matcha
+mead
+mezcal
+milk
+milkshake
+mineral water
+mocha
+mocktail
+mojito
+nectar
+negroni
+oat milk
+orange juice
+orangeade
+ouzo
+pilsner
+pop
+port
+porter
+prosecco
+punch
+rakija
+red wine
+root beer
+rose
+rum
+sake
+sangria
+schnapps
+scotch
+sherry
+smoothie
+soda
+soda water
+soju
+soy milk
+sparkling water
+sprite
+squash
+stout
+tea
+tequila
+tomato juice
+tonic
+tonic water
+vermouth
+vodka
+water
+whiskey
+whisky
+white wine
+wine

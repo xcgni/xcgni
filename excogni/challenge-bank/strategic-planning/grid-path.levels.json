@@ -1,0 +1,4682 @@
+[
+ {
+  "bankKey": "spg-L1-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···",
+    "S···",
+    "····",
+    "··T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···",
+    "S···",
+    "····",
+    "··T·"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L1-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···T",
+    "····",
+    "····",
+    "··S#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···T",
+    "····",
+    "····",
+    "··S#"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L1-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#T··",
+    "···S",
+    "····",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#T··",
+    "···S",
+    "····",
+    "····"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "····",
+    "#·T·",
+    "S···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "····",
+    "#·T·",
+    "S···"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·T··",
+    "····",
+    "·#··",
+    "S···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·T··",
+    "····",
+    "·#··",
+    "S···"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L1-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···T",
+    "····",
+    "#···",
+    "···S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···T",
+    "····",
+    "#···",
+    "···S"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "T···",
+    "···S",
+    "····",
+    "···#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "T···",
+    "···S",
+    "····",
+    "···#"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L1-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "····",
+    "T···",
+    "··S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "····",
+    "T···",
+    "··S·"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·T··",
+    "···S",
+    "··#·",
+    "···#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·T··",
+    "···S",
+    "··#·",
+    "···#"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··T·",
+    "·#··",
+    "····",
+    "···S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··T·",
+    "·#··",
+    "····",
+    "···S"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L1-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "T···",
+    "··#·",
+    "····",
+    "S··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "T···",
+    "··#·",
+    "····",
+    "S··#"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "····",
+    "···S",
+    "·T··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "····",
+    "···S",
+    "·T··"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L2-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·#",
+    "··S#",
+    "··#·",
+    "···T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·#",
+    "··S#",
+    "··#·",
+    "···T"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "·S·#",
+    "·#··",
+    "·T··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "·S·#",
+    "·#··",
+    "·T··"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "·S#·",
+    "··#T",
+    "···#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "·S#·",
+    "··#T",
+    "···#"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··S·",
+    "····",
+    "·#··",
+    "T··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··S·",
+    "····",
+    "·#··",
+    "T··#"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·T·",
+    "·##·",
+    "##S·",
+    "···#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·T·",
+    "·##·",
+    "##S·",
+    "···#"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·#",
+    "··T·",
+    "····",
+    "S·##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·#",
+    "··T·",
+    "····",
+    "S·##"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·#·",
+    "·#··",
+    "T#·S",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·#·",
+    "·#··",
+    "T#·S",
+    "····"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···",
+    "··T·",
+    "··#·",
+    "··S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···",
+    "··T·",
+    "··#·",
+    "··S·"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···T",
+    "···#",
+    "··#·",
+    "·S··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···T",
+    "···#",
+    "··#·",
+    "·S··"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "·#··",
+    "T#S·",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "·#··",
+    "T#S·",
+    "····"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#S··",
+    "···#",
+    "····",
+    "T·#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#S··",
+    "···#",
+    "····",
+    "T·#·"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··S#",
+    "····",
+    "····",
+    "·#·T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··S#",
+    "····",
+    "····",
+    "·#·T"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L3-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···##",
+    "·S···",
+    "·#··#",
+    "#····",
+    "T····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···##",
+    "·S···",
+    "·#··#",
+    "#····",
+    "T····"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L3-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····",
+    "·#···",
+    "····T",
+    "···#·",
+    "S····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····",
+    "·#···",
+    "····T",
+    "···#·",
+    "S····"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L3-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···",
+    "···T#",
+    "···#·",
+    "·····",
+    "···S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···",
+    "···T#",
+    "···#·",
+    "·····",
+    "···S·"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·S##·",
+    "·····",
+    "·#··#",
+    "#T··#",
+    "·#·#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·S##·",
+    "·····",
+    "·#··#",
+    "#T··#",
+    "·#·#·"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "###·#",
+    "·S·#·",
+    "·#···",
+    "··#··",
+    "·T···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "###·#",
+    "·S·#·",
+    "·#···",
+    "··#··",
+    "·T···"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···#·",
+    "·#···",
+    "S·#T·",
+    "·····",
+    "#··#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···#·",
+    "·#···",
+    "S·#T·",
+    "·····",
+    "#··#·"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··T··",
+    "··#··",
+    "#·##·",
+    "#··#S",
+    "····#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··T··",
+    "··#··",
+    "#·##·",
+    "#··#S",
+    "····#"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····",
+    "·#T#·",
+    "···#S",
+    "·····",
+    "#····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····",
+    "·#T#·",
+    "···#S",
+    "·····",
+    "#····"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····#",
+    "···T·",
+    "·#···",
+    "S#···",
+    "·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····#",
+    "···T·",
+    "·#···",
+    "S#···",
+    "·····"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····",
+    "·T···",
+    "·····",
+    "···#·",
+    "·#·S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····",
+    "·T···",
+    "·····",
+    "···#·",
+    "·#·S·"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#S··",
+    "##···",
+    "····#",
+    "·····",
+    "····T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#S··",
+    "##···",
+    "····#",
+    "·····",
+    "····T"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L3-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··T·#",
+    "·····",
+    "·····",
+    "·····",
+    "·S···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··T·#",
+    "·····",
+    "·····",
+    "·····",
+    "·S···"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L4-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·T···",
+    "#····",
+    "·····",
+    "#·#·S",
+    "····#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·T···",
+    "#····",
+    "·····",
+    "#·#·S",
+    "····#"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···##",
+    "#S··#",
+    "····#",
+    "·#··#",
+    "····T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···##",
+    "#S··#",
+    "····#",
+    "·#··#",
+    "····T"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···T·",
+    "#····",
+    "·····",
+    "#··#·",
+    "S·##·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···T·",
+    "#····",
+    "·····",
+    "#··#·",
+    "S·##·"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L4-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·T···",
+    "·#···",
+    "·····",
+    "····S",
+    "·#·##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·T···",
+    "·#···",
+    "·····",
+    "····S",
+    "·#·##"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···",
+    "····T",
+    "·····",
+    "····#",
+    "·S···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···",
+    "····T",
+    "·····",
+    "····#",
+    "·S···"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····",
+    "·##·S",
+    "#····",
+    "T·#··",
+    "·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····",
+    "·##·S",
+    "#····",
+    "T·#··",
+    "·····"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#S#·",
+    "·····",
+    "·····",
+    "·#···",
+    "##··T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#S#·",
+    "·····",
+    "·····",
+    "·#···",
+    "##··T"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "S··#T",
+    "·#···",
+    "··#·#",
+    "·#·##",
+    "·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "S··#T",
+    "·#···",
+    "··#·#",
+    "·#·##",
+    "·····"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "T#··#",
+    "·····",
+    "·##··",
+    "····S",
+    "##·#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "T#··#",
+    "·····",
+    "·##··",
+    "····S",
+    "##·#·"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L4-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····#",
+    "#·#·S",
+    "··##·",
+    "·T·#·",
+    "#·#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····#",
+    "#·#·S",
+    "··##·",
+    "·T·#·",
+    "#·#··"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L4-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··S#·",
+    "·····",
+    "·····",
+    "·····",
+    "···#T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··S#·",
+    "·····",
+    "·····",
+    "·····",
+    "···#T"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····",
+    "S#··#",
+    "·····",
+    "··#··",
+    "·#·T#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····",
+    "S#··#",
+    "·····",
+    "··#··",
+    "·#·T#"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L5-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····S",
+    "#··#·#",
+    "····#·",
+    "·T··#·",
+    "#····#",
+    "#·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····S",
+    "#··#·#",
+    "····#·",
+    "·T··#·",
+    "#····#",
+    "#·····"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "S·#··#",
+    "······",
+    "#·#··T",
+    "···###",
+    "#·#··#",
+    "··#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "S·#··#",
+    "······",
+    "#·#··T",
+    "···###",
+    "#·#··#",
+    "··#··#"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##···",
+    "·#·##·",
+    "······",
+    "··#T··",
+    "·##·#·",
+    "S#····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##···",
+    "·#·##·",
+    "······",
+    "··#T··",
+    "·##·#·",
+    "S#····"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#··S··",
+    "···#··",
+    "··#···",
+    "······",
+    "··T···",
+    "··#·##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#··S··",
+    "···#··",
+    "··#···",
+    "······",
+    "··T···",
+    "··#·##"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "······",
+    "#T·#··",
+    "······",
+    "······",
+    "··#···",
+    "··#·S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "······",
+    "#T·#··",
+    "······",
+    "······",
+    "··#···",
+    "··#·S·"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "······",
+    "····T·",
+    "·····#",
+    "#··#··",
+    "S·····",
+    "······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "······",
+    "····T·",
+    "·····#",
+    "#··#··",
+    "S·····",
+    "······"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··S···",
+    "······",
+    "##····",
+    "·#··##",
+    "······",
+    "#····T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··S···",
+    "······",
+    "##····",
+    "·#··##",
+    "······",
+    "#····T"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L5-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "······",
+    "S···#·",
+    "······",
+    "····#·",
+    "··#··#",
+    "···T··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "······",
+    "S···#·",
+    "······",
+    "····#·",
+    "··#··#",
+    "···T··"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "······",
+    "S···#·",
+    "··##··",
+    "#··#··",
+    "····#·",
+    "···T··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "······",
+    "S···#·",
+    "··##··",
+    "#··#··",
+    "····#·",
+    "···T··"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#·#·",
+    "·#····",
+    "S···#T",
+    "·····#",
+    "······",
+    "······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#·#·",
+    "·#····",
+    "S···#T",
+    "·····#",
+    "······",
+    "······"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·#·T",
+    "·#·#··",
+    "··#···",
+    "····#·",
+    "··#···",
+    "##·S·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·#·T",
+    "·#·#··",
+    "··#···",
+    "····#·",
+    "··#···",
+    "##·S·#"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···#T",
+    "·#·#··",
+    "······",
+    "S·#··#",
+    "·#····",
+    "··#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···#T",
+    "·#·#··",
+    "······",
+    "S·#··#",
+    "·#····",
+    "··#··#"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##··T",
+    "###·#·",
+    "#·#···",
+    "#·····",
+    "····#·",
+    "··S···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##··T",
+    "###·#·",
+    "#·#···",
+    "#·····",
+    "····#·",
+    "··S···"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#S···#",
+    "·#··#·",
+    "······",
+    "······",
+    "··#·#·",
+    "#·T·#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#S···#",
+    "·#··#·",
+    "······",
+    "······",
+    "··#·#·",
+    "#·T·#·"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#··#·",
+    "T·##··",
+    "·#····",
+    "·#·#·#",
+    "······",
+    "#·#··S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#··#·",
+    "T·##··",
+    "·#····",
+    "·#·#·#",
+    "······",
+    "#·#··S"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L6-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "······",
+    "······",
+    "T····#",
+    "##·##S",
+    "······",
+    "·#····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "······",
+    "······",
+    "T····#",
+    "##·##S",
+    "······",
+    "·#····"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#···",
+    "·#···S",
+    "····#·",
+    "·#····",
+    "#·····",
+    "#T····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#···",
+    "·#···S",
+    "····#·",
+    "·#····",
+    "#·····",
+    "#T····"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···S",
+    "··##·#",
+    "#····#",
+    "·····#",
+    "T#·#··",
+    "··#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···S",
+    "··##·#",
+    "#····#",
+    "·····#",
+    "T#·#··",
+    "··#···"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L6-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#····#",
+    "S···#·",
+    "#·····",
+    "#·###·",
+    "·····T",
+    "···#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#····#",
+    "S···#·",
+    "#·····",
+    "#·###·",
+    "·····T",
+    "···#··"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···#··",
+    "S·#·##",
+    "··#···",
+    "···#··",
+    "·#····",
+    "·#···T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···#··",
+    "S·#·##",
+    "··#···",
+    "···#··",
+    "·#····",
+    "·#···T"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L6-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "S·····",
+    "·#···#",
+    "··##··",
+    "##·T·#",
+    "··#···",
+    "······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "S·····",
+    "·#···#",
+    "··##··",
+    "##·T·#",
+    "··#···",
+    "······"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#T#··",
+    "···##·",
+    "·····#",
+    "##·#··",
+    "·#···#",
+    "·····S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#T#··",
+    "···##·",
+    "·····#",
+    "##·#··",
+    "·#···#",
+    "·····S"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "······",
+    "#··#·#",
+    "·····T",
+    "#··#·#",
+    "#·#·#·",
+    "··S···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "······",
+    "#··#·#",
+    "·····T",
+    "#··#·#",
+    "#·#·#·",
+    "··S···"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#··#··",
+    "····T·",
+    "·····#",
+    "···#··",
+    "·####·",
+    "S···##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#··#··",
+    "····T·",
+    "·····#",
+    "···#··",
+    "·####·",
+    "S···##"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L7-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#··#·",
+    "··#·#·#",
+    "·#··#··",
+    "##·····",
+    "T····#·",
+    "····#·S",
+    "··#··#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#··#·",
+    "··#·#·#",
+    "·#··#··",
+    "##·····",
+    "T····#·",
+    "····#·S",
+    "··#··#·"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···###",
+    "····#··",
+    "#······",
+    "···##·#",
+    "S#····#",
+    "#·····#",
+    "·····T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···###",
+    "····#··",
+    "#······",
+    "···##·#",
+    "S#····#",
+    "#·····#",
+    "·····T·"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··##··#",
+    "#·····#",
+    "·······",
+    "·······",
+    "·##··#S",
+    "···##··",
+    "T··#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··##··#",
+    "#·····#",
+    "·······",
+    "·······",
+    "·##··#S",
+    "···##··",
+    "T··#···"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L7-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#·###",
+    "·······",
+    "···#S··",
+    "···##·#",
+    "#····#·",
+    "T···#·#",
+    "·#·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#·###",
+    "·······",
+    "···#S··",
+    "···##·#",
+    "#····#·",
+    "T···#·#",
+    "·#·····"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#··T·",
+    "#······",
+    "·#·····",
+    "···#·#·",
+    "S····#·",
+    "·······",
+    "···#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#··T·",
+    "#······",
+    "·#·····",
+    "···#·#·",
+    "S····#·",
+    "·······",
+    "···#··#"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##····",
+    "·······",
+    "·#·····",
+    "#··##S·",
+    "##··#··",
+    "#··#··#",
+    "·T·#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##····",
+    "·······",
+    "·#·····",
+    "#··##S·",
+    "##··#··",
+    "#··#··#",
+    "·T·#···"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·S·##·",
+    "···##··",
+    "··#··#·",
+    "#··#··#",
+    "##·····",
+    "·······",
+    "··#·T·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·S·##·",
+    "···##··",
+    "··#··#·",
+    "#··#··#",
+    "##·····",
+    "·······",
+    "··#·T·#"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L7-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···#··#",
+    "·S·###·",
+    "····#··",
+    "·······",
+    "##·#···",
+    "·····#·",
+    "·##··T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···#··#",
+    "·S·###·",
+    "····#··",
+    "·······",
+    "##·#···",
+    "·····#·",
+    "·##··T·"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##····",
+    "··#··S·",
+    "##····#",
+    "······#",
+    "·#·#·#·",
+    "····#·#",
+    "T··#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##····",
+    "··#··S·",
+    "##····#",
+    "······#",
+    "·#·#·#·",
+    "····#·#",
+    "T··#··#"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L7-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#S·#···",
+    "#····#·",
+    "#··#·#T",
+    "···#···",
+    "#······",
+    "··#·###",
+    "·····#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#S·#···",
+    "#····#·",
+    "#··#·#T",
+    "···#···",
+    "#······",
+    "··#·###",
+    "·····#·"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·······",
+    "····T·#",
+    "·······",
+    "·····#·",
+    "··#····",
+    "··##···",
+    "··S·#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·······",
+    "····T·#",
+    "·······",
+    "·····#·",
+    "··#····",
+    "··##···",
+    "··S·#··"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····#T#",
+    "···#··#",
+    "··#···#",
+    "#···#··",
+    "···#·#·",
+    "#······",
+    "#·S····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····#T#",
+    "···#··#",
+    "··#···#",
+    "#···#··",
+    "···#·#·",
+    "#······",
+    "#·S····"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L8-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····S·",
+    "·#·····",
+    "··##·#·",
+    "#··##·#",
+    "#T#··#·",
+    "##····#",
+    "··#·#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····S·",
+    "·#·····",
+    "··##·#·",
+    "#··##·#",
+    "#T#··#·",
+    "##····#",
+    "··#·#··"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "##····T",
+    "#····#·",
+    "··#···#",
+    "#·····#",
+    "···#·#·",
+    "·S·##··",
+    "#···#·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "##····T",
+    "#····#·",
+    "··#···#",
+    "#·····#",
+    "···#·#·",
+    "·S·##··",
+    "#···#·#"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#··#··#",
+    "·····#·",
+    "S··#···",
+    "·#····#",
+    "·#·····",
+    "#·###··",
+    "····T··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#··#··#",
+    "·····#·",
+    "S··#···",
+    "·#····#",
+    "·#·····",
+    "#·###··",
+    "····T··"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·······",
+    "##····T",
+    "····#·#",
+    "·#··###",
+    "·###···",
+    "··S··#·",
+    "···#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·······",
+    "##····T",
+    "····#·#",
+    "·#··###",
+    "·###···",
+    "··S··#·",
+    "···#··#"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L8-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·······",
+    "·····##",
+    "S·#···#",
+    "##·····",
+    "·······",
+    "······T",
+    "·#·###·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·······",
+    "·····##",
+    "S·#···#",
+    "##·····",
+    "·······",
+    "······T",
+    "·#·###·"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L8-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#··#··",
+    "·#·····",
+    "···#·#T",
+    "·#·····",
+    "S#···#·",
+    "·#···#·",
+    "#··#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#··#··",
+    "·#·····",
+    "···#·#T",
+    "·#·····",
+    "S#···#·",
+    "·#···#·",
+    "#··#··#"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "S······",
+    "··#·##·",
+    "###···#",
+    "####···",
+    "···#···",
+    "·#·····",
+    "····T··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "S······",
+    "··#·##·",
+    "###···#",
+    "####···",
+    "···#···",
+    "·#·····",
+    "····T··"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#··S···",
+    "#·#·#··",
+    "··#··#·",
+    "##·##··",
+    "···###·",
+    "···#···",
+    "··#··T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#··S···",
+    "#·#·#··",
+    "··#··#·",
+    "##·##··",
+    "···###·",
+    "···#···",
+    "··#··T·"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##·T#·",
+    "····#··",
+    "·····#·",
+    "#·#··#·",
+    "·##··#·",
+    "#··#··#",
+    "·S···##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##·T#·",
+    "····#··",
+    "·····#·",
+    "#·#··#·",
+    "·##··#·",
+    "#··#··#",
+    "·S···##"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L8-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "T···#··",
+    "·····#·",
+    "·······",
+    "#·#·#··",
+    "··#····",
+    "·····S·",
+    "#··#·##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "T···#··",
+    "·····#·",
+    "·······",
+    "#·#·#··",
+    "··#····",
+    "·····S·",
+    "#··#·##"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·····#",
+    "·····##",
+    "·····#·",
+    "·#·#··T",
+    "··##··#",
+    "S·#·##·",
+    "##··#·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·····#",
+    "·····##",
+    "·····#·",
+    "·#·#··T",
+    "··##··#",
+    "S·#·##·",
+    "##··#·#"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·#··#",
+    "··#··#·",
+    "##·##·S",
+    "#···#··",
+    "#··#···",
+    "·T#····",
+    "#····#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·#··#",
+    "··#··#·",
+    "##·##·S",
+    "#···#··",
+    "#··#···",
+    "·T#····",
+    "#····#·"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L9-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·····#",
+    "T###····",
+    "··#···#·",
+    "·##····S",
+    "··#··##·",
+    "·····#··",
+    "······#·",
+    "###·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·····#",
+    "T###····",
+    "··#···#·",
+    "·##····S",
+    "··#··##·",
+    "·····#··",
+    "······#·",
+    "###·····"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L9-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#··##··#",
+    "·······S",
+    "···#····",
+    "···#·#·#",
+    "········",
+    "#······#",
+    "········",
+    "··T·#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#··##··#",
+    "·······S",
+    "···#····",
+    "···#·#·#",
+    "········",
+    "#······#",
+    "········",
+    "··T·#···"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L9-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···##T··",
+    "#····#··",
+    "·#·····#",
+    "##··##··",
+    "###·#·#·",
+    "········",
+    "·····#·#",
+    "·S·#·#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···##T··",
+    "#····#··",
+    "·#·····#",
+    "##··##··",
+    "###·#·#·",
+    "········",
+    "·····#·#",
+    "·S·#·#··"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L9-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "S···#···",
+    "··#···##",
+    "········",
+    "···#····",
+    "········",
+    "···#·#·T",
+    "#····#··",
+    "##·#····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "S···#···",
+    "··#···##",
+    "········",
+    "···#····",
+    "········",
+    "···#·#·T",
+    "#····#··",
+    "##·#····"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L9-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "T···#·#·",
+    "#·······",
+    "·###···#",
+    "###·#···",
+    "······##",
+    "·#·#··#·",
+    "···S·#·#",
+    "·###·##·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "T···#·#·",
+    "#·······",
+    "·###···#",
+    "###·#···",
+    "······##",
+    "·#·#··#·",
+    "···S·#·#",
+    "·###·##·"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L9-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····T###",
+    "······#·",
+    "###·····",
+    "#·##····",
+    "········",
+    "#··###··",
+    "··#··#··",
+    "S····#·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····T###",
+    "······#·",
+    "###·····",
+    "#·##····",
+    "········",
+    "#··###··",
+    "··#··#··",
+    "S····#·#"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L9-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··##·#··",
+    "··#···#S",
+    "·#···#··",
+    "········",
+    "··#·#··#",
+    "····#·##",
+    "###·····",
+    "·T······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··##·#··",
+    "··#···#S",
+    "·#···#··",
+    "········",
+    "··#·#··#",
+    "····#·##",
+    "###·····",
+    "·T······"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L9-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·S···##",
+    "···#···#",
+    "··#··#··",
+    "··#·#···",
+    "·##···##",
+    "#···#···",
+    "·##···#·",
+    "T···#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·S···##",
+    "···#···#",
+    "··#··#··",
+    "··#·#···",
+    "·##···##",
+    "#···#···",
+    "·##···#·",
+    "T···#···"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L9-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·#··S·",
+    "··##·#··",
+    "··###··#",
+    "··#····#",
+    "···#····",
+    "·#·#··#·",
+    "······#·",
+    "T·##····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·#··S·",
+    "··##·#··",
+    "··###··#",
+    "··#····#",
+    "···#····",
+    "·#·#··#·",
+    "······#·",
+    "T·##····"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L9-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·S··##",
+    "#···#··#",
+    "##·#····",
+    "#··#····",
+    "··####·#",
+    "········",
+    "·#··###·",
+    "#·#·#·T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·S··##",
+    "#···#··#",
+    "##·#····",
+    "#··#····",
+    "··####·#",
+    "········",
+    "·#··###·",
+    "#·#·#·T·"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L9-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·······S",
+    "········",
+    "····#·##",
+    "·###···#",
+    "####····",
+    "··#·····",
+    "·T······",
+    "····##··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·······S",
+    "········",
+    "····#·##",
+    "·###···#",
+    "####····",
+    "··#·····",
+    "·T······",
+    "····##··"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L9-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·······#",
+    "··T····#",
+    "·#·#····",
+    "····#···",
+    "···#····",
+    "········",
+    "#···#···",
+    "···##··S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·······#",
+    "··T····#",
+    "·#·#····",
+    "····#···",
+    "···#····",
+    "········",
+    "#···#···",
+    "···##··S"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L10-1",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·#···##",
+    "··###·T#",
+    "········",
+    "#·······",
+    "········",
+    "·##··#·#",
+    "···#···#",
+    "S·#··#·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·#···##",
+    "··###·T#",
+    "········",
+    "#·······",
+    "········",
+    "·##··#·#",
+    "···#···#",
+    "S·#··#·#"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L10-2",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·S#···#",
+    "##······",
+    "········",
+    "······#·",
+    "###··#··",
+    "··##·##·",
+    "·##·#·#·",
+    "·#··#·T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·S#···#",
+    "##······",
+    "········",
+    "······#·",
+    "###··#··",
+    "··##·##·",
+    "·##·#·#·",
+    "·#··#·T·"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L10-3",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "##··#·#·",
+    "S#····#·",
+    "·##·##··",
+    "····###·",
+    "········",
+    "#·······",
+    "···##·#T",
+    "·#··#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "##··#·#·",
+    "S#····#·",
+    "·##·##··",
+    "····###·",
+    "········",
+    "#·······",
+    "···##·#T",
+    "·#··#···"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L10-4",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···##T",
+    "···#····",
+    "·#····##",
+    "·#···##·",
+    "······#·",
+    "··###··#",
+    "·#·#····",
+    "S·#·##··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···##T",
+    "···#····",
+    "·#····##",
+    "·#···##·",
+    "······#·",
+    "··###··#",
+    "·#·#····",
+    "S·#·##··"
+   ],
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "spg-L10-5",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#S··#·#·",
+    "#·#·#·##",
+    "#······#",
+    "····##··",
+    "####···#",
+    "#·#·#···",
+    "······#T",
+    "#··#·#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#S··#·#·",
+    "#·#·#·##",
+    "#······#",
+    "····##··",
+    "####···#",
+    "#·#·#···",
+    "······#T",
+    "#··#·#··"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L10-6",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····#··#",
+    "·······#",
+    "#·#·#··S",
+    "#·####··",
+    "#·##····",
+    "#··#·#··",
+    "#··###··",
+    "··T#·#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····#··#",
+    "·······#",
+    "#·#·#··S",
+    "#·####··",
+    "#·##····",
+    "#··#·#··",
+    "#··###··",
+    "··T#·#··"
+   ],
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "spg-L10-7",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···##··",
+    "···#···#",
+    "T#····##",
+    "··#···#·",
+    "#·##····",
+    "#·······",
+    "·······#",
+    "··#····S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···##··",
+    "···#···#",
+    "T#····##",
+    "··#···#·",
+    "#·##····",
+    "#·······",
+    "·······#",
+    "··#····S"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L10-8",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#·#··#",
+    "·#·##T··",
+    "#····#·#",
+    "·······#",
+    "#·#···#·",
+    "····##··",
+    "···##·#·",
+    "S·······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#·#··#",
+    "·#·##T··",
+    "#····#·#",
+    "·······#",
+    "#·#···#·",
+    "····##··",
+    "···##·#·",
+    "S·······"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L10-9",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···#··",
+    "··#···T#",
+    "#··#··#·",
+    "···#····",
+    "·#·····#",
+    "···#····",
+    "#·······",
+    "S·······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···#··",
+    "··#···T#",
+    "#··#··#·",
+    "···#····",
+    "·#·····#",
+    "···#····",
+    "#·······",
+    "S·······"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L10-10",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#··#·#·",
+    "S##·###·",
+    "·····#··",
+    "··###···",
+    "#······#",
+    "·#·#·#··",
+    "·#·#·##·",
+    "·#··##·T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#··#·#·",
+    "S##·###·",
+    "·····#··",
+    "··###···",
+    "#······#",
+    "·#·#·#··",
+    "·#·#·##·",
+    "·#··##·T"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L10-11",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··##··S·",
+    "#·#·##··",
+    "···#·#··",
+    "····#···",
+    "#·······",
+    "····##··",
+    "T··#·#··",
+    "·##·#·#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··##··S·",
+    "#·#·##··",
+    "···#·#··",
+    "····#···",
+    "#·······",
+    "····##··",
+    "T··#·#··",
+    "·##·#·#·"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L10-12",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···#···",
+    "·····#T#",
+    "··#·····",
+    "·#···#··",
+    "#···#·#·",
+    "·#··#·#·",
+    "·#·#····",
+    "S····##·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···#···",
+    "·····#T#",
+    "··#·····",
+    "·#···#··",
+    "#···#·#·",
+    "·#··#·#·",
+    "·#·#····",
+    "S····##·"
+   ],
+   "optimalMoves": 12
+  }
+ }
+]

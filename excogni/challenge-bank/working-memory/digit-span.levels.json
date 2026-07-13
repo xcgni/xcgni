@@ -1,0 +1,6482 @@
+[
+  {
+    "bankKey": "wm-span-L1-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 7 6",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "576",
+      "acceptedAnswers": [
+        "576"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 9 5",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "395",
+      "acceptedAnswers": [
+        "395"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 5 8",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "358",
+      "acceptedAnswers": [
+        "358"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 9 8",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "898",
+      "acceptedAnswers": [
+        "898"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 8 2",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "282",
+      "acceptedAnswers": [
+        "282"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 4 8",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "748",
+      "acceptedAnswers": [
+        "748"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 2 5",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "525",
+      "acceptedAnswers": [
+        "525"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 6 5",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "265",
+      "acceptedAnswers": [
+        "265"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 2 8",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "728",
+      "acceptedAnswers": [
+        "728"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 2 8",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "428",
+      "acceptedAnswers": [
+        "428"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 2 1",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "321",
+      "acceptedAnswers": [
+        "321"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 9 7",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "397",
+      "acceptedAnswers": [
+        "397"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 2 3",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "423",
+      "acceptedAnswers": [
+        "423"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 8 3",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "183",
+      "acceptedAnswers": [
+        "183"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 5 1",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "951",
+      "acceptedAnswers": [
+        "951"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 9 7",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "797",
+      "acceptedAnswers": [
+        "797"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 9 8",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "698",
+      "acceptedAnswers": [
+        "698"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 3 1",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "231",
+      "acceptedAnswers": [
+        "231"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 5 4",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "854",
+      "acceptedAnswers": [
+        "854"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L1-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 1,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 5 6",
+      "displayMs": 2400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "956",
+      "acceptedAnswers": [
+        "956"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2260,
+      "displayMs": 2400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 9 7 3",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6973",
+      "acceptedAnswers": [
+        "6973"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 1 7 3",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5173",
+      "acceptedAnswers": [
+        "5173"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 3 9 5",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8395",
+      "acceptedAnswers": [
+        "8395"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 2 7 6",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6276",
+      "acceptedAnswers": [
+        "6276"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 4 2 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6424",
+      "acceptedAnswers": [
+        "6424"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 4 9 6",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8496",
+      "acceptedAnswers": [
+        "8496"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 4 1 8",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7418",
+      "acceptedAnswers": [
+        "7418"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 5 4 1",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "2541",
+      "acceptedAnswers": [
+        "2541"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 8 1",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "1381",
+      "acceptedAnswers": [
+        "1381"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 1 7 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5174",
+      "acceptedAnswers": [
+        "5174"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 1 8 1",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6181",
+      "acceptedAnswers": [
+        "6181"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 2 5 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5254",
+      "acceptedAnswers": [
+        "5254"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 1 4 9",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6149",
+      "acceptedAnswers": [
+        "6149"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 7 3 7",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5737",
+      "acceptedAnswers": [
+        "5737"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 7 3 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8734",
+      "acceptedAnswers": [
+        "8734"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 2 8 5",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "1285",
+      "acceptedAnswers": [
+        "1285"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 1 2 1",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "4121",
+      "acceptedAnswers": [
+        "4121"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 7 3 9",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6739",
+      "acceptedAnswers": [
+        "6739"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 9 6 1",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "4961",
+      "acceptedAnswers": [
+        "4961"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L2-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 2,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 8 7 2",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "3872",
+      "acceptedAnswers": [
+        "3872"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 5 6 8",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "9568",
+      "acceptedAnswers": [
+        "9568"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 2 9 8",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "3298",
+      "acceptedAnswers": [
+        "3298"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 1 6 3",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8163",
+      "acceptedAnswers": [
+        "8163"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 7 4 5",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5745",
+      "acceptedAnswers": [
+        "5745"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 5 8 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7584",
+      "acceptedAnswers": [
+        "7584"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 7 3 8",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6738",
+      "acceptedAnswers": [
+        "6738"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 2 9 6",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8296",
+      "acceptedAnswers": [
+        "8296"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 4 3 6",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "9436",
+      "acceptedAnswers": [
+        "9436"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 8 4 3",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6843",
+      "acceptedAnswers": [
+        "6843"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 5 3 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8534",
+      "acceptedAnswers": [
+        "8534"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 5 6 5",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6565",
+      "acceptedAnswers": [
+        "6565"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 2 7 8",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5278",
+      "acceptedAnswers": [
+        "5278"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 7 8 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5784",
+      "acceptedAnswers": [
+        "5784"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 4 1 9",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7419",
+      "acceptedAnswers": [
+        "7419"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 3 5 1",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7351",
+      "acceptedAnswers": [
+        "7351"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 7 8 1",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "9781",
+      "acceptedAnswers": [
+        "9781"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 7 1 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "2714",
+      "acceptedAnswers": [
+        "2714"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 9 3 4",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "3934",
+      "acceptedAnswers": [
+        "3934"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 9 8 3",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "2983",
+      "acceptedAnswers": [
+        "2983"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L3-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 3,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 5 9 7",
+      "displayMs": 3000,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6597",
+      "acceptedAnswers": [
+        "6597"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2580,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 2 8 4 6",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "12846",
+      "acceptedAnswers": [
+        "12846"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 1 2 4 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "41248",
+      "acceptedAnswers": [
+        "41248"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 9 7 4 3",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "29743",
+      "acceptedAnswers": [
+        "29743"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 3 6 2 9",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "93629",
+      "acceptedAnswers": [
+        "93629"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 8 3 8 5",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "98385",
+      "acceptedAnswers": [
+        "98385"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 5 6 5 2",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "45652",
+      "acceptedAnswers": [
+        "45652"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 1 6 2 1",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "91621",
+      "acceptedAnswers": [
+        "91621"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 9 4 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "13948",
+      "acceptedAnswers": [
+        "13948"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 2 7 4 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "42748",
+      "acceptedAnswers": [
+        "42748"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 3 1 3 1",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "23131",
+      "acceptedAnswers": [
+        "23131"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 3 5 6 4",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "93564",
+      "acceptedAnswers": [
+        "93564"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 5 4 3 5",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "15435",
+      "acceptedAnswers": [
+        "15435"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 4 2 6 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "24268",
+      "acceptedAnswers": [
+        "24268"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 1 7 5 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "61758",
+      "acceptedAnswers": [
+        "61758"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 4 7 6 5",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "54765",
+      "acceptedAnswers": [
+        "54765"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 8 1 4 5",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "78145",
+      "acceptedAnswers": [
+        "78145"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 8 9 1",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "13891",
+      "acceptedAnswers": [
+        "13891"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 7 6 3 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "47638",
+      "acceptedAnswers": [
+        "47638"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 2 4 7 5",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "52475",
+      "acceptedAnswers": [
+        "52475"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L4-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 4,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 9 5 8 9",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "59589",
+      "acceptedAnswers": [
+        "59589"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 3 9 6 3",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "93963",
+      "acceptedAnswers": [
+        "93963"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 4 3 9 4",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "84394",
+      "acceptedAnswers": [
+        "84394"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 8 6 1 5",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "38615",
+      "acceptedAnswers": [
+        "38615"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 2 6 9 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "42698",
+      "acceptedAnswers": [
+        "42698"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 1 6 5 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "51658",
+      "acceptedAnswers": [
+        "51658"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 9 4 1",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "13941",
+      "acceptedAnswers": [
+        "13941"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 6 3 6 4",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "96364",
+      "acceptedAnswers": [
+        "96364"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 4 2 3 6",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "64236",
+      "acceptedAnswers": [
+        "64236"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 2 9 5 9",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "82959",
+      "acceptedAnswers": [
+        "82959"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 3 4 2 6",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "23426",
+      "acceptedAnswers": [
+        "23426"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 9 1 4 2",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "29142",
+      "acceptedAnswers": [
+        "29142"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 8 2 6 7",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "38267",
+      "acceptedAnswers": [
+        "38267"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 6 8 1 4",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "26814",
+      "acceptedAnswers": [
+        "26814"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 3 8 4 5",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "53845",
+      "acceptedAnswers": [
+        "53845"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 9 7 1",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "13971",
+      "acceptedAnswers": [
+        "13971"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 5 6 5 8",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "35658",
+      "acceptedAnswers": [
+        "35658"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 3 8 5 1",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "93851",
+      "acceptedAnswers": [
+        "93851"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 8 1 6 4",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "98164",
+      "acceptedAnswers": [
+        "98164"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 8 3 5 2",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "78352",
+      "acceptedAnswers": [
+        "78352"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L5-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 5,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 3 6 3 6",
+      "displayMs": 3600,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "43636",
+      "acceptedAnswers": [
+        "43636"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 2900,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 9 5 7 2 7",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "495727",
+      "acceptedAnswers": [
+        "495727"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 3 5 8 4 7",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "535847",
+      "acceptedAnswers": [
+        "535847"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 4 7 3 2 1",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "647321",
+      "acceptedAnswers": [
+        "647321"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 7 1 5 4 7",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "171547",
+      "acceptedAnswers": [
+        "171547"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 5 2 4 2 8",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "252428",
+      "acceptedAnswers": [
+        "252428"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 4 7 8 7 5",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "847875",
+      "acceptedAnswers": [
+        "847875"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 2 6 2 7 2",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "326272",
+      "acceptedAnswers": [
+        "326272"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 8 3 1 5 4",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "483154",
+      "acceptedAnswers": [
+        "483154"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 6 3 9 2 7",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "263927",
+      "acceptedAnswers": [
+        "263927"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 5 6 3 4 9",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "156349",
+      "acceptedAnswers": [
+        "156349"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 6 8 1 9 6",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "468196",
+      "acceptedAnswers": [
+        "468196"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 4 1 6 8 4",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "241684",
+      "acceptedAnswers": [
+        "241684"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 4 1 3 8 2",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "141382",
+      "acceptedAnswers": [
+        "141382"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 1 8 9 6 2",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "418962",
+      "acceptedAnswers": [
+        "418962"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 2 1 2 4 7",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "421247",
+      "acceptedAnswers": [
+        "421247"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 5 1 7 2",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "135172",
+      "acceptedAnswers": [
+        "135172"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 4 6 2 5 4",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "746254",
+      "acceptedAnswers": [
+        "746254"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 9 3 6 4 2",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "593642",
+      "acceptedAnswers": [
+        "593642"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 2 9 5 2 6",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "729526",
+      "acceptedAnswers": [
+        "729526"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L6-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 6,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 7 8 4 3 7",
+      "displayMs": 4200,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "978437",
+      "acceptedAnswers": [
+        "978437"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3220,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 1 2 7 5 2 3",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "2127523",
+      "acceptedAnswers": [
+        "2127523"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 8 7 4 7 3 9",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "3874739",
+      "acceptedAnswers": [
+        "3874739"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 3 5 2 6 9 3",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5352693",
+      "acceptedAnswers": [
+        "5352693"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 4 7 9 2 6 3",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8479263",
+      "acceptedAnswers": [
+        "8479263"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 7 3 1 3 5 4",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8731354",
+      "acceptedAnswers": [
+        "8731354"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 6 9 6 8 4 5",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "1696845",
+      "acceptedAnswers": [
+        "1696845"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 9 6 3 6 4 9",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6963649",
+      "acceptedAnswers": [
+        "6963649"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 8 6 5 6 8 3",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "5865683",
+      "acceptedAnswers": [
+        "5865683"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 4 3 1 6 5 9",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8431659",
+      "acceptedAnswers": [
+        "8431659"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 1 4 5 6 7 6",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8145676",
+      "acceptedAnswers": [
+        "8145676"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 6 2 5 7 9 4",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "4625794",
+      "acceptedAnswers": [
+        "4625794"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 4 3 1 8 3 4",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "8431834",
+      "acceptedAnswers": [
+        "8431834"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 1 5 8 5 7 1",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7158571",
+      "acceptedAnswers": [
+        "7158571"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 4 3 7 8 9 2",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7437892",
+      "acceptedAnswers": [
+        "7437892"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 3 1 7 3 7 9",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6317379",
+      "acceptedAnswers": [
+        "6317379"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 3 8 6 9 6 3",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7386963",
+      "acceptedAnswers": [
+        "7386963"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 2 6 5 3 1 7",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "4265317",
+      "acceptedAnswers": [
+        "4265317"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 8 4 6 5 4 5",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "7846545",
+      "acceptedAnswers": [
+        "7846545"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 7 9 1 5 8 1",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "2791581",
+      "acceptedAnswers": [
+        "2791581"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L7-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 7,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 9 6 1 3 1 8",
+      "displayMs": 4800,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "6961318",
+      "acceptedAnswers": [
+        "6961318"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3540,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 6 9 4 3 4 5 3",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "16943453",
+      "acceptedAnswers": [
+        "16943453"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 2 8 2 3 9 1 3",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "92823913",
+      "acceptedAnswers": [
+        "92823913"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 5 2 7 4 1 9 5",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "15274195",
+      "acceptedAnswers": [
+        "15274195"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 3 1 6 3 4 7 6",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "83163476",
+      "acceptedAnswers": [
+        "83163476"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 7 9 4 8 7 6 8",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "17948768",
+      "acceptedAnswers": [
+        "17948768"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 5 3 6 9 4 2 7",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "45369427",
+      "acceptedAnswers": [
+        "45369427"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 7 6 7 6 9 8 6",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "47676986",
+      "acceptedAnswers": [
+        "47676986"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 2 3 4 2 8 6 8",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "82342868",
+      "acceptedAnswers": [
+        "82342868"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 6 9 7 2 5 1 3",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "56972513",
+      "acceptedAnswers": [
+        "56972513"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 9 2 5 3 8 2 6",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "79253826",
+      "acceptedAnswers": [
+        "79253826"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 1 4 9 8 1 9 5",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "51498195",
+      "acceptedAnswers": [
+        "51498195"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 2 7 8 5 9 7 3",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "62785973",
+      "acceptedAnswers": [
+        "62785973"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 4 5 2 3 4 6 5",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "24523465",
+      "acceptedAnswers": [
+        "24523465"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 7 3 5 7 4 8 3",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "47357483",
+      "acceptedAnswers": [
+        "47357483"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 9 5 1 9 2 1 8",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "19519218",
+      "acceptedAnswers": [
+        "19519218"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 6 9 2 5 1 6 2",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "86925162",
+      "acceptedAnswers": [
+        "86925162"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 8 4 7 8 5 2 6",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "78478526",
+      "acceptedAnswers": [
+        "78478526"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 4 3 5 9 5 9 3",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "34359593",
+      "acceptedAnswers": [
+        "34359593"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 4 5 9 5 9 6 9",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "24595969",
+      "acceptedAnswers": [
+        "24595969"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L8-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 8,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 3 6 8 4 1 3 8",
+      "displayMs": 5400,
+      "mode": "forward",
+      "instruction": "Type the digits in the order shown."
+    },
+    "answerData": {
+      "correctAnswer": "63684138",
+      "acceptedAnswers": [
+        "63684138"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3860,
+      "displayMs": 5400,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 4 6 3",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "3647",
+      "acceptedAnswers": [
+        "3647"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 2 9 6",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "6923",
+      "acceptedAnswers": [
+        "6923"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 6 7 2",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "2761",
+      "acceptedAnswers": [
+        "2761"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 5 6 2",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "2651",
+      "acceptedAnswers": [
+        "2651"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 3 7 6",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "6738",
+      "acceptedAnswers": [
+        "6738"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 9 5 8",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "8591",
+      "acceptedAnswers": [
+        "8591"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 1 4 3",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "3415",
+      "acceptedAnswers": [
+        "3415"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 4 1 4",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "4149",
+      "acceptedAnswers": [
+        "4149"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 9 4 6",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "6496",
+      "acceptedAnswers": [
+        "6496"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 4 3 5",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "5346",
+      "acceptedAnswers": [
+        "5346"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 1 8 2",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "2812",
+      "acceptedAnswers": [
+        "2812"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 1 9 6",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "6915",
+      "acceptedAnswers": [
+        "6915"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 8 5 3",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "3583",
+      "acceptedAnswers": [
+        "3583"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 6 9 6",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "6963",
+      "acceptedAnswers": [
+        "6963"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 5 7 1",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "1756",
+      "acceptedAnswers": [
+        "1756"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 2 1 9",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9127",
+      "acceptedAnswers": [
+        "9127"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 5 8 9",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9852",
+      "acceptedAnswers": [
+        "9852"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 8 4 2",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "2481",
+      "acceptedAnswers": [
+        "2481"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 1 5 9",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9512",
+      "acceptedAnswers": [
+        "9512"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L9-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 9,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 2 6 9",
+      "displayMs": 3000,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9623",
+      "acceptedAnswers": [
+        "9623"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 3600,
+      "displayMs": 3000,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 5 2 4 6",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "64254",
+      "acceptedAnswers": [
+        "64254"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 6 5 2 7",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "72569",
+      "acceptedAnswers": [
+        "72569"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 6 2 5 9",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "95269",
+      "acceptedAnswers": [
+        "95269"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 5 4 8 6",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "68457",
+      "acceptedAnswers": [
+        "68457"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 6 3 2 9",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "92364",
+      "acceptedAnswers": [
+        "92364"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 7 4 9 5",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "59471",
+      "acceptedAnswers": [
+        "59471"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 1 9 2 5",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "52915",
+      "acceptedAnswers": [
+        "52915"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 3 8 7 1",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "17836",
+      "acceptedAnswers": [
+        "17836"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 6 5 7 3",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "37564",
+      "acceptedAnswers": [
+        "37564"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 9 7 1 7",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "71793",
+      "acceptedAnswers": [
+        "71793"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 4 8 6 2",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "26845",
+      "acceptedAnswers": [
+        "26845"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 9 4 8 1",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "18496",
+      "acceptedAnswers": [
+        "18496"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 1 2 7 4",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "47217",
+      "acceptedAnswers": [
+        "47217"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 7 5 3 9",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "93574",
+      "acceptedAnswers": [
+        "93574"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 7 1 8 4",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "48172",
+      "acceptedAnswers": [
+        "48172"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 2 3 6 5",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "56329",
+      "acceptedAnswers": [
+        "56329"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 5 3 2 7",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "72358",
+      "acceptedAnswers": [
+        "72358"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 6 2 4 6",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "64267",
+      "acceptedAnswers": [
+        "64267"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 5 1 8 6",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "68151",
+      "acceptedAnswers": [
+        "68151"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L10-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 10,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 2 5 9 7",
+      "displayMs": 3600,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "79526",
+      "acceptedAnswers": [
+        "79526"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4050,
+      "displayMs": 3600,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 9 8 7 1 5",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "517892",
+      "acceptedAnswers": [
+        "517892"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 3 9 2 1 6",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "612939",
+      "acceptedAnswers": [
+        "612939"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 4 2 8 5 3",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "358246",
+      "acceptedAnswers": [
+        "358246"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 2 7 3 5 6",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "653729",
+      "acceptedAnswers": [
+        "653729"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 2 7 6 3 6",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "636723",
+      "acceptedAnswers": [
+        "636723"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 2 1 3 7 1",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "173129",
+      "acceptedAnswers": [
+        "173129"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 6 7 6 1 7",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "716768",
+      "acceptedAnswers": [
+        "716768"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 3 6 8 7 9",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "978634",
+      "acceptedAnswers": [
+        "978634"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 4 8 9 1 9",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "919845",
+      "acceptedAnswers": [
+        "919845"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 2 3 1 6 9",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "961321",
+      "acceptedAnswers": [
+        "961321"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 6 8 2 4 1",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "142869",
+      "acceptedAnswers": [
+        "142869"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 5 7 2 7 2",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "272758",
+      "acceptedAnswers": [
+        "272758"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 1 7 2 4 1",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "142719",
+      "acceptedAnswers": [
+        "142719"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 4 5 2 8 5",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "582545",
+      "acceptedAnswers": [
+        "582545"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 9 6 4 3 9",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "934694",
+      "acceptedAnswers": [
+        "934694"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 1 3 4 9 7",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "794316",
+      "acceptedAnswers": [
+        "794316"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 7 4 6 2",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "264731",
+      "acceptedAnswers": [
+        "264731"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "5 2 1 5 4 2",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "245125",
+      "acceptedAnswers": [
+        "245125"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 8 7 8 6 9",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "968782",
+      "acceptedAnswers": [
+        "968782"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L11-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 11,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 3 7 1 6 2",
+      "displayMs": 4200,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "261738",
+      "acceptedAnswers": [
+        "261738"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4500,
+      "displayMs": 4200,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-1",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 5 8 6 8 6 7",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "7686854",
+      "acceptedAnswers": [
+        "7686854"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-2",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 5 7 9 7 6 8",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "8679759",
+      "acceptedAnswers": [
+        "8679759"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-3",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "1 3 6 2 7 6 3",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "3672631",
+      "acceptedAnswers": [
+        "3672631"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-4",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 2 5 8 4 5 8",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "8548523",
+      "acceptedAnswers": [
+        "8548523"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-5",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 7 8 5 9 2 5",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "5295874",
+      "acceptedAnswers": [
+        "5295874"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-6",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 1 5 2 5 2 3",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "3252512",
+      "acceptedAnswers": [
+        "3252512"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-7",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 2 4 1 9 7 4",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "4791424",
+      "acceptedAnswers": [
+        "4791424"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-8",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 2 8 3 7 3 9",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9373828",
+      "acceptedAnswers": [
+        "9373828"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-9",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "9 7 1 9 4 5 9",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9549179",
+      "acceptedAnswers": [
+        "9549179"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-10",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 6 4 5 4 1 9",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9145463",
+      "acceptedAnswers": [
+        "9145463"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-11",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 1 5 2 5 2 8",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "8252518",
+      "acceptedAnswers": [
+        "8252518"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-12",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 4 5 1 7 3 4",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "4371542",
+      "acceptedAnswers": [
+        "4371542"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-13",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 2 1 6 1 4 2",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "2416127",
+      "acceptedAnswers": [
+        "2416127"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-14",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 6 3 7 2 5 1",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "1527362",
+      "acceptedAnswers": [
+        "1527362"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-15",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "3 5 1 8 6 4 9",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9468153",
+      "acceptedAnswers": [
+        "9468153"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-16",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "7 9 4 6 1 8 2",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "2816497",
+      "acceptedAnswers": [
+        "2816497"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-17",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "8 5 2 3 1 3 9",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "9313258",
+      "acceptedAnswers": [
+        "9313258"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-18",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "2 9 4 7 8 9 6",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "6987492",
+      "acceptedAnswers": [
+        "6987492"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-19",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "4 9 6 5 4 1 7",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "7145694",
+      "acceptedAnswers": [
+        "7145694"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "wm-span-L12-20",
+    "category": "working_memory",
+    "challengeType": "digit_span",
+    "level": 12,
+    "rendererType": "memory_recall",
+    "promptData": {
+      "digits": "6 3 1 5 8 5 8",
+      "displayMs": 4800,
+      "mode": "reverse",
+      "instruction": "Type the digits in REVERSE order."
+    },
+    "answerData": {
+      "correctAnswer": "8585136",
+      "acceptedAnswers": [
+        "8585136"
+      ]
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 4950,
+      "displayMs": 4800,
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  }
+]

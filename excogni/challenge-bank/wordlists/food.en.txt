@@ -1,0 +1,281 @@
+ajvar
+almond
+apple
+apple pie
+bacon
+bagel
+baguette
+baked potato
+banana
+bean
+beans
+beef
+biryani
+biscuit
+bisque
+bolognese
+borscht
+bratwurst
+bread
+brisket
+broccoli
+brownie
+bun
+burger
+burrito
+butter
+butter chicken
+caesar salad
+cake
+calamari
+candy
+caramel
+carbonara
+carrot
+cashew
+casserole
+cereal
+cheese
+cheeseburger
+cheesecake
+cherry
+chicken
+chicken nuggets
+chicken wings
+chickpea
+chili
+chips
+chocolate
+chocolate cake
+clam
+clam chowder
+coconut
+cod
+coleslaw
+cookie
+corn
+cornbread
+couscous
+crab
+crab cakes
+cracker
+crackers
+cream
+crepe
+crepes
+crisps
+croissant
+cucumber
+cupcake
+curry
+custard
+dim
+dim sum
+donut
+doughnut
+duck
+dumpling
+dumplings
+eclair
+egg
+egg roll
+empanada
+enchilada
+fajita
+falafel
+fettuccine
+filet mignon
+fish
+fish and chips
+flour
+french fries
+french toast
+fried chicken
+fried eggs
+fried fish
+fried rice
+fries
+fudge
+garlic
+gelato
+gnocchi
+goulash
+granola
+grape
+gravy
+greek salad
+grilled cheese
+grilled salmon
+guacamole
+gumbo
+gyoza
+gyro
+ham
+hamburger
+hash browns
+honey
+hot dog
+hotdog
+hummus
+ice cream
+icecream
+jam
+jambalaya
+jelly
+jerky
+kebab
+ketchup
+lamb
+lamb chops
+lasagna
+lemon
+lentil
+lettuce
+lime
+linguine
+lobster
+lobster roll
+mac and cheese
+macaron
+macaroni
+mango
+marmalade
+mashed potatoes
+mayo
+mayonnaise
+meat
+meatball
+meatballs
+meatloaf
+melon
+milk
+minestrone
+moussaka
+muesli
+muffin
+mushroom
+mussel
+mustard
+naan
+nachos
+noodle
+nuts
+oatmeal
+oats
+oil
+omelette
+onion
+onion rings
+orange
+oyster
+oysters
+pad thai
+paella
+pancake
+pancakes
+pasta
+pastry
+peach
+peanut
+pear
+peas
+penne
+pepper
+pepperoni
+pesto
+pho
+pie
+pierogi
+pineapple
+pistachio
+pita
+pizza
+plum
+polenta
+popcorn
+popsicle
+pork
+pork chop
+porridge
+pot roast
+potato
+potato salad
+prawn
+pretzel
+pudding
+pulled pork
+quesadilla
+quiche
+quinoa
+ramen
+ravioli
+relish
+ribeye
+ribs
+rice
+risotto
+roast
+roast beef
+roast chicken
+roll
+rye bread
+salad
+salami
+salmon
+salsa
+salt
+samosa
+sandwich
+sardine
+sashimi
+sauce
+sauerkraut
+sausage
+schnitzel
+scrambled eggs
+shawarma
+shrimp
+shrimp scampi
+sirloin
+soba
+sorbet
+soup
+sourdough
+souvlaki
+spaghetti
+spinach
+spring
+spring roll
+steak
+stew
+strawberry
+stroganoff
+sub
+sugar
+sum
+sushi
+sweets
+syrup
+taco
+tamale
+tapas
+tart
+tempeh
+tikka masala
+tiramisu
+toast
+tofu
+tomato
+tortilla
+trail mix
+trout
+tuna
+turkey
+udon
+veal
+waffle
+waffles
+walnut
+wonton
+wrap
+yogurt

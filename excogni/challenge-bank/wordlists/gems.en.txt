@@ -1,0 +1,115 @@
+abalone
+agate
+alexandrite
+almandine
+amazonite
+amber
+amethyst
+ametrine
+ammolite
+andalusite
+andradite
+apatite
+aquamarine
+aventurine
+azurite
+benitoite
+beryl
+black diamond
+black opal
+bloodstone
+boulder opal
+canary diamond
+carnelian
+cat's eye
+cats eye
+chalcedony
+champagne diamond
+charoite
+chrysoberyl
+chrysocolla
+chrysoprase
+citrine
+coral
+danburite
+demantoid
+diamond
+emerald
+fire opal
+fluorite
+garnet
+goshenite
+hawk's eye
+heliodor
+heliotrope
+hematite
+hessonite
+hiddenite
+howlite
+indicolite
+iolite
+ivory
+jade
+jadeite
+jasper
+jet
+kunzite
+labradorite
+lapis
+lapis lazuli
+larimar
+malachite
+mookaite
+moonstone
+morganite
+mother of pearl
+nephrite
+obsidian
+onyx
+opal
+padparadscha
+paraiba
+pearl
+peridot
+picture jasper
+pigeon blood ruby
+prasiolite
+pyrite
+pyrope
+quartz
+red jasper
+rhodochrosite
+rhodolite
+rhodonite
+rock crystal
+rose quartz
+rubellite
+ruby
+rutilated quartz
+sapphire
+sard
+sardonyx
+selenite
+seraphinite
+serpentine
+smoky quartz
+sodalite
+spessartine
+sphene
+spinel
+star ruby
+star sapphire
+sugilite
+sunstone
+tanzanite
+tiger eye
+tiger's eye
+tigers eye
+topaz
+tourmaline
+tsavorite
+turquoise
+unakite
+uvarovite
+white opal
+zircon

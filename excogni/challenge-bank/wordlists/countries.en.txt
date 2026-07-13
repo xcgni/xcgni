@@ -1,0 +1,227 @@
+afghanistan
+albania
+algeria
+america
+andorra
+angola
+antigua and barbuda
+arabia
+argentina
+armenia
+australia
+austria
+azerbaijan
+bahamas
+bahrain
+bangladesh
+barbados
+belarus
+belgium
+belize
+benin
+bhutan
+bolivia
+bosnia
+bosnia and herzegovina
+botswana
+brazil
+britain
+brunei
+bulgaria
+burkina faso
+burma
+burundi
+cabo verde
+cambodia
+cameroon
+canada
+cape verde
+central african republic
+chad
+chile
+china
+colombia
+comoros
+congo
+costa
+costa rica
+cote d'ivoire
+croatia
+cuba
+cyprus
+czech
+czech republic
+czechia
+democratic republic of the congo
+denmark
+djibouti
+dominica
+dominican republic
+drc
+east timor
+ecuador
+egypt
+el salvador
+england
+equatorial guinea
+eritrea
+estonia
+eswatini
+ethiopia
+fiji
+finland
+france
+gabon
+gambia
+georgia
+germany
+ghana
+great britain
+greece
+grenada
+guatemala
+guinea
+guinea-bissau
+guyana
+haiti
+holland
+honduras
+hungary
+iceland
+india
+indonesia
+iran
+iraq
+ireland
+israel
+italy
+ivory coast
+jamaica
+japan
+jordan
+kazakhstan
+kenya
+kiribati
+korea
+kosovo
+kuwait
+kyrgyzstan
+laos
+latvia
+lebanon
+lesotho
+liberia
+libya
+liechtenstein
+lithuania
+luxembourg
+macedonia
+madagascar
+malawi
+malaysia
+maldives
+mali
+malta
+marshall islands
+mauritania
+mauritius
+mexico
+micronesia
+moldova
+monaco
+mongolia
+montenegro
+morocco
+mozambique
+myanmar
+namibia
+nauru
+nepal
+netherlands
+new zealand
+newzealand
+nicaragua
+niger
+nigeria
+north korea
+north macedonia
+norway
+oman
+pakistan
+palau
+palestine
+panama
+papua new guinea
+paraguay
+peru
+philippines
+poland
+portugal
+qatar
+romania
+russia
+rwanda
+saint kitts and nevis
+saint lucia
+saint vincent and the grenadines
+salvador
+samoa
+san marino
+sao tome and principe
+saudi
+saudi arabia
+scotland
+senegal
+serbia
+seychelles
+sierra leone
+singapore
+slovakia
+slovenia
+solomon islands
+somalia
+south africa
+south korea
+south sudan
+southafrica
+spain
+sri lanka
+sudan
+suriname
+swaziland
+sweden
+switzerland
+syria
+taiwan
+tajikistan
+tanzania
+thailand
+timor-leste
+togo
+tonga
+trinidad and tobago
+tunisia
+turkey
+turkiye
+turkmenistan
+tuvalu
+uae
+uganda
+uk
+ukraine
+united arab emirates
+united kingdom
+united states
+united states of america
+uruguay
+usa
+uzbekistan
+vanuatu
+vatican
+vatican city
+venezuela
+vietnam
+wales
+yemen
+zambia
+zimbabwe

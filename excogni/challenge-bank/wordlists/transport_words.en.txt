@@ -1,0 +1,261 @@
+airplane
+airport
+alley
+ambulance
+anchorage
+arrival
+atv
+automobile
+avenue
+baggage claim
+berth
+bicycle
+bike
+boarding pass
+boat
+boulevard
+bridge
+buggy
+bulldozer
+buoy
+bus
+bus lane
+bus station
+bus stop
+bypass
+cab
+cable car
+cablecar
+camper
+canal
+cancellation
+captain
+car
+caravan
+cargo
+carpool
+carriage
+cart
+caster
+causeway
+cement mixer
+channel
+charging station
+chariot
+check-in
+checkpoint
+coach
+cog
+commute
+compass
+conductor
+congestion
+connection
+control tower
+courier
+crane
+crossroads
+crosswalk
+cruise
+curb
+customs
+cyclist
+delay
+delivery
+departure
+depot
+detour
+direct
+dock
+dolly
+driver
+driver's license
+driveway
+dump truck
+dune buggy
+excavator
+expressway
+fare
+ferris wheel
+ferry
+ferry terminal
+fire engine
+fire truck
+flight
+forklift
+freeway
+freight
+fuel
+garage
+garbage truck
+gas station
+gate
+gear
+go kart
+golf cart
+gondola
+gps
+gridlock
+hand truck
+hangar
+harbor
+harbour
+helicopter
+helipad
+highway
+hoverboard
+hovercraft
+inline skates
+insurance
+interchange
+intersection
+interstate
+jeep
+journey
+junction
+kart
+lane
+lane marking
+lawn mower
+lawnmower
+layover
+license plate
+lighthouse
+limo
+limousine
+line
+lock
+locomotive
+logistics
+longboard
+lorry
+map
+marina
+median
+metro station
+mileage
+minibus
+monorail
+moped
+motorbike
+motorcycle
+motorway
+navigation
+nonstop
+odometer
+office chair
+overpass
+parking garage
+parking lot
+parking meter
+pass
+passenger
+pavement
+pedestrian
+pedicab
+petrol station
+pickup
+pickup truck
+pier
+pilot
+plane
+platform
+police car
+port
+pothole
+pram
+pulley
+pushchair
+quad
+quad bike
+quay
+rail
+railroad
+railway
+registration
+rickshaw
+rideshare
+ring road
+road
+road roller
+roadblock
+roller
+roller skates
+rollerblades
+roundabout
+route
+runway
+rush hour
+rv
+schedule
+scooter
+security checkpoint
+segway
+semi
+semi trailer
+ship
+shipping
+shopping cart
+shopping trolley
+shoulder
+sidewalk
+skateboard
+sled
+sleigh
+snowplow
+speed bump
+speed limit
+speedometer
+stagecoach
+steamroller
+stop sign
+street
+streetcar
+stroller
+subway
+subway car
+subway station
+suitcase
+suv
+tandem
+tanker
+taxi
+taxi rank
+taxiway
+terminal
+ticket
+timetable
+toll road
+tow truck
+track
+tractor
+traffic
+traffic jam
+traffic light
+trailer
+train
+train station
+tram
+transfer
+transit card
+tricycle
+trip
+trolley
+trolley case
+truck
+tunnel
+turnpike
+turnstile
+underpass
+unicycle
+unimog
+valet parking
+van
+viaduct
+voyage
+wagon
+waterwheel
+wharf
+wheelbarrow
+wheelchair
+yield sign

@@ -1,0 +1,9 @@
+[Unit]
+Description=Excogni pull-based deploy (compare digest, recreate on change)
+Wants=network-online.target
+After=network-online.target docker.service
+
+[Service]
+Type=oneshot
+Environment=APP_DIR=/root/app
+ExecStart=/root/app/scripts/deploy-pull.sh
