@@ -6,6 +6,25 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.17.1 - The pool keeps the promise
+
+Launch-morning fix, external reviewer caught it, and it was real: the flagship rating
+percentile pools (global and per-category) included every registered non-test user with
+enough attempts - WITHOUT checking consent - while the site promises registered results
+enter population statistics only with explicit, revocable consent. The newer surfaces
+(domain percentiles, public statistics, findings) enforced consent correctly; the two
+oldest queries predated the promise and never learned it. Both now require
+consented_stats = true for real users (synthetic users pass only under the simulation
+flag, preserving demo pools). Honest consequence: pools shrink to the consented, so the
+percentile may correctly read calibrating until enough consented users exist. That is
+the promise working, not a regression.
+
+Also: the privacy page adopts tightened wording (readable email never stored; anonymous
+practice stays entirely outside shared statistics; optional attributes live only inside
+floor-gated aggregates) and contact now routes through the in-app feedback flow instead
+of an email address. The deploy loop gained rollback-drift self-healing (found in the
+disaster-recovery rehearsal: unpinning a rollback left the old container running until
+a new image appeared); the deploy README documents the DR procedure.
 ## v1.17.0 - Provenance proven, language precise, headers hardened
 
 The launch-eve release: the pipeline and the prose now both survive hostile reading.

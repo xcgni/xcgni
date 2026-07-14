@@ -110,7 +110,7 @@
   <section class="flex flex-col gap-3">
     <p class="label">Contact</p>
     <p class="text-sm leading-relaxed text-muted">
-      Questions or requests: <a class="text-accent hover:underline" href="mailto:security@initsix.dev">security@initsix.dev</a>.
+      Questions or requests: use the feedback button (bottom right on desktop, under the three dots on mobile) - it reaches the maintainer directly. Security issues: see SECURITY.md in the repository.
       This page changes only with a note in the public changelog.
     </p>
   </section>

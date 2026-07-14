@@ -16,11 +16,16 @@ async function ratingPool(categorySlug: string): Promise<number[]> {
     SELECT s.rating
     FROM user_category_state s
     JOIN users u ON u.id = s.user_id
+    LEFT JOIN user_attributes ua ON ua.user_id = u.id
     WHERE s.category_slug = ${categorySlug}
       AND s.attempts_count >= 10
       AND u.is_anonymous = false
       AND u.is_test = false
       AND (u.is_simulated = false OR ${includeSim})
+      -- CONSENT: the site promises registered results enter population statistics
+      -- only with explicit consent. The pool must keep that promise (real users
+      -- need consented_stats; synthetic users pass only under the sim flag).
+      AND (ua.consented_stats = true OR u.is_simulated = true)
   `;
   return rows.map((r: { rating: number }) => r.rating);
 }
@@ -147,9 +152,11 @@ export async function userRatings(userId: string): Promise<{
       SELECT avg(s.rating)::int AS rating
       FROM user_category_state s
       JOIN users u ON u.id = s.user_id
+      LEFT JOIN user_attributes ua ON ua.user_id = u.id
       WHERE s.attempts_count >= 10
         AND u.is_anonymous = false AND u.is_test = false
         AND (u.is_simulated = false OR ${includeSim})
+        AND (ua.consented_stats = true OR u.is_simulated = true)
       GROUP BY u.id
     `;
     const pool = poolRows.map((r: { rating: number }) => r.rating);

@@ -59,5 +59,14 @@ if [ "$OLD" != "$NEW" ]; then
   docker image prune -f --filter "until=168h" >/dev/null 2>&1 || true
   echo "$(date -Is) deployed $IMAGE ($NEW, was $OLD) - health, provenance and all routes verified on v$VER" >> "$LOG"
 else
-  echo "$(date -Is) up-to-date $IMAGE ($NEW)" >> "$LOG"
+  # Even with no new pull, the RUNNING container may not match the desired image
+  # (found in the rollback rehearsal: pin -> unpin left the old container running).
+  RUNNING="$(docker inspect --format '{{.Image}}' "$($COMPOSE ps -q app)" 2>/dev/null || echo none)"
+  WANT="$(docker image inspect "$IMAGE" --format '{{.Id}}' 2>/dev/null || echo none)"
+  if [ "$RUNNING" != "$WANT" ]; then
+    $COMPOSE up -d app
+    echo "$(date -Is) reconciled running container to $IMAGE (drift heal)" >> "$LOG"
+  else
+    echo "$(date -Is) up-to-date $IMAGE ($NEW)" >> "$LOG"
+  fi
 fi

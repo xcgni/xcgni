@@ -16,6 +16,11 @@ every green version tag; this server pulls on a timer, outbound-only.
 ## Daily flow after that
 Tag and push a version -> CI green -> image on GHCR -> live within ~5 minutes.
 
+## Disaster recovery note
+After ANY rollback pin is removed, the next timer tick self-heals the drift (the script
+compares the running container's image to the desired tag and recreates on mismatch).
+If you need it NOW instead of within 5 minutes: run the script once manually.
+
 ## Rollback
 Set IMAGE_TAG=vX.Y.Z in /root/app/.env and run the deploy script once (or wait a tick):
 the app recreates on the pinned image. Remove the line to return to latest.
