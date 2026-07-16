@@ -5,7 +5,8 @@ import { markIntroSeen } from '$lib/server/sessions';
 import { pg } from '$lib/server/db';
 import { CONSENT_VERSION } from '$lib/server/consent';
 
-export const load: PageServerLoad = async ({ locals }) => {
+export const load: PageServerLoad = async ({ locals, url }) => {
+  const next = url.searchParams.get('next') ?? '';
   // Returning users may re-watch the tour freely; the finale adapts (no forms, no
   // register pitch - a single continue). Detected by any recorded attempt.
   let returning = false;
@@ -24,6 +25,7 @@ export const load: PageServerLoad = async ({ locals }) => {
     preferredDecks = (s[0]?.preferred_decks as string[] | null) ?? [];
   }
   return {
+    next,
     returning,
  decks, preferredDecks };
 };
@@ -85,6 +87,12 @@ export const actions: Actions = {
           updated_at = now()
       `;
     }
-    throw redirect(303, '/practice/run?skipintro=1');
+    // Return the visitor to what they originally clicked (category, sub-type, pulse),
+    // with skipintro appended. Only same-origin relative paths are honored.
+    const nextRaw = cleanStr(f.get('next'), 200);
+    const next = nextRaw && nextRaw.startsWith('/practice') && !nextRaw.startsWith('//')
+      ? nextRaw : '/practice/run';
+    const sep = next.includes('?') ? '&' : '?';
+    throw redirect(303, next + sep + 'skipintro=1');
   }
 };

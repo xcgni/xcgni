@@ -1,0 +1,25 @@
+augustus
+aurelian
+caligula
+caracalla
+claudius
+commodus
+constantine
+diocletian
+domitian
+galba
+hadrian
+julian
+justinian
+marcus aurelius
+nero
+nerva
+otho
+septimius severus
+theodosius
+tiberius
+titus
+trajan
+valentinian
+vespasian
+vitellius

@@ -1,0 +1,32 @@
+barcelona
+boston
+chicago
+dubai
+florence
+frankfurt
+geneva
+hamburg
+istanbul
+krakow
+kyoto
+los angeles
+lyon
+marseille
+miami
+milan
+mumbai
+munich
+naples
+new york
+osaka
+porto
+rio de janeiro
+rotterdam
+sao paulo
+seattle
+shanghai
+singapore
+sydney
+toronto
+venice
+zurich

@@ -1,0 +1,23 @@
+advent
+boxing day
+carnival
+christmas
+diwali
+easter
+eid
+epiphany
+fathers day
+halloween
+hanukkah
+independence day
+labor day
+lent
+mayday
+mothers day
+newyear
+passover
+pentecost
+ramadan
+solstice
+thanksgiving
+valentines

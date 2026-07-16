@@ -1,0 +1,24 @@
+bachata
+ballet
+bellydance
+bolero
+breakdance
+cha cha
+charleston
+contemporary
+flamenco
+foxtrot
+hiphop
+jazz dance
+jive
+mambo
+merengue
+polka
+quickstep
+rumba
+salsa
+samba
+swing
+tango
+tap
+waltz

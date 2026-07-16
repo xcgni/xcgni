@@ -35,7 +35,7 @@ const PROCEDURES = [
 
 // step counts per level: 4,4,4,5,5,5,6,6,7,7
 const STEPS_AT = { 1: 4, 2: 4, 3: 4, 4: 5, 5: 5, 6: 5, 7: 6, 8: 6, 9: 7, 10: 7 };
-const PER_LEVEL_ORDER = 8;
+const PER_LEVEL_ORDER = 14;
 const LETTERS = 'ABCDEFG';
 
 const orderItems = [];
@@ -125,7 +125,7 @@ const GRID_LEVELS = {
   9:  { size: 8, walls: 0.28, minOpt: 11, maxOpt: 13 },
   10: { size: 8, walls: 0.32, minOpt: 12, maxOpt: 15 }
 };
-const PER_LEVEL_GRID = 12;
+const PER_LEVEL_GRID = 18;
 
 const gridItems = [];
 for (let level = 1; level <= 10; level++) {
@@ -232,10 +232,13 @@ const HANOI_LEVELS = {
   6:  { disks: 5, minOpt: 12, maxOpt: 18 },
   7:  { disks: 5, minOpt: 18, maxOpt: 24 },
   8:  { disks: 5, minOpt: 24, maxOpt: 31 },
-  9:  { disks: 6, minOpt: 25, maxOpt: 40 },
-  10: { disks: 6, minOpt: 40, maxOpt: 63 }
+  // Design (maintainer): start at 3 discs, rise to a SANE cap of 5 - never a tower
+  // marathon. Levels 9-10 stay at the cap and differentiate by scramble depth and
+  // the level's time expectation instead: plateau on height, pressure on time.
+  9:  { disks: 5, minOpt: 22, maxOpt: 27 },
+  10: { disks: 5, minOpt: 27, maxOpt: 31 }
 };
-const PER_LEVEL_HANOI = 8;
+const PER_LEVEL_HANOI = 12;
 
 const hanoiItems = [];
 for (let level = 1; level <= 10; level++) {

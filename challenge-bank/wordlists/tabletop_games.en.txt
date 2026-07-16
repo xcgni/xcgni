@@ -1,0 +1,25 @@
+backgammon
+battleship
+bridge
+canasta
+carcassonne
+catan
+checkers
+chess
+clue
+cribbage
+dominoes
+go
+hearts
+jenga
+mahjong
+monopoly
+poker
+risk
+rummy
+scrabble
+solitaire
+spades
+trivial pursuit
+uno
+yahtzee

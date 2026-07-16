@@ -1,0 +1,24 @@
+balance
+beaker
+bunsen burner
+burette
+centrifuge
+clamp
+crucible
+cylinder
+dropper
+flask
+funnel
+goggles
+microscope
+mortar
+pestle
+petri dish
+pipette
+rack
+slide
+spatula
+stirrer
+thermometer
+tongs
+tripod

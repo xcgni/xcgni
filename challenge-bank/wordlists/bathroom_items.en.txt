@@ -1,0 +1,26 @@
+bathrobe
+bathtub
+brush
+comb
+conditioner
+cotton swab
+deodorant
+floss
+loofah
+lotion
+mirror
+mouthwash
+nail clipper
+plunger
+razor
+scale
+shampoo
+shower
+sink
+soap
+sponge
+toilet
+toothbrush
+toothpaste
+towel
+tweezers

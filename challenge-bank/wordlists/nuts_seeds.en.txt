@@ -1,0 +1,21 @@
+acorn
+almond
+brazil nut
+cashew
+chestnut
+chia
+coconut
+flax
+hazelnut
+hemp seed
+macadamia
+nutmeg
+peanut
+pecan
+pine nut
+pistachio
+poppy seed
+pumpkin seed
+sesame
+sunflower seed
+walnut

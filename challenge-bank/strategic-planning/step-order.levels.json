@@ -232,10 +232,10 @@
   }
  },
  {
-  "bankKey": "spo-L2-1",
+  "bankKey": "spo-L1-9",
   "category": "strategic_planning",
   "challengeType": "step_order",
-  "level": 2,
+  "level": 1,
   "version": 1,
   "active": true,
   "scoringConfig": {
@@ -261,10 +261,10 @@
   }
  },
  {
-  "bankKey": "spo-L2-2",
+  "bankKey": "spo-L1-10",
   "category": "strategic_planning",
   "challengeType": "step_order",
-  "level": 2,
+  "level": 1,
   "version": 1,
   "active": true,
   "scoringConfig": {
@@ -290,10 +290,10 @@
   }
  },
  {
-  "bankKey": "spo-L2-3",
+  "bankKey": "spo-L1-11",
   "category": "strategic_planning",
   "challengeType": "step_order",
-  "level": 2,
+  "level": 1,
   "version": 1,
   "active": true,
   "scoringConfig": {
@@ -319,10 +319,10 @@
   }
  },
  {
-  "bankKey": "spo-L2-4",
+  "bankKey": "spo-L1-12",
   "category": "strategic_planning",
   "challengeType": "step_order",
-  "level": 2,
+  "level": 1,
   "version": 1,
   "active": true,
   "scoringConfig": {
@@ -333,25 +333,25 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of baking bread in workable order.",
+   "instruction": "Put the steps of a camping trip in workable order.",
    "steps": [
-    "A. shape the risen dough into a loaf",
-    "B. knead the dough",
-    "C. let the dough rise",
-    "D. bake the loaf in the oven"
+    "A. pitch the tent",
+    "B. pack the gear",
+    "C. collect firewood",
+    "D. drive to the campsite"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BCAD"
+   "correctOrder": "BDAC"
   }
  },
  {
-  "bankKey": "spo-L2-5",
+  "bankKey": "spo-L1-13",
   "category": "strategic_planning",
   "challengeType": "step_order",
-  "level": 2,
+  "level": 1,
   "version": 1,
   "active": true,
   "scoringConfig": {
@@ -364,23 +364,23 @@
    "kind": "step_order",
    "instruction": "Put the steps of changing a flat tyre in workable order.",
    "steps": [
-    "A. jack the car up",
-    "B. take out the jack and the spare wheel",
-    "C. pull over and stop the car safely",
+    "A. take out the jack and the spare wheel",
+    "B. pull over and stop the car safely",
+    "C. jack the car up",
     "D. loosen the wheel nuts slightly"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CBDA"
+   "correctOrder": "BADC"
   }
  },
  {
-  "bankKey": "spo-L2-6",
+  "bankKey": "spo-L1-14",
   "category": "strategic_planning",
   "challengeType": "step_order",
-  "level": 2,
+  "level": 1,
   "version": 1,
   "active": true,
   "scoringConfig": {
@@ -391,22 +391,22 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "instruction": "Put the steps of cooking pasta in workable order.",
    "steps": [
-    "A. put ground coffee into the filter basket",
-    "B. screw the pot together",
-    "C. wait for the coffee to rise into the top",
-    "D. place the pot on the stove"
+    "A. drain the cooked pasta",
+    "B. cook the pasta until tender",
+    "C. stir the sauce into the drained pasta",
+    "D. serve the finished dish"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "ABDC"
+   "correctOrder": "BACD"
   }
  },
  {
-  "bankKey": "spo-L2-7",
+  "bankKey": "spo-L2-1",
   "category": "strategic_planning",
   "challengeType": "step_order",
   "level": 2,
@@ -435,7 +435,7 @@
   }
  },
  {
-  "bankKey": "spo-L2-8",
+  "bankKey": "spo-L2-2",
   "category": "strategic_planning",
   "challengeType": "step_order",
   "level": 2,
@@ -451,16 +451,364 @@
    "kind": "step_order",
    "instruction": "Put the steps of changing a flat tyre in workable order.",
    "steps": [
-    "A. loosen the wheel nuts slightly",
-    "B. remove the loosened nuts and the flat wheel",
-    "C. jack the car up",
-    "D. take out the jack and the spare wheel"
+    "A. jack the car up",
+    "B. pull over and stop the car safely",
+    "C. take out the jack and the spare wheel",
+    "D. loosen the wheel nuts slightly"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BCDA"
+  }
+ },
+ {
+  "bankKey": "spo-L2-3",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "steps": [
+    "A. place the pot on the stove",
+    "B. wait for the coffee to rise into the top",
+    "C. put ground coffee into the filter basket",
+    "D. screw the pot together"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDAB"
+  }
+ },
+ {
+  "bankKey": "spo-L2-4",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a camping trip in workable order.",
+   "steps": [
+    "A. collect firewood",
+    "B. pitch the tent",
+    "C. pack the gear",
+    "D. drive to the campsite"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDBA"
+  }
+ },
+ {
+  "bankKey": "spo-L2-5",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of baking bread in workable order.",
+   "steps": [
+    "A. take the baked loaf out",
+    "B. let the loaf cool before slicing",
+    "C. shape the risen dough into a loaf",
+    "D. bake the loaf in the oven"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDAB"
+  }
+ },
+ {
+  "bankKey": "spo-L2-6",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a job application in workable order.",
+   "steps": [
+    "A. attend the interview",
+    "B. receive the interview invitation",
+    "C. accept the job offer",
+    "D. submit the application"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DBAC"
+  }
+ },
+ {
+  "bankKey": "spo-L2-7",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of painting a wall in workable order.",
+   "steps": [
+    "A. sand the wall smooth",
+    "B. let the primer dry",
+    "C. cover the floor with a protective sheet",
+    "D. apply the primer coat"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CADB"
+  }
+ },
+ {
+  "bankKey": "spo-L2-8",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of baking bread in workable order.",
+   "steps": [
+    "A. shape the risen dough into a loaf",
+    "B. take the baked loaf out",
+    "C. bake the loaf in the oven",
+    "D. let the dough rise"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "correctOrder": "DACB"
+  }
+ },
+ {
+  "bankKey": "spo-L2-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a camping trip in workable order.",
+   "steps": [
+    "A. collect firewood",
+    "B. light the campfire",
+    "C. cook dinner over the fire",
+    "D. pitch the tent"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DABC"
+  }
+ },
+ {
+  "bankKey": "spo-L2-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. water the planted sapling",
+    "B. press the soil firm",
+    "C. mulch around the watered base",
+    "D. fill the hole back in around the roots"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DBAC"
+  }
+ },
+ {
+  "bankKey": "spo-L2-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of painting a wall in workable order.",
+   "steps": [
+    "A. sand the wall smooth",
+    "B. apply the primer coat",
+    "C. move furniture away from the wall",
+    "D. cover the floor with a protective sheet"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDAB"
+  }
+ },
+ {
+  "bankKey": "spo-L2-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "steps": [
+    "A. put ground coffee into the filter basket",
+    "B. fill the bottom chamber with water",
+    "C. place the pot on the stove",
+    "D. screw the pot together"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BADC"
+  }
+ },
+ {
+  "bankKey": "spo-L2-13",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of cooking pasta in workable order.",
+   "steps": [
+    "A. add the pasta to the boiling water",
+    "B. cook the pasta until tender",
+    "C. bring the water to a boil",
+    "D. drain the cooked pasta"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CABD"
+  }
+ },
+ {
+  "bankKey": "spo-L2-14",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of washing clothes in workable order.",
+   "steps": [
+    "A. take the wet clothes out",
+    "B. load the clothes into the machine",
+    "C. add the detergent",
+    "D. run the wash cycle"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BCDA"
   }
  },
  {
@@ -478,18 +826,18 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of painting a wall in workable order.",
+   "instruction": "Put the steps of cooking pasta in workable order.",
    "steps": [
-    "A. cover the floor with a protective sheet",
-    "B. move furniture away from the wall",
-    "C. sand the wall smooth",
-    "D. apply the primer coat"
+    "A. cook the pasta until tender",
+    "B. stir the sauce into the drained pasta",
+    "C. add the pasta to the boiling water",
+    "D. drain the cooked pasta"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BACD"
+   "correctOrder": "CADB"
   }
  },
  {
@@ -507,18 +855,18 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of baking bread in workable order.",
+   "instruction": "Put the steps of sending a parcel in workable order.",
    "steps": [
-    "A. let the dough rise",
-    "B. shape the risen dough into a loaf",
-    "C. mix flour, water and yeast into a dough",
-    "D. knead the dough"
+    "A. seal the box with tape",
+    "B. take the box to the post office",
+    "C. put the item into a box",
+    "D. write the address on the sealed box"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CDAB"
+   "correctOrder": "CADB"
   }
  },
  {
@@ -538,16 +886,16 @@
    "kind": "step_order",
    "instruction": "Put the steps of a camping trip in workable order.",
    "steps": [
-    "A. collect firewood",
-    "B. light the campfire",
-    "C. pitch the tent",
-    "D. cook dinner over the fire"
+    "A. light the campfire",
+    "B. pitch the tent",
+    "C. cook dinner over the fire",
+    "D. collect firewood"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CABD"
+   "correctOrder": "BDAC"
   }
  },
  {
@@ -565,18 +913,18 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "instruction": "Put the steps of a camping trip in workable order.",
    "steps": [
-    "A. place the pot on the stove",
-    "B. put ground coffee into the filter basket",
-    "C. wait for the coffee to rise into the top",
-    "D. screw the pot together"
+    "A. collect firewood",
+    "B. pitch the tent",
+    "C. pack the gear",
+    "D. drive to the campsite"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BDAC"
+   "correctOrder": "CDBA"
   }
  },
  {
@@ -594,18 +942,18 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of sending a parcel in workable order.",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
    "steps": [
-    "A. pay for the postage",
-    "B. write the address on the sealed box",
-    "C. seal the box with tape",
-    "D. take the box to the post office"
+    "A. screw the pot together",
+    "B. fill the bottom chamber with water",
+    "C. place the pot on the stove",
+    "D. put ground coffee into the filter basket"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CBDA"
+   "correctOrder": "BDAC"
   }
  },
  {
@@ -623,18 +971,18 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of painting a wall in workable order.",
+   "instruction": "Put the steps of making tea in workable order.",
    "steps": [
-    "A. let the primer dry",
-    "B. paint the first colour coat",
-    "C. apply the primer coat",
-    "D. apply the second coat over the dried first"
+    "A. let the tea steep",
+    "B. boil the water",
+    "C. pour the boiling water into the cup with the teabag",
+    "D. remove the teabag"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CABD"
+   "correctOrder": "BCAD"
   }
  },
  {
@@ -652,18 +1000,18 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a job application in workable order.",
+   "instruction": "Put the steps of sending a parcel in workable order.",
    "steps": [
-    "A. update your CV for the role",
-    "B. submit the application",
-    "C. write the cover letter",
-    "D. read the job posting"
+    "A. take the box to the post office",
+    "B. write the address on the sealed box",
+    "C. pay for the postage",
+    "D. seal the box with tape"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "DACB"
+   "correctOrder": "DBAC"
   }
  },
  {
@@ -681,18 +1029,192 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of making tea in workable order.",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
    "steps": [
-    "A. remove the teabag",
-    "B. pour the boiling water into the cup with the teabag",
-    "C. let the tea steep",
-    "D. boil the water"
+    "A. take the pot off the heat",
+    "B. place the pot on the stove",
+    "C. wait for the coffee to rise into the top",
+    "D. screw the pot together"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "correctOrder": "DBCA"
+  }
+ },
+ {
+  "bankKey": "spo-L3-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "steps": [
+    "A. pour the coffee into a cup",
+    "B. take the pot off the heat",
+    "C. wait for the coffee to rise into the top",
+    "D. place the pot on the stove"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DCBA"
+  }
+ },
+ {
+  "bankKey": "spo-L3-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a camping trip in workable order.",
+   "steps": [
+    "A. pack the gear",
+    "B. drive to the campsite",
+    "C. pitch the tent",
+    "D. pick the campsite"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DABC"
+  }
+ },
+ {
+  "bankKey": "spo-L3-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. fill the hole back in around the roots",
+    "B. dig the hole",
+    "C. press the soil firm",
+    "D. place the sapling into the hole"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BDAC"
+  }
+ },
+ {
+  "bankKey": "spo-L3-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. remove the loosened nuts and the flat wheel",
+    "B. loosen the wheel nuts slightly",
+    "C. jack the car up",
+    "D. mount the spare wheel and tighten the nuts"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BCAD"
+  }
+ },
+ {
+  "bankKey": "spo-L3-13",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. take out the jack and the spare wheel",
+    "B. pull over and stop the car safely",
+    "C. jack the car up",
+    "D. loosen the wheel nuts slightly"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BADC"
+  }
+ },
+ {
+  "bankKey": "spo-L3-14",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of setting up a new phone in workable order.",
+   "steps": [
+    "A. sign in to your account",
+    "B. connect to the network",
+    "C. power the phone on",
+    "D. restore your data from backup"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CBAD"
   }
  },
  {
@@ -710,19 +1232,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of washing clothes in workable order.",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
    "steps": [
-    "A. take the wet clothes out",
-    "B. add the detergent",
-    "C. hang the wet clothes to dry",
-    "D. run the wash cycle",
-    "E. fold the dried clothes"
+    "A. place the pot on the stove",
+    "B. pour the coffee into a cup",
+    "C. take the pot off the heat",
+    "D. wait for the coffee to rise into the top",
+    "E. screw the pot together"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BDACE"
+   "correctOrder": "EADCB"
   }
  },
  {
@@ -740,19 +1262,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a camping trip in workable order.",
+   "instruction": "Put the steps of painting a wall in workable order.",
    "steps": [
-    "A. collect firewood",
-    "B. pick the campsite",
-    "C. pack the gear",
-    "D. pitch the tent",
-    "E. drive to the campsite"
+    "A. apply the primer coat",
+    "B. move furniture away from the wall",
+    "C. sand the wall smooth",
+    "D. let the primer dry",
+    "E. cover the floor with a protective sheet"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BCEDA"
+   "correctOrder": "BECAD"
   }
  },
  {
@@ -760,6 +1282,756 @@
   "category": "strategic_planning",
   "challengeType": "step_order",
   "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of sending a parcel in workable order.",
+   "steps": [
+    "A. pay for the postage",
+    "B. get the tracking receipt",
+    "C. write the address on the sealed box",
+    "D. take the box to the post office",
+    "E. track the shipment online"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDABE"
+  }
+ },
+ {
+  "bankKey": "spo-L4-4",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of setting up a new phone in workable order.",
+   "steps": [
+    "A. insert the SIM card",
+    "B. connect to the network",
+    "C. sign in to your account",
+    "D. power the phone on",
+    "E. unbox the phone"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EADBC"
+  }
+ },
+ {
+  "bankKey": "spo-L4-5",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making tea in workable order.",
+   "steps": [
+    "A. pour the boiling water into the cup with the teabag",
+    "B. let the tea steep",
+    "C. fill the kettle with water",
+    "D. remove the teabag",
+    "E. boil the water"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CEABD"
+  }
+ },
+ {
+  "bankKey": "spo-L4-6",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. pull over and stop the car safely",
+    "B. remove the loosened nuts and the flat wheel",
+    "C. loosen the wheel nuts slightly",
+    "D. take out the jack and the spare wheel",
+    "E. jack the car up"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "ADCEB"
+  }
+ },
+ {
+  "bankKey": "spo-L4-7",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of cooking pasta in workable order.",
+   "steps": [
+    "A. drain the cooked pasta",
+    "B. cook the pasta until tender",
+    "C. add the pasta to the boiling water",
+    "D. serve the finished dish",
+    "E. stir the sauce into the drained pasta"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CBAED"
+  }
+ },
+ {
+  "bankKey": "spo-L4-8",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of painting a wall in workable order.",
+   "steps": [
+    "A. let the primer dry",
+    "B. cover the floor with a protective sheet",
+    "C. apply the primer coat",
+    "D. sand the wall smooth",
+    "E. paint the first colour coat"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BDCAE"
+  }
+ },
+ {
+  "bankKey": "spo-L4-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. lower the car back down",
+    "B. jack the car up",
+    "C. mount the spare wheel and tighten the nuts",
+    "D. remove the loosened nuts and the flat wheel",
+    "E. loosen the wheel nuts slightly"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EBDCA"
+  }
+ },
+ {
+  "bankKey": "spo-L4-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of washing clothes in workable order.",
+   "steps": [
+    "A. add the detergent",
+    "B. take the wet clothes out",
+    "C. hang the wet clothes to dry",
+    "D. run the wash cycle",
+    "E. fold the dried clothes"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "ADBCE"
+  }
+ },
+ {
+  "bankKey": "spo-L4-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "steps": [
+    "A. place the pot on the stove",
+    "B. take the pot off the heat",
+    "C. wait for the coffee to rise into the top",
+    "D. screw the pot together",
+    "E. put ground coffee into the filter basket"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EDACB"
+  }
+ },
+ {
+  "bankKey": "spo-L4-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. fill the hole back in around the roots",
+    "B. press the soil firm",
+    "C. mulch around the watered base",
+    "D. water the planted sapling",
+    "E. place the sapling into the hole"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EABDC"
+  }
+ },
+ {
+  "bankKey": "spo-L4-13",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a job application in workable order.",
+   "steps": [
+    "A. attend the interview",
+    "B. receive the interview invitation",
+    "C. submit the application",
+    "D. write the cover letter",
+    "E. update your CV for the role"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EDCBA"
+  }
+ },
+ {
+  "bankKey": "spo-L4-14",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of sending a parcel in workable order.",
+   "steps": [
+    "A. seal the box with tape",
+    "B. take the box to the post office",
+    "C. pay for the postage",
+    "D. write the address on the sealed box",
+    "E. get the tracking receipt"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "ADBCE"
+  }
+ },
+ {
+  "bankKey": "spo-L5-1",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of baking bread in workable order.",
+   "steps": [
+    "A. let the dough rise",
+    "B. take the baked loaf out",
+    "C. knead the dough",
+    "D. shape the risen dough into a loaf",
+    "E. bake the loaf in the oven"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CADEB"
+  }
+ },
+ {
+  "bankKey": "spo-L5-2",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. mount the spare wheel and tighten the nuts",
+    "B. jack the car up",
+    "C. take out the jack and the spare wheel",
+    "D. loosen the wheel nuts slightly",
+    "E. remove the loosened nuts and the flat wheel"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDBEA"
+  }
+ },
+ {
+  "bankKey": "spo-L5-3",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of baking bread in workable order.",
+   "steps": [
+    "A. knead the dough",
+    "B. mix flour, water and yeast into a dough",
+    "C. let the dough rise",
+    "D. bake the loaf in the oven",
+    "E. shape the risen dough into a loaf"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BACED"
+  }
+ },
+ {
+  "bankKey": "spo-L5-4",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "steps": [
+    "A. wait for the coffee to rise into the top",
+    "B. take the pot off the heat",
+    "C. place the pot on the stove",
+    "D. put ground coffee into the filter basket",
+    "E. screw the pot together"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DECAB"
+  }
+ },
+ {
+  "bankKey": "spo-L5-5",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. press the soil firm",
+    "B. water the planted sapling",
+    "C. place the sapling into the hole",
+    "D. fill the hole back in around the roots",
+    "E. mulch around the watered base"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDABE"
+  }
+ },
+ {
+  "bankKey": "spo-L5-6",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of washing clothes in workable order.",
+   "steps": [
+    "A. run the wash cycle",
+    "B. take the wet clothes out",
+    "C. hang the wet clothes to dry",
+    "D. add the detergent",
+    "E. fold the dried clothes"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DABCE"
+  }
+ },
+ {
+  "bankKey": "spo-L5-7",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of washing clothes in workable order.",
+   "steps": [
+    "A. take the wet clothes out",
+    "B. run the wash cycle",
+    "C. hang the wet clothes to dry",
+    "D. add the detergent",
+    "E. load the clothes into the machine"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EDBAC"
+  }
+ },
+ {
+  "bankKey": "spo-L5-8",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of sending a parcel in workable order.",
+   "steps": [
+    "A. take the box to the post office",
+    "B. pay for the postage",
+    "C. seal the box with tape",
+    "D. put the item into a box",
+    "E. write the address on the sealed box"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DCEAB"
+  }
+ },
+ {
+  "bankKey": "spo-L5-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. mount the spare wheel and tighten the nuts",
+    "B. loosen the wheel nuts slightly",
+    "C. remove the loosened nuts and the flat wheel",
+    "D. lower the car back down",
+    "E. jack the car up"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BECAD"
+  }
+ },
+ {
+  "bankKey": "spo-L5-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making tea in workable order.",
+   "steps": [
+    "A. pour the boiling water into the cup with the teabag",
+    "B. let the tea steep",
+    "C. drink the tea",
+    "D. remove the teabag",
+    "E. add milk to the brewed tea"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "ABDEC"
+  }
+ },
+ {
+  "bankKey": "spo-L5-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of painting a wall in workable order.",
+   "steps": [
+    "A. sand the wall smooth",
+    "B. cover the floor with a protective sheet",
+    "C. apply the primer coat",
+    "D. let the primer dry",
+    "E. move furniture away from the wall"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EBACD"
+  }
+ },
+ {
+  "bankKey": "spo-L5-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of cooking pasta in workable order.",
+   "steps": [
+    "A. serve the finished dish",
+    "B. cook the pasta until tender",
+    "C. stir the sauce into the drained pasta",
+    "D. drain the cooked pasta",
+    "E. add the pasta to the boiling water"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EBDCA"
+  }
+ },
+ {
+  "bankKey": "spo-L5-13",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making tea in workable order.",
+   "steps": [
+    "A. let the tea steep",
+    "B. remove the teabag",
+    "C. pour the boiling water into the cup with the teabag",
+    "D. boil the water",
+    "E. add milk to the brewed tea"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DCABE"
+  }
+ },
+ {
+  "bankKey": "spo-L5-14",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 5,
   "version": 1,
   "active": true,
   "scoringConfig": {
@@ -786,396 +2058,6 @@
   }
  },
  {
-  "bankKey": "spo-L4-4",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of changing a flat tyre in workable order.",
-   "steps": [
-    "A. loosen the wheel nuts slightly",
-    "B. jack the car up",
-    "C. remove the loosened nuts and the flat wheel",
-    "D. take out the jack and the spare wheel",
-    "E. pull over and stop the car safely"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "EDABC"
-  }
- },
- {
-  "bankKey": "spo-L4-5",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
-   "steps": [
-    "A. place the sapling into the hole",
-    "B. choose the planting spot",
-    "C. dig the hole",
-    "D. fill the hole back in around the roots",
-    "E. press the soil firm"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "BCADE"
-  }
- },
- {
-  "bankKey": "spo-L4-6",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
-   "steps": [
-    "A. water the planted sapling",
-    "B. mulch around the watered base",
-    "C. place the sapling into the hole",
-    "D. fill the hole back in around the roots",
-    "E. press the soil firm"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "CDEAB"
-  }
- },
- {
-  "bankKey": "spo-L4-7",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
-   "steps": [
-    "A. place the pot on the stove",
-    "B. screw the pot together",
-    "C. fill the bottom chamber with water",
-    "D. wait for the coffee to rise into the top",
-    "E. put ground coffee into the filter basket"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "CEBAD"
-  }
- },
- {
-  "bankKey": "spo-L4-8",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of sending a parcel in workable order.",
-   "steps": [
-    "A. get the tracking receipt",
-    "B. track the shipment online",
-    "C. take the box to the post office",
-    "D. write the address on the sealed box",
-    "E. pay for the postage"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "DCEAB"
-  }
- },
- {
-  "bankKey": "spo-L5-1",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of sending a parcel in workable order.",
-   "steps": [
-    "A. pay for the postage",
-    "B. write the address on the sealed box",
-    "C. take the box to the post office",
-    "D. seal the box with tape",
-    "E. put the item into a box"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "EDBCA"
-  }
- },
- {
-  "bankKey": "spo-L5-2",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of cooking pasta in workable order.",
-   "steps": [
-    "A. fill a pot with water",
-    "B. bring the water to a boil",
-    "C. cook the pasta until tender",
-    "D. add the pasta to the boiling water",
-    "E. drain the cooked pasta"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "ABDCE"
-  }
- },
- {
-  "bankKey": "spo-L5-3",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of making tea in workable order.",
-   "steps": [
-    "A. pour the boiling water into the cup with the teabag",
-    "B. let the tea steep",
-    "C. boil the water",
-    "D. add milk to the brewed tea",
-    "E. remove the teabag"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "CABED"
-  }
- },
- {
-  "bankKey": "spo-L5-4",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of baking bread in workable order.",
-   "steps": [
-    "A. take the baked loaf out",
-    "B. shape the risen dough into a loaf",
-    "C. bake the loaf in the oven",
-    "D. let the dough rise",
-    "E. knead the dough"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "EDBCA"
-  }
- },
- {
-  "bankKey": "spo-L5-5",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of setting up a new phone in workable order.",
-   "steps": [
-    "A. sign in to your account",
-    "B. power the phone on",
-    "C. install your remaining apps",
-    "D. connect to the network",
-    "E. restore your data from backup"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "BDAEC"
-  }
- },
- {
-  "bankKey": "spo-L5-6",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of cooking pasta in workable order.",
-   "steps": [
-    "A. add the pasta to the boiling water",
-    "B. serve the finished dish",
-    "C. stir the sauce into the drained pasta",
-    "D. drain the cooked pasta",
-    "E. cook the pasta until tender"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "AEDCB"
-  }
- },
- {
-  "bankKey": "spo-L5-7",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of baking bread in workable order.",
-   "steps": [
-    "A. bake the loaf in the oven",
-    "B. shape the risen dough into a loaf",
-    "C. let the dough rise",
-    "D. take the baked loaf out",
-    "E. let the loaf cool before slicing"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "CBADE"
-  }
- },
- {
-  "bankKey": "spo-L5-8",
-  "category": "strategic_planning",
-  "challengeType": "step_order",
-  "level": 5,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 30000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "step_order",
-   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
-   "steps": [
-    "A. place the pot on the stove",
-    "B. wait for the coffee to rise into the top",
-    "C. fill the bottom chamber with water",
-    "D. put ground coffee into the filter basket",
-    "E. screw the pot together"
-   ],
-   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "correctOrder": "CDEAB"
-  }
- },
- {
   "bankKey": "spo-L6-1",
   "category": "strategic_planning",
   "challengeType": "step_order",
@@ -1190,19 +2072,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a job application in workable order.",
+   "instruction": "Put the steps of a camping trip in workable order.",
    "steps": [
-    "A. update your CV for the role",
-    "B. read the job posting",
-    "C. receive the interview invitation",
-    "D. submit the application",
-    "E. write the cover letter"
+    "A. drive to the campsite",
+    "B. pitch the tent",
+    "C. pack the gear",
+    "D. pick the campsite",
+    "E. collect firewood"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BAEDC"
+   "correctOrder": "DCABE"
   }
  },
  {
@@ -1220,19 +2102,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of baking bread in workable order.",
+   "instruction": "Put the steps of sending a parcel in workable order.",
    "steps": [
-    "A. bake the loaf in the oven",
-    "B. shape the risen dough into a loaf",
-    "C. let the loaf cool before slicing",
-    "D. let the dough rise",
-    "E. take the baked loaf out"
+    "A. write the address on the sealed box",
+    "B. pay for the postage",
+    "C. take the box to the post office",
+    "D. get the tracking receipt",
+    "E. seal the box with tape"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "DBAEC"
+   "correctOrder": "EACBD"
   }
  },
  {
@@ -1250,19 +2132,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
+   "instruction": "Put the steps of washing clothes in workable order.",
    "steps": [
-    "A. place the sapling into the hole",
-    "B. fill the hole back in around the roots",
-    "C. dig the hole",
-    "D. press the soil firm",
-    "E. choose the planting spot"
+    "A. load the clothes into the machine",
+    "B. run the wash cycle",
+    "C. add the detergent",
+    "D. take the wet clothes out",
+    "E. gather the dirty clothes"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "ECABD"
+   "correctOrder": "EACBD"
   }
  },
  {
@@ -1280,19 +2162,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
+   "instruction": "Put the steps of sending a parcel in workable order.",
    "steps": [
-    "A. fill the hole back in around the roots",
-    "B. mulch around the watered base",
-    "C. press the soil firm",
-    "D. place the sapling into the hole",
-    "E. water the planted sapling"
+    "A. pay for the postage",
+    "B. take the box to the post office",
+    "C. track the shipment online",
+    "D. write the address on the sealed box",
+    "E. get the tracking receipt"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "DACEB"
+   "correctOrder": "DBAEC"
   }
  },
  {
@@ -1310,19 +2192,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of setting up a new phone in workable order.",
+   "instruction": "Put the steps of baking bread in workable order.",
    "steps": [
-    "A. insert the SIM card",
-    "B. power the phone on",
-    "C. restore your data from backup",
-    "D. sign in to your account",
-    "E. connect to the network"
+    "A. mix flour, water and yeast into a dough",
+    "B. shape the risen dough into a loaf",
+    "C. let the dough rise",
+    "D. knead the dough",
+    "E. bake the loaf in the oven"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "ABEDC"
+   "correctOrder": "ADCBE"
   }
  },
  {
@@ -1340,19 +2222,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of washing clothes in workable order.",
+   "instruction": "Put the steps of cooking pasta in workable order.",
    "steps": [
-    "A. hang the wet clothes to dry",
-    "B. add the detergent",
-    "C. fold the dried clothes",
-    "D. run the wash cycle",
-    "E. take the wet clothes out"
+    "A. stir the sauce into the drained pasta",
+    "B. add the pasta to the boiling water",
+    "C. cook the pasta until tender",
+    "D. bring the water to a boil",
+    "E. drain the cooked pasta"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BDEAC"
+   "correctOrder": "DBCEA"
   }
  },
  {
@@ -1370,19 +2252,19 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of setting up a new phone in workable order.",
+   "instruction": "Put the steps of sending a parcel in workable order.",
    "steps": [
-    "A. sign in to your account",
-    "B. power the phone on",
-    "C. insert the SIM card",
-    "D. unbox the phone",
-    "E. connect to the network"
+    "A. write the address on the sealed box",
+    "B. put the item into a box",
+    "C. seal the box with tape",
+    "D. take the box to the post office",
+    "E. pay for the postage"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "DCBEA"
+   "correctOrder": "BCADE"
   }
  },
  {
@@ -1400,19 +2282,199 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a camping trip in workable order.",
+   "instruction": "Put the steps of a job application in workable order.",
    "steps": [
-    "A. collect firewood",
-    "B. pitch the tent",
-    "C. light the campfire",
-    "D. cook dinner over the fire",
-    "E. drive to the campsite"
+    "A. write the cover letter",
+    "B. read the job posting",
+    "C. submit the application",
+    "D. receive the interview invitation",
+    "E. update your CV for the role"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EBACD"
+   "correctOrder": "BEACD"
+  }
+ },
+ {
+  "bankKey": "spo-L6-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of painting a wall in workable order.",
+   "steps": [
+    "A. sand the wall smooth",
+    "B. let the primer dry",
+    "C. cover the floor with a protective sheet",
+    "D. move furniture away from the wall",
+    "E. apply the primer coat"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DCAEB"
+  }
+ },
+ {
+  "bankKey": "spo-L6-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. dig the hole",
+    "B. place the sapling into the hole",
+    "C. choose the planting spot",
+    "D. press the soil firm",
+    "E. fill the hole back in around the roots"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CABED"
+  }
+ },
+ {
+  "bankKey": "spo-L6-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of washing clothes in workable order.",
+   "steps": [
+    "A. load the clothes into the machine",
+    "B. run the wash cycle",
+    "C. add the detergent",
+    "D. take the wet clothes out",
+    "E. hang the wet clothes to dry"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "ACBDE"
+  }
+ },
+ {
+  "bankKey": "spo-L6-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. water the planted sapling",
+    "B. press the soil firm",
+    "C. fill the hole back in around the roots",
+    "D. place the sapling into the hole",
+    "E. mulch around the watered base"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DCBAE"
+  }
+ },
+ {
+  "bankKey": "spo-L6-13",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of washing clothes in workable order.",
+   "steps": [
+    "A. take the wet clothes out",
+    "B. run the wash cycle",
+    "C. add the detergent",
+    "D. hang the wet clothes to dry",
+    "E. fold the dried clothes"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CBADE"
+  }
+ },
+ {
+  "bankKey": "spo-L6-14",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. remove the loosened nuts and the flat wheel",
+    "B. jack the car up",
+    "C. loosen the wheel nuts slightly",
+    "D. take out the jack and the spare wheel",
+    "E. mount the spare wheel and tighten the nuts"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DCBAE"
   }
  },
  {
@@ -1430,20 +2492,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a camping trip in workable order.",
+   "instruction": "Put the steps of painting a wall in workable order.",
    "steps": [
-    "A. drive to the campsite",
-    "B. pick the campsite",
-    "C. pack the gear",
-    "D. collect firewood",
-    "E. light the campfire",
-    "F. pitch the tent"
+    "A. cover the floor with a protective sheet",
+    "B. apply the primer coat",
+    "C. paint the first colour coat",
+    "D. let the primer dry",
+    "E. apply the second coat over the dried first",
+    "F. sand the wall smooth"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BCAFDE"
+   "correctOrder": "AFBDCE"
   }
  },
  {
@@ -1461,20 +2523,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of sending a parcel in workable order.",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
    "steps": [
-    "A. track the shipment online",
-    "B. write the address on the sealed box",
-    "C. get the tracking receipt",
-    "D. pay for the postage",
-    "E. seal the box with tape",
-    "F. take the box to the post office"
+    "A. take out the jack and the spare wheel",
+    "B. remove the loosened nuts and the flat wheel",
+    "C. jack the car up",
+    "D. pull over and stop the car safely",
+    "E. loosen the wheel nuts slightly",
+    "F. mount the spare wheel and tighten the nuts"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EBFDCA"
+   "correctOrder": "DAECBF"
   }
  },
  {
@@ -1496,16 +2558,16 @@
    "steps": [
     "A. add the detergent",
     "B. load the clothes into the machine",
-    "C. hang the wet clothes to dry",
+    "C. run the wash cycle",
     "D. gather the dirty clothes",
-    "E. run the wash cycle",
+    "E. hang the wet clothes to dry",
     "F. take the wet clothes out"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "DBAEFC"
+   "correctOrder": "DBACFE"
   }
  },
  {
@@ -1523,20 +2585,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of cooking pasta in workable order.",
+   "instruction": "Put the steps of setting up a new phone in workable order.",
    "steps": [
-    "A. fill a pot with water",
-    "B. stir the sauce into the drained pasta",
-    "C. cook the pasta until tender",
-    "D. bring the water to a boil",
-    "E. drain the cooked pasta",
-    "F. add the pasta to the boiling water"
+    "A. restore your data from backup",
+    "B. power the phone on",
+    "C. unbox the phone",
+    "D. connect to the network",
+    "E. insert the SIM card",
+    "F. sign in to your account"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "ADFCEB"
+   "correctOrder": "CEBDFA"
   }
  },
  {
@@ -1556,18 +2618,18 @@
    "kind": "step_order",
    "instruction": "Put the steps of baking bread in workable order.",
    "steps": [
-    "A. let the dough rise",
-    "B. knead the dough",
-    "C. take the baked loaf out",
-    "D. mix flour, water and yeast into a dough",
-    "E. shape the risen dough into a loaf",
-    "F. bake the loaf in the oven"
+    "A. shape the risen dough into a loaf",
+    "B. take the baked loaf out",
+    "C. knead the dough",
+    "D. let the dough rise",
+    "E. bake the loaf in the oven",
+    "F. let the loaf cool before slicing"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "DBAEFC"
+   "correctOrder": "CDAEBF"
   }
  },
  {
@@ -1585,20 +2647,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of painting a wall in workable order.",
+   "instruction": "Put the steps of making tea in workable order.",
    "steps": [
-    "A. let the primer dry",
-    "B. apply the second coat over the dried first",
-    "C. paint the first colour coat",
-    "D. sand the wall smooth",
-    "E. cover the floor with a protective sheet",
-    "F. apply the primer coat"
+    "A. pour the boiling water into the cup with the teabag",
+    "B. let the tea steep",
+    "C. add milk to the brewed tea",
+    "D. boil the water",
+    "E. remove the teabag",
+    "F. fill the kettle with water"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EDFACB"
+   "correctOrder": "FDABEC"
   }
  },
  {
@@ -1616,20 +2678,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of setting up a new phone in workable order.",
+   "instruction": "Put the steps of cooking pasta in workable order.",
    "steps": [
-    "A. connect to the network",
-    "B. insert the SIM card",
-    "C. install your remaining apps",
-    "D. sign in to your account",
-    "E. power the phone on",
-    "F. restore your data from backup"
+    "A. add the pasta to the boiling water",
+    "B. stir the sauce into the drained pasta",
+    "C. cook the pasta until tender",
+    "D. serve the finished dish",
+    "E. drain the cooked pasta",
+    "F. bring the water to a boil"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BEADFC"
+   "correctOrder": "FACEBD"
   }
  },
  {
@@ -1647,20 +2709,206 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
+   "instruction": "Put the steps of making tea in workable order.",
    "steps": [
-    "A. place the sapling into the hole",
-    "B. water the planted sapling",
-    "C. fill the hole back in around the roots",
-    "D. press the soil firm",
-    "E. dig the hole",
-    "F. mulch around the watered base"
+    "A. remove the teabag",
+    "B. let the tea steep",
+    "C. drink the tea",
+    "D. add milk to the brewed tea",
+    "E. boil the water",
+    "F. pour the boiling water into the cup with the teabag"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EACDBF"
+   "correctOrder": "EFBADC"
+  }
+ },
+ {
+  "bankKey": "spo-L7-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of sending a parcel in workable order.",
+   "steps": [
+    "A. take the box to the post office",
+    "B. seal the box with tape",
+    "C. pay for the postage",
+    "D. write the address on the sealed box",
+    "E. get the tracking receipt",
+    "F. track the shipment online"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BDACEF"
+  }
+ },
+ {
+  "bankKey": "spo-L7-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. press the soil firm",
+    "B. dig the hole",
+    "C. mulch around the watered base",
+    "D. place the sapling into the hole",
+    "E. fill the hole back in around the roots",
+    "F. water the planted sapling"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BDEAFC"
+  }
+ },
+ {
+  "bankKey": "spo-L7-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of sending a parcel in workable order.",
+   "steps": [
+    "A. take the box to the post office",
+    "B. get the tracking receipt",
+    "C. put the item into a box",
+    "D. pay for the postage",
+    "E. seal the box with tape",
+    "F. write the address on the sealed box"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CEFADB"
+  }
+ },
+ {
+  "bankKey": "spo-L7-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a job application in workable order.",
+   "steps": [
+    "A. write the cover letter",
+    "B. update your CV for the role",
+    "C. attend the interview",
+    "D. accept the job offer",
+    "E. receive the interview invitation",
+    "F. submit the application"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BAFECD"
+  }
+ },
+ {
+  "bankKey": "spo-L7-13",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "steps": [
+    "A. screw the pot together",
+    "B. pour the coffee into a cup",
+    "C. take the pot off the heat",
+    "D. wait for the coffee to rise into the top",
+    "E. put ground coffee into the filter basket",
+    "F. place the pot on the stove"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EAFDCB"
+  }
+ },
+ {
+  "bankKey": "spo-L7-14",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a job application in workable order.",
+   "steps": [
+    "A. receive the interview invitation",
+    "B. write the cover letter",
+    "C. read the job posting",
+    "D. submit the application",
+    "E. update your CV for the role",
+    "F. attend the interview"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CEBDAF"
   }
  },
  {
@@ -1678,20 +2926,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of baking bread in workable order.",
+   "instruction": "Put the steps of a camping trip in workable order.",
    "steps": [
-    "A. let the loaf cool before slicing",
-    "B. shape the risen dough into a loaf",
-    "C. knead the dough",
-    "D. bake the loaf in the oven",
-    "E. take the baked loaf out",
-    "F. let the dough rise"
+    "A. collect firewood",
+    "B. pick the campsite",
+    "C. light the campfire",
+    "D. pitch the tent",
+    "E. drive to the campsite",
+    "F. pack the gear"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CFBDEA"
+   "correctOrder": "BFEDAC"
   }
  },
  {
@@ -1709,20 +2957,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
+   "instruction": "Put the steps of setting up a new phone in workable order.",
    "steps": [
-    "A. fill the hole back in around the roots",
-    "B. water the planted sapling",
-    "C. press the soil firm",
-    "D. dig the hole",
-    "E. choose the planting spot",
-    "F. place the sapling into the hole"
+    "A. restore your data from backup",
+    "B. connect to the network",
+    "C. insert the SIM card",
+    "D. sign in to your account",
+    "E. power the phone on",
+    "F. install your remaining apps"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EDFACB"
+   "correctOrder": "CEBDAF"
   }
  },
  {
@@ -1740,20 +2988,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of sending a parcel in workable order.",
+   "instruction": "Put the steps of painting a wall in workable order.",
    "steps": [
-    "A. pay for the postage",
-    "B. get the tracking receipt",
-    "C. write the address on the sealed box",
-    "D. seal the box with tape",
-    "E. put the item into a box",
-    "F. take the box to the post office"
+    "A. apply the primer coat",
+    "B. let the primer dry",
+    "C. sand the wall smooth",
+    "D. paint the first colour coat",
+    "E. cover the floor with a protective sheet",
+    "F. apply the second coat over the dried first"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EDCFAB"
+   "correctOrder": "ECABDF"
   }
  },
  {
@@ -1771,20 +3019,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "instruction": "Put the steps of painting a wall in workable order.",
    "steps": [
-    "A. take the pot off the heat",
-    "B. place the pot on the stove",
-    "C. fill the bottom chamber with water",
-    "D. put ground coffee into the filter basket",
-    "E. wait for the coffee to rise into the top",
-    "F. screw the pot together"
+    "A. move furniture away from the wall",
+    "B. cover the floor with a protective sheet",
+    "C. apply the primer coat",
+    "D. let the primer dry",
+    "E. sand the wall smooth",
+    "F. paint the first colour coat"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CDFBEA"
+   "correctOrder": "ABECDF"
   }
  },
  {
@@ -1802,20 +3050,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "instruction": "Put the steps of washing clothes in workable order.",
    "steps": [
-    "A. remove the loosened nuts and the flat wheel",
-    "B. lower the car back down",
-    "C. take out the jack and the spare wheel",
-    "D. loosen the wheel nuts slightly",
-    "E. jack the car up",
-    "F. mount the spare wheel and tighten the nuts"
+    "A. fold the dried clothes",
+    "B. take the wet clothes out",
+    "C. add the detergent",
+    "D. run the wash cycle",
+    "E. load the clothes into the machine",
+    "F. hang the wet clothes to dry"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CDEAFB"
+   "correctOrder": "ECDBFA"
   }
  },
  {
@@ -1833,20 +3081,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of washing clothes in workable order.",
+   "instruction": "Put the steps of cooking pasta in workable order.",
    "steps": [
-    "A. hang the wet clothes to dry",
-    "B. load the clothes into the machine",
-    "C. gather the dirty clothes",
-    "D. take the wet clothes out",
-    "E. add the detergent",
-    "F. run the wash cycle"
+    "A. stir the sauce into the drained pasta",
+    "B. drain the cooked pasta",
+    "C. cook the pasta until tender",
+    "D. add the pasta to the boiling water",
+    "E. fill a pot with water",
+    "F. bring the water to a boil"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CBEFDA"
+   "correctOrder": "EFDCBA"
   }
  },
  {
@@ -1864,24 +3112,148 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a camping trip in workable order.",
+   "instruction": "Put the steps of baking bread in workable order.",
    "steps": [
-    "A. drive to the campsite",
-    "B. light the campfire",
-    "C. cook dinner over the fire",
-    "D. collect firewood",
-    "E. pitch the tent",
-    "F. pack the gear"
+    "A. let the dough rise",
+    "B. take the baked loaf out",
+    "C. shape the risen dough into a loaf",
+    "D. bake the loaf in the oven",
+    "E. knead the dough",
+    "F. mix flour, water and yeast into a dough"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "FAEDBC"
+   "correctOrder": "FEACDB"
   }
  },
  {
   "bankKey": "spo-L8-8",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of sending a parcel in workable order.",
+   "steps": [
+    "A. take the box to the post office",
+    "B. pay for the postage",
+    "C. seal the box with tape",
+    "D. get the tracking receipt",
+    "E. track the shipment online",
+    "F. write the address on the sealed box"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CFABDE"
+  }
+ },
+ {
+  "bankKey": "spo-L8-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. press the soil firm",
+    "B. water the planted sapling",
+    "C. fill the hole back in around the roots",
+    "D. choose the planting spot",
+    "E. place the sapling into the hole",
+    "F. dig the hole"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DFECAB"
+  }
+ },
+ {
+  "bankKey": "spo-L8-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of washing clothes in workable order.",
+   "steps": [
+    "A. run the wash cycle",
+    "B. hang the wet clothes to dry",
+    "C. take the wet clothes out",
+    "D. load the clothes into the machine",
+    "E. gather the dirty clothes",
+    "F. add the detergent"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "EDFACB"
+  }
+ },
+ {
+  "bankKey": "spo-L8-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making tea in workable order.",
+   "steps": [
+    "A. let the tea steep",
+    "B. remove the teabag",
+    "C. boil the water",
+    "D. pour the boiling water into the cup with the teabag",
+    "E. drink the tea",
+    "F. add milk to the brewed tea"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDABFE"
+  }
+ },
+ {
+  "bankKey": "spo-L8-12",
   "category": "strategic_planning",
   "challengeType": "step_order",
   "level": 8,
@@ -1900,15 +3272,77 @@
     "A. take the baked loaf out",
     "B. bake the loaf in the oven",
     "C. knead the dough",
-    "D. mix flour, water and yeast into a dough",
+    "D. shape the risen dough into a loaf",
     "E. let the dough rise",
-    "F. shape the risen dough into a loaf"
+    "F. let the loaf cool before slicing"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "DCEFBA"
+   "correctOrder": "CEDBAF"
+  }
+ },
+ {
+  "bankKey": "spo-L8-13",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of a camping trip in workable order.",
+   "steps": [
+    "A. cook dinner over the fire",
+    "B. pack the gear",
+    "C. collect firewood",
+    "D. pitch the tent",
+    "E. light the campfire",
+    "F. drive to the campsite"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BFDCEA"
+  }
+ },
+ {
+  "bankKey": "spo-L8-14",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. remove the loosened nuts and the flat wheel",
+    "B. loosen the wheel nuts slightly",
+    "C. take out the jack and the spare wheel",
+    "D. pull over and stop the car safely",
+    "E. mount the spare wheel and tighten the nuts",
+    "F. jack the car up"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "DCBFAE"
   }
  },
  {
@@ -1926,21 +3360,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a camping trip in workable order.",
+   "instruction": "Put the steps of washing clothes in workable order.",
    "steps": [
-    "A. drive to the campsite",
-    "B. cook dinner over the fire",
-    "C. pitch the tent",
-    "D. collect firewood",
-    "E. pack the gear",
-    "F. pick the campsite",
-    "G. light the campfire"
+    "A. load the clothes into the machine",
+    "B. take the wet clothes out",
+    "C. gather the dirty clothes",
+    "D. fold the dried clothes",
+    "E. hang the wet clothes to dry",
+    "F. add the detergent",
+    "G. run the wash cycle"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "FEACDGB"
+   "correctOrder": "CAFGBED"
   }
  },
  {
@@ -1958,21 +3392,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of making tea in workable order.",
+   "instruction": "Put the steps of planting a tree in workable order.",
    "steps": [
-    "A. drink the tea",
-    "B. pour the boiling water into the cup with the teabag",
-    "C. let the tea steep",
-    "D. remove the teabag",
-    "E. fill the kettle with water",
-    "F. boil the water",
-    "G. add milk to the brewed tea"
+    "A. dig the hole",
+    "B. choose the planting spot",
+    "C. mulch around the watered base",
+    "D. fill the hole back in around the roots",
+    "E. water the planted sapling",
+    "F. place the sapling into the hole",
+    "G. press the soil firm"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EFBCDGA"
+   "correctOrder": "BAFDGEC"
   }
  },
  {
@@ -1990,21 +3424,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "instruction": "Put the steps of a job application in workable order.",
    "steps": [
-    "A. pour the coffee into a cup",
-    "B. fill the bottom chamber with water",
-    "C. wait for the coffee to rise into the top",
-    "D. take the pot off the heat",
-    "E. put ground coffee into the filter basket",
-    "F. place the pot on the stove",
-    "G. screw the pot together"
+    "A. accept the job offer",
+    "B. write the cover letter",
+    "C. receive the interview invitation",
+    "D. attend the interview",
+    "E. update your CV for the role",
+    "F. read the job posting",
+    "G. submit the application"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BEGFCDA"
+   "correctOrder": "FEBGCDA"
   }
  },
  {
@@ -2022,21 +3456,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of washing clothes in workable order.",
+   "instruction": "Put the steps of baking bread in workable order.",
    "steps": [
-    "A. gather the dirty clothes",
-    "B. run the wash cycle",
-    "C. fold the dried clothes",
-    "D. hang the wet clothes to dry",
-    "E. take the wet clothes out",
-    "F. load the clothes into the machine",
-    "G. add the detergent"
+    "A. take the baked loaf out",
+    "B. shape the risen dough into a loaf",
+    "C. mix flour, water and yeast into a dough",
+    "D. knead the dough",
+    "E. let the loaf cool before slicing",
+    "F. bake the loaf in the oven",
+    "G. let the dough rise"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "AFGBEDC"
+   "correctOrder": "CDGBFAE"
   }
  },
  {
@@ -2054,21 +3488,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of cooking pasta in workable order.",
+   "instruction": "Put the steps of a camping trip in workable order.",
    "steps": [
-    "A. cook the pasta until tender",
-    "B. fill a pot with water",
-    "C. stir the sauce into the drained pasta",
-    "D. add the pasta to the boiling water",
-    "E. serve the finished dish",
-    "F. bring the water to a boil",
-    "G. drain the cooked pasta"
+    "A. cook dinner over the fire",
+    "B. collect firewood",
+    "C. pitch the tent",
+    "D. pack the gear",
+    "E. pick the campsite",
+    "F. light the campfire",
+    "G. drive to the campsite"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BFDAGCE"
+   "correctOrder": "EDGCBFA"
   }
  },
  {
@@ -2086,21 +3520,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of a job application in workable order.",
+   "instruction": "Put the steps of sending a parcel in workable order.",
    "steps": [
-    "A. accept the job offer",
-    "B. read the job posting",
-    "C. submit the application",
-    "D. receive the interview invitation",
-    "E. attend the interview",
-    "F. update your CV for the role",
-    "G. write the cover letter"
+    "A. put the item into a box",
+    "B. write the address on the sealed box",
+    "C. track the shipment online",
+    "D. get the tracking receipt",
+    "E. seal the box with tape",
+    "F. pay for the postage",
+    "G. take the box to the post office"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BFGCDEA"
+   "correctOrder": "AEBGFDC"
   }
  },
  {
@@ -2118,21 +3552,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of sending a parcel in workable order.",
+   "instruction": "Put the steps of making tea in workable order.",
    "steps": [
-    "A. take the box to the post office",
-    "B. get the tracking receipt",
-    "C. track the shipment online",
-    "D. pay for the postage",
-    "E. put the item into a box",
-    "F. seal the box with tape",
-    "G. write the address on the sealed box"
+    "A. remove the teabag",
+    "B. boil the water",
+    "C. pour the boiling water into the cup with the teabag",
+    "D. let the tea steep",
+    "E. add milk to the brewed tea",
+    "F. fill the kettle with water",
+    "G. drink the tea"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "EFGADBC"
+   "correctOrder": "FBCDAEG"
   }
  },
  {
@@ -2150,21 +3584,149 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
    "steps": [
-    "A. dig the hole",
-    "B. fill the hole back in around the roots",
-    "C. mulch around the watered base",
-    "D. press the soil firm",
-    "E. place the sapling into the hole",
-    "F. choose the planting spot",
-    "G. water the planted sapling"
+    "A. place the pot on the stove",
+    "B. take the pot off the heat",
+    "C. wait for the coffee to rise into the top",
+    "D. pour the coffee into a cup",
+    "E. fill the bottom chamber with water",
+    "F. screw the pot together",
+    "G. put ground coffee into the filter basket"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "FAEBDGC"
+   "correctOrder": "EGFACBD"
+  }
+ },
+ {
+  "bankKey": "spo-L9-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
+   "steps": [
+    "A. pull over and stop the car safely",
+    "B. lower the car back down",
+    "C. loosen the wheel nuts slightly",
+    "D. jack the car up",
+    "E. take out the jack and the spare wheel",
+    "F. remove the loosened nuts and the flat wheel",
+    "G. mount the spare wheel and tighten the nuts"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "AECDFGB"
+  }
+ },
+ {
+  "bankKey": "spo-L9-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of cooking pasta in workable order.",
+   "steps": [
+    "A. cook the pasta until tender",
+    "B. fill a pot with water",
+    "C. add the pasta to the boiling water",
+    "D. bring the water to a boil",
+    "E. stir the sauce into the drained pasta",
+    "F. serve the finished dish",
+    "G. drain the cooked pasta"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BDCAGEF"
+  }
+ },
+ {
+  "bankKey": "spo-L9-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of painting a wall in workable order.",
+   "steps": [
+    "A. cover the floor with a protective sheet",
+    "B. apply the primer coat",
+    "C. paint the first colour coat",
+    "D. sand the wall smooth",
+    "E. apply the second coat over the dried first",
+    "F. move furniture away from the wall",
+    "G. let the primer dry"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "FADBGCE"
+  }
+ },
+ {
+  "bankKey": "spo-L9-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of setting up a new phone in workable order.",
+   "steps": [
+    "A. insert the SIM card",
+    "B. unbox the phone",
+    "C. power the phone on",
+    "D. connect to the network",
+    "E. sign in to your account",
+    "F. restore your data from backup",
+    "G. install your remaining apps"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BACDEFG"
   }
  },
  {
@@ -2182,21 +3744,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of washing clothes in workable order.",
+   "instruction": "Put the steps of setting up a new phone in workable order.",
    "steps": [
-    "A. add the detergent",
-    "B. take the wet clothes out",
-    "C. load the clothes into the machine",
-    "D. run the wash cycle",
-    "E. gather the dirty clothes",
-    "F. fold the dried clothes",
-    "G. hang the wet clothes to dry"
+    "A. connect to the network",
+    "B. sign in to your account",
+    "C. install your remaining apps",
+    "D. power the phone on",
+    "E. restore your data from backup",
+    "F. insert the SIM card",
+    "G. unbox the phone"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "ECADBGF"
+   "correctOrder": "GFDABEC"
   }
  },
  {
@@ -2214,21 +3776,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "instruction": "Put the steps of a camping trip in workable order.",
    "steps": [
-    "A. put ground coffee into the filter basket",
-    "B. place the pot on the stove",
-    "C. fill the bottom chamber with water",
-    "D. pour the coffee into a cup",
-    "E. screw the pot together",
-    "F. take the pot off the heat",
-    "G. wait for the coffee to rise into the top"
+    "A. collect firewood",
+    "B. pack the gear",
+    "C. drive to the campsite",
+    "D. pick the campsite",
+    "E. pitch the tent",
+    "F. light the campfire",
+    "G. cook dinner over the fire"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CAEBGFD"
+   "correctOrder": "DBCEAFG"
   }
  },
  {
@@ -2246,21 +3808,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of cooking pasta in workable order.",
+   "instruction": "Put the steps of painting a wall in workable order.",
    "steps": [
-    "A. drain the cooked pasta",
-    "B. stir the sauce into the drained pasta",
-    "C. fill a pot with water",
-    "D. bring the water to a boil",
-    "E. cook the pasta until tender",
-    "F. serve the finished dish",
-    "G. add the pasta to the boiling water"
+    "A. move furniture away from the wall",
+    "B. apply the primer coat",
+    "C. let the primer dry",
+    "D. cover the floor with a protective sheet",
+    "E. sand the wall smooth",
+    "F. paint the first colour coat",
+    "G. apply the second coat over the dried first"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "CDGEABF"
+   "correctOrder": "ADEBCFG"
   }
  },
  {
@@ -2278,21 +3840,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of setting up a new phone in workable order.",
+   "instruction": "Put the steps of washing clothes in workable order.",
    "steps": [
-    "A. unbox the phone",
-    "B. connect to the network",
-    "C. restore your data from backup",
-    "D. power the phone on",
-    "E. sign in to your account",
-    "F. install your remaining apps",
-    "G. insert the SIM card"
+    "A. hang the wet clothes to dry",
+    "B. run the wash cycle",
+    "C. add the detergent",
+    "D. load the clothes into the machine",
+    "E. gather the dirty clothes",
+    "F. take the wet clothes out",
+    "G. fold the dried clothes"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "AGDBECF"
+   "correctOrder": "EDCBFAG"
   }
  },
  {
@@ -2310,21 +3872,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of baking bread in workable order.",
+   "instruction": "Put the steps of a job application in workable order.",
    "steps": [
-    "A. mix flour, water and yeast into a dough",
-    "B. bake the loaf in the oven",
-    "C. take the baked loaf out",
-    "D. shape the risen dough into a loaf",
-    "E. let the loaf cool before slicing",
-    "F. let the dough rise",
-    "G. knead the dough"
+    "A. receive the interview invitation",
+    "B. write the cover letter",
+    "C. read the job posting",
+    "D. attend the interview",
+    "E. submit the application",
+    "F. update your CV for the role",
+    "G. accept the job offer"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "AGFDBCE"
+   "correctOrder": "CFBEADG"
   }
  },
  {
@@ -2342,21 +3904,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of painting a wall in workable order.",
+   "instruction": "Put the steps of cooking pasta in workable order.",
    "steps": [
-    "A. let the primer dry",
-    "B. move furniture away from the wall",
-    "C. apply the primer coat",
-    "D. apply the second coat over the dried first",
-    "E. sand the wall smooth",
-    "F. cover the floor with a protective sheet",
-    "G. paint the first colour coat"
+    "A. stir the sauce into the drained pasta",
+    "B. cook the pasta until tender",
+    "C. drain the cooked pasta",
+    "D. add the pasta to the boiling water",
+    "E. fill a pot with water",
+    "F. bring the water to a boil",
+    "G. serve the finished dish"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "BFECAGD"
+   "correctOrder": "EFDBCAG"
   }
  },
  {
@@ -2374,21 +3936,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of sending a parcel in workable order.",
+   "instruction": "Put the steps of baking bread in workable order.",
    "steps": [
-    "A. pay for the postage",
-    "B. get the tracking receipt",
-    "C. seal the box with tape",
-    "D. take the box to the post office",
-    "E. put the item into a box",
-    "F. write the address on the sealed box",
-    "G. track the shipment online"
+    "A. bake the loaf in the oven",
+    "B. knead the dough",
+    "C. let the dough rise",
+    "D. shape the risen dough into a loaf",
+    "E. mix flour, water and yeast into a dough",
+    "F. take the baked loaf out",
+    "G. let the loaf cool before slicing"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "ECFDABG"
+   "correctOrder": "EBCDAFG"
   }
  },
  {
@@ -2406,21 +3968,149 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "step_order",
-   "instruction": "Put the steps of planting a tree in workable order.",
+   "instruction": "Put the steps of changing a flat tyre in workable order.",
    "steps": [
-    "A. dig the hole",
-    "B. fill the hole back in around the roots",
-    "C. water the planted sapling",
-    "D. mulch around the watered base",
-    "E. place the sapling into the hole",
-    "F. press the soil firm",
-    "G. choose the planting spot"
+    "A. remove the loosened nuts and the flat wheel",
+    "B. jack the car up",
+    "C. mount the spare wheel and tighten the nuts",
+    "D. loosen the wheel nuts slightly",
+    "E. pull over and stop the car safely",
+    "F. lower the car back down",
+    "G. take out the jack and the spare wheel"
    ],
    "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
   },
   "answerData": {
    "scoringMode": "deliberate",
-   "correctOrder": "GAEBFCD"
+   "correctOrder": "EGDBACF"
+  }
+ },
+ {
+  "bankKey": "spo-L10-9",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of planting a tree in workable order.",
+   "steps": [
+    "A. water the planted sapling",
+    "B. choose the planting spot",
+    "C. dig the hole",
+    "D. press the soil firm",
+    "E. mulch around the watered base",
+    "F. fill the hole back in around the roots",
+    "G. place the sapling into the hole"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "BCGFDAE"
+  }
+ },
+ {
+  "bankKey": "spo-L10-10",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making tea in workable order.",
+   "steps": [
+    "A. add milk to the brewed tea",
+    "B. pour the boiling water into the cup with the teabag",
+    "C. let the tea steep",
+    "D. remove the teabag",
+    "E. boil the water",
+    "F. drink the tea",
+    "G. fill the kettle with water"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "GEBCDAF"
+  }
+ },
+ {
+  "bankKey": "spo-L10-11",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of making coffee with a moka pot in workable order.",
+   "steps": [
+    "A. put ground coffee into the filter basket",
+    "B. take the pot off the heat",
+    "C. place the pot on the stove",
+    "D. screw the pot together",
+    "E. pour the coffee into a cup",
+    "F. fill the bottom chamber with water",
+    "G. wait for the coffee to rise into the top"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "FADCGBE"
+  }
+ },
+ {
+  "bankKey": "spo-L10-12",
+  "category": "strategic_planning",
+  "challengeType": "step_order",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "step_order",
+   "instruction": "Put the steps of sending a parcel in workable order.",
+   "steps": [
+    "A. track the shipment online",
+    "B. write the address on the sealed box",
+    "C. put the item into a box",
+    "D. seal the box with tape",
+    "E. pay for the postage",
+    "F. get the tracking receipt",
+    "G. take the box to the post office"
+   ],
+   "hint": "Type the letters in the order the steps must happen, like \"C, A, D, B\". Each letter exactly once. No clock - take your time."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "correctOrder": "CDBGEFA"
   }
  }
 ]

@@ -6,6 +6,133 @@ launch rather than curated away - the same transparency the product is built on.
 
 ---
 
+## v1.18.0 - Bank expansion, Wave 0: the wordlists finally meet the prompts
+
+Field report from the maintainer: the same fluency categories arriving almost daily.
+Root cause was structural, not just small - retrieval prompts were hardcoded inline
+(24, level-gated to roughly three per level) while challenge-bank/wordlists/ held 40
+curated list files the prompt system never learned about. Wave 0 unifies them: prompts
+now derive from the wordlist files (single source of truth), every legacy prompt keeps
+its exact bankKey so accumulated item statistics survive, legacy accept-lists are
+refreshed from the richer files, and fifteen unwired lists gain prompts - 24 becomes 39,
+including the long-lost constellations and philosophers as fresh level-7 entries.
+
+The picker learns one-shot semantics: fluency prompts cannot be meaningfully re-served
+for months (recalling ANIMALS next week measures memory of last week's answers), so
+fluency categories get a hard 90-day per-user cooldown plus a widened level window
+(level +/- 1) - prompt variety outranks exact difficulty for a 30-second free-recall
+task. Daily repeats end today; the content waves that follow raise per-level depth
+toward the 25-40 target.
+
+Wave 1 (same release): twenty-five new curated wordlists join the bank - from
+school objects and desserts at the easy end through insects, spices and capital
+cities to famous scientists, mythological figures, philosophical concepts,
+mathematical terms and logical fallacies at the top. Every list ships as a plain
+file (single source of truth), gains its prompt automatically, and the judge
+accepts it accent-insensitively. Prompt count: 39 to 64; every level now holds
+6-12 prompts.
+
+Wave 2 (same release): twenty-five more lists - condiments and zodiac signs through
+mythical creatures, landforms, watercraft and cooking methods, to world cities,
+famous landmarks, cheeses, pasta, dance styles, islands, inventors, Greek letters,
+bones, explorers, physics terms, art movements and Roman emperors. Prompt count:
+64 to 89; levels now hold 6-14 each.
+
+Wave 3 (same release): twenty-five more, deliberately weighting the easy levels that
+lagged - party items, baby animals and beach items at level 1; sandwich fillings, ice
+cream flavors and pizza toppings at 2 - then camping gear, gym exercises, martial arts,
+breads, dinosaurs, sushi, teas, file formats, clouds and grammar terms across the
+middle, and Shakespeare plays, poets, data structures, economics terms, chess openings,
+rhetorical devices and psychology terms at the top. Prompt count: 89 to 114; levels now
+hold 9-18 each.
+
+Wave 4 (same release, the closer): fifteen final lists round out the domains - planets
+and holidays at the easy end through garden tools, jewelry and sewing items, to seas
+and oceans, laboratory equipment, deserts, lakes, volcanoes, medical specialties,
+moons, operas and phobias at the top (retrieval: 114 to 129). Then the letter-fluency
+engine: constraint prompts (words starting with, ending in, or CONTAINING a pattern)
+are now minted against the big lexicon instead of hand-listed - three constraint
+types, globally deduplicated so a pattern is one prompt at exactly one level, the
+sixteen legacy prompts preserved key-for-key. Verbal fluency: 16 to 167. One-shot
+prompt total across both fluency categories: 40 to 296, every level holding 30-44.
+With the 90-day cooldown this is several years of daily practice without a repeat.
+The fluency chapter closes here; later waves address quiz decks and definitions.
+
+Wave 5 (same release): the retention quiz library nearly triples - 17 decks to 49,
+306 cards to 606. Twelve fact decks built from structured pairs (European and world
+capitals, element symbols, geography records, inventors, currencies, Roman numerals,
+perfect squares, planet order, chemical compounds, official languages, the Greek
+alphabet) and twenty themed decks written by hand: pivotal years, the ancient world,
+painters of masterpieces, books and authors, Norse mythology, space, the human body,
+world geography, classical music, computing, math, economics, psychology, food of the
+world, sports, inventions by era, Latin and Greek roots, flags, units - and Croatia,
+because the maintainer had to name brudet somewhere. Retention is repeat-by-design
+(spaced repetition), so deck breadth here buys variety of choice rather than
+exposure protection.
+
+Wave 6 (same release): the vocabulary layer. 163 new word-definition pairs join the
+pool - abate through zealous, the full B2-to-C2 register - bringing the runtime
+vocabulary that serves definition items from 176 to 339 entries (the bank-side copy
+kept in parity, 134 to 297). And the identity mark evolves: the new logo keeps the
+radar-octagon frame and amber-on-dark palette but the emphasized polygon now traces
+an X across the diagonals - four blue vertex stars and the center. The favicon SVG
+is the source of truth; every raster (favicon.ico at three sizes, the 192 and 512
+PWA icons, the apple-touch icon) is re-rendered from the same geometry.
+
+Wave 7 (same release): logical reasoning grows two families - classical quantifier
+syllogisms (All/Some/No forms, Barbara through Ferio, including the undistributed-
+middle and some-some traps whose honest answer is Cannot be determined) and
+conditional inference (modus ponens and tollens, the affirming-the-consequent and
+denying-the-antecedent traps, contrapositive restatement, and only-if phrasings at
+the highest levels). The new items live in their own key namespace so all 216 legacy
+keys survive untouched: 216 challenges become 360, every level now 30 deep.
+
+Wave 8 (same release, the finale): every procedural generator gets a raised count -
+arithmetic 360 to 539, sequences 240 to 380, working memory 240 to 384, attention
+control 200 to 320, spatial reasoning 208 to 304, processing speed 240 to 360,
+estimation 200 to 282, inhibition 240 to 320, task switching 200 to 320, visual
+processing 200 to 320. One number per builder; positional keys extend upward so all
+existing keys survive.
+
+The expansion in one line: the bank grows from roughly 3,400 items to 5,478 -
+fluency prompts 40 to 296 with a 90-day cooldown, 105 wordlists as single source of
+truth, quiz decks 17 to 49, the vocabulary pool 176 to 339, logic 216 to 360, and
+every procedural category 50 to 60 percent deeper. A daily user now has years of
+headroom, and the 25-40 per-level target holds across the board.
+
+And the picker learns transparency and choice: every category card on the practice
+page now states what it is made of (Includes: syllogism, conditional, ordering), and
+strategic planning - four genuinely different puzzle families sharing one rating -
+splits for CHOOSING: Hanoi, grid path, number path and step order each get their own
+train link. The choice is serving-only by construction: the type filter threads from
+the URL through the next API into the picker (count, fresh pick, and both fallbacks),
+while ratings, pools, percentiles and the radar stay category-level - what you choose
+changes what you see next, never what is measured. Two field reports from maintainer
+testing fixed the same evening: the sub-type now survives the level-up advance (the
+confirm path passed forCategory, which silently dropped the type - the second Hanoi
+was a random planning puzzle), and the first-run welcome gate preserves intent - a
+newcomer who clicks Train: Hanoi lands back on exactly Hanoi after the contract,
+carried through a same-origin-guarded next parameter, not dumped into mixed practice.
+A third field report unmasked them both as symptoms: the session cookie is Secure in
+production builds, so testing that build locally over plain http silently drops it -
+every request arrives as a brand-new anonymous user, the intro gate fires forever,
+and nothing persists. Local-only escape hatch added: INSECURE_COOKIES=1 in a local
+.env (documented in .env.example, never for servers) keeps the cookie over http. And the intro
+gate itself became self-healing: a user with any recorded attempt has factually passed
+onboarding, so a missing seen-flag (legacy row, module-return path) marks itself and
+proceeds instead of bouncing a mid-session user back to the contract; module screens
+also return to the mix with the explicit bypass. Planning depth raised to make the
+split honest: hanoi 80 to 118, step order 80 to 136, grid path 120 to 180, number
+path 200 to 240. Hanoi difficulty is redesigned on a maintainer decision: start at
+three discs, rise to a sane cap of FIVE - never a tower marathon - with the top
+levels differentiating by scramble depth and time expectation instead of height.
+Plateau on height, pressure on time.
+
+And the admin health page gains a bank-saturation panel: per category, how many of
+the last 30 days of real-user serves were repeats (an item the user had already
+answered). The early-warning gauge for content exhaustion as year-in users
+accumulate - when a share climbs past twenty percent, that category is asking for
+its next wave.
 ## v1.17.1 - The pool keeps the promise
 
 Launch-morning fix, external reviewer caught it, and it was real: the flagship rating

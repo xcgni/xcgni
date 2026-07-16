@@ -24,6 +24,9 @@ services:
       DATABASE_URL: postgres://excogni:excogni@db:5432/excogni
       ENABLE_SIMULATED_USERS: "true"
       DEV_EXPOSE_MAGIC_LINKS: "true"
+      # Local http testing of a production build only (set INSECURE_COOKIES=1 in a
+      # local .env; empty default means servers and everyone else are unaffected).
+      INSECURE_COOKIES: ${INSECURE_COOKIES:-}
       SHOW_DEBUG_UI: "true"
       # stats preview: include simulated users in /statistics (labeled "preview").
       # reads from your .env; set STATS_PREVIEW=true there to demo the page.

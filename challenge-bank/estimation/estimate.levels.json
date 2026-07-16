@@ -6,10 +6,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 38 × 90"
+      "instruction": "Estimate: 79 × 59"
     },
     "answerData": {
-      "trueValue": 3420
+      "trueValue": 4661
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -27,10 +27,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 55 × 48"
+      "instruction": "Estimate: 84 × 85"
     },
     "answerData": {
-      "trueValue": 2640
+      "trueValue": 7140
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -48,10 +48,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 27 × 24"
+      "instruction": "Estimate: 90 × 56"
     },
     "answerData": {
-      "trueValue": 648
+      "trueValue": 5040
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -69,10 +69,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 36 × 47"
+      "instruction": "Estimate: 19 × 48"
     },
     "answerData": {
-      "trueValue": 1692
+      "trueValue": 912
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -90,10 +90,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 73 × 36"
+      "instruction": "Estimate: 19 × 82"
     },
     "answerData": {
-      "trueValue": 2628
+      "trueValue": 1558
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -111,10 +111,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 32 × 56"
+      "instruction": "Estimate: 14 × 39"
     },
     "answerData": {
-      "trueValue": 1792
+      "trueValue": 546
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -132,10 +132,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 12 × 98"
+      "instruction": "Estimate: 84 × 92"
     },
     "answerData": {
-      "trueValue": 1176
+      "trueValue": 7728
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -153,10 +153,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 77 × 96"
+      "instruction": "Estimate: 70 × 37"
     },
     "answerData": {
-      "trueValue": 7392
+      "trueValue": 2590
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -174,10 +174,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 16 × 69"
+      "instruction": "Estimate: 95 × 27"
     },
     "answerData": {
-      "trueValue": 1104
+      "trueValue": 2565
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -195,10 +195,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 51 × 40"
+      "instruction": "Estimate: 45 × 63"
     },
     "answerData": {
-      "trueValue": 2040
+      "trueValue": 2835
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -216,10 +216,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 54 × 84"
+      "instruction": "Estimate: 46 × 28"
     },
     "answerData": {
-      "trueValue": 4536
+      "trueValue": 1288
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -237,10 +237,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 74 × 84"
+      "instruction": "Estimate: 45 × 40"
     },
     "answerData": {
-      "trueValue": 6216
+      "trueValue": 1800
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -258,10 +258,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 87 × 95"
+      "instruction": "Estimate: 30 × 93"
     },
     "answerData": {
-      "trueValue": 8265
+      "trueValue": 2790
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -279,10 +279,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 43 × 17"
+      "instruction": "Estimate: 74 × 85"
     },
     "answerData": {
-      "trueValue": 731
+      "trueValue": 6290
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -300,10 +300,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 73 × 64"
+      "instruction": "Estimate: 48 × 75"
     },
     "answerData": {
-      "trueValue": 4672
+      "trueValue": 3600
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -321,10 +321,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 61 × 76"
+      "instruction": "Estimate: 99 × 19"
     },
     "answerData": {
-      "trueValue": 4636
+      "trueValue": 1881
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -342,10 +342,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 47 × 32"
+      "instruction": "Estimate: 95 × 97"
     },
     "answerData": {
-      "trueValue": 1504
+      "trueValue": 9215
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -363,10 +363,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 32 × 49"
+      "instruction": "Estimate: 87 × 53"
     },
     "answerData": {
-      "trueValue": 1568
+      "trueValue": 4611
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -384,10 +384,10 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 43 × 11"
+      "instruction": "Estimate: 76 × 59"
     },
     "answerData": {
-      "trueValue": 473
+      "trueValue": 4484
     },
     "scoringConfig": {
       "expectedMedianMs": 5000,
@@ -405,7 +405,28 @@
     "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 49 × 26"
+      "instruction": "Estimate: 39 × 90"
+    },
+    "answerData": {
+      "trueValue": 3510
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L1-21",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 14 × 91"
     },
     "answerData": {
       "trueValue": 1274
@@ -420,19 +441,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-21",
+    "bankKey": "es-L1-22",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 37 × 71"
+      "instruction": "Estimate: 77 × 30"
     },
     "answerData": {
-      "trueValue": 2627
+      "trueValue": 2310
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -441,19 +462,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-22",
+    "bankKey": "es-L1-23",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 43 × 75"
+      "instruction": "Estimate: 73 × 65"
     },
     "answerData": {
-      "trueValue": 3225
+      "trueValue": 4745
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -462,19 +483,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-23",
+    "bankKey": "es-L1-24",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 36 × 67"
+      "instruction": "Estimate: 90 × 22"
     },
     "answerData": {
-      "trueValue": 2412
+      "trueValue": 1980
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -483,19 +504,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-24",
+    "bankKey": "es-L1-25",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 58 × 89"
+      "instruction": "Estimate: 64 × 98"
     },
     "answerData": {
-      "trueValue": 5162
+      "trueValue": 6272
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -504,19 +525,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-25",
+    "bankKey": "es-L1-26",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 86 × 48"
+      "instruction": "Estimate: 76 × 40"
     },
     "answerData": {
-      "trueValue": 4128
+      "trueValue": 3040
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -525,19 +546,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-26",
+    "bankKey": "es-L1-27",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 15 × 48"
+      "instruction": "Estimate: 15 × 80"
     },
     "answerData": {
-      "trueValue": 720
+      "trueValue": 1200
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -546,19 +567,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-27",
+    "bankKey": "es-L1-28",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 18 × 79"
+      "instruction": "Estimate: 74 × 30"
     },
     "answerData": {
-      "trueValue": 1422
+      "trueValue": 2220
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -567,103 +588,82 @@
     "active": true
   },
   {
-    "bankKey": "es-L2-28",
+    "bankKey": "es-L1-29",
     "category": "estimation",
     "challengeType": "arith_estimate",
-    "level": 2,
+    "level": 1,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 73 × 58"
-    },
-    "answerData": {
-      "trueValue": 4234
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 5500,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L2-29",
-    "category": "estimation",
-    "challengeType": "arith_estimate",
-    "level": 2,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: 61 × 93"
-    },
-    "answerData": {
-      "trueValue": 5673
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 5500,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L2-30",
-    "category": "estimation",
-    "challengeType": "arith_estimate",
-    "level": 2,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: 84 × 86"
-    },
-    "answerData": {
-      "trueValue": 7224
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 5500,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L2-31",
-    "category": "estimation",
-    "challengeType": "arith_estimate",
-    "level": 2,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: 67 × 75"
-    },
-    "answerData": {
-      "trueValue": 5025
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 5500,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L2-32",
-    "category": "estimation",
-    "challengeType": "arith_estimate",
-    "level": 2,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: 24 × 84"
+      "instruction": "Estimate: 56 × 36"
     },
     "answerData": {
       "trueValue": 2016
     },
     "scoringConfig": {
-      "expectedMedianMs": 5500,
+      "expectedMedianMs": 5000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L1-30",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 79 × 17"
+    },
+    "answerData": {
+      "trueValue": 1343
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L1-31",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 69 × 97"
+    },
+    "answerData": {
+      "trueValue": 6693
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L1-32",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 1,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 78 × 18"
+    },
+    "answerData": {
+      "trueValue": 1404
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -678,10 +678,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 85 × 59"
+      "instruction": "Estimate: 43 × 39"
     },
     "answerData": {
-      "trueValue": 5015
+      "trueValue": 1677
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -699,10 +699,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 65 × 65"
+      "instruction": "Estimate: 64 × 80"
     },
     "answerData": {
-      "trueValue": 4225
+      "trueValue": 5120
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -720,10 +720,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 37 × 96"
+      "instruction": "Estimate: 62 × 71"
     },
     "answerData": {
-      "trueValue": 3552
+      "trueValue": 4402
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -741,10 +741,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 74 × 45"
+      "instruction": "Estimate: 16 × 90"
     },
     "answerData": {
-      "trueValue": 3330
+      "trueValue": 1440
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -762,10 +762,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 71 × 51"
+      "instruction": "Estimate: 29 × 72"
     },
     "answerData": {
-      "trueValue": 3621
+      "trueValue": 2088
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -783,10 +783,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 64 × 43"
+      "instruction": "Estimate: 17 × 26"
     },
     "answerData": {
-      "trueValue": 2752
+      "trueValue": 442
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -804,10 +804,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 11 × 89"
+      "instruction": "Estimate: 21 × 51"
     },
     "answerData": {
-      "trueValue": 979
+      "trueValue": 1071
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -825,10 +825,10 @@
     "level": 2,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 11 × 48"
+      "instruction": "Estimate: 41 × 37"
     },
     "answerData": {
-      "trueValue": 528
+      "trueValue": 1517
     },
     "scoringConfig": {
       "expectedMedianMs": 5500,
@@ -840,16 +840,520 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-41",
+    "bankKey": "es-L2-41",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 35 × 30"
+    },
+    "answerData": {
+      "trueValue": 1050
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-42",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 64 × 77"
+    },
+    "answerData": {
+      "trueValue": 4928
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-43",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 43 × 29"
+    },
+    "answerData": {
+      "trueValue": 1247
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-44",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 18 × 98"
+    },
+    "answerData": {
+      "trueValue": 1764
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-45",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 52 × 38"
+    },
+    "answerData": {
+      "trueValue": 1976
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-46",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 93 × 54"
+    },
+    "answerData": {
+      "trueValue": 5022
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-47",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 71 × 42"
+    },
+    "answerData": {
+      "trueValue": 2982
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-48",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 52 × 54"
+    },
+    "answerData": {
+      "trueValue": 2808
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-49",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 65 × 56"
+    },
+    "answerData": {
+      "trueValue": 3640
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-50",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 62 × 59"
+    },
+    "answerData": {
+      "trueValue": 3658
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-51",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 97 × 79"
+    },
+    "answerData": {
+      "trueValue": 7663
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-52",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 33 × 42"
+    },
+    "answerData": {
+      "trueValue": 1386
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-53",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 85 × 67"
+    },
+    "answerData": {
+      "trueValue": 5695
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-54",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 73 × 21"
+    },
+    "answerData": {
+      "trueValue": 1533
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-55",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 17 × 35"
+    },
+    "answerData": {
+      "trueValue": 595
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-56",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 95 × 87"
+    },
+    "answerData": {
+      "trueValue": 8265
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-57",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 75 × 64"
+    },
+    "answerData": {
+      "trueValue": 4800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-58",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 62 × 38"
+    },
+    "answerData": {
+      "trueValue": 2356
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-59",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 93 × 34"
+    },
+    "answerData": {
+      "trueValue": 3162
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-60",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 65 × 42"
+    },
+    "answerData": {
+      "trueValue": 2730
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-61",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 58 × 14"
+    },
+    "answerData": {
+      "trueValue": 812
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-62",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 43 × 30"
+    },
+    "answerData": {
+      "trueValue": 1290
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-63",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 86 × 76"
+    },
+    "answerData": {
+      "trueValue": 6536
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L2-64",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 2,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 99 × 49"
+    },
+    "answerData": {
+      "trueValue": 4851
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 5500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-65",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 770 × 440"
+      "instruction": "Estimate: 910 × 580"
     },
     "answerData": {
-      "trueValue": 338800
+      "trueValue": 527800
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -861,16 +1365,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-42",
+    "bankKey": "es-L3-66",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 820 × 320"
+      "instruction": "Estimate: 770 × 270"
     },
     "answerData": {
-      "trueValue": 262400
+      "trueValue": 207900
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -882,16 +1386,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-43",
+    "bankKey": "es-L3-67",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 980 × 810"
+      "instruction": "Estimate: 810 × 700"
     },
     "answerData": {
-      "trueValue": 793800
+      "trueValue": 567000
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -903,16 +1407,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-44",
+    "bankKey": "es-L3-68",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 410 × 700"
+      "instruction": "Estimate: 670 × 960"
     },
     "answerData": {
-      "trueValue": 287000
+      "trueValue": 643200
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -924,16 +1428,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-45",
+    "bankKey": "es-L3-69",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 540 × 970"
+      "instruction": "Estimate: 250 × 890"
     },
     "answerData": {
-      "trueValue": 523800
+      "trueValue": 222500
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -945,16 +1449,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-46",
+    "bankKey": "es-L3-70",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 520 × 950"
+      "instruction": "Estimate: 690 × 460"
     },
     "answerData": {
-      "trueValue": 494000
+      "trueValue": 317400
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -966,16 +1470,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-47",
+    "bankKey": "es-L3-71",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 270 × 390"
+      "instruction": "Estimate: 730 × 290"
     },
     "answerData": {
-      "trueValue": 105300
+      "trueValue": 211700
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -987,16 +1491,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-48",
+    "bankKey": "es-L3-72",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 700 × 340"
+      "instruction": "Estimate: 170 × 430"
     },
     "answerData": {
-      "trueValue": 238000
+      "trueValue": 73100
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1008,16 +1512,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-49",
+    "bankKey": "es-L3-73",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 710 × 260"
+      "instruction": "Estimate: 400 × 140"
     },
     "answerData": {
-      "trueValue": 184600
+      "trueValue": 56000
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1029,16 +1533,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-50",
+    "bankKey": "es-L3-74",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 730 × 110"
+      "instruction": "Estimate: 850 × 740"
     },
     "answerData": {
-      "trueValue": 80300
+      "trueValue": 629000
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1050,16 +1554,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-51",
+    "bankKey": "es-L3-75",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 530 × 350"
+      "instruction": "Estimate: 660 × 120"
     },
     "answerData": {
-      "trueValue": 185500
+      "trueValue": 79200
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1071,16 +1575,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-52",
+    "bankKey": "es-L3-76",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 650 × 200"
+      "instruction": "Estimate: 930 × 840"
     },
     "answerData": {
-      "trueValue": 130000
+      "trueValue": 781200
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1092,16 +1596,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-53",
+    "bankKey": "es-L3-77",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 910 × 630"
+      "instruction": "Estimate: 210 × 690"
     },
     "answerData": {
-      "trueValue": 573300
+      "trueValue": 144900
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1113,16 +1617,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-54",
+    "bankKey": "es-L3-78",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 540 × 130"
+      "instruction": "Estimate: 250 × 120"
     },
     "answerData": {
-      "trueValue": 70200
+      "trueValue": 30000
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1134,16 +1638,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-55",
+    "bankKey": "es-L3-79",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 450 × 250"
+      "instruction": "Estimate: 290 × 680"
     },
     "answerData": {
-      "trueValue": 112500
+      "trueValue": 197200
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1155,16 +1659,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-56",
+    "bankKey": "es-L3-80",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 830 × 150"
+      "instruction": "Estimate: 790 × 960"
     },
     "answerData": {
-      "trueValue": 124500
+      "trueValue": 758400
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1176,16 +1680,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-57",
+    "bankKey": "es-L3-81",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 300 × 530"
+      "instruction": "Estimate: 500 × 220"
     },
     "answerData": {
-      "trueValue": 159000
+      "trueValue": 110000
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1197,16 +1701,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-58",
+    "bankKey": "es-L3-82",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 430 × 740"
+      "instruction": "Estimate: 530 × 170"
     },
     "answerData": {
-      "trueValue": 318200
+      "trueValue": 90100
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1218,16 +1722,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-59",
+    "bankKey": "es-L3-83",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 550 × 540"
+      "instruction": "Estimate: 140 × 760"
     },
     "answerData": {
-      "trueValue": 297000
+      "trueValue": 106400
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1239,16 +1743,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L3-60",
+    "bankKey": "es-L3-84",
     "category": "estimation",
     "challengeType": "arith_estimate",
     "level": 3,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: 430 × 450"
+      "instruction": "Estimate: 330 × 460"
     },
     "answerData": {
-      "trueValue": 193500
+      "trueValue": 151800
     },
     "scoringConfig": {
       "expectedMedianMs": 6500,
@@ -1260,16 +1764,268 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-61",
+    "bankKey": "es-L3-85",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 110 × 360"
+    },
+    "answerData": {
+      "trueValue": 39600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-86",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 130 × 220"
+    },
+    "answerData": {
+      "trueValue": 28600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-87",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 500 × 790"
+    },
+    "answerData": {
+      "trueValue": 395000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-88",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 490 × 700"
+    },
+    "answerData": {
+      "trueValue": 343000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-89",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 580 × 540"
+    },
+    "answerData": {
+      "trueValue": 313200
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-90",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 830 × 500"
+    },
+    "answerData": {
+      "trueValue": 415000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-91",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 940 × 380"
+    },
+    "answerData": {
+      "trueValue": 357200
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-92",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 210 × 670"
+    },
+    "answerData": {
+      "trueValue": 140700
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-93",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 550 × 460"
+    },
+    "answerData": {
+      "trueValue": 253000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-94",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 510 × 330"
+    },
+    "answerData": {
+      "trueValue": 168300
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-95",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 300 × 480"
+    },
+    "answerData": {
+      "trueValue": 144000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L3-96",
+    "category": "estimation",
+    "challengeType": "arith_estimate",
+    "level": 3,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: 360 × 430"
+    },
+    "answerData": {
+      "trueValue": 154800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 6500,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-97",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●…)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 54
+      "trueValue": 35
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1281,16 +2037,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-62",
+    "bankKey": "es-L4-98",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 39
+      "trueValue": 31
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1302,16 +2058,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-63",
+    "bankKey": "es-L4-99",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 23
+      "trueValue": 37
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1323,7 +2079,28 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-64",
+    "bankKey": "es-L4-100",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 26
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-101",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
@@ -1344,16 +2121,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-65",
+    "bankKey": "es-L4-102",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●…)"
     },
     "answerData": {
-      "trueValue": 22
+      "trueValue": 60
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1365,16 +2142,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-66",
+    "bankKey": "es-L4-103",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 26
+      "trueValue": 40
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1386,70 +2163,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-67",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 31
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L4-68",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 34
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L4-69",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 32
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L4-70",
+    "bankKey": "es-L4-104",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
@@ -1470,16 +2184,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-71",
+    "bankKey": "es-L4-105",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 25
+      "trueValue": 27
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1491,49 +2205,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-72",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 28
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L4-73",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 20
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L4-74",
+    "bankKey": "es-L4-106",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
@@ -1554,16 +2226,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-75",
+    "bankKey": "es-L4-107",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 37
+      "trueValue": 20
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1575,7 +2247,49 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-76",
+    "bankKey": "es-L4-108",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 32
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-109",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 21
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-110",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
@@ -1596,16 +2310,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-77",
+    "bankKey": "es-L4-111",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 35
+      "trueValue": 30
     },
     "scoringConfig": {
       "expectedMedianMs": 7000,
@@ -1617,136 +2331,10 @@
     "active": true
   },
   {
-    "bankKey": "es-L4-78",
+    "bankKey": "es-L4-112",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 33
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L4-79",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 27
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L4-80",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 4,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 21
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 7000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-81",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●…)"
-    },
-    "answerData": {
-      "trueValue": 84
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-82",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 21
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-83",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 32
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-84",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
     "rendererType": "numeric_text_input",
     "promptData": {
       "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●)"
@@ -1755,7 +2343,7 @@
       "trueValue": 22
     },
     "scoringConfig": {
-      "expectedMedianMs": 8000,
+      "expectedMedianMs": 7000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -1764,241 +2352,10 @@
     "active": true
   },
   {
-    "bankKey": "es-L5-85",
+    "bankKey": "es-L4-113",
     "category": "estimation",
     "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 31
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-86",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 36
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-87",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 33
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-88",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 37
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-89",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 26
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-90",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 20
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-91",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 27
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-92",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 40
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-93",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 34
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-94",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 25
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-95",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 38
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-96",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
+    "level": 4,
     "rendererType": "numeric_text_input",
     "promptData": {
       "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●)"
@@ -2007,7 +2364,7 @@
       "trueValue": 23
     },
     "scoringConfig": {
-      "expectedMedianMs": 8000,
+      "expectedMedianMs": 7000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2016,16 +2373,121 @@
     "active": true
   },
   {
-    "bankKey": "es-L5-97",
+    "bankKey": "es-L4-114",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 28
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-115",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 33
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-116",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 25
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-117",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 39
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L4-118",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 4,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 34
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 7000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-119",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 5,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●…)"
     },
     "answerData": {
-      "trueValue": 29
+      "trueValue": 72
     },
     "scoringConfig": {
       "expectedMedianMs": 8000,
@@ -2037,28 +2499,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L5-98",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 5,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 35
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 8000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L5-99",
+    "bankKey": "es-L5-120",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 5,
@@ -2079,7 +2520,49 @@
     "active": true
   },
   {
-    "bankKey": "es-L5-100",
+    "bankKey": "es-L5-121",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 35
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-122",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 40
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-123",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 5,
@@ -2100,19 +2583,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-101",
+    "bankKey": "es-L5-124",
     "category": "estimation",
     "challengeType": "count_estimate",
-    "level": 6,
+    "level": 5,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●…)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 62
+      "trueValue": 28
     },
     "scoringConfig": {
-      "expectedMedianMs": 9000,
+      "expectedMedianMs": 8000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2121,19 +2604,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-102",
+    "bankKey": "es-L5-125",
     "category": "estimation",
     "challengeType": "count_estimate",
-    "level": 6,
+    "level": 5,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 31
+      "trueValue": 33
     },
     "scoringConfig": {
-      "expectedMedianMs": 9000,
+      "expectedMedianMs": 8000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2142,136 +2625,10 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-103",
+    "bankKey": "es-L5-126",
     "category": "estimation",
     "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 32
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-104",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 30
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-105",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 22
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-106",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 20
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-107",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 37
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-108",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 21
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-109",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
+    "level": 5,
     "rendererType": "numeric_text_input",
     "promptData": {
       "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●)"
@@ -2280,7 +2637,7 @@
       "trueValue": 24
     },
     "scoringConfig": {
-      "expectedMedianMs": 9000,
+      "expectedMedianMs": 8000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2289,16 +2646,310 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-110",
+    "bankKey": "es-L5-127",
     "category": "estimation",
     "challengeType": "count_estimate",
-    "level": 6,
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 22
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-128",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 27
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-129",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 21
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-130",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 25
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-131",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 31
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-132",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 20
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-133",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 38
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-134",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
     "rendererType": "numeric_text_input",
     "promptData": {
       "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
       "trueValue": 26
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-135",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 29
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-136",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 36
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-137",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 37
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-138",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 34
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-139",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 23
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L5-140",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 5,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 32
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 8000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-141",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●…)"
+    },
+    "answerData": {
+      "trueValue": 131
     },
     "scoringConfig": {
       "expectedMedianMs": 9000,
@@ -2310,7 +2961,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-111",
+    "bankKey": "es-L6-142",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 6,
@@ -2331,16 +2982,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-112",
+    "bankKey": "es-L6-143",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 6,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 36
+      "trueValue": 39
     },
     "scoringConfig": {
       "expectedMedianMs": 9000,
@@ -2352,133 +3003,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-113",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 28
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-114",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 23
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-115",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 34
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-116",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 35
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-117",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 33
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-118",
-    "category": "estimation",
-    "challengeType": "count_estimate",
-    "level": 6,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
-    },
-    "answerData": {
-      "trueValue": 40
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 9000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L6-119",
+    "bankKey": "es-L6-144",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 6,
@@ -2499,7 +3024,196 @@
     "active": true
   },
   {
-    "bankKey": "es-L6-120",
+    "bankKey": "es-L6-145",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 31
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-146",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 21
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-147",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 28
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-148",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 30
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-149",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 37
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-150",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 33
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-151",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 32
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-152",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 22
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-153",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 23
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-154",
     "category": "estimation",
     "challengeType": "count_estimate",
     "level": 6,
@@ -2520,19 +3234,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-121",
+    "bankKey": "es-L6-155",
     "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
+    "challengeType": "count_estimate",
+    "level": 6,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Days in 1 million minutes (approx)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 694
+      "trueValue": 38
     },
     "scoringConfig": {
-      "expectedMedianMs": 10000,
+      "expectedMedianMs": 9000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2541,19 +3255,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-122",
+    "bankKey": "es-L6-156",
     "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
+    "challengeType": "count_estimate",
+    "level": 6,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Sheets in 4 reams of paper (500 each)"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 2000
+      "trueValue": 20
     },
     "scoringConfig": {
-      "expectedMedianMs": 10000,
+      "expectedMedianMs": 9000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2562,19 +3276,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-123",
+    "bankKey": "es-L6-157",
     "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
+    "challengeType": "count_estimate",
+    "level": 6,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Minutes in a full day"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 1440
+      "trueValue": 40
     },
     "scoringConfig": {
-      "expectedMedianMs": 10000,
+      "expectedMedianMs": 9000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2583,19 +3297,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-124",
+    "bankKey": "es-L6-158",
     "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
+    "challengeType": "count_estimate",
+    "level": 6,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Millimeters in 2 meters"
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
     },
     "answerData": {
-      "trueValue": 2000
+      "trueValue": 35
     },
     "scoringConfig": {
-      "expectedMedianMs": 10000,
+      "expectedMedianMs": 9000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -2604,7 +3318,91 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-125",
+    "bankKey": "es-L6-159",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 34
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-160",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 26
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-161",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 36
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L6-162",
+    "category": "estimation",
+    "challengeType": "count_estimate",
+    "level": 6,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "About how many items? (●●●●●●●●●●●●●●●●●●●●●●●●)"
+    },
+    "answerData": {
+      "trueValue": 24
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 9000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-163",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 7,
@@ -2625,16 +3423,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-126",
+    "bankKey": "es-L7-164",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 7,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Weeks in 3 years"
+      "instruction": "Estimate: Minutes in a week"
     },
     "answerData": {
-      "trueValue": 156
+      "trueValue": 10080
     },
     "scoringConfig": {
       "expectedMedianMs": 10000,
@@ -2646,238 +3444,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-127",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Heartbeats in a day (~70 bpm)"
-    },
-    "answerData": {
-      "trueValue": 100800
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-128",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Heartbeats in one hour (~70 bpm)"
-    },
-    "answerData": {
-      "trueValue": 4200
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-129",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Pages in 8 books of ~250 pages"
-    },
-    "answerData": {
-      "trueValue": 2000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-130",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Approx words in a 300-page book"
-    },
-    "answerData": {
-      "trueValue": 90000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-131",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Hours in a 30-day month"
-    },
-    "answerData": {
-      "trueValue": 720
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-132",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a 90-minute film"
-    },
-    "answerData": {
-      "trueValue": 5400
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-133",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a week"
-    },
-    "answerData": {
-      "trueValue": 604800
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-134",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in an hour"
-    },
-    "answerData": {
-      "trueValue": 3600
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-135",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Hours in 6 weeks"
-    },
-    "answerData": {
-      "trueValue": 1008
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-136",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Liters in 5 cubic meters"
-    },
-    "answerData": {
-      "trueValue": 5000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-137",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 7,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Minutes in 100 hours"
-    },
-    "answerData": {
-      "trueValue": 6000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 10000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L7-138",
+    "bankKey": "es-L7-165",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 7,
@@ -2898,7 +3465,301 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-139",
+    "bankKey": "es-L7-166",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a year (approx)"
+    },
+    "answerData": {
+      "trueValue": 8760
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-167",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Approx words in a 300-page book"
+    },
+    "answerData": {
+      "trueValue": 90000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-168",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Meters in 5 kilometers"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-169",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in 100 hours"
+    },
+    "answerData": {
+      "trueValue": 6000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-170",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in 1 million minutes (approx)"
+    },
+    "answerData": {
+      "trueValue": 694
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-171",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Heartbeats in a day (~70 bpm)"
+    },
+    "answerData": {
+      "trueValue": 100800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-172",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in 7 years (approx)"
+    },
+    "answerData": {
+      "trueValue": 2557
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-173",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Millimeters in 2 meters"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-174",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Sheets in 4 reams of paper (500 each)"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-175",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Weeks in 3 years"
+    },
+    "answerData": {
+      "trueValue": 156
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-176",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a week"
+    },
+    "answerData": {
+      "trueValue": 604800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-177",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Grams in 2.5 kilograms"
+    },
+    "answerData": {
+      "trueValue": 2500
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-178",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Heartbeats in one hour (~70 bpm)"
+    },
+    "answerData": {
+      "trueValue": 4200
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-179",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in 6 weeks"
+    },
+    "answerData": {
+      "trueValue": 1008
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-180",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 7,
@@ -2919,7 +3780,112 @@
     "active": true
   },
   {
-    "bankKey": "es-L7-140",
+    "bankKey": "es-L7-181",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a 30-day month"
+    },
+    "answerData": {
+      "trueValue": 720
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-182",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Tiles to cover 12 m2 with 30cm tiles"
+    },
+    "answerData": {
+      "trueValue": 133
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-183",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in an hour"
+    },
+    "answerData": {
+      "trueValue": 3600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-184",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in a full day"
+    },
+    "answerData": {
+      "trueValue": 1440
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-185",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a day"
+    },
+    "answerData": {
+      "trueValue": 86400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-186",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 7,
@@ -2940,73 +3906,10 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-141",
+    "bankKey": "es-L7-187",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
-    "level": 8,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in an hour"
-    },
-    "answerData": {
-      "trueValue": 3600
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 11000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L8-142",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 8,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Hours in a year (approx)"
-    },
-    "answerData": {
-      "trueValue": 8760
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 11000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L8-143",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 8,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Tiles to cover 12 m2 with 30cm tiles"
-    },
-    "answerData": {
-      "trueValue": 133
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 11000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L8-144",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 8,
+    "level": 7,
     "rendererType": "numeric_text_input",
     "promptData": {
       "instruction": "Estimate: Seconds in a 90-minute film"
@@ -3015,7 +3918,7 @@
       "trueValue": 5400
     },
     "scoringConfig": {
-      "expectedMedianMs": 11000,
+      "expectedMedianMs": 10000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -3024,19 +3927,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-145",
+    "bankKey": "es-L7-188",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
-    "level": 8,
+    "level": 7,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Approx words in a 300-page book"
+      "instruction": "Estimate: Pages in 8 books of ~250 pages"
     },
     "answerData": {
-      "trueValue": 90000
+      "trueValue": 2000
     },
     "scoringConfig": {
-      "expectedMedianMs": 11000,
+      "expectedMedianMs": 10000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -3045,10 +3948,52 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-146",
+    "bankKey": "es-L7-189",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
-    "level": 8,
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Centimeters in 4 meters"
+    },
+    "answerData": {
+      "trueValue": 400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-190",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Liters in 5 cubic meters"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 10000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L7-191",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 7,
     "rendererType": "numeric_text_input",
     "promptData": {
       "instruction": "Estimate: Square meters in a 20m by 30m field"
@@ -3057,7 +4002,7 @@
       "trueValue": 600
     },
     "scoringConfig": {
-      "expectedMedianMs": 11000,
+      "expectedMedianMs": 10000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -3066,19 +4011,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-147",
+    "bankKey": "es-L7-192",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
-    "level": 8,
+    "level": 7,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Sheets in 4 reams of paper (500 each)"
+      "instruction": "Estimate: Letters in a 1000-word essay (~5 each)"
     },
     "answerData": {
-      "trueValue": 2000
+      "trueValue": 5000
     },
     "scoringConfig": {
-      "expectedMedianMs": 11000,
+      "expectedMedianMs": 10000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -3087,7 +4032,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-148",
+    "bankKey": "es-L8-193",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
@@ -3108,16 +4053,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-149",
+    "bankKey": "es-L8-194",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Hours in a 30-day month"
+      "instruction": "Estimate: Tiles to cover 12 m2 with 30cm tiles"
     },
     "answerData": {
-      "trueValue": 720
+      "trueValue": 133
     },
     "scoringConfig": {
       "expectedMedianMs": 11000,
@@ -3129,13 +4074,55 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-150",
+    "bankKey": "es-L8-195",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Millimeters in 2 meters"
+      "instruction": "Estimate: Centimeters in 4 meters"
+    },
+    "answerData": {
+      "trueValue": 400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-196",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a week"
+    },
+    "answerData": {
+      "trueValue": 604800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-197",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Sheets in 4 reams of paper (500 each)"
     },
     "answerData": {
       "trueValue": 2000
@@ -3150,16 +4137,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-151",
+    "bankKey": "es-L8-198",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Letters in a 1000-word essay (~5 each)"
+      "instruction": "Estimate: Steps to walk 3 km (~0.75m each)"
     },
     "answerData": {
-      "trueValue": 5000
+      "trueValue": 4000
     },
     "scoringConfig": {
       "expectedMedianMs": 11000,
@@ -3171,7 +4158,70 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-152",
+    "bankKey": "es-L8-199",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Square meters in a 20m by 30m field"
+    },
+    "answerData": {
+      "trueValue": 600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-200",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in 7 years (approx)"
+    },
+    "answerData": {
+      "trueValue": 2557
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-201",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in an hour"
+    },
+    "answerData": {
+      "trueValue": 3600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-202",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
@@ -3192,7 +4242,322 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-153",
+    "bankKey": "es-L8-203",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in 1 million minutes (approx)"
+    },
+    "answerData": {
+      "trueValue": 694
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-204",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Weeks in 3 years"
+    },
+    "answerData": {
+      "trueValue": 156
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-205",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in 6 weeks"
+    },
+    "answerData": {
+      "trueValue": 1008
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-206",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in a week"
+    },
+    "answerData": {
+      "trueValue": 10080
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-207",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in 100 hours"
+    },
+    "answerData": {
+      "trueValue": 6000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-208",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a 90-minute film"
+    },
+    "answerData": {
+      "trueValue": 5400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-209",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Approx words in a 300-page book"
+    },
+    "answerData": {
+      "trueValue": 90000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-210",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a 30-day month"
+    },
+    "answerData": {
+      "trueValue": 720
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-211",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Grams in 3 kilograms"
+    },
+    "answerData": {
+      "trueValue": 3000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-212",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a year (approx)"
+    },
+    "answerData": {
+      "trueValue": 8760
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-213",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Heartbeats in one hour (~70 bpm)"
+    },
+    "answerData": {
+      "trueValue": 4200
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-214",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Millimeters in 2 meters"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-215",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Liters in 5 cubic meters"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-216",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Letters in a 1000-word essay (~5 each)"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-217",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 8,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a day"
+    },
+    "answerData": {
+      "trueValue": 86400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 11000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L8-218",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
@@ -3213,16 +4578,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-154",
+    "bankKey": "es-L8-219",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Liters in 5 cubic meters"
+      "instruction": "Estimate: Heartbeats in a day (~70 bpm)"
     },
     "answerData": {
-      "trueValue": 5000
+      "trueValue": 100800
     },
     "scoringConfig": {
       "expectedMedianMs": 11000,
@@ -3234,16 +4599,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-155",
+    "bankKey": "es-L8-220",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Days in 1 million minutes (approx)"
+      "instruction": "Estimate: Days in a decade (approx)"
     },
     "answerData": {
-      "trueValue": 694
+      "trueValue": 3652
     },
     "scoringConfig": {
       "expectedMedianMs": 11000,
@@ -3255,7 +4620,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-156",
+    "bankKey": "es-L8-221",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
@@ -3276,16 +4641,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-157",
+    "bankKey": "es-L8-222",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 8,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Hours in 6 weeks"
+      "instruction": "Estimate: Breaths in an hour (~15/min)"
     },
     "answerData": {
-      "trueValue": 1008
+      "trueValue": 900
     },
     "scoringConfig": {
       "expectedMedianMs": 11000,
@@ -3297,217 +4662,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L8-158",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 8,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Weeks in 3 years"
-    },
-    "answerData": {
-      "trueValue": 156
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 11000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L8-159",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 8,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a day"
-    },
-    "answerData": {
-      "trueValue": 86400
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 11000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L8-160",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 8,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Days in a decade (approx)"
-    },
-    "answerData": {
-      "trueValue": 3652
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 11000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-161",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Square meters in a 20m by 30m field"
-    },
-    "answerData": {
-      "trueValue": 600
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-162",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Liters in 5 cubic meters"
-    },
-    "answerData": {
-      "trueValue": 5000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-163",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Hours in a year (approx)"
-    },
-    "answerData": {
-      "trueValue": 8760
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-164",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Hours in 6 weeks"
-    },
-    "answerData": {
-      "trueValue": 1008
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-165",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Heartbeats in a day (~70 bpm)"
-    },
-    "answerData": {
-      "trueValue": 100800
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-166",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a 90-minute film"
-    },
-    "answerData": {
-      "trueValue": 5400
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-167",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Approx words in a 300-page book"
-    },
-    "answerData": {
-      "trueValue": 90000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-168",
+    "bankKey": "es-L9-223",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 9,
@@ -3528,217 +4683,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L9-169",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Steps to walk 3 km (~0.75m each)"
-    },
-    "answerData": {
-      "trueValue": 4000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-170",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Minutes in a week"
-    },
-    "answerData": {
-      "trueValue": 10080
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-171",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a week"
-    },
-    "answerData": {
-      "trueValue": 604800
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-172",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Grams in 3 kilograms"
-    },
-    "answerData": {
-      "trueValue": 3000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-173",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Heartbeats in one hour (~70 bpm)"
-    },
-    "answerData": {
-      "trueValue": 4200
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-174",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a day"
-    },
-    "answerData": {
-      "trueValue": 86400
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-175",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Days in 1 million minutes (approx)"
-    },
-    "answerData": {
-      "trueValue": 694
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-176",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in an hour"
-    },
-    "answerData": {
-      "trueValue": 3600
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-177",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Millimeters in 2 meters"
-    },
-    "answerData": {
-      "trueValue": 2000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-178",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 9,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Minutes in 100 hours"
-    },
-    "answerData": {
-      "trueValue": 6000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 12000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L9-179",
+    "bankKey": "es-L9-224",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 9,
@@ -3759,7 +4704,28 @@
     "active": true
   },
   {
-    "bankKey": "es-L9-180",
+    "bankKey": "es-L9-225",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Meters in 5 kilometers"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-226",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 9,
@@ -3780,19 +4746,19 @@
     "active": true
   },
   {
-    "bankKey": "es-L10-181",
+    "bankKey": "es-L9-227",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
-    "level": 10,
+    "level": 9,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Days in a decade (approx)"
+      "instruction": "Estimate: Approx words in a 300-page book"
     },
     "answerData": {
-      "trueValue": 3652
+      "trueValue": 90000
     },
     "scoringConfig": {
-      "expectedMedianMs": 14000,
+      "expectedMedianMs": 12000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -3801,10 +4767,52 @@
     "active": true
   },
   {
-    "bankKey": "es-L10-182",
+    "bankKey": "es-L9-228",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
-    "level": 10,
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Liters in 5 cubic meters"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-229",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in 100 hours"
+    },
+    "answerData": {
+      "trueValue": 6000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-230",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
     "rendererType": "numeric_text_input",
     "promptData": {
       "instruction": "Estimate: Days in 1 million minutes (approx)"
@@ -3813,7 +4821,7 @@
       "trueValue": 694
     },
     "scoringConfig": {
-      "expectedMedianMs": 14000,
+      "expectedMedianMs": 12000,
       "scoringMode": "error_rank",
       "slowCorrectFloorScore": 0.45,
       "fastCorrectScore": 1
@@ -3822,7 +4830,469 @@
     "active": true
   },
   {
-    "bankKey": "es-L10-183",
+    "bankKey": "es-L9-231",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in 7 years (approx)"
+    },
+    "answerData": {
+      "trueValue": 2557
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-232",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a 90-minute film"
+    },
+    "answerData": {
+      "trueValue": 5400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-233",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a 30-day month"
+    },
+    "answerData": {
+      "trueValue": 720
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-234",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Heartbeats in one hour (~70 bpm)"
+    },
+    "answerData": {
+      "trueValue": 4200
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-235",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in 6 weeks"
+    },
+    "answerData": {
+      "trueValue": 1008
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-236",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a week"
+    },
+    "answerData": {
+      "trueValue": 604800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-237",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Steps to walk 3 km (~0.75m each)"
+    },
+    "answerData": {
+      "trueValue": 4000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-238",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Millimeters in 2 meters"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-239",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Tiles to cover 12 m2 with 30cm tiles"
+    },
+    "answerData": {
+      "trueValue": 133
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-240",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Letters in a 1000-word essay (~5 each)"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-241",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Grams in 3 kilograms"
+    },
+    "answerData": {
+      "trueValue": 3000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-242",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Sheets in 4 reams of paper (500 each)"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-243",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Centimeters in 4 meters"
+    },
+    "answerData": {
+      "trueValue": 400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-244",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in a full day"
+    },
+    "answerData": {
+      "trueValue": 1440
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-245",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Pages in 8 books of ~250 pages"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-246",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a day"
+    },
+    "answerData": {
+      "trueValue": 86400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-247",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in a decade (approx)"
+    },
+    "answerData": {
+      "trueValue": 3652
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-248",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a year (approx)"
+    },
+    "answerData": {
+      "trueValue": 8760
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-249",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in a week"
+    },
+    "answerData": {
+      "trueValue": 10080
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-250",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Square meters in a 20m by 30m field"
+    },
+    "answerData": {
+      "trueValue": 600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-251",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in an hour"
+    },
+    "answerData": {
+      "trueValue": 3600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L9-252",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 9,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Heartbeats in a day (~70 bpm)"
+    },
+    "answerData": {
+      "trueValue": 100800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 12000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-253",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 10,
@@ -3843,301 +5313,7 @@
     "active": true
   },
   {
-    "bankKey": "es-L10-184",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Sheets in 4 reams of paper (500 each)"
-    },
-    "answerData": {
-      "trueValue": 2000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-185",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Liters in 5 cubic meters"
-    },
-    "answerData": {
-      "trueValue": 5000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-186",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Weeks in 3 years"
-    },
-    "answerData": {
-      "trueValue": 156
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-187",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a 90-minute film"
-    },
-    "answerData": {
-      "trueValue": 5400
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-188",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Pages in 8 books of ~250 pages"
-    },
-    "answerData": {
-      "trueValue": 2000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-189",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Tiles to cover 12 m2 with 30cm tiles"
-    },
-    "answerData": {
-      "trueValue": 133
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-190",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Minutes in a week"
-    },
-    "answerData": {
-      "trueValue": 10080
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-191",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Grams in 2.5 kilograms"
-    },
-    "answerData": {
-      "trueValue": 2500
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-192",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in an hour"
-    },
-    "answerData": {
-      "trueValue": 3600
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-193",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Approx words in a 300-page book"
-    },
-    "answerData": {
-      "trueValue": 90000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-194",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Square meters in a 20m by 30m field"
-    },
-    "answerData": {
-      "trueValue": 600
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-195",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Seconds in a day"
-    },
-    "answerData": {
-      "trueValue": 86400
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-196",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Hours in a year (approx)"
-    },
-    "answerData": {
-      "trueValue": 8760
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-197",
-    "category": "estimation",
-    "challengeType": "magnitude_estimate",
-    "level": 10,
-    "rendererType": "numeric_text_input",
-    "promptData": {
-      "instruction": "Estimate: Steps to walk 3 km (~0.75m each)"
-    },
-    "answerData": {
-      "trueValue": 4000
-    },
-    "scoringConfig": {
-      "expectedMedianMs": 14000,
-      "scoringMode": "error_rank",
-      "slowCorrectFloorScore": 0.45,
-      "fastCorrectScore": 1
-    },
-    "version": 1,
-    "active": true
-  },
-  {
-    "bankKey": "es-L10-198",
+    "bankKey": "es-L10-254",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 10,
@@ -4158,7 +5334,553 @@
     "active": true
   },
   {
-    "bankKey": "es-L10-199",
+    "bankKey": "es-L10-255",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a 90-minute film"
+    },
+    "answerData": {
+      "trueValue": 5400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-256",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in a week"
+    },
+    "answerData": {
+      "trueValue": 10080
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-257",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Grams in 2.5 kilograms"
+    },
+    "answerData": {
+      "trueValue": 2500
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-258",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Centimeters in 4 meters"
+    },
+    "answerData": {
+      "trueValue": 400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-259",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in a full day"
+    },
+    "answerData": {
+      "trueValue": 1440
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-260",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Tiles to cover 12 m2 with 30cm tiles"
+    },
+    "answerData": {
+      "trueValue": 133
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-261",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Steps to walk 3 km (~0.75m each)"
+    },
+    "answerData": {
+      "trueValue": 4000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-262",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in a decade (approx)"
+    },
+    "answerData": {
+      "trueValue": 3652
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-263",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in 6 weeks"
+    },
+    "answerData": {
+      "trueValue": 1008
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-264",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Minutes in 100 hours"
+    },
+    "answerData": {
+      "trueValue": 6000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-265",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a day"
+    },
+    "answerData": {
+      "trueValue": 86400
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-266",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Millimeters in 2 meters"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-267",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Meters in 5 kilometers"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-268",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a 30-day month"
+    },
+    "answerData": {
+      "trueValue": 720
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-269",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Breaths in an hour (~15/min)"
+    },
+    "answerData": {
+      "trueValue": 900
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-270",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Pages in 8 books of ~250 pages"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-271",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Liters in 5 cubic meters"
+    },
+    "answerData": {
+      "trueValue": 5000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-272",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Weeks in 3 years"
+    },
+    "answerData": {
+      "trueValue": 156
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-273",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in 7 years (approx)"
+    },
+    "answerData": {
+      "trueValue": 2557
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-274",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Seconds in a week"
+    },
+    "answerData": {
+      "trueValue": 604800
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-275",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Sheets in 4 reams of paper (500 each)"
+    },
+    "answerData": {
+      "trueValue": 2000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-276",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Approx words in a 300-page book"
+    },
+    "answerData": {
+      "trueValue": 90000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-277",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Square meters in a 20m by 30m field"
+    },
+    "answerData": {
+      "trueValue": 600
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-278",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Days in 1 million minutes (approx)"
+    },
+    "answerData": {
+      "trueValue": 694
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-279",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Hours in a year (approx)"
+    },
+    "answerData": {
+      "trueValue": 8760
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-280",
+    "category": "estimation",
+    "challengeType": "magnitude_estimate",
+    "level": 10,
+    "rendererType": "numeric_text_input",
+    "promptData": {
+      "instruction": "Estimate: Grams in 3 kilograms"
+    },
+    "answerData": {
+      "trueValue": 3000
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 14000,
+      "scoringMode": "error_rank",
+      "slowCorrectFloorScore": 0.45,
+      "fastCorrectScore": 1
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "es-L10-281",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 10,
@@ -4179,16 +5901,16 @@
     "active": true
   },
   {
-    "bankKey": "es-L10-200",
+    "bankKey": "es-L10-282",
     "category": "estimation",
     "challengeType": "magnitude_estimate",
     "level": 10,
     "rendererType": "numeric_text_input",
     "promptData": {
-      "instruction": "Estimate: Grams in 3 kilograms"
+      "instruction": "Estimate: Seconds in an hour"
     },
     "answerData": {
-      "trueValue": 3000
+      "trueValue": 3600
     },
     "scoringConfig": {
       "expectedMedianMs": 14000,

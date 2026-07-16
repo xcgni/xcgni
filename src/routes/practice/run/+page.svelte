@@ -107,6 +107,7 @@
   let fluencyTimer: ReturnType<typeof setInterval> | null = null;
 
   const categoryParam = () => $page.url.searchParams.get('category');
+  const typeParam = () => $page.url.searchParams.get('type');
 
   function clearTimers() {
     if (memorizeTimer) { clearTimeout(memorizeTimer); memorizeTimer = null; }
@@ -273,6 +274,13 @@
         signal: ac.signal,
         body: JSON.stringify({
           category: opts?.forCategory ?? categoryParam() ?? undefined,
+          // The sub-type choice survives every in-category advance (including the
+          // level-up confirm, which passes forCategory) and drops only when the
+          // flow genuinely switches category (skip-category, mixed practice).
+          type:
+            (opts?.forCategory ?? categoryParam()) === categoryParam()
+              ? (typeParam() ?? undefined)
+              : undefined,
           tz: Intl.DateTimeFormat().resolvedOptions().timeZone,
           tzOffsetMin: new Date().getTimezoneOffset(),
           pulse: data.isPulse === true ? true : undefined

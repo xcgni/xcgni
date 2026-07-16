@@ -1,0 +1,23 @@
+avocado
+bacon
+cheese
+chicken
+cucumber
+egg
+ham
+hummus
+jam
+lettuce
+mayo
+mustard
+nutella
+onion
+pastrami
+peanut butter
+pickle
+roast beef
+salami
+sprouts
+tomato
+tuna
+turkey

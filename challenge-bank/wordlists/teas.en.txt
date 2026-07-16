@@ -1,0 +1,22 @@
+assam
+black
+ceylon
+chai
+chamomile
+darjeeling
+earl grey
+genmaicha
+ginger
+green
+hibiscus
+jasmine
+lapsang
+lemon
+matcha
+mate
+oolong
+peppermint
+puerh
+rooibos
+sencha
+white

@@ -19,10 +19,9 @@
     "A": [
      2
     ],
-    "B": [
-     3
-    ],
+    "B": [],
     "C": [
+     3,
      1
     ]
    },
@@ -35,15 +34,14 @@
     "A": [
      2
     ],
-    "B": [
-     3
-    ],
+    "B": [],
     "C": [
+     3,
      1
     ]
    },
    "disks": 3,
-   "optimalMoves": 5
+   "optimalMoves": 3
   }
  },
  {
@@ -64,11 +62,11 @@
    "instruction": "Move all 3 disks to peg C.",
    "start": {
     "A": [
-     2,
-     1
+     2
     ],
     "B": [
-     3
+     3,
+     1
     ],
     "C": []
    },
@@ -79,16 +77,16 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     2,
-     1
+     2
     ],
     "B": [
-     3
+     3,
+     1
     ],
     "C": []
    },
    "disks": 3,
-   "optimalMoves": 4
+   "optimalMoves": 5
   }
  },
  {
@@ -109,13 +107,13 @@
    "instruction": "Move all 3 disks to peg C.",
    "start": {
     "A": [
+     3
+    ],
+    "B": [
      2,
      1
     ],
-    "B": [],
-    "C": [
-     3
-    ]
+    "C": []
    },
    "disks": 3,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -124,16 +122,16 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
+     3
+    ],
+    "B": [
      2,
      1
     ],
-    "B": [],
-    "C": [
-     3
-    ]
+    "C": []
    },
    "disks": 3,
-   "optimalMoves": 3
+   "optimalMoves": 4
   }
  },
  {
@@ -202,10 +200,11 @@
      2
     ],
     "B": [
-     3,
-     1
+     3
     ],
-    "C": []
+    "C": [
+     1
+    ]
    },
    "disks": 3,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -217,10 +216,11 @@
      2
     ],
     "B": [
-     3,
-     1
+     3
     ],
-    "C": []
+    "C": [
+     1
+    ]
    },
    "disks": 3,
    "optimalMoves": 5
@@ -244,11 +244,11 @@
    "instruction": "Move all 3 disks to peg C.",
    "start": {
     "A": [
-     3
-    ],
-    "B": [
      2,
      1
+    ],
+    "B": [
+     3
     ],
     "C": []
    },
@@ -259,11 +259,11 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     3
-    ],
-    "B": [
      2,
      1
+    ],
+    "B": [
+     3
     ],
     "C": []
    },
@@ -288,6 +288,51 @@
    "kind": "hanoi",
    "instruction": "Move all 3 disks to peg C.",
    "start": {
+    "A": [],
+    "B": [
+     2,
+     1
+    ],
+    "C": [
+     3
+    ]
+   },
+   "disks": 3,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [],
+    "B": [
+     2,
+     1
+    ],
+    "C": [
+     3
+    ]
+   },
+   "disks": 3,
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "sph-L1-8",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 3 disks to peg C.",
+   "start": {
     "A": [
      3,
      1
@@ -317,7 +362,7 @@
   }
  },
  {
-  "bankKey": "sph-L1-8",
+  "bankKey": "sph-L1-9",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 1,
@@ -364,6 +409,51 @@
   }
  },
  {
+  "bankKey": "sph-L1-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 3 disks to peg C.",
+   "start": {
+    "A": [
+     2,
+     1
+    ],
+    "B": [],
+    "C": [
+     3
+    ]
+   },
+   "disks": 3,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     2,
+     1
+    ],
+    "B": [],
+    "C": [
+     3
+    ]
+   },
+   "disks": 3,
+   "optimalMoves": 3
+  }
+ },
+ {
   "bankKey": "sph-L2-1",
   "category": "strategic_planning",
   "challengeType": "hanoi",
@@ -380,10 +470,10 @@
    "kind": "hanoi",
    "instruction": "Move all 3 disks to peg C.",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      3
     ],
+    "B": [],
     "C": [
      2,
      1
@@ -395,10 +485,10 @@
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      3
     ],
+    "B": [],
     "C": [
      2,
      1
@@ -428,11 +518,10 @@
     "A": [],
     "B": [
      3,
+     2,
      1
     ],
-    "C": [
-     2
-    ]
+    "C": []
    },
    "disks": 3,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -443,14 +532,13 @@
     "A": [],
     "B": [
      3,
+     2,
      1
     ],
-    "C": [
-     2
-    ]
+    "C": []
    },
    "disks": 3,
-   "optimalMoves": 6
+   "optimalMoves": 7
   }
  },
  {
@@ -517,14 +605,13 @@
    "kind": "hanoi",
    "instruction": "Move all 3 disks to peg C.",
    "start": {
-    "A": [
-     1
-    ],
+    "A": [],
     "B": [
-     3
+     3,
+     2
     ],
     "C": [
-     2
+     1
     ]
    },
    "disks": 3,
@@ -533,18 +620,17 @@
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [
-     1
-    ],
+    "A": [],
     "B": [
-     3
+     3,
+     2
     ],
     "C": [
-     2
+     1
     ]
    },
    "disks": 3,
-   "optimalMoves": 7
+   "optimalMoves": 6
   }
  },
  {
@@ -564,12 +650,12 @@
    "kind": "hanoi",
    "instruction": "Move all 3 disks to peg C.",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      3,
      2,
      1
     ],
+    "B": [],
     "C": []
    },
    "disks": 3,
@@ -578,12 +664,12 @@
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      3,
      2,
      1
     ],
+    "B": [],
     "C": []
    },
    "disks": 3,
@@ -608,12 +694,12 @@
    "instruction": "Move all 3 disks to peg C.",
    "start": {
     "A": [
-     3
+     3,
+     1
     ],
     "B": [],
     "C": [
-     2,
-     1
+     2
     ]
    },
    "disks": 3,
@@ -623,16 +709,16 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     3
+     3,
+     1
     ],
     "B": [],
     "C": [
-     2,
-     1
+     2
     ]
    },
    "disks": 3,
-   "optimalMoves": 7
+   "optimalMoves": 6
   }
  },
  {
@@ -698,6 +784,188 @@
    "instruction": "Move all 3 disks to peg C.",
    "start": {
     "A": [
+     1
+    ],
+    "B": [
+     3,
+     2
+    ],
+    "C": []
+   },
+   "disks": 3,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     1
+    ],
+    "B": [
+     3,
+     2
+    ],
+    "C": []
+   },
+   "disks": 3,
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "sph-L2-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 3 disks to peg C.",
+   "start": {
+    "A": [
+     3,
+     2
+    ],
+    "B": [],
+    "C": [
+     1
+    ]
+   },
+   "disks": 3,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     3,
+     2
+    ],
+    "B": [],
+    "C": [
+     1
+    ]
+   },
+   "disks": 3,
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "sph-L2-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 3 disks to peg C.",
+   "start": {
+    "A": [
+     2
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 3,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     2
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 3,
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "sph-L2-11",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 3 disks to peg C.",
+   "start": {
+    "A": [
+     3,
+     2
+    ],
+    "B": [
+     1
+    ],
+    "C": []
+   },
+   "disks": 3,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     3,
+     2
+    ],
+    "B": [
+     1
+    ],
+    "C": []
+   },
+   "disks": 3,
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "sph-L2-12",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 3 disks to peg C.",
+   "start": {
+    "A": [
      3
     ],
     "B": [
@@ -744,15 +1012,14 @@
    "kind": "hanoi",
    "instruction": "Move all 4 disks to peg C.",
    "start": {
-    "A": [
-     1
-    ],
+    "A": [],
     "B": [
-     3
+     3,
+     2
     ],
     "C": [
      4,
-     2
+     1
     ]
    },
    "disks": 4,
@@ -761,19 +1028,18 @@
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [
-     1
-    ],
+    "A": [],
     "B": [
-     3
+     3,
+     2
     ],
     "C": [
      4,
-     2
+     1
     ]
    },
    "disks": 4,
-   "optimalMoves": 7
+   "optimalMoves": 6
   }
  },
  {
@@ -794,14 +1060,13 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
-     4
-    ],
-    "B": [
      3,
-     2
-    ],
-    "C": [
+     2,
      1
+    ],
+    "B": [],
+    "C": [
+     4
     ]
    },
    "disks": 4,
@@ -811,18 +1076,17 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     4
-    ],
-    "B": [
      3,
-     2
-    ],
-    "C": [
+     2,
      1
+    ],
+    "B": [],
+    "C": [
+     4
     ]
    },
    "disks": 4,
-   "optimalMoves": 9
+   "optimalMoves": 7
   }
  },
  {
@@ -843,14 +1107,15 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
-     4,
      1
     ],
     "B": [
      3,
      2
     ],
-    "C": []
+    "C": [
+     4
+    ]
    },
    "disks": 4,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -859,17 +1124,18 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     4,
      1
     ],
     "B": [
      3,
      2
     ],
-    "C": []
+    "C": [
+     4
+    ]
    },
    "disks": 4,
-   "optimalMoves": 9
+   "optimalMoves": 7
   }
  },
  {
@@ -890,13 +1156,12 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
-     3,
-     2
+     3
     ],
-    "B": [
-     4
-    ],
+    "B": [],
     "C": [
+     4,
+     2,
      1
     ]
    },
@@ -907,18 +1172,17 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     3,
-     2
+     3
     ],
-    "B": [
-     4
-    ],
+    "B": [],
     "C": [
+     4,
+     2,
      1
     ]
    },
    "disks": 4,
-   "optimalMoves": 9
+   "optimalMoves": 7
   }
  },
  {
@@ -940,12 +1204,12 @@
    "start": {
     "A": [
      3,
-     2,
-     1
+     2
     ],
     "B": [],
     "C": [
-     4
+     4,
+     1
     ]
    },
    "disks": 4,
@@ -956,20 +1220,69 @@
    "start": {
     "A": [
      3,
-     2,
-     1
+     2
     ],
     "B": [],
     "C": [
-     4
+     4,
+     1
     ]
    },
    "disks": 4,
-   "optimalMoves": 7
+   "optimalMoves": 6
   }
  },
  {
   "bankKey": "sph-L3-6",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     3,
+     2
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     3,
+     2
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "sph-L3-7",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 3,
@@ -1016,7 +1329,150 @@
   }
  },
  {
-  "bankKey": "sph-L3-7",
+  "bankKey": "sph-L3-8",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [],
+    "B": [
+     3,
+     2,
+     1
+    ],
+    "C": [
+     4
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [],
+    "B": [
+     3,
+     2,
+     1
+    ],
+    "C": [
+     4
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "sph-L3-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     3,
+     2,
+     1
+    ],
+    "C": []
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     3,
+     2,
+     1
+    ],
+    "C": []
+   },
+   "disks": 4,
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "sph-L3-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     3
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     4,
+     2
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     3
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     4,
+     2
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "sph-L3-11",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 3,
@@ -1063,7 +1519,7 @@
   }
  },
  {
-  "bankKey": "sph-L3-8",
+  "bankKey": "sph-L3-12",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 3,
@@ -1079,14 +1535,14 @@
    "kind": "hanoi",
    "instruction": "Move all 4 disks to peg C.",
    "start": {
-    "A": [
-     3,
-     1
+    "A": [],
+    "B": [
+     3
     ],
-    "B": [],
     "C": [
      4,
-     2
+     2,
+     1
     ]
    },
    "disks": 4,
@@ -1095,18 +1551,18 @@
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [
-     3,
-     1
+    "A": [],
+    "B": [
+     3
     ],
-    "B": [],
     "C": [
      4,
-     2
+     2,
+     1
     ]
    },
    "disks": 4,
-   "optimalMoves": 6
+   "optimalMoves": 7
   }
  },
  {
@@ -1127,14 +1583,401 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
-     3,
+     4,
      1
+    ],
+    "B": [
+     3,
+     2
+    ],
+    "C": []
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     1
+    ],
+    "B": [
+     3,
+     2
+    ],
+    "C": []
+   },
+   "disks": 4,
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "sph-L4-2",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     2,
+     1
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     2,
+     1
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "sph-L4-3",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [],
+    "B": [
+     4,
+     2,
+     1
+    ],
+    "C": [
+     3
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [],
+    "B": [
+     4,
+     2,
+     1
+    ],
+    "C": [
+     3
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "sph-L4-4",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     1
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     1
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "sph-L4-5",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     3
+    ],
+    "B": [
+     4,
+     1
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     3
+    ],
+    "B": [
+     4,
+     1
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "sph-L4-6",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [],
+    "C": [
+     2,
+     1
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [],
+    "C": [
+     2,
+     1
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "sph-L4-7",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     3
     ],
     "B": [
      4,
      2
     ],
-    "C": []
+    "C": [
+     1
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     3
+    ],
+    "B": [
+     4,
+     2
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "sph-L4-8",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     2
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     2
+    ],
+    "B": [
+     3
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "sph-L4-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     3,
+     1
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     2
+    ]
    },
    "disks": 4,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -1147,8 +1990,56 @@
      1
     ],
     "B": [
+     4
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "sph-L4-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
      4,
      2
+    ],
+    "B": [
+     3,
+     1
+    ],
+    "C": []
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     2
+    ],
+    "B": [
+     3,
+     1
     ],
     "C": []
    },
@@ -1157,7 +2048,7 @@
   }
  },
  {
-  "bankKey": "sph-L4-2",
+  "bankKey": "sph-L4-11",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 4,
@@ -1206,246 +2097,7 @@
   }
  },
  {
-  "bankKey": "sph-L4-3",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 4 disks to peg C.",
-   "start": {
-    "A": [
-     4,
-     2,
-     1
-    ],
-    "B": [
-     3
-    ],
-    "C": []
-   },
-   "disks": 4,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     4,
-     2,
-     1
-    ],
-    "B": [
-     3
-    ],
-    "C": []
-   },
-   "disks": 4,
-   "optimalMoves": 11
-  }
- },
- {
-  "bankKey": "sph-L4-4",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 4 disks to peg C.",
-   "start": {
-    "A": [
-     4
-    ],
-    "B": [
-     3
-    ],
-    "C": [
-     2,
-     1
-    ]
-   },
-   "disks": 4,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     4
-    ],
-    "B": [
-     3
-    ],
-    "C": [
-     2,
-     1
-    ]
-   },
-   "disks": 4,
-   "optimalMoves": 11
-  }
- },
- {
-  "bankKey": "sph-L4-5",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 4 disks to peg C.",
-   "start": {
-    "A": [],
-    "B": [
-     4,
-     2,
-     1
-    ],
-    "C": [
-     3
-    ]
-   },
-   "disks": 4,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [],
-    "B": [
-     4,
-     2,
-     1
-    ],
-    "C": [
-     3
-    ]
-   },
-   "disks": 4,
-   "optimalMoves": 12
-  }
- },
- {
-  "bankKey": "sph-L4-6",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 4 disks to peg C.",
-   "start": {
-    "A": [
-     3
-    ],
-    "B": [
-     4
-    ],
-    "C": [
-     2,
-     1
-    ]
-   },
-   "disks": 4,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     3
-    ],
-    "B": [
-     4
-    ],
-    "C": [
-     2,
-     1
-    ]
-   },
-   "disks": 4,
-   "optimalMoves": 11
-  }
- },
- {
-  "bankKey": "sph-L4-7",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 4,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 4 disks to peg C.",
-   "start": {
-    "A": [],
-    "B": [
-     4,
-     3
-    ],
-    "C": [
-     2,
-     1
-    ]
-   },
-   "disks": 4,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [],
-    "B": [
-     4,
-     3
-    ],
-    "C": [
-     2,
-     1
-    ]
-   },
-   "disks": 4,
-   "optimalMoves": 12
-  }
- },
- {
-  "bankKey": "sph-L4-8",
+  "bankKey": "sph-L4-12",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 4,
@@ -1509,15 +2161,14 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
-     2
+     2,
+     1
     ],
     "B": [
      4,
      3
     ],
-    "C": [
-     1
-    ]
+    "C": []
    },
    "disks": 4,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -1526,15 +2177,14 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     2
+     2,
+     1
     ],
     "B": [
      4,
      3
     ],
-    "C": [
-     1
-    ]
+    "C": []
    },
    "disks": 4,
    "optimalMoves": 15
@@ -1607,11 +2257,11 @@
     "A": [],
     "B": [
      4,
-     1
+     2
     ],
     "C": [
      3,
-     2
+     1
     ]
    },
    "disks": 4,
@@ -1623,15 +2273,15 @@
     "A": [],
     "B": [
      4,
-     1
+     2
     ],
     "C": [
      3,
-     2
+     1
     ]
    },
    "disks": 4,
-   "optimalMoves": 15
+   "optimalMoves": 13
   }
  },
  {
@@ -1651,14 +2301,15 @@
    "kind": "hanoi",
    "instruction": "Move all 4 disks to peg C.",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      4,
      2
     ],
-    "C": [
-     3,
+    "B": [
      1
+    ],
+    "C": [
+     3
     ]
    },
    "disks": 4,
@@ -1667,14 +2318,15 @@
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      4,
      2
     ],
-    "C": [
-     3,
+    "B": [
      1
+    ],
+    "C": [
+     3
     ]
    },
    "disks": 4,
@@ -1746,14 +2398,15 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
-     2,
-     1
-    ],
-    "B": [
      4,
      3
     ],
-    "C": []
+    "B": [
+     2
+    ],
+    "C": [
+     1
+    ]
    },
    "disks": 4,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -1762,14 +2415,15 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     2,
-     1
-    ],
-    "B": [
      4,
      3
     ],
-    "C": []
+    "B": [
+     2
+    ],
+    "C": [
+     1
+    ]
    },
    "disks": 4,
    "optimalMoves": 15
@@ -1793,13 +2447,14 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
+     2
+    ],
+    "B": [
      4,
      1
     ],
-    "B": [],
     "C": [
-     3,
-     2
+     3
     ]
    },
    "disks": 4,
@@ -1809,13 +2464,14 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
+     2
+    ],
+    "B": [
      4,
      1
     ],
-    "B": [],
     "C": [
-     3,
-     2
+     3
     ]
    },
    "disks": 4,
@@ -1840,14 +2496,208 @@
    "instruction": "Move all 4 disks to peg C.",
    "start": {
     "A": [
-     4,
-     3
+     1
     ],
     "B": [
+     4
+    ],
+    "C": [
+     3,
+     2
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     1
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     3,
+     2
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "sph-L5-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [],
+    "B": [
+     4
+    ],
+    "C": [
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [],
+    "B": [
+     4
+    ],
+    "C": [
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 15
+  }
+ },
+ {
+  "bankKey": "sph-L5-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     3,
+     2
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     3,
+     2
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "sph-L5-11",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     2
+    ],
+    "C": [
+     3,
+     1
+    ]
+   },
+   "disks": 4,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     2
+    ],
+    "C": [
+     3,
+     1
+    ]
+   },
+   "disks": 4,
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "sph-L5-12",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 4 disks to peg C.",
+   "start": {
+    "A": [
+     4,
      2,
      1
     ],
-    "C": []
+    "B": [],
+    "C": [
+     3
+    ]
    },
    "disks": 4,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -1857,16 +2707,16 @@
    "start": {
     "A": [
      4,
-     3
-    ],
-    "B": [
      2,
      1
     ],
-    "C": []
+    "B": [],
+    "C": [
+     3
+    ]
    },
    "disks": 4,
-   "optimalMoves": 15
+   "optimalMoves": 12
   }
  },
  {
@@ -1887,15 +2737,14 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     4
-    ],
-    "B": [
-     2
-    ],
-    "C": [
-     5,
+     4,
      3,
+     2,
      1
+    ],
+    "B": [],
+    "C": [
+     5
     ]
    },
    "disks": 5,
@@ -1905,19 +2754,18 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     4
-    ],
-    "B": [
-     2
-    ],
-    "C": [
-     5,
+     4,
      3,
+     2,
      1
+    ],
+    "B": [],
+    "C": [
+     5
     ]
    },
    "disks": 5,
-   "optimalMoves": 14
+   "optimalMoves": 15
   }
  },
  {
@@ -1942,9 +2790,10 @@
      3,
      2
     ],
-    "B": [],
+    "B": [
+     5
+    ],
     "C": [
-     5,
      1
     ]
    },
@@ -1959,10 +2808,62 @@
      3,
      2
     ],
-    "B": [],
+    "B": [
+     5
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 17
+  }
+ },
+ {
+  "bankKey": "sph-L6-3",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     2,
+     1
+    ],
+    "B": [
+     4
+    ],
     "C": [
      5,
+     3
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     2,
      1
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     5,
+     3
     ]
    },
    "disks": 5,
@@ -1970,7 +2871,407 @@
   }
  },
  {
-  "bankKey": "sph-L6-3",
+  "bankKey": "sph-L6-4",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     3,
+     1
+    ],
+    "B": [],
+    "C": [
+     5,
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     3,
+     1
+    ],
+    "B": [],
+    "C": [
+     5,
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "sph-L6-5",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [],
+    "B": [
+     4,
+     3,
+     2,
+     1
+    ],
+    "C": [
+     5
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [],
+    "B": [
+     4,
+     3,
+     2,
+     1
+    ],
+    "C": [
+     5
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 15
+  }
+ },
+ {
+  "bankKey": "sph-L6-6",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [
+     2,
+     1
+    ],
+    "C": [
+     5
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [
+     2,
+     1
+    ],
+    "C": [
+     5
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 15
+  }
+ },
+ {
+  "bankKey": "sph-L6-7",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     1
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     5,
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     1
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     5,
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "sph-L6-8",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     5,
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     5,
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "sph-L6-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     3,
+     2
+    ],
+    "B": [
+     5,
+     1
+    ],
+    "C": []
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     3,
+     2
+    ],
+    "B": [
+     5,
+     1
+    ],
+    "C": []
+   },
+   "disks": 5,
+   "optimalMoves": 17
+  }
+ },
+ {
+  "bankKey": "sph-L6-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5
+    ],
+    "B": [
+     4,
+     3,
+     2,
+     1
+    ],
+    "C": []
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5
+    ],
+    "B": [
+     4,
+     3,
+     2,
+     1
+    ],
+    "C": []
+   },
+   "disks": 5,
+   "optimalMoves": 16
+  }
+ },
+ {
+  "bankKey": "sph-L6-11",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [
+     5,
+     1
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [
+     5,
+     1
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 18
+  }
+ },
+ {
+  "bankKey": "sph-L6-12",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 6,
@@ -2019,253 +3320,6 @@
   }
  },
  {
-  "bankKey": "sph-L6-4",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 6,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 5 disks to peg C.",
-   "start": {
-    "A": [
-     4,
-     3,
-     2,
-     1
-    ],
-    "B": [],
-    "C": [
-     5
-    ]
-   },
-   "disks": 5,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     4,
-     3,
-     2,
-     1
-    ],
-    "B": [],
-    "C": [
-     5
-    ]
-   },
-   "disks": 5,
-   "optimalMoves": 15
-  }
- },
- {
-  "bankKey": "sph-L6-5",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 6,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 5 disks to peg C.",
-   "start": {
-    "A": [
-     1
-    ],
-    "B": [
-     4,
-     2
-    ],
-    "C": [
-     5,
-     3
-    ]
-   },
-   "disks": 5,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     1
-    ],
-    "B": [
-     4,
-     2
-    ],
-    "C": [
-     5,
-     3
-    ]
-   },
-   "disks": 5,
-   "optimalMoves": 13
-  }
- },
- {
-  "bankKey": "sph-L6-6",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 6,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 5 disks to peg C.",
-   "start": {
-    "A": [
-     4,
-     3
-    ],
-    "B": [],
-    "C": [
-     5,
-     2,
-     1
-    ]
-   },
-   "disks": 5,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     4,
-     3
-    ],
-    "B": [],
-    "C": [
-     5,
-     2,
-     1
-    ]
-   },
-   "disks": 5,
-   "optimalMoves": 12
-  }
- },
- {
-  "bankKey": "sph-L6-7",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 6,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 5 disks to peg C.",
-   "start": {
-    "A": [],
-    "B": [
-     4,
-     1
-    ],
-    "C": [
-     5,
-     3,
-     2
-    ]
-   },
-   "disks": 5,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [],
-    "B": [
-     4,
-     1
-    ],
-    "C": [
-     5,
-     3,
-     2
-    ]
-   },
-   "disks": 5,
-   "optimalMoves": 15
-  }
- },
- {
-  "bankKey": "sph-L6-8",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 6,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 5 disks to peg C.",
-   "start": {
-    "A": [
-     4,
-     2
-    ],
-    "B": [],
-    "C": [
-     5,
-     3,
-     1
-    ]
-   },
-   "disks": 5,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     4,
-     2
-    ],
-    "B": [],
-    "C": [
-     5,
-     3,
-     1
-    ]
-   },
-   "disks": 5,
-   "optimalMoves": 13
-  }
- },
- {
   "bankKey": "sph-L7-1",
   "category": "strategic_planning",
   "challengeType": "hanoi",
@@ -2283,12 +3337,12 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5
+     5,
+     1
     ],
     "B": [
      4,
-     3,
-     1
+     3
     ],
     "C": [
      2
@@ -2301,19 +3355,19 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     5
+     5,
+     1
     ],
     "B": [
      4,
-     3,
-     1
+     3
     ],
     "C": [
      2
     ]
    },
    "disks": 5,
-   "optimalMoves": 19
+   "optimalMoves": 18
   }
  },
  {
@@ -2333,15 +3387,16 @@
    "kind": "hanoi",
    "instruction": "Move all 5 disks to peg C.",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      5,
      3,
-     2,
-     1
+     2
+    ],
+    "B": [
+     4
     ],
     "C": [
-     4
+     1
     ]
    },
    "disks": 5,
@@ -2350,19 +3405,20 @@
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [],
-    "B": [
+    "A": [
      5,
      3,
-     2,
-     1
+     2
+    ],
+    "B": [
+     4
     ],
     "C": [
-     4
+     1
     ]
    },
    "disks": 5,
-   "optimalMoves": 24
+   "optimalMoves": 23
   }
  },
  {
@@ -2383,11 +3439,11 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5
+     5,
+     3
     ],
     "B": [
-     4,
-     3
+     4
     ],
     "C": [
      2,
@@ -2401,11 +3457,11 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     5
+     5,
+     3
     ],
     "B": [
-     4,
-     3
+     4
     ],
     "C": [
      2,
@@ -2413,7 +3469,7 @@
     ]
    },
    "disks": 5,
-   "optimalMoves": 19
+   "optimalMoves": 20
   }
  },
  {
@@ -2439,10 +3495,10 @@
     ],
     "B": [
      4,
-     1
+     3
     ],
     "C": [
-     3
+     1
     ]
    },
    "disks": 5,
@@ -2457,14 +3513,14 @@
     ],
     "B": [
      4,
-     1
+     3
     ],
     "C": [
-     3
+     1
     ]
    },
    "disks": 5,
-   "optimalMoves": 21
+   "optimalMoves": 18
   }
  },
  {
@@ -2485,13 +3541,268 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
+     5
+    ],
+    "B": [
      4,
+     3,
+     1
+    ],
+    "C": [
      2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5
+    ],
+    "B": [
+     4,
+     3,
+     1
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 19
+  }
+ },
+ {
+  "bankKey": "sph-L7-6",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [
+     5,
+     2
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     3
+    ],
+    "B": [
+     5,
+     2
+    ],
+    "C": [
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 18
+  }
+ },
+ {
+  "bankKey": "sph-L7-7",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     3,
+     1
+    ],
+    "B": [
+     5
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4,
+     3,
+     1
+    ],
+    "B": [
+     5
+    ],
+    "C": [
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 19
+  }
+ },
+ {
+  "bankKey": "sph-L7-8",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5,
+     1
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5,
+     1
+    ],
+    "B": [
+     4
+    ],
+    "C": [
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 23
+  }
+ },
+ {
+  "bankKey": "sph-L7-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     5
+    ],
+    "C": [
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     5
+    ],
+    "C": [
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 23
+  }
+ },
+ {
+  "bankKey": "sph-L7-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4,
+     1
     ],
     "B": [
      5,
      3,
-     1
+     2
     ],
     "C": []
    },
@@ -2503,12 +3814,12 @@
    "start": {
     "A": [
      4,
-     2
+     1
     ],
     "B": [
      5,
      3,
-     1
+     2
     ],
     "C": []
    },
@@ -2517,7 +3828,7 @@
   }
  },
  {
-  "bankKey": "sph-L7-6",
+  "bankKey": "sph-L7-11",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 7,
@@ -2568,7 +3879,7 @@
   }
  },
  {
-  "bankKey": "sph-L7-7",
+  "bankKey": "sph-L7-12",
   "category": "strategic_planning",
   "challengeType": "hanoi",
   "level": 7,
@@ -2586,14 +3897,15 @@
    "start": {
     "A": [
      5,
-     3,
-     2,
-     1
+     3
     ],
     "B": [
-     4
+     4,
+     2
     ],
-    "C": []
+    "C": [
+     1
+    ]
    },
    "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
@@ -2603,66 +3915,18 @@
    "start": {
     "A": [
      5,
-     3,
-     2,
-     1
+     3
     ],
     "B": [
-     4
+     4,
+     2
     ],
-    "C": []
+    "C": [
+     1
+    ]
    },
    "disks": 5,
    "optimalMoves": 23
-  }
- },
- {
-  "bankKey": "sph-L7-8",
-  "category": "strategic_planning",
-  "challengeType": "hanoi",
-  "level": 7,
-  "version": 1,
-  "active": true,
-  "scoringConfig": {
-   "scoringMode": "deliberate",
-   "expectedMedianMs": 45000,
-   "deliberate": true
-  },
-  "rendererType": "planning_sequence",
-  "promptData": {
-   "kind": "hanoi",
-   "instruction": "Move all 5 disks to peg C.",
-   "start": {
-    "A": [
-     4,
-     1
-    ],
-    "B": [
-     5,
-     3,
-     2
-    ],
-    "C": []
-   },
-   "disks": 5,
-   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
-  },
-  "answerData": {
-   "scoringMode": "deliberate",
-   "start": {
-    "A": [
-     4,
-     1
-    ],
-    "B": [
-     5,
-     3,
-     2
-    ],
-    "C": []
-   },
-   "disks": 5,
-   "optimalMoves": 22
   }
  },
  {
@@ -2683,15 +3947,15 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     2,
-     1
+     5
     ],
     "B": [
-     5,
-     3
+     3,
+     2
     ],
     "C": [
-     4
+     4,
+     1
     ]
    },
    "disks": 5,
@@ -2701,19 +3965,19 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     2,
-     1
+     5
     ],
     "B": [
-     5,
-     3
+     3,
+     2
     ],
     "C": [
-     4
+     4,
+     1
     ]
    },
    "disks": 5,
-   "optimalMoves": 27
+   "optimalMoves": 31
   }
  },
  {
@@ -2735,14 +3999,13 @@
    "start": {
     "A": [
      5,
+     4,
      1
     ],
-    "B": [
+    "B": [],
+    "C": [
      3,
      2
-    ],
-    "C": [
-     4
     ]
    },
    "disks": 5,
@@ -2753,18 +4016,17 @@
    "start": {
     "A": [
      5,
+     4,
      1
     ],
-    "B": [
+    "B": [],
+    "C": [
      3,
      2
-    ],
-    "C": [
-     4
     ]
    },
    "disks": 5,
-   "optimalMoves": 30
+   "optimalMoves": 25
   }
  },
  {
@@ -2785,12 +4047,12 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
+     5,
      3,
-     2
+     1
     ],
     "B": [
-     5,
-     1
+     2
     ],
     "C": [
      4
@@ -2803,19 +4065,19 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
+     5,
      3,
-     2
+     1
     ],
     "B": [
-     5,
-     1
+     2
     ],
     "C": [
      4
     ]
    },
    "disks": 5,
-   "optimalMoves": 30
+   "optimalMoves": 27
   }
  },
  {
@@ -2836,15 +4098,15 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     2
+     3,
+     1
     ],
     "B": [
      5,
-     1
+     2
     ],
     "C": [
-     4,
-     3
+     4
     ]
    },
    "disks": 5,
@@ -2854,19 +4116,19 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     2
+     3,
+     1
     ],
     "B": [
      5,
-     1
+     2
     ],
     "C": [
-     4,
-     3
+     4
     ]
    },
    "disks": 5,
-   "optimalMoves": 29
+   "optimalMoves": 30
   }
  },
  {
@@ -2887,13 +4149,14 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5,
-     4,
-     3,
      2
     ],
-    "B": [],
+    "B": [
+     5,
+     3
+    ],
     "C": [
+     4,
      1
     ]
    },
@@ -2904,18 +4167,19 @@
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     5,
-     4,
-     3,
      2
     ],
-    "B": [],
+    "B": [
+     5,
+     3
+    ],
     "C": [
+     4,
      1
     ]
    },
    "disks": 5,
-   "optimalMoves": 30
+   "optimalMoves": 26
   }
  },
  {
@@ -2937,14 +4201,14 @@
    "start": {
     "A": [
      5,
-     3
-    ],
-    "B": [
-     2,
      1
     ],
+    "B": [
+     2
+    ],
     "C": [
-     4
+     4,
+     3
     ]
    },
    "disks": 5,
@@ -2955,18 +4219,18 @@
    "start": {
     "A": [
      5,
-     3
-    ],
-    "B": [
-     2,
      1
     ],
+    "B": [
+     2
+    ],
     "C": [
-     4
+     4,
+     3
     ]
    },
    "disks": 5,
-   "optimalMoves": 27
+   "optimalMoves": 29
   }
  },
  {
@@ -2989,12 +4253,13 @@
     "A": [
      5,
      3,
+     2
+    ],
+    "B": [
      1
     ],
-    "B": [],
     "C": [
-     4,
-     2
+     4
     ]
    },
    "disks": 5,
@@ -3006,16 +4271,17 @@
     "A": [
      5,
      3,
+     2
+    ],
+    "B": [
      1
     ],
-    "B": [],
     "C": [
-     4,
-     2
+     4
     ]
    },
    "disks": 5,
-   "optimalMoves": 27
+   "optimalMoves": 25
   }
  },
  {
@@ -3036,14 +4302,213 @@
    "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5,
      3
     ],
     "B": [
-     2
+     5,
+     1
     ],
     "C": [
      4,
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     3
+    ],
+    "B": [
+     5,
+     1
+    ],
+    "C": [
+     4,
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 29
+  }
+ },
+ {
+  "bankKey": "sph-L8-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     1
+    ],
+    "B": [
+     5
+    ],
+    "C": [
+     4,
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     1
+    ],
+    "B": [
+     5
+    ],
+    "C": [
+     4,
+     3,
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 31
+  }
+ },
+ {
+  "bankKey": "sph-L8-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5
+    ],
+    "B": [],
+    "C": [
+     4,
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5
+    ],
+    "B": [],
+    "C": [
+     4,
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 31
+  }
+ },
+ {
+  "bankKey": "sph-L8-11",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5,
+     4
+    ],
+    "B": [],
+    "C": [
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5,
+     4
+    ],
+    "B": [],
+    "C": [
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 24
+  }
+ },
+ {
+  "bankKey": "sph-L8-12",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5,
+     3
+    ],
+    "B": [],
+    "C": [
+     4,
+     2,
      1
     ]
    },
@@ -3057,16 +4522,15 @@
      5,
      3
     ],
-    "B": [
-     2
-    ],
+    "B": [],
     "C": [
      4,
+     2,
      1
     ]
    },
    "disks": 5,
-   "optimalMoves": 26
+   "optimalMoves": 27
   }
  },
  {
@@ -3084,42 +4548,38 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
-    "A": [
-     6,
+    "A": [],
+    "B": [
+     5,
      3,
      1
     ],
-    "B": [
-     5,
-     4
-    ],
     "C": [
+     4,
      2
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
-    "A": [
-     6,
+    "A": [],
+    "B": [
+     5,
      3,
      1
     ],
-    "B": [
-     5,
-     4
-    ],
     "C": [
+     4,
      2
     ]
    },
-   "disks": 6,
-   "optimalMoves": 37
+   "disks": 5,
+   "optimalMoves": 27
   }
  },
  {
@@ -3137,42 +4597,40 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5,
-     4
-    ],
-    "B": [
      1
     ],
-    "C": [
-     6,
-     3,
+    "B": [
+     5,
+     4,
      2
+    ],
+    "C": [
+     3
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     5,
-     4
-    ],
-    "B": [
      1
     ],
-    "C": [
-     6,
-     3,
+    "B": [
+     5,
+     4,
      2
+    ],
+    "C": [
+     3
     ]
    },
-   "disks": 6,
-   "optimalMoves": 25
+   "disks": 5,
+   "optimalMoves": 26
   }
  },
  {
@@ -3190,22 +4648,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
      5,
-     4,
-     3,
      1
     ],
     "B": [
-     6
+     4
     ],
     "C": [
+     3,
      2
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
@@ -3213,19 +4670,18 @@
    "start": {
     "A": [
      5,
-     4,
-     3,
      1
     ],
     "B": [
-     6
+     4
     ],
     "C": [
+     3,
      2
     ]
    },
-   "disks": 6,
-   "optimalMoves": 35
+   "disks": 5,
+   "optimalMoves": 23
   }
  },
  {
@@ -3243,40 +4699,40 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5,
      4,
-     3
-    ],
-    "B": [
-     6,
-     2,
      1
     ],
-    "C": []
+    "B": [
+     5
+    ],
+    "C": [
+     3,
+     2
+    ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     5,
      4,
-     3
-    ],
-    "B": [
-     6,
-     2,
      1
     ],
-    "C": []
+    "B": [
+     5
+    ],
+    "C": [
+     3,
+     2
+    ]
    },
-   "disks": 6,
-   "optimalMoves": 35
+   "disks": 5,
+   "optimalMoves": 22
   }
  },
  {
@@ -3294,40 +4750,38 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5,
      4,
+     1
+    ],
+    "B": [
+     5,
      3,
      2
     ],
-    "B": [
-     6,
-     1
-    ],
     "C": []
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     5,
      4,
+     1
+    ],
+    "B": [
+     5,
      3,
      2
     ],
-    "B": [
-     6,
-     1
-    ],
     "C": []
    },
-   "disks": 6,
-   "optimalMoves": 33
+   "disks": 5,
+   "optimalMoves": 22
   }
  },
  {
@@ -3345,42 +4799,38 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     5
-    ],
-    "B": [
-     6,
-     4
-    ],
-    "C": [
+     5,
      3,
-     2,
+     2
+    ],
+    "B": [],
+    "C": [
+     4,
      1
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     5
-    ],
-    "B": [
-     6,
-     4
-    ],
-    "C": [
+     5,
      3,
-     2,
+     2
+    ],
+    "B": [],
+    "C": [
+     4,
      1
     ]
    },
-   "disks": 6,
-   "optimalMoves": 40
+   "disks": 5,
+   "optimalMoves": 25
   }
  },
  {
@@ -3398,40 +4848,40 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     6,
-     2,
-     1
+     4,
+     2
     ],
     "B": [
-     5,
-     4,
-     3
+     5
     ],
-    "C": []
+    "C": [
+     3,
+     1
+    ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     6,
-     2,
-     1
+     4,
+     2
     ],
     "B": [
-     5,
-     4,
-     3
+     5
     ],
-    "C": []
+    "C": [
+     3,
+     1
+    ]
    },
-   "disks": 6,
-   "optimalMoves": 35
+   "disks": 5,
+   "optimalMoves": 22
   }
  },
  {
@@ -3449,30 +4899,207 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     6
-    ],
-    "B": [
      5,
+     3
+    ],
+    "B": [],
+    "C": [
      4,
      2,
      1
-    ],
-    "C": [
-     3
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     6
+     5,
+     3
     ],
+    "B": [],
+    "C": [
+     4,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 27
+  }
+ },
+ {
+  "bankKey": "sph-L9-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5,
+     4,
+     2
+    ],
+    "B": [],
+    "C": [
+     3,
+     1
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5,
+     4,
+     2
+    ],
+    "B": [],
+    "C": [
+     3,
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 27
+  }
+ },
+ {
+  "bankKey": "sph-L9-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     5,
+     3,
+     2,
+     1
+    ],
+    "C": []
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     4
+    ],
+    "B": [
+     5,
+     3,
+     2,
+     1
+    ],
+    "C": []
+   },
+   "disks": 5,
+   "optimalMoves": 23
+  }
+ },
+ {
+  "bankKey": "sph-L9-11",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5,
+     3
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     4,
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5,
+     3
+    ],
+    "B": [
+     1
+    ],
+    "C": [
+     4,
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 26
+  }
+ },
+ {
+  "bankKey": "sph-L9-12",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [],
     "B": [
      5,
      4,
@@ -3483,8 +5110,25 @@
      3
     ]
    },
-   "disks": 6,
-   "optimalMoves": 39
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [],
+    "B": [
+     5,
+     4,
+     2,
+     1
+    ],
+    "C": [
+     3
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 27
   }
  },
  {
@@ -3502,42 +5146,38 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     6,
-     4
-    ],
-    "B": [
-     3,
+     5,
+     4,
      2
     ],
+    "B": [],
     "C": [
-     5,
+     3,
      1
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     6,
-     4
-    ],
-    "B": [
-     3,
+     5,
+     4,
      2
     ],
+    "B": [],
     "C": [
-     5,
+     3,
      1
     ]
    },
-   "disks": 6,
-   "optimalMoves": 55
+   "disks": 5,
+   "optimalMoves": 27
   }
  },
  {
@@ -3555,42 +5195,38 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     6,
      5,
+     4,
      3
     ],
-    "B": [
-     2
-    ],
+    "B": [],
     "C": [
-     4,
+     2,
      1
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     6,
      5,
+     4,
      3
     ],
-    "B": [
-     2
-    ],
+    "B": [],
     "C": [
-     4,
+     2,
      1
     ]
    },
-   "disks": 6,
-   "optimalMoves": 53
+   "disks": 5,
+   "optimalMoves": 31
   }
  },
  {
@@ -3608,40 +5244,40 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     6,
-     4,
-     2,
-     1
-    ],
-    "B": [],
-    "C": [
      5,
+     2
+    ],
+    "B": [
      3
+    ],
+    "C": [
+     4,
+     1
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     6,
-     4,
-     2,
-     1
-    ],
-    "B": [],
-    "C": [
      5,
+     2
+    ],
+    "B": [
      3
+    ],
+    "C": [
+     4,
+     1
     ]
    },
-   "disks": 6,
-   "optimalMoves": 55
+   "disks": 5,
+   "optimalMoves": 31
   }
  },
  {
@@ -3659,22 +5295,21 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
      3,
-     2
-    ],
-    "B": [
-     6,
+     2,
      1
     ],
+    "B": [
+     5
+    ],
     "C": [
-     5,
      4
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
@@ -3682,19 +5317,18 @@
    "start": {
     "A": [
      3,
-     2
-    ],
-    "B": [
-     6,
+     2,
      1
     ],
+    "B": [
+     5
+    ],
     "C": [
-     5,
      4
     ]
    },
-   "disks": 6,
-   "optimalMoves": 57
+   "disks": 5,
+   "optimalMoves": 31
   }
  },
  {
@@ -3712,42 +5346,36 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
+     5,
+     4,
      3,
+     2,
      1
     ],
-    "B": [
-     6,
-     4
-    ],
-    "C": [
-     5,
-     2
-    ]
+    "B": [],
+    "C": []
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
+     5,
+     4,
      3,
+     2,
      1
     ],
-    "B": [
-     6,
-     4
-    ],
-    "C": [
-     5,
-     2
-    ]
+    "B": [],
+    "C": []
    },
-   "disks": 6,
-   "optimalMoves": 53
+   "disks": 5,
+   "optimalMoves": 31
   }
  },
  {
@@ -3765,42 +5393,40 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     4,
-     2
+     5
     ],
     "B": [
-     6,
      3,
      1
     ],
     "C": [
-     5
+     4,
+     2
     ]
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     4,
-     2
+     5
     ],
     "B": [
-     6,
      3,
      1
     ],
     "C": [
-     5
+     4,
+     2
     ]
    },
-   "disks": 6,
-   "optimalMoves": 61
+   "disks": 5,
+   "optimalMoves": 29
   }
  },
  {
@@ -3818,21 +5444,20 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
      3,
-     2
+     2,
+     1
     ],
     "B": [
-     6,
      5,
-     4,
-     1
+     4
     ],
     "C": []
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
@@ -3840,18 +5465,17 @@
    "start": {
     "A": [
      3,
-     2
+     2,
+     1
     ],
     "B": [
-     6,
      5,
-     4,
-     1
+     4
     ],
     "C": []
    },
-   "disks": 6,
-   "optimalMoves": 57
+   "disks": 5,
+   "optimalMoves": 31
   }
  },
  {
@@ -3869,42 +5493,238 @@
   "rendererType": "planning_sequence",
   "promptData": {
    "kind": "hanoi",
-   "instruction": "Move all 6 disks to peg C.",
+   "instruction": "Move all 5 disks to peg C.",
    "start": {
     "A": [
-     6,
-     2,
-     1
+     5,
+     4,
+     2
     ],
     "B": [
-     3
+     3,
+     1
     ],
-    "C": [
-     5,
-     4
-    ]
+    "C": []
    },
-   "disks": 6,
+   "disks": 5,
    "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "start": {
     "A": [
-     6,
-     2,
-     1
+     5,
+     4,
+     2
     ],
     "B": [
-     3
+     3,
+     1
+    ],
+    "C": []
+   },
+   "disks": 5,
+   "optimalMoves": 29
+  }
+ },
+ {
+  "bankKey": "sph-L10-9",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5,
+     4,
+     3,
+     1
+    ],
+    "B": [],
+    "C": [
+     2
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5,
+     4,
+     3,
+     1
+    ],
+    "B": [],
+    "C": [
+     2
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 30
+  }
+ },
+ {
+  "bankKey": "sph-L10-10",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [],
+    "B": [
+     5
     ],
     "C": [
+     4,
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [],
+    "B": [
+     5
+    ],
+    "C": [
+     4,
+     3,
+     2,
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 31
+  }
+ },
+ {
+  "bankKey": "sph-L10-11",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
      5,
+     2
+    ],
+    "B": [
+     3,
+     1
+    ],
+    "C": [
      4
     ]
    },
-   "disks": 6,
-   "optimalMoves": 59
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5,
+     2
+    ],
+    "B": [
+     3,
+     1
+    ],
+    "C": [
+     4
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 30
+  }
+ },
+ {
+  "bankKey": "sph-L10-12",
+  "category": "strategic_planning",
+  "challengeType": "hanoi",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 45000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "hanoi",
+   "instruction": "Move all 5 disks to peg C.",
+   "start": {
+    "A": [
+     5,
+     4
+    ],
+    "B": [
+     2
+    ],
+    "C": [
+     3,
+     1
+    ]
+   },
+   "disks": 5,
+   "hint": "Tap a peg to lift its top disk, tap another to place it. One disk at a time; never a larger disk on a smaller one. Undo takes back the last move. No clock - fewer moves score higher."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "start": {
+    "A": [
+     5,
+     4
+    ],
+    "B": [
+     2
+    ],
+    "C": [
+     3,
+     1
+    ]
+   },
+   "disks": 5,
+   "optimalMoves": 27
   }
  }
 ]

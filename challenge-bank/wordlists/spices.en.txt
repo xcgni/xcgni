@@ -1,0 +1,26 @@
+allspice
+anise
+basil
+bay leaf
+cardamom
+cayenne
+chili
+cinnamon
+clove
+coriander
+cumin
+dill
+fennel
+ginger
+mace
+mustard
+nutmeg
+oregano
+paprika
+pepper
+rosemary
+saffron
+sumac
+thyme
+turmeric
+vanilla

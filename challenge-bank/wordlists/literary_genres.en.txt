@@ -1,0 +1,24 @@
+adventure
+biography
+comedy
+crime
+drama
+dystopia
+epic
+essay
+fable
+fantasy
+historical fiction
+horror
+legend
+memoir
+mystery
+myth
+novella
+poetry
+romance
+satire
+science fiction
+thriller
+tragedy
+western

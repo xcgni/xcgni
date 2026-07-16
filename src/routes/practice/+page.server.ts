@@ -11,6 +11,15 @@ export const load: PageServerLoad = async ({ locals }) => {
   const cats = await pg`
     SELECT slug, name, description, implemented FROM categories WHERE active ORDER BY sort
   `;
+  // what each category is made of, so the picker can say it
+  const typeRows = await pg`
+    SELECT category_slug, challenge_type FROM challenges
+    WHERE active AND lang = 'en' GROUP BY 1, 2 ORDER BY 1, 2
+  `;
+  const typesBySlug: Record<string, string[]> = {};
+  for (const r of typeRows) {
+    (typesBySlug[r.category_slug as string] ??= []).push(r.challenge_type as string);
+  }
   const enabled = locals.user ? await getEnabledCategories(locals.user.id) : null;
   const enabledSet = enabled ? new Set(enabled) : null;
   // profile completeness, so a new user sees their progress filling in right where they practise
@@ -25,7 +34,8 @@ export const load: PageServerLoad = async ({ locals }) => {
       description: c.description as string,
       implemented: c.implemented as boolean,
       // anonymous (no user) => all on; otherwise on unless the user disabled it
-      enabled: enabledSet ? enabledSet.has(c.slug as string) : true
+      enabled: enabledSet ? enabledSet.has(c.slug as string) : true,
+      types: typesBySlug[c.slug as string] ?? []
     }))
   };
 };

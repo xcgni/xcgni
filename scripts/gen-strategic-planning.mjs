@@ -45,7 +45,7 @@ const LEVELS = {
   10: { ops: ['*3','*2','+3','-2','+1'],  minOpt: 6, maxOpt: 9 }
 };
 
-const PER_LEVEL = 20;
+const PER_LEVEL = 24;
 
 // deterministic PRNG so regenerating is stable
 let seed = 1337;

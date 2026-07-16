@@ -1,4 +1,5 @@
 import { db, pg } from '$lib/server/db';
+import { log } from '$lib/server/log';
 import { users, authSessions, magicLinks } from '$lib/server/db/schema';
 import { eq, and, isNull, gt } from 'drizzle-orm';
 import { randomBytes, createHash } from 'node:crypto';
@@ -49,7 +50,10 @@ export function setSessionCookie(cookies: Cookies, value: string) {
     path: '/',
     httpOnly: true,
     sameSite: 'lax',
-    secure: process.env.NODE_ENV === 'production',
+    // Secure except when explicitly testing a production build over plain http
+    // (INSECURE_COOKIES=1 in a LOCAL .env only - never on a server). Without this,
+    // localhost testing silently drops the cookie and every request is a stranger.
+    secure: process.env.NODE_ENV === 'production' && process.env.INSECURE_COOKIES !== '1',
     maxAge: SESSION_DAYS * 24 * 3600
   });
 }
@@ -120,6 +124,7 @@ export async function ensureUser(cookies: Cookies): Promise<SessionUser> {
   const existing = await resolveUser(cookies);
   if (existing) return existing;
   const [u] = await db.insert(users).values({ isAnonymous: true }).returning(sessionUserCols);
+  log.info('anon-user-created', { userId: u.id });
   await createSessionFor(u.id, cookies);
   return toSessionUser(u);
 }

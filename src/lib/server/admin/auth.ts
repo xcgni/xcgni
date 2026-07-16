@@ -149,7 +149,10 @@ export async function adminLogin(
     path: '/admin',
     httpOnly: true,
     sameSite: 'strict',
-    secure: process.env.NODE_ENV === 'production',
+    // Secure except when explicitly testing a production build over plain http
+    // (INSECURE_COOKIES=1 in a LOCAL .env only - never on a server). Without this,
+    // localhost testing silently drops the cookie and every request is a stranger.
+    secure: process.env.NODE_ENV === 'production' && process.env.INSECURE_COOKIES !== '1',
     maxAge: TTL_HOURS * 3600
   });
   log.info('admin.login_ok', {});

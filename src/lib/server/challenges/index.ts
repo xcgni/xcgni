@@ -38,8 +38,19 @@ export async function levelBounds(categorySlug: string): Promise<{ min: number; 
 export async function pickChallenge(
   categorySlug: string,
   level: number,
-  userId: string
+  userId: string,
+  challengeType: string | null = null
 ): Promise<ServedChallenge | null> {
+  // Optional sub-type filter (e.g. strategic_planning split into hanoi / grid_path /
+  // number_path / step_order on the practice page). Serving-only: ratings, pools and
+  // the radar stay category-level, so the split changes CHOICE, never measurement.
+  // One-shot content (fluency prompts) cannot be meaningfully re-served for months:
+  // recalling ANIMALS again next week measures memory of last week's answers. So
+  // fluency categories get a hard 90-day per-user cooldown and a widened level
+  // window (level +/- 1), because prompt variety matters more than exact difficulty
+  // for a 30-second free-recall task.
+  const ONE_SHOT = categorySlug === 'retrieval_fluency' || categorySlug === 'verbal_fluency';
+
   // Exclude the user's recently-served challenges IN THIS CATEGORY (not globally -
   // mixed practice interleaves categories, so a global window barely excludes any
   // single category's items and causes repeats when the level holds steady).
@@ -47,6 +58,7 @@ export async function pickChallenge(
   const levelCount = await pg`
     SELECT count(*)::int AS n FROM challenges
     WHERE category_slug = ${categorySlug} AND active AND lang = 'en' AND level = ${level}
+      AND (${challengeType}::text IS NULL OR challenge_type = ${challengeType})
   `;
   const poolN = levelCount[0]?.n ?? 0;
   // avoid up to ~70% of the level's items, capped, so there's always something fresh
@@ -56,12 +68,19 @@ export async function pickChallenge(
     SELECT c.id, c.category_slug, c.challenge_type, c.level, c.renderer_type,
            c.prompt_data, c.scoring_config, c.answer_data, c.version
     FROM challenges c
-    WHERE c.category_slug = ${categorySlug} AND c.active AND c.lang = 'en' AND c.level = ${level}
+    WHERE c.category_slug = ${categorySlug} AND c.active AND c.lang = 'en'
+      AND (${challengeType}::text IS NULL OR c.challenge_type = ${challengeType})
+      AND (c.level = ${level} OR (${ONE_SHOT} AND abs(c.level - ${level}) <= 1))
       AND c.id NOT IN (
         SELECT a.challenge_id FROM attempts a
         WHERE a.user_id = ${userId} AND a.category_slug = ${categorySlug}
         ORDER BY a.served_at DESC LIMIT ${avoidN}
       )
+      AND NOT (${ONE_SHOT} AND c.id IN (
+        SELECT a.challenge_id FROM attempts a
+        WHERE a.user_id = ${userId} AND a.category_slug = ${categorySlug}
+          AND a.served_at > now() - interval '90 days'
+      ))
     ORDER BY random() LIMIT 1
   `;
   let row = fresh[0];
@@ -73,6 +92,7 @@ export async function pickChallenge(
              c.prompt_data, c.scoring_config, c.answer_data, c.version
       FROM challenges c
       WHERE c.category_slug = ${categorySlug} AND c.active AND c.lang = 'en' AND c.level = ${level}
+        AND (${challengeType}::text IS NULL OR c.challenge_type = ${challengeType})
       ORDER BY random() LIMIT 1
     `;
     row = any[0];
@@ -85,6 +105,7 @@ export async function pickChallenge(
              c.prompt_data, c.scoring_config, c.answer_data, c.version
       FROM challenges c
       WHERE c.category_slug = ${categorySlug} AND c.active AND c.lang = 'en'
+        AND (${challengeType}::text IS NULL OR c.challenge_type = ${challengeType})
       ORDER BY abs(c.level - ${level}), random() LIMIT 1
     `;
     row = nearest[0];

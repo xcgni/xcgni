@@ -1,9 +1,10 @@
 import type { PageServerLoad } from './$types';
 import { redirect } from '@sveltejs/kit';
 import { flags } from '$lib/server/flags';
-import { hasSeenIntro, getEnabledCategories, INACTIVITY_MINUTES } from '$lib/server/sessions';
+import { hasSeenIntro, markIntroSeen, getEnabledCategories, INACTIVITY_MINUTES } from '$lib/server/sessions';
 import { contextPlan } from '$lib/server/sessions/context';
 import { pg } from '$lib/server/db';
+import { log } from '$lib/server/log';
 
 export const load: PageServerLoad = async ({ locals, url }) => {
   // Daily pulse mode (v1.5.0): a 90-second ritual - three adaptive items, no pre-session
@@ -19,7 +20,20 @@ export const load: PageServerLoad = async ({ locals, url }) => {
   // go through /welcome first. ?skipintro=1 (set after onboarding) bypasses.
   if (locals.user && url.searchParams.get('skipintro') !== '1') {
     const seen = await hasSeenIntro(locals.user.id);
-    if (!seen) throw redirect(303, '/welcome');
+    if (!seen) {
+      // Self-heal: anyone with a recorded attempt has factually passed onboarding -
+      // a missing flag (legacy row, module return, edge path) must never bounce a
+      // practicing user back to the contract mid-session.
+      const [prior] = await pg`SELECT 1 FROM attempts WHERE user_id = ${locals.user.id} LIMIT 1`;
+      if (prior) {
+        log.info('intro-gate-selfheal', { userId: locals.user.id });
+        await markIntroSeen(locals.user.id);
+      } else {
+        log.info('intro-gate-redirect', { userId: locals.user.id, url: url.pathname + url.search });
+        // True first-timer: preserve intent - land back on exactly what was clicked.
+        throw redirect(303, '/welcome?next=' + encodeURIComponent(url.pathname + url.search));
+      }
+    }
   }
   let sessionLength = isPulse ? 3 : 10;
   let askDaily = false;

@@ -1,0 +1,19 @@
+biathlon
+bobsled
+broomball
+curling
+figure skating
+freestyle
+hockey
+ice climbing
+luge
+mogul
+ringette
+ski jumping
+skiing
+slalom
+sledding
+snowboarding
+snowshoeing
+speed skating
+telemark

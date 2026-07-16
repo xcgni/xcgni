@@ -1,0 +1,23 @@
+backpack
+campfire
+canteen
+compass
+cooler
+firewood
+first aid
+flashlight
+hatchet
+headlamp
+knife
+lantern
+mallet
+map
+marshmallow
+matches
+mosquito net
+rope
+sleeping bag
+stakes
+stove
+tarp
+tent

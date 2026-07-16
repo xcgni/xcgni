@@ -860,5 +860,7101 @@
     },
     "version": 1,
     "active": true
+  },
+  {
+    "bankKey": "vfc-start-a",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'A'",
+      "timeMs": 30000,
+      "constraint": "a"
+    },
+    "answerData": {
+      "acceptList": [
+        "able",
+        "about",
+        "above",
+        "across",
+        "act",
+        "add",
+        "afraid",
+        "after",
+        "again",
+        "age",
+        "ago",
+        "agree",
+        "air",
+        "all",
+        "allow",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "always",
+        "among",
+        "angry",
+        "animal",
+        "answer",
+        "any",
+        "apple",
+        "area",
+        "arm",
+        "army",
+        "around",
+        "arrive",
+        "art",
+        "ask",
+        "asleep"
+      ],
+      "constraint": "a",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-c",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'C'",
+      "timeMs": 30000,
+      "constraint": "c"
+    },
+    "answerData": {
+      "acceptList": [
+        "cake",
+        "call",
+        "calm",
+        "camera",
+        "camp",
+        "can",
+        "candle",
+        "cap",
+        "car",
+        "card",
+        "care",
+        "careful",
+        "carry",
+        "case",
+        "cat",
+        "catch",
+        "cause",
+        "cell",
+        "center",
+        "century",
+        "certain",
+        "chain",
+        "chair",
+        "chance",
+        "change",
+        "chapter",
+        "charge",
+        "cheap",
+        "check",
+        "cheese",
+        "chest",
+        "chicken",
+        "chief",
+        "child",
+        "choice",
+        "choose",
+        "church",
+        "circle",
+        "city",
+        "class",
+        "clean",
+        "clear",
+        "clever",
+        "climb",
+        "clock",
+        "close",
+        "cloth",
+        "cloud",
+        "club",
+        "coast",
+        "coat",
+        "coffee",
+        "coin",
+        "cold",
+        "collect",
+        "college",
+        "color",
+        "come",
+        "comfort",
+        "common",
+        "company",
+        "compare",
+        "complete",
+        "computer",
+        "condition",
+        "control",
+        "cook",
+        "cool",
+        "copy",
+        "corn",
+        "corner",
+        "correct",
+        "cost",
+        "cotton",
+        "cough",
+        "count",
+        "country",
+        "course",
+        "court",
+        "cover",
+        "cow",
+        "crowd",
+        "cry",
+        "cup",
+        "cut"
+      ],
+      "constraint": "c",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-d",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'D'",
+      "timeMs": 30000,
+      "constraint": "d"
+    },
+    "answerData": {
+      "acceptList": [
+        "dance",
+        "danger",
+        "dark",
+        "date",
+        "day",
+        "dead",
+        "deal",
+        "dear",
+        "death",
+        "decide",
+        "deep",
+        "deer",
+        "degree",
+        "delay",
+        "deliver",
+        "depend",
+        "desk",
+        "desert",
+        "design",
+        "detail",
+        "develop",
+        "die",
+        "diet",
+        "differ",
+        "difficult",
+        "dig",
+        "dinner",
+        "direct",
+        "dirt",
+        "dirty",
+        "distance",
+        "divide",
+        "doctor",
+        "dog",
+        "dollar",
+        "door",
+        "double",
+        "doubt",
+        "down",
+        "draw",
+        "dream",
+        "dress",
+        "drink",
+        "drive",
+        "drop",
+        "dry",
+        "duck",
+        "during",
+        "dust",
+        "duty"
+      ],
+      "constraint": "d",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-e",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'E'",
+      "timeMs": 30000,
+      "constraint": "e"
+    },
+    "answerData": {
+      "acceptList": [
+        "each",
+        "ear",
+        "early",
+        "earn",
+        "earth",
+        "east",
+        "easy",
+        "eat",
+        "edge",
+        "effect",
+        "egg",
+        "eight",
+        "either",
+        "elbow",
+        "else",
+        "empty",
+        "end",
+        "enemy",
+        "energy",
+        "engine",
+        "enjoy",
+        "enough",
+        "enter",
+        "equal",
+        "escape",
+        "even",
+        "evening",
+        "event",
+        "ever",
+        "every",
+        "example",
+        "except",
+        "exchange",
+        "excite",
+        "exercise",
+        "expect",
+        "expert",
+        "explain",
+        "eye"
+      ],
+      "constraint": "e",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-f",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'F'",
+      "timeMs": 30000,
+      "constraint": "f"
+    },
+    "answerData": {
+      "acceptList": [
+        "face",
+        "fact",
+        "fail",
+        "fair",
+        "fall",
+        "false",
+        "family",
+        "famous",
+        "fan",
+        "far",
+        "farm",
+        "fast",
+        "fat",
+        "father",
+        "fault",
+        "favor",
+        "fear",
+        "feed",
+        "feel",
+        "fellow",
+        "female",
+        "fence",
+        "few",
+        "field",
+        "fight",
+        "fill",
+        "film",
+        "final",
+        "find",
+        "fine",
+        "finger",
+        "finish",
+        "fire",
+        "first",
+        "fish",
+        "fit",
+        "fix",
+        "flag",
+        "flat",
+        "float",
+        "floor",
+        "flow",
+        "flower",
+        "fly",
+        "fold",
+        "follow",
+        "food",
+        "fool",
+        "foot",
+        "for",
+        "force",
+        "forest",
+        "forget",
+        "fork",
+        "form",
+        "free",
+        "fresh",
+        "friend",
+        "frog",
+        "from",
+        "front",
+        "fruit",
+        "full",
+        "fun",
+        "funny",
+        "fur"
+      ],
+      "constraint": "f",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-g",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'G'",
+      "timeMs": 30000,
+      "constraint": "g"
+    },
+    "answerData": {
+      "acceptList": [
+        "game",
+        "garden",
+        "gas",
+        "gate",
+        "gather",
+        "general",
+        "gentle",
+        "get",
+        "gift",
+        "girl",
+        "give",
+        "glad",
+        "glass",
+        "go",
+        "goal",
+        "goat",
+        "gold",
+        "good",
+        "govern",
+        "grass",
+        "gray",
+        "great",
+        "green",
+        "ground",
+        "group",
+        "grow",
+        "guard",
+        "guess",
+        "guest",
+        "guide",
+        "gun"
+      ],
+      "constraint": "g",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-h",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'H'",
+      "timeMs": 30000,
+      "constraint": "h"
+    },
+    "answerData": {
+      "acceptList": [
+        "hair",
+        "half",
+        "hall",
+        "hand",
+        "hang",
+        "happen",
+        "happy",
+        "hard",
+        "hat",
+        "hate",
+        "have",
+        "head",
+        "health",
+        "hear",
+        "heart",
+        "heat",
+        "heavy",
+        "help",
+        "here",
+        "hide",
+        "high",
+        "hill",
+        "hit",
+        "hold",
+        "hole",
+        "holiday",
+        "home",
+        "honest",
+        "hope",
+        "horse",
+        "hospital",
+        "hot",
+        "hotel",
+        "hour",
+        "house",
+        "how",
+        "huge",
+        "human",
+        "hundred",
+        "hungry",
+        "hunt",
+        "hurry",
+        "hurt"
+      ],
+      "constraint": "h",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-i",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'I'",
+      "timeMs": 30000,
+      "constraint": "i"
+    },
+    "answerData": {
+      "acceptList": [
+        "ice",
+        "idea",
+        "if",
+        "ill",
+        "important",
+        "in",
+        "inch",
+        "include",
+        "increase",
+        "indeed",
+        "inside",
+        "into",
+        "iron",
+        "island"
+      ],
+      "constraint": "i",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-l",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'L'",
+      "timeMs": 30000,
+      "constraint": "l"
+    },
+    "answerData": {
+      "acceptList": [
+        "lady",
+        "lake",
+        "lamp",
+        "land",
+        "large",
+        "last",
+        "late",
+        "laugh",
+        "law",
+        "lay",
+        "lazy",
+        "lead",
+        "leaf",
+        "learn",
+        "least",
+        "leather",
+        "leave",
+        "left",
+        "leg",
+        "lemon",
+        "lend",
+        "length",
+        "less",
+        "let",
+        "letter",
+        "level",
+        "library",
+        "lie",
+        "life",
+        "lift",
+        "light",
+        "like",
+        "line",
+        "lion",
+        "lip",
+        "list",
+        "listen",
+        "little",
+        "live",
+        "load",
+        "local",
+        "lock",
+        "lonely",
+        "long",
+        "look",
+        "lose",
+        "loss",
+        "lot",
+        "loud",
+        "love",
+        "low",
+        "luck",
+        "lunch"
+      ],
+      "constraint": "l",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-m",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'M'",
+      "timeMs": 30000,
+      "constraint": "m"
+    },
+    "answerData": {
+      "acceptList": [
+        "machine",
+        "mad",
+        "mail",
+        "main",
+        "make",
+        "male",
+        "man",
+        "many",
+        "map",
+        "mark",
+        "market",
+        "marry",
+        "master",
+        "match",
+        "matter",
+        "may",
+        "meal",
+        "mean",
+        "meat",
+        "meet",
+        "melon",
+        "member",
+        "memory",
+        "mention",
+        "metal",
+        "middle",
+        "might",
+        "mile",
+        "milk",
+        "mind",
+        "mine",
+        "minute",
+        "mirror",
+        "miss",
+        "mistake",
+        "mix",
+        "model",
+        "modern",
+        "moment",
+        "money",
+        "monkey",
+        "month",
+        "moon",
+        "more",
+        "morning",
+        "most",
+        "mother",
+        "mountain",
+        "mouse",
+        "mouth",
+        "move",
+        "much",
+        "music",
+        "must"
+      ],
+      "constraint": "m",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-n",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'N'",
+      "timeMs": 30000,
+      "constraint": "n"
+    },
+    "answerData": {
+      "acceptList": [
+        "nail",
+        "name",
+        "narrow",
+        "nation",
+        "nature",
+        "near",
+        "neck",
+        "need",
+        "needle",
+        "neighbor",
+        "net",
+        "never",
+        "new",
+        "news",
+        "next",
+        "nice",
+        "night",
+        "nine",
+        "no",
+        "noise",
+        "none",
+        "noon",
+        "north",
+        "nose",
+        "not",
+        "note",
+        "nothing",
+        "notice",
+        "now",
+        "number",
+        "nurse",
+        "nut"
+      ],
+      "constraint": "n",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-o",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'O'",
+      "timeMs": 30000,
+      "constraint": "o"
+    },
+    "answerData": {
+      "acceptList": [
+        "ocean",
+        "of",
+        "off",
+        "offer",
+        "office",
+        "often",
+        "oil",
+        "old",
+        "on",
+        "once",
+        "one",
+        "onion",
+        "only",
+        "open",
+        "or",
+        "orange",
+        "order",
+        "other",
+        "out",
+        "over",
+        "own"
+      ],
+      "constraint": "o",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-p",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'P'",
+      "timeMs": 30000,
+      "constraint": "p"
+    },
+    "answerData": {
+      "acceptList": [
+        "page",
+        "pain",
+        "paint",
+        "pair",
+        "paper",
+        "park",
+        "part",
+        "party",
+        "pass",
+        "past",
+        "path",
+        "pay",
+        "peace",
+        "pen",
+        "pencil",
+        "people",
+        "pepper",
+        "perfect",
+        "perhaps",
+        "person",
+        "phone",
+        "pick",
+        "picture",
+        "piece",
+        "pig",
+        "pin",
+        "pink",
+        "pipe",
+        "place",
+        "plan",
+        "plant",
+        "plate",
+        "play",
+        "please",
+        "pleasant",
+        "pocket",
+        "point",
+        "poison",
+        "police",
+        "polite",
+        "pool",
+        "poor",
+        "potato",
+        "pour",
+        "power",
+        "practice",
+        "praise",
+        "pray",
+        "prepare",
+        "present",
+        "press",
+        "pretty",
+        "price",
+        "print",
+        "prize",
+        "problem",
+        "promise",
+        "proud",
+        "public",
+        "pull",
+        "punish",
+        "pure",
+        "purple",
+        "push",
+        "put"
+      ],
+      "constraint": "p",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-r",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'R'",
+      "timeMs": 30000,
+      "constraint": "r"
+    },
+    "answerData": {
+      "acceptList": [
+        "race",
+        "radio",
+        "rail",
+        "rain",
+        "raise",
+        "reach",
+        "read",
+        "ready",
+        "real",
+        "reason",
+        "receive",
+        "record",
+        "red",
+        "remember",
+        "repeat",
+        "reply",
+        "report",
+        "rest",
+        "return",
+        "rice",
+        "rich",
+        "ride",
+        "right",
+        "ring",
+        "rise",
+        "river",
+        "road",
+        "rock",
+        "roof",
+        "room",
+        "root",
+        "rope",
+        "rose",
+        "round",
+        "row",
+        "rub",
+        "rule",
+        "run"
+      ],
+      "constraint": "r",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-t",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'T'",
+      "timeMs": 30000,
+      "constraint": "t"
+    },
+    "answerData": {
+      "acceptList": [
+        "table",
+        "tail",
+        "take",
+        "talk",
+        "tall",
+        "taste",
+        "tea",
+        "teach",
+        "team",
+        "tear",
+        "tell",
+        "ten",
+        "test",
+        "than",
+        "thank",
+        "that",
+        "the",
+        "then",
+        "there",
+        "thick",
+        "thin",
+        "thing",
+        "think",
+        "third",
+        "thirsty",
+        "this",
+        "though",
+        "thought",
+        "thread",
+        "throat",
+        "through",
+        "throw",
+        "thumb",
+        "thunder",
+        "ticket",
+        "tie",
+        "tiger",
+        "time",
+        "tiny",
+        "tired",
+        "title",
+        "to",
+        "today",
+        "toe",
+        "together",
+        "tomorrow",
+        "tongue",
+        "tonight",
+        "too",
+        "tool",
+        "tooth",
+        "top",
+        "touch",
+        "toward",
+        "tower",
+        "town",
+        "toy",
+        "trade",
+        "train",
+        "travel",
+        "tree",
+        "trip",
+        "trouble",
+        "true",
+        "trust",
+        "try",
+        "tube",
+        "turn",
+        "twelve",
+        "twenty",
+        "twice",
+        "type"
+      ],
+      "constraint": "t",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-u",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'U'",
+      "timeMs": 30000,
+      "constraint": "u"
+    },
+    "answerData": {
+      "acceptList": [
+        "ugly",
+        "umbrella",
+        "uncle",
+        "under",
+        "understand",
+        "until",
+        "up",
+        "upon",
+        "use",
+        "usual"
+      ],
+      "constraint": "u",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-w",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'W'",
+      "timeMs": 30000,
+      "constraint": "w"
+    },
+    "answerData": {
+      "acceptList": [
+        "wait",
+        "wake",
+        "walk",
+        "wall",
+        "want",
+        "war",
+        "warm",
+        "wash",
+        "waste",
+        "watch",
+        "water",
+        "wave",
+        "way",
+        "weak",
+        "wear",
+        "weather",
+        "week",
+        "weight",
+        "welcome",
+        "well",
+        "west",
+        "wet",
+        "what",
+        "wheel",
+        "when",
+        "where",
+        "which",
+        "while",
+        "white",
+        "who",
+        "whole",
+        "why",
+        "wide",
+        "wife",
+        "wild",
+        "win",
+        "wind",
+        "window",
+        "wine",
+        "wing",
+        "winter",
+        "wire",
+        "wise",
+        "wish",
+        "with",
+        "woman",
+        "wonder",
+        "wood",
+        "wool",
+        "word",
+        "work",
+        "world",
+        "worry",
+        "worth",
+        "wound",
+        "write",
+        "wrong"
+      ],
+      "constraint": "w",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-y",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 1,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'Y'",
+      "timeMs": 30000,
+      "constraint": "y"
+    },
+    "answerData": {
+      "acceptList": [
+        "year",
+        "yellow",
+        "yes",
+        "yesterday",
+        "yet",
+        "you",
+        "young"
+      ],
+      "constraint": "y",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-st",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'ST'",
+      "timeMs": 30000,
+      "constraint": "st"
+    },
+    "answerData": {
+      "acceptList": [
+        "stamp",
+        "stand",
+        "star",
+        "start",
+        "station",
+        "stay",
+        "steal",
+        "steam",
+        "step",
+        "stick",
+        "still",
+        "stomach",
+        "stone",
+        "stop",
+        "store",
+        "storm",
+        "story",
+        "straight",
+        "strange",
+        "street",
+        "strong",
+        "study"
+      ],
+      "constraint": "st",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-br",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'BR'",
+      "timeMs": 30000,
+      "constraint": "br"
+    },
+    "answerData": {
+      "acceptList": [
+        "brain",
+        "branch",
+        "brave",
+        "bread",
+        "break",
+        "breakfast",
+        "breath",
+        "bridge",
+        "bright",
+        "bring",
+        "broad",
+        "broken",
+        "brother",
+        "brown",
+        "brush"
+      ],
+      "constraint": "br",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-pl",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'PL'",
+      "timeMs": 30000,
+      "constraint": "pl"
+    },
+    "answerData": {
+      "acceptList": [
+        "place",
+        "plan",
+        "plant",
+        "plate",
+        "play",
+        "please",
+        "pleasant"
+      ],
+      "constraint": "pl",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-sh",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'SH'",
+      "timeMs": 30000,
+      "constraint": "sh"
+    },
+    "answerData": {
+      "acceptList": [
+        "shake",
+        "shape",
+        "share",
+        "sharp",
+        "she",
+        "sheep",
+        "shelf",
+        "shine",
+        "ship",
+        "shirt",
+        "shoe",
+        "shoot",
+        "shop",
+        "short",
+        "should",
+        "shoulder",
+        "shout",
+        "show",
+        "shut"
+      ],
+      "constraint": "sh",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-th",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'TH'",
+      "timeMs": 30000,
+      "constraint": "th"
+    },
+    "answerData": {
+      "acceptList": [
+        "than",
+        "thank",
+        "that",
+        "the",
+        "then",
+        "there",
+        "thick",
+        "thin",
+        "thing",
+        "think",
+        "third",
+        "thirsty",
+        "this",
+        "though",
+        "thought",
+        "thread",
+        "throat",
+        "through",
+        "throw",
+        "thumb",
+        "thunder"
+      ],
+      "constraint": "th",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-wh",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'WH'",
+      "timeMs": 30000,
+      "constraint": "wh"
+    },
+    "answerData": {
+      "acceptList": [
+        "what",
+        "wheel",
+        "when",
+        "where",
+        "which",
+        "while",
+        "white",
+        "who",
+        "whole",
+        "why"
+      ],
+      "constraint": "wh",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-fl",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'FL'",
+      "timeMs": 30000,
+      "constraint": "fl"
+    },
+    "answerData": {
+      "acceptList": [
+        "flag",
+        "flat",
+        "float",
+        "floor",
+        "flow",
+        "flower",
+        "fly"
+      ],
+      "constraint": "fl",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-pr",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'PR'",
+      "timeMs": 30000,
+      "constraint": "pr"
+    },
+    "answerData": {
+      "acceptList": [
+        "practice",
+        "praise",
+        "pray",
+        "prepare",
+        "present",
+        "press",
+        "pretty",
+        "price",
+        "print",
+        "prize",
+        "problem",
+        "promise",
+        "proud"
+      ],
+      "constraint": "pr",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-sm",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'SM'",
+      "timeMs": 30000,
+      "constraint": "sm"
+    },
+    "answerData": {
+      "acceptList": [
+        "small",
+        "smell",
+        "smile",
+        "smoke"
+      ],
+      "constraint": "sm",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ba",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'BA'",
+      "timeMs": 30000,
+      "constraint": "ba"
+    },
+    "answerData": {
+      "acceptList": [
+        "baby",
+        "back",
+        "bad",
+        "bag",
+        "ball",
+        "band",
+        "bank",
+        "bar",
+        "base",
+        "basket",
+        "bath"
+      ],
+      "constraint": "ba",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-be",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'BE'",
+      "timeMs": 30000,
+      "constraint": "be"
+    },
+    "answerData": {
+      "acceptList": [
+        "be",
+        "beach",
+        "bean",
+        "bear",
+        "beat",
+        "beautiful",
+        "because",
+        "become",
+        "bed",
+        "bee",
+        "before",
+        "begin",
+        "behind",
+        "believe",
+        "bell",
+        "belong",
+        "below",
+        "belt",
+        "bend",
+        "best",
+        "better",
+        "between"
+      ],
+      "constraint": "be",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-bo",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'BO'",
+      "timeMs": 30000,
+      "constraint": "bo"
+    },
+    "answerData": {
+      "acceptList": [
+        "board",
+        "boat",
+        "body",
+        "boil",
+        "bone",
+        "book",
+        "boot",
+        "border",
+        "born",
+        "borrow",
+        "both",
+        "bottle",
+        "bottom",
+        "bowl",
+        "box",
+        "boy"
+      ],
+      "constraint": "bo",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ca",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'CA'",
+      "timeMs": 30000,
+      "constraint": "ca"
+    },
+    "answerData": {
+      "acceptList": [
+        "cake",
+        "call",
+        "calm",
+        "camera",
+        "camp",
+        "can",
+        "candle",
+        "cap",
+        "car",
+        "card",
+        "care",
+        "careful",
+        "carry",
+        "case",
+        "cat",
+        "catch",
+        "cause"
+      ],
+      "constraint": "ca",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-co",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'CO'",
+      "timeMs": 30000,
+      "constraint": "co"
+    },
+    "answerData": {
+      "acceptList": [
+        "coast",
+        "coat",
+        "coffee",
+        "coin",
+        "cold",
+        "collect",
+        "college",
+        "color",
+        "come",
+        "comfort",
+        "common",
+        "company",
+        "compare",
+        "complete",
+        "computer",
+        "condition",
+        "control",
+        "cook",
+        "cool",
+        "copy",
+        "corn",
+        "corner",
+        "correct",
+        "cost",
+        "cotton",
+        "cough",
+        "count",
+        "country",
+        "course",
+        "court",
+        "cover",
+        "cow"
+      ],
+      "constraint": "co",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-de",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'DE'",
+      "timeMs": 30000,
+      "constraint": "de"
+    },
+    "answerData": {
+      "acceptList": [
+        "dead",
+        "deal",
+        "dear",
+        "death",
+        "decide",
+        "deep",
+        "deer",
+        "degree",
+        "delay",
+        "deliver",
+        "depend",
+        "desk",
+        "desert",
+        "design",
+        "detail",
+        "develop"
+      ],
+      "constraint": "de",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-di",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'DI'",
+      "timeMs": 30000,
+      "constraint": "di"
+    },
+    "answerData": {
+      "acceptList": [
+        "die",
+        "diet",
+        "differ",
+        "difficult",
+        "dig",
+        "dinner",
+        "direct",
+        "dirt",
+        "dirty",
+        "distance",
+        "divide"
+      ],
+      "constraint": "di",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-fa",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 2,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'FA'",
+      "timeMs": 30000,
+      "constraint": "fa"
+    },
+    "answerData": {
+      "acceptList": [
+        "face",
+        "fact",
+        "fail",
+        "fair",
+        "fall",
+        "false",
+        "family",
+        "famous",
+        "fan",
+        "far",
+        "farm",
+        "fast",
+        "fat",
+        "father",
+        "fault",
+        "favor"
+      ],
+      "constraint": "fa",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-str",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'STR'",
+      "timeMs": 30000,
+      "constraint": "str"
+    },
+    "answerData": {
+      "acceptList": [
+        "straight",
+        "strange",
+        "street",
+        "strong"
+      ],
+      "constraint": "str",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-thr",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'THR'",
+      "timeMs": 30000,
+      "constraint": "thr"
+    },
+    "answerData": {
+      "acceptList": [
+        "thread",
+        "throat",
+        "through",
+        "throw"
+      ],
+      "constraint": "thr",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ma",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'MA'",
+      "timeMs": 30000,
+      "constraint": "ma"
+    },
+    "answerData": {
+      "acceptList": [
+        "machine",
+        "mad",
+        "mail",
+        "main",
+        "make",
+        "male",
+        "man",
+        "many",
+        "map",
+        "mark",
+        "market",
+        "marry",
+        "master",
+        "match",
+        "matter",
+        "may"
+      ],
+      "constraint": "ma",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-pa",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'PA'",
+      "timeMs": 30000,
+      "constraint": "pa"
+    },
+    "answerData": {
+      "acceptList": [
+        "page",
+        "pain",
+        "paint",
+        "pair",
+        "paper",
+        "park",
+        "part",
+        "party",
+        "pass",
+        "past",
+        "path",
+        "pay"
+      ],
+      "constraint": "pa",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-re",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'RE'",
+      "timeMs": 30000,
+      "constraint": "re"
+    },
+    "answerData": {
+      "acceptList": [
+        "reach",
+        "read",
+        "ready",
+        "real",
+        "reason",
+        "receive",
+        "record",
+        "red",
+        "remember",
+        "repeat",
+        "reply",
+        "report",
+        "rest",
+        "return"
+      ],
+      "constraint": "re",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-sa",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'SA'",
+      "timeMs": 30000,
+      "constraint": "sa"
+    },
+    "answerData": {
+      "acceptList": [
+        "sad",
+        "safe",
+        "sail",
+        "salt",
+        "same",
+        "sand",
+        "save",
+        "say"
+      ],
+      "constraint": "sa",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-se",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'SE'",
+      "timeMs": 30000,
+      "constraint": "se"
+    },
+    "answerData": {
+      "acceptList": [
+        "sea",
+        "seat",
+        "second",
+        "secret",
+        "see",
+        "seed",
+        "seem",
+        "sell",
+        "send",
+        "sense",
+        "separate",
+        "serve",
+        "set",
+        "seven",
+        "several",
+        "sex"
+      ],
+      "constraint": "se",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-sta",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'STA'",
+      "timeMs": 30000,
+      "constraint": "sta"
+    },
+    "answerData": {
+      "acceptList": [
+        "stamp",
+        "stand",
+        "star",
+        "start",
+        "station",
+        "stay"
+      ],
+      "constraint": "sta",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-sto",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'STO'",
+      "timeMs": 30000,
+      "constraint": "sto"
+    },
+    "answerData": {
+      "acceptList": [
+        "stomach",
+        "stone",
+        "stop",
+        "store",
+        "storm",
+        "story"
+      ],
+      "constraint": "sto",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-tea",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'TEA'",
+      "timeMs": 30000,
+      "constraint": "tea"
+    },
+    "answerData": {
+      "acceptList": [
+        "tea",
+        "teach",
+        "team",
+        "tear"
+      ],
+      "constraint": "tea",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-cha",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'CHA'",
+      "timeMs": 30000,
+      "constraint": "cha"
+    },
+    "answerData": {
+      "acceptList": [
+        "chain",
+        "chair",
+        "chance",
+        "change",
+        "chapter",
+        "charge"
+      ],
+      "constraint": "cha",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-che",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'CHE'",
+      "timeMs": 30000,
+      "constraint": "che"
+    },
+    "answerData": {
+      "acceptList": [
+        "cheap",
+        "check",
+        "cheese",
+        "chest"
+      ],
+      "constraint": "che",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-pla",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'PLA'",
+      "timeMs": 30000,
+      "constraint": "pla"
+    },
+    "answerData": {
+      "acceptList": [
+        "place",
+        "plan",
+        "plant",
+        "plate",
+        "play"
+      ],
+      "constraint": "pla",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-pre",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'PRE'",
+      "timeMs": 30000,
+      "constraint": "pre"
+    },
+    "answerData": {
+      "acceptList": [
+        "prepare",
+        "present",
+        "press",
+        "pretty"
+      ],
+      "constraint": "pre",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-sha",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'SHA'",
+      "timeMs": 30000,
+      "constraint": "sha"
+    },
+    "answerData": {
+      "acceptList": [
+        "shake",
+        "shape",
+        "share",
+        "sharp"
+      ],
+      "constraint": "sha",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-sho",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'SHO'",
+      "timeMs": 30000,
+      "constraint": "sho"
+    },
+    "answerData": {
+      "acceptList": [
+        "shoe",
+        "shoot",
+        "shop",
+        "short",
+        "should",
+        "shoulder",
+        "shout",
+        "show"
+      ],
+      "constraint": "sho",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-spe",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 3,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'SPE'",
+      "timeMs": 30000,
+      "constraint": "spe"
+    },
+    "answerData": {
+      "acceptList": [
+        "speak",
+        "special",
+        "speed",
+        "spell",
+        "spend"
+      ],
+      "constraint": "spe",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ed",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ED'",
+      "timeMs": 30000,
+      "constraint": "ed"
+    },
+    "answerData": {
+      "acceptList": [
+        "bed",
+        "feed",
+        "hundred",
+        "indeed",
+        "need",
+        "red",
+        "seed",
+        "speed",
+        "tired"
+      ],
+      "constraint": "ed",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-er",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ER'",
+      "timeMs": 30000,
+      "constraint": "er"
+    },
+    "answerData": {
+      "acceptList": [
+        "after",
+        "answer",
+        "better",
+        "border",
+        "brother",
+        "butter",
+        "center",
+        "chapter",
+        "clever",
+        "computer",
+        "corner",
+        "cover",
+        "danger",
+        "deer",
+        "deliver",
+        "differ",
+        "dinner",
+        "either",
+        "enter",
+        "ever",
+        "father",
+        "finger",
+        "flower",
+        "gather",
+        "leather",
+        "letter",
+        "master",
+        "matter",
+        "member",
+        "mother",
+        "never",
+        "number",
+        "offer",
+        "order",
+        "other",
+        "over",
+        "paper",
+        "pepper",
+        "power",
+        "remember",
+        "river",
+        "shoulder",
+        "silver",
+        "sister",
+        "soldier",
+        "spider",
+        "summer",
+        "thunder",
+        "tiger",
+        "together",
+        "tower",
+        "under",
+        "water",
+        "weather",
+        "winter",
+        "wonder"
+      ],
+      "constraint": "er",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-en",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'EN'",
+      "timeMs": 30000,
+      "constraint": "en"
+    },
+    "answerData": {
+      "acceptList": [
+        "between",
+        "broken",
+        "chicken",
+        "even",
+        "garden",
+        "green",
+        "happen",
+        "kitchen",
+        "listen",
+        "often",
+        "open",
+        "pen",
+        "queen",
+        "seven",
+        "ten",
+        "then",
+        "when"
+      ],
+      "constraint": "en",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-le",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'LE'",
+      "timeMs": 30000,
+      "constraint": "le"
+    },
+    "answerData": {
+      "acceptList": [
+        "able",
+        "apple",
+        "bottle",
+        "candle",
+        "circle",
+        "double",
+        "example",
+        "female",
+        "gentle",
+        "hole",
+        "little",
+        "male",
+        "middle",
+        "mile",
+        "needle",
+        "people",
+        "purple",
+        "rule",
+        "simple",
+        "single",
+        "smile",
+        "table",
+        "title",
+        "trouble",
+        "uncle",
+        "vegetable",
+        "while",
+        "whole"
+      ],
+      "constraint": "le",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ow",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'OW'",
+      "timeMs": 30000,
+      "constraint": "ow"
+    },
+    "answerData": {
+      "acceptList": [
+        "allow",
+        "below",
+        "blow",
+        "borrow",
+        "cow",
+        "elbow",
+        "fellow",
+        "flow",
+        "follow",
+        "grow",
+        "how",
+        "know",
+        "low",
+        "narrow",
+        "now",
+        "row",
+        "show",
+        "slow",
+        "snow",
+        "throw",
+        "tomorrow",
+        "window",
+        "yellow"
+      ],
+      "constraint": "ow",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ar",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'AR'",
+      "timeMs": 30000,
+      "constraint": "ar"
+    },
+    "answerData": {
+      "acceptList": [
+        "bar",
+        "bear",
+        "car",
+        "clear",
+        "dear",
+        "dollar",
+        "ear",
+        "far",
+        "fear",
+        "hear",
+        "near",
+        "star",
+        "sugar",
+        "tear",
+        "war",
+        "wear",
+        "year"
+      ],
+      "constraint": "ar",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-or",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'OR'",
+      "timeMs": 30000,
+      "constraint": "or"
+    },
+    "answerData": {
+      "acceptList": [
+        "color",
+        "doctor",
+        "door",
+        "favor",
+        "floor",
+        "for",
+        "mirror",
+        "neighbor",
+        "poor"
+      ],
+      "constraint": "or",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-an",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'AN'",
+      "timeMs": 30000,
+      "constraint": "an"
+    },
+    "answerData": {
+      "acceptList": [
+        "bean",
+        "can",
+        "clean",
+        "fan",
+        "human",
+        "man",
+        "mean",
+        "ocean",
+        "plan",
+        "than",
+        "woman"
+      ],
+      "constraint": "an",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-at",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'AT'",
+      "timeMs": 30000,
+      "constraint": "at"
+    },
+    "answerData": {
+      "acceptList": [
+        "beat",
+        "boat",
+        "cat",
+        "coat",
+        "eat",
+        "fat",
+        "flat",
+        "float",
+        "goat",
+        "great",
+        "hat",
+        "heat",
+        "meat",
+        "repeat",
+        "seat",
+        "that",
+        "throat",
+        "what"
+      ],
+      "constraint": "at",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-et",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ET'",
+      "timeMs": 30000,
+      "constraint": "et"
+    },
+    "answerData": {
+      "acceptList": [
+        "basket",
+        "blanket",
+        "diet",
+        "forget",
+        "get",
+        "let",
+        "market",
+        "meet",
+        "net",
+        "pocket",
+        "quiet",
+        "secret",
+        "set",
+        "street",
+        "sweet",
+        "ticket",
+        "wet",
+        "yet"
+      ],
+      "constraint": "et",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-it",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'IT'",
+      "timeMs": 30000,
+      "constraint": "it"
+    },
+    "answerData": {
+      "acceptList": [
+        "bit",
+        "fit",
+        "fruit",
+        "hit",
+        "sit",
+        "suit",
+        "visit",
+        "wait"
+      ],
+      "constraint": "it",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ot",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'OT'",
+      "timeMs": 30000,
+      "constraint": "ot"
+    },
+    "answerData": {
+      "acceptList": [
+        "boot",
+        "foot",
+        "hot",
+        "lot",
+        "not",
+        "root",
+        "shoot"
+      ],
+      "constraint": "ot",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ay",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'AY'",
+      "timeMs": 30000,
+      "constraint": "ay"
+    },
+    "answerData": {
+      "acceptList": [
+        "day",
+        "delay",
+        "gray",
+        "holiday",
+        "lay",
+        "may",
+        "pay",
+        "play",
+        "pray",
+        "say",
+        "stay",
+        "today",
+        "way",
+        "yesterday"
+      ],
+      "constraint": "ay",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-on",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ON'",
+      "timeMs": 30000,
+      "constraint": "on"
+    },
+    "answerData": {
+      "acceptList": [
+        "button",
+        "common",
+        "condition",
+        "cotton",
+        "iron",
+        "lemon",
+        "lion",
+        "melon",
+        "mention",
+        "moon",
+        "nation",
+        "noon",
+        "onion",
+        "person",
+        "poison",
+        "question",
+        "reason",
+        "son",
+        "soon",
+        "spoon",
+        "station",
+        "upon"
+      ],
+      "constraint": "on",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-un",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'UN'",
+      "timeMs": 30000,
+      "constraint": "un"
+    },
+    "answerData": {
+      "acceptList": [
+        "fun",
+        "gun",
+        "run",
+        "sun"
+      ],
+      "constraint": "un",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ce",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'CE'",
+      "timeMs": 30000,
+      "constraint": "ce"
+    },
+    "answerData": {
+      "acceptList": [
+        "chance",
+        "choice",
+        "dance",
+        "distance",
+        "face",
+        "fence",
+        "force",
+        "ice",
+        "juice",
+        "nice",
+        "notice",
+        "office",
+        "once",
+        "peace",
+        "piece",
+        "place",
+        "police",
+        "practice",
+        "price",
+        "race",
+        "rice",
+        "science",
+        "space",
+        "twice",
+        "voice"
+      ],
+      "constraint": "ce",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ng",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'NG'",
+      "timeMs": 30000,
+      "constraint": "ng"
+    },
+    "answerData": {
+      "acceptList": [
+        "along",
+        "among",
+        "belong",
+        "bring",
+        "during",
+        "evening",
+        "hang",
+        "king",
+        "long",
+        "morning",
+        "nothing",
+        "ring",
+        "sing",
+        "song",
+        "spring",
+        "strong",
+        "thing",
+        "wing",
+        "wrong",
+        "young"
+      ],
+      "constraint": "ng",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-nt",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'NT'",
+      "timeMs": 30000,
+      "constraint": "nt"
+    },
+    "answerData": {
+      "acceptList": [
+        "count",
+        "event",
+        "front",
+        "hunt",
+        "important",
+        "moment",
+        "paint",
+        "plant",
+        "pleasant",
+        "point",
+        "present",
+        "print",
+        "silent",
+        "want"
+      ],
+      "constraint": "nt",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-st",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ST'",
+      "timeMs": 30000,
+      "constraint": "st"
+    },
+    "answerData": {
+      "acceptList": [
+        "almost",
+        "best",
+        "breakfast",
+        "chest",
+        "coast",
+        "cost",
+        "dust",
+        "east",
+        "fast",
+        "first",
+        "forest",
+        "guest",
+        "honest",
+        "just",
+        "last",
+        "least",
+        "list",
+        "most",
+        "must",
+        "past",
+        "rest",
+        "test",
+        "trust",
+        "west"
+      ],
+      "constraint": "st",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ess",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ESS'",
+      "timeMs": 30000,
+      "constraint": "ess"
+    },
+    "answerData": {
+      "acceptList": [
+        "business",
+        "dress",
+        "guess",
+        "less",
+        "press"
+      ],
+      "constraint": "ess",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ear",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'EAR'",
+      "timeMs": 30000,
+      "constraint": "ear"
+    },
+    "answerData": {
+      "acceptList": [
+        "bear",
+        "clear",
+        "dear",
+        "fear",
+        "hear",
+        "near",
+        "tear",
+        "wear",
+        "year"
+      ],
+      "constraint": "ear",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ide",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'IDE'",
+      "timeMs": 30000,
+      "constraint": "ide"
+    },
+    "answerData": {
+      "acceptList": [
+        "decide",
+        "divide",
+        "guide",
+        "hide",
+        "inside",
+        "ride",
+        "side",
+        "wide"
+      ],
+      "constraint": "ide",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ake",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 4,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'AKE'",
+      "timeMs": 30000,
+      "constraint": "ake"
+    },
+    "answerData": {
+      "acceptList": [
+        "cake",
+        "lake",
+        "make",
+        "mistake",
+        "shake",
+        "snake",
+        "take",
+        "wake"
+      ],
+      "constraint": "ake",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ag",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'AG'",
+      "timeMs": 30000,
+      "constraint": "ag"
+    },
+    "answerData": {
+      "acceptList": [
+        "again",
+        "age",
+        "ago",
+        "agree"
+      ],
+      "constraint": "ag",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-al",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'AL'",
+      "timeMs": 30000,
+      "constraint": "al"
+    },
+    "answerData": {
+      "acceptList": [
+        "all",
+        "allow",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "always"
+      ],
+      "constraint": "al",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-an",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'AN'",
+      "timeMs": 30000,
+      "constraint": "an"
+    },
+    "answerData": {
+      "acceptList": [
+        "angry",
+        "animal",
+        "answer",
+        "any"
+      ],
+      "constraint": "an",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ar",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'AR'",
+      "timeMs": 30000,
+      "constraint": "ar"
+    },
+    "answerData": {
+      "acceptList": [
+        "area",
+        "arm",
+        "army",
+        "around",
+        "arrive",
+        "art"
+      ],
+      "constraint": "ar",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ea",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'EA'",
+      "timeMs": 30000,
+      "constraint": "ea"
+    },
+    "answerData": {
+      "acceptList": [
+        "each",
+        "ear",
+        "early",
+        "earn",
+        "earth",
+        "east",
+        "easy",
+        "eat"
+      ],
+      "constraint": "ea",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-en",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'EN'",
+      "timeMs": 30000,
+      "constraint": "en"
+    },
+    "answerData": {
+      "acceptList": [
+        "end",
+        "enemy",
+        "energy",
+        "engine",
+        "enjoy",
+        "enough",
+        "enter"
+      ],
+      "constraint": "en",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ev",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'EV'",
+      "timeMs": 30000,
+      "constraint": "ev"
+    },
+    "answerData": {
+      "acceptList": [
+        "even",
+        "evening",
+        "event",
+        "ever",
+        "every"
+      ],
+      "constraint": "ev",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ex",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'EX'",
+      "timeMs": 30000,
+      "constraint": "ex"
+    },
+    "answerData": {
+      "acceptList": [
+        "example",
+        "except",
+        "exchange",
+        "excite",
+        "exercise",
+        "expect",
+        "expert",
+        "explain"
+      ],
+      "constraint": "ex",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-of",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'OF'",
+      "timeMs": 30000,
+      "constraint": "of"
+    },
+    "answerData": {
+      "acceptList": [
+        "of",
+        "off",
+        "offer",
+        "office",
+        "often"
+      ],
+      "constraint": "of",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-oo",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'OO'",
+      "timeMs": 30000,
+      "constraint": "oo"
+    },
+    "answerData": {
+      "acceptList": [
+        "blood",
+        "book",
+        "boot",
+        "choose",
+        "cook",
+        "cool",
+        "door",
+        "floor",
+        "food",
+        "fool",
+        "foot",
+        "good",
+        "look",
+        "moon",
+        "noon",
+        "pool",
+        "poor",
+        "roof",
+        "room",
+        "root",
+        "school",
+        "shoot",
+        "soon",
+        "spoon",
+        "too",
+        "tool",
+        "tooth",
+        "wood",
+        "wool"
+      ],
+      "constraint": "oo",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ee",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'EE'",
+      "timeMs": 30000,
+      "constraint": "ee"
+    },
+    "answerData": {
+      "acceptList": [
+        "agree",
+        "asleep",
+        "bee",
+        "between",
+        "cheese",
+        "coffee",
+        "deep",
+        "deer",
+        "degree",
+        "feed",
+        "feel",
+        "free",
+        "green",
+        "indeed",
+        "keep",
+        "knee",
+        "meet",
+        "need",
+        "needle",
+        "queen",
+        "see",
+        "seed",
+        "seem",
+        "sheep",
+        "sleep",
+        "speed",
+        "street",
+        "sweet",
+        "tree",
+        "week",
+        "wheel"
+      ],
+      "constraint": "ee",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ea",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'EA'",
+      "timeMs": 30000,
+      "constraint": "ea"
+    },
+    "answerData": {
+      "acceptList": [
+        "already",
+        "area",
+        "beach",
+        "bean",
+        "bear",
+        "beat",
+        "beautiful",
+        "bread",
+        "break",
+        "breakfast",
+        "breath",
+        "cheap",
+        "clean",
+        "clear",
+        "dead",
+        "deal",
+        "dear",
+        "death",
+        "dream",
+        "each",
+        "ear",
+        "early",
+        "earn",
+        "earth",
+        "east",
+        "easy",
+        "eat",
+        "fear",
+        "great",
+        "head",
+        "health",
+        "hear",
+        "heart",
+        "heat",
+        "heavy",
+        "idea",
+        "increase",
+        "lead",
+        "leaf",
+        "learn",
+        "least",
+        "leather",
+        "leave",
+        "meal",
+        "mean",
+        "meat",
+        "near",
+        "ocean",
+        "peace",
+        "please",
+        "pleasant",
+        "reach",
+        "read",
+        "ready",
+        "real",
+        "reason",
+        "repeat",
+        "sea",
+        "seat",
+        "speak",
+        "spread",
+        "steal",
+        "steam",
+        "tea",
+        "teach",
+        "team",
+        "tear",
+        "thread",
+        "weak",
+        "wear",
+        "weather",
+        "year"
+      ],
+      "constraint": "ea",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ou",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'OU'",
+      "timeMs": 30000,
+      "constraint": "ou"
+    },
+    "answerData": {
+      "acceptList": [
+        "about",
+        "around",
+        "cloud",
+        "cough",
+        "count",
+        "country",
+        "course",
+        "court",
+        "double",
+        "doubt",
+        "enough",
+        "famous",
+        "ground",
+        "group",
+        "hour",
+        "house",
+        "loud",
+        "mountain",
+        "mouse",
+        "mouth",
+        "out",
+        "pour",
+        "proud",
+        "round",
+        "should",
+        "shoulder",
+        "shout",
+        "sound",
+        "soup",
+        "south",
+        "though",
+        "thought",
+        "through",
+        "touch",
+        "trouble",
+        "wound",
+        "you",
+        "young"
+      ],
+      "constraint": "ou",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ai",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'AI'",
+      "timeMs": 30000,
+      "constraint": "ai"
+    },
+    "answerData": {
+      "acceptList": [
+        "afraid",
+        "again",
+        "air",
+        "brain",
+        "certain",
+        "chain",
+        "chair",
+        "detail",
+        "explain",
+        "fail",
+        "fair",
+        "hair",
+        "mail",
+        "main",
+        "mountain",
+        "nail",
+        "pain",
+        "paint",
+        "pair",
+        "praise",
+        "rail",
+        "rain",
+        "raise",
+        "sail",
+        "straight",
+        "tail",
+        "train",
+        "wait"
+      ],
+      "constraint": "ai",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-oa",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'OA'",
+      "timeMs": 30000,
+      "constraint": "oa"
+    },
+    "answerData": {
+      "acceptList": [
+        "board",
+        "boat",
+        "broad",
+        "coast",
+        "coat",
+        "float",
+        "goal",
+        "goat",
+        "load",
+        "road",
+        "soap",
+        "throat"
+      ],
+      "constraint": "oa",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ie",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'IE'",
+      "timeMs": 30000,
+      "constraint": "ie"
+    },
+    "answerData": {
+      "acceptList": [
+        "believe",
+        "chief",
+        "die",
+        "diet",
+        "field",
+        "friend",
+        "lie",
+        "piece",
+        "quiet",
+        "science",
+        "soldier",
+        "tie"
+      ],
+      "constraint": "ie",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ay",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'AY'",
+      "timeMs": 30000,
+      "constraint": "ay"
+    },
+    "answerData": {
+      "acceptList": [
+        "always",
+        "day",
+        "delay",
+        "gray",
+        "holiday",
+        "lay",
+        "may",
+        "pay",
+        "play",
+        "pray",
+        "say",
+        "stay",
+        "today",
+        "way",
+        "yesterday"
+      ],
+      "constraint": "ay",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-oy",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'OY'",
+      "timeMs": 30000,
+      "constraint": "oy"
+    },
+    "answerData": {
+      "acceptList": [
+        "boy",
+        "enjoy",
+        "joy",
+        "toy"
+      ],
+      "constraint": "oy",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-au",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'AU'",
+      "timeMs": 30000,
+      "constraint": "au"
+    },
+    "answerData": {
+      "acceptList": [
+        "beautiful",
+        "because",
+        "cause",
+        "fault",
+        "laugh"
+      ],
+      "constraint": "au",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ar",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'AR'",
+      "timeMs": 30000,
+      "constraint": "ar"
+    },
+    "answerData": {
+      "acceptList": [
+        "area",
+        "arm",
+        "army",
+        "around",
+        "arrive",
+        "art",
+        "bar",
+        "bear",
+        "board",
+        "car",
+        "card",
+        "care",
+        "careful",
+        "carry",
+        "charge",
+        "clear",
+        "compare",
+        "dark",
+        "dear",
+        "dollar",
+        "ear",
+        "early",
+        "earn",
+        "earth",
+        "far",
+        "farm",
+        "fear",
+        "garden",
+        "guard",
+        "hard",
+        "hear",
+        "heart",
+        "large",
+        "learn",
+        "library",
+        "mark",
+        "market",
+        "marry",
+        "narrow",
+        "near",
+        "park",
+        "part",
+        "party",
+        "prepare",
+        "separate",
+        "share",
+        "sharp",
+        "square",
+        "star",
+        "start",
+        "sugar",
+        "tear",
+        "toward",
+        "war",
+        "warm",
+        "wear",
+        "year"
+      ],
+      "constraint": "ar",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-er",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'ER'",
+      "timeMs": 30000,
+      "constraint": "er"
+    },
+    "answerData": {
+      "acceptList": [
+        "after",
+        "answer",
+        "better",
+        "border",
+        "brother",
+        "butter",
+        "camera",
+        "center",
+        "certain",
+        "chapter",
+        "clever",
+        "computer",
+        "corner",
+        "cover",
+        "danger",
+        "deer",
+        "deliver",
+        "desert",
+        "differ",
+        "dinner",
+        "either",
+        "energy",
+        "enter",
+        "ever",
+        "every",
+        "exercise",
+        "expert",
+        "father",
+        "finger",
+        "flower",
+        "gather",
+        "general",
+        "govern",
+        "here",
+        "leather",
+        "letter",
+        "master",
+        "matter",
+        "member",
+        "modern",
+        "mother",
+        "never",
+        "number",
+        "offer",
+        "order",
+        "other",
+        "over",
+        "paper",
+        "pepper",
+        "perfect",
+        "perhaps",
+        "person",
+        "power",
+        "remember",
+        "river",
+        "serve",
+        "several",
+        "shoulder",
+        "silver",
+        "sister",
+        "soldier",
+        "spider",
+        "summer",
+        "there",
+        "thunder",
+        "tiger",
+        "together",
+        "tower",
+        "under",
+        "understand",
+        "very",
+        "water",
+        "weather",
+        "where",
+        "winter",
+        "wonder",
+        "yesterday"
+      ],
+      "constraint": "er",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ir",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'IR'",
+      "timeMs": 30000,
+      "constraint": "ir"
+    },
+    "answerData": {
+      "acceptList": [
+        "air",
+        "bird",
+        "birth",
+        "chair",
+        "circle",
+        "direct",
+        "dirt",
+        "dirty",
+        "fair",
+        "fire",
+        "first",
+        "girl",
+        "hair",
+        "iron",
+        "mirror",
+        "pair",
+        "shirt",
+        "third",
+        "thirsty",
+        "tired",
+        "wire"
+      ],
+      "constraint": "ir",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-or",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'OR'",
+      "timeMs": 30000,
+      "constraint": "or"
+    },
+    "answerData": {
+      "acceptList": [
+        "before",
+        "border",
+        "born",
+        "borrow",
+        "color",
+        "comfort",
+        "corn",
+        "corner",
+        "correct",
+        "doctor",
+        "door",
+        "favor",
+        "floor",
+        "for",
+        "force",
+        "forest",
+        "forget",
+        "fork",
+        "form",
+        "horse",
+        "important",
+        "memory",
+        "mirror",
+        "more",
+        "morning",
+        "neighbor",
+        "north",
+        "orange",
+        "order",
+        "poor",
+        "record",
+        "report",
+        "short",
+        "sorry",
+        "store",
+        "storm",
+        "story",
+        "tomorrow",
+        "word",
+        "work",
+        "world",
+        "worry",
+        "worth"
+      ],
+      "constraint": "or",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ur",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'UR'",
+      "timeMs": 30000,
+      "constraint": "ur"
+    },
+    "answerData": {
+      "acceptList": [
+        "burn",
+        "century",
+        "church",
+        "course",
+        "court",
+        "during",
+        "fur",
+        "hour",
+        "hurry",
+        "hurt",
+        "nature",
+        "nurse",
+        "picture",
+        "pour",
+        "pure",
+        "purple",
+        "return",
+        "turn"
+      ],
+      "constraint": "ur",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-al",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 5,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'AL'",
+      "timeMs": 30000,
+      "constraint": "al"
+    },
+    "answerData": {
+      "acceptList": [
+        "all",
+        "allow",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "always",
+        "animal",
+        "ball",
+        "call",
+        "calm",
+        "deal",
+        "equal",
+        "fall",
+        "false",
+        "female",
+        "final",
+        "general",
+        "goal",
+        "half",
+        "hall",
+        "health",
+        "hospital",
+        "local",
+        "male",
+        "meal",
+        "metal",
+        "real",
+        "salt",
+        "several",
+        "small",
+        "social",
+        "special",
+        "steal",
+        "talk",
+        "tall",
+        "usual",
+        "valley",
+        "value",
+        "walk",
+        "wall"
+      ],
+      "constraint": "al",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-un",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'UN'",
+      "timeMs": 30000,
+      "constraint": "un"
+    },
+    "answerData": {
+      "acceptList": [
+        "uncle",
+        "under",
+        "understand",
+        "until"
+      ],
+      "constraint": "un",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-in",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'IN'",
+      "timeMs": 30000,
+      "constraint": "in"
+    },
+    "answerData": {
+      "acceptList": [
+        "in",
+        "inch",
+        "include",
+        "increase",
+        "indeed",
+        "inside",
+        "into"
+      ],
+      "constraint": "in",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-com",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'COM'",
+      "timeMs": 30000,
+      "constraint": "com"
+    },
+    "answerData": {
+      "acceptList": [
+        "come",
+        "comfort",
+        "common",
+        "company",
+        "compare",
+        "complete",
+        "computer"
+      ],
+      "constraint": "com",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-for",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'FOR'",
+      "timeMs": 30000,
+      "constraint": "for"
+    },
+    "answerData": {
+      "acceptList": [
+        "for",
+        "force",
+        "forest",
+        "forget",
+        "fork",
+        "form"
+      ],
+      "constraint": "for",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-th",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'TH'",
+      "timeMs": 30000,
+      "constraint": "th"
+    },
+    "answerData": {
+      "acceptList": [
+        "bath",
+        "birth",
+        "both",
+        "breath",
+        "brother",
+        "cloth",
+        "death",
+        "earth",
+        "either",
+        "father",
+        "gather",
+        "health",
+        "leather",
+        "length",
+        "month",
+        "mother",
+        "mouth",
+        "north",
+        "nothing",
+        "other",
+        "path",
+        "south",
+        "than",
+        "thank",
+        "that",
+        "the",
+        "then",
+        "there",
+        "thick",
+        "thin",
+        "thing",
+        "think",
+        "third",
+        "thirsty",
+        "this",
+        "though",
+        "thought",
+        "thread",
+        "throat",
+        "through",
+        "throw",
+        "thumb",
+        "thunder",
+        "together",
+        "tooth",
+        "weather",
+        "with",
+        "worth"
+      ],
+      "constraint": "th",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-sh",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'SH'",
+      "timeMs": 30000,
+      "constraint": "sh"
+    },
+    "answerData": {
+      "acceptList": [
+        "brush",
+        "bush",
+        "finish",
+        "fish",
+        "fresh",
+        "punish",
+        "push",
+        "shake",
+        "shape",
+        "share",
+        "sharp",
+        "she",
+        "sheep",
+        "shelf",
+        "shine",
+        "ship",
+        "shirt",
+        "shoe",
+        "shoot",
+        "shop",
+        "short",
+        "should",
+        "shoulder",
+        "shout",
+        "show",
+        "shut",
+        "wash",
+        "wish"
+      ],
+      "constraint": "sh",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ck",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'CK'",
+      "timeMs": 30000,
+      "constraint": "ck"
+    },
+    "answerData": {
+      "acceptList": [
+        "back",
+        "black",
+        "block",
+        "check",
+        "chicken",
+        "clock",
+        "duck",
+        "kick",
+        "knock",
+        "lock",
+        "luck",
+        "neck",
+        "pick",
+        "pocket",
+        "quick",
+        "rock",
+        "sick",
+        "stick",
+        "thick",
+        "ticket"
+      ],
+      "constraint": "ck",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ng",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'NG'",
+      "timeMs": 30000,
+      "constraint": "ng"
+    },
+    "answerData": {
+      "acceptList": [
+        "along",
+        "among",
+        "angry",
+        "belong",
+        "bring",
+        "change",
+        "danger",
+        "during",
+        "engine",
+        "evening",
+        "exchange",
+        "finger",
+        "hang",
+        "hungry",
+        "king",
+        "length",
+        "long",
+        "morning",
+        "nothing",
+        "orange",
+        "ring",
+        "sing",
+        "single",
+        "song",
+        "spring",
+        "strange",
+        "strong",
+        "thing",
+        "tongue",
+        "wing",
+        "wrong",
+        "young"
+      ],
+      "constraint": "ng",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-qu",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'QU'",
+      "timeMs": 30000,
+      "constraint": "qu"
+    },
+    "answerData": {
+      "acceptList": [
+        "equal",
+        "queen",
+        "question",
+        "quick",
+        "quiet",
+        "quite",
+        "square"
+      ],
+      "constraint": "qu",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-wh",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'WH'",
+      "timeMs": 30000,
+      "constraint": "wh"
+    },
+    "answerData": {
+      "acceptList": [
+        "what",
+        "wheel",
+        "when",
+        "where",
+        "which",
+        "while",
+        "white",
+        "who",
+        "whole",
+        "why"
+      ],
+      "constraint": "wh",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-mp",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'MP'",
+      "timeMs": 30000,
+      "constraint": "mp"
+    },
+    "answerData": {
+      "acceptList": [
+        "camp",
+        "company",
+        "compare",
+        "complete",
+        "computer",
+        "empty",
+        "example",
+        "important",
+        "jump",
+        "lamp",
+        "simple",
+        "stamp"
+      ],
+      "constraint": "mp",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-nk",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'NK'",
+      "timeMs": 30000,
+      "constraint": "nk"
+    },
+    "answerData": {
+      "acceptList": [
+        "bank",
+        "blank",
+        "blanket",
+        "drink",
+        "monkey",
+        "pink",
+        "thank",
+        "think"
+      ],
+      "constraint": "nk",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-nd",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'ND'",
+      "timeMs": 30000,
+      "constraint": "nd"
+    },
+    "answerData": {
+      "acceptList": [
+        "around",
+        "band",
+        "behind",
+        "bend",
+        "blind",
+        "candle",
+        "condition",
+        "depend",
+        "end",
+        "find",
+        "friend",
+        "ground",
+        "hand",
+        "hundred",
+        "indeed",
+        "island",
+        "kind",
+        "land",
+        "lend",
+        "mind",
+        "round",
+        "sand",
+        "second",
+        "send",
+        "sound",
+        "spend",
+        "stand",
+        "thunder",
+        "under",
+        "understand",
+        "wind",
+        "window",
+        "wonder",
+        "wound"
+      ],
+      "constraint": "nd",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ft",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'FT'",
+      "timeMs": 30000,
+      "constraint": "ft"
+    },
+    "answerData": {
+      "acceptList": [
+        "after",
+        "gift",
+        "left",
+        "lift",
+        "often",
+        "soft"
+      ],
+      "constraint": "ft",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ld",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'LD'",
+      "timeMs": 30000,
+      "constraint": "ld"
+    },
+    "answerData": {
+      "acceptList": [
+        "build",
+        "child",
+        "cold",
+        "field",
+        "fold",
+        "gold",
+        "hold",
+        "old",
+        "should",
+        "shoulder",
+        "soldier",
+        "wild",
+        "world"
+      ],
+      "constraint": "ld",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-lt",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'LT'",
+      "timeMs": 30000,
+      "constraint": "lt"
+    },
+    "answerData": {
+      "acceptList": [
+        "belt",
+        "difficult",
+        "fault",
+        "health",
+        "salt"
+      ],
+      "constraint": "lt",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-rt",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'RT'",
+      "timeMs": 30000,
+      "constraint": "rt"
+    },
+    "answerData": {
+      "acceptList": [
+        "art",
+        "birth",
+        "certain",
+        "comfort",
+        "court",
+        "desert",
+        "dirt",
+        "dirty",
+        "earth",
+        "expert",
+        "heart",
+        "hurt",
+        "important",
+        "north",
+        "part",
+        "party",
+        "report",
+        "shirt",
+        "short",
+        "start",
+        "worth"
+      ],
+      "constraint": "rt",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-rd",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'RD'",
+      "timeMs": 30000,
+      "constraint": "rd"
+    },
+    "answerData": {
+      "acceptList": [
+        "bird",
+        "board",
+        "border",
+        "card",
+        "garden",
+        "guard",
+        "hard",
+        "order",
+        "record",
+        "third",
+        "toward",
+        "word",
+        "yesterday"
+      ],
+      "constraint": "rd",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ss",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'SS'",
+      "timeMs": 30000,
+      "constraint": "ss"
+    },
+    "answerData": {
+      "acceptList": [
+        "across",
+        "business",
+        "class",
+        "dress",
+        "glass",
+        "grass",
+        "guess",
+        "kiss",
+        "less",
+        "loss",
+        "miss",
+        "pass",
+        "press"
+      ],
+      "constraint": "ss",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ll",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'LL'",
+      "timeMs": 30000,
+      "constraint": "ll"
+    },
+    "answerData": {
+      "acceptList": [
+        "all",
+        "allow",
+        "ball",
+        "bell",
+        "call",
+        "cell",
+        "collect",
+        "college",
+        "dollar",
+        "fall",
+        "fellow",
+        "fill",
+        "follow",
+        "full",
+        "hall",
+        "hill",
+        "ill",
+        "kill",
+        "pull",
+        "sell",
+        "small",
+        "smell",
+        "spell",
+        "still",
+        "tall",
+        "tell",
+        "umbrella",
+        "valley",
+        "village",
+        "wall",
+        "well",
+        "yellow"
+      ],
+      "constraint": "ll",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-tt",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'TT'",
+      "timeMs": 30000,
+      "constraint": "tt"
+    },
+    "answerData": {
+      "acceptList": [
+        "better",
+        "bottle",
+        "bottom",
+        "butter",
+        "button",
+        "cotton",
+        "letter",
+        "little",
+        "matter",
+        "pretty"
+      ],
+      "constraint": "tt",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-pp",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'PP'",
+      "timeMs": 30000,
+      "constraint": "pp"
+    },
+    "answerData": {
+      "acceptList": [
+        "apple",
+        "happen",
+        "happy",
+        "pepper"
+      ],
+      "constraint": "pp",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-rr",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'RR'",
+      "timeMs": 30000,
+      "constraint": "rr"
+    },
+    "answerData": {
+      "acceptList": [
+        "arrive",
+        "borrow",
+        "carry",
+        "correct",
+        "hurry",
+        "marry",
+        "mirror",
+        "narrow",
+        "sorry",
+        "tomorrow",
+        "worry"
+      ],
+      "constraint": "rr",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ct",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 6,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'CT'",
+      "timeMs": 30000,
+      "constraint": "ct"
+    },
+    "answerData": {
+      "acceptList": [
+        "act",
+        "collect",
+        "correct",
+        "direct",
+        "doctor",
+        "effect",
+        "expect",
+        "fact",
+        "perfect",
+        "picture",
+        "practice"
+      ],
+      "constraint": "ct",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ive",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'IVE'",
+      "timeMs": 30000,
+      "constraint": "ive"
+    },
+    "answerData": {
+      "acceptList": [
+        "arrive",
+        "drive",
+        "give",
+        "live",
+        "receive"
+      ],
+      "constraint": "ive",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ant",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ANT'",
+      "timeMs": 30000,
+      "constraint": "ant"
+    },
+    "answerData": {
+      "acceptList": [
+        "important",
+        "plant",
+        "pleasant",
+        "want"
+      ],
+      "constraint": "ant",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ent",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ENT'",
+      "timeMs": 30000,
+      "constraint": "ent"
+    },
+    "answerData": {
+      "acceptList": [
+        "event",
+        "moment",
+        "present",
+        "silent"
+      ],
+      "constraint": "ent",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-al",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'AL'",
+      "timeMs": 30000,
+      "constraint": "al"
+    },
+    "answerData": {
+      "acceptList": [
+        "animal",
+        "deal",
+        "equal",
+        "final",
+        "general",
+        "goal",
+        "hospital",
+        "local",
+        "meal",
+        "metal",
+        "real",
+        "several",
+        "social",
+        "special",
+        "steal",
+        "usual"
+      ],
+      "constraint": "al",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-y",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'Y'",
+      "timeMs": 30000,
+      "constraint": "y"
+    },
+    "answerData": {
+      "acceptList": [
+        "already",
+        "angry",
+        "any",
+        "army",
+        "baby",
+        "body",
+        "boy",
+        "busy",
+        "buy",
+        "carry",
+        "century",
+        "city",
+        "company",
+        "copy",
+        "country",
+        "cry",
+        "day",
+        "delay",
+        "dirty",
+        "dry",
+        "duty",
+        "early",
+        "easy",
+        "empty",
+        "enemy",
+        "energy",
+        "enjoy",
+        "every",
+        "family",
+        "fly",
+        "funny",
+        "gray",
+        "happy",
+        "heavy",
+        "holiday",
+        "hungry",
+        "hurry",
+        "joy",
+        "key",
+        "lady",
+        "lay",
+        "lazy",
+        "library",
+        "lonely",
+        "many",
+        "marry",
+        "may",
+        "memory",
+        "money",
+        "monkey",
+        "only",
+        "party",
+        "pay",
+        "play",
+        "pray",
+        "pretty",
+        "ready",
+        "reply",
+        "say",
+        "sky",
+        "sorry",
+        "stay",
+        "story",
+        "study",
+        "thirsty",
+        "tiny",
+        "today",
+        "toy",
+        "try",
+        "twenty",
+        "ugly",
+        "valley",
+        "very",
+        "way",
+        "why",
+        "worry",
+        "yesterday"
+      ],
+      "constraint": "y",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-e",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'E'",
+      "timeMs": 30000,
+      "constraint": "e"
+    },
+    "answerData": {
+      "acceptList": [
+        "able",
+        "above",
+        "age",
+        "agree",
+        "alone",
+        "apple",
+        "arrive",
+        "base",
+        "be",
+        "because",
+        "become",
+        "bee",
+        "before",
+        "believe",
+        "bite",
+        "blame",
+        "blue",
+        "bone",
+        "bottle",
+        "brave",
+        "bridge",
+        "cake",
+        "candle",
+        "care",
+        "case",
+        "cause",
+        "chance",
+        "change",
+        "charge",
+        "cheese",
+        "choice",
+        "choose",
+        "circle",
+        "close",
+        "coffee",
+        "college",
+        "come",
+        "compare",
+        "complete",
+        "course",
+        "dance",
+        "date",
+        "decide",
+        "degree",
+        "die",
+        "distance",
+        "divide",
+        "double",
+        "drive",
+        "edge",
+        "else",
+        "engine",
+        "escape",
+        "example",
+        "exchange",
+        "excite",
+        "exercise",
+        "eye",
+        "face",
+        "false",
+        "female",
+        "fence",
+        "fine",
+        "fire",
+        "force",
+        "free",
+        "game",
+        "gate",
+        "gentle",
+        "give",
+        "guide",
+        "hate",
+        "have",
+        "here",
+        "hide",
+        "hole",
+        "home",
+        "hope",
+        "horse",
+        "house",
+        "huge",
+        "ice",
+        "include",
+        "increase",
+        "inside",
+        "joke",
+        "judge",
+        "juice",
+        "knee",
+        "knife",
+        "lake",
+        "large",
+        "late",
+        "leave",
+        "lie",
+        "life",
+        "like",
+        "line",
+        "little",
+        "live",
+        "lose",
+        "love",
+        "machine",
+        "make",
+        "male",
+        "middle",
+        "mile",
+        "mine",
+        "minute",
+        "mistake",
+        "more",
+        "mouse",
+        "move",
+        "name",
+        "nature",
+        "needle",
+        "nice",
+        "nine",
+        "noise",
+        "none",
+        "nose",
+        "note",
+        "notice",
+        "nurse",
+        "office",
+        "once",
+        "one",
+        "orange",
+        "page",
+        "peace",
+        "people",
+        "phone",
+        "picture",
+        "piece",
+        "pipe",
+        "place",
+        "plate",
+        "please",
+        "police",
+        "polite",
+        "practice",
+        "praise",
+        "prepare",
+        "price",
+        "prize",
+        "promise",
+        "pure",
+        "purple",
+        "quite",
+        "race",
+        "raise",
+        "receive",
+        "rice",
+        "ride",
+        "rise",
+        "rope",
+        "rose",
+        "rule",
+        "safe",
+        "same",
+        "save",
+        "science",
+        "see",
+        "sense",
+        "separate",
+        "serve",
+        "shake",
+        "shape",
+        "share",
+        "she",
+        "shine",
+        "shoe",
+        "side",
+        "simple",
+        "single",
+        "size",
+        "smile",
+        "smoke",
+        "snake",
+        "some",
+        "space",
+        "square",
+        "stone",
+        "store",
+        "strange",
+        "table",
+        "take",
+        "taste",
+        "the",
+        "there",
+        "tie",
+        "time",
+        "title",
+        "toe",
+        "tongue",
+        "trade",
+        "tree",
+        "trouble",
+        "true",
+        "tube",
+        "twelve",
+        "twice",
+        "type",
+        "uncle",
+        "use",
+        "value",
+        "vegetable",
+        "village",
+        "voice",
+        "wake",
+        "waste",
+        "wave",
+        "welcome",
+        "where",
+        "while",
+        "white",
+        "whole",
+        "wide",
+        "wife",
+        "wine",
+        "wire",
+        "wise",
+        "write"
+      ],
+      "constraint": "e",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-t",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'T'",
+      "timeMs": 30000,
+      "constraint": "t"
+    },
+    "answerData": {
+      "acceptList": [
+        "about",
+        "act",
+        "almost",
+        "art",
+        "basket",
+        "beat",
+        "belt",
+        "best",
+        "bit",
+        "blanket",
+        "boat",
+        "boot",
+        "breakfast",
+        "bright",
+        "but",
+        "cat",
+        "chest",
+        "coast",
+        "coat",
+        "collect",
+        "comfort",
+        "correct",
+        "cost",
+        "count",
+        "court",
+        "cut",
+        "desert",
+        "diet",
+        "difficult",
+        "direct",
+        "dirt",
+        "doubt",
+        "dust",
+        "east",
+        "eat",
+        "effect",
+        "eight",
+        "event",
+        "except",
+        "expect",
+        "expert",
+        "fact",
+        "fast",
+        "fat",
+        "fault",
+        "fight",
+        "first",
+        "fit",
+        "flat",
+        "float",
+        "foot",
+        "forest",
+        "forget",
+        "front",
+        "fruit",
+        "get",
+        "gift",
+        "goat",
+        "great",
+        "guest",
+        "hat",
+        "heart",
+        "heat",
+        "hit",
+        "honest",
+        "hot",
+        "hunt",
+        "hurt",
+        "important",
+        "just",
+        "last",
+        "least",
+        "left",
+        "let",
+        "lift",
+        "light",
+        "list",
+        "lot",
+        "market",
+        "meat",
+        "meet",
+        "might",
+        "moment",
+        "most",
+        "must",
+        "net",
+        "next",
+        "night",
+        "not",
+        "nut",
+        "out",
+        "paint",
+        "part",
+        "past",
+        "perfect",
+        "plant",
+        "pleasant",
+        "pocket",
+        "point",
+        "present",
+        "print",
+        "put",
+        "quiet",
+        "repeat",
+        "report",
+        "rest",
+        "right",
+        "root",
+        "salt",
+        "seat",
+        "secret",
+        "set",
+        "shirt",
+        "shoot",
+        "short",
+        "shout",
+        "shut",
+        "silent",
+        "sit",
+        "soft",
+        "start",
+        "straight",
+        "street",
+        "suit",
+        "sweet",
+        "test",
+        "that",
+        "thought",
+        "throat",
+        "ticket",
+        "tonight",
+        "trust",
+        "visit",
+        "wait",
+        "want",
+        "weight",
+        "west",
+        "wet",
+        "what",
+        "yet"
+      ],
+      "constraint": "t",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-d",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'D'",
+      "timeMs": 30000,
+      "constraint": "d"
+    },
+    "answerData": {
+      "acceptList": [
+        "add",
+        "afraid",
+        "around",
+        "bad",
+        "band",
+        "bed",
+        "behind",
+        "bend",
+        "bird",
+        "blind",
+        "blood",
+        "board",
+        "bread",
+        "broad",
+        "build",
+        "card",
+        "child",
+        "cloud",
+        "cold",
+        "crowd",
+        "dead",
+        "depend",
+        "end",
+        "feed",
+        "field",
+        "find",
+        "fold",
+        "food",
+        "friend",
+        "glad",
+        "gold",
+        "good",
+        "ground",
+        "guard",
+        "hand",
+        "hard",
+        "head",
+        "hold",
+        "hundred",
+        "indeed",
+        "island",
+        "kind",
+        "land",
+        "lead",
+        "lend",
+        "load",
+        "loud",
+        "mad",
+        "mind",
+        "need",
+        "old",
+        "proud",
+        "read",
+        "record",
+        "red",
+        "road",
+        "round",
+        "sad",
+        "sand",
+        "second",
+        "seed",
+        "send",
+        "should",
+        "sound",
+        "speed",
+        "spend",
+        "spread",
+        "stand",
+        "third",
+        "thread",
+        "tired",
+        "toward",
+        "understand",
+        "wild",
+        "wind",
+        "wood",
+        "word",
+        "world",
+        "wound"
+      ],
+      "constraint": "d",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-n",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'N'",
+      "timeMs": 30000,
+      "constraint": "n"
+    },
+    "answerData": {
+      "acceptList": [
+        "again",
+        "bean",
+        "begin",
+        "between",
+        "born",
+        "brain",
+        "broken",
+        "brown",
+        "burn",
+        "button",
+        "can",
+        "certain",
+        "chain",
+        "chicken",
+        "clean",
+        "coin",
+        "common",
+        "condition",
+        "corn",
+        "cotton",
+        "design",
+        "down",
+        "earn",
+        "even",
+        "explain",
+        "fan",
+        "fun",
+        "garden",
+        "govern",
+        "green",
+        "gun",
+        "happen",
+        "human",
+        "in",
+        "iron",
+        "join",
+        "kitchen",
+        "learn",
+        "lemon",
+        "lion",
+        "listen",
+        "main",
+        "man",
+        "mean",
+        "melon",
+        "mention",
+        "modern",
+        "moon",
+        "mountain",
+        "nation",
+        "noon",
+        "ocean",
+        "often",
+        "on",
+        "onion",
+        "open",
+        "own",
+        "pain",
+        "pen",
+        "person",
+        "pin",
+        "plan",
+        "poison",
+        "queen",
+        "question",
+        "rain",
+        "reason",
+        "return",
+        "run",
+        "seven",
+        "sign",
+        "skin",
+        "son",
+        "soon",
+        "spoon",
+        "station",
+        "sun",
+        "ten",
+        "than",
+        "then",
+        "thin",
+        "town",
+        "train",
+        "turn",
+        "upon",
+        "when",
+        "win",
+        "woman"
+      ],
+      "constraint": "n",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-l",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'L'",
+      "timeMs": 30000,
+      "constraint": "l"
+    },
+    "answerData": {
+      "acceptList": [
+        "all",
+        "animal",
+        "ball",
+        "beautiful",
+        "bell",
+        "boil",
+        "bowl",
+        "call",
+        "careful",
+        "cell",
+        "control",
+        "cool",
+        "deal",
+        "detail",
+        "equal",
+        "fail",
+        "fall",
+        "feel",
+        "fill",
+        "final",
+        "fool",
+        "full",
+        "general",
+        "girl",
+        "goal",
+        "hall",
+        "hill",
+        "hospital",
+        "hotel",
+        "ill",
+        "kill",
+        "level",
+        "local",
+        "mail",
+        "meal",
+        "metal",
+        "model",
+        "nail",
+        "oil",
+        "pencil",
+        "pool",
+        "pull",
+        "rail",
+        "real",
+        "sail",
+        "school",
+        "sell",
+        "several",
+        "small",
+        "smell",
+        "social",
+        "soil",
+        "special",
+        "spell",
+        "steal",
+        "still",
+        "tail",
+        "tall",
+        "tell",
+        "tool",
+        "travel",
+        "until",
+        "usual",
+        "wall",
+        "well",
+        "wheel",
+        "wool"
+      ],
+      "constraint": "l",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-k",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'K'",
+      "timeMs": 30000,
+      "constraint": "k"
+    },
+    "answerData": {
+      "acceptList": [
+        "ask",
+        "back",
+        "bank",
+        "black",
+        "blank",
+        "block",
+        "book",
+        "break",
+        "check",
+        "clock",
+        "cook",
+        "dark",
+        "desk",
+        "drink",
+        "duck",
+        "fork",
+        "kick",
+        "knock",
+        "lock",
+        "look",
+        "luck",
+        "mark",
+        "milk",
+        "neck",
+        "park",
+        "pick",
+        "pink",
+        "quick",
+        "rock",
+        "sick",
+        "silk",
+        "speak",
+        "stick",
+        "talk",
+        "thank",
+        "thick",
+        "think",
+        "walk",
+        "weak",
+        "week",
+        "work"
+      ],
+      "constraint": "k",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-p",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'P'",
+      "timeMs": 30000,
+      "constraint": "p"
+    },
+    "answerData": {
+      "acceptList": [
+        "asleep",
+        "camp",
+        "cap",
+        "cheap",
+        "cup",
+        "deep",
+        "develop",
+        "drop",
+        "group",
+        "help",
+        "jump",
+        "keep",
+        "lamp",
+        "lip",
+        "map",
+        "sharp",
+        "sheep",
+        "ship",
+        "shop",
+        "sleep",
+        "soap",
+        "soup",
+        "stamp",
+        "step",
+        "stop",
+        "top",
+        "trip",
+        "up"
+      ],
+      "constraint": "p",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-m",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'M'",
+      "timeMs": 30000,
+      "constraint": "m"
+    },
+    "answerData": {
+      "acceptList": [
+        "arm",
+        "bottom",
+        "calm",
+        "dream",
+        "farm",
+        "film",
+        "form",
+        "from",
+        "problem",
+        "room",
+        "seem",
+        "steam",
+        "storm",
+        "swim",
+        "team",
+        "warm"
+      ],
+      "constraint": "m",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ise",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ISE'",
+      "timeMs": 30000,
+      "constraint": "ise"
+    },
+    "answerData": {
+      "acceptList": [
+        "exercise",
+        "noise",
+        "praise",
+        "promise",
+        "raise",
+        "rise",
+        "wise"
+      ],
+      "constraint": "ise",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ate",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 7,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'ATE'",
+      "timeMs": 30000,
+      "constraint": "ate"
+    },
+    "answerData": {
+      "acceptList": [
+        "date",
+        "gate",
+        "hate",
+        "late",
+        "plate",
+        "separate"
+      ],
+      "constraint": "ate",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-kn",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'KN'",
+      "timeMs": 30000,
+      "constraint": "kn"
+    },
+    "answerData": {
+      "acceptList": [
+        "knee",
+        "knife",
+        "knock",
+        "know"
+      ],
+      "constraint": "kn",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-qu",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'QU'",
+      "timeMs": 30000,
+      "constraint": "qu"
+    },
+    "answerData": {
+      "acceptList": [
+        "queen",
+        "question",
+        "quick",
+        "quiet",
+        "quite"
+      ],
+      "constraint": "qu",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ye",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'YE'",
+      "timeMs": 30000,
+      "constraint": "ye"
+    },
+    "answerData": {
+      "acceptList": [
+        "year",
+        "yellow",
+        "yes",
+        "yesterday",
+        "yet"
+      ],
+      "constraint": "ye",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-jo",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'JO'",
+      "timeMs": 30000,
+      "constraint": "jo"
+    },
+    "answerData": {
+      "acceptList": [
+        "job",
+        "join",
+        "joke",
+        "joy"
+      ],
+      "constraint": "jo",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-start-ju",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words starting with 'JU'",
+      "timeMs": 30000,
+      "constraint": "ju"
+    },
+    "answerData": {
+      "acceptList": [
+        "judge",
+        "juice",
+        "jump",
+        "just"
+      ],
+      "constraint": "ju",
+      "constraintType": "start",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-x",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'X'",
+      "timeMs": 30000,
+      "constraint": "x"
+    },
+    "answerData": {
+      "acceptList": [
+        "box",
+        "fix",
+        "mix",
+        "sex",
+        "six"
+      ],
+      "constraint": "x",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-gh",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'GH'",
+      "timeMs": 30000,
+      "constraint": "gh"
+    },
+    "answerData": {
+      "acceptList": [
+        "cough",
+        "enough",
+        "high",
+        "laugh",
+        "though",
+        "through"
+      ],
+      "constraint": "gh",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-ght",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'GHT'",
+      "timeMs": 30000,
+      "constraint": "ght"
+    },
+    "answerData": {
+      "acceptList": [
+        "bright",
+        "eight",
+        "fight",
+        "light",
+        "might",
+        "night",
+        "right",
+        "straight",
+        "thought",
+        "tonight",
+        "weight"
+      ],
+      "constraint": "ght",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-end-nge",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words ending in 'NGE'",
+      "timeMs": 30000,
+      "constraint": "nge"
+    },
+    "answerData": {
+      "acceptList": [
+        "change",
+        "exchange",
+        "orange",
+        "strange"
+      ],
+      "constraint": "nge",
+      "constraintType": "end",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ough",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'OUGH'",
+      "timeMs": 30000,
+      "constraint": "ough"
+    },
+    "answerData": {
+      "acceptList": [
+        "cough",
+        "enough",
+        "though",
+        "thought",
+        "through"
+      ],
+      "constraint": "ough",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ight",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'IGHT'",
+      "timeMs": 30000,
+      "constraint": "ight"
+    },
+    "answerData": {
+      "acceptList": [
+        "bright",
+        "eight",
+        "fight",
+        "light",
+        "might",
+        "night",
+        "right",
+        "straight",
+        "tonight",
+        "weight"
+      ],
+      "constraint": "ight",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
+  },
+  {
+    "bankKey": "vfc-contain-ound",
+    "category": "verbal_fluency",
+    "challengeType": "word_fluency",
+    "level": 8,
+    "rendererType": "fluency_list",
+    "promptData": {
+      "instruction": "Words containing 'OUND'",
+      "timeMs": 30000,
+      "constraint": "ound"
+    },
+    "answerData": {
+      "acceptList": [
+        "around",
+        "ground",
+        "round",
+        "sound",
+        "wound"
+      ],
+      "constraint": "ound",
+      "constraintType": "contain",
+      "scoringMode": "fluency_count"
+    },
+    "scoringConfig": {
+      "expectedMedianMs": 30000,
+      "fluency": true
+    },
+    "version": 1,
+    "active": true
   }
 ]

@@ -9,7 +9,7 @@
   // When launched from the mixed run (?inmix=1), the reaction run returns to /practice/run when
   // done, so Reaction Time is part of the mix without the user choosing to "switch" to it.
   const inMix = $page.url.searchParams.get('inmix') === '1';
-  function returnToMix() { goto('/practice/run'); }
+  function returnToMix() { goto('/practice/run?skipintro=1'); }
 
   // Two-stage: calibrate (measure your hardware floor) then trials. Result is a
   // BAND, never a single number - honest about hardware delay.

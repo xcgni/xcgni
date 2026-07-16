@@ -16,20 +16,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#···",
-    "S···",
+    "··T·",
     "····",
-    "··T·"
+    "····",
+    "·S··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#···",
-    "S···",
+    "··T·",
     "····",
-    "··T·"
+    "····",
+    "·S··"
    ],
    "optimalMoves": 4
   }
@@ -51,22 +51,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···T",
     "····",
+    "·##T",
     "····",
-    "··S#"
+    "··S·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···T",
     "····",
+    "·##T",
     "····",
-    "··S#"
+    "··S·"
    ],
-   "optimalMoves": 4
+   "optimalMoves": 3
   }
  },
  {
@@ -86,20 +86,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#T··",
-    "···S",
     "····",
-    "····"
+    "····",
+    "·#··",
+    "T··S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#T··",
-    "···S",
     "····",
-    "····"
+    "····",
+    "·#··",
+    "T··S"
    ],
    "optimalMoves": 3
   }
@@ -121,22 +121,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "·T··",
     "····",
-    "····",
-    "#·T·",
-    "S···"
+    "···S",
+    "··#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "·T··",
     "····",
-    "····",
-    "#·T·",
-    "S···"
+    "···S",
+    "··#·"
    ],
-   "optimalMoves": 3
+   "optimalMoves": 4
   }
  },
  {
@@ -156,22 +156,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·T··",
-    "····",
-    "·#··",
-    "S···"
+    "··#·",
+    "···#",
+    "T··S",
+    "····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·T··",
-    "····",
-    "·#··",
-    "S···"
+    "··#·",
+    "···#",
+    "T··S",
+    "····"
    ],
-   "optimalMoves": 4
+   "optimalMoves": 3
   }
  },
  {
@@ -191,22 +191,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "···#",
+    "S··#",
     "···T",
-    "····",
-    "#···",
-    "···S"
+    "····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "···#",
+    "S··#",
     "···T",
-    "····",
-    "#···",
-    "···S"
+    "····"
    ],
-   "optimalMoves": 3
+   "optimalMoves": 4
   }
  },
  {
@@ -226,22 +226,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "T···",
-    "···S",
     "····",
-    "···#"
+    "S···",
+    "····",
+    "·T#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "T···",
-    "···S",
     "····",
-    "···#"
+    "S···",
+    "····",
+    "·T#·"
    ],
-   "optimalMoves": 4
+   "optimalMoves": 3
   }
  },
  {
@@ -261,20 +261,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "S···",
     "····",
     "····",
-    "T···",
-    "··S·"
+    "T··#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "S···",
     "····",
     "····",
-    "T···",
-    "··S·"
+    "T··#"
    ],
    "optimalMoves": 3
   }
@@ -296,22 +296,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·T··",
-    "···S",
-    "··#·",
-    "···#"
+    "T#··",
+    "·#··",
+    "··S·",
+    "····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·T··",
-    "···S",
-    "··#·",
-    "···#"
+    "T#··",
+    "·#··",
+    "··S·",
+    "····"
    ],
-   "optimalMoves": 3
+   "optimalMoves": 4
   }
  },
  {
@@ -331,20 +331,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··T·",
-    "·#··",
+    "#···",
+    "·#S·",
     "····",
-    "···S"
+    "T···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··T·",
-    "·#··",
+    "#···",
+    "·#S·",
     "····",
-    "···S"
+    "T···"
    ],
    "optimalMoves": 4
   }
@@ -366,20 +366,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "T···",
-    "··#·",
     "····",
-    "S··#"
+    "····",
+    "···#",
+    "T··S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "T···",
-    "··#·",
     "····",
-    "S··#"
+    "····",
+    "···#",
+    "T··S"
    ],
    "optimalMoves": 3
   }
@@ -401,10 +401,220 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "··S·",
+    "#···",
     "····",
+    "··T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··S·",
+    "#···",
+    "····",
+    "··T·"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·S··",
+    "···T",
+    "····",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·S··",
+    "···T",
+    "····",
+    "····"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#··T",
+    "···#",
+    "··S·",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#··T",
+    "···#",
+    "··S·",
+    "····"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "T···",
+    "····",
+    "·S··",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "T···",
+    "····",
+    "·S··",
+    "····"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··T·",
+    "S···",
+    "··#·",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··T·",
+    "S···",
+    "··#·",
+    "····"
+   ],
+   "optimalMoves": 3
+  }
+ },
+ {
+  "bankKey": "spg-L1-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
     "····",
     "···S",
-    "·T··"
+    "T···",
+    "····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "···S",
+    "T···",
+    "····"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L1-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 1,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "····",
+    "···T",
+    "·S··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
@@ -413,8 +623,8 @@
    "rows": [
     "····",
     "····",
-    "···S",
-    "·T··"
+    "···T",
+    "·S··"
    ],
    "optimalMoves": 3
   }
@@ -436,22 +646,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#·#",
-    "··S#",
-    "··#·",
-    "···T"
+    "·#··",
+    "·T·#",
+    "····",
+    "·#·S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#·#",
-    "··S#",
-    "··#·",
-    "···T"
+    "·#··",
+    "·T·#",
+    "····",
+    "·#·S"
    ],
-   "optimalMoves": 5
+   "optimalMoves": 4
   }
  },
  {
@@ -472,9 +682,9 @@
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
     "····",
-    "·S·#",
-    "·#··",
-    "·T··"
+    "T·#·",
+    "····",
+    "·#S·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
@@ -482,9 +692,9 @@
    "scoringMode": "deliberate",
    "rows": [
     "····",
-    "·S·#",
-    "·#··",
-    "·T··"
+    "T·#·",
+    "····",
+    "·#S·"
    ],
    "optimalMoves": 4
   }
@@ -506,20 +716,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "····",
-    "·S#·",
     "··#T",
-    "···#"
+    "··#·",
+    "··#·",
+    "#S··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "····",
-    "·S#·",
     "··#T",
-    "···#"
+    "··#·",
+    "··#·",
+    "#S··"
    ],
    "optimalMoves": 5
   }
@@ -541,22 +751,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··S·",
-    "····",
-    "·#··",
-    "T··#"
+    "···T",
+    "S···",
+    "#·#·",
+    "····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··S·",
-    "····",
-    "·#··",
-    "T··#"
+    "···T",
+    "S···",
+    "#·#·",
+    "····"
    ],
-   "optimalMoves": 5
+   "optimalMoves": 4
   }
  },
  {
@@ -576,20 +786,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#·T·",
-    "·##·",
-    "##S·",
-    "···#"
+    "·#T#",
+    "····",
+    "S···",
+    "·#··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#·T·",
-    "·##·",
-    "##S·",
-    "···#"
+    "·#T#",
+    "····",
+    "S···",
+    "·#··"
    ],
    "optimalMoves": 4
   }
@@ -611,20 +821,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#·#",
-    "··T·",
+    "·S··",
     "····",
-    "S·##"
+    "·#··",
+    "T··#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#·#",
-    "··T·",
+    "·S··",
     "····",
-    "S·##"
+    "·#··",
+    "T··#"
    ],
    "optimalMoves": 4
   }
@@ -646,22 +856,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#·#·",
-    "·#··",
-    "T#·S",
-    "····"
+    "#·S·",
+    "····",
+    "····",
+    "·T··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#·#·",
-    "·#··",
-    "T#·S",
-    "····"
+    "#·S·",
+    "····",
+    "····",
+    "·T··"
    ],
-   "optimalMoves": 5
+   "optimalMoves": 4
   }
  },
  {
@@ -682,9 +892,9 @@
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
     "#···",
-    "··T·",
-    "··#·",
-    "··S·"
+    "#S··",
+    "·#··",
+    "#T··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
@@ -692,9 +902,9 @@
    "scoringMode": "deliberate",
    "rows": [
     "#···",
-    "··T·",
-    "··#·",
-    "··S·"
+    "#S··",
+    "·#··",
+    "#T··"
    ],
    "optimalMoves": 4
   }
@@ -716,20 +926,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···T",
-    "···#",
-    "··#·",
-    "·S··"
+    "·T#·",
+    "·#··",
+    "··S#",
+    "·#··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···T",
-    "···#",
-    "··#·",
-    "·S··"
+    "·T#·",
+    "·#··",
+    "··S#",
+    "·#··"
    ],
    "optimalMoves": 5
   }
@@ -751,20 +961,20 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "·S·#",
     "····",
-    "·#··",
-    "T#S·",
-    "····"
+    "···T",
+    "··##"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "·S·#",
     "····",
-    "·#··",
-    "T#S·",
-    "····"
+    "···T",
+    "··##"
    ],
    "optimalMoves": 4
   }
@@ -786,22 +996,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#S··",
-    "···#",
+    "S#··",
     "····",
-    "T·#·"
+    "····",
+    "··T·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#S··",
-    "···#",
+    "S#··",
     "····",
-    "T·#·"
+    "····",
+    "··T·"
    ],
-   "optimalMoves": 4
+   "optimalMoves": 5
   }
  },
  {
@@ -821,20 +1031,230 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··S#",
-    "····",
-    "····",
-    "·#·T"
+    "··T·",
+    "·#··",
+    "S···",
+    "#···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··S#",
+    "··T·",
+    "·#··",
+    "S···",
+    "#···"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····",
+    "#·S·",
+    "····",
+    "T···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····",
+    "#·S·",
+    "····",
+    "T···"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···#",
+    "····",
+    "T#·S",
+    "#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···#",
+    "····",
+    "T#·S",
+    "#··#"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···#",
+    "S···",
+    "#···",
+    "#·T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···#",
+    "S···",
+    "#···",
+    "#·T·"
+   ],
+   "optimalMoves": 4
+  }
+ },
+ {
+  "bankKey": "spg-L2-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·S··",
+    "·#··",
+    "··#·",
+    "·T··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·S··",
+    "·#··",
+    "··#·",
+    "·T··"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·S·",
+    "###·",
+    "····",
+    "··T·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·S·",
+    "###·",
+    "····",
+    "··T·"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L2-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 2,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·S··",
     "····",
     "····",
-    "·#·T"
+    "T···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·S··",
+    "····",
+    "····",
+    "T···"
    ],
    "optimalMoves": 4
   }
@@ -856,22 +1276,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···##",
-    "·S···",
-    "·#··#",
-    "#····",
-    "T····"
+    "·····",
+    "·T··#",
+    "·····",
+    "·····",
+    "····S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···##",
-    "·S···",
-    "·#··#",
-    "#····",
-    "T····"
+    "·····",
+    "·T··#",
+    "·····",
+    "·····",
+    "····S"
    ],
    "optimalMoves": 6
   }
@@ -893,22 +1313,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·····",
+    "·T··#",
+    "##·#·",
     "·#···",
-    "····T",
-    "···#·",
-    "S····"
+    "·····",
+    "·S·#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·····",
+    "·T··#",
+    "##·#·",
     "·#···",
-    "····T",
-    "···#·",
-    "S····"
+    "·····",
+    "·S·#·"
    ],
    "optimalMoves": 6
   }
@@ -930,22 +1350,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#···",
-    "···T#",
-    "···#·",
-    "·····",
-    "···S·"
+    "#··#·",
+    "·S···",
+    "#····",
+    "·##··",
+    "···T·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#···",
-    "···T#",
-    "···#·",
-    "·····",
-    "···S·"
+    "#··#·",
+    "·S···",
+    "#····",
+    "·##··",
+    "···T·"
    ],
    "optimalMoves": 5
   }
@@ -967,22 +1387,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·S##·",
+    "··#··",
     "·····",
-    "·#··#",
-    "#T··#",
-    "·#·#·"
+    "T···#",
+    "····S",
+    "···#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·S##·",
+    "··#··",
     "·····",
-    "·#··#",
-    "#T··#",
-    "·#·#·"
+    "T···#",
+    "····S",
+    "···#·"
    ],
    "optimalMoves": 5
   }
@@ -1004,22 +1424,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "###·#",
-    "·S·#·",
-    "·#···",
+    "T·#S#",
+    "#····",
+    "·····",
     "··#··",
-    "·T···"
+    "····#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "###·#",
-    "·S·#·",
-    "·#···",
+    "T·#S#",
+    "#····",
+    "·····",
     "··#··",
-    "·T···"
+    "····#"
    ],
    "optimalMoves": 5
   }
@@ -1041,22 +1461,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···#·",
-    "·#···",
-    "S·#T·",
-    "·····",
-    "#··#·"
+    "··#··",
+    "·T···",
+    "#····",
+    "····S",
+    "·····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···#·",
-    "·#···",
-    "S·#T·",
-    "·····",
-    "#··#·"
+    "··#··",
+    "·T···",
+    "#····",
+    "····S",
+    "·····"
    ],
    "optimalMoves": 5
   }
@@ -1078,22 +1498,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "#····",
     "··T··",
-    "··#··",
-    "#·##·",
-    "#··#S",
-    "····#"
+    "·····",
+    "#·#··",
+    "··S··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "#····",
     "··T··",
-    "··#··",
-    "#·##·",
-    "#··#S",
-    "····#"
+    "·····",
+    "#·#··",
+    "··S··"
    ],
    "optimalMoves": 5
   }
@@ -1115,22 +1535,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·····",
-    "·#T#·",
-    "···#S",
-    "·····",
-    "#····"
+    "·S···",
+    "·##··",
+    "##··#",
+    "···T#",
+    "·····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·····",
-    "·#T#·",
-    "···#S",
-    "·····",
-    "#····"
+    "·S···",
+    "·##··",
+    "##··#",
+    "···T#",
+    "·····"
    ],
    "optimalMoves": 5
   }
@@ -1152,22 +1572,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "··#S·",
     "····#",
-    "···T·",
+    "··#··",
     "·#···",
-    "S#···",
-    "·····"
+    "#··#T"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "··#S·",
     "····#",
-    "···T·",
+    "··#··",
     "·#···",
-    "S#···",
-    "·····"
+    "#··#T"
    ],
    "optimalMoves": 5
   }
@@ -1189,22 +1609,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "##···",
+    "·#·S·",
     "·····",
-    "·T···",
-    "·····",
-    "···#·",
-    "·#·S·"
+    "T#·#·",
+    "·#··#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "##···",
+    "·#·S·",
     "·····",
-    "·T···",
-    "·····",
-    "···#·",
-    "·#·S·"
+    "T#·#·",
+    "·#··#"
    ],
    "optimalMoves": 5
   }
@@ -1226,24 +1646,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#S··",
-    "##···",
-    "····#",
-    "·····",
-    "····T"
+    "····T",
+    "···#·",
+    "#S···",
+    "··#·#",
+    "#·###"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#S··",
-    "##···",
-    "····#",
-    "·····",
-    "····T"
+    "····T",
+    "···#·",
+    "#S···",
+    "··#·#",
+    "#·###"
    ],
-   "optimalMoves": 6
+   "optimalMoves": 5
   }
  },
  {
@@ -1263,22 +1683,244 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··T·#",
-    "·····",
-    "·····",
-    "·····",
-    "·S···"
+    "·#···",
+    "·#·#S",
+    "T····",
+    "##···",
+    "·····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··T·#",
+    "·#···",
+    "·#·#S",
+    "T····",
+    "##···",
+    "·····"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "T···#",
+    "#····",
     "·····",
     "·····",
+    "··S·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "T···#",
+    "#····",
     "·····",
-    "·S···"
+    "·····",
+    "··S·#"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L3-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···",
+    "#···S",
+    "#··#·",
+    "T····",
+    "·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···",
+    "#···S",
+    "#··#·",
+    "T····",
+    "·····"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L3-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#··#",
+    "#··S·",
+    "····#",
+    "··#··",
+    "·T##·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#··#",
+    "#··S·",
+    "····#",
+    "··#··",
+    "·T##·"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····",
+    "·····",
+    "·#·S·",
+    "·····",
+    "T·#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····",
+    "·····",
+    "·#·S·",
+    "·····",
+    "T·#··"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··T··",
+    "····#",
+    "·····",
+    "S·#·#",
+    "·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··T··",
+    "····#",
+    "·····",
+    "S·#·#",
+    "·····"
+   ],
+   "optimalMoves": 5
+  }
+ },
+ {
+  "bankKey": "spg-L3-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 3,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·#·",
+    "·S#··",
+    "·····",
+    "···#T",
+    "#····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·#·",
+    "·S#··",
+    "·····",
+    "···#T",
+    "#····"
    ],
    "optimalMoves": 5
   }
@@ -1300,24 +1942,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·T···",
-    "#····",
+    "····S",
     "·····",
-    "#·#·S",
-    "····#"
+    "·##··",
+    "T··##",
+    "#····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·T···",
-    "#····",
+    "····S",
     "·····",
-    "#·#·S",
-    "····#"
+    "·##··",
+    "T··##",
+    "#····"
    ],
-   "optimalMoves": 6
+   "optimalMoves": 7
   }
  },
  {
@@ -1337,24 +1979,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···##",
-    "#S··#",
-    "····#",
-    "·#··#",
-    "····T"
+    "T··#·",
+    "·##··",
+    "··#··",
+    "·····",
+    "···S·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···##",
-    "#S··#",
-    "····#",
-    "·#··#",
-    "····T"
+    "T··#·",
+    "·##··",
+    "··#··",
+    "·····",
+    "···S·"
    ],
-   "optimalMoves": 6
+   "optimalMoves": 7
   }
  },
  {
@@ -1374,24 +2016,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···T·",
-    "#····",
+    "##···",
+    "T····",
     "·····",
-    "#··#·",
-    "S·##·"
+    "##··S",
+    "··#··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···T·",
-    "#····",
+    "##···",
+    "T····",
     "·····",
-    "#··#·",
-    "S·##·"
+    "##··S",
+    "··#··"
    ],
-   "optimalMoves": 7
+   "optimalMoves": 6
   }
  },
  {
@@ -1411,24 +2053,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·T···",
-    "·#···",
-    "·····",
-    "····S",
-    "·#·##"
+    "··##S",
+    "·##··",
+    "····#",
+    "····#",
+    "#T···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·T···",
-    "·#···",
-    "·····",
-    "····S",
-    "·#·##"
+    "··##S",
+    "·##··",
+    "····#",
+    "····#",
+    "#T···"
    ],
-   "optimalMoves": 6
+   "optimalMoves": 7
   }
  },
  {
@@ -1448,22 +2090,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "···##",
     "·#···",
-    "····T",
-    "·····",
-    "····#",
-    "·S···"
+    "·#··S",
+    "#··##",
+    "T··#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "···##",
     "·#···",
-    "····T",
-    "·····",
-    "····#",
-    "·S···"
+    "·#··S",
+    "#··##",
+    "T··#·"
    ],
    "optimalMoves": 6
   }
@@ -1485,22 +2127,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·····",
-    "·##·S",
-    "#····",
-    "T·#··",
-    "·····"
+    "·T#·#",
+    "···#·",
+    "··#··",
+    "····S",
+    "··##·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·····",
-    "·##·S",
-    "#····",
-    "T·#··",
-    "·····"
+    "·T#·#",
+    "···#·",
+    "··#··",
+    "····S",
+    "··##·"
    ],
    "optimalMoves": 6
   }
@@ -1522,22 +2164,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#S#·",
-    "·····",
-    "·····",
+    "···##",
+    "S··#·",
     "·#···",
-    "##··T"
+    "·#···",
+    "#T···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#S#·",
-    "·····",
-    "·····",
+    "···##",
+    "S··#·",
     "·#···",
-    "##··T"
+    "·#···",
+    "#T···"
    ],
    "optimalMoves": 6
   }
@@ -1559,24 +2201,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "S··#T",
-    "·#···",
-    "··#·#",
-    "·#·##",
-    "·····"
+    "S·#··",
+    "·····",
+    "#·#··",
+    "#···T",
+    "#··#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "S··#T",
-    "·#···",
-    "··#·#",
-    "·#·##",
-    "·····"
+    "S·#··",
+    "·····",
+    "#·#··",
+    "#···T",
+    "#··#·"
    ],
-   "optimalMoves": 6
+   "optimalMoves": 7
   }
  },
  {
@@ -1596,22 +2238,22 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "T#··#",
+    "·#·#·",
     "·····",
-    "·##··",
-    "····S",
-    "##·#·"
+    "T#·#·",
+    "#··#·",
+    "···S#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "T#··#",
+    "·#·#·",
     "·····",
-    "·##··",
-    "····S",
-    "##·#·"
+    "T#·#·",
+    "#··#·",
+    "···S#"
    ],
    "optimalMoves": 7
   }
@@ -1633,24 +2275,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "····#",
-    "#·#·S",
-    "··##·",
-    "·T·#·",
-    "#·#··"
+    "·····",
+    "·#·S·",
+    "##···",
+    "·#···",
+    "T····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "····#",
-    "#·#·S",
-    "··##·",
-    "·T·#·",
-    "#·#··"
+    "·····",
+    "·#·S·",
+    "##···",
+    "·#···",
+    "T····"
    ],
-   "optimalMoves": 7
+   "optimalMoves": 6
   }
  },
  {
@@ -1670,24 +2312,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··S#·",
-    "·····",
-    "·····",
-    "·····",
-    "···#T"
+    "····#",
+    "T···#",
+    "··#··",
+    "#·##·",
+    "·#··S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··S#·",
-    "·····",
-    "·····",
-    "·····",
-    "···#T"
+    "····#",
+    "T···#",
+    "··#··",
+    "#·##·",
+    "·#··S"
    ],
-   "optimalMoves": 6
+   "optimalMoves": 7
   }
  },
  {
@@ -1707,22 +2349,244 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "#··#·",
+    "S····",
+    "····#",
     "·····",
-    "S#··#",
-    "·····",
-    "··#··",
-    "·#·T#"
+    "#···T"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "#··#·",
+    "S····",
+    "····#",
     "·····",
-    "S#··#",
+    "#···T"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L4-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·T#·#",
+    "#····",
     "·····",
-    "··#··",
-    "·#·T#"
+    "···#·",
+    "·#··S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·T#·#",
+    "#····",
+    "·····",
+    "···#·",
+    "·#··S"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L4-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·S#··",
+    "·##··",
+    "···#·",
+    "·#T#·",
+    "·###·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·S#··",
+    "·##··",
+    "···#·",
+    "·#T#·",
+    "·###·"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···",
+    "#···T",
+    "#·#·#",
+    "S····",
+    "··#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···",
+    "#···T",
+    "#·#·#",
+    "S····",
+    "··#··"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "##·#·",
+    "T·#·#",
+    "··#·S",
+    "·····",
+    "·#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "##·#·",
+    "T·#·#",
+    "··#·S",
+    "·····",
+    "·#···"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L4-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····#",
+    "··T#·",
+    "··##·",
+    "#·##·",
+    "···S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····#",
+    "··T#·",
+    "··##·",
+    "#·##·",
+    "···S·"
+   ],
+   "optimalMoves": 6
+  }
+ },
+ {
+  "bankKey": "spg-L4-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 4,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#··#",
+    "·T#··",
+    "#····",
+    "··##·",
+    "·#··S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#··#",
+    "·T#··",
+    "#····",
+    "··##·",
+    "·#··S"
    ],
    "optimalMoves": 6
   }
@@ -1744,24 +2608,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·····S",
-    "#··#·#",
+    "······",
+    "S···#·",
+    "··##··",
+    "#··#··",
     "····#·",
-    "·T··#·",
-    "#····#",
-    "#·····"
+    "···T··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·····S",
-    "#··#·#",
+    "······",
+    "S···#·",
+    "··##··",
+    "#··#··",
     "····#·",
-    "·T··#·",
-    "#····#",
-    "#·····"
+    "···T··"
    ],
    "optimalMoves": 7
   }
@@ -1783,24 +2647,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "S·#··#",
+    "··#·#·",
+    "·#····",
+    "S···#T",
+    "·····#",
     "······",
-    "#·#··T",
-    "···###",
-    "#·#··#",
-    "··#··#"
+    "······"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "S·#··#",
+    "··#·#·",
+    "·#····",
+    "S···#T",
+    "·····#",
     "······",
-    "#·#··T",
-    "···###",
-    "#·#··#",
-    "··#··#"
+    "······"
    ],
    "optimalMoves": 7
   }
@@ -1822,24 +2686,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·##···",
-    "·#·##·",
-    "······",
-    "··#T··",
-    "·##·#·",
-    "S#····"
+    "·#·#·T",
+    "·#·#··",
+    "··#···",
+    "····#·",
+    "··#···",
+    "##·S·#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·##···",
-    "·#·##·",
-    "······",
-    "··#T··",
-    "·##·#·",
-    "S#····"
+    "·#·#·T",
+    "·#·#··",
+    "··#···",
+    "····#·",
+    "··#···",
+    "##·S·#"
    ],
    "optimalMoves": 7
   }
@@ -1861,26 +2725,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#··S··",
-    "···#··",
-    "··#···",
+    "#···#T",
+    "·#·#··",
     "······",
-    "··T···",
-    "··#·##"
+    "S·#··#",
+    "·#····",
+    "··#··#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#··S··",
-    "···#··",
-    "··#···",
+    "#···#T",
+    "·#·#··",
     "······",
-    "··T···",
-    "··#·##"
+    "S·#··#",
+    "·#····",
+    "··#··#"
    ],
-   "optimalMoves": 7
+   "optimalMoves": 8
   }
  },
  {
@@ -1900,24 +2764,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "··#··T",
     "······",
-    "#T·#··",
-    "······",
-    "······",
-    "··#···",
-    "··#·S·"
+    "·····#",
+    "#··#··",
+    "··S·##",
+    "··#···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "··#··T",
     "······",
-    "#T·#··",
-    "······",
-    "······",
-    "··#···",
-    "··#·S·"
+    "·····#",
+    "#··#··",
+    "··S·##",
+    "··#···"
    ],
    "optimalMoves": 7
   }
@@ -1939,24 +2803,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "#·#·S·",
+    "#·····",
     "······",
-    "····T·",
-    "·····#",
-    "#··#··",
-    "S·····",
-    "······"
+    "······",
+    "·T···#",
+    "·#··##"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "#·#·S·",
+    "#·····",
     "······",
-    "····T·",
-    "·····#",
-    "#··#··",
-    "S·····",
-    "······"
+    "······",
+    "·T···#",
+    "·#··##"
    ],
    "optimalMoves": 7
   }
@@ -1978,24 +2842,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··S···",
+    "·##··T",
+    "·##·#·",
     "······",
-    "##····",
-    "·#··##",
-    "······",
-    "#····T"
+    "#·····",
+    "····#·",
+    "··S···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··S···",
+    "·##··T",
+    "·##·#·",
     "······",
-    "##····",
-    "·#··##",
-    "······",
-    "#····T"
+    "#·····",
+    "····#·",
+    "··S···"
    ],
    "optimalMoves": 8
   }
@@ -2017,26 +2881,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "#S···#",
+    "·#··#·",
     "······",
-    "S···#·",
     "······",
-    "····#·",
-    "··#··#",
-    "···T··"
+    "··#·#·",
+    "#·T·#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "#S···#",
+    "·#··#·",
     "······",
-    "S···#·",
     "······",
-    "····#·",
-    "··#··#",
-    "···T··"
+    "··#·#·",
+    "#·T·#·"
    ],
-   "optimalMoves": 7
+   "optimalMoves": 8
   }
  },
  {
@@ -2056,24 +2920,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "·#·#T·",
     "······",
-    "S···#·",
-    "··##··",
-    "#··#··",
-    "····#·",
-    "···T··"
+    "·#·#·#",
+    "···#·#",
+    "·S····",
+    "·##··#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "·#·#T·",
     "······",
-    "S···#·",
-    "··##··",
-    "#··#··",
-    "····#·",
-    "···T··"
+    "·#·#·#",
+    "···#·#",
+    "·S····",
+    "·##··#"
    ],
    "optimalMoves": 7
   }
@@ -2095,24 +2959,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··#·#·",
-    "·#····",
-    "S···#T",
-    "·····#",
+    "··T#··",
     "······",
-    "······"
+    "···#··",
+    "····#·",
+    "#····#",
+    "·#·#S#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··#·#·",
-    "·#····",
-    "S···#T",
-    "·····#",
+    "··T#··",
     "······",
-    "······"
+    "···#··",
+    "····#·",
+    "#····#",
+    "·#·#S#"
    ],
    "optimalMoves": 7
   }
@@ -2134,24 +2998,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#·#·T",
-    "·#·#··",
-    "··#···",
-    "····#·",
-    "··#···",
-    "##·S·#"
+    "#····#",
+    "······",
+    "S·#·#·",
+    "··##··",
+    "·····#",
+    "#··#T·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#·#·T",
-    "·#·#··",
-    "··#···",
-    "····#·",
-    "··#···",
-    "##·S·#"
+    "#····#",
+    "······",
+    "S·#·#·",
+    "··##··",
+    "·····#",
+    "#··#T·"
    ],
    "optimalMoves": 7
   }
@@ -2173,26 +3037,260 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#···#T",
-    "·#·#··",
     "······",
-    "S·#··#",
     "·#····",
-    "··#··#"
+    "T···#S",
+    "·#···#",
+    "##··##",
+    "····#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#···#T",
-    "·#·#··",
     "······",
-    "S·#··#",
     "·#····",
-    "··#··#"
+    "T···#S",
+    "·#···#",
+    "##··##",
+    "····#·"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##···",
+    "T····#",
+    "·····#",
+    "#····#",
+    "·····#",
+    "···S·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##···",
+    "T····#",
+    "·····#",
+    "#····#",
+    "·····#",
+    "···S·#"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····#·",
+    "·····#",
+    "·T##··",
+    "··##··",
+    "·····#",
+    "·····S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····#·",
+    "·····#",
+    "·T##··",
+    "··##··",
+    "·····#",
+    "·····S"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "······",
+    "······",
+    "T····#",
+    "##·##S",
+    "······",
+    "······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "······",
+    "······",
+    "T····#",
+    "##·##S",
+    "······",
+    "······"
    ],
    "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L5-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··T··#",
+    "······",
+    "···##·",
+    "··#···",
+    "#····#",
+    "·#S#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··T··#",
+    "······",
+    "···##·",
+    "··#···",
+    "#····#",
+    "·#S#··"
+   ],
+   "optimalMoves": 7
+  }
+ },
+ {
+  "bankKey": "spg-L5-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#···",
+    "·····S",
+    "····#·",
+    "······",
+    "······",
+    "·T····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#···",
+    "·····S",
+    "····#·",
+    "······",
+    "······",
+    "·T····"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L5-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 5,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···#·",
+    "·····#",
+    "·S#···",
+    "···#··",
+    "···#T·",
+    "···#··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···#·",
+    "·····#",
+    "·S#···",
+    "···#··",
+    "···#T·",
+    "···#··"
+   ],
+   "optimalMoves": 7
   }
  },
  {
@@ -2212,26 +3310,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·##··T",
-    "###·#·",
-    "#·#···",
-    "#·····",
-    "····#·",
-    "··S···"
+    "·#···S",
+    "··##·#",
+    "#····#",
+    "·····#",
+    "T#·#··",
+    "··#···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·##··T",
-    "###·#·",
-    "#·#···",
-    "#·····",
-    "····#·",
-    "··S···"
+    "·#···S",
+    "··##·#",
+    "#····#",
+    "·····#",
+    "T#·#··",
+    "··#···"
    ],
-   "optimalMoves": 8
+   "optimalMoves": 9
   }
  },
  {
@@ -2251,24 +3349,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#S···#",
-    "·#··#·",
-    "······",
-    "······",
-    "··#·#·",
-    "#·T·#·"
+    "#····#",
+    "S···#·",
+    "#·····",
+    "#·###·",
+    "·····T",
+    "···#··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#S···#",
-    "·#··#·",
-    "······",
-    "······",
-    "··#·#·",
-    "#·T·#·"
+    "#····#",
+    "S···#·",
+    "#·····",
+    "#·###·",
+    "·····T",
+    "···#··"
    ],
    "optimalMoves": 8
   }
@@ -2290,24 +3388,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#··#·",
-    "T·##··",
+    "···#··",
+    "S·#·##",
+    "··#···",
+    "···#··",
     "·#····",
-    "·#·#·#",
-    "······",
-    "#·#··S"
+    "·#···T"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#··#·",
-    "T·##··",
+    "···#··",
+    "S·#·##",
+    "··#···",
+    "···#··",
     "·#····",
-    "·#·#·#",
-    "······",
-    "#·#··S"
+    "·#···T"
    ],
    "optimalMoves": 9
   }
@@ -2329,24 +3427,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "······",
-    "······",
-    "T····#",
-    "##·##S",
-    "······",
-    "·#····"
+    "S·····",
+    "·#···#",
+    "··##··",
+    "##·T·#",
+    "··#···",
+    "······"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "······",
-    "······",
-    "T····#",
-    "##·##S",
-    "······",
-    "·#····"
+    "S·····",
+    "·#···#",
+    "··##··",
+    "##·T·#",
+    "··#···",
+    "······"
    ],
    "optimalMoves": 8
   }
@@ -2368,24 +3466,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··#···",
-    "·#···S",
-    "····#·",
-    "·#····",
-    "#·····",
-    "#T····"
+    "·#T#··",
+    "···##·",
+    "·····#",
+    "##·#··",
+    "·#···#",
+    "·····S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··#···",
-    "·#···S",
-    "····#·",
-    "·#····",
-    "#·····",
-    "#T····"
+    "·#T#··",
+    "···##·",
+    "·····#",
+    "##·#··",
+    "·#···#",
+    "·····S"
    ],
    "optimalMoves": 8
   }
@@ -2407,26 +3505,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#···S",
-    "··##·#",
-    "#····#",
-    "·····#",
-    "T#·#··",
-    "··#···"
+    "······",
+    "#··#·#",
+    "·····T",
+    "#··#·#",
+    "#·#·#·",
+    "··S···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#···S",
-    "··##·#",
-    "#····#",
-    "·····#",
-    "T#·#··",
-    "··#···"
+    "······",
+    "#··#·#",
+    "·····T",
+    "#··#·#",
+    "#·#·#·",
+    "··S···"
    ],
-   "optimalMoves": 9
+   "optimalMoves": 8
   }
  },
  {
@@ -2446,24 +3544,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#····#",
-    "S···#·",
-    "#·····",
-    "#·###·",
-    "·····T",
-    "···#··"
+    "#··#··",
+    "····T·",
+    "·····#",
+    "···#··",
+    "·####·",
+    "S···##"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#····#",
-    "S···#·",
-    "#·····",
-    "#·###·",
-    "·····T",
-    "···#··"
+    "#··#··",
+    "····T·",
+    "·····#",
+    "···#··",
+    "·####·",
+    "S···##"
    ],
    "optimalMoves": 8
   }
@@ -2485,26 +3583,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···#··",
-    "S·#·##",
-    "··#···",
-    "···#··",
+    "·····#",
     "·#····",
-    "·#···T"
+    "#·····",
+    "#·#··S",
+    "T··#··",
+    "#···##"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···#··",
-    "S·#·##",
-    "··#···",
-    "···#··",
+    "·····#",
     "·#····",
-    "·#···T"
+    "#·····",
+    "#·#··S",
+    "T··#··",
+    "#···##"
    ],
-   "optimalMoves": 9
+   "optimalMoves": 8
   }
  },
  {
@@ -2524,24 +3622,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "S·····",
+    "······",
+    "····S#",
+    "·····#",
+    "#·##··",
     "·#···#",
-    "··##··",
-    "##·T·#",
-    "··#···",
-    "······"
+    "T·····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "S·····",
+    "······",
+    "····S#",
+    "·····#",
+    "#·##··",
     "·#···#",
-    "··##··",
-    "##·T·#",
-    "··#···",
-    "······"
+    "T·····"
    ],
    "optimalMoves": 8
   }
@@ -2563,24 +3661,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#T#··",
-    "···##·",
+    "··T···",
+    "#·····",
+    "###·#·",
     "·····#",
-    "##·#··",
-    "·#···#",
-    "·····S"
+    "·····#",
+    "#S··#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#T#··",
-    "···##·",
+    "··T···",
+    "#·····",
+    "###·#·",
     "·····#",
-    "##·#··",
-    "·#···#",
-    "·····S"
+    "·····#",
+    "#S··#·"
    ],
    "optimalMoves": 8
   }
@@ -2602,24 +3700,24 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "·#·#·S",
     "······",
-    "#··#·#",
-    "·····T",
-    "#··#·#",
-    "#·#·#·",
-    "··S···"
+    "····#·",
+    "T·##··",
+    "·##··#",
+    "··#···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "·#·#·S",
     "······",
-    "#··#·#",
-    "·····T",
-    "#··#·#",
-    "#·#·#·",
-    "··S···"
+    "····#·",
+    "T·##··",
+    "·##··#",
+    "··#···"
    ],
    "optimalMoves": 8
   }
@@ -2641,24 +3739,258 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#··#··",
-    "····T·",
-    "·····#",
-    "···#··",
-    "·####·",
-    "S···##"
+    "##····",
+    "··#·##",
+    "·##···",
+    "T·#···",
+    "·#···S",
+    "····#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#··#··",
-    "····T·",
+    "##····",
+    "··#·##",
+    "·##···",
+    "T·#···",
+    "·#···S",
+    "····#·"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·#··",
+    "··#···",
+    "#···#T",
+    "#····#",
+    "·#·###",
+    "··S···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·#··",
+    "··#···",
+    "#···#T",
+    "#····#",
+    "·#·###",
+    "··S···"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····#·",
+    "·#T···",
+    "#·#···",
+    "###·#·",
     "·····#",
+    "S·#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····#·",
+    "·#T···",
+    "#·#···",
+    "###·#·",
+    "·····#",
+    "S·#··#"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "S·····",
+    "······",
+    "##····",
+    "#···#·",
+    "··##·T",
+    "······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "S·····",
+    "······",
+    "##····",
+    "#···#·",
+    "··##·T",
+    "······"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L6-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···#·S",
+    "·##···",
+    "·#····",
+    "······",
+    "····#·",
+    "·#T···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···#·S",
+    "·##···",
+    "·#····",
+    "······",
+    "····#·",
+    "·#T···"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "##·T··",
+    "##···#",
+    "#···#·",
+    "#··#··",
     "···#··",
-    "·####·",
-    "S···##"
+    "S··#·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "##·T··",
+    "##···#",
+    "#···#·",
+    "#··#··",
+    "···#··",
+    "S··#·#"
+   ],
+   "optimalMoves": 8
+  }
+ },
+ {
+  "bankKey": "spg-L6-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 6,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#·##",
+    "·#·#·#",
+    "···#·T",
+    "·#····",
+    "·S#··#",
+    "#···##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#·##",
+    "·#·#·#",
+    "···#·T",
+    "·#····",
+    "·S#··#",
+    "#···##"
    ],
    "optimalMoves": 8
   }
@@ -2680,26 +4012,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··#··#·",
-    "··#·#·#",
-    "·#··#··",
-    "##·····",
-    "T····#·",
-    "····#·S",
-    "··#··#·"
+    "#··#··#",
+    "#···##·",
+    "#S#·#··",
+    "#·····#",
+    "·#···#·",
+    "··#·#T#",
+    "··#····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··#··#·",
-    "··#·#·#",
-    "·#··#··",
-    "##·····",
-    "T····#·",
-    "····#·S",
-    "··#··#·"
+    "#··#··#",
+    "#···##·",
+    "#S#·#··",
+    "#·····#",
+    "·#···#·",
+    "··#·#T#",
+    "··#····"
    ],
    "optimalMoves": 9
   }
@@ -2721,28 +4053,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#···###",
-    "····#··",
     "#······",
-    "···##·#",
-    "S#····#",
-    "#·····#",
-    "·····T·"
+    "···#T·#",
+    "··#·###",
+    "#··#···",
+    "#···##·",
+    "S··#···",
+    "#······"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#···###",
-    "····#··",
     "#······",
-    "···##·#",
-    "S#····#",
-    "#·····#",
-    "·····T·"
+    "···#T·#",
+    "··#·###",
+    "#··#···",
+    "#···##·",
+    "S··#···",
+    "#······"
    ],
-   "optimalMoves": 9
+   "optimalMoves": 10
   }
  },
  {
@@ -2762,28 +4094,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··##··#",
-    "#·····#",
     "·······",
+    "#······",
+    "·S·#··#",
     "·······",
-    "·##··#S",
-    "···##··",
-    "T··#···"
+    "·#·##··",
+    "··#·#·#",
+    "······T"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··##··#",
-    "#·····#",
     "·······",
+    "#······",
+    "·S·#··#",
     "·······",
-    "·##··#S",
-    "···##··",
-    "T··#···"
+    "·#·##··",
+    "··#·#·#",
+    "······T"
    ],
-   "optimalMoves": 10
+   "optimalMoves": 9
   }
  },
  {
@@ -2803,26 +4135,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··#·###",
     "·······",
-    "···#S··",
-    "···##·#",
-    "#····#·",
-    "T···#·#",
-    "·#·····"
+    "S······",
+    "·#··#··",
+    "#·#····",
+    "·······",
+    "·····T#",
+    "····#··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··#·###",
     "·······",
-    "···#S··",
-    "···##·#",
-    "#····#·",
-    "T···#·#",
-    "·#·····"
+    "S······",
+    "·#··#··",
+    "#·#····",
+    "·······",
+    "·····T#",
+    "····#··"
    ],
    "optimalMoves": 9
   }
@@ -2844,28 +4176,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··#··T·",
-    "#······",
+    "····#S·",
+    "###····",
+    "·###··#",
+    "T··#·#·",
+    "·#···##",
     "·#·····",
-    "···#·#·",
-    "S····#·",
-    "·······",
-    "···#··#"
+    "·#·#···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··#··T·",
-    "#······",
+    "····#S·",
+    "###····",
+    "·###··#",
+    "T··#·#·",
+    "·#···##",
     "·#·····",
-    "···#·#·",
-    "S····#·",
-    "·······",
-    "···#··#"
+    "·#·#···"
    ],
-   "optimalMoves": 9
+   "optimalMoves": 10
   }
  },
  {
@@ -2885,28 +4217,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·##····",
-    "·······",
-    "·#·····",
-    "#··##S·",
-    "##··#··",
-    "#··#··#",
-    "·T·#···"
+    "····#S·",
+    "##··##·",
+    "···#···",
+    "···#·#·",
+    "·T·····",
+    "····#··",
+    "·##···#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·##····",
-    "·······",
-    "·#·····",
-    "#··##S·",
-    "##··#··",
-    "#··#··#",
-    "·T·#···"
+    "····#S·",
+    "##··##·",
+    "···#···",
+    "···#·#·",
+    "·T·····",
+    "····#··",
+    "·##···#"
    ],
-   "optimalMoves": 9
+   "optimalMoves": 10
   }
  },
  {
@@ -2926,28 +4258,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#·S·##·",
-    "···##··",
-    "··#··#·",
-    "#··#··#",
-    "##·····",
+    "····S··",
+    "·····##",
+    "·#·····",
+    "·#····#",
+    "·#····#",
     "·······",
-    "··#·T·#"
+    "·T·····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#·S·##·",
-    "···##··",
-    "··#··#·",
-    "#··#··#",
-    "##·····",
+    "····S··",
+    "·····##",
+    "·#·····",
+    "·#····#",
+    "·#····#",
     "·······",
-    "··#·T·#"
+    "·T·····"
    ],
-   "optimalMoves": 10
+   "optimalMoves": 9
   }
  },
  {
@@ -2967,28 +4299,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···#··#",
-    "·S·###·",
-    "····#··",
-    "·······",
-    "##·#···",
-    "·····#·",
-    "·##··T·"
+    "·#·#·S·",
+    "·#·#·#·",
+    "·····##",
+    "·#·····",
+    "···#·##",
+    "·#·····",
+    "·T·····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···#··#",
-    "·S·###·",
-    "····#··",
-    "·······",
-    "##·#···",
-    "·····#·",
-    "·##··T·"
+    "·#·#·S·",
+    "·#·#·#·",
+    "·····##",
+    "·#·····",
+    "···#·##",
+    "·#·····",
+    "·T·····"
    ],
-   "optimalMoves": 9
+   "optimalMoves": 10
   }
  },
  {
@@ -3008,28 +4340,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·##····",
-    "··#··S·",
-    "##····#",
+    "·#··##·",
+    "···#··#",
+    "#·#·##·",
+    "···#··#",
     "······#",
-    "·#·#·#·",
-    "····#·#",
-    "T··#··#"
+    "T#··#··",
+    "#···##S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·##····",
-    "··#··S·",
-    "##····#",
+    "·#··##·",
+    "···#··#",
+    "#·#·##·",
+    "···#··#",
     "······#",
-    "·#·#·#·",
-    "····#·#",
-    "T··#··#"
+    "T#··#··",
+    "#···##S"
    ],
-   "optimalMoves": 10
+   "optimalMoves": 9
   }
  },
  {
@@ -3049,26 +4381,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#S·#···",
-    "#····#·",
-    "#··#·#T",
-    "···#···",
-    "#······",
-    "··#·###",
-    "·····#·"
+    "·##·S··",
+    "···##·#",
+    "··#····",
+    "T······",
+    "#···#·#",
+    "···###·",
+    "#······"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#S·#···",
-    "#····#·",
-    "#··#·#T",
-    "···#···",
-    "#······",
-    "··#·###",
-    "·····#·"
+    "·##·S··",
+    "···##·#",
+    "··#····",
+    "T······",
+    "#···#·#",
+    "···###·",
+    "#······"
    ],
    "optimalMoves": 9
   }
@@ -3090,28 +4422,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "····S··",
+    "····#··",
     "·······",
-    "····T·#",
-    "·······",
-    "·····#·",
-    "··#····",
-    "··##···",
-    "··S·#··"
+    "······#",
+    "·#··#··",
+    "··#··##",
+    "·#····T"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "····S··",
+    "····#··",
     "·······",
-    "····T·#",
-    "·······",
-    "·····#·",
-    "··#····",
-    "··##···",
-    "··S·#··"
+    "······#",
+    "·#··#··",
+    "··#··##",
+    "·#····T"
    ],
-   "optimalMoves": 9
+   "optimalMoves": 10
   }
  },
  {
@@ -3131,28 +4463,274 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "····#T#",
-    "···#··#",
-    "··#···#",
+    "······#",
+    "··#·#··",
+    "S·#···#",
+    "#··##··",
     "#···#··",
-    "···#·#·",
-    "#······",
-    "#·S····"
+    "·······",
+    "··#··T#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "····#T#",
-    "···#··#",
-    "··#···#",
+    "······#",
+    "··#·#··",
+    "S·#···#",
+    "#··##··",
     "#···#··",
-    "···#·#·",
-    "#······",
-    "#·S····"
+    "·······",
+    "··#··T#"
    ],
    "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "····##·",
+    "T#·····",
+    "···#···",
+    "··#·#·S",
+    "····#··",
+    "······#",
+    "···#···"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "····##·",
+    "T#·····",
+    "···#···",
+    "··#·#·S",
+    "····#··",
+    "······#",
+    "···#···"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L7-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·······",
+    "·······",
+    "#T·····",
+    "······#",
+    "···#···",
+    "···##··",
+    "···#·#S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·······",
+    "·······",
+    "#T·····",
+    "······#",
+    "···#···",
+    "···##··",
+    "···#·#S"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····#·",
+    "#···#··",
+    "T··#···",
+    "##···#·",
+    "····#·#",
+    "·#·····",
+    "·#·#··S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····#·",
+    "#···#··",
+    "T··#···",
+    "##···#·",
+    "····#·#",
+    "·#·····",
+    "·#·#··S"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L7-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "···#···",
+    "······T",
+    "·#·····",
+    "·#·#···",
+    "·#·#·#·",
+    "#··#·##",
+    "··S#·#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "···#···",
+    "······T",
+    "·#·····",
+    "·#·#···",
+    "·#·#·#·",
+    "#··#·##",
+    "··S#·#·"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "##···#·",
+    "#··#··#",
+    "#···T··",
+    "·#·#··#",
+    "·#·····",
+    "S#···#·",
+    "···#··#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "##···#·",
+    "#··#··#",
+    "#···T··",
+    "·#·#··#",
+    "·#·····",
+    "S#···#·",
+    "···#··#"
+   ],
+   "optimalMoves": 9
+  }
+ },
+ {
+  "bankKey": "spg-L7-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 7,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#···T·",
+    "#·#····",
+    "#·##·#·",
+    "#····#·",
+    "··###··",
+    "S·#··#·",
+    "·······"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#···T·",
+    "#·#····",
+    "#·##·#·",
+    "#····#·",
+    "··###··",
+    "S·#··#·",
+    "·······"
+   ],
+   "optimalMoves": 10
   }
  },
  {
@@ -3172,26 +4750,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·····S·",
-    "·#·····",
-    "··##·#·",
-    "#··##·#",
-    "#T#··#·",
-    "##····#",
-    "··#·#··"
+    "S·#·#··",
+    "··#··##",
+    "·#·#···",
+    "···#···",
+    "···#···",
+    "····###",
+    "·#··T··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·····S·",
-    "·#·····",
-    "··##·#·",
-    "#··##·#",
-    "#T#··#·",
-    "##····#",
-    "··#·#··"
+    "S·#·#··",
+    "··#··##",
+    "·#·#···",
+    "···#···",
+    "···#···",
+    "····###",
+    "·#··T··"
    ],
    "optimalMoves": 10
   }
@@ -3213,28 +4791,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "##····T",
-    "#····#·",
-    "··#···#",
-    "#·····#",
-    "···#·#·",
-    "·S·##··",
-    "#···#·#"
+    "·##·T##",
+    "·##····",
+    "·##·#··",
+    "·####·#",
+    "#·###··",
+    "S······",
+    "·#···#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "##····T",
-    "#····#·",
-    "··#···#",
-    "#·····#",
-    "···#·#·",
-    "·S·##··",
-    "#···#·#"
+    "·##·T##",
+    "·##····",
+    "·##·#··",
+    "·####·#",
+    "#·###··",
+    "S······",
+    "·#···#·"
    ],
-   "optimalMoves": 10
+   "optimalMoves": 11
   }
  },
  {
@@ -3254,28 +4832,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#··#··#",
-    "·····#·",
-    "S··#···",
-    "·#····#",
-    "·#·····",
-    "#·###··",
-    "····T··"
+    "······#",
+    "·##·#·T",
+    "#···###",
+    "···#··#",
+    "S···#··",
+    "······#",
+    "·····#·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#··#··#",
-    "·····#·",
-    "S··#···",
-    "·#····#",
-    "·#·····",
-    "#·###··",
-    "····T··"
+    "······#",
+    "·##·#·T",
+    "#···###",
+    "···#··#",
+    "S···#··",
+    "······#",
+    "·····#·"
    ],
-   "optimalMoves": 10
+   "optimalMoves": 11
   }
  },
  {
@@ -3295,26 +4873,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·······",
-    "##····T",
-    "····#·#",
-    "·#··###",
-    "·###···",
-    "··S··#·",
-    "···#··#"
+    "T······",
+    "·#·#·#·",
+    "·##··#·",
+    "#···#·#",
+    "·#···##",
+    "#····S#",
+    "···#·##"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·······",
-    "##····T",
-    "····#·#",
-    "·#··###",
-    "·###···",
-    "··S··#·",
-    "···#··#"
+    "T······",
+    "·#·#·#·",
+    "·##··#·",
+    "#···#·#",
+    "·#···##",
+    "#····S#",
+    "···#·##"
    ],
    "optimalMoves": 12
   }
@@ -3336,26 +4914,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·······",
-    "·····##",
-    "S·#···#",
+    "T···##·",
+    "###····",
     "##·····",
+    "··#····",
     "·······",
-    "······T",
-    "·#·###·"
+    "·······",
+    "#····S·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·······",
-    "·····##",
-    "S·#···#",
+    "T···##·",
+    "###····",
     "##·····",
+    "··#····",
     "·······",
-    "······T",
-    "·#·###·"
+    "·······",
+    "#····S·"
    ],
    "optimalMoves": 11
   }
@@ -3377,26 +4955,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#··#··",
-    "·#·····",
-    "···#·#T",
-    "·#·····",
-    "S#···#·",
-    "·#···#·",
-    "#··#··#"
+    "#····S·",
+    "······#",
+    "·······",
+    "·#·#·#·",
+    "···#···",
+    "T······",
+    "·#··#·#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#··#··",
-    "·#·····",
-    "···#·#T",
-    "·#·····",
-    "S#···#·",
-    "·#···#·",
-    "#··#··#"
+    "#····S·",
+    "······#",
+    "·······",
+    "·#·#·#·",
+    "···#···",
+    "T······",
+    "·#··#·#"
    ],
    "optimalMoves": 10
   }
@@ -3418,26 +4996,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "S······",
-    "··#·##·",
-    "###···#",
-    "####···",
-    "···#···",
-    "·#·····",
-    "····T··"
+    "#S#··#·",
+    "····#··",
+    "#··#···",
+    "·····#T",
+    "·##··##",
+    "·#·#·##",
+    "#···##·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "S······",
-    "··#·##·",
-    "###···#",
-    "####···",
-    "···#···",
-    "·#·····",
-    "····T··"
+    "#S#··#·",
+    "····#··",
+    "#··#···",
+    "·····#T",
+    "·##··##",
+    "·#·#·##",
+    "#···##·"
    ],
    "optimalMoves": 10
   }
@@ -3459,26 +5037,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#··S···",
-    "#·#·#··",
-    "··#··#·",
-    "##·##··",
-    "···###·",
-    "···#···",
-    "··#··T·"
+    "····#··",
+    "#S#··##",
+    "#·##···",
+    "#···##·",
+    "·##·#·#",
+    "#······",
+    "#···#·T"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#··S···",
-    "#·#·#··",
-    "··#··#·",
-    "##·##··",
-    "···###·",
-    "···#···",
-    "··#··T·"
+    "····#··",
+    "#S#··##",
+    "#·##···",
+    "#···##·",
+    "·##·#·#",
+    "#······",
+    "#···#·T"
    ],
    "optimalMoves": 10
   }
@@ -3500,26 +5078,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·##·T#·",
     "····#··",
+    "·#S·#··",
     "·····#·",
-    "#·#··#·",
-    "·##··#·",
-    "#··#··#",
-    "·S···##"
+    "····#··",
+    "··#·#··",
+    "···#···",
+    "#·····T"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·##·T#·",
     "····#··",
+    "·#S·#··",
     "·····#·",
-    "#·#··#·",
-    "·##··#·",
-    "#··#··#",
-    "·S···##"
+    "····#··",
+    "··#·#··",
+    "···#···",
+    "#·····T"
    ],
    "optimalMoves": 11
   }
@@ -3541,26 +5119,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "T···#··",
-    "·····#·",
-    "·······",
+    "······#",
+    "##···#T",
+    "##·#···",
+    "······#",
     "#·#·#··",
-    "··#····",
-    "·····S·",
-    "#··#·##"
+    "#····#·",
+    "#S#·###"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "T···#··",
-    "·····#·",
-    "·······",
+    "······#",
+    "##···#T",
+    "##·#···",
+    "······#",
     "#·#·#··",
-    "··#····",
-    "·····S·",
-    "#··#·##"
+    "#····#·",
+    "#S#·###"
    ],
    "optimalMoves": 10
   }
@@ -3582,26 +5160,26 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#·····#",
-    "·····##",
-    "·····#·",
-    "·#·#··T",
-    "··##··#",
-    "S·#·##·",
-    "##··#·#"
+    "#···#·#",
+    "S#·#·#·",
+    "·······",
+    "#······",
+    "·······",
+    "#·##·#T",
+    "#···###"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#·····#",
-    "·····##",
-    "·····#·",
-    "·#·#··T",
-    "··##··#",
-    "S·#·##·",
-    "##··#·#"
+    "#···#·#",
+    "S#·#·#·",
+    "·······",
+    "#······",
+    "·······",
+    "#·##·#T",
+    "#···###"
    ],
    "optimalMoves": 10
   }
@@ -3623,26 +5201,272 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#·#··#",
-    "··#··#·",
-    "##·##·S",
-    "#···#··",
-    "#··#···",
-    "·T#····",
-    "#····#·"
+    "····#··",
+    "·S#····",
+    "·······",
+    "·##··#·",
+    "·#·##··",
+    "··#·#··",
+    "··#··T·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#·#··#",
-    "··#··#·",
-    "##·##·S",
-    "#···#··",
-    "#··#···",
-    "·T#····",
-    "#····#·"
+    "····#··",
+    "·S#····",
+    "·······",
+    "·##··#·",
+    "·#·##··",
+    "··#·#··",
+    "··#··T·"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L8-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#····",
+    "T······",
+    "····##·",
+    "#··#·##",
+    "·······",
+    "··#·#··",
+    "···#S··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#····",
+    "T······",
+    "····##·",
+    "#··#·##",
+    "·······",
+    "··#·#··",
+    "···#S··"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L8-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··##T##",
+    "·····##",
+    "·#···##",
+    "##·##·#",
+    "S#·····",
+    "·····#·",
+    "··#··##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··##T##",
+    "·····##",
+    "·#···##",
+    "##·##·#",
+    "S#·····",
+    "·····#·",
+    "··#··##"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##···S",
+    "·······",
+    "·#·····",
+    "·······",
+    "····##·",
+    "·T·#···",
+    "#···##·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##···S",
+    "·······",
+    "·#·····",
+    "·······",
+    "····##·",
+    "·T·#···",
+    "#···##·"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·T···#·",
+    "#·#····",
+    "#··#·##",
+    "·##····",
+    "·###···",
+    "·#·····",
+    "#····S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·T···#·",
+    "#·#····",
+    "#··#·##",
+    "·##····",
+    "·###···",
+    "·#·····",
+    "#····S·"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·##··#·",
+    "·#····S",
+    "#······",
+    "··###··",
+    "#·#··#·",
+    "#·#·#··",
+    "·T#·#·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·##··#·",
+    "·#····S",
+    "#······",
+    "··###··",
+    "#·#··#·",
+    "#·#·#··",
+    "·T#·#·#"
+   ],
+   "optimalMoves": 10
+  }
+ },
+ {
+  "bankKey": "spg-L8-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 8,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "S##····",
+    "·#·····",
+    "·#····T",
+    "···##··",
+    "#····##",
+    "·····#·",
+    "·····##"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "S##····",
+    "·#·····",
+    "·#····T",
+    "···##··",
+    "#····##",
+    "·····#·",
+    "·····##"
    ],
    "optimalMoves": 10
   }
@@ -3664,28 +5488,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#·····#",
-    "T###····",
-    "··#···#·",
-    "·##····S",
-    "··#··##·",
-    "·····#··",
-    "······#·",
-    "###·····"
+    "·····#·#",
+    "·#····#S",
+    "··#··#··",
+    "··#·····",
+    "··#·····",
+    "···#·#·#",
+    "····#···",
+    "T·······"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#·····#",
-    "T###····",
-    "··#···#·",
-    "·##····S",
-    "··#··##·",
-    "·····#··",
-    "······#·",
-    "###·····"
+    "·····#·#",
+    "·#····#S",
+    "··#··#··",
+    "··#·····",
+    "··#·····",
+    "···#·#·#",
+    "····#···",
+    "T·······"
    ],
    "optimalMoves": 13
   }
@@ -3707,30 +5531,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
+    "····#···",
+    "·##····T",
+    "······#·",
+    "#·#·#···",
+    "#·#·##··",
     "#··##··#",
-    "·······S",
-    "···#····",
-    "···#·#·#",
-    "········",
-    "#······#",
-    "········",
-    "··T·#···"
+    "S·······",
+    "#·····##"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
+    "····#···",
+    "·##····T",
+    "······#·",
+    "#·#·#···",
+    "#·#·##··",
     "#··##··#",
-    "·······S",
-    "···#····",
-    "···#·#·#",
-    "········",
-    "#······#",
-    "········",
-    "··T·#···"
+    "S·······",
+    "#·····##"
    ],
-   "optimalMoves": 11
+   "optimalMoves": 12
   }
  },
  {
@@ -3750,30 +5574,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "···##T··",
-    "#····#··",
-    "·#·····#",
-    "##··##··",
-    "###·#·#·",
-    "········",
-    "·····#·#",
-    "·S·#·#··"
+    "·T#·#·#·",
+    "#··#····",
+    "·#·#···#",
+    "···#·#·#",
+    "··#·····",
+    "#···#··#",
+    "·····S##",
+    "·#····##"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "···##T··",
-    "#····#··",
-    "·#·····#",
-    "##··##··",
-    "###·#·#·",
-    "········",
-    "·····#·#",
-    "·S·#·#··"
+    "·T#·#·#·",
+    "#··#····",
+    "·#·#···#",
+    "···#·#·#",
+    "··#·····",
+    "#···#··#",
+    "·····S##",
+    "·#····##"
    ],
-   "optimalMoves": 13
+   "optimalMoves": 12
   }
  },
  {
@@ -3793,30 +5617,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "S···#···",
-    "··#···##",
-    "········",
-    "···#····",
-    "········",
-    "···#·#·T",
-    "#····#··",
-    "##·#····"
+    "······#·",
+    "····#S··",
+    "#·#···#·",
+    "#····##·",
+    "·#···#·#",
+    "#·····##",
+    "#··#····",
+    "T····##·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "S···#···",
-    "··#···##",
-    "········",
-    "···#····",
-    "········",
-    "···#·#·T",
-    "#····#··",
-    "##·#····"
+    "······#·",
+    "····#S··",
+    "#·#···#·",
+    "#····##·",
+    "·#···#·#",
+    "#·····##",
+    "#··#····",
+    "T····##·"
    ],
-   "optimalMoves": 12
+   "optimalMoves": 11
   }
  },
  {
@@ -3836,28 +5660,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "T···#·#·",
-    "#·······",
-    "·###···#",
-    "###·#···",
-    "······##",
-    "·#·#··#·",
-    "···S·#·#",
-    "·###·##·"
+    "·····##S",
+    "··#·##··",
+    "·#····#·",
+    "·#······",
+    "········",
+    "···#····",
+    "·#···#··",
+    "·T······"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "T···#·#·",
-    "#·······",
-    "·###···#",
-    "###·#···",
-    "······##",
-    "·#·#··#·",
-    "···S·#·#",
-    "·###·##·"
+    "·····##S",
+    "··#·##··",
+    "·#····#·",
+    "·#······",
+    "········",
+    "···#····",
+    "·#···#··",
+    "·T······"
    ],
    "optimalMoves": 13
   }
@@ -3879,30 +5703,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "····T###",
-    "······#·",
-    "###·····",
-    "#·##····",
+    "·······S",
+    "·····#··",
+    "····#··#",
+    "##···#··",
+    "·#···#·#",
     "········",
-    "#··###··",
-    "··#··#··",
-    "S····#·#"
+    "··#·##··",
+    "#T··#··#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "····T###",
-    "······#·",
-    "###·····",
-    "#·##····",
+    "·······S",
+    "·····#··",
+    "····#··#",
+    "##···#··",
+    "·#···#·#",
     "········",
-    "#··###··",
-    "··#··#··",
-    "S····#·#"
+    "··#·##··",
+    "#T··#··#"
    ],
-   "optimalMoves": 11
+   "optimalMoves": 13
   }
  },
  {
@@ -3922,30 +5746,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··##·#··",
-    "··#···#S",
-    "·#···#··",
-    "········",
-    "··#·#··#",
-    "····#·##",
-    "###·····",
-    "·T······"
+    "S··##···",
+    "···#·##·",
+    "·····#··",
+    "···##···",
+    "·#······",
+    "···#·#··",
+    "·····T#·",
+    "#·#·····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··##·#··",
-    "··#···#S",
-    "·#···#··",
-    "········",
-    "··#·#··#",
-    "····#·##",
-    "###·····",
-    "·T······"
+    "S··##···",
+    "···#·##·",
+    "·····#··",
+    "···##···",
+    "·#······",
+    "···#·#··",
+    "·····T#·",
+    "#·#·····"
    ],
-   "optimalMoves": 12
+   "optimalMoves": 11
   }
  },
  {
@@ -3965,30 +5789,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#·S···##",
-    "···#···#",
-    "··#··#··",
-    "··#·#···",
-    "·##···##",
-    "#···#···",
-    "·##···#·",
-    "T···#···"
+    "S··##···",
+    "······#·",
+    "·##·#···",
+    "·#···#··",
+    "#···#T··",
+    "········",
+    "·#·#··#·",
+    "···#·###"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#·S···##",
-    "···#···#",
-    "··#··#··",
-    "··#·#···",
-    "·##···##",
-    "#···#···",
-    "·##···#·",
-    "T···#···"
+    "S··##···",
+    "······#·",
+    "·##·#···",
+    "·#···#··",
+    "#···#T··",
+    "········",
+    "·#·#··#·",
+    "···#·###"
    ],
-   "optimalMoves": 13
+   "optimalMoves": 11
   }
  },
  {
@@ -4008,28 +5832,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#·#··S·",
-    "··##·#··",
-    "··###··#",
-    "··#····#",
-    "···#····",
-    "·#·#··#·",
-    "······#·",
-    "T·##····"
+    "S·····#·",
+    "·····#·#",
+    "·····##T",
+    "··#···#·",
+    "·#··#···",
+    "·#·#····",
+    "##···###",
+    "···#····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#·#··S·",
-    "··##·#··",
-    "··###··#",
-    "··#····#",
-    "···#····",
-    "·#·#··#·",
-    "······#·",
-    "T·##····"
+    "S·····#·",
+    "·····#·#",
+    "·····##T",
+    "··#···#·",
+    "·#··#···",
+    "·#·#····",
+    "##···###",
+    "···#····"
    ],
    "optimalMoves": 13
   }
@@ -4051,28 +5875,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#·S··##",
-    "#···#··#",
-    "##·#····",
-    "#··#····",
-    "··####·#",
-    "········",
-    "·#··###·",
-    "#·#·#·T·"
+    "·#·#·#·#",
+    "··#····S",
+    "····#··#",
+    "····#···",
+    "···#····",
+    "#·····#·",
+    "#···###·",
+    "·T···#··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#·S··##",
-    "#···#··#",
-    "##·#····",
-    "#··#····",
-    "··####·#",
-    "········",
-    "·#··###·",
-    "#·#·#·T·"
+    "·#·#·#·#",
+    "··#····S",
+    "····#··#",
+    "····#···",
+    "···#····",
+    "#·····#·",
+    "#···###·",
+    "·T···#··"
    ],
    "optimalMoves": 12
   }
@@ -4094,30 +5918,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·······S",
-    "········",
-    "····#·##",
-    "·###···#",
-    "####····",
-    "··#·····",
-    "·T······",
-    "····##··"
+    "······#·",
+    "·#·##T#·",
+    "#···##··",
+    "###·#···",
+    "#·······",
+    "S···#···",
+    "#·#···#·",
+    "·······#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·······S",
-    "········",
-    "····#·##",
-    "·###···#",
-    "####····",
-    "··#·····",
-    "·T······",
-    "····##··"
+    "······#·",
+    "·#·##T#·",
+    "#···##··",
+    "###·#···",
+    "#·······",
+    "S···#···",
+    "#·#···#·",
+    "·······#"
    ],
-   "optimalMoves": 12
+   "optimalMoves": 13
   }
  },
  {
@@ -4137,28 +5961,286 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·······#",
-    "··T····#",
-    "·#·#····",
-    "····#···",
-    "···#····",
-    "········",
-    "#···#···",
-    "···##··S"
+    "#·#T····",
+    "·#·····#",
+    "##··#··#",
+    "··#··#·#",
+    "·····##·",
+    "·····###",
+    "·#···#··",
+    "·#·····S"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·······#",
-    "··T····#",
-    "·#·#····",
+    "#·#T····",
+    "·#·····#",
+    "##··#··#",
+    "··#··#·#",
+    "·····##·",
+    "·····###",
+    "·#···#··",
+    "·#·····S"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L9-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·······",
+    "··S··##·",
+    "··#··#··",
+    "···##·#·",
+    "······#·",
     "····#···",
+    "·····#··",
+    "·#·#·T#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·······",
+    "··S··##·",
+    "··#··#··",
+    "···##·#·",
+    "······#·",
+    "····#···",
+    "·····#··",
+    "·#·#·T#·"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L9-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·····#··",
+    "·#····#·",
+    "·#·#··##",
+    "·····##S",
+    "····#···",
+    "··#····#",
+    "·T·##·##",
+    "··#·····"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·····#··",
+    "·#····#·",
+    "·#·#··##",
+    "·····##S",
+    "····#···",
+    "··#····#",
+    "·T·##·##",
+    "··#·····"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L9-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#······T",
+    "·#·····#",
+    "···#####",
+    "··#·····",
+    "··S···#·",
+    "·##·###·",
+    "###·····",
+    "······#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#······T",
+    "·#·····#",
+    "···#####",
+    "··#·····",
+    "··S···#·",
+    "·##·###·",
+    "###·····",
+    "······#·"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L9-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·T···#·#",
+    "#······#",
+    "·····##·",
     "···#····",
+    "·····#·#",
     "········",
-    "#···#···",
-    "···##··S"
+    "#·#·#··S",
+    "··##···#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·T···#·#",
+    "#······#",
+    "·····##·",
+    "···#····",
+    "·····#·#",
+    "········",
+    "#·#·#··S",
+    "··##···#"
+   ],
+   "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L9-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·#··T··",
+    "··#··###",
+    "·#···##·",
+    "·##···#·",
+    "········",
+    "········",
+    "········",
+    "##····#S"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·#··T··",
+    "··#··###",
+    "·#···##·",
+    "·##···#·",
+    "········",
+    "········",
+    "········",
+    "##····#S"
+   ],
+   "optimalMoves": 11
+  }
+ },
+ {
+  "bankKey": "spg-L9-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 9,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#····S",
+    "·##··##·",
+    "··#·····",
+    "·····##·",
+    "T···#··#",
+    "#····#··",
+    "········",
+    "········"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#····S",
+    "·##··##·",
+    "··#·····",
+    "·····##·",
+    "T···#··#",
+    "#····#··",
+    "········",
+    "········"
    ],
    "optimalMoves": 11
   }
@@ -4180,28 +6262,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#·#···##",
-    "··###·T#",
-    "········",
-    "#·······",
-    "········",
-    "·##··#·#",
-    "···#···#",
-    "S·#··#·#"
+    "·S·#···#",
+    "··#····#",
+    "······#·",
+    "··##····",
+    "#·····#·",
+    "···##·#·",
+    "··##····",
+    "···#··T#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#·#···##",
-    "··###·T#",
-    "········",
-    "#·······",
-    "········",
-    "·##··#·#",
-    "···#···#",
-    "S·#··#·#"
+    "·S·#···#",
+    "··#····#",
+    "······#·",
+    "··##····",
+    "#·····#·",
+    "···##·#·",
+    "··##····",
+    "···#··T#"
    ],
    "optimalMoves": 12
   }
@@ -4223,30 +6305,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#·S#···#",
-    "##······",
+    "·#··#··#",
+    "·#·#····",
+    "·S··###·",
+    "··####·#",
     "········",
-    "······#·",
-    "###··#··",
-    "··##·##·",
     "·##·#·#·",
-    "·#··#·T·"
+    "·#····#·",
+    "#·#·##T·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#·S#···#",
-    "##······",
+    "·#··#··#",
+    "·#·#····",
+    "·S··###·",
+    "··####·#",
     "········",
-    "······#·",
-    "###··#··",
-    "··##·##·",
     "·##·#·#·",
-    "·#··#·T·"
+    "·#····#·",
+    "#·#·##T·"
    ],
-   "optimalMoves": 13
+   "optimalMoves": 12
   }
  },
  {
@@ -4266,30 +6348,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "##··#·#·",
-    "S#····#·",
-    "·##·##··",
-    "····###·",
-    "········",
-    "#·······",
-    "···##·#T",
-    "·#··#···"
+    "···T···#",
+    "··###···",
+    "··###··#",
+    "#··#·#··",
+    "#···##·#",
+    "······#·",
+    "#···#··#",
+    "##··##S·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "##··#·#·",
-    "S#····#·",
-    "·##·##··",
-    "····###·",
-    "········",
-    "#·······",
-    "···##·#T",
-    "·#··#···"
+    "···T···#",
+    "··###···",
+    "··###··#",
+    "#··#·#··",
+    "#···##·#",
+    "······#·",
+    "#···#··#",
+    "##··##S·"
    ],
-   "optimalMoves": 12
+   "optimalMoves": 14
   }
  },
  {
@@ -4309,30 +6391,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#···##T",
-    "···#····",
-    "·#····##",
-    "·#···##·",
-    "······#·",
-    "··###··#",
-    "·#·#····",
-    "S·#·##··"
+    "T··#··#·",
+    "·····#·#",
+    "###·····",
+    "·#··#···",
+    "#···#···",
+    "········",
+    "·##··#··",
+    "###··S·#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#···##T",
-    "···#····",
-    "·#····##",
-    "·#···##·",
-    "······#·",
-    "··###··#",
-    "·#·#····",
-    "S·#·##··"
+    "T··#··#·",
+    "·····#·#",
+    "###·····",
+    "·#··#···",
+    "#···#···",
+    "········",
+    "·##··#··",
+    "###··S·#"
    ],
-   "optimalMoves": 14
+   "optimalMoves": 12
   }
  },
  {
@@ -4352,28 +6434,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#S··#·#·",
-    "#·#·#·##",
-    "#······#",
-    "····##··",
-    "####···#",
+    "·#·#··#·",
+    "#·T##···",
     "#·#·#···",
-    "······#T",
-    "#··#·#··"
+    "····#··#",
+    "·#··##·#",
+    "##······",
+    "#····###",
+    "···#··S·"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#S··#·#·",
-    "#·#·#·##",
-    "#······#",
-    "····##··",
-    "####···#",
+    "·#·#··#·",
+    "#·T##···",
     "#·#·#···",
-    "······#T",
-    "#··#·#··"
+    "····#··#",
+    "·#··##·#",
+    "##······",
+    "#····###",
+    "···#··S·"
    ],
    "optimalMoves": 12
   }
@@ -4395,30 +6477,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "····#··#",
-    "·······#",
-    "#·#·#··S",
-    "#·####··",
-    "#·##····",
-    "#··#·#··",
-    "#··###··",
-    "··T#·#··"
+    "####·#T·",
+    "··#··##·",
+    "#·#·····",
+    "##··##··",
+    "···#·##·",
+    "#··###·#",
+    "#S··#···",
+    "##··##·#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "····#··#",
-    "·······#",
-    "#·#·#··S",
-    "#·####··",
-    "#·##····",
-    "#··#·#··",
-    "#··###··",
-    "··T#·#··"
+    "####·#T·",
+    "··#··##·",
+    "#·#·····",
+    "##··##··",
+    "···#·##·",
+    "#··###·#",
+    "#S··#···",
+    "##··##·#"
    ],
-   "optimalMoves": 14
+   "optimalMoves": 13
   }
  },
  {
@@ -4438,28 +6520,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#···##··",
-    "···#···#",
-    "T#····##",
-    "··#···#·",
-    "#·##····",
-    "#·······",
-    "·······#",
-    "··#····S"
+    "··###···",
+    "·#····T#",
+    "·····#··",
+    "##··##··",
+    "··#·····",
+    "·#·#····",
+    "········",
+    "S···##··"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#···##··",
-    "···#···#",
-    "T#····##",
-    "··#···#·",
-    "#·##····",
-    "#·······",
-    "·······#",
-    "··#····S"
+    "··###···",
+    "·#····T#",
+    "·····#··",
+    "##··##··",
+    "··#·····",
+    "·#·#····",
+    "········",
+    "S···##··"
    ],
    "optimalMoves": 12
   }
@@ -4481,30 +6563,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··#·#··#",
-    "·#·##T··",
-    "#····#·#",
-    "·······#",
-    "#·#···#·",
-    "····##··",
-    "···##·#·",
-    "S·······"
+    "··#···T·",
+    "·····##·",
+    "·######·",
+    "###·····",
+    "S·····#·",
+    "·##·····",
+    "·#·##···",
+    "···#····"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··#·#··#",
-    "·#·##T··",
-    "#····#·#",
-    "·······#",
-    "#·#···#·",
-    "····##··",
-    "···##·#·",
-    "S·······"
+    "··#···T·",
+    "·····##·",
+    "·######·",
+    "###·····",
+    "S·····#·",
+    "·##·····",
+    "·#·##···",
+    "···#····"
    ],
-   "optimalMoves": 13
+   "optimalMoves": 12
   }
  },
  {
@@ -4524,28 +6606,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#···#··",
-    "··#···T#",
-    "#··#··#·",
-    "···#····",
-    "·#·····#",
-    "···#····",
-    "#·······",
-    "S·······"
+    "·###T···",
+    "·#·##···",
+    "········",
+    "·#··###·",
+    "·#·#··#·",
+    "······#·",
+    "#·##···#",
+    "·S#····#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#···#··",
-    "··#···T#",
-    "#··#··#·",
-    "···#····",
-    "·#·····#",
-    "···#····",
-    "#·······",
-    "S·······"
+    "·###T···",
+    "·#·##···",
+    "········",
+    "·#··###·",
+    "·#·#··#·",
+    "······#·",
+    "#·##···#",
+    "·S#····#"
    ],
    "optimalMoves": 12
   }
@@ -4567,30 +6649,30 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "·#··#·#·",
-    "S##·###·",
-    "·····#··",
-    "··###···",
-    "#······#",
-    "·#·#·#··",
-    "·#·#·##·",
-    "·#··##·T"
+    "·##·#S··",
+    "#·#··#·#",
+    "###·#··#",
+    "··#···##",
+    "#·····#·",
+    "········",
+    "##·#··##",
+    "··T·#··#"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "·#··#·#·",
-    "S##·###·",
-    "·····#··",
-    "··###···",
-    "#······#",
-    "·#·#·#··",
-    "·#·#·##·",
-    "·#··##·T"
+    "·##·#S··",
+    "#·#··#·#",
+    "###·#··#",
+    "··#···##",
+    "#·····#·",
+    "········",
+    "##·#··##",
+    "··T·#··#"
    ],
-   "optimalMoves": 13
+   "optimalMoves": 12
   }
  },
  {
@@ -4610,28 +6692,28 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "··##··S·",
-    "#·#·##··",
-    "···#·#··",
-    "····#···",
-    "#·······",
-    "····##··",
-    "T··#·#··",
-    "·##·#·#·"
+    "·S·#··#·",
+    "·····###",
+    "#·#·····",
+    "····#··#",
+    "##·#·#·#",
+    "·###····",
+    "#····T··",
+    "#···#···"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "··##··S·",
-    "#·#·##··",
-    "···#·#··",
-    "····#···",
-    "#·······",
-    "····##··",
-    "T··#·#··",
-    "·##·#·#·"
+    "·S·#··#·",
+    "·····###",
+    "#·#·····",
+    "····#··#",
+    "##·#·#·#",
+    "·###····",
+    "#····T··",
+    "#···#···"
    ],
    "optimalMoves": 12
   }
@@ -4653,30 +6735,288 @@
    "kind": "grid_path",
    "instruction": "Plan a route from S to T. Walls (#) block the way.",
    "rows": [
-    "#···#···",
-    "·····#T#",
-    "··#·····",
-    "·#···#··",
-    "#···#·#·",
-    "·#··#·#·",
-    "·#·#····",
-    "S····##·"
+    "···#·#·#",
+    "·#·#·#·T",
+    "···#·##·",
+    "·#·##···",
+    "·#····##",
+    "··#··#··",
+    "·S##··#·",
+    "········"
    ],
    "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
   },
   "answerData": {
    "scoringMode": "deliberate",
    "rows": [
-    "#···#···",
-    "·····#T#",
-    "··#·····",
-    "·#···#··",
-    "#···#·#·",
-    "·#··#·#·",
-    "·#·#····",
-    "S····##·"
+    "···#·#·#",
+    "·#·#·#·T",
+    "···#·##·",
+    "·#·##···",
+    "·#····##",
+    "··#··#··",
+    "·S##··#·",
+    "········"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L10-13",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·····S",
+    "·#··##·#",
+    "#··#·#·#",
+    "······#·",
+    "····#···",
+    "··##····",
+    "·T··#·#·",
+    "····##··"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·····S",
+    "·#··##·#",
+    "#··#·#·#",
+    "······#·",
+    "····#···",
+    "··##····",
+    "·T··#·#·",
+    "····##··"
    ],
    "optimalMoves": 12
+  }
+ },
+ {
+  "bankKey": "spg-L10-14",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "·#·##T·#",
+    "····#···",
+    "#·#··##·",
+    "#···#···",
+    "##·#····",
+    "·····##·",
+    "#····###",
+    "·#S···#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "·#·##T·#",
+    "····#···",
+    "#·#··##·",
+    "#···#···",
+    "##·#····",
+    "·····##·",
+    "#····###",
+    "·#S···#·"
+   ],
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "spg-L10-15",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "··#··S··",
+    "··##····",
+    "····##··",
+    "#··#····",
+    "·#···##·",
+    "·····#·#",
+    "#··#···#",
+    "#T##·#·#"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "··#··S··",
+    "··##····",
+    "····##··",
+    "#··#····",
+    "·#···##·",
+    "·····#·#",
+    "#··#···#",
+    "#T##·#·#"
+   ],
+   "optimalMoves": 13
+  }
+ },
+ {
+  "bankKey": "spg-L10-16",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#·S#···#",
+    "········",
+    "#·#··#··",
+    "····#···",
+    "#··#···#",
+    "·#··#··#",
+    "·#··#·#·",
+    "·······T"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#·S#···#",
+    "········",
+    "#·#··#··",
+    "····#···",
+    "#··#···#",
+    "·#··#··#",
+    "·#··#·#·",
+    "·······T"
+   ],
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "spg-L10-17",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#T#··#··",
+    "#···###·",
+    "····#···",
+    "······##",
+    "·#··##··",
+    "··#··##·",
+    "·#·##···",
+    "······S·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#T#··#··",
+    "#···###·",
+    "····#···",
+    "······##",
+    "·#··##··",
+    "··#··##·",
+    "·#·##···",
+    "······S·"
+   ],
+   "optimalMoves": 14
+  }
+ },
+ {
+  "bankKey": "spg-L10-18",
+  "category": "strategic_planning",
+  "challengeType": "grid_path",
+  "level": 10,
+  "version": 1,
+  "active": true,
+  "scoringConfig": {
+   "scoringMode": "deliberate",
+   "expectedMedianMs": 30000,
+   "deliberate": true
+  },
+  "rendererType": "planning_sequence",
+  "promptData": {
+   "kind": "grid_path",
+   "instruction": "Plan a route from S to T. Walls (#) block the way.",
+   "rows": [
+    "#···#·#·",
+    "·T#····#",
+    "·#·#·#··",
+    "#···#···",
+    "··#··#··",
+    "·###····",
+    "·##···#·",
+    "····#S#·"
+   ],
+   "hint": "Type your moves as U, D, L, R (up, down, left, right), like \"R, R, D, D\" or \"RRDD\". Any legal route that reaches T counts; shorter routes score higher. No clock."
+  },
+  "answerData": {
+   "scoringMode": "deliberate",
+   "rows": [
+    "#···#·#·",
+    "·T#····#",
+    "·#·#·#··",
+    "#···#···",
+    "··#··#··",
+    "·###····",
+    "·##···#·",
+    "····#S#·"
+   ],
+   "optimalMoves": 14
   }
  }
 ]

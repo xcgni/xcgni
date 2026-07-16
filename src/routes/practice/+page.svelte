@@ -24,6 +24,13 @@
   let enabled = new Set(data.categories.filter((c) => c.enabled).map((c) => c.slug));
   let savedFlash = false;
   let categoryForm: HTMLFormElement;
+  const humanize = (t: string) => t.replace(/_/g, ' ');
+  const PLANNING_TYPES = [
+    ['hanoi', 'Planning: Hanoi', 'Restack the tower under its one rule. Scored on how close your plan runs to the optimal move count.'],
+    ['grid_path', 'Planning: Grid path', 'Plot a route through the grid before you move. Foresight over speed.'],
+    ['number_path', 'Planning: Number path', 'Chain the numbers to reach the target - order is everything.'],
+    ['step_order', 'Planning: Step order', 'Put the scrambled steps of a plan back into working order.']
+  ];
 
   function practiceHref(slug: string): string {
     if (slug === 'retention') return '/practice/retention';
@@ -113,6 +120,43 @@
     >
       <div class="grid grid-cols-1 gap-px border border-edge bg-edge sm:grid-cols-2 lg:grid-cols-3">
         {#each data.categories as cat}
+          {#if cat.slug === 'strategic_planning' && cat.implemented}
+            <!-- One rating, four faces: each planning family gets a full card like any
+                 other test. The mix checkbox lives on the first card and governs the
+                 whole category - measurement stays unified underneath. -->
+            {#each PLANNING_TYPES as [tslug, tlabel, tdesc], ti}
+              <div class="flex flex-col gap-2 bg-ink p-4">
+                <div class="flex items-start justify-between gap-2">
+                  <p class="text-sm text-body">{tlabel}</p>
+                  <span class="label whitespace-nowrap text-[10px] text-muted">one rating</span>
+                </div>
+                <p class="text-xs leading-snug text-muted">{tdesc}</p>
+                <div class="mt-auto flex items-center justify-between gap-2 pt-1">
+                  {#if ti === 0}
+                    <label class="flex cursor-pointer items-center gap-2 text-xs text-muted">
+                      <input
+                        type="checkbox"
+                        name="category"
+                        value={cat.slug}
+                        checked={enabled.has(cat.slug)}
+                        on:change={(e) => {
+                          if (e.currentTarget.checked) enabled.add(cat.slug);
+                          else enabled.delete(cat.slug);
+                          enabled = enabled;
+                          e.currentTarget.form?.requestSubmit();
+                        }}
+                        class="h-4 w-4 accent-[rgb(var(--c-accent))]"
+                      />
+                      In mix (all four)
+                    </label>
+                  {:else}
+                    <span class="text-[11px] text-muted">Shares the planning rating</span>
+                  {/if}
+                  <a href={practiceHref(cat.slug) + '&type=' + tslug} class="btn text-xs">Train</a>
+                </div>
+              </div>
+            {/each}
+          {:else}
           <div class="flex flex-col gap-2 bg-ink p-4">
             <div class="flex items-start justify-between gap-2">
               <p class="text-sm text-body">{catName(cat.slug, cat.name)}</p>
@@ -139,9 +183,13 @@
                   In mix
                 </label>
                 <a href={practiceHref(cat.slug)} class="btn text-xs">Train</a>
+                {#if cat.types && cat.types.length > 1}
+                  <p class="mt-1 text-[11px] text-muted">Includes: {cat.types.map(humanize).join(', ')}</p>
+                {/if}
               </div>
             {/if}
           </div>
+          {/if}
         {/each}
       </div>
     </form>

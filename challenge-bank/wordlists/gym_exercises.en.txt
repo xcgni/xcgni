@@ -1,0 +1,23 @@
+benchpress
+burpee
+crunch
+curl
+deadlift
+dip
+jumping jacks
+kettlebell swing
+legpress
+lunge
+pilates
+plank
+press
+pullup
+pushup
+row
+shrug
+situp
+sprint
+squat
+stretch
+treadmill
+yoga

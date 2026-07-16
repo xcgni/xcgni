@@ -1,0 +1,24 @@
+blue cheese
+brie
+camembert
+cheddar
+cottage cheese
+cream cheese
+edam
+emmental
+feta
+goat cheese
+gorgonzola
+gouda
+gruyere
+halloumi
+havarti
+manchego
+mascarpone
+mozzarella
+parmesan
+provolone
+ricotta
+roquefort
+stilton
+swiss

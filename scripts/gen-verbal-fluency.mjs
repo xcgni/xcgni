@@ -35,6 +35,7 @@ const uniq = [...new Set(WORDS)];
 
 function startsWith(p) { return uniq.filter(w => w.startsWith(p)); }
 function endsWith(s) { return uniq.filter(w => w.length > s.length && w.endsWith(s)); }
+function containsPat(p) { return uniq.filter(w => w.length > p.length && w.includes(p)); }
 
 // per-level constraint pools - generous so 20 with usable accept-lists are always findable. The
 // generator filters to constraints that actually have >=4 words in the lexicon, so extra candidates
@@ -56,23 +57,46 @@ const LEVELS = {
   8: ['ph','kn','wr','wh','qu','sc','ch','sh','th','tr','st','sp','sw','sn','sl','sm','pl','pr','gr','gl','cr','cl','bl','br','fr','fl'].map(c => ['start', c]).concat(['sk','tw','dr','spr','str','squ','spl','scr','thr'].map(c => ['start', c]))
 };
 
+export function mintConstraintFluency(perLevel = 25) {
+const EXTRA_START = {
+  2: ['bo','bu','ca','cu','do','du','fa','fe','fu','ga','go','gu','ha','hu','ju','ka','ki','ku','la','lu','mi','mu','na','ne','ni','nu','pe','pi','pu','ra','ro','ru','si','su','ta','ti','tu','va','vi','vo','wa','wo','ya','yo','za','ze'],
+  3: ['bra','bri','cha','che','cla','cra','dra','fla','fra','gra','gri','pla','pre','pri','sha','she','sho','sla','sma','sno','spa','spe','spi','sta','ste','sti','swa','swe','tra','tri','tro','twi','wha','whe','whi'],
+  5: ['ad','af','ag','ai','al','am','an','ap','ar','as','at','au','av','aw','ea','ed','ef','eg','el','em','en','ep','eq','es','ev','ex','id','il','im','ir','is','ob','oc','od','of','ol','om','op','or','os','ov','ow','ug','ul','um','up','ur','us','ut'],
+  8: ['kn','wr','ps','gn','rh','xy','ze','zi','zo','ya','ye','yi','yo','yu','ja','je','ji','jo','ju','qua','que','qui','quo']
+};
+const EXTRA_END = {
+  4: ['ck','ff','ll','ss','zz','oo','ee','mp','nd','nk','nt','ct','pt','sk','sp','st','lk','lm','ln','lp','lt','rb','rd','rk','rm','rn','rp','rt'],
+  7: ['ance','ence','ship','hood','dom','ward','wise','some','fold','most','like','ling','let','kin','ery','ary','ory','ism','ist','ize','ise','ify','ate','ure','ade','age'],
+  8: ['x','z','q','j','gue','que','gh','ght','mb','mn','bt','lf','lves','ves','ces','ges','ses','xes','zes','tch','dge','nge','rse','nse','pse']
+};
+for (const [lvl, arr] of Object.entries(EXTRA_START)) LEVELS[lvl] = LEVELS[lvl].concat(arr.map((c) => ['start', c]));
+for (const [lvl, arr] of Object.entries(EXTRA_END)) LEVELS[lvl] = LEVELS[lvl].concat(arr.map((c) => ['end', c]));
+const EXTRA_CONTAIN = {
+  5: ['oo','ee','ea','ou','ai','oa','ie','ay','oy','au','aw','ew','ar','er','ir','or','ur','al','el','il'],
+  6: ['th','ch','sh','ck','ng','qu','ph','wh','mp','nk','nd','ft','ld','lt','rt','rd','ss','ll','tt','pp','mm','nn','rr','dd','ct','st','sp','sk'],
+  8: ['ough','ight','tion','ound','ance','ttle']
+};
+for (const [lvl, arr] of Object.entries(EXTRA_CONTAIN)) LEVELS[lvl] = LEVELS[lvl].concat(arr.map((c) => ['contain', c]));
+
 const out = [];
+const used = new Set(); // GLOBAL: a constraint is one prompt; first level wins
 for (let level = 1; level <= 8; level++) {
   const pool = LEVELS[level];
-  const used = new Set();
   let made = 0;
   for (const [type, pat] of pool) {
-    if (made >= 20) break;
+    if (made >= perLevel) break;
     if (used.has(type + pat)) continue;
-    const list = type === 'start' ? startsWith(pat) : endsWith(pat);
+    const list = type === 'start' ? startsWith(pat) : type === 'contain' ? containsPat(pat) : endsWith(pat);
     if (list.length < 4) continue; // need a usable accept-list
     used.add(type + pat);
     made++;
     const label = type === 'start'
       ? `Words starting with '${pat.toUpperCase()}'`
-      : `Words ending in '${pat.toUpperCase()}'`;
+      : type === 'contain'
+        ? `Words containing '${pat.toUpperCase()}'`
+        : `Words ending in '${pat.toUpperCase()}'`;
     out.push({
-      bankKey: `vf-L${level}-${made}`,
+      bankKey: `vfc-${type}-${pat}`,
       category: 'verbal_fluency',
       challengeType: 'word_fluency',
       level,
@@ -83,11 +107,15 @@ for (let level = 1; level <= 8; level++) {
       version: 1, active: true
     });
   }
-  if (made < 20) console.error(`L${level}: only ${made}/20 (some constraints too sparse in lexicon)`);
+}
+return out;
 }
 
-mkdirSync('challenge-bank/verbal-fluency', { recursive: true });
-writeFileSync('challenge-bank/verbal-fluency/verbal-fluency.levels.json', JSON.stringify(out, null, 2) + '\n');
-const byLevel = {};
-out.forEach(o => byLevel[o.level] = (byLevel[o.level] || 0) + 1);
-console.log(`wrote ${out.length} verbal_fluency:`, Object.entries(byLevel).map(([l,n]) => `L${l}:${n}`).join(' '));
+// CLI: writes the constraint-only bank (generate-bank.mjs is the canonical writer,
+// which merges these with the legacy curated prompts).
+if (process.argv[1] && process.argv[1].endsWith('gen-verbal-fluency.mjs')) {
+  const out = mintConstraintFluency(25);
+  mkdirSync('challenge-bank/verbal-fluency', { recursive: true });
+  writeFileSync('challenge-bank/verbal-fluency/verbal-fluency.levels.json', JSON.stringify(out, null, 2) + '\n');
+  console.log(`constraint fluency: ${out.length} prompts`);
+}

@@ -1,0 +1,23 @@
+aioli
+barbecue sauce
+chutney
+gravy
+guacamole
+honey mustard
+horseradish
+hot sauce
+hummus
+ketchup
+mayonnaise
+pesto
+pickle
+ranch
+relish
+salsa
+soy sauce
+sriracha
+tahini
+tartar
+teriyaki
+vinegar
+wasabi

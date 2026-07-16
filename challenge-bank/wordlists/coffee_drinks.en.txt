@@ -1,0 +1,19 @@
+affogato
+americano
+cappuccino
+chai latte
+cold brew
+cortado
+decaf
+doppio
+espresso
+flat white
+frappe
+iced coffee
+irish coffee
+lungo
+macchiato
+mocha
+nitro brew
+ristretto
+turkish coffee

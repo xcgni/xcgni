@@ -75,6 +75,7 @@
     </div>
 
     <form method="POST" action="?/begin" class="flex flex-col gap-8">
+      {#if data.next}<input type="hidden" name="next" value={data.next} />{/if}
       {#if isIntro && current}
         {#key step}
           <div class="flex flex-col gap-4" style="animation: fadeup .45s ease both">

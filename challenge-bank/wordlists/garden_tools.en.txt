@@ -1,0 +1,23 @@
+cultivator
+dibber
+edger
+fork
+gloves
+hoe
+hose
+kneeler
+lawnmower
+pitchfork
+pruner
+rake
+scythe
+secateurs
+shears
+shovel
+sickle
+spade
+sprinkler
+trimmer
+trowel
+watering can
+wheelbarrow

@@ -1,0 +1,20 @@
+aikido
+boxing
+capoeira
+escrima
+fencing
+hapkido
+jiu jitsu
+judo
+karate
+kendo
+kickboxing
+krav maga
+kung fu
+muay thai
+sambo
+savate
+sumo
+taekwondo
+tai chi
+wrestling

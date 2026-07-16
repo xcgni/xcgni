@@ -1,0 +1,26 @@
+battery
+cable
+cpu
+fan
+gpu
+graphics card
+hard drive
+keyboard
+memory
+microphone
+modem
+monitor
+motherboard
+mouse
+port
+power supply
+printer
+processor
+ram
+router
+scanner
+screen
+sound card
+speaker
+ssd
+webcam

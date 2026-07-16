@@ -78,4 +78,28 @@
       </div>
     {/if}
   </section>
+
+  <section class="card p-4">
+    <h2 class="label mb-2 text-accent">Bank saturation (30 days, real users)</h2>
+    <p class="mb-2 text-xs text-muted">Repeat = an item served to a user who already answered it. Rising share = that category is asking for a content wave.</p>
+    {#if !data.saturation || data.saturation.length === 0}
+      <p class="text-sm text-muted">No attempts in the window.</p>
+    {:else}
+      <table class="w-full text-sm">
+        <thead><tr class="text-left text-xs text-muted"><th class="py-1">category</th><th>attempts</th><th>repeats</th><th>share</th></tr></thead>
+        <tbody>
+          {#each data.saturation as row}
+            <tr class="border-t border-edge">
+              <td class="py-1">{row.slug}</td>
+              <td>{row.attempts}</td>
+              <td>{row.repeats}</td>
+              <td class={row.attempts > 0 && row.repeats / row.attempts > 0.2 ? 'text-bad' : ''}>
+                {row.attempts > 0 ? Math.round((100 * row.repeats) / row.attempts) : 0}%
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    {/if}
+  </section>
 </div>

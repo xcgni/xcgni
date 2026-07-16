@@ -129,7 +129,7 @@ function arithLevel(level) {
 }
 
 function buildArithmetic() {
-  const PER_LEVEL = 24;
+  const PER_LEVEL = 36;
   const out = [];
   for (let level = 1; level <= 15; level++) {
     const seen = new Set();
@@ -259,7 +259,7 @@ function seqLevel(level) {
 }
 
 function buildSequences() {
-  const PER_LEVEL = 20;
+  const PER_LEVEL = 32;
   const out = [];
   for (let level = 1; level <= 12; level++) {
     const seen = new Set();
@@ -324,7 +324,7 @@ function digitString(span) {
 }
 
 function buildWorkingMemory() {
-  const PER_LEVEL = 20;
+  const PER_LEVEL = 32;
   const out = [];
   for (let level = 1; level <= 12; level++) {
     const { span, mode } = WM_LEVELS[level];
@@ -387,7 +387,7 @@ const AC_HARD_SETS = [
 ];
 
 function buildAttentionControl() {
-  const PER_LEVEL = 20;
+  const PER_LEVEL = 32;
   const out = [];
   for (let level = 1; level <= 10; level++) {
     const rows = 3 + Math.floor((level - 1) / 3);        // 3..6
@@ -516,7 +516,7 @@ const SPATIAL_MEDIANS = {
 };
 
 function buildSpatial() {
-  const PER_LEVEL = 18;
+  const PER_LEVEL = 30;
   const out = [];
 
   for (let level = 1; level <= 12; level++) {
@@ -755,6 +755,74 @@ function buildLogical() {
         version: 1, active: true
       });
     }
+
+    // Wave 7: two additional families in their OWN key namespace (lrx-*) so the
+    // 216 legacy keys stay untouched. 6 quantifier syllogisms + 6 conditional-
+    // inference items per level; higher levels get negated and "only if" phrasings.
+    const NOUNS = ['cats','dogs','birds','fish','cars','books','trees','stars','artists','doctors','singers','pilots','farmers','robots','islands','rivers'];
+    const PAIRS = [['it rains','the match is canceled'],['the alarm rings','Mia wakes up'],['the key turns','the door opens'],['you have a ticket','you may enter'],['the battery is charged','the phone works'],['the bridge is open','ships pass'],['the oven is on','the kitchen is warm'],['the code compiles','the tests run']];
+    let extraN = 0;
+    let guard2 = 0;
+    const seen2 = new Set();
+    while (extraN < 12 && guard2 < 8000) {
+      guard2++;
+      let q = null;
+      let ctype = 'syllogism';
+      const fam = extraN % 12;
+      if (fam < 6) {
+        // quantifier syllogisms
+        const [X,Y,Z] = shuffleArr(NOUNS).slice(0,3);
+        const form = fam % 6;
+        const flip = level >= 7; // premise order swapped at high levels
+        if (form === 0) q = { instruction: `${flip ? `All ${Y} are ${Z}. All ${X} are ${Y}.` : `All ${X} are ${Y}. All ${Y} are ${Z}.`} What follows?`,
+          correct: `All ${X} are ${Z}.`, distractors: [`All ${Z} are ${X}.`, `No ${X} are ${Z}.`, 'Cannot be determined.'] };
+        else if (form === 1) q = { instruction: `All ${X} are ${Y}. Some ${Z} are ${X}. What follows?`,
+          correct: `Some ${Z} are ${Y}.`, distractors: [`All ${Z} are ${Y}.`, `No ${Z} are ${Y}.`, 'Cannot be determined.'] };
+        else if (form === 2) q = { instruction: `All ${X} are ${Y}. Some ${Y} are ${Z}. What follows about ${X} and ${Z}?`,
+          correct: 'Cannot be determined.', distractors: [`Some ${X} are ${Z}.`, `All ${X} are ${Z}.`, `No ${X} are ${Z}.`] };
+        else if (form === 3) q = { instruction: `${flip ? `All ${Z} are ${X}. No ${X} are ${Y}.` : `No ${X} are ${Y}. All ${Z} are ${X}.`} What follows?`,
+          correct: `No ${Z} are ${Y}.`, distractors: [`Some ${Z} are ${Y}.`, `All ${Z} are ${Y}.`, 'Cannot be determined.'] };
+        else if (form === 4) q = { instruction: `Some ${X} are ${Y}. Some ${Y} are ${Z}. What follows about ${X} and ${Z}?`,
+          correct: 'Cannot be determined.', distractors: [`Some ${X} are ${Z}.`, `No ${X} are ${Z}.`, `All ${X} are ${Z}.`] };
+        else q = { instruction: `No ${X} are ${Y}. Some ${Z} are ${X}. What follows?`,
+          correct: `Some ${Z} are not ${Y}.`, distractors: [`All ${Z} are ${Y}.`, `Some ${Z} are ${Y}.`, 'Cannot be determined.'] };
+      } else {
+        // conditional inference
+        ctype = 'conditional';
+        const [P,Q] = pick(PAIRS);
+        const form = fam % 6;
+        const onlyIf = level >= 9 && form % 2 === 0;
+        const rule = onlyIf ? `${P.charAt(0).toUpperCase()+P.slice(1)} only if ${Q}.` : `If ${P}, then ${Q}.`;
+        if (form === 0) q = { instruction: `${rule} It is not the case that ${Q}. What follows?`,
+          correct: `It is not the case that ${P}.`, distractors: [`${P.charAt(0).toUpperCase()+P.slice(1)}.`, `${Q.charAt(0).toUpperCase()+Q.slice(1)}.`, 'Cannot be determined.'] };
+        else if (form === 1) q = { instruction: `${rule} ${Q.charAt(0).toUpperCase()+Q.slice(1)}. What follows about whether ${P}?`,
+          correct: 'Cannot be determined.', distractors: [`${P.charAt(0).toUpperCase()+P.slice(1)}.`, `It is not the case that ${P}.`, `${P.charAt(0).toUpperCase()+P.slice(1)} only sometimes.`] };
+        else if (form === 2) q = { instruction: `${rule} It is not the case that ${P}. What follows about whether ${Q}?`,
+          correct: 'Cannot be determined.', distractors: [`It is not the case that ${Q}.`, `${Q.charAt(0).toUpperCase()+Q.slice(1)}.`, `${Q.charAt(0).toUpperCase()+Q.slice(1)} is impossible.`] };
+        else if (form === 3) q = { instruction: `${rule} ${P.charAt(0).toUpperCase()+P.slice(1)}. What follows?`,
+          correct: `${Q.charAt(0).toUpperCase()+Q.slice(1)}.`, distractors: [`It is not the case that ${Q}.`, `It is not the case that ${P}.`, 'Cannot be determined.'] };
+        else if (form === 4) q = { instruction: `${rule} Which statement says the same thing?`,
+          correct: `If it is not the case that ${Q}, then it is not the case that ${P}.`,
+          distractors: [`If it is not the case that ${P}, then it is not the case that ${Q}.`, `If ${Q}, then ${P}.`, `${Q.charAt(0).toUpperCase()+Q.slice(1)} whenever it is not the case that ${P}.`] };
+        else q = { instruction: `${rule} Exactly one of these follows from also knowing that ${P}. Which?`,
+          correct: `${Q.charAt(0).toUpperCase()+Q.slice(1)}.`, distractors: [`It is not the case that ${Q}.`, `${P.charAt(0).toUpperCase()+P.slice(1)} is false.`, 'Cannot be determined.'] };
+      }
+      const key2 = q.instruction;
+      if (seen2.has(key2)) continue;
+      seen2.add(key2);
+      extraN++;
+      const opts2 = shuffleWithAnswer([{ text: q.correct }, ...q.distractors.map(d => ({ text: d }))]);
+      out.push({
+        bankKey: `lrx-L${level}-${extraN}`,
+        category: 'logical_reasoning',
+        challengeType: ctype,
+        level, rendererType: 'multiple_choice_text',
+        promptData: { instruction: q.instruction, options: opts2.list.map(o => o.text) },
+        answerData: { correctAnswer: opts2.answerIndex, acceptedAnswers: [String(opts2.answerIndex)] },
+        scoringConfig: { expectedMedianMs: LOGIC_MEDIANS[level], slowCorrectFloorScore: 0.45, fastCorrectScore: 1.0 },
+        version: 1, active: true
+      });
+    }
   }
   return out;
 }
@@ -923,7 +991,7 @@ function buildVerbal() {
 const PSPEED_MEDIANS = { 1:1800,2:2000,3:2300,4:2600,5:3000,6:3400,7:3800,8:4300,9:4800,10:5500 };
 
 function buildProcessingSpeed() {
-  const PER = 24;
+  const PER = 36;
   const out = [];
   let counter = 0;
   for (let level = 1; level <= 10; level++) {
@@ -981,7 +1049,7 @@ function buildProcessingSpeed() {
 const ESTIMATE_MEDIANS = { 1:5000,2:5500,3:6500,4:7000,5:8000,6:9000,7:10000,8:11000,9:12000,10:14000 };
 
 function buildEstimation() {
-  const PER = 20;
+  const PER = 32;
   const out = [];
   let counter = 0;
   for (let level = 1; level <= 10; level++) {
@@ -1079,7 +1147,7 @@ const STROOP_COLORS = [
 ];
 
 function buildInhibition() {
-  const PER = 24;
+  const PER = 36;
   const out = [];
   let counter = 0;
   for (let level = 1; level <= 10; level++) {
@@ -1133,7 +1201,7 @@ function buildInhibition() {
 const SWITCH_MEDIANS = { 1:2500,2:2800,3:3100,4:3500,5:3900,6:4300,7:4800,8:5300,9:5900,10:6500 };
 
 function buildSwitching() {
-  const PER = 20;
+  const PER = 32;
   const out = [];
   const shapes = ['circle', 'square', 'triangle', 'diamond', 'star'];
   const colors = ['red', 'blue', 'green', 'yellow'];
@@ -1184,6 +1252,129 @@ function buildSwitching() {
 //   are finite for now (note: swap a real dictionary/category API later).
 // ===========================================================================
 const FLUENCY_TIME_MS = 30000; // 30s to generate
+
+// ---------------------------------------------------------------------------
+// Wave 0 (bank expansion): retrieval prompts now derive from the wordlist FILES
+// in challenge-bank/wordlists/ - single source of truth, ends the inline/file
+// split. Legacy 24 prompts keep their exact positional bankKeys (stats survive);
+// their acceptLists are refreshed from files where a richer file exists. Every
+// remaining wordlist gains a prompt with a content-stable key (rf-<listKey>).
+// ---------------------------------------------------------------------------
+import { readdirSync, readFileSync } from 'node:fs';
+const WL_DIR = 'challenge-bank/wordlists';
+function loadList(key) {
+  try {
+    return readFileSync(`${WL_DIR}/${key}.en.txt`, 'utf8')
+      .toLowerCase().split(/\r?\n/).map(s => s.split('|')[0].trim()).filter(Boolean);
+  } catch { return null; }
+}
+const FILE_KEYS = readdirSync(WL_DIR).filter(f => f.endsWith('.en.txt')).map(f => f.replace('.en.txt',''));
+const RF_LABELS = {
+  astro: 'ASTRONOMY TERMS', body_parts: 'BODY PARTS', transport_words: 'MEANS OF TRANSPORT',
+  farm: 'FARM ANIMALS', household: 'HOUSEHOLD OBJECTS', gems: 'GEMSTONES', jobs2: null,
+  units: 'UNITS OF MEASUREMENT', reptiles_amphibians: 'REPTILES AND AMPHIBIANS', nuts_seeds: 'NUTS AND SEEDS', wonders_landmarks: 'FAMOUS LANDMARKS', world_cities: 'MAJOR WORLD CITIES', ice_cream_flavors: 'ICE CREAM FLAVORS', grains_legumes: 'GRAINS AND LEGUMES', file_formats: 'FILE FORMATS', shakespeare_plays: 'SHAKESPEARE PLAYS', chess_openings: 'CHESS OPENINGS', seas_oceans: 'SEAS AND OCEANS', lab_equipment: 'LABORATORY EQUIPMENT', garden_tools: 'GARDEN TOOLS', sewing_items: 'SEWING ITEMS', medical_specialties: 'MEDICAL SPECIALTIES', kitchen: 'KITCHEN ITEMS', instruments: 'MUSICAL INSTRUMENTS'
+};
+const RF_LEVEL = {
+  animals:1, colors:1, fruits:1, food:1, body_parts:1,
+  vegetables:2, drinks:2, clothing:2, farm:2, countries:2,
+  kitchen:3, furniture:3, household:3, sports:3, weather:3,
+  professions:4, tools:4, emotions:4, games:4, instruments:4,
+  trees:5, flowers:5, birds:5, fish:5, shapes:5,
+  languages:6, rivers:6, metals:6, units:6, transport_words:6, vehicles:6,
+  composers:7, philosophers:7, constellations:7, herbs:7, gems:7,
+  elements:8, rocks:8, astro:8,
+  school_objects:1,
+  toys:1,
+  breakfast_foods:2,
+  desserts:2,
+  bathroom_items:2,
+  insects:3,
+  sea_creatures:3,
+  appliances:3,
+  hobbies:3,
+  tabletop_games:4,
+  fabrics:5,
+  winter_sports:5,
+  spices:5,
+  reptiles_amphibians:5,
+  capital_cities:6,
+  currencies:6,
+  programming_languages:6,
+  famous_scientists:7,
+  painters:7,
+  mythological_figures:7,
+  mountain_ranges:7,
+  ancient_civilizations:7,
+  philosophical_concepts:8,
+  mathematical_terms:8,
+  logical_fallacies:8,
+  condiments:2,
+  zodiac_signs:2,
+  coffee_drinks:3,
+  nuts_seeds:3,
+  headwear:3,
+  mythical_creatures:4,
+  computer_parts:4,
+  music_genres:4,
+  natural_disasters:4,
+  landforms:4,
+  watercraft:4,
+  cooking_methods:4,
+  world_cities:5,
+  wonders_landmarks:5,
+  cheeses:5,
+  pasta_types:5,
+  dance_styles:5,
+  islands:6,
+  inventors:6,
+  greek_letters:6,
+  bones:7,
+  explorers:7,
+  physics_terms:8,
+  art_movements:8,
+  roman_emperors:8,
+  party_items:1,
+  baby_animals:1,
+  beach_items:1,
+  sandwich_fillings:2,
+  ice_cream_flavors:2,
+  pizza_toppings:2,
+  camping_gear:3,
+  gym_exercises:3,
+  grains_legumes:3,
+  martial_arts:4,
+  breads:4,
+  dinosaurs:4,
+  literary_genres:4,
+  sushi_items:5,
+  teas:5,
+  file_formats:5,
+  clouds:6,
+  grammar_terms:6,
+  shakespeare_plays:7,
+  poets:7,
+  data_structures:7,
+  economics_terms:7,
+  chess_openings:8,
+  rhetorical_devices:8,
+  psychology_terms:8,
+  planets:1,
+  holidays:2,
+  footwear:2,
+  garden_tools:3,
+  jewelry:3,
+  sewing_items:4,
+  seas_oceans:5,
+  lab_equipment:6,
+  deserts:6,
+  lakes:6,
+  volcanoes:7,
+  medical_specialties:7,
+  moons:8,
+  operas:8,
+  phobias:8
+};
+
 
 const RETRIEVAL_PROMPTS = [
   [1, 'Name as many ANIMALS as you can', 'animals'],
@@ -1243,22 +1434,45 @@ const RETRIEVAL_LISTS = {
 function buildRetrievalFluency() {
   const out = [];
   let counter = 0;
+  const covered = new Set();
   for (const [level, prompt, listKey] of RETRIEVAL_PROMPTS) {
     counter++;
+    covered.add(listKey);
+    const fileList = loadList(listKey);
+    const acceptList = fileList && fileList.length >= (RETRIEVAL_LISTS[listKey]?.length ?? 0)
+      ? fileList : RETRIEVAL_LISTS[listKey];
     out.push({
       bankKey: `rf-L${level}-${counter}`,
       category: 'retrieval_fluency',
       challengeType: 'category_fluency',
       level, rendererType: 'fluency_list',
       promptData: { instruction: prompt, timeMs: FLUENCY_TIME_MS, listKey },
-      // accept-list lives in answerData; scoring counts valid unique answers
-      answerData: { acceptList: RETRIEVAL_LISTS[listKey], scoringMode: 'fluency_count' },
+      answerData: { acceptList, scoringMode: 'fluency_count' },
+      scoringConfig: { expectedMedianMs: FLUENCY_TIME_MS, fluency: true },
+      version: 1, active: true
+    });
+  }
+  for (const key of FILE_KEYS) {
+    if (covered.has(key)) continue;
+    if (RF_LABELS[key] === null) continue; // deliberate skip (duplicate of another list)
+    const acceptList = loadList(key);
+    if (!acceptList || acceptList.length < 8) continue;
+    const label = RF_LABELS[key] ?? key.replace(/_/g, ' ').toUpperCase();
+    const level = RF_LEVEL[key] ?? 5;
+    out.push({
+      bankKey: `rf-${key}`,
+      category: 'retrieval_fluency',
+      challengeType: 'category_fluency',
+      level, rendererType: 'fluency_list',
+      promptData: { instruction: `Name as many ${label} as you can`, timeMs: FLUENCY_TIME_MS, listKey: key },
+      answerData: { acceptList, scoringMode: 'fluency_count' },
       scoringConfig: { expectedMedianMs: FLUENCY_TIME_MS, fluency: true },
       version: 1, active: true
     });
   }
   return out;
 }
+
 
 // ===========================================================================
 // Verbal fluency - levels 1..8, fluency_list renderer.
@@ -1285,6 +1499,7 @@ const VERBAL_FLUENCY = [
   [8, "Words starting with 'SC'", 'sc', ['scale','scan','scar','scare','scarf','scatter','scene','scent','school','science','scissors','scold','scoop','scope','score','scorn','scout','scram','scrap','scratch','scream','screen','screw','script','scroll','scrub','sculpt','scuba']]
 ];
 
+import { mintConstraintFluency } from './gen-verbal-fluency.mjs';
 function buildVerbalFluency() {
   const out = [];
   let counter = 0;
@@ -1302,6 +1517,14 @@ function buildVerbalFluency() {
       scoringConfig: { expectedMedianMs: FLUENCY_TIME_MS, fluency: true },
       version: 1, active: true
     });
+  }
+  // Wave 4: constraint-minted prompts (starts-with / ends-with against the big
+  // lexicon) join the curated 16. Content-stable keys (vfc-<type>-<pattern>),
+  // deduped against legacy constraints so no prompt appears twice.
+  const legacyConstraints = new Set(out.map((c) => String(c.answerData.constraint).toLowerCase()));
+  for (const c of mintConstraintFluency(25)) {
+    if (legacyConstraints.has(String(c.answerData.constraint).toLowerCase())) continue;
+    out.push(c);
   }
   return out;
 }
@@ -1326,7 +1549,7 @@ function randomCells(grid, fill) {
 }
 
 function buildVisualProcessing() {
-  const PER = 20;
+  const PER = 32;
   const out = [];
   let counter = 0;
   for (let level = 1; level <= 10; level++) {

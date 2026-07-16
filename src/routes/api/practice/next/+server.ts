@@ -18,7 +18,7 @@ import { SCORING_MODEL_VERSION } from '$lib/server/rating';
 export const POST: RequestHandler = async ({ request, cookies, locals }) => {
   const user = await ensureUser(cookies);
   const body = (await request.json().catch(() => ({}))) as {
-    category?: string; tz?: string; tzOffsetMin?: number; pulse?: boolean;
+    category?: string; type?: string; tz?: string; tzOffsetMin?: number; pulse?: boolean;
   };
   const tz = typeof body.tz === 'string' ? body.tz.slice(0, 64) : null;
   const tzOffsetMin = typeof body.tzOffsetMin === 'number' && Number.isFinite(body.tzOffsetMin)
@@ -63,7 +63,13 @@ export const POST: RequestHandler = async ({ request, cookies, locals }) => {
   if (!categorySlug) return json({ error: 'no implemented categories' }, { status: 500 });
 
   const state = await getCategoryState(user.id, categorySlug);
-  const challenge = await pickChallenge(categorySlug, state.currentLevel, user.id);
+  const typeFilter = categorySlug && typeof body.type === 'string' ? body.type.slice(0, 40) : null;
+  let challenge = await pickChallenge(categorySlug, state.currentLevel, user.id, typeFilter);
+  if (!challenge && typeFilter) {
+    // A stale or foreign type must never 500 a session: fall back to the whole
+    // category rather than erroring the run screen.
+    challenge = await pickChallenge(categorySlug, state.currentLevel, user.id, null);
+  }
   if (!challenge) return json({ error: 'no challenges available' }, { status: 500 });
 
   const [attempt] = await db.insert(attempts).values({

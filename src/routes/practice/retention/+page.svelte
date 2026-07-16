@@ -12,7 +12,7 @@
   const BURST_SIZE = 5;
   let burstDone = 0;
 
-  function returnToMix() { goto('/practice/run'); }
+  function returnToMix() { goto('/practice/run?skipintro=1'); }
 
   type Card = { cardId: string; deck: string; deckLabel: string; prompt: string; isNew: boolean; wasDue: boolean; answer: string | null };
   type Status = { dueNow: number; seen: number; mature: number; totalCards: number; dueReviews: number; mastery: number | null };

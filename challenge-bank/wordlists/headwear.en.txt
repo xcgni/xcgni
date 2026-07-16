@@ -1,0 +1,22 @@
+balaclava
+bandana
+beanie
+beret
+bonnet
+bowler
+cap
+cowboy hat
+crown
+earmuffs
+fedora
+headband
+helmet
+hijab
+hood
+kippah
+panama
+sombrero
+tiara
+top hat
+turban
+visor

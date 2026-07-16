@@ -1,0 +1,19 @@
+array
+binary tree
+bitmap
+bloom filter
+buffer
+deque
+graph
+hash table
+heap
+linked list
+map
+matrix
+priority queue
+record
+set
+stack
+trie
+tuple
+vector

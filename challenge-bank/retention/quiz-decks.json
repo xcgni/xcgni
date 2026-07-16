@@ -1901,5 +1901,2595 @@
     "It provides humanitarian aid in conflicts and disasters worldwide."
    ]
   ]
+ },
+ {
+  "deck": "quiz_capitals_europe",
+  "label": "European capitals",
+  "cards": [
+   [
+    "Capital of France",
+    "Paris",
+    [],
+    "Paris is the seat of government of France."
+   ],
+   [
+    "Capital of Germany",
+    "Berlin",
+    [],
+    "Berlin is the seat of government of Germany."
+   ],
+   [
+    "Capital of Spain",
+    "Madrid",
+    [],
+    "Madrid is the seat of government of Spain."
+   ],
+   [
+    "Capital of Italy",
+    "Rome",
+    [],
+    "Rome is the seat of government of Italy."
+   ],
+   [
+    "Capital of Croatia",
+    "Zagreb",
+    [],
+    "Zagreb is the seat of government of Croatia."
+   ],
+   [
+    "Capital of Austria",
+    "Vienna",
+    [],
+    "Vienna is the seat of government of Austria."
+   ],
+   [
+    "Capital of Hungary",
+    "Budapest",
+    [],
+    "Budapest is the seat of government of Hungary."
+   ],
+   [
+    "Capital of Poland",
+    "Warsaw",
+    [],
+    "Warsaw is the seat of government of Poland."
+   ],
+   [
+    "Capital of Greece",
+    "Athens",
+    [],
+    "Athens is the seat of government of Greece."
+   ],
+   [
+    "Capital of Portugal",
+    "Lisbon",
+    [],
+    "Lisbon is the seat of government of Portugal."
+   ],
+   [
+    "Capital of Norway",
+    "Oslo",
+    [],
+    "Oslo is the seat of government of Norway."
+   ],
+   [
+    "Capital of Sweden",
+    "Stockholm",
+    [],
+    "Stockholm is the seat of government of Sweden."
+   ],
+   [
+    "Capital of Finland",
+    "Helsinki",
+    [],
+    "Helsinki is the seat of government of Finland."
+   ],
+   [
+    "Capital of Denmark",
+    "Copenhagen",
+    [],
+    "Copenhagen is the seat of government of Denmark."
+   ],
+   [
+    "Capital of Netherlands",
+    "Amsterdam",
+    [],
+    "Amsterdam is the seat of government of Netherlands."
+   ],
+   [
+    "Capital of Switzerland",
+    "Bern",
+    [],
+    "Bern is the seat of government of Switzerland."
+   ],
+   [
+    "Capital of Czechia",
+    "Prague",
+    [],
+    "Prague is the seat of government of Czechia."
+   ],
+   [
+    "Capital of Ireland",
+    "Dublin",
+    [],
+    "Dublin is the seat of government of Ireland."
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_capitals_world",
+  "label": "World capitals",
+  "cards": [
+   [
+    "Capital of Japan",
+    "Tokyo",
+    [],
+    ""
+   ],
+   [
+    "Capital of China",
+    "Beijing",
+    [],
+    ""
+   ],
+   [
+    "Capital of India",
+    "New Delhi",
+    [
+     "delhi"
+    ],
+    ""
+   ],
+   [
+    "Capital of Egypt",
+    "Cairo",
+    [],
+    ""
+   ],
+   [
+    "Capital of Canada",
+    "Ottawa",
+    [],
+    ""
+   ],
+   [
+    "Capital of Australia",
+    "Canberra",
+    [],
+    ""
+   ],
+   [
+    "Capital of Brazil",
+    "Brasilia",
+    [],
+    ""
+   ],
+   [
+    "Capital of Argentina",
+    "Buenos Aires",
+    [],
+    ""
+   ],
+   [
+    "Capital of Mexico",
+    "Mexico City",
+    [],
+    ""
+   ],
+   [
+    "Capital of Turkey",
+    "Ankara",
+    [],
+    ""
+   ],
+   [
+    "Capital of Russia",
+    "Moscow",
+    [],
+    ""
+   ],
+   [
+    "Capital of South Korea",
+    "Seoul",
+    [],
+    ""
+   ],
+   [
+    "Capital of Kenya",
+    "Nairobi",
+    [],
+    ""
+   ],
+   [
+    "Capital of Morocco",
+    "Rabat",
+    [],
+    ""
+   ],
+   [
+    "Capital of Peru",
+    "Lima",
+    [],
+    ""
+   ],
+   [
+    "Capital of Chile",
+    "Santiago",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_element_symbols",
+  "label": "Chemical element symbols",
+  "cards": [
+   [
+    "Chemical symbol for Hydrogen",
+    "H",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Helium",
+    "He",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Carbon",
+    "C",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Nitrogen",
+    "N",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Oxygen",
+    "O",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Sodium",
+    "Na",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Magnesium",
+    "Mg",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Aluminium",
+    "Al",
+    [
+     "aluminum"
+    ],
+    ""
+   ],
+   [
+    "Chemical symbol for Silicon",
+    "Si",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Phosphorus",
+    "P",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Sulfur",
+    "S",
+    [
+     "sulphur"
+    ],
+    ""
+   ],
+   [
+    "Chemical symbol for Chlorine",
+    "Cl",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Potassium",
+    "K",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Calcium",
+    "Ca",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Iron",
+    "Fe",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Copper",
+    "Cu",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Zinc",
+    "Zn",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Silver",
+    "Ag",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Gold",
+    "Au",
+    [],
+    ""
+   ],
+   [
+    "Chemical symbol for Lead",
+    "Pb",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_geo_records",
+  "label": "Geography records",
+  "cards": [
+   [
+    "The longest river in the world",
+    "Nile",
+    [
+     "the nile"
+    ],
+    "About 6,650 km; the Amazon is the largest by volume."
+   ],
+   [
+    "The tallest mountain above sea level",
+    "Everest",
+    [
+     "mount everest"
+    ],
+    "8,849 m in the Himalayas."
+   ],
+   [
+    "The largest ocean",
+    "Pacific",
+    [
+     "pacific ocean"
+    ],
+    ""
+   ],
+   [
+    "The largest desert (non-polar)",
+    "Sahara",
+    [],
+    ""
+   ],
+   [
+    "The deepest ocean trench",
+    "Mariana Trench",
+    [
+     "mariana"
+    ],
+    "About 11 km deep."
+   ],
+   [
+    "The largest country by area",
+    "Russia",
+    [],
+    ""
+   ],
+   [
+    "The most populous country",
+    "India",
+    [],
+    "Overtook China in 2023."
+   ],
+   [
+    "The smallest country",
+    "Vatican City",
+    [
+     "vatican"
+    ],
+    ""
+   ],
+   [
+    "The longest mountain range on land",
+    "Andes",
+    [
+     "the andes"
+    ],
+    ""
+   ],
+   [
+    "The largest island",
+    "Greenland",
+    [],
+    "Australia counts as a continent."
+   ],
+   [
+    "The deepest lake",
+    "Baikal",
+    [
+     "lake baikal"
+    ],
+    ""
+   ],
+   [
+    "The largest rainforest",
+    "Amazon",
+    [
+     "the amazon"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_inventors",
+  "label": "Inventions and inventors",
+  "cards": [
+   [
+    "Inventor of the telephone",
+    "Bell",
+    [
+     "alexander graham bell",
+     "graham bell"
+    ],
+    ""
+   ],
+   [
+    "Inventor of the light bulb (practical)",
+    "Edison",
+    [
+     "thomas edison"
+    ],
+    ""
+   ],
+   [
+    "Inventor of the printing press",
+    "Gutenberg",
+    [
+     "johannes gutenberg"
+    ],
+    ""
+   ],
+   [
+    "Inventor of the world wide web",
+    "Berners-Lee",
+    [
+     "tim berners lee",
+     "berners lee"
+    ],
+    ""
+   ],
+   [
+    "Inventor of radio transmission",
+    "Marconi",
+    [],
+    ""
+   ],
+   [
+    "Inventor of alternating current systems",
+    "Tesla",
+    [
+     "nikola tesla"
+    ],
+    ""
+   ],
+   [
+    "Inventor of the airplane",
+    "Wright brothers",
+    [
+     "wright"
+    ],
+    ""
+   ],
+   [
+    "Inventor of dynamite",
+    "Nobel",
+    [
+     "alfred nobel"
+    ],
+    ""
+   ],
+   [
+    "Inventor of the diesel engine",
+    "Diesel",
+    [
+     "rudolf diesel"
+    ],
+    ""
+   ],
+   [
+    "Inventor of movable-type printing in europe",
+    "Gutenberg",
+    [],
+    ""
+   ],
+   [
+    "Inventor of the telegraph code of dots and dashes",
+    "Morse",
+    [
+     "samuel morse"
+    ],
+    ""
+   ],
+   [
+    "Inventor of the polio vaccine",
+    "Salk",
+    [
+     "jonas salk"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_currencies",
+  "label": "World currencies",
+  "cards": [
+   [
+    "Currency of Japan",
+    "yen",
+    [],
+    ""
+   ],
+   [
+    "Currency of United Kingdom",
+    "pound",
+    [
+     "pound sterling"
+    ],
+    ""
+   ],
+   [
+    "Currency of India",
+    "rupee",
+    [],
+    ""
+   ],
+   [
+    "Currency of Russia",
+    "ruble",
+    [
+     "rouble"
+    ],
+    ""
+   ],
+   [
+    "Currency of China",
+    "yuan",
+    [
+     "renminbi"
+    ],
+    ""
+   ],
+   [
+    "Currency of Switzerland",
+    "franc",
+    [
+     "swiss franc"
+    ],
+    ""
+   ],
+   [
+    "Currency of Sweden",
+    "krona",
+    [],
+    ""
+   ],
+   [
+    "Currency of Poland",
+    "zloty",
+    [],
+    ""
+   ],
+   [
+    "Currency of Hungary",
+    "forint",
+    [],
+    ""
+   ],
+   [
+    "Currency of Czechia",
+    "koruna",
+    [],
+    ""
+   ],
+   [
+    "Currency of Turkey",
+    "lira",
+    [],
+    ""
+   ],
+   [
+    "Currency of South Korea",
+    "won",
+    [],
+    ""
+   ],
+   [
+    "Currency of Brazil",
+    "real",
+    [],
+    ""
+   ],
+   [
+    "Currency of Mexico",
+    "peso",
+    [],
+    ""
+   ],
+   [
+    "Currency of South Africa",
+    "rand",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_roman_numerals",
+  "label": "Roman numerals",
+  "cards": [
+   [
+    "Roman numeral IV as a number",
+    "4",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral IX as a number",
+    "9",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral XIV as a number",
+    "14",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral XIX as a number",
+    "19",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral XL as a number",
+    "40",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral XC as a number",
+    "90",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral CD as a number",
+    "400",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral CM as a number",
+    "900",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral LXX as a number",
+    "70",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral MMXXVI as a number",
+    "2026",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral XLVIII as a number",
+    "48",
+    [],
+    ""
+   ],
+   [
+    "Roman numeral DCCC as a number",
+    "800",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_squares",
+  "label": "Perfect squares",
+  "cards": [
+   [
+    "11 squared",
+    "121",
+    [],
+    ""
+   ],
+   [
+    "12 squared",
+    "144",
+    [],
+    ""
+   ],
+   [
+    "13 squared",
+    "169",
+    [],
+    ""
+   ],
+   [
+    "14 squared",
+    "196",
+    [],
+    ""
+   ],
+   [
+    "15 squared",
+    "225",
+    [],
+    ""
+   ],
+   [
+    "16 squared",
+    "256",
+    [],
+    ""
+   ],
+   [
+    "17 squared",
+    "289",
+    [],
+    ""
+   ],
+   [
+    "18 squared",
+    "324",
+    [],
+    ""
+   ],
+   [
+    "19 squared",
+    "361",
+    [],
+    ""
+   ],
+   [
+    "21 squared",
+    "441",
+    [],
+    ""
+   ],
+   [
+    "25 squared",
+    "625",
+    [],
+    ""
+   ],
+   [
+    "30 squared",
+    "900",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_planet_order",
+  "label": "Planets in order",
+  "cards": [
+   [
+    "The 1st planet from the Sun",
+    "Mercury",
+    [],
+    ""
+   ],
+   [
+    "The 2nd planet from the Sun",
+    "Venus",
+    [],
+    ""
+   ],
+   [
+    "The 3rd planet from the Sun",
+    "Earth",
+    [],
+    ""
+   ],
+   [
+    "The 4th planet from the Sun",
+    "Mars",
+    [],
+    ""
+   ],
+   [
+    "The 5th planet from the Sun",
+    "Jupiter",
+    [],
+    ""
+   ],
+   [
+    "The 6th planet from the Sun",
+    "Saturn",
+    [],
+    ""
+   ],
+   [
+    "The 7th planet from the Sun",
+    "Uranus",
+    [],
+    ""
+   ],
+   [
+    "The 8th planet from the Sun",
+    "Neptune",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_compounds",
+  "label": "Common chemical compounds",
+  "cards": [
+   [
+    "Common name for H2O",
+    "water",
+    [],
+    ""
+   ],
+   [
+    "Common name for CO2",
+    "carbon dioxide",
+    [],
+    ""
+   ],
+   [
+    "Common name for NaCl",
+    "salt",
+    [
+     "sodium chloride",
+     "table salt"
+    ],
+    ""
+   ],
+   [
+    "Common name for O3",
+    "ozone",
+    [],
+    ""
+   ],
+   [
+    "Common name for CH4",
+    "methane",
+    [],
+    ""
+   ],
+   [
+    "Common name for NH3",
+    "ammonia",
+    [],
+    ""
+   ],
+   [
+    "Common name for H2O2",
+    "hydrogen peroxide",
+    [],
+    ""
+   ],
+   [
+    "Common name for CO",
+    "carbon monoxide",
+    [],
+    ""
+   ],
+   [
+    "Common name for C6H12O6",
+    "glucose",
+    [],
+    ""
+   ],
+   [
+    "Common name for H2SO4",
+    "sulfuric acid",
+    [
+     "sulphuric acid"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_languages_of",
+  "label": "Official languages",
+  "cards": [
+   [
+    "Main language of Brazil",
+    "Portuguese",
+    [],
+    ""
+   ],
+   [
+    "Main language of Austria",
+    "German",
+    [],
+    ""
+   ],
+   [
+    "Main language of Mexico",
+    "Spanish",
+    [],
+    ""
+   ],
+   [
+    "Main language of Egypt",
+    "Arabic",
+    [],
+    ""
+   ],
+   [
+    "Main language of Switzerland (largest share)",
+    "German",
+    [],
+    ""
+   ],
+   [
+    "Main language of Canada (besides English)",
+    "French",
+    [],
+    ""
+   ],
+   [
+    "Main language of Belgium (largest share)",
+    "Dutch",
+    [
+     "flemish"
+    ],
+    ""
+   ],
+   [
+    "Main language of Iran",
+    "Persian",
+    [
+     "farsi"
+    ],
+    ""
+   ],
+   [
+    "Main language of Kenya (official, besides English)",
+    "Swahili",
+    [],
+    ""
+   ],
+   [
+    "Main language of Israel",
+    "Hebrew",
+    [],
+    ""
+   ],
+   [
+    "Main language of Pakistan",
+    "Urdu",
+    [],
+    ""
+   ],
+   [
+    "Main language of Netherlands",
+    "Dutch",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_greek_alphabet",
+  "label": "Greek alphabet order",
+  "cards": [
+   [
+    "Greek letter: 1st",
+    "alpha",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: 2nd",
+    "beta",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: 3rd",
+    "gamma",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: 4th",
+    "delta",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: 5th",
+    "epsilon",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: last (24th)",
+    "omega",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: the letter after pi",
+    "rho",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: the letter before pi",
+    "omicron",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: 18th, used for sums",
+    "sigma",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: the letter after sigma",
+    "tau",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: 21st, used for angles",
+    "phi",
+    [],
+    ""
+   ],
+   [
+    "Greek letter: the letter after phi",
+    "chi",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_history_dates",
+  "label": "Pivotal years",
+  "cards": [
+   [
+    "Year the Berlin Wall fell",
+    "1989",
+    [],
+    ""
+   ],
+   [
+    "Year World War II ended",
+    "1945",
+    [],
+    ""
+   ],
+   [
+    "Year of the French Revolution",
+    "1789",
+    [],
+    ""
+   ],
+   [
+    "Year Columbus reached the Americas",
+    "1492",
+    [],
+    ""
+   ],
+   [
+    "Year of the first Moon landing",
+    "1969",
+    [],
+    ""
+   ],
+   [
+    "Year World War I began",
+    "1914",
+    [],
+    ""
+   ],
+   [
+    "Year the Titanic sank",
+    "1912",
+    [],
+    ""
+   ],
+   [
+    "Year the printing press era began (Gutenberg Bible)",
+    "1455",
+    [
+     "1450"
+    ],
+    ""
+   ],
+   [
+    "Year the Soviet Union dissolved",
+    "1991",
+    [],
+    ""
+   ],
+   [
+    "Year of the fall of Constantinople",
+    "1453",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_ancient_world",
+  "label": "Ancient world",
+  "cards": [
+   [
+    "Civilization that built Machu Picchu",
+    "Inca",
+    [
+     "incas",
+     "the inca"
+    ],
+    ""
+   ],
+   [
+    "Civilization of the pyramids at Giza",
+    "Egypt",
+    [
+     "egyptian",
+     "ancient egypt"
+    ],
+    ""
+   ],
+   [
+    "City-state that fought Athens in the Peloponnesian War",
+    "Sparta",
+    [],
+    ""
+   ],
+   [
+    "Writing system of ancient Egypt",
+    "hieroglyphs",
+    [
+     "hieroglyphics"
+    ],
+    ""
+   ],
+   [
+    "Roman arena for gladiators in Rome",
+    "Colosseum",
+    [
+     "coliseum"
+    ],
+    ""
+   ],
+   [
+    "First emperor of Rome",
+    "Augustus",
+    [
+     "octavian"
+    ],
+    ""
+   ],
+   [
+    "Greek philosopher who taught Alexander the Great",
+    "Aristotle",
+    [],
+    ""
+   ],
+   [
+    "Wonder of the ancient world in Alexandria",
+    "lighthouse",
+    [
+     "pharos",
+     "lighthouse of alexandria"
+    ],
+    ""
+   ],
+   [
+    "River civilization of Mesopotamia lay between the Tigris and the...",
+    "Euphrates",
+    [],
+    ""
+   ],
+   [
+    "Chinese defensive megastructure begun in antiquity",
+    "Great Wall",
+    [
+     "the great wall",
+     "great wall of china"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_art_masterpieces",
+  "label": "Painters of masterpieces",
+  "cards": [
+   [
+    "Painter of the Mona Lisa",
+    "da Vinci",
+    [
+     "leonardo",
+     "leonardo da vinci"
+    ],
+    ""
+   ],
+   [
+    "Painter of The Starry Night",
+    "van Gogh",
+    [
+     "vincent van gogh"
+    ],
+    ""
+   ],
+   [
+    "Painter of Guernica",
+    "Picasso",
+    [],
+    ""
+   ],
+   [
+    "Painter of The Scream",
+    "Munch",
+    [
+     "edvard munch"
+    ],
+    ""
+   ],
+   [
+    "Painter of Girl with a Pearl Earring",
+    "Vermeer",
+    [],
+    ""
+   ],
+   [
+    "Sculptor of David in Florence",
+    "Michelangelo",
+    [],
+    ""
+   ],
+   [
+    "Painter of The Persistence of Memory (melting clocks)",
+    "Dali",
+    [
+     "salvador dali"
+    ],
+    ""
+   ],
+   [
+    "Painter of Water Lilies",
+    "Monet",
+    [
+     "claude monet"
+    ],
+    ""
+   ],
+   [
+    "Painter of The Night Watch",
+    "Rembrandt",
+    [],
+    ""
+   ],
+   [
+    "Painter of The Birth of Venus",
+    "Botticelli",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_authors",
+  "label": "Books and their authors",
+  "cards": [
+   [
+    "Author of Romeo and Juliet",
+    "Shakespeare",
+    [],
+    ""
+   ],
+   [
+    "Author of 1984",
+    "Orwell",
+    [
+     "george orwell"
+    ],
+    ""
+   ],
+   [
+    "Author of Pride and Prejudice",
+    "Austen",
+    [
+     "jane austen"
+    ],
+    ""
+   ],
+   [
+    "Author of Crime and Punishment",
+    "Dostoevsky",
+    [
+     "dostoyevsky"
+    ],
+    ""
+   ],
+   [
+    "Author of The Old Man and the Sea",
+    "Hemingway",
+    [],
+    ""
+   ],
+   [
+    "Author of One Hundred Years of Solitude",
+    "Marquez",
+    [
+     "garcia marquez",
+     "gabriel garcia marquez"
+    ],
+    ""
+   ],
+   [
+    "Author of War and Peace",
+    "Tolstoy",
+    [],
+    ""
+   ],
+   [
+    "Author of The Odyssey",
+    "Homer",
+    [],
+    ""
+   ],
+   [
+    "Author of Don Quixote",
+    "Cervantes",
+    [],
+    ""
+   ],
+   [
+    "Author of The Divine Comedy",
+    "Dante",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_norse_myth",
+  "label": "Norse mythology",
+  "cards": [
+   [
+    "Norse god of thunder",
+    "Thor",
+    [],
+    ""
+   ],
+   [
+    "All-father of the Norse gods",
+    "Odin",
+    [],
+    ""
+   ],
+   [
+    "Trickster god of Norse myth",
+    "Loki",
+    [],
+    ""
+   ],
+   [
+    "Norse goddess of love",
+    "Freya",
+    [
+     "freyja"
+    ],
+    ""
+   ],
+   [
+    "The world tree of Norse cosmology",
+    "Yggdrasil",
+    [],
+    ""
+   ],
+   [
+    "Odin's eight-legged horse",
+    "Sleipnir",
+    [],
+    ""
+   ],
+   [
+    "Hall of slain warriors",
+    "Valhalla",
+    [],
+    ""
+   ],
+   [
+    "The Norse end of the world",
+    "Ragnarok",
+    [
+     "ragnarök"
+    ],
+    ""
+   ],
+   [
+    "Thor's hammer",
+    "Mjolnir",
+    [
+     "mjölnir"
+    ],
+    ""
+   ],
+   [
+    "Rainbow bridge to Asgard",
+    "Bifrost",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_space_facts",
+  "label": "Space facts",
+  "cards": [
+   [
+    "The red planet",
+    "Mars",
+    [],
+    ""
+   ],
+   [
+    "Largest planet in the Solar System",
+    "Jupiter",
+    [],
+    ""
+   ],
+   [
+    "Planet famous for its rings",
+    "Saturn",
+    [],
+    ""
+   ],
+   [
+    "Our galaxy",
+    "Milky Way",
+    [
+     "the milky way"
+    ],
+    ""
+   ],
+   [
+    "First human in space",
+    "Gagarin",
+    [
+     "yuri gagarin"
+    ],
+    ""
+   ],
+   [
+    "First person on the Moon",
+    "Armstrong",
+    [
+     "neil armstrong"
+    ],
+    ""
+   ],
+   [
+    "The star nearest to Earth",
+    "Sun",
+    [
+     "the sun"
+    ],
+    ""
+   ],
+   [
+    "Force that keeps planets in orbit",
+    "gravity",
+    [],
+    ""
+   ],
+   [
+    "A star that collapsed into an inescapable point",
+    "black hole",
+    [
+     "a black hole"
+    ],
+    ""
+   ],
+   [
+    "Telescope launched in 1990 that changed astronomy",
+    "Hubble",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_human_body_2",
+  "label": "Human body II",
+  "cards": [
+   [
+    "Organ that pumps blood",
+    "heart",
+    [],
+    ""
+   ],
+   [
+    "Organ that filters blood into urine",
+    "kidney",
+    [
+     "kidneys"
+    ],
+    ""
+   ],
+   [
+    "Largest organ of the body",
+    "skin",
+    [],
+    ""
+   ],
+   [
+    "Bones of the spine are called",
+    "vertebrae",
+    [
+     "vertebra"
+    ],
+    ""
+   ],
+   [
+    "The body’s longest bone",
+    "femur",
+    [],
+    ""
+   ],
+   [
+    "Gas we exhale",
+    "carbon dioxide",
+    [
+     "co2"
+    ],
+    ""
+   ],
+   [
+    "Cells that carry oxygen",
+    "red blood cells",
+    [
+     "erythrocytes"
+    ],
+    ""
+   ],
+   [
+    "Organ where digestion of food mainly begins after chewing",
+    "stomach",
+    [],
+    ""
+   ],
+   [
+    "The windpipe’s medical name",
+    "trachea",
+    [],
+    ""
+   ],
+   [
+    "Number of chambers in the human heart",
+    "4",
+    [
+     "four"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_world_geo_2",
+  "label": "World geography II",
+  "cards": [
+   [
+    "Continent of the Sahara",
+    "Africa",
+    [],
+    ""
+   ],
+   [
+    "Country shaped like a boot",
+    "Italy",
+    [],
+    ""
+   ],
+   [
+    "Strait between Europe and Africa",
+    "Gibraltar",
+    [
+     "strait of gibraltar"
+    ],
+    ""
+   ],
+   [
+    "Canal linking the Mediterranean and Red Sea",
+    "Suez",
+    [
+     "suez canal"
+    ],
+    ""
+   ],
+   [
+    "Canal linking the Atlantic and Pacific",
+    "Panama",
+    [
+     "panama canal"
+    ],
+    ""
+   ],
+   [
+    "Mountain range between Europe and Asia",
+    "Urals",
+    [
+     "ural",
+     "ural mountains"
+    ],
+    ""
+   ],
+   [
+    "The sea with no coastline, bounded by currents",
+    "Sargasso",
+    [
+     "sargasso sea"
+    ],
+    ""
+   ],
+   [
+    "Sea between Croatia and Italy",
+    "Adriatic",
+    [
+     "adriatic sea"
+    ],
+    ""
+   ],
+   [
+    "Desert covering much of Mongolia and northern China",
+    "Gobi",
+    [],
+    ""
+   ],
+   [
+    "The line at 0 degrees longitude",
+    "prime meridian",
+    [
+     "greenwich meridian"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_classical_music",
+  "label": "Classical music",
+  "cards": [
+   [
+    "Composer of the Ninth Symphony with Ode to Joy",
+    "Beethoven",
+    [],
+    ""
+   ],
+   [
+    "Composer of The Magic Flute",
+    "Mozart",
+    [],
+    ""
+   ],
+   [
+    "Composer of The Four Seasons",
+    "Vivaldi",
+    [],
+    ""
+   ],
+   [
+    "Composer of the Brandenburg Concertos",
+    "Bach",
+    [],
+    ""
+   ],
+   [
+    "Composer of Swan Lake and The Nutcracker",
+    "Tchaikovsky",
+    [],
+    ""
+   ],
+   [
+    "Composer of the opera Carmen",
+    "Bizet",
+    [],
+    ""
+   ],
+   [
+    "Composer of The Ride of the Valkyries",
+    "Wagner",
+    [],
+    ""
+   ],
+   [
+    "Polish composer of nocturnes for piano",
+    "Chopin",
+    [],
+    ""
+   ],
+   [
+    "Composer of the Moonlight Sonata",
+    "Beethoven",
+    [],
+    ""
+   ],
+   [
+    "Austrian composer nicknamed the father of the symphony",
+    "Haydn",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_computing",
+  "label": "Computing basics",
+  "cards": [
+   [
+    "Brain of the computer (abbreviation)",
+    "CPU",
+    [],
+    ""
+   ],
+   [
+    "Short-term working memory (abbreviation)",
+    "RAM",
+    [],
+    ""
+   ],
+   [
+    "Language of web page structure",
+    "HTML",
+    [],
+    ""
+   ],
+   [
+    "Binary uses only 0 and...",
+    "1",
+    [
+     "one"
+    ],
+    ""
+   ],
+   [
+    "A program that translates source code all at once",
+    "compiler",
+    [],
+    ""
+   ],
+   [
+    "Repeating a block of code is called a",
+    "loop",
+    [],
+    ""
+   ],
+   [
+    "Data structure: last in, first out",
+    "stack",
+    [],
+    ""
+   ],
+   [
+    "Data structure: first in, first out",
+    "queue",
+    [],
+    ""
+   ],
+   [
+    "Eight bits make a",
+    "byte",
+    [],
+    ""
+   ],
+   [
+    "The father of computer science, of the machine and the test",
+    "Turing",
+    [
+     "alan turing"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_math_facts",
+  "label": "Math facts",
+  "cards": [
+   [
+    "The ratio of a circle’s circumference to its diameter",
+    "pi",
+    [
+     "π"
+    ],
+    "About 3.14159."
+   ],
+   [
+    "A number divisible only by 1 and itself",
+    "prime",
+    [
+     "prime number"
+    ],
+    ""
+   ],
+   [
+    "The only even prime number",
+    "2",
+    [
+     "two"
+    ],
+    ""
+   ],
+   [
+    "A triangle with all sides equal",
+    "equilateral",
+    [],
+    ""
+   ],
+   [
+    "The longest side of a right triangle",
+    "hypotenuse",
+    [],
+    ""
+   ],
+   [
+    "7 factorial equals",
+    "5040",
+    [],
+    ""
+   ],
+   [
+    "The square root of 144",
+    "12",
+    [],
+    ""
+   ],
+   [
+    "Angles of a triangle sum to (degrees)",
+    "180",
+    [],
+    ""
+   ],
+   [
+    "A polygon with eight sides",
+    "octagon",
+    [],
+    ""
+   ],
+   [
+    "The number e is approximately",
+    "2.718",
+    [
+     "2.72",
+     "2.7"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_econ_basics",
+  "label": "Economics basics",
+  "cards": [
+   [
+    "General rise of prices over time",
+    "inflation",
+    [],
+    ""
+   ],
+   [
+    "Total value of goods and services produced (abbrev.)",
+    "GDP",
+    [],
+    ""
+   ],
+   [
+    "Market with a single seller",
+    "monopoly",
+    [],
+    ""
+   ],
+   [
+    "Two consecutive quarters of shrinking GDP is called a",
+    "recession",
+    [],
+    ""
+   ],
+   [
+    "Money paid to shareholders from profits",
+    "dividend",
+    [],
+    ""
+   ],
+   [
+    "A tax on imports",
+    "tariff",
+    [],
+    ""
+   ],
+   [
+    "When demand exceeds supply, prices tend to",
+    "rise",
+    [
+     "increase",
+     "go up"
+    ],
+    ""
+   ],
+   [
+    "The study of individual markets and actors",
+    "microeconomics",
+    [],
+    ""
+   ],
+   [
+    "Ownership share in a company",
+    "stock",
+    [
+     "share",
+     "equity"
+    ],
+    ""
+   ],
+   [
+    "Government spending exceeding revenue creates a",
+    "deficit",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_psych_basics",
+  "label": "Psychology basics",
+  "cards": [
+   [
+    "Pavlov’s dogs demonstrated ______ conditioning",
+    "classical",
+    [],
+    ""
+   ],
+   [
+    "Learning through rewards and punishments",
+    "operant conditioning",
+    [
+     "operant"
+    ],
+    ""
+   ],
+   [
+    "Memory system you are using right now for this sentence",
+    "working memory",
+    [
+     "short term memory"
+    ],
+    ""
+   ],
+   [
+    "A mental shortcut in judgment",
+    "heuristic",
+    [],
+    ""
+   ],
+   [
+    "Systematic error in thinking",
+    "bias",
+    [
+     "cognitive bias"
+    ],
+    ""
+   ],
+   [
+    "The tendency to seek confirming evidence",
+    "confirmation bias",
+    [],
+    ""
+   ],
+   [
+    "Improved performance from others watching",
+    "social facilitation",
+    [],
+    ""
+   ],
+   [
+    "The brain’s ability to rewire itself",
+    "neuroplasticity",
+    [
+     "plasticity"
+    ],
+    ""
+   ],
+   [
+    "Attributed founder of psychoanalysis",
+    "Freud",
+    [
+     "sigmund freud"
+    ],
+    ""
+   ],
+   [
+    "The forgetting curve was mapped by",
+    "Ebbinghaus",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_food_world",
+  "label": "Food of the world",
+  "cards": [
+   [
+    "Country of origin of sushi",
+    "Japan",
+    [],
+    ""
+   ],
+   [
+    "Country of origin of paella",
+    "Spain",
+    [],
+    ""
+   ],
+   [
+    "Country of origin of croissants (popularized)",
+    "France",
+    [
+     "austria"
+    ],
+    "Born in Vienna, perfected in Paris."
+   ],
+   [
+    "Country of origin of goulash",
+    "Hungary",
+    [],
+    ""
+   ],
+   [
+    "Country of origin of moussaka",
+    "Greece",
+    [],
+    ""
+   ],
+   [
+    "The raw fish dish of Peru cured in citrus",
+    "ceviche",
+    [],
+    ""
+   ],
+   [
+    "Italian rice dish stirred with broth",
+    "risotto",
+    [],
+    ""
+   ],
+   [
+    "Japanese soup with fermented soybean paste",
+    "miso",
+    [
+     "miso soup"
+    ],
+    ""
+   ],
+   [
+    "Flatbread that is the base of Mexican tacos",
+    "tortilla",
+    [],
+    ""
+   ],
+   [
+    "The Croatian coastal fish stew",
+    "brudet",
+    [
+     "brodet",
+     "brodetto"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_sports_facts",
+  "label": "Sports facts",
+  "cards": [
+   [
+    "Number of players on a soccer team on the field",
+    "11",
+    [
+     "eleven"
+    ],
+    ""
+   ],
+   [
+    "Sport with a shuttlecock",
+    "badminton",
+    [],
+    ""
+   ],
+   [
+    "Number of rings on the Olympic flag",
+    "5",
+    [
+     "five"
+    ],
+    ""
+   ],
+   [
+    "Country hosting the first modern Olympics (1896)",
+    "Greece",
+    [],
+    ""
+   ],
+   [
+    "Grand Slam tennis event on grass",
+    "Wimbledon",
+    [],
+    ""
+   ],
+   [
+    "Sport of the Tour de France",
+    "cycling",
+    [],
+    ""
+   ],
+   [
+    "A perfect game in bowling scores",
+    "300",
+    [],
+    ""
+   ],
+   [
+    "Chess piece that moves in an L",
+    "knight",
+    [],
+    ""
+   ],
+   [
+    "The marathon distance in kilometers (approx.)",
+    "42",
+    [
+     "42.2",
+     "42.195"
+    ],
+    ""
+   ],
+   [
+    "Sport played at Wimbledon",
+    "tennis",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_inventions_when",
+  "label": "Inventions and their era",
+  "cards": [
+   [
+    "Century of the printing press",
+    "15th",
+    [
+     "fifteenth",
+     "1400s"
+    ],
+    ""
+   ],
+   [
+    "Century of the steam locomotive",
+    "19th",
+    [
+     "nineteenth",
+     "1800s"
+    ],
+    ""
+   ],
+   [
+    "Decade the World Wide Web was invented",
+    "1980s",
+    [
+     "1989"
+    ],
+    "Proposed 1989 at CERN."
+   ],
+   [
+    "Decade of the first Moon landing",
+    "1960s",
+    [
+     "1969"
+    ],
+    ""
+   ],
+   [
+    "Century of the telephone",
+    "19th",
+    [
+     "nineteenth",
+     "1800s"
+    ],
+    ""
+   ],
+   [
+    "Decade the first iPhone launched",
+    "2000s",
+    [
+     "2007"
+    ],
+    ""
+   ],
+   [
+    "Century of the first powered flight",
+    "20th",
+    [
+     "twentieth",
+     "1900s"
+    ],
+    "1903, Kitty Hawk."
+   ],
+   [
+    "Decade television broadcasting began (regular)",
+    "1930s",
+    [],
+    ""
+   ],
+   [
+    "Century of the compass reaching Europe",
+    "12th",
+    [
+     "twelfth",
+     "1100s"
+    ],
+    ""
+   ],
+   [
+    "Decade of the first vaccine (smallpox)",
+    "1790s",
+    [
+     "1796"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_croatia",
+  "label": "Croatia",
+  "cards": [
+   [
+    "Capital of Croatia",
+    "Zagreb",
+    [],
+    ""
+   ],
+   [
+    "Croatian coastal city with Diocletian’s Palace",
+    "Split",
+    [],
+    ""
+   ],
+   [
+    "Walled city called the Pearl of the Adriatic",
+    "Dubrovnik",
+    [],
+    ""
+   ],
+   [
+    "Croatian national park of cascading lakes",
+    "Plitvice",
+    [
+     "plitvice lakes"
+    ],
+    ""
+   ],
+   [
+    "The Croatian currency before the euro",
+    "kuna",
+    [],
+    ""
+   ],
+   [
+    "Inventor born in Smiljan, Croatia",
+    "Tesla",
+    [
+     "nikola tesla"
+    ],
+    ""
+   ],
+   [
+    "The necktie originates from Croatian soldiers as the",
+    "cravat",
+    [
+     "kravata"
+    ],
+    ""
+   ],
+   [
+    "Croatia’s largest peninsula",
+    "Istria",
+    [],
+    ""
+   ],
+   [
+    "The sea along Croatia’s coast",
+    "Adriatic",
+    [
+     "adriatic sea"
+    ],
+    ""
+   ],
+   [
+    "Croatian island famous for lavender",
+    "Hvar",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_latin_roots",
+  "label": "Latin and Greek roots",
+  "cards": [
+   [
+    "Root \"aqua\" means",
+    "water",
+    [],
+    ""
+   ],
+   [
+    "Root \"bio\" means",
+    "life",
+    [],
+    ""
+   ],
+   [
+    "Root \"chrono\" means",
+    "time",
+    [],
+    ""
+   ],
+   [
+    "Root \"geo\" means",
+    "earth",
+    [],
+    ""
+   ],
+   [
+    "Root \"tele\" means",
+    "far",
+    [
+     "distant",
+     "far away"
+    ],
+    ""
+   ],
+   [
+    "Root \"photo\" means",
+    "light",
+    [],
+    ""
+   ],
+   [
+    "Root \"audi\" means",
+    "hear",
+    [
+     "hearing",
+     "sound"
+    ],
+    ""
+   ],
+   [
+    "Root \"scrib/script\" means",
+    "write",
+    [
+     "writing"
+    ],
+    ""
+   ],
+   [
+    "Root \"psych\" means",
+    "mind",
+    [
+     "soul"
+    ],
+    ""
+   ],
+   [
+    "Root \"omni\" means",
+    "all",
+    [
+     "every"
+    ],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_flags_emblems",
+  "label": "Flags and emblems",
+  "cards": [
+   [
+    "Country with a maple leaf on its flag",
+    "Canada",
+    [],
+    ""
+   ],
+   [
+    "Country with a red circle on white",
+    "Japan",
+    [],
+    ""
+   ],
+   [
+    "Country whose flag is called the Union Jack",
+    "United Kingdom",
+    [
+     "uk",
+     "britain",
+     "great britain"
+    ],
+    ""
+   ],
+   [
+    "Country with a red-and-white checkerboard on its coat of arms",
+    "Croatia",
+    [],
+    ""
+   ],
+   [
+    "Country with a cedar tree on its flag",
+    "Lebanon",
+    [],
+    ""
+   ],
+   [
+    "The only non-rectangular national flag belongs to",
+    "Nepal",
+    [],
+    ""
+   ],
+   [
+    "Country with a dragon on its flag",
+    "Bhutan",
+    [],
+    ""
+   ],
+   [
+    "Stars on the flag of the United States",
+    "50",
+    [
+     "fifty"
+    ],
+    ""
+   ],
+   [
+    "Colors of the German flag (top to bottom)",
+    "black red gold",
+    [
+     "black, red, gold",
+     "black red yellow"
+    ],
+    ""
+   ],
+   [
+    "Country with the Southern Cross and Union Jack, capital Canberra",
+    "Australia",
+    [],
+    ""
+   ]
+  ]
+ },
+ {
+  "deck": "quiz_units_measures",
+  "label": "Units and measures",
+  "cards": [
+   [
+    "Unit of electric current",
+    "ampere",
+    [
+     "amp"
+    ],
+    ""
+   ],
+   [
+    "Unit of force",
+    "newton",
+    [],
+    ""
+   ],
+   [
+    "Unit of energy",
+    "joule",
+    [],
+    ""
+   ],
+   [
+    "Unit of power",
+    "watt",
+    [],
+    ""
+   ],
+   [
+    "Unit of frequency",
+    "hertz",
+    [],
+    ""
+   ],
+   [
+    "Unit of pressure",
+    "pascal",
+    [],
+    ""
+   ],
+   [
+    "1000 meters is a",
+    "kilometer",
+    [
+     "kilometre",
+     "km"
+    ],
+    ""
+   ],
+   [
+    "Temperature scale where water freezes at 0",
+    "Celsius",
+    [
+     "centigrade"
+    ],
+    ""
+   ],
+   [
+    "Unit of resistance",
+    "ohm",
+    [],
+    ""
+   ],
+   [
+    "One nautical mile per hour",
+    "knot",
+    [],
+    ""
+   ]
+  ]
  }
 ]
